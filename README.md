@@ -17,12 +17,65 @@
 
 # data-source
 
-Publicações oficiais da NF-e e da NFS-e sempre atualizadas e estruturadas, entregues em dois formatos:
+Publicações oficiais da **NF-e** (portal SEFAZ) e da **NFS-e** (ADN nacional gov.br) sempre atualizadas e organizadas. Nunca mais entra num portal fiscal pra ver se saiu XSD novo, MOC novo, Nota Técnica nova, anexo novo. A gente monitora, baixa, versiona e avisa.
 
-- **Newsletter** — feed Atom pronto pra assinar no leitor de RSS ou plugar num serviço de e-mail (Mailchimp, Buttondown, Kill the Newsletter).
-- **Manifest JSON** — sitemap público pra sua aplicação consumir direto.
+## Como funciona
 
-Toda vez que a SEFAZ ou o ADN publica algo novo, aparece nos dois canais. Sem clicar em portal, sem checar página, sem se lembrar de nada.
+A cada **6 horas**, um robô varre os portais oficiais, identifica o que é novidade em relação à última passagem, baixa os arquivos, descompacta os ZIPs, e organiza tudo por data de publicação. Cada documento fica numa pasta própria com título completo, data e todos os arquivos que compõem o pacote.
+
+Duas coisas são publicadas todo ciclo:
+
+- Um **feed Atom (XML)** — a lista das últimas publicações, no mesmo formato usado por blogs e sites de notícia. Leitores de RSS entendem, serviços de e-mail marketing entendem, integrações via webhook entendem.
+- Um **manifest JSON** — um catálogo estruturado com título, descrição, data de publicação, seção (Guia / Manual / XSD / Anexo etc), link do arquivo original no portal e link direto pro arquivo já espelhado aqui.
+
+Nada muda quando não há novidade: o feed e o manifest continuam válidos, só sem entrada nova. Quando muda, aparece em ambos no mesmo minuto.
+
+## Como se inscrever
+
+### Newsletter (feed Atom)
+
+Cola a URL do feed em qualquer leitor de RSS/Atom — Feedly, Inoreader, NetNewsWire, Slack, Discord, Notion. Novidade nova = notificação nova.
+
+- Todas as fontes: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml`
+- Só NF-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/feed.xml`
+- Só NFS-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/feed.xml`
+
+**Newsletter por e-mail:** apontar Mailchimp, Buttondown ou Kill the Newsletter pra qualquer uma das URLs acima. Cada publicação nova vira e-mail automático pra sua lista, sem trabalho manual.
+
+### Manifest JSON (integração via código)
+
+Sua aplicação consome o manifest diretamente e reage a mudanças. Recomendado consultar de hora em hora e comparar `generated_at` com a última leitura.
+
+- Sitemap geral: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/manifest.json`
+- Detalhe NF-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manifest.json`
+- Detalhe NFS-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/manifest.json`
+- Histórico completo por fonte: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/history.json`
+
+## O que você recebe
+
+Cada item aparece com estrutura completa em ambos os canais:
+
+- **Título** — nome oficial do documento como publicado.
+- **Descrição** — versão limpa do título, sem sufixos de data ou formato.
+- **Data de publicação** — normalizada em `YYYY-MM-DD`, extraída da própria fonte oficial.
+- **Seção** — Guia, Manual, Esquema XSD, Anexo, Nota Técnica etc.
+- **URL original** — link direto pro portal SEFAZ ou ADN.
+- **Arquivos** — PDF, ZIP, XSD, XML, XLSX espelhados aqui, mais o conteúdo já descompactado quando é ZIP.
+
+## Fontes cobertas
+
+| Fonte | O que traz | Formatos |
+|---|---|---|
+| **NF-e** (portal SEFAZ homologação) | Pacotes de Liberação, MOC, Notas Técnicas, eventos, cartas de correção | PDF, ZIP, XSD, XML |
+| **NFS-e** (ADN nacional gov.br) | Guias, manuais, esquemas XSD, anexos de domínio e layout | PDF, ZIP, XSD, XLSX |
+
+Outras fontes (NFC-e, DF-e, projetos estaduais) entram sob demanda.
+
+## Por que existe
+
+Todo integrador fiscal brasileiro repete o mesmo trabalho: monitorar dois portais, baixar zip, descompactar, comparar, guardar, avisar o time. Manualmente. Todo mês, todo trimestre, toda Nota Técnica.
+
+Isso não é diferencial de produto. É custo compartilhado que ninguém precisa pagar duas vezes. O `data-source` resolve uma vez pra todo mundo, em código aberto.
 
 Feito pela [Stackin](https://stackin.io).
 
