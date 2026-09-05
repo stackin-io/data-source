@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Annotated
+from typing import Optional
 
 import typer
 
@@ -17,13 +17,10 @@ log = get_logger("cli")
 
 @app.command()
 def scrape(
-    name: Annotated[str, typer.Argument(help="Scraper id (e.g. nfe, nfse)")],
-    out: Annotated[Path | None, typer.Option("--out", help="Output dir")] = None,
-    headless: Annotated[bool, typer.Option(help="Run browser headless (use --no-headless to see it)")] = True,
-    force: Annotated[
-        bool,
-        typer.Option("--force", help="Re-download items even if the target folder already has files"),
-    ] = False,
+    name: str = typer.Argument(..., help="Scraper id (e.g. nfe, nfse)"),
+    out: Optional[Path] = typer.Option(None, "--out", help="Output dir"),
+    headless: bool = typer.Option(True, "--headless/--no-headless", help="Run browser headless"),
+    force: bool = typer.Option(False, "--force", help="Re-download items even if target folder has files"),
 ) -> None:
     """Run a registered scraper end-to-end. Skips items whose folder already has files (use --force to override)."""
     settings = get_settings()
