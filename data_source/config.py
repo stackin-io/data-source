@@ -20,6 +20,11 @@ class Settings(BaseSettings):
     user_agent: str = Field(
         default="Mozilla/5.0 (compatible; StackinDataSource/0.1; +https://stackin.io)"
     )
+    public_base_url: str = Field(
+        default="https://raw.githubusercontent.com/stackin-io/data-source/master/data",
+        description="Base URL where the scraped data folder is publicly served. Used to "
+        "render sitemap-style URLs in manifest.json so downstream consumers can fetch files.",
+    )
 
 
 def get_settings() -> Settings:

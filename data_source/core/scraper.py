@@ -1,8 +1,11 @@
 from __future__ import annotations
 
+import json
 from abc import ABC, abstractmethod
 from collections.abc import Iterable
-from dataclasses import dataclass, field
+from dataclasses import asdict, dataclass, field
+from datetime import UTC, datetime
+from pathlib import Path
 
 from data_source.config import Settings, get_settings
 from data_source.core.browser import Browser
@@ -35,6 +38,24 @@ class Artifact:
 
 
 @dataclass
+class ItemRecord:
+    """A row in the manifest.json — one per discovered item. Both local paths and
+    public URLs are recorded so the manifest doubles as a sitemap."""
+
+    slug: str
+    title: str
+    description: str
+    published_at: str
+    source_url: str
+    folder: str
+    folder_url: str = ""
+    files: list[str] = field(default_factory=list)
+    file_urls: list[str] = field(default_factory=list)
+    downloaded_at: str = ""
+    status: str = "pending"
+
+
+@dataclass
 class ScrapeResult:
     context: str
     discovered: int = 0
@@ -42,6 +63,7 @@ class ScrapeResult:
     skipped: int = 0
     failed: int = 0
     paths: list[str] = field(default_factory=list)
+    items: list[ItemRecord] = field(default_factory=list)
 
 
 class BaseScraper(ABC):
@@ -100,6 +122,7 @@ class BaseScraper(ABC):
         return ""
 
     def run(self, *, force: bool = False) -> ScrapeResult:
+        started_at = datetime.now(tz=UTC)
         result = ScrapeResult(context=self.context)
         self._log.info("scrape.start", context=self.context, force=force)
         with self._browser, self._downloader:
@@ -110,20 +133,28 @@ class BaseScraper(ABC):
                 raise
             result.discovered = len(items)
             for item in items:
-                if not force:
-                    sub = self.subpath_for(item)
-                    if sub:
-                        probe = f"{self.context}/{sub.strip('/')}"
-                        if self._storage.has_files(probe):
-                            result.skipped += 1
-                            self._log.info("scrape.skip_existing", url=item.url, subpath=sub)
-                            continue
+                record = self._new_record(item)
+                sub = self.subpath_for(item)
+                if not force and sub:
+                    probe = f"{self.context}/{sub.strip('/')}"
+                    if self._storage.has_files(probe):
+                        result.skipped += 1
+                        record.status = "skipped"
+                        record.files = self._list_existing_files(probe)
+                        result.items.append(record)
+                        self._log.info("scrape.skip_existing", url=item.url, subpath=sub)
+                        continue
                 try:
                     artifacts = list(self.extract(item))
                 except Exception as exc:
                     result.failed += 1
+                    record.status = "failed"
+                    result.items.append(record)
                     self.on_item_error(item, exc)
                     continue
+                item_files: list[str] = []
+                item_folder: str = ""
+                item_ok = True
                 for art in artifacts:
                     try:
                         target_context = self.context
@@ -132,16 +163,27 @@ class BaseScraper(ABC):
                         path = self._storage.write_bytes(target_context, art.filename, art.data)
                         result.persisted += 1
                         result.paths.append(path)
+                        item_files.append(path)
+                        item_folder = str(Path(path).parent)
                         extracted = maybe_unpack_zip(path, logger=self._log)
                         if extracted:
                             result.paths.extend(extracted)
+                            item_files.extend(extracted)
                     except Exception as exc:
                         result.failed += 1
+                        item_ok = False
                         self._log.warning(
                             "scrape.persist_failed",
                             filename=art.filename,
                             error=str(exc),
                         )
+                record.files = item_files
+                record.folder = item_folder
+                record.downloaded_at = datetime.now(tz=UTC).isoformat(timespec="seconds")
+                record.status = "ok" if item_ok else "partial"
+                result.items.append(record)
+        finished_at = datetime.now(tz=UTC)
+        self._write_manifest(result, started_at=started_at, finished_at=finished_at)
         self._log.info(
             "scrape.done",
             context=self.context,
@@ -157,6 +199,132 @@ class BaseScraper(ABC):
             yield from self.discover()
         except Exception as exc:
             raise DiscoveryError(str(exc)) from exc
+
+    def _new_record(self, item: ScrapeItem) -> ItemRecord:
+        title = item.metadata.get("title", "")
+        return ItemRecord(
+            slug=self.subpath_for(item),
+            title=title,
+            description=item.metadata.get("description", title),
+            published_at=item.metadata.get("published_at", ""),
+            source_url=item.url,
+            folder="",
+        )
+
+    def _list_existing_files(self, context: str) -> list[str]:
+        settings_root = Path(self._settings.output_dir)
+        folder = settings_root / context
+        if not folder.exists():
+            return []
+        return sorted(str(p) for p in folder.rglob("*") if p.is_file() and p.name != ".gitkeep")
+
+    def _write_manifest(
+        self,
+        result: ScrapeResult,
+        *,
+        started_at: datetime,
+        finished_at: datetime,
+    ) -> None:
+        base_url = self._settings.public_base_url.rstrip("/")
+        for r in result.items:
+            r.file_urls = [self._to_public_url(base_url, p) for p in r.files]
+            r.folder_url = self._to_public_url(base_url, r.folder) if r.folder else ""
+
+        manifest = {
+            "context": result.context,
+            "public_base_url": f"{base_url}/{result.context}",
+            "generated_at": finished_at.isoformat(timespec="seconds"),
+            "started_at": started_at.isoformat(timespec="seconds"),
+            "duration_s": round((finished_at - started_at).total_seconds(), 2),
+            "totals": {
+                "discovered": result.discovered,
+                "persisted": result.persisted,
+                "skipped": result.skipped,
+                "failed": result.failed,
+            },
+            "items": [asdict(r) for r in result.items],
+        }
+        try:
+            self._storage.write_text(
+                result.context,
+                "manifest.json",
+                json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
+            )
+        except Exception as exc:
+            self._log.warning("manifest.write_failed", error=str(exc))
+            return
+
+        history_context = result.context
+        history_root = Path(self._settings.output_dir) / history_context
+        history_path = history_root / "history.json"
+        entry = {
+            "started_at": manifest["started_at"],
+            "generated_at": manifest["generated_at"],
+            "duration_s": manifest["duration_s"],
+            "totals": manifest["totals"],
+        }
+        history: list[dict] = []
+        if history_path.exists():
+            try:
+                with history_path.open(encoding="utf-8") as fh:
+                    history = json.load(fh)
+                    if not isinstance(history, list):
+                        history = []
+            except (OSError, json.JSONDecodeError):
+                history = []
+        history.append(entry)
+        try:
+            self._storage.write_text(
+                history_context,
+                "history.json",
+                json.dumps(history, ensure_ascii=False, indent=2) + "\n",
+            )
+        except Exception as exc:
+            self._log.warning("history.write_failed", error=str(exc))
+
+        self._write_root_sitemap(base_url, generated_at=manifest["generated_at"])
+
+    def _to_public_url(self, base_url: str, local_path: str) -> str:
+        try:
+            rel = Path(local_path).resolve().relative_to(Path(self._settings.output_dir).resolve())
+        except ValueError:
+            return ""
+        return f"{base_url}/{rel.as_posix()}"
+
+    def _write_root_sitemap(self, base_url: str, *, generated_at: str) -> None:
+        """Aggregate every context's manifest under `data/manifest.json` — the
+        top-level sitemap consumers can hit to discover which datasets exist."""
+        root = Path(self._settings.output_dir)
+        entries: list[dict] = []
+        for ctx_dir in sorted(p for p in root.iterdir() if p.is_dir()):
+            m = ctx_dir / "manifest.json"
+            if not m.exists():
+                continue
+            try:
+                with m.open(encoding="utf-8") as fh:
+                    data = json.load(fh)
+            except (OSError, json.JSONDecodeError):
+                continue
+            entries.append(
+                {
+                    "context": data.get("context", ctx_dir.name),
+                    "manifest_url": f"{base_url}/{ctx_dir.name}/manifest.json",
+                    "generated_at": data.get("generated_at", ""),
+                    "totals": data.get("totals", {}),
+                }
+            )
+        root_manifest = {
+            "generated_at": generated_at,
+            "public_base_url": base_url,
+            "contexts": entries,
+        }
+        try:
+            (root / "manifest.json").write_text(
+                json.dumps(root_manifest, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+        except OSError as exc:
+            self._log.warning("root_manifest.write_failed", error=str(exc))
 
     def download(self, url: str) -> bytes:
         """Convenience: use the shared Downloader (retry+backoff)."""

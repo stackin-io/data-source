@@ -42,6 +42,7 @@ class NFeScraper(BaseScraper):
                         kind="download",
                         metadata={
                             "title": title,
+                            "description": _clean_description(title),
                             "source": rel,
                             "published_at": date_iso or "",
                         },
@@ -73,6 +74,14 @@ def _link_title(anchor) -> str:  # type: ignore[no-untyped-def]
     span = anchor.find("span", class_="tituloConteudo")
     text = (span.get_text(" ", strip=True) if span else anchor.get_text(" ", strip=True)) or ""
     return " ".join(text.split())
+
+
+def _clean_description(title: str) -> str:
+    """Trim trailing date/format tags from the raw title for a friendlier description."""
+    cleaned = re.sub(r"\.?\s*Publicado em\s*\d{2}/\d{2}/\d{2,4}.*$", "", title, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\(\s*\d{2}/\d{2}/\d{2,4}\s*\).*$", "", cleaned)
+    cleaned = re.sub(r"\s*\(ZIP\)\s*$", "", cleaned, flags=re.IGNORECASE)
+    return cleaned.strip(" -.")
 
 
 def _extract_iso_date(text: str) -> str | None:
