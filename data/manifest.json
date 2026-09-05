@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-09-05T18:31:21+00:00",
+  "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data",
+  "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml",
+  "contexts": [
+    {
+      "context": "nfe/diversos",
+      "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/manifest.json",
+      "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/feed.xml",
+      "generated_at": "2026-09-05T18:31:21+00:00",
+      "totals": {
+        "discovered": 64,
+        "persisted": 64,
+        "skipped": 0,
+        "failed": 0
+      }
+    },
+    {
+      "context": "nfe/esquemas-xml",
+      "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/manifest.json",
+      "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/feed.xml",
+      "generated_at": "2026-09-05T18:27:20+00:00",
+      "totals": {
+        "discovered": 105,
+        "persisted": 94,
+        "skipped": 11,
+        "failed": 0
+      }
+    },
+    {
+      "context": "nfe/informes-tecnicos",
+      "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/manifest.json",
+      "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/feed.xml",
+      "generated_at": "2026-09-05T18:30:28+00:00",
+      "totals": {
+        "discovered": 42,
+        "persisted": 42,
+        "skipped": 0,
+        "failed": 0
+      }
+    },
+    {
+      "context": "nfe/notas-tecnicas",
+      "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/manifest.json",
+      "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/feed.xml",
+      "generated_at": "2026-09-05T18:29:51+00:00",
+      "totals": {
+        "discovered": 193,
+        "persisted": 193,
+        "skipped": 0,
+        "failed": 0
+      }
+    }
+  ]
+}

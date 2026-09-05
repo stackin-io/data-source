@@ -1,0 +1,1103 @@
+{
+  "context": "nfe/diversos",
+  "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos",
+  "generated_at": "2026-09-05T18:31:21+00:00",
+  "started_at": "2026-09-05T18:30:30+00:00",
+  "duration_s": 51.07,
+  "totals": {
+    "discovered": 64,
+    "persisted": 64,
+    "skipped": 0,
+    "failed": 0
+  },
+  "items": [
+    {
+      "slug": "2026-06-23_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-23062026",
+      "title": "Tabela de Classificação Tributária do IBS e CBS - Publicada em 23/06/2026",
+      "description": "Tabela de Classificação Tributária do IBS e CBS",
+      "published_at": "2026-06-23",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=YmYqYBW8gGQ=",
+      "folder": "data/nfe/diversos/2026-06-23_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-23062026",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-06-23_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-23062026",
+      "files": [
+        "data/nfe/diversos/2026-06-23_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-23062026/cClassTrib 2026-06-22.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-06-23_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-23062026/cClassTrib 2026-06-22.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:34+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-06-23_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-23062026",
+      "title": "Tabela de Código de Crédito Presumido do IBS e CBS - Publicada em 23/06/2026",
+      "description": "Tabela de Código de Crédito Presumido do IBS e CBS",
+      "published_at": "2026-06-23",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=k/IuuaW4YiY=",
+      "folder": "data/nfe/diversos/2026-06-23_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-23062026",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-06-23_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-23062026",
+      "files": [
+        "data/nfe/diversos/2026-06-23_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-23062026/cCredPres_2026-06-22.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-06-23_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-23062026/cCredPres_2026-06-22.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:34+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-05-12_tabela-de-aliquotas-da-cbs-publicada-em-12052026",
+      "title": "Tabela de Alíquotas da CBS - Publicada em 12/05/2026",
+      "description": "Tabela de Alíquotas da CBS",
+      "published_at": "2026-05-12",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=7tym/OiWNFM=",
+      "folder": "data/nfe/diversos/2026-05-12_tabela-de-aliquotas-da-cbs-publicada-em-12052026",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-05-12_tabela-de-aliquotas-da-cbs-publicada-em-12052026",
+      "files": [
+        "data/nfe/diversos/2026-05-12_tabela-de-aliquotas-da-cbs-publicada-em-12052026/IT 2026.002 v.1.00 - Aliquotas da CBS.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-05-12_tabela-de-aliquotas-da-cbs-publicada-em-12052026/IT 2026.002 v.1.00 - Aliquotas da CBS.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:35+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-04-24_tabela-de-codigo-de-indice-de-biocombustivel-do-ibs-e-cbs-publicada-em-24042026",
+      "title": "Tabela de Código de Índice de Biocombustível do IBS e CBS - Publicada em 24/04/2026",
+      "description": "Tabela de Código de Índice de Biocombustível do IBS e CBS",
+      "published_at": "2026-04-24",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=1V95/H23bvA=",
+      "folder": "data/nfe/diversos/2026-04-24_tabela-de-codigo-de-indice-de-biocombustivel-do-ibs-e-cbs-publicada-em-24042026",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-04-24_tabela-de-codigo-de-indice-de-biocombustivel-do-ibs-e-cbs-publicada-em-24042026",
+      "files": [
+        "data/nfe/diversos/2026-04-24_tabela-de-codigo-de-indice-de-biocombustivel-do-ibs-e-cbs-publicada-em-24042026/tbIndiceMisturaBioCombustivel_20260424.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-04-24_tabela-de-codigo-de-indice-de-biocombustivel-do-ibs-e-cbs-publicada-em-24042026/tbIndiceMisturaBioCombustivel_20260424.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:36+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-04-15_tabela-de-codigo-de-classificacao-tributaria-do-ibscbs-publicada-em-15042026",
+      "title": "Tabela de Código de Classificação Tributária do IBS/CBS - Publicada em 15/04/2026",
+      "description": "Tabela de Código de Classificação Tributária do IBS/CBS",
+      "published_at": "2026-04-15",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=wuVuolIzJLs=",
+      "folder": "data/nfe/diversos/2026-04-15_tabela-de-codigo-de-classificacao-tributaria-do-ibscbs-publicada-em-15042026",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-04-15_tabela-de-codigo-de-classificacao-tributaria-do-ibscbs-publicada-em-15042026",
+      "files": [
+        "data/nfe/diversos/2026-04-15_tabela-de-codigo-de-classificacao-tributaria-do-ibscbs-publicada-em-15042026/cClassTrib 2026_04_15.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-04-15_tabela-de-codigo-de-classificacao-tributaria-do-ibscbs-publicada-em-15042026/cClassTrib 2026_04_15.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:36+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-03-06_tabela-de-meios-de-pagamento-publicada-em-06032026",
+      "title": "Tabela de Meios de pagamento - Publicada em 06/03/2026",
+      "description": "Tabela de Meios de pagamento",
+      "published_at": "2026-03-06",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=kyIo/HqJ3n0=",
+      "folder": "data/nfe/diversos/2026-03-06_tabela-de-meios-de-pagamento-publicada-em-06032026",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-03-06_tabela-de-meios-de-pagamento-publicada-em-06032026",
+      "files": [
+        "data/nfe/diversos/2026-03-06_tabela-de-meios-de-pagamento-publicada-em-06032026/Tabela_de_meios_de_pagamento - 04032026.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-03-06_tabela-de-meios-de-pagamento-publicada-em-06032026/Tabela_de_meios_de_pagamento - 04032026.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:37+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-02-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-01022026-publicada-em-24112025",
+      "title": "Tabela de NCM e respectiva uTrib (Comércio Exterior) - Vigente a partir de 01/02/2026 - Publicada em 24/11/2025",
+      "description": "Tabela de NCM e respectiva uTrib (Comércio Exterior) - Vigente a partir de 01/02/2026",
+      "published_at": "2026-02-01",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=2DuboicICSo=",
+      "folder": "data/nfe/diversos/2026-02-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-01022026-publicada-em-24112025",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-02-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-01022026-publicada-em-24112025",
+      "files": [
+        "data/nfe/diversos/2026-02-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-01022026-publicada-em-24112025/Tabela NCM 2022 com Utrib_ComÃ©rcio Exterior_vigÃªncia 01.02.26.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-02-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-01022026-publicada-em-24112025/Tabela NCM 2022 com Utrib_ComÃ©rcio Exterior_vigÃªncia 01.02.26.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:38+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-01-28_tabela-de-codigo-de-classificacao-tributaria-do-ibscbs-publicada-em-28012026",
+      "title": "Tabela de Código de Classificação Tributária do IBS/CBS - Publicada em 28/01/2026",
+      "description": "Tabela de Código de Classificação Tributária do IBS/CBS",
+      "published_at": "2026-01-28",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=0dFnIJz3wpY=",
+      "folder": "data/nfe/diversos/2026-01-28_tabela-de-codigo-de-classificacao-tributaria-do-ibscbs-publicada-em-28012026",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-01-28_tabela-de-codigo-de-classificacao-tributaria-do-ibscbs-publicada-em-28012026",
+      "files": [
+        "data/nfe/diversos/2026-01-28_tabela-de-codigo-de-classificacao-tributaria-do-ibscbs-publicada-em-28012026/cClassTrib 2026-01-23_Public.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-01-28_tabela-de-codigo-de-classificacao-tributaria-do-ibscbs-publicada-em-28012026/cClassTrib 2026-01-23_Public.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:39+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-12-15_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-15122025",
+      "title": "Tabela de Código de Crédito Presumido do IBS e CBS - Publicada em 15/12/2025",
+      "description": "Tabela de Código de Crédito Presumido do IBS e CBS",
+      "published_at": "2025-12-15",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=/CZGVCligI8=",
+      "folder": "data/nfe/diversos/2025-12-15_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-15122025",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-12-15_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-15122025",
+      "files": [
+        "data/nfe/diversos/2025-12-15_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-15122025/cCredPres_2025-12-12Public.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-12-15_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-15122025/cCredPres_2025-12-12Public.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:39+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-12-15_tabela-de-codigo-de-classificacao-tributaria-do-ibscbs-publicada-em-15122025",
+      "title": "Tabela de Código de Classificação Tributária do IBS/CBS - Publicada em 15/12/2025",
+      "description": "Tabela de Código de Classificação Tributária do IBS/CBS",
+      "published_at": "2025-12-15",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=qvyq5vuft74=",
+      "folder": "data/nfe/diversos/2025-12-15_tabela-de-codigo-de-classificacao-tributaria-do-ibscbs-publicada-em-15122025",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-12-15_tabela-de-codigo-de-classificacao-tributaria-do-ibscbs-publicada-em-15122025",
+      "files": [
+        "data/nfe/diversos/2025-12-15_tabela-de-codigo-de-classificacao-tributaria-do-ibscbs-publicada-em-15122025/cClassTrib 2025-12-12.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-12-15_tabela-de-codigo-de-classificacao-tributaria-do-ibscbs-publicada-em-15122025/cClassTrib 2025-12-12.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:40+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-12-05_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-05122025",
+      "title": "Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Publicada em 05/12/2025",
+      "description": "Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS",
+      "published_at": "2025-12-05",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=GCguA5ZEWjM=",
+      "folder": "data/nfe/diversos/2025-12-05_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-05122025",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-12-05_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-05122025",
+      "files": [
+        "data/nfe/diversos/2025-12-05_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-05122025/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-20251202 (vigÃªncia a partir de 01-01-2026).xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-12-05_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-05122025/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-20251202 (vigÃªncia a partir de 01-01-2026).xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:41+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-11-24_tabela-de-codigo-de-classificacao-tributaria-do-ibscbs-publicada-em-24112025",
+      "title": "Tabela de Código de Classificação Tributária do IBS/CBS - Publicada em 24/11/2025",
+      "description": "Tabela de Código de Classificação Tributária do IBS/CBS",
+      "published_at": "2025-11-24",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=XX8wbmaJpZg=",
+      "folder": "data/nfe/diversos/2025-11-24_tabela-de-codigo-de-classificacao-tributaria-do-ibscbs-publicada-em-24112025",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-11-24_tabela-de-codigo-de-classificacao-tributaria-do-ibscbs-publicada-em-24112025",
+      "files": [
+        "data/nfe/diversos/2025-11-24_tabela-de-codigo-de-classificacao-tributaria-do-ibscbs-publicada-em-24112025/cClassTrib 2025-11-19.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-11-24_tabela-de-codigo-de-classificacao-tributaria-do-ibscbs-publicada-em-24112025/cClassTrib 2025-11-19.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:42+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-11-04_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-04112025",
+      "title": "Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Publicada em 04/11/2025",
+      "description": "Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS",
+      "published_at": "2025-11-04",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=rRDFjf1Ps7M=",
+      "folder": "data/nfe/diversos/2025-11-04_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-04112025",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-11-04_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-04112025",
+      "files": [
+        "data/nfe/diversos/2025-11-04_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-04112025/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-20251029.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-11-04_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-04112025/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-20251029.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:42+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-10-07_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-07102025",
+      "title": "Tabela de Código de Crédito Presumido do IBS e CBS - Publicada em 07/10/2025",
+      "description": "Tabela de Código de Crédito Presumido do IBS e CBS",
+      "published_at": "2025-10-07",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=G2gXyQBCCZQ=",
+      "folder": "data/nfe/diversos/2025-10-07_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-07102025",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-10-07_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-07102025",
+      "files": [
+        "data/nfe/diversos/2025-10-07_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-07102025/cCredPres_2025-10-06_Public_verde.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-10-07_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-07102025/cCredPres_2025-10-06_Public_verde.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:43+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-10-03_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-03102025",
+      "title": "Tabela de Código de Classificação Tributária do IBS e CBS - Publicada em 03/10/2025",
+      "description": "Tabela de Código de Classificação Tributária do IBS e CBS",
+      "published_at": "2025-10-03",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=SzaK/rPsPjc=",
+      "folder": "data/nfe/diversos/2025-10-03_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-03102025",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-10-03_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-03102025",
+      "files": [
+        "data/nfe/diversos/2025-10-03_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-03102025/CST_cClassTrib_2025-10-03_Public_verde.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-10-03_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-03102025/CST_cClassTrib_2025-10-03_Public_verde.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:44+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-10-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-01102025-publicada-em-31072025",
+      "title": "Tabela de NCM e respectiva uTrib (Comércio Exterior) - Vigente a partir de 01/10/2025 - Publicada em 31/07/2025",
+      "description": "Tabela de NCM e respectiva uTrib (Comércio Exterior) - Vigente a partir de 01/10/2025",
+      "published_at": "2025-10-01",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=uZcHEjJMQF4=",
+      "folder": "data/nfe/diversos/2025-10-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-01102025-publicada-em-31072025",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-10-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-01102025-publicada-em-31072025",
+      "files": [
+        "data/nfe/diversos/2025-10-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-01102025-publicada-em-31072025/Tabela NCM 2022 com Utrib_ComÃ©rcio Exterior_vigÃªncia 01.10.25.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-10-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-01102025-publicada-em-31072025/Tabela NCM 2022 com Utrib_ComÃ©rcio Exterior_vigÃªncia 01.10.25.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:45+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-09-29_tabela-de-meios-de-pagamento-publicada-em-29092025",
+      "title": "Tabela de Meios de pagamento - Publicada em 29/09/2025",
+      "description": "Tabela de Meios de pagamento",
+      "published_at": "2025-09-29",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=ryFH0PW3MDk=",
+      "folder": "data/nfe/diversos/2025-09-29_tabela-de-meios-de-pagamento-publicada-em-29092025",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-09-29_tabela-de-meios-de-pagamento-publicada-em-29092025",
+      "files": [
+        "data/nfe/diversos/2025-09-29_tabela-de-meios-de-pagamento-publicada-em-29092025/Tabela_de_meios_de_pagamento - 20250915.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-09-29_tabela-de-meios-de-pagamento-publicada-em-29092025/Tabela_de_meios_de_pagamento - 20250915.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:45+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-09-29_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-29092025",
+      "title": "Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Publicada em 29/09/2025",
+      "description": "Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS",
+      "published_at": "2025-09-29",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=hXzemuyNHW4=",
+      "folder": "data/nfe/diversos/2025-09-29_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-29092025",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-09-29_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-29092025",
+      "files": [
+        "data/nfe/diversos/2025-09-29_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-29092025/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-20250924.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-09-29_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-29092025/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-20250924.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:46+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-07-04_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-04072025",
+      "title": "Tabela de Código de Crédito Presumido do IBS e CBS - Publicada em 04/07/2025",
+      "description": "Tabela de Código de Crédito Presumido do IBS e CBS",
+      "published_at": "2025-07-04",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=ZD9Zq9iCs8w=",
+      "folder": "data/nfe/diversos/2025-07-04_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-04072025",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-07-04_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-04072025",
+      "files": [
+        "data/nfe/diversos/2025-07-04_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-04072025/cCredPres_Publicacao_20250618.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-07-04_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-04072025/cCredPres_Publicacao_20250618.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:47+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-06-18_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-18062025",
+      "title": "Tabela de Código de Classificação Tributária do IBS e CBS - Publicada em 18/06/2025",
+      "description": "Tabela de Código de Classificação Tributária do IBS e CBS",
+      "published_at": "2025-06-18",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=xKXhF0RDjyA=",
+      "folder": "data/nfe/diversos/2025-06-18_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-18062025",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-06-18_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-18062025",
+      "files": [
+        "data/nfe/diversos/2025-06-18_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-18062025/CST_cClassTribPublicacao_20250618.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-06-18_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-18062025/CST_cClassTribPublicacao_20250618.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:48+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-06-18_tabela-de-codigo-de-indice-de-biocombustivel-do-ibs-e-cbs-publicada-em-18062025",
+      "title": "Tabela de Código de Índice de Biocombustível do IBS e CBS - Publicada em 18/06/2025",
+      "description": "Tabela de Código de Índice de Biocombustível do IBS e CBS",
+      "published_at": "2025-06-18",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=aLOuqO 9BJI=",
+      "folder": "data/nfe/diversos/2025-06-18_tabela-de-codigo-de-indice-de-biocombustivel-do-ibs-e-cbs-publicada-em-18062025",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-06-18_tabela-de-codigo-de-indice-de-biocombustivel-do-ibs-e-cbs-publicada-em-18062025",
+      "files": [
+        "data/nfe/diversos/2025-06-18_tabela-de-codigo-de-indice-de-biocombustivel-do-ibs-e-cbs-publicada-em-18062025/tbIndiceMisturaBioCombustivel_20250611.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-06-18_tabela-de-codigo-de-indice-de-biocombustivel-do-ibs-e-cbs-publicada-em-18062025/tbIndiceMisturaBioCombustivel_20250611.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:48+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-05-19_tabela-de-indicadores-de-cst-do-ibs-e-cbs-publicada-em-19052025",
+      "title": "Tabela de Indicadores de CST do IBS e CBS - Publicada em 19/05/2025",
+      "description": "Tabela de Indicadores de CST do IBS e CBS",
+      "published_at": "2025-05-19",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=Li420kNzaH0=",
+      "folder": "data/nfe/diversos/2025-05-19_tabela-de-indicadores-de-cst-do-ibs-e-cbs-publicada-em-19052025",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-05-19_tabela-de-indicadores-de-cst-do-ibs-e-cbs-publicada-em-19052025",
+      "files": [
+        "data/nfe/diversos/2025-05-19_tabela-de-indicadores-de-cst-do-ibs-e-cbs-publicada-em-19052025/CST_INDICADORES_20250514_PUBLICACAO.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-05-19_tabela-de-indicadores-de-cst-do-ibs-e-cbs-publicada-em-19052025/CST_INDICADORES_20250514_PUBLICACAO.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:49+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-05-19_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-19052025",
+      "title": "Tabela de Código de Classificação Tributária do IBS e CBS - Publicada em 19/05/2025",
+      "description": "Tabela de Código de Classificação Tributária do IBS e CBS",
+      "published_at": "2025-05-19",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=hjmf97TrlXM=",
+      "folder": "data/nfe/diversos/2025-05-19_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-19052025",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-05-19_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-19052025",
+      "files": [
+        "data/nfe/diversos/2025-05-19_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-19052025/cClassTrib_20250515_PUBLICACAO.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-05-19_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-19052025/cClassTrib_20250515_PUBLICACAO.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:50+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-05-06_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-06052025",
+      "title": "Tabela de Código de Classificação Tributária do IBS e CBS - Publicada em 06/05/2025",
+      "description": "Tabela de Código de Classificação Tributária do IBS e CBS",
+      "published_at": "2025-05-06",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=luPNP4uqZQM=",
+      "folder": "data/nfe/diversos/2025-05-06_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-06052025",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-05-06_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-06052025",
+      "files": [
+        "data/nfe/diversos/2025-05-06_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-06052025/cClassTrib - 05052025.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-05-06_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-06052025/cClassTrib - 05052025.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:51+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-02-25_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-25022025",
+      "title": "Tabela de Alíquotas de FCP por UF (atualizada em 25/02/2025)",
+      "description": "Tabela de Alíquotas de FCP por UF (atualizada em 25/02/2025)",
+      "published_at": "2025-02-25",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=mCodklBEULU=",
+      "folder": "data/nfe/diversos/2025-02-25_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-25022025",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-02-25_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-25022025",
+      "files": [
+        "data/nfe/diversos/2025-02-25_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-25022025/Tabela_AlÃ­quotas_FCP_por_UF_2025-02_07.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-02-25_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-25022025/Tabela_AlÃ­quotas_FCP_por_UF_2025-02_07.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:51+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-02-18_tabela-de-municipios-publicada-em-18022025",
+      "title": "Tabela de Municípios - Publicada em 18/02/2025",
+      "description": "Tabela de Municípios",
+      "published_at": "2025-02-18",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=WO8HojcAqOs=",
+      "folder": "data/nfe/diversos/2025-02-18_tabela-de-municipios-publicada-em-18022025",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-02-18_tabela-de-municipios-publicada-em-18022025",
+      "files": [
+        "data/nfe/diversos/2025-02-18_tabela-de-municipios-publicada-em-18022025/250210_Tab_Municipios.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-02-18_tabela-de-municipios-publicada-em-18022025/250210_Tab_Municipios.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:52+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-01-14_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-140125",
+      "title": "Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Publicada em 14/01/25",
+      "description": "Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS",
+      "published_at": "2025-01-14",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=5WzAprm60H4=",
+      "folder": "data/nfe/diversos/2025-01-14_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-140125",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-01-14_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-140125",
+      "files": [
+        "data/nfe/diversos/2025-01-14_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-140125/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-20250107.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-01-14_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-140125/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-20250107.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:53+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-01-02_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-02012025-publicada-em-18122024",
+      "title": "Tabela de NCM e respectiva uTrib (Comércio Exterior) - Vigente a partir de 02/01/2025 - Publicada em 18/12/2024",
+      "description": "Tabela de NCM e respectiva uTrib (Comércio Exterior) - Vigente a partir de 02/01/2025",
+      "published_at": "2025-01-02",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=9QF3J oPJNk=",
+      "folder": "data/nfe/diversos/2025-01-02_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-02012025-publicada-em-18122024",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-01-02_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-02012025-publicada-em-18122024",
+      "files": [
+        "data/nfe/diversos/2025-01-02_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-02012025-publicada-em-18122024/Tabela NCM 2022 com Utrib_ComÃ©rcio Exterior_vigÃªncia  17122024- v 02.01.25.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-01-02_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-02012025-publicada-em-18122024/Tabela NCM 2022 com Utrib_ComÃ©rcio Exterior_vigÃªncia  17122024- v 02.01.25.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:54+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2024-12-09_tabela-de-codigo-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-vigente-a-partir-de-09122024-publicada-em-0612",
+      "title": "Tabela de código de combustíveis sujeitos à tributação monofásica de ICMS - Vigente a partir de 09/12/2024 - Publicada em 06/12/2024",
+      "description": "Tabela de código de combustíveis sujeitos à tributação monofásica de ICMS - Vigente a partir de 09/12/2024",
+      "published_at": "2024-12-09",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=iJ3r/MVNZ6I=",
+      "folder": "data/nfe/diversos/2024-12-09_tabela-de-codigo-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-vigente-a-partir-de-09122024-publicada-em-0612",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-12-09_tabela-de-codigo-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-vigente-a-partir-de-09122024-publicada-em-0612",
+      "files": [
+        "data/nfe/diversos/2024-12-09_tabela-de-codigo-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-vigente-a-partir-de-09122024-publicada-em-0612/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-202412.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-12-09_tabela-de-codigo-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-vigente-a-partir-de-09122024-publicada-em-0612/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-202412.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:54+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2024-12-07_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-da-cbs-publicada-em-07122024",
+      "title": "Tabela de Código de Classificação Tributária do IBS e da CBS - Publicada em 07/12/2024",
+      "description": "Tabela de Código de Classificação Tributária do IBS e da CBS",
+      "published_at": "2024-12-07",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=wyjUawG/Row=",
+      "folder": "data/nfe/diversos/2024-12-07_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-da-cbs-publicada-em-07122024",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-12-07_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-da-cbs-publicada-em-07122024",
+      "files": [
+        "data/nfe/diversos/2024-12-07_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-da-cbs-publicada-em-07122024/CClassTrib InfTÃ©cnico dez2024 Final.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-12-07_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-da-cbs-publicada-em-07122024/CClassTrib InfTÃ©cnico dez2024 Final.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:55+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2024-12-06_tabela-de-codigo-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-06122024",
+      "title": "Tabela de código de combustíveis sujeitos à tributação monofásica de ICMS - Publicada em 06/12/2024",
+      "description": "Tabela de código de combustíveis sujeitos à tributação monofásica de ICMS",
+      "published_at": "2024-12-06",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=mpnXoESqzwE=",
+      "folder": "data/nfe/diversos/2024-12-06_tabela-de-codigo-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-06122024",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-12-06_tabela-de-codigo-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-06122024",
+      "files": [
+        "data/nfe/diversos/2024-12-06_tabela-de-codigo-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-06122024/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-202412.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-12-06_tabela-de-codigo-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-06122024/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-202412.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:56+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2024-11-29_tabela-de-codigo-de-produtos-da-anp-vigente-a-partir-de-29112024-publicada-em-18112024",
+      "title": "Tabela de Código de Produtos da ANP - Vigente a partir de 29/11/2024 - Publicada em 18/11/2024",
+      "description": "Tabela de Código de Produtos da ANP - Vigente a partir de 29/11/2024",
+      "published_at": "2024-11-29",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=bMIIeOlKw8E=",
+      "folder": "data/nfe/diversos/2024-11-29_tabela-de-codigo-de-produtos-da-anp-vigente-a-partir-de-29112024-publicada-em-18112024",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-11-29_tabela-de-codigo-de-produtos-da-anp-vigente-a-partir-de-29112024-publicada-em-18112024",
+      "files": [
+        "data/nfe/diversos/2024-11-29_tabela-de-codigo-de-produtos-da-anp-vigente-a-partir-de-29112024-publicada-em-18112024/Tabela_Codigo_Produto_ANP-20241118.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-11-29_tabela-de-codigo-de-produtos-da-anp-vigente-a-partir-de-29112024-publicada-em-18112024/Tabela_Codigo_Produto_ANP-20241118.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:57+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2024-10-02_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-02102024-publicada-em-01102024",
+      "title": "Tabela de NCM e respectiva uTrib (Comércio Exterior) - Vigente a partir de 02/10/2024 - Publicada em 01/10/2024",
+      "description": "Tabela de NCM e respectiva uTrib (Comércio Exterior) - Vigente a partir de 02/10/2024",
+      "published_at": "2024-10-02",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=sIUh41wCvIg=",
+      "folder": "data/nfe/diversos/2024-10-02_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-02102024-publicada-em-01102024",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-10-02_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-02102024-publicada-em-01102024",
+      "files": [
+        "data/nfe/diversos/2024-10-02_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-02102024-publicada-em-01102024/Tabela NCM 2022 com Utrib_ComÃ©rcio Exterior_vigÃªncia  02102024- v 01.10.24.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-10-02_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-02102024-publicada-em-01102024/Tabela NCM 2022 com Utrib_ComÃ©rcio Exterior_vigÃªncia  02102024- v 01.10.24.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:57+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2024-07-01_tabela-de-meios-de-pagamento-vigente-a-partir-de-01072024-publicada-em-11042024",
+      "title": "Tabela de Meios de Pagamento - Vigente a partir de 01/07/2024 - Publicada em 11/04/2024",
+      "description": "Tabela de Meios de Pagamento - Vigente a partir de 01/07/2024",
+      "published_at": "2024-07-01",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=lyomAZBl4aE=",
+      "folder": "data/nfe/diversos/2024-07-01_tabela-de-meios-de-pagamento-vigente-a-partir-de-01072024-publicada-em-11042024",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-07-01_tabela-de-meios-de-pagamento-vigente-a-partir-de-01072024-publicada-em-11042024",
+      "files": [
+        "data/nfe/diversos/2024-07-01_tabela-de-meios-de-pagamento-vigente-a-partir-de-01072024-publicada-em-11042024/Tabela_de_meios_de_pagamento - 10042024.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-07-01_tabela-de-meios-de-pagamento-vigente-a-partir-de-01072024-publicada-em-11042024/Tabela_de_meios_de_pagamento - 10042024.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:58+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2024-07-01_tabela-de-meios-de-pagamento-vigente-a-partir-de-01072024-publicada-em-07062024",
+      "title": "Tabela de Meios de Pagamento - Vigente a partir de 01/07/2024 - Publicada em 07/06/2024",
+      "description": "Tabela de Meios de Pagamento - Vigente a partir de 01/07/2024",
+      "published_at": "2024-07-01",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=HJz0jzm0DAk=",
+      "folder": "data/nfe/diversos/2024-07-01_tabela-de-meios-de-pagamento-vigente-a-partir-de-01072024-publicada-em-07062024",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-07-01_tabela-de-meios-de-pagamento-vigente-a-partir-de-01072024-publicada-em-07062024",
+      "files": [
+        "data/nfe/diversos/2024-07-01_tabela-de-meios-de-pagamento-vigente-a-partir-de-01072024-publicada-em-07062024/Tabela_de_meios_de_pagamento - 03062024.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-07-01_tabela-de-meios-de-pagamento-vigente-a-partir-de-01072024-publicada-em-07062024/Tabela_de_meios_de_pagamento - 03062024.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:30:59+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2024-05-27_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-270524",
+      "title": "Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Publicada em 27/05/24",
+      "description": "Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS",
+      "published_at": "2024-05-27",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=VgPuhtPApQo=",
+      "folder": "data/nfe/diversos/2024-05-27_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-270524",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-05-27_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-270524",
+      "files": [
+        "data/nfe/diversos/2024-05-27_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-270524/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-20240508.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-05-27_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-270524/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-20240508.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:00+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2024-04-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-01042024-01072024-e-01082024-publicada-em-0703202",
+      "title": "Tabela de NCM e respectiva uTrib (Comércio Exterior) - Vigente a partir de 01/04/2024, 01/07/2024 e 01/08/2024 - Publicada em 07/03/2024",
+      "description": "Tabela de NCM e respectiva uTrib (Comércio Exterior) - Vigente a partir de 01/04/2024, 01/07/2024 e 01/08/2024",
+      "published_at": "2024-04-01",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=y5fs7drMmmA=",
+      "folder": "data/nfe/diversos/2024-04-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-01042024-01072024-e-01082024-publicada-em-0703202",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-04-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-01042024-01072024-e-01082024-publicada-em-0703202",
+      "files": [
+        "data/nfe/diversos/2024-04-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-01042024-01072024-e-01082024-publicada-em-0703202/Tabela_NCM_26022024.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-04-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-01042024-01072024-e-01082024-publicada-em-0703202/Tabela_NCM_26022024.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:00+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2024-04-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01042024-publicada-em-09012024",
+      "title": "Tabela de NCM e respectiva uTrib(Comércio Exterior) - Vigente a partir de 01/04/2024 - Publicada em 09/01/2024",
+      "description": "Tabela de NCM e respectiva uTrib(Comércio Exterior) - Vigente a partir de 01/04/2024",
+      "published_at": "2024-04-01",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=3ogS20ezQ/I=",
+      "folder": "data/nfe/diversos/2024-04-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01042024-publicada-em-09012024",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-04-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01042024-publicada-em-09012024",
+      "files": [
+        "data/nfe/diversos/2024-04-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01042024-publicada-em-09012024/Tabela NCM 2022 com Utrib_ComÃ©rcio Exterior_vigÃªncia  01042024- v 02.01.24.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-04-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01042024-publicada-em-09012024/Tabela NCM 2022 com Utrib_ComÃ©rcio Exterior_vigÃªncia  01042024- v 02.01.24.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:01+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2024-02-28_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-28022024",
+      "title": "Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Publicada em 28/02/2024",
+      "description": "Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS",
+      "published_at": "2024-02-28",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=ONSoKlWi2aA=",
+      "folder": "data/nfe/diversos/2024-02-28_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-28022024",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-02-28_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-28022024",
+      "files": [
+        "data/nfe/diversos/2024-02-28_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-28022024/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-20240224.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-02-28_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-28022024/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-20240224.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:02+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2024-02-23_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-23022024",
+      "title": "Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Publicada em 23/02/2024",
+      "description": "Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS",
+      "published_at": "2024-02-23",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=VlNSI1qsiIA=",
+      "folder": "data/nfe/diversos/2024-02-23_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-23022024",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-02-23_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-23022024",
+      "files": [
+        "data/nfe/diversos/2024-02-23_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-23022024/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-20240209.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-02-23_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-23022024/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-20240209.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:03+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2024-01-30_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-30012024",
+      "title": "Tabela de Alíquotas de FCP por UF (atualizada em 30/01/2024)",
+      "description": "Tabela de Alíquotas de FCP por UF (atualizada em 30/01/2024)",
+      "published_at": "2024-01-30",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=/RFndRUpZJw=",
+      "folder": "data/nfe/diversos/2024-01-30_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-30012024",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-01-30_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-30012024",
+      "files": [
+        "data/nfe/diversos/2024-01-30_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-30012024/Tabela_AlÃ­quotas_FCP_por_UF_2024-01_29.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-01-30_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-30012024/Tabela_AlÃ­quotas_FCP_por_UF_2024-01_29.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:03+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2023-12-28_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-28122023",
+      "title": "Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Publicada em 28/12/2023",
+      "description": "Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS",
+      "published_at": "2023-12-28",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=Y1hrcyzvncE=",
+      "folder": "data/nfe/diversos/2023-12-28_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-28122023",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-12-28_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-28122023",
+      "files": [
+        "data/nfe/diversos/2023-12-28_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-28122023/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-20231228.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-12-28_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-28122023/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-20231228.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:04+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2023-12-28_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-28122023",
+      "title": "Tabela de Alíquotas de FCP por UF (atualizada em 28/12/2023)",
+      "description": "Tabela de Alíquotas de FCP por UF (atualizada em 28/12/2023)",
+      "published_at": "2023-12-28",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=f NhsSn3/5M=",
+      "folder": "data/nfe/diversos/2023-12-28_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-28122023",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-12-28_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-28122023",
+      "files": [
+        "data/nfe/diversos/2023-12-28_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-28122023/Tabela_AlÃ­quotas_FCP_por_UF_2023-12.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-12-28_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-28122023/Tabela_AlÃ­quotas_FCP_por_UF_2023-12.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:05+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2023-11-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01112023-ou-01012024-publicada-em-30102023",
+      "title": "Tabela de NCM e respectiva uTrib(Comércio Exterior) - Vigente a partir de 01/11/2023 ou 01/01/2024 - Publicada em 30/10/2023",
+      "description": "Tabela de NCM e respectiva uTrib(Comércio Exterior) - Vigente a partir de 01/11/2023 ou 01/01/2024",
+      "published_at": "2023-11-01",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=i8zkC4UsoIc=",
+      "folder": "data/nfe/diversos/2023-11-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01112023-ou-01012024-publicada-em-30102023",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-11-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01112023-ou-01012024-publicada-em-30102023",
+      "files": [
+        "data/nfe/diversos/2023-11-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01112023-ou-01012024-publicada-em-30102023/Tabela NCM 2022 com Utrib_ComÃ©rcio Exterior_vigÃªncia  01112023 ou 01012024- v 30.10.23.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-11-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01112023-ou-01012024-publicada-em-30102023/Tabela NCM 2022 com Utrib_ComÃ©rcio Exterior_vigÃªncia  01112023 ou 01012024- v 30.10.23.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:06+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2023-11-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01112023-publicada-em-18082023",
+      "title": "Tabela de NCM e respectiva uTrib(Comércio Exterior) - Vigente a partir de 01/11/2023 - Publicada em 18/08/2023",
+      "description": "Tabela de NCM e respectiva uTrib(Comércio Exterior) - Vigente a partir de 01/11/2023",
+      "published_at": "2023-11-01",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=CSi/nvRo99E=",
+      "folder": "data/nfe/diversos/2023-11-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01112023-publicada-em-18082023",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-11-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01112023-publicada-em-18082023",
+      "files": [
+        "data/nfe/diversos/2023-11-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01112023-publicada-em-18082023/Tabela NCM 2022 com Utrib_ComÃ©rcio Exterior_vigÃªncia  01112023- v 17.08.23.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-11-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01112023-publicada-em-18082023/Tabela NCM 2022 com Utrib_ComÃ©rcio Exterior_vigÃªncia  01112023- v 17.08.23.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:06+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2023-05-03_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-03052023",
+      "title": "Tabela de Alíquotas de FCP por UF (atualizada em 03/05/2023)",
+      "description": "Tabela de Alíquotas de FCP por UF (atualizada em 03/05/2023)",
+      "published_at": "2023-05-03",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=A1ayJmuTiI8=",
+      "folder": "data/nfe/diversos/2023-05-03_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-03052023",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-05-03_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-03052023",
+      "files": [
+        "data/nfe/diversos/2023-05-03_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-03052023/Tabela_AlÃ­quotas_FCP_por_UF_2023_05.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-05-03_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-03052023/Tabela_AlÃ­quotas_FCP_por_UF_2023_05.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:07+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2023-04-19_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-19042023",
+      "title": "Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Publicada em 19/04/2023",
+      "description": "Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS",
+      "published_at": "2023-04-19",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=SMLyaerK7VY=",
+      "folder": "data/nfe/diversos/2023-04-19_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-19042023",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-04-19_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-19042023",
+      "files": [
+        "data/nfe/diversos/2023-04-19_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-19042023/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-20230419.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-04-19_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-19042023/Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica-20230419.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:08+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2023-04-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01042023-publicada-em-03022023",
+      "title": "Tabela de NCM e respectiva uTrib(Comércio Exterior) - Vigente a partir de 01/04/2023 - Publicada em 03/02/2023",
+      "description": "Tabela de NCM e respectiva uTrib(Comércio Exterior) - Vigente a partir de 01/04/2023",
+      "published_at": "2023-04-01",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=0FVYUyF 9jg=",
+      "folder": "data/nfe/diversos/2023-04-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01042023-publicada-em-03022023",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-04-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01042023-publicada-em-03022023",
+      "files": [
+        "data/nfe/diversos/2023-04-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01042023-publicada-em-03022023/Tabela NCM 2022 com Utrib_ComÃ©rcio Exterior_vigÃªncia  01042023- v 26.01.23.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-04-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01042023-publicada-em-03022023/Tabela NCM 2022 com Utrib_ComÃ©rcio Exterior_vigÃªncia  01042023- v 26.01.23.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:09+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2023-03-30_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-30032023",
+      "title": "Tabela de Alíquotas de FCP por UF (atualizada em 30/03/2023)",
+      "description": "Tabela de Alíquotas de FCP por UF (atualizada em 30/03/2023)",
+      "published_at": "2023-03-30",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=0RfBAwIMOk0=",
+      "folder": "data/nfe/diversos/2023-03-30_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-30032023",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-03-30_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-30032023",
+      "files": [
+        "data/nfe/diversos/2023-03-30_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-30032023/Tabela_AlÃ­quotas_FCP_por_UF_2023_03.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-03-30_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-30032023/Tabela_AlÃ­quotas_FCP_por_UF_2023_03.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:09+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2023-01-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01012023-publicada-em-05092022-republicada-em-1909",
+      "title": "Tabela de NCM e respectiva uTrib(Comércio Exterior) - Vigente a partir de 01/01/2023 - Publicada em 05/09/2022 - Republicada em 19/09/2022",
+      "description": "Tabela de NCM e respectiva uTrib(Comércio Exterior) - Vigente a partir de 01/01/2023",
+      "published_at": "2023-01-01",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=J5ylb9ByNB0=",
+      "folder": "data/nfe/diversos/2023-01-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01012023-publicada-em-05092022-republicada-em-1909",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-01-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01012023-publicada-em-05092022-republicada-em-1909",
+      "files": [
+        "data/nfe/diversos/2023-01-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01012023-publicada-em-05092022-republicada-em-1909/Tabela NCM 2022 com Utrib_ComÃ©rcio Exterior_vigÃªncia  01012023- v 19.09.22.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-01-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01012023-publicada-em-05092022-republicada-em-1909/Tabela NCM 2022 com Utrib_ComÃ©rcio Exterior_vigÃªncia  01012023- v 19.09.22.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:10+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2021-04-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01042021-publicada-em-19022021",
+      "title": "Tabela de NCM e respectiva Utrib (Comércio Exterior) - Vigência 01/04/2021 - Publicada em 19/02/2021",
+      "description": "Tabela de NCM e respectiva Utrib (Comércio Exterior) - Vigência 01/04/2021",
+      "published_at": "2021-04-01",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=6AegJJKgkgw=",
+      "folder": "data/nfe/diversos/2021-04-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01042021-publicada-em-19022021",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2021-04-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01042021-publicada-em-19022021",
+      "files": [
+        "data/nfe/diversos/2021-04-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01042021-publicada-em-19022021/Tabela NCM com Utrib_ComÃ©rcio Exterior_vigÃªncia 01-04-2021_v19022021.xls"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2021-04-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01042021-publicada-em-19022021/Tabela NCM com Utrib_ComÃ©rcio Exterior_vigÃªncia 01-04-2021_v19022021.xls"
+      ],
+      "downloaded_at": "2026-09-05T18:31:11+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2021-03-16_tabela-de-meios-de-pagamento-publicada-em-16032021",
+      "title": "Tabela de Meios de Pagamento - Publicada em 16/03/2021",
+      "description": "Tabela de Meios de Pagamento",
+      "published_at": "2021-03-16",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=lN3kfUCOqVs=",
+      "folder": "data/nfe/diversos/2021-03-16_tabela-de-meios-de-pagamento-publicada-em-16032021",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2021-03-16_tabela-de-meios-de-pagamento-publicada-em-16032021",
+      "files": [
+        "data/nfe/diversos/2021-03-16_tabela-de-meios-de-pagamento-publicada-em-16032021/Tabela de meios de pagamento.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2021-03-16_tabela-de-meios-de-pagamento-publicada-em-16032021/Tabela de meios de pagamento.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:12+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2020-07-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigencia-01072020-publicada-em-01062020",
+      "title": "Tabela de NCM e respectiva UTrib(comércio exterior) - Vigência 01/07/2020 - Publicada em 01/06/2020",
+      "description": "Tabela de NCM e respectiva UTrib(comércio exterior) - Vigência 01/07/2020",
+      "published_at": "2020-07-01",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=upIUEDIjPq4=",
+      "folder": "data/nfe/diversos/2020-07-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigencia-01072020-publicada-em-01062020",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2020-07-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigencia-01072020-publicada-em-01062020",
+      "files": [
+        "data/nfe/diversos/2020-07-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigencia-01072020-publicada-em-01062020/Tabela NCM com Utrib_ComÃ©rcio Exterior_vigÃªncia 01-07-2020_v28052020.xls"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2020-07-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigencia-01072020-publicada-em-01062020/Tabela NCM com Utrib_ComÃ©rcio Exterior_vigÃªncia 01-07-2020_v28052020.xls"
+      ],
+      "downloaded_at": "2026-09-05T18:31:13+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2020-01-01_tabela-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01012020-publicada-em-11112019",
+      "title": "Tabela NCM e respectiva Utrib (comércio exterior) - Vigência 01/01/2020 - Publicada em 11/11/2019",
+      "description": "Tabela NCM e respectiva Utrib (comércio exterior) - Vigência 01/01/2020",
+      "published_at": "2020-01-01",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=ubK883hy9rc=",
+      "folder": "data/nfe/diversos/2020-01-01_tabela-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01012020-publicada-em-11112019",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2020-01-01_tabela-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01012020-publicada-em-11112019",
+      "files": [
+        "data/nfe/diversos/2020-01-01_tabela-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01012020-publicada-em-11112019/Tabela NCM com Utrib_ComÃ©rcio Exterior_vigÃªncia 01-01-2020.xls"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2020-01-01_tabela-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01012020-publicada-em-11112019/Tabela NCM com Utrib_ComÃ©rcio Exterior_vigÃªncia 01-01-2020.xls"
+      ],
+      "downloaded_at": "2026-09-05T18:31:13+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2019-01-01_tabela-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01012019-publicada-em-09112018",
+      "title": "Tabela NCM e respectiva Utrib (comércio exterior) - Vigência 01/01/2019 - Publicada em 09/11/2018",
+      "description": "Tabela NCM e respectiva Utrib (comércio exterior) - Vigência 01/01/2019",
+      "published_at": "2019-01-01",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=QQpVVesil4g=",
+      "folder": "data/nfe/diversos/2019-01-01_tabela-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01012019-publicada-em-09112018",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2019-01-01_tabela-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01012019-publicada-em-09112018",
+      "files": [
+        "data/nfe/diversos/2019-01-01_tabela-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01012019-publicada-em-09112018/Tabela de NCM e respectiva Utrib - VigÃªncia a partir de 01-01-2019 - NT 2016.003.v1.50.xls"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2019-01-01_tabela-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01012019-publicada-em-09112018/Tabela de NCM e respectiva Utrib - VigÃªncia a partir de 01-01-2019 - NT 2016.003.v1.50.xls"
+      ],
+      "downloaded_at": "2026-09-05T18:31:14+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_visualizador-de-df-e",
+      "title": "Visualizador de DF-e",
+      "description": "Visualizador de DF-e",
+      "published_at": "",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/download.aspx?tipoConteudo=vBO/4eBj5F4=",
+      "folder": "data/nfe/diversos/undated_visualizador-de-df-e",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_visualizador-de-df-e",
+      "files": [
+        "data/nfe/diversos/undated_visualizador-de-df-e/download.aspx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_visualizador-de-df-e/download.aspx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:15+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_assinador",
+      "title": "Assinador",
+      "description": "Assinador",
+      "published_at": "",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/download.aspx?tipoConteudo=OFrcUd5//Lg=",
+      "folder": "data/nfe/diversos/undated_assinador",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_assinador",
+      "files": [
+        "data/nfe/diversos/undated_assinador/download.aspx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_assinador/download.aspx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:16+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_tabela-de-cnpjs-alfa-cadastrados-no-ccc-de-homologacao",
+      "title": "Tabela de CNPJs alfa cadastrados no CCC de homologação",
+      "description": "Tabela de CNPJs alfa cadastrados no CCC de homologação",
+      "published_at": "",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=Ir1fD241zJA=",
+      "folder": "data/nfe/diversos/undated_tabela-de-cnpjs-alfa-cadastrados-no-ccc-de-homologacao",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_tabela-de-cnpjs-alfa-cadastrados-no-ccc-de-homologacao",
+      "files": [
+        "data/nfe/diversos/undated_tabela-de-cnpjs-alfa-cadastrados-no-ccc-de-homologacao/Tabela de CNPJs alfa cadastrados no CCC de homologação.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_tabela-de-cnpjs-alfa-cadastrados-no-ccc-de-homologacao/Tabela de CNPJs alfa cadastrados no CCC de homologação.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:16+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_tabela-de-cfop-vigencia-24-04-2023",
+      "title": "Tabela de CFOP - Vigência 24-04-2023",
+      "description": "Tabela de CFOP - Vigência 24-04-2023",
+      "published_at": "",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=z0J9O4CgskU=",
+      "folder": "data/nfe/diversos/undated_tabela-de-cfop-vigencia-24-04-2023",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_tabela-de-cfop-vigencia-24-04-2023",
+      "files": [
+        "data/nfe/diversos/undated_tabela-de-cfop-vigencia-24-04-2023/IT 2023.002-v1.00_Tabela_CFOP_VigÃªncia_20230424.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_tabela-de-cfop-vigencia-24-04-2023/IT 2023.002-v1.00_Tabela_CFOP_VigÃªncia_20230424.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:17+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_tabela-cbenef-x-cst-relacionada-a-nota-tecnica-2019.001",
+      "title": "Tabela cBenef x CST - Relacionada à Nota Técnica 2019.001",
+      "description": "Tabela cBenef x CST - Relacionada à Nota Técnica 2019.001",
+      "published_at": "",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=C40eUgxYAIg=",
+      "folder": "data/nfe/diversos/undated_tabela-cbenef-x-cst-relacionada-a-nota-tecnica-2019.001",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_tabela-cbenef-x-cst-relacionada-a-nota-tecnica-2019.001",
+      "files": [
+        "data/nfe/diversos/undated_tabela-cbenef-x-cst-relacionada-a-nota-tecnica-2019.001/TABELA cBenef_X_CST 05_08_2019.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_tabela-cbenef-x-cst-relacionada-a-nota-tecnica-2019.001/TABELA cBenef_X_CST 05_08_2019.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:18+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_tabela-de-pais-relacionada-a-nt-2018.003.-v1.00",
+      "title": "Tabela de País - Relacionada a NT 2018.003. v1.00",
+      "description": "Tabela de País - Relacionada a NT 2018.003. v1.00",
+      "published_at": "",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=PSVK9st3J8U=",
+      "folder": "data/nfe/diversos/undated_tabela-de-pais-relacionada-a-nt-2018.003.-v1.00",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_tabela-de-pais-relacionada-a-nt-2018.003.-v1.00",
+      "files": [
+        "data/nfe/diversos/undated_tabela-de-pais-relacionada-a-nt-2018.003.-v1.00/Tabela de PaÃ­s - Ref. NT 2018.003. v1.00.ods"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_tabela-de-pais-relacionada-a-nt-2018.003.-v1.00/Tabela de PaÃ­s - Ref. NT 2018.003. v1.00.ods"
+      ],
+      "downloaded_at": "2026-09-05T18:31:18+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_dtb-2014-municipio",
+      "title": "DTB 2014 Município",
+      "description": "DTB 2014 Município",
+      "published_at": "",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=zRz9Xc658tM=",
+      "folder": "data/nfe/diversos/undated_dtb-2014-municipio",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_dtb-2014-municipio",
+      "files": [
+        "data/nfe/diversos/undated_dtb-2014-municipio/150806_DTB_2014_Municipio.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_dtb-2014-municipio/150806_DTB_2014_Municipio.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:19+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_tabela-de-cfop-vigencia-01-set-2018",
+      "title": "Tabela de CFOP - Vigência 01-set-2018",
+      "description": "Tabela de CFOP - Vigência 01-set-2018",
+      "published_at": "",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=L5 rqbfATI8=",
+      "folder": "data/nfe/diversos/undated_tabela-de-cfop-vigencia-01-set-2018",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_tabela-de-cfop-vigencia-01-set-2018",
+      "files": [
+        "data/nfe/diversos/undated_tabela-de-cfop-vigencia-01-set-2018/Tabela_CFOP_NT_2017.002_VigÃªncia_20180901_v20180821.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_tabela-de-cfop-vigencia-01-set-2018/Tabela_CFOP_NT_2017.002_VigÃªncia_20180901_v20180821.xlsx"
+      ],
+      "downloaded_at": "2026-09-05T18:31:20+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_consumo-indevido-do-ambiente-de-autorizacao",
+      "title": "Consumo Indevido do Ambiente de Autorização",
+      "description": "Consumo Indevido do Ambiente de Autorização",
+      "published_at": "",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=cCK78fb97OQ=",
+      "folder": "data/nfe/diversos/undated_consumo-indevido-do-ambiente-de-autorizacao",
+      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_consumo-indevido-do-ambiente-de-autorizacao",
+      "files": [
+        "data/nfe/diversos/undated_consumo-indevido-do-ambiente-de-autorizacao/Consumo_Indevido_Aplicacao_Cliente_v1.01.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_consumo-indevido-do-ambiente-de-autorizacao/Consumo_Indevido_Aplicacao_Cliente_v1.01.pdf"
+      ],
+      "downloaded_at": "2026-09-05T18:31:21+00:00",
+      "status": "ok"
+    }
+  ]
+}
