@@ -15,7 +15,9 @@
 
 ---
 
-# data-source
+# data-source — Feed oficial de atualizações fiscais brasileiras (NF-e, NFS-e)
+
+> XSDs, MOCs, notas técnicas, esquemas XML, manuais e anexos do **portal oficial da NF-e (SEFAZ)** e do **ADN nacional da NFS-e (gov.br)** — coletados a cada 6 horas, versionados, publicados como feed Atom e sitemap JSON.
 
 Toda vez que a SEFAZ ou o ADN publica um novo XSD, um MOC, uma Nota Técnica ou uma versão de schema, o `data-source` percebe, baixa, descompacta, versiona e avisa. Você não precisa entrar no portal, não precisa checar página, não precisa se lembrar. **Você só assina.**
 
@@ -94,3 +96,11 @@ Feito pela [Stackin](https://stackin.io) — plataforma completa de emissão fis
 Feito com ☕ e frustração acumulada com portais fiscais.
 
 </div>
+
+<!--
+Keywords: NF-e, NFe, NFS-e, NFSe, SEFAZ, ADN, gov.br, Brasil, Nota Fiscal Eletrônica,
+Nota Fiscal de Serviços, MOC, Manual de Orientação do Contribuinte, Nota Técnica, XSD,
+XML schema, Pacote de Liberação, ICMS, tributário, fiscal, tax, invoicing, stackin,
+sitemap, atom, RSS feed, newsletter, scraping, monitoring, GitHub Actions.
+-->
+
