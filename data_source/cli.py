@@ -20,8 +20,12 @@ def scrape(
     name: Annotated[str, typer.Argument(help="Scraper id (e.g. nfe, nfse)")],
     out: Annotated[Path | None, typer.Option("--out", help="Output dir")] = None,
     headless: Annotated[bool, typer.Option("--headless/--headed")] = True,
+    force: Annotated[
+        bool,
+        typer.Option("--force", help="Re-download items even if the target folder already has files"),
+    ] = False,
 ) -> None:
-    """Run a registered scraper end-to-end."""
+    """Run a registered scraper end-to-end. Skips items whose folder already has files (use --force to override)."""
     settings = get_settings()
     if out is not None:
         settings = settings.model_copy(update={"output_dir": out})
@@ -32,10 +36,10 @@ def scrape(
     if scraper_cls is None:
         raise UnknownScraperError(f"unknown scraper: {name!r}. available: {sorted(REGISTRY)}")
 
-    result = scraper_cls(settings=settings).run()
+    result = scraper_cls(settings=settings).run(force=force)
     typer.echo(
         f"[{result.context}] discovered={result.discovered} "
-        f"persisted={result.persisted} failed={result.failed}"
+        f"persisted={result.persisted} skipped={result.skipped} failed={result.failed}"
     )
     if result.failed and not result.persisted:
         raise typer.Exit(code=2)

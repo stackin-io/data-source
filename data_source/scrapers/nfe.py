@@ -13,9 +13,6 @@ LIST_PAGES = (
     "listaConteudo.aspx?tipoConteudo=BMPFMBoln3w=",  # Downloads (Pacote de Liberação)
 )
 
-# The portal renders each download as `<a href="exibirArquivo.aspx?conteudo=...">`
-# or `<a href="download.aspx?tipoConteudo=...">`. Title lives in an inner
-# `<span class="tituloConteudo">…</span>` (falls back to link text).
 DOWNLOAD_PREFIXES = ("exibirArquivo.aspx", "download.aspx")
 
 
@@ -43,6 +40,10 @@ class NFeScraper(BaseScraper):
                     kind="download",
                     metadata={"title": title, "source": rel},
                 )
+
+    def subpath_for(self, item: ScrapeItem) -> str:
+        title = item.metadata.get("title", "")
+        return slugify(title) if title else "unknown"
 
     def extract(self, item: ScrapeItem) -> Iterable[Artifact]:
         title = item.metadata.get("title", "")

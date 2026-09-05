@@ -38,6 +38,7 @@ class ScrapeResult:
     context: str
     discovered: int = 0
     persisted: int = 0
+    skipped: int = 0
     failed: int = 0
     paths: list[str] = field(default_factory=list)
 
@@ -93,11 +94,20 @@ class BaseScraper(ABC):
         """Override to change per-item error behavior (retry, skip, abort)."""
         self._log.warning("scrape.item_failed", url=item.url, error=str(exc))
 
+    def subpath_for(self, item: ScrapeItem) -> str:
+        """Return the subpath under `context/` this item will populate.
+
+        Used to skip work when the target folder is already populated. Default is
+        empty (no skip). Subclasses that persist to slug-based folders should override
+        this so skip-if-exists works before the network hit.
+        """
+        return ""
+
     # ---- orchestration ------------------------------------------------------
 
-    def run(self) -> ScrapeResult:
+    def run(self, *, force: bool = False) -> ScrapeResult:
         result = ScrapeResult(context=self.context)
-        self._log.info("scrape.start", context=self.context)
+        self._log.info("scrape.start", context=self.context, force=force)
         with self._browser, self._downloader:
             try:
                 items = list(self._safe_discover())
@@ -106,6 +116,14 @@ class BaseScraper(ABC):
                 raise
             result.discovered = len(items)
             for item in items:
+                if not force:
+                    sub = self.subpath_for(item)
+                    if sub:
+                        probe = f"{self.context}/{sub.strip('/')}"
+                        if self._storage.has_files(probe):
+                            result.skipped += 1
+                            self._log.info("scrape.skip_existing", url=item.url, subpath=sub)
+                            continue
                 try:
                     artifacts = list(self.extract(item))
                 except Exception as exc:
@@ -132,6 +150,7 @@ class BaseScraper(ABC):
             context=self.context,
             discovered=result.discovered,
             persisted=result.persisted,
+            skipped=result.skipped,
             failed=result.failed,
         )
         return result

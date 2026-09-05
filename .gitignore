@@ -26,9 +26,9 @@ build/
 # OS
 .DS_Store
 
-# Scraped output — never version
-data/**/*
-!data/**/.gitkeep
+# Scraped output is versioned (stackin-bot commits new files each run).
+# If you want to exclude something specific, add it below.
+
 
 # Selenium
 *.log

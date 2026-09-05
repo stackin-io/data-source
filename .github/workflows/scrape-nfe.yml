@@ -9,6 +9,9 @@ concurrency:
   group: scrape-nfe
   cancel-in-progress: false
 
+permissions:
+  contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -35,10 +38,14 @@ jobs:
       - name: Run NFe scraper
         run: poetry run data-source scrape nfe --out ./data
 
-      - name: Upload artifacts
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: nfe-${{ github.run_id }}
-          path: data/nfe/
-          retention-days: 30
+      - name: Commit new files as stackin-bot
+        run: |
+          git config user.name "stackin-bot"
+          git config user.email "bot@stackin.io"
+          git add data/nfe
+          if git diff --cached --quiet; then
+            echo "No new files to commit."
+            exit 0
+          fi
+          git commit -m "🤖 DATA(nfe): Scheduled scrape $(date -u +%Y-%m-%d)"
+          git push

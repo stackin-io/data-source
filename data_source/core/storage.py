@@ -17,6 +17,8 @@ class Storage(Protocol):
 
     def exists(self, context: str, filename: str) -> bool: ...
 
+    def has_files(self, context: str) -> bool: ...
+
 
 class LocalStorage:
     """Writes into `<root>/<context>/<yyyy-mm-dd>/<filename>`. Idempotent per day."""
@@ -49,3 +51,17 @@ class LocalStorage:
 
     def exists(self, context: str, filename: str) -> bool:
         return self._resolve(context, filename).exists()
+
+    def has_files(self, context: str) -> bool:
+        """True if the context folder already contains at least one real file.
+        Used to skip re-downloading items whose target folder is already populated."""
+        parts: list[str] = [context]
+        if self._dated:
+            parts.append(datetime.now(tz=timezone.utc).strftime("%Y-%m-%d"))
+        folder = self._root.joinpath(*parts)
+        if not folder.exists():
+            return False
+        for entry in folder.iterdir():
+            if entry.is_file() and entry.name != ".gitkeep":
+                return True
+        return False
