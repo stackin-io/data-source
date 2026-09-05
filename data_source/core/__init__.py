@@ -3,6 +3,7 @@ from data_source.core.downloader import Downloader
 from data_source.core.logger import get_logger
 from data_source.core.scraper import Artifact, BaseScraper, ScrapeItem, ScrapeResult
 from data_source.core.storage import LocalStorage, Storage
+from data_source.core.unpack import maybe_unpack_zip
 
 __all__ = [
     "Artifact",
@@ -14,4 +15,5 @@ __all__ = [
     "ScrapeResult",
     "Storage",
     "get_logger",
+    "maybe_unpack_zip",
 ]

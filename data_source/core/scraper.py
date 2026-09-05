@@ -10,6 +10,7 @@ from data_source.core.downloader import Downloader
 from data_source.core.logger import configure as configure_logging
 from data_source.core.logger import get_logger
 from data_source.core.storage import LocalStorage, Storage
+from data_source.core.unpack import maybe_unpack_zip
 from data_source.exceptions import DiscoveryError, ExtractionError, ScraperError
 
 
@@ -138,6 +139,9 @@ class BaseScraper(ABC):
                         path = self._storage.write_bytes(target_context, art.filename, art.data)
                         result.persisted += 1
                         result.paths.append(path)
+                        extracted = maybe_unpack_zip(path, logger=self._log)
+                        if extracted:
+                            result.paths.extend(extracted)
                     except Exception as exc:
                         result.failed += 1
                         self._log.warning(
