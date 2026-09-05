@@ -21,7 +21,7 @@ def maybe_unpack_zip(archive_path: str, *, logger: Any | None = None) -> list[st
             logger.warning("unpack.not_a_zip", path=str(p))
         return []
 
-    target = p.with_suffix("")  # strip .zip → sibling folder with same stem
+    target = p.with_suffix("")
     target.mkdir(parents=True, exist_ok=True)
     already = [c for c in target.iterdir() if c.name != ".gitkeep"]
     if already:

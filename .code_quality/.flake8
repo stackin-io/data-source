@@ -1,0 +1,14 @@
+[flake8]
+extend-ignore = E203
+exclude =
+    .git,
+    __pycache__,
+    build,
+    dist,
+    ./venv,
+    .venv
+max-complexity = 12
+show-source = True
+statistics = True
+count = True
+max-line-length = 100

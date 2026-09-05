@@ -51,7 +51,6 @@ class BaseScraper(ABC):
     Subclasses own: what pages exist for this source, how each page turns into files.
     """
 
-    #: subclasses override; used as folder name and CLI id
     context: str = ""
 
     def __init__(
@@ -79,8 +78,6 @@ class BaseScraper(ABC):
         configure_logging(self._settings.log_level)
         self._log = get_logger(f"scraper.{self.context}")
 
-    # ---- hooks subclasses must implement -----------------------------------
-
     @abstractmethod
     def discover(self) -> Iterable[ScrapeItem]:
         """Return items to be extracted. Uses self._browser when the source is JS-heavy."""
@@ -88,8 +85,6 @@ class BaseScraper(ABC):
     @abstractmethod
     def extract(self, item: ScrapeItem) -> Iterable[Artifact]:
         """Turn a discovered item into 0..N artifacts."""
-
-    # ---- optional hooks -----------------------------------------------------
 
     def on_item_error(self, item: ScrapeItem, exc: Exception) -> None:
         """Override to change per-item error behavior (retry, skip, abort)."""
@@ -103,8 +98,6 @@ class BaseScraper(ABC):
         this so skip-if-exists works before the network hit.
         """
         return ""
-
-    # ---- orchestration ------------------------------------------------------
 
     def run(self, *, force: bool = False) -> ScrapeResult:
         result = ScrapeResult(context=self.context)
@@ -164,8 +157,6 @@ class BaseScraper(ABC):
             yield from self.discover()
         except Exception as exc:
             raise DiscoveryError(str(exc)) from exc
-
-    # ---- helpers for subclasses --------------------------------------------
 
     def download(self, url: str) -> bytes:
         """Convenience: use the shared Downloader (retry+backoff)."""

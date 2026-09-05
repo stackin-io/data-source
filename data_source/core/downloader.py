@@ -110,7 +110,7 @@ class Downloader:
         if title_hint:
             slug = _slugify(title_hint)
             if not ext and tail:
-                ext = ""  # unknown
+                ext = ""
             return f"{slug}{ext or '.bin'}"
 
         digest = hashlib.sha256(url.encode("utf-8")).hexdigest()[:16]

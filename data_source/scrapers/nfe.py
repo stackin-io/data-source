@@ -10,13 +10,8 @@ from data_source.core.downloader import slugify
 from data_source.core.scraper import Artifact, BaseScraper, ScrapeItem
 
 PORTAL_ROOT = "https://hom.nfe.fazenda.gov.br/portal/"
-LIST_PAGES = (
-    "listaConteudo.aspx?tipoConteudo=BMPFMBoln3w=",  # Downloads (Pacote de Liberação)
-)
-
+LIST_PAGES = ("listaConteudo.aspx?tipoConteudo=BMPFMBoln3w=",)
 DOWNLOAD_PREFIXES = ("exibirArquivo.aspx", "download.aspx")
-
-# Matches "27/07/2026", "17/05/11", "01/10/10", "(28/09/2011)", etc.
 _DATE_RE = re.compile(r"(\d{2})/(\d{2})/(\d{2,4})")
 
 
@@ -52,7 +47,6 @@ class NFeScraper(BaseScraper):
                         },
                     )
                 )
-        # newest first — subpath prefix `YYYY-MM-DD_` keeps this order on disk too
         items.sort(key=lambda it: it.metadata.get("published_at", ""), reverse=True)
         yield from items
 
@@ -91,7 +85,6 @@ def _extract_iso_date(text: str) -> str | None:
     if len(yy) == 2:
         year += 2000 if year < 80 else 1900
     try:
-        # sanity check
         _ = (int(dd), int(mm), year)
     except ValueError:
         return None
