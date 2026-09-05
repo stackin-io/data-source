@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Optional
 
 import typer
 
@@ -18,7 +17,7 @@ log = get_logger("cli")
 @app.command()
 def scrape(
     name: str = typer.Argument(..., help="Scraper id (e.g. nfe, nfse)"),
-    out: Optional[Path] = typer.Option(None, "--out", help="Output dir"),
+    out: Path | None = typer.Option(None, "--out", help="Output dir"),
     headless: bool = typer.Option(True, "--headless/--no-headless", help="Run browser headless"),
     force: bool = typer.Option(False, "--force", help="Re-download items even if target folder has files"),
 ) -> None:

@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import Iterable
+from collections.abc import Iterable
 from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
@@ -45,7 +45,7 @@ def _extract_downloadable_links(html: str, *, base: str) -> list[str]:
     soup = BeautifulSoup(html, "lxml")
     hrefs: list[str] = []
     for a in soup.find_all("a", href=True):
-        href = a["href"].strip()
+        href = str(a["href"]).strip()
         if not href or href.startswith(("#", "javascript:", "mailto:")):
             continue
         full = urljoin(base, href)

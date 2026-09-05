@@ -33,7 +33,7 @@ class TestLocalStorage(unittest.TestCase):
     def test_write_text_encodes_utf8(self):
         path = self.storage.write_text("nfse", "readme.txt", "olá")
 
-        self.assertEqual(Path(path).read_bytes(), "olá".encode("utf-8"))
+        self.assertEqual(Path(path).read_bytes(), "olá".encode())
 
     def test_exists_after_write(self):
         self.storage.write_bytes("nfe", "a.xsd", b"x")

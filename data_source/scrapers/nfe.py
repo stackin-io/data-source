@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import re
-from typing import Iterable
+from collections.abc import Iterable
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
@@ -29,7 +29,7 @@ class NFeScraper(BaseScraper):
             driver.get(url)
             soup = BeautifulSoup(driver.page_source, "lxml")
             for anchor in soup.find_all("a", href=True):
-                href = anchor["href"].strip()
+                href = str(anchor["href"]).strip()
                 if not href.startswith(DOWNLOAD_PREFIXES):
                     continue
                 title = _link_title(anchor)

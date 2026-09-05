@@ -1,8 +1,8 @@
 from __future__ import annotations
 
 from abc import ABC, abstractmethod
+from collections.abc import Iterable
 from dataclasses import dataclass, field
-from typing import Iterable
 
 from data_source.config import Settings, get_settings
 from data_source.core.browser import Browser
@@ -11,7 +11,7 @@ from data_source.core.logger import configure as configure_logging
 from data_source.core.logger import get_logger
 from data_source.core.storage import LocalStorage, Storage
 from data_source.core.unpack import maybe_unpack_zip
-from data_source.exceptions import DiscoveryError, ExtractionError, ScraperError
+from data_source.exceptions import DiscoveryError, ScraperError
 
 
 @dataclass(frozen=True)
@@ -90,7 +90,7 @@ class BaseScraper(ABC):
         """Override to change per-item error behavior (retry, skip, abort)."""
         self._log.warning("scrape.item_failed", url=item.url, error=str(exc))
 
-    def subpath_for(self, item: ScrapeItem) -> str:
+    def subpath_for(self, item: ScrapeItem) -> str:  # noqa: ARG002
         """Return the subpath under `context/` this item will populate.
 
         Used to skip work when the target folder is already populated. Default is

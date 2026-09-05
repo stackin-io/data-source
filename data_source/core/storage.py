@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Protocol
 
@@ -32,7 +32,7 @@ class LocalStorage:
     def _resolve(self, context: str, filename: str) -> Path:
         parts: list[str] = [context]
         if self._dated:
-            parts.append(datetime.now(tz=timezone.utc).strftime("%Y-%m-%d"))
+            parts.append(datetime.now(tz=UTC).strftime("%Y-%m-%d"))
         target = self._root.joinpath(*parts, filename)
         target.parent.mkdir(parents=True, exist_ok=True)
         return target
@@ -57,11 +57,11 @@ class LocalStorage:
         Used to skip re-downloading items whose target folder is already populated."""
         parts: list[str] = [context]
         if self._dated:
-            parts.append(datetime.now(tz=timezone.utc).strftime("%Y-%m-%d"))
+            parts.append(datetime.now(tz=UTC).strftime("%Y-%m-%d"))
         folder = self._root.joinpath(*parts)
         if not folder.exists():
             return False
-        for entry in folder.iterdir():
-            if entry.is_file() and entry.name != ".gitkeep":
-                return True
-        return False
+        return any(
+            entry.is_file() and entry.name != ".gitkeep"
+            for entry in folder.iterdir()
+        )

@@ -1,7 +1,7 @@
 import tempfile
 import unittest
+from collections.abc import Iterable
 from pathlib import Path
-from typing import Iterable
 from unittest.mock import MagicMock
 
 from data_source.config import Settings
@@ -32,7 +32,7 @@ class TestBaseScraperContract(unittest.TestCase):
             def discover(self):
                 return []
 
-            def extract(self, item):
+            def extract(self, item):  # noqa: ARG002
                 return []
 
         with self.assertRaises(ScraperError):

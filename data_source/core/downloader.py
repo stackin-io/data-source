@@ -51,7 +51,7 @@ class Downloader:
         self._log = get_logger(__name__)
         self._last_request_at = 0.0
 
-    def __enter__(self) -> "Downloader":
+    def __enter__(self) -> Downloader:
         return self
 
     def __exit__(self, exc_type, exc, tb) -> None:  # type: ignore[no-untyped-def]
