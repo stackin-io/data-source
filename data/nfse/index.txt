@@ -1,0 +1,47 @@
+Documentação Atual
+Aqui são dispostos os guias, manuais e anexos atuais de Produção da plataforma NFS-e.
+Compartilhe:  Compartilhe por Facebook Compartilhe por Twitter Compartilhe por LinkedIn Compartilhe por WhatsApplink para Copiar para área de transferência
+Publicado em 10/12/2025 20h15 Atualizado em 15/08/2026 09h58
+Guias
+
+Guia do Emissor Público Nacional Web
+
+Guia do Painel Administrativo Municipal
+
+Manuais
+
+API - Manual de Contribuintes - Emissor Público
+
+API - Manual de Municípios - ADN (Compartilhamento)
+
+API - Manual de Municípios - CNC (Cadastro Nacional de Contribuintes)
+
+API - Manual de Municípios - Emissor Público
+
+API - Manual de Contribuintes - Guia de Utilização das APIs do ADN
+
+API - Manual de Contribuintes - Emissor Público Nacional - Emissão por Decisão Administrativa ou Judicial
+
+Esquemas XSD
+
+NFSe-ESQUEMAS_XSD-v1.01-20260209
+
+Anexos de Domínio
+
+ANEXO_A-MUNICIPIO_IBGE-PAISES_ISO2-v1.00-SNNFSe-20251210
+
+ANEXO_B-NBS2-LISTA_SERVICO_NACIONAL-SNNFSe-v1.01-20260122
+
+ANEXO_C-INDOP_IBSCBS-SNNFSe-v1.01
+
+Anexos de Layout
+
+ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe-v1.01-20260209
+
+ANEXO_II-SEFIN_ADN-PEDREGEVT_EVT-SNNFSe-v1.01-20260122
+
+ANEXO_III-CNC-SNNFSe-v1.00-20251216
+
+ANEXO_IV-ADN-SNNFSe-v1.00-20251216
+
+ANEXO_V-PAINEL_ADM_MUNICIPAL-SNNFSe-v1.00-20251216
