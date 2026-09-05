@@ -29,6 +29,7 @@ class Artifact:
     filename: str
     data: bytes
     content_type: str = "application/octet-stream"
+    subpath: str = ""  # extra folder(s) under the context, e.g. "esquemas-xml-nfe-v4"
     metadata: dict[str, str] = field(default_factory=dict)
 
 
@@ -113,7 +114,10 @@ class BaseScraper(ABC):
                     continue
                 for art in artifacts:
                     try:
-                        path = self._storage.write_bytes(self.context, art.filename, art.data)
+                        target_context = self.context
+                        if art.subpath:
+                            target_context = f"{self.context}/{art.subpath.strip('/')}"
+                        path = self._storage.write_bytes(target_context, art.filename, art.data)
                         result.persisted += 1
                         result.paths.append(path)
                     except Exception as exc:

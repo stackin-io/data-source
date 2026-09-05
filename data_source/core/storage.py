@@ -21,7 +21,7 @@ class Storage(Protocol):
 class LocalStorage:
     """Writes into `<root>/<context>/<yyyy-mm-dd>/<filename>`. Idempotent per day."""
 
-    def __init__(self, root: Path, *, dated: bool = True) -> None:
+    def __init__(self, root: Path, *, dated: bool = False) -> None:
         self._root = Path(root)
         self._dated = dated
         self._log = get_logger(__name__)

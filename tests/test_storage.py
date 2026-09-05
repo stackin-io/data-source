@@ -15,12 +15,19 @@ class TestLocalStorage(unittest.TestCase):
     def tearDown(self) -> None:
         self._tmp.cleanup()
 
-    def test_write_bytes_creates_dated_context_folder(self):
+    def test_write_bytes_creates_context_folder(self):
         path = self.storage.write_bytes("nfe", "example.xml", b"<xml/>")
 
         written = Path(path)
         self.assertTrue(written.exists())
         self.assertEqual(written.read_bytes(), b"<xml/>")
+        self.assertEqual(written.parent.name, "nfe")
+
+    def test_write_bytes_supports_nested_context(self):
+        path = self.storage.write_bytes("nfe/some-slug", "a.xsd", b"x")
+
+        written = Path(path)
+        self.assertEqual(written.parent.name, "some-slug")
         self.assertEqual(written.parent.parent.name, "nfe")
 
     def test_write_text_encodes_utf8(self):
