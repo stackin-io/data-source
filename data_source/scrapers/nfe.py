@@ -9,13 +9,12 @@ from selenium.webdriver.common.by import By
 from data_source.core.downloader import Downloader
 from data_source.core.scraper import Artifact, BaseScraper, ScrapeItem
 
-PORTAL_ROOT = "https://www.nfe.fazenda.gov.br/portal/"
+PORTAL_ROOT = "https://hom.nfe.fazenda.gov.br/portal/"
 DOWNLOAD_PATHS = (
-    "listaConteudo.aspx?tipoConteudo=/DzGeeQdVBs=",  # schemas XSD (Pacote de Liberação)
-    "listaConteudo.aspx?tipoConteudo=33ol5hHAIpY=",  # manuais e MOC
+    "listaConteudo.aspx?tipoConteudo=BMPFMBoln3w=",  # Pacote de Liberação (XSDs)
 )
 
-DOWNLOADABLE_SUFFIXES = (".xml", ".xsd", ".pdf", ".zip")
+DOWNLOADABLE_SUFFIXES = (".xml", ".xsd", ".pdf", ".zip", ".doc", ".docx")
 
 
 class NFeScraper(BaseScraper):
