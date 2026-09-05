@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: scrape-nfe
+  group: scrape-data-source
   cancel-in-progress: false
 
 permissions:
@@ -58,4 +58,5 @@ jobs:
             exit 0
           fi
           git commit -m "🤖 DATA(nfe): Scheduled scrape $(date -u +%Y-%m-%d)"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
           git push
