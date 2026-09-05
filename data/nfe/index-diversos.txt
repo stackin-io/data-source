@@ -1,0 +1,249 @@
+Diversos
+Vigentes
+
+Tabela de CNPJs alfa cadastrados no CCC de homologação
+Tabela contendo CNPJ alfanuméricos simulados para testes das empresas
+
+Tabela de Classificação Tributária do IBS e CBS - Publicada em 23/06/2026
+Tabela de classificação tributária do IBS e CBS (cClassTrib) - Referente ao IT 2025.002.v.1.60
+
+Tabela de Código de Crédito Presumido do IBS e CBS - Publicada em 23/06/2026
+Tabela de código de crédito presumido do IBS e CBS (cCredPres) - Referente ao IT 2025.002.v.1.60
+
+Tabela de Alíquotas da CBS - Publicada em 12/05/2026
+Divulga tabela de alíquotas da CBS
+
+Tabela de Código de Índice de Biocombustível do IBS e CBS - Publicada em 24/04/2026
+Tabela de códigos de índice de biocombustível do IBS e CBS
+
+Tabela de Meios de pagamento - Publicada em 06/03/2026
+Tabela de códigos de meios de pagamento
+
+Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Publicada em 05/12/2025
+Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Vide Informe Técnico 2023.003 v.1.08
+
+Tabela de NCM e respectiva uTrib (Comércio Exterior) - Vigente a partir de 01/02/2026 - Publicada em 24/11/2025
+Tabela de NCM com unidade tributária de comércio exterior
+
+Tabela de Código de Crédito Presumido do IBS e CBS - Publicada em 04/07/2025
+Tabela de código de crédito presumido do IBS e CBS
+
+Tabela de Código de Classificação Tributária do IBS e CBS - Publicada em 18/06/2025
+Tabela de códigos de classificação tributária, indicadores de CST e crédito presumido do IBS e CBS
+
+Tabela de Alíquotas de FCP por UF (atualizada em 25/02/2025)
+Tabela contendo as alíquotas por UF do Fundo de Combate à Pobreza (FCP)
+
+Tabela de Municípios - Publicada em 18/02/2025
+Tabela de códigos/nomes de municípios por Unidade Federativa
+
+
+Tabela de código de combustíveis sujeitos à tributação monofásica de ICMS - Vigente a partir de 09/12/2024 - Publicada em 06/12/2024
+Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Vide Informe Técnico 2023.003 v.1.04
+
+
+Tabela de Código de Produtos da ANP - Vigente a partir de 29/11/2024 - Publicada em 18/11/2024
+Tabela de códigos de produtos da ANP - Vide Informe Técnico 2023.001 v.1.10
+
+Tabela de Meios de Pagamento - Vigente a partir de 01/07/2024 - Publicada em 11/04/2024
+Tabela dos códigos de meios de pagamento
+
+Tabela de CFOP - Vigência 24-04-2023
+Tabela de CFOP atualizada com novos CFOP decorrentes do Ajuste SINIEF 10/2021
+
+Tabela de NCM e respectiva uTrib(Comércio Exterior) - Vigente a partir de 01/01/2023 - Publicada em 05/09/2022 - Republicada em 19/09/2022
+Tabela de NCM com unidade tributária de Comércio Exterior - Vide NT 2016.003 v.3.30
+
+Tabela cBenef x CST - Relacionada à Nota Técnica 2019.001
+
+Distrito Federal (Atualizada em 31/10/2025)
+
+https://ww1.receita.fazenda.df.gov.br/legislacao/visualizar-legislacao?txtNumero=4&txtAno=2023&txtTipo=734&txtParte=.&identificacao=Ato Declaratório - Assuntos Econômicos nº 4/2023
+
+
+
+Estado de Goiás
+
+https://www.economia.go.gov.br/files/Documentos_Fiscais/IN.docx
+
+
+
+Estado do Espírito Santo
+
+https://sefaz.es.gov.br/codigos-de-beneficios-fiscais-cbenef
+
+
+
+Estado do Paraná
+
+https://sped.fazenda.pr.gov.br/NFe/Pagina/CODIGO-DE-BENEFICIO-FISCAL
+
+
+
+Estado do Rio Grande do Sul
+
+https://atendimento.receita.rs.gov.br/nf-e-nota-fiscal-eletronica
+
+
+
+Estado do Rio de Janeiro
+
+http://www.fazenda.rj.gov.br/dfe
+
+
+
+Estado de Santa Catarina
+
+https://www.sef.sc.gov.br/servicos/servico/88/SPED_Fiscal
+
+
+
+Estado de São Paulo
+
+https://portal.fazenda.sp.gov.br/servicos/nfe/Paginas/cBenef.aspx
+
+
+
+Obs: Os demais Estados não utilizam a tabela cBenef.
+
+Tabela de País - Relacionada a NT 2018.003. v1.00
+
+Tabela Unidades de Medida Comercial 05.07.2016
+Tabela Padrão de Unidades de Medidas Comerciais
+
+Classificação NCM do Portal Siscomex
+Acesso aos serviços de classificação de Mercadoria do Portal Único Siscomex.
+
+Vigência Expirada
+
+Tabela de Código de Crédito Presumido do IBS e CBS - Publicada em 15/12/2025
+Tabela de código de crédito presumido do IBS e CBS (cCredPres)
+
+Tabela de Código de Classificação Tributária do IBS/CBS - Publicada em 15/04/2026
+Tabela de códigos de classificação tributária e indicadores de CST do IBS e CBS (cClassTrib)
+
+Tabela de Código de Índice de Biocombustível do IBS e CBS - Publicada em 18/06/2025
+Tabela de códigos de índice de biocombustível do IBS e CBS
+
+Tabela de Código de Classificação Tributária do IBS e CBS - Publicada em 03/10/2025
+Tabela de códigos de classificação tributária e indicadores de CST do IBS e CBS (cClassTrib)
+
+Tabela de Código de Crédito Presumido do IBS e CBS - Publicada em 07/10/2025
+Tabela de código de crédito presumido do IBS e CBS (cCredPres)
+
+Tabela de NCM e respectiva uTrib (Comércio Exterior) - Vigente a partir de 01/10/2025 - Publicada em 31/07/2025
+Tabela de NCM com unidade tributária de comércio exterior
+
+Tabela de NCM e respectiva uTrib (Comércio Exterior) - Vigente a partir de 02/01/2025 - Publicada em 18/12/2024
+Tabela de NCM com unidade tributária de comércio exterior
+
+Tabela de Indicadores de CST do IBS e CBS - Publicada em 19/05/2025
+Tabela de indicadores de CST do IBS e CBS
+
+Tabela de Código de Classificação Tributária do IBS/CBS - Publicada em 28/01/2026
+Tabela de códigos de classificação tributária e indicadores de CST do IBS e CBS (cClassTrib)
+
+Tabela de Código de Classificação Tributária do IBS/CBS - Publicada em 15/12/2025
+Tabela de códigos de classificação tributária e indicadores de CST do IBS e CBS (cClassTrib)
+
+Tabela de Código de Classificação Tributária do IBS/CBS - Publicada em 24/11/2025
+Tabela de códigos de classificação tributária e indicadores de CST do IBS e CBS (cClassTrib)
+
+Tabela de Código de Classificação Tributária do IBS e CBS - Publicada em 19/05/2025
+Tabela de códigos de classificação tributária do IBS e CBS
+
+Tabela de Código de Classificação Tributária do IBS e CBS - Publicada em 06/05/2025
+Tabela de Código de Classificação Tributária do IBS e CBS
+
+Tabela de Código de Classificação Tributária do IBS e da CBS - Publicada em 07/12/2024
+Tabela de Código de Classificação Tributária do IBS e da CBS - Vide Informe Técnico 2024.001 - v. 1.00
+
+DTB 2014 Município
+Divisão Territorial Brasileira: Código e Nome UF, Código e Nome Município
+
+Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Publicada em 27/05/24
+Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Vide Nota Técnica 2023.001 v.1.51
+
+Tabela de Meios de pagamento - Publicada em 29/09/2025
+Tabela de códigos de meios de pagamento
+
+Tabela de Meios de Pagamento - Vigente a partir de 01/07/2024 - Publicada em 07/06/2024
+Tabela dos códigos de meios de pagamento
+
+Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Publicada em 04/11/2025
+Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Vide Informe Técnico 2023.003 v.1.07
+
+Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Publicada em 29/09/2025
+Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Vide Informe Técnico 2023.003 v.1.06
+
+Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Publicada em 14/01/25
+Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Vide Informe Técnico 2023.003 v.1.05
+
+Tabela de código de combustíveis sujeitos à tributação monofásica de ICMS - Publicada em 06/12/2024
+Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Vide Informe Técnico 2023.003 v.1.04
+
+Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Publicada em 28/02/2024
+Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Vide Nota Técnica 2023.001 v.1.50
+
+Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Publicada em 19/04/2023
+Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Vide Nota Técnica 2023.001 v.1.20
+
+Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Publicada em 23/02/2024
+Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Vide Nota Técnica 2023.001 v1.50
+
+Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Publicada em 28/12/2023
+Tabela de códigos de combustíveis sujeitos à tributação monofásica de ICMS - Vide Nota Técnica 2023.001 v1.50
+
+Tabela de Alíquotas de FCP por UF (atualizada em 30/01/2024)
+Tabela contendo as alíquotas por UF do Fundo de Combate à Pobreza (FCP)
+
+Tabela de Alíquotas de FCP por UF (atualizada em 28/12/2023)
+Tabela contendo as alíquotas por UF do Fundo de Combate à Pobreza (FCP)
+
+Tabela de Alíquotas de FCP por UF (atualizada em 03/05/2023)
+Tabela de Alíquotas de FCP por UF (atualizada em 03/05/2023)
+
+Tabela de Alíquotas de FCP por UF (atualizada em 30/03/2023)
+Tabela contendo as alíquotas por UF do Fundo de Combate à Pobreza (FCP)
+
+Tabela de NCM e respectiva uTrib (Comércio Exterior) - Vigente a partir de 02/10/2024 - Publicada em 01/10/2024
+Tabela de NCM com unidade tributária de comércio exterior
+
+Tabela de NCM e respectiva uTrib (Comércio Exterior) - Vigente a partir de 01/04/2024, 01/07/2024 e 01/08/2024 - Publicada em 07/03/2024
+Tabela de NCM com unidade tributária de comércio exterior
+
+Tabela de NCM e respectiva uTrib(Comércio Exterior) - Vigente a partir de 01/04/2024 - Publicada em 09/01/2024
+Tabela de NCM com unidade tributária de Comércio Exterior - Vide NT 2016.003 v.3.70
+
+Tabela de NCM e respectiva uTrib(Comércio Exterior) - Vigente a partir de 01/11/2023 ou 01/01/2024 - Publicada em 30/10/2023
+Tabela de NCM com unidade tributária de Comércio Exterior - Vide NT 2016.003 v.3.62
+
+Tabela de NCM e respectiva uTrib(Comércio Exterior) - Vigente a partir de 01/11/2023 - Publicada em 18/08/2023
+Tabela de NCM com unidade tributária de Comércio Exterior - Vide NT 2016.003 v.3.60
+
+Tabela de NCM e respectiva uTrib(Comércio Exterior) - Vigente a partir de 01/04/2023 - Publicada em 03/02/2023
+Tabela de NCM com unidade tributária de Comércio Exterior - Vide NT 2016.003 v.3.50
+
+Tabela de NCM e respectiva Utrib (Comércio Exterior) - Vigência 01/04/2021 - Publicada em 19/02/2021
+Tabela NCM com unidade tributária de Comércio Exterior - Vide NT 2016.003 v.1.90
+
+Tabela de NCM e respectiva UTrib(comércio exterior) - Vigência 01/07/2020 - Publicada em 01/06/2020
+Tabela NCM com UTrib de Comércio Exterior - Vigência a partir de 01/07/2020. Vide NT 2016.003 v.1.70.
+
+Tabela NCM e respectiva Utrib (comércio exterior) - Vigência 01/01/2020 - Publicada em 11/11/2019
+Tabela de NCM, com Utrib de comércio exterior, vigência a partir de 01/01/2020. Vide NT 2016.003 v1.60.
+
+Tabela NCM e respectiva Utrib (comércio exterior) - Vigência 01/01/2019 - Publicada em 09/11/2018
+Tabela NCM, com Utrib de comércio exterior, Vigência a partir de 01/01/2019. Vide NT 2016.001. v.1.50
+
+Tabela de Meios de Pagamento - Publicada em 16/03/2021
+Tabela dos códigos de meios de pagamento
+
+Tabela de CFOP - Vigência 01-set-2018
+Tabela de CFOP alterada, com novos CFOP vigentes a partir de 01-set-2018
+
+Consumo Indevido do Ambiente de Autorização
+Aplicação Cliente / Consumo Indevido do Ambiente de Autorização
+
+NCM 8 Dígitos (atualizada em 25/08/2016)
+Nomenclatura Comum do Mercosul 8 Dígitos

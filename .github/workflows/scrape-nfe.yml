@@ -45,6 +45,9 @@ jobs:
       - name: Run NFe Informes Técnicos scraper
         run: poetry run data-source scrape nfe/informes-tecnicos --out ./data
 
+      - name: Run NFe Diversos scraper
+        run: poetry run data-source scrape nfe/diversos --out ./data
+
       - name: Commit new files as stackin-bot
         run: |
           git config user.name "stackin-bot"
