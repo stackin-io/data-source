@@ -9,7 +9,7 @@
 [![Updates](https://img.shields.io/badge/updates-a%20cada%206h-success?style=flat-square)](.github/workflows)
 [![License](https://img.shields.io/badge/license-MIT-informational?style=flat-square)](LICENSE)
 
-[Assinar newsletter](https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml) · [Manifest JSON](https://raw.githubusercontent.com/stackin-io/data-source/master/data/manifest.json) · [stackin.io](https://stackin.io)
+[Assinar newsletter](https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml) · [Manifest JSON](https://raw.githubusercontent.com/stackin-io/data-source/master/data/manifest.json) · [app.stackin.io](https://app.stackin.io)
 
 </div>
 
@@ -77,7 +77,7 @@ Todo integrador fiscal brasileiro repete o mesmo trabalho: monitorar dois portai
 
 Isso não é diferencial de produto. É custo compartilhado que ninguém precisa pagar duas vezes. O `data-source` resolve uma vez pra todo mundo, em código aberto.
 
-Feito pela [Stackin](https://stackin.io).
+Feito pela [Stackin](https://app.stackin.io).
 
 <!--
 Keywords: NF-e, NFe, NFS-e, NFSe, SEFAZ, ADN, gov.br, Brasil, Nota Fiscal Eletrônica,
