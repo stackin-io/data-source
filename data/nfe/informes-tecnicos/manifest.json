@@ -1,13 +1,13 @@
 {
   "context": "nfe/informes-tecnicos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos",
-  "generated_at": "2026-09-05T18:30:28+00:00",
-  "started_at": "2026-09-05T18:29:52+00:00",
-  "duration_s": 36.42,
+  "generated_at": "2026-09-05T22:38:14+00:00",
+  "started_at": "2026-09-05T22:38:11+00:00",
+  "duration_s": 2.93,
   "totals": {
     "discovered": 42,
-    "persisted": 42,
-    "skipped": 0,
+    "persisted": 0,
+    "skipped": 42,
     "failed": 0
   },
   "items": [
@@ -17,16 +17,16 @@
       "description": "Informes Técnicos DOCUMENTO",
       "published_at": "2026-08-25",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=bXuVCFylLzI=",
-      "folder": "data/nfe/informes-tecnicos/2026-08-25_informes-tecnicos-documento-publicado-em-25082026",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-08-25_informes-tecnicos-documento-publicado-em-25082026",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2026-08-25_informes-tecnicos-documento-publicado-em-25082026/NF-e - v 1.09.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-08-25_informes-tecnicos-documento-publicado-em-25082026/NF-e - v 1.09.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:29:58+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-25_teste-2026.001-tarde-publicado-em-25082026",
@@ -34,16 +34,16 @@
       "description": "teste 2026.001 tarde",
       "published_at": "2026-08-25",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=XWUq47hwvH4=",
-      "folder": "data/nfe/informes-tecnicos/2026-08-25_teste-2026.001-tarde-publicado-em-25082026",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-08-25_teste-2026.001-tarde-publicado-em-25082026",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2026-08-25_teste-2026.001-tarde-publicado-em-25082026/IT 2025.004 v.1.20 - Tabela de Indíce.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-08-25_teste-2026.001-tarde-publicado-em-25082026/IT 2025.004 v.1.20 - Tabela de Indíce.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:29:58+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-20_teste-21-37-publicado-em-20082026",
@@ -51,16 +51,16 @@
       "description": "Teste 21 37",
       "published_at": "2026-08-20",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=t/qO0j4mHlU=",
-      "folder": "data/nfe/informes-tecnicos/2026-08-20_teste-21-37-publicado-em-20082026",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-08-20_teste-21-37-publicado-em-20082026",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2026-08-20_teste-21-37-publicado-em-20082026/IT 2025.004 v.1.20 - Tabela de Indíce.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-08-20_teste-21-37-publicado-em-20082026/IT 2025.004 v.1.20 - Tabela de Indíce.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:29:59+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-06-23_informe-tecnico-2025.002-v.1.60-publicado-em-23062026",
@@ -68,16 +68,16 @@
       "description": "Informe Técnico 2025.002 v.1.60",
       "published_at": "2026-06-23",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=trSXReoZPuY=",
-      "folder": "data/nfe/informes-tecnicos/2026-06-23_informe-tecnico-2025.002-v.1.60-publicado-em-23062026",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-06-23_informe-tecnico-2025.002-v.1.60-publicado-em-23062026",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2026-06-23_informe-tecnico-2025.002-v.1.60-publicado-em-23062026/IT 2025.002 v.1.60 - Tabelas de Classificação do IBS e da CBS - (2026_06_22).pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-06-23_informe-tecnico-2025.002-v.1.60-publicado-em-23062026/IT 2025.002 v.1.60 - Tabelas de Classificação do IBS e da CBS - (2026_06_22).pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:00+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-05-12_informe-tecnico-2026.002-v.1.00-publicado-em-12052026",
@@ -85,16 +85,16 @@
       "description": "Informe Técnico 2026.002 v.1.00",
       "published_at": "2026-05-12",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=XQ5x9fEobeA=",
-      "folder": "data/nfe/informes-tecnicos/2026-05-12_informe-tecnico-2026.002-v.1.00-publicado-em-12052026",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-05-12_informe-tecnico-2026.002-v.1.00-publicado-em-12052026",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2026-05-12_informe-tecnico-2026.002-v.1.00-publicado-em-12052026/IT 2026.002 v.1.00 - Tabela de Aliquotas da CBS.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-05-12_informe-tecnico-2026.002-v.1.00-publicado-em-12052026/IT 2026.002 v.1.00 - Tabela de Aliquotas da CBS.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:00+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-05-12_informe-tecnico-2026.001-v.1.00-publicado-em-12052026",
@@ -102,16 +102,16 @@
       "description": "Informe Técnico 2026.001 v.1.00",
       "published_at": "2026-05-12",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=RhbVSDlX4O8=",
-      "folder": "data/nfe/informes-tecnicos/2026-05-12_informe-tecnico-2026.001-v.1.00-publicado-em-12052026",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-05-12_informe-tecnico-2026.001-v.1.00-publicado-em-12052026",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2026-05-12_informe-tecnico-2026.001-v.1.00-publicado-em-12052026/IT 2026.001 v.1.00 - Tabelas de Meios de Pagamento para Vinculação com o Split.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-05-12_informe-tecnico-2026.001-v.1.00-publicado-em-12052026/IT 2026.001 v.1.00 - Tabelas de Meios de Pagamento para Vinculação com o Split.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:01+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-04-24_informe-tecnico-2025.004-v.1.10-publicado-em-24042026",
@@ -119,16 +119,16 @@
       "description": "Informe Técnico 2025.004 v.1.10",
       "published_at": "2026-04-24",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=fB1iUC0NqyI=",
-      "folder": "data/nfe/informes-tecnicos/2026-04-24_informe-tecnico-2025.004-v.1.10-publicado-em-24042026",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-04-24_informe-tecnico-2025.004-v.1.10-publicado-em-24042026",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2026-04-24_informe-tecnico-2025.004-v.1.10-publicado-em-24042026/IT 2025.004 v.1.10 - Tabela de IndÃ­ce de Mistura de BioCombsutÃ­vel.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-04-24_informe-tecnico-2025.004-v.1.10-publicado-em-24042026/IT 2025.004 v.1.10 - Tabela de IndÃ­ce de Mistura de BioCombsutÃ­vel.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:02+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-04-15_informe-tecnico-2025.002-v.1.50-publicado-em-15042026",
@@ -136,16 +136,16 @@
       "description": "Informe Técnico 2025.002 v.1.50",
       "published_at": "2026-04-15",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=E1nOtSqZmEI=",
-      "folder": "data/nfe/informes-tecnicos/2026-04-15_informe-tecnico-2025.002-v.1.50-publicado-em-15042026",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-04-15_informe-tecnico-2025.002-v.1.50-publicado-em-15042026",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2026-04-15_informe-tecnico-2025.002-v.1.50-publicado-em-15042026/IT 2025.002 v.1.50 - Tabelas de ClassificaÃ§Ã£o do IBS e da CBS - RFB (2026_04_15).pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-04-15_informe-tecnico-2025.002-v.1.50-publicado-em-15042026/IT 2025.002 v.1.50 - Tabelas de ClassificaÃ§Ã£o do IBS e da CBS - RFB (2026_04_15).pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:03+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-03-06_informe-tecnico-2024.002-v.1.11-publicado-em-06032026",
@@ -153,16 +153,16 @@
       "description": "Informe Técnico 2024.002 v.1.11",
       "published_at": "2026-03-06",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=r1pBhiRUWSs=",
-      "folder": "data/nfe/informes-tecnicos/2026-03-06_informe-tecnico-2024.002-v.1.11-publicado-em-06032026",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-03-06_informe-tecnico-2024.002-v.1.11-publicado-em-06032026",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2026-03-06_informe-tecnico-2024.002-v.1.11-publicado-em-06032026/IT2024.002v1.11 - Atualiza Tabela Meios de Pagamento - 04032026.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-03-06_informe-tecnico-2024.002-v.1.11-publicado-em-06032026/IT2024.002v1.11 - Atualiza Tabela Meios de Pagamento - 04032026.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:03+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-01-28_informe-tecnico-2025.002-v.1.40-publicado-em-28012026",
@@ -170,16 +170,16 @@
       "description": "Informe Técnico 2025.002 v.1.40",
       "published_at": "2026-01-28",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=6luq3tpmg08=",
-      "folder": "data/nfe/informes-tecnicos/2026-01-28_informe-tecnico-2025.002-v.1.40-publicado-em-28012026",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-01-28_informe-tecnico-2025.002-v.1.40-publicado-em-28012026",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2026-01-28_informe-tecnico-2025.002-v.1.40-publicado-em-28012026/IT 2025.002 v.1.40 - Tabelas de ClassificaÃ§Ã£o do IBS e da CBS.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-01-28_informe-tecnico-2025.002-v.1.40-publicado-em-28012026/IT 2025.002 v.1.40 - Tabelas de ClassificaÃ§Ã£o do IBS e da CBS.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:04+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-12-15_informe-tecnico-2025.002-v.1.31-publicado-em-15122025",
@@ -187,16 +187,16 @@
       "description": "Informe Técnico 2025.002 v.1.31",
       "published_at": "2025-12-15",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=ECxaPvwFHQE=",
-      "folder": "data/nfe/informes-tecnicos/2025-12-15_informe-tecnico-2025.002-v.1.31-publicado-em-15122025",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-12-15_informe-tecnico-2025.002-v.1.31-publicado-em-15122025",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2025-12-15_informe-tecnico-2025.002-v.1.31-publicado-em-15122025/IT 2025.002 v.1.31 - Tabelas de ClassificaÃ§Ã£o do IBS e da CBS.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-12-15_informe-tecnico-2025.002-v.1.31-publicado-em-15122025/IT 2025.002 v.1.31 - Tabelas de ClassificaÃ§Ã£o do IBS e da CBS.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:06+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-12-05_informe-tecnico-2023.003.1.08-publicado-em-05122025",
@@ -204,16 +204,16 @@
       "description": "Informe Técnico 2023.003.1.08",
       "published_at": "2025-12-05",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=eWTd1q6pRMM=",
-      "folder": "data/nfe/informes-tecnicos/2025-12-05_informe-tecnico-2023.003.1.08-publicado-em-05122025",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-12-05_informe-tecnico-2023.003.1.08-publicado-em-05122025",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2025-12-05_informe-tecnico-2023.003.1.08-publicado-em-05122025/IT_2023.003_v1.08 - Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-12-05_informe-tecnico-2023.003.1.08-publicado-em-05122025/IT_2023.003_v1.08 - Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:06+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-11-24_informe-tecnico-2024.001-v.2.30-publicado-em-24112025",
@@ -221,16 +221,16 @@
       "description": "Informe Técnico 2024.001 - v.2.30",
       "published_at": "2025-11-24",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=pQnI9eoGIEk=",
-      "folder": "data/nfe/informes-tecnicos/2025-11-24_informe-tecnico-2024.001-v.2.30-publicado-em-24112025",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-11-24_informe-tecnico-2024.001-v.2.30-publicado-em-24112025",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2025-11-24_informe-tecnico-2024.001-v.2.30-publicado-em-24112025/IT2024.001v2.30 - Atualiza tabela de NCM.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-11-24_informe-tecnico-2024.001-v.2.30-publicado-em-24112025/IT2024.001v2.30 - Atualiza tabela de NCM.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:06+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-11-24_informe-tecnico-2025.002-v.1.30-publicado-em-24112025",
@@ -238,16 +238,16 @@
       "description": "Informe Técnico 2025.002 v.1.30",
       "published_at": "2025-11-24",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=fy2Zfw0ZAA8=",
-      "folder": "data/nfe/informes-tecnicos/2025-11-24_informe-tecnico-2025.002-v.1.30-publicado-em-24112025",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-11-24_informe-tecnico-2025.002-v.1.30-publicado-em-24112025",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2025-11-24_informe-tecnico-2025.002-v.1.30-publicado-em-24112025/IT 2025.002 v.1.30 - Tabelas de ClassificaÃ§Ã£o do IBS e da CBS.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-11-24_informe-tecnico-2025.002-v.1.30-publicado-em-24112025/IT 2025.002 v.1.30 - Tabelas de ClassificaÃ§Ã£o do IBS e da CBS.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:07+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-11-04_informe-tecnico-2023.003-v.1.07-publicado-em-04112025",
@@ -255,16 +255,16 @@
       "description": "Informe Técnico 2023.003 v.1.07",
       "published_at": "2025-11-04",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=6WfrpZYE4Ik=",
-      "folder": "data/nfe/informes-tecnicos/2025-11-04_informe-tecnico-2023.003-v.1.07-publicado-em-04112025",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-11-04_informe-tecnico-2023.003-v.1.07-publicado-em-04112025",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2025-11-04_informe-tecnico-2023.003-v.1.07-publicado-em-04112025/IT_2023.003_v1.07 - Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-11-04_informe-tecnico-2023.003-v.1.07-publicado-em-04112025/IT_2023.003_v1.07 - Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:08+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-09-29_informe-tecnico-2024.002-v.1.10-publicado-em-29092025",
@@ -272,16 +272,16 @@
       "description": "Informe Técnico 2024.002 v.1.10",
       "published_at": "2025-09-29",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=/wLDITfRXKw=",
-      "folder": "data/nfe/informes-tecnicos/2025-09-29_informe-tecnico-2024.002-v.1.10-publicado-em-29092025",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-09-29_informe-tecnico-2024.002-v.1.10-publicado-em-29092025",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2025-09-29_informe-tecnico-2024.002-v.1.10-publicado-em-29092025/IT2024.002v1.10 - Atualiza Tabela Meios de Pagamento - 20250922.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-09-29_informe-tecnico-2024.002-v.1.10-publicado-em-29092025/IT2024.002v1.10 - Atualiza Tabela Meios de Pagamento - 20250922.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:09+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-09-29_informe-tecnico-2023.003-v.1.06-publicado-em-29092025",
@@ -289,16 +289,16 @@
       "description": "Informe Técnico 2023.003 - v.1.06",
       "published_at": "2025-09-29",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo= rpZJPF6W/k=",
-      "folder": "data/nfe/informes-tecnicos/2025-09-29_informe-tecnico-2023.003-v.1.06-publicado-em-29092025",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-09-29_informe-tecnico-2023.003-v.1.06-publicado-em-29092025",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2025-09-29_informe-tecnico-2023.003-v.1.06-publicado-em-29092025/IT_2023.003_v1.06 - Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-09-29_informe-tecnico-2023.003-v.1.06-publicado-em-29092025/IT_2023.003_v1.06 - Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:09+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-07-31_informe-tecnico-2024.001-v.2.10-publicado-em-31072025",
@@ -306,16 +306,16 @@
       "description": "Informe Técnico 2024.001 - v.2.10",
       "published_at": "2025-07-31",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=hzalNA8MFAQ=",
-      "folder": "data/nfe/informes-tecnicos/2025-07-31_informe-tecnico-2024.001-v.2.10-publicado-em-31072025",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-07-31_informe-tecnico-2024.001-v.2.10-publicado-em-31072025",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2025-07-31_informe-tecnico-2024.001-v.2.10-publicado-em-31072025/IT2024.001v2.20 - Atualiza tabela de NCM.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-07-31_informe-tecnico-2024.001-v.2.10-publicado-em-31072025/IT2024.001v2.20 - Atualiza tabela de NCM.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:10+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-06-24_informe-tecnico-2025.002-v.1.11-publicado-em-24062025",
@@ -323,16 +323,16 @@
       "description": "Informe Técnico 2025.002 v.1.11",
       "published_at": "2025-06-24",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=i1GymMjNnKA=",
-      "folder": "data/nfe/informes-tecnicos/2025-06-24_informe-tecnico-2025.002-v.1.11-publicado-em-24062025",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-06-24_informe-tecnico-2025.002-v.1.11-publicado-em-24062025",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2025-06-24_informe-tecnico-2025.002-v.1.11-publicado-em-24062025/IT 2025.002 v.1.11 - Tabelas de ClassificaÃ§Ã£o do IBS e da CBS.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-06-24_informe-tecnico-2025.002-v.1.11-publicado-em-24062025/IT 2025.002 v.1.11 - Tabelas de ClassificaÃ§Ã£o do IBS e da CBS.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:11+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-06-23_informe-tecnico-2025.004-v.1.00-publicado-em-23062025",
@@ -340,16 +340,16 @@
       "description": "Informe Técnico 2025.004 v.1.00",
       "published_at": "2025-06-23",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=mGUQTySM4hM=",
-      "folder": "data/nfe/informes-tecnicos/2025-06-23_informe-tecnico-2025.004-v.1.00-publicado-em-23062025",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-06-23_informe-tecnico-2025.004-v.1.00-publicado-em-23062025",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2025-06-23_informe-tecnico-2025.004-v.1.00-publicado-em-23062025/IT 2025.004 v.1.00 - Tabela de Ãndice de Mistura de BioCombustÃ­vel.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-06-23_informe-tecnico-2025.004-v.1.00-publicado-em-23062025/IT 2025.004 v.1.00 - Tabela de Ãndice de Mistura de BioCombustÃ­vel.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:12+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-06-23_informe-tecnico-2025.002-v.1.10-publicado-em-23062025",
@@ -357,16 +357,16 @@
       "description": "Informe Técnico 2025.002 v.1.10",
       "published_at": "2025-06-23",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=LcDe63k 9Vk=",
-      "folder": "data/nfe/informes-tecnicos/2025-06-23_informe-tecnico-2025.002-v.1.10-publicado-em-23062025",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-06-23_informe-tecnico-2025.002-v.1.10-publicado-em-23062025",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2025-06-23_informe-tecnico-2025.002-v.1.10-publicado-em-23062025/IT 2025.002 v.1.10 - Tabelas de ClassificaÃ§Ã£o do IBS e da CBS_20250618_V3.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-06-23_informe-tecnico-2025.002-v.1.10-publicado-em-23062025/IT 2025.002 v.1.10 - Tabelas de ClassificaÃ§Ã£o do IBS e da CBS_20250618_V3.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:13+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-06-11_informe-tecnico-2025.003-v.1.00-publicado-em-11062025",
@@ -374,16 +374,16 @@
       "description": "Informe Técnico 2025.003 - v.1.00",
       "published_at": "2025-06-11",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=P95AveUTQgs=",
-      "folder": "data/nfe/informes-tecnicos/2025-06-11_informe-tecnico-2025.003-v.1.00-publicado-em-11062025",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-06-11_informe-tecnico-2025.003-v.1.00-publicado-em-11062025",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2025-06-11_informe-tecnico-2025.003-v.1.00-publicado-em-11062025/IT_2025.003- AlteraÃ§Ã£o EndereÃ§o QRCode NFC-e - GO.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-06-11_informe-tecnico-2025.003-v.1.00-publicado-em-11062025/IT_2025.003- AlteraÃ§Ã£o EndereÃ§o QRCode NFC-e - GO.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:13+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-05-19_informe-tecnico-2025.002-v.1.00-publicado-em-19052025",
@@ -391,16 +391,16 @@
       "description": "Informe Técnico 2025.002 - v.1.00",
       "published_at": "2025-05-19",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=zgeX1KKAxCQ=",
-      "folder": "data/nfe/informes-tecnicos/2025-05-19_informe-tecnico-2025.002-v.1.00-publicado-em-19052025",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-05-19_informe-tecnico-2025.002-v.1.00-publicado-em-19052025",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2025-05-19_informe-tecnico-2025.002-v.1.00-publicado-em-19052025/IT 2025.002 v.1.00 - CÃ³digo de ClassificaÃ§Ã£o TributÃ¡ria.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-05-19_informe-tecnico-2025.002-v.1.00-publicado-em-19052025/IT 2025.002 v.1.00 - CÃ³digo de ClassificaÃ§Ã£o TributÃ¡ria.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:14+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-02-25_informe-tecnico-2023.004-v.1.03-publicado-em-25022025",
@@ -408,16 +408,16 @@
       "description": "Informe Técnico 2023.004 - v.1.03",
       "published_at": "2025-02-25",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=B5R85MHA7f8=",
-      "folder": "data/nfe/informes-tecnicos/2025-02-25_informe-tecnico-2023.004-v.1.03-publicado-em-25022025",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-02-25_informe-tecnico-2023.004-v.1.03-publicado-em-25022025",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2025-02-25_informe-tecnico-2023.004-v.1.03-publicado-em-25022025/IT2023.004v1.03 - Atualiza FCP.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-02-25_informe-tecnico-2023.004-v.1.03-publicado-em-25022025/IT2023.004v1.03 - Atualiza FCP.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:15+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-02-18_informe-tecnico-2025.001-v.1.00-publicado-em-18022025",
@@ -425,16 +425,16 @@
       "description": "Informe Técnico 2025.001 - v.1.00",
       "published_at": "2025-02-18",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo= T/kEZXXqhc=",
-      "folder": "data/nfe/informes-tecnicos/2025-02-18_informe-tecnico-2025.001-v.1.00-publicado-em-18022025",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-02-18_informe-tecnico-2025.001-v.1.00-publicado-em-18022025",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2025-02-18_informe-tecnico-2025.001-v.1.00-publicado-em-18022025/IT2025.001v1.00 - Atualiza Tabela Municipios.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-02-18_informe-tecnico-2025.001-v.1.00-publicado-em-18022025/IT2025.001v1.00 - Atualiza Tabela Municipios.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:15+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-01-14_informe-tecnico-2023.003-v.1.05-publicado-em-14012025",
@@ -442,16 +442,16 @@
       "description": "Informe Técnico 2023.003 - v.1.05",
       "published_at": "2025-01-14",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=4HsUqfpp1X0=",
-      "folder": "data/nfe/informes-tecnicos/2025-01-14_informe-tecnico-2023.003-v.1.05-publicado-em-14012025",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-01-14_informe-tecnico-2023.003-v.1.05-publicado-em-14012025",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2025-01-14_informe-tecnico-2023.003-v.1.05-publicado-em-14012025/IT_2023.003_v1.05 - Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-01-14_informe-tecnico-2023.003-v.1.05-publicado-em-14012025/IT_2023.003_v1.05 - Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:16+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-12-06_informe-tecnico-2023.003-v.1.04-publicado-em-06122024",
@@ -459,16 +459,16 @@
       "description": "Informe Técnico 2023.003 - v.1.04",
       "published_at": "2024-12-06",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=jkJ62OcEpnY=",
-      "folder": "data/nfe/informes-tecnicos/2024-12-06_informe-tecnico-2023.003-v.1.04-publicado-em-06122024",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-12-06_informe-tecnico-2023.003-v.1.04-publicado-em-06122024",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2024-12-06_informe-tecnico-2023.003-v.1.04-publicado-em-06122024/IT_2023.003v1.04 - Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-12-06_informe-tecnico-2023.003-v.1.04-publicado-em-06122024/IT_2023.003v1.04 - Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:17+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-11-18_informe-tecnico-2023.001-v.1.10-publicado-em-18112024",
@@ -476,16 +476,16 @@
       "description": "Informe Técnico 2023.001 v.1.10",
       "published_at": "2024-11-18",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=FHn62qOKXxo=",
-      "folder": "data/nfe/informes-tecnicos/2024-11-18_informe-tecnico-2023.001-v.1.10-publicado-em-18112024",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-11-18_informe-tecnico-2023.001-v.1.10-publicado-em-18112024",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2024-11-18_informe-tecnico-2023.001-v.1.10-publicado-em-18112024/IT 2023.001_v1.10 - Tabela cProdANP.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-11-18_informe-tecnico-2023.001-v.1.10-publicado-em-18112024/IT 2023.001_v1.10 - Tabela cProdANP.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:18+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-10-01_informe-tecnico-2024.001-v.2.00-publicado-em-01102024",
@@ -493,16 +493,16 @@
       "description": "Informe Técnico 2024.001 - v.2.00",
       "published_at": "2024-10-01",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=aSBQN 4e wY=",
-      "folder": "data/nfe/informes-tecnicos/2024-10-01_informe-tecnico-2024.001-v.2.00-publicado-em-01102024",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-10-01_informe-tecnico-2024.001-v.2.00-publicado-em-01102024",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2024-10-01_informe-tecnico-2024.001-v.2.00-publicado-em-01102024/IT2024.001v2.00 - Atualiza tabela de NCM.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-10-01_informe-tecnico-2024.001-v.2.00-publicado-em-01102024/IT2024.001v2.00 - Atualiza tabela de NCM.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:18+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-05-27_informe-tecnico-2023.003.1.03-publicado-em-27052024",
@@ -510,16 +510,16 @@
       "description": "Informe Técnico 2023.003.1.03",
       "published_at": "2024-05-27",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=AoPQKN2Orqw=",
-      "folder": "data/nfe/informes-tecnicos/2024-05-27_informe-tecnico-2023.003.1.03-publicado-em-27052024",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-05-27_informe-tecnico-2023.003.1.03-publicado-em-27052024",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2024-05-27_informe-tecnico-2023.003.1.03-publicado-em-27052024/IT_2023.003_v1.03 - Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-05-27_informe-tecnico-2023.003.1.03-publicado-em-27052024/IT_2023.003_v1.03 - Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:19+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-04-11_informe-tecnico-2024.002-v.1.00-publicado-em-11042024",
@@ -527,16 +527,16 @@
       "description": "Informe Técnico 2024.002 - v.1.00",
       "published_at": "2024-04-11",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=W9sYeScSDZg=",
-      "folder": "data/nfe/informes-tecnicos/2024-04-11_informe-tecnico-2024.002-v.1.00-publicado-em-11042024",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-04-11_informe-tecnico-2024.002-v.1.00-publicado-em-11042024",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2024-04-11_informe-tecnico-2024.002-v.1.00-publicado-em-11042024/IT2024.002v1.00 - Atualiza Tabela Meios de Pagamento - 10042024.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-04-11_informe-tecnico-2024.002-v.1.00-publicado-em-11042024/IT2024.002v1.00 - Atualiza Tabela Meios de Pagamento - 10042024.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:20+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-03-14_informe-tecnico-2024.001-v.1.01-publicado-em-14032024",
@@ -544,16 +544,16 @@
       "description": "Informe Técnico 2024.001 - v.1.01",
       "published_at": "2024-03-14",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=wLVBlKchUb4=",
-      "folder": "data/nfe/informes-tecnicos/2024-03-14_informe-tecnico-2024.001-v.1.01-publicado-em-14032024",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-03-14_informe-tecnico-2024.001-v.1.01-publicado-em-14032024",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2024-03-14_informe-tecnico-2024.001-v.1.01-publicado-em-14032024/IT2024.001v1.01 - Atualiza tabela de NCM.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-03-14_informe-tecnico-2024.001-v.1.01-publicado-em-14032024/IT2024.001v1.01 - Atualiza tabela de NCM.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:21+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-03-07_informe-tecnico-2024.001-v.1.00-publicado-em-07032024",
@@ -561,16 +561,16 @@
       "description": "Informe Técnico 2024.001 - v.1.00",
       "published_at": "2024-03-07",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=Z3N8UXTYjWU=",
-      "folder": "data/nfe/informes-tecnicos/2024-03-07_informe-tecnico-2024.001-v.1.00-publicado-em-07032024",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-03-07_informe-tecnico-2024.001-v.1.00-publicado-em-07032024",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2024-03-07_informe-tecnico-2024.001-v.1.00-publicado-em-07032024/IT2024.001v1.00 - Atualiza tabela de NCM.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-03-07_informe-tecnico-2024.001-v.1.00-publicado-em-07032024/IT2024.001v1.00 - Atualiza tabela de NCM.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:21+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-02-23_informe-tecnico-2023.003-v.1.02-publicado-em-23022024",
@@ -578,16 +578,16 @@
       "description": "Informe Técnico 2023.003 - v.1.02",
       "published_at": "2024-02-23",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=rnN6b CuSlc=",
-      "folder": "data/nfe/informes-tecnicos/2024-02-23_informe-tecnico-2023.003-v.1.02-publicado-em-23022024",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-02-23_informe-tecnico-2023.003-v.1.02-publicado-em-23022024",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2024-02-23_informe-tecnico-2023.003-v.1.02-publicado-em-23022024/IT2023.003v1.02 - Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-02-23_informe-tecnico-2023.003-v.1.02-publicado-em-23022024/IT2023.003v1.02 - Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:22+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-01-29_informe-tecnico-2023.003-v.1.01-publicado-em-29012024",
@@ -595,16 +595,16 @@
       "description": "Informe Técnico 2023.003 - v.1.01",
       "published_at": "2024-01-29",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=cMjGAyYrb/s=",
-      "folder": "data/nfe/informes-tecnicos/2024-01-29_informe-tecnico-2023.003-v.1.01-publicado-em-29012024",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-01-29_informe-tecnico-2023.003-v.1.01-publicado-em-29012024",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2024-01-29_informe-tecnico-2023.003-v.1.01-publicado-em-29012024/IT_2023.003_v1.01 - Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-01-29_informe-tecnico-2023.003-v.1.01-publicado-em-29012024/IT_2023.003_v1.01 - Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:23+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-01-22_informe-tecnico-2023.004-v.1.01-publicado-em-22012024",
@@ -612,16 +612,16 @@
       "description": "Informe Técnico 2023.004 - v.1.01",
       "published_at": "2024-01-22",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=J I v4eN00E=",
-      "folder": "data/nfe/informes-tecnicos/2024-01-22_informe-tecnico-2023.004-v.1.01-publicado-em-22012024",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-01-22_informe-tecnico-2023.004-v.1.01-publicado-em-22012024",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2024-01-22_informe-tecnico-2023.004-v.1.01-publicado-em-22012024/IT2023.004v1.01 - Atualiza FCP 2024_01.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-01-22_informe-tecnico-2023.004-v.1.01-publicado-em-22012024/IT2023.004v1.01 - Atualiza FCP 2024_01.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:24+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-05-03_informe-tecnico-2023.004-v.1.00-publicado-em-03052023",
@@ -629,16 +629,16 @@
       "description": "Informe Técnico 2023.004 - v.1.00",
       "published_at": "2023-05-03",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=f4KRvNRqcMw=",
-      "folder": "data/nfe/informes-tecnicos/2023-05-03_informe-tecnico-2023.004-v.1.00-publicado-em-03052023",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2023-05-03_informe-tecnico-2023.004-v.1.00-publicado-em-03052023",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2023-05-03_informe-tecnico-2023.004-v.1.00-publicado-em-03052023/IT2023.004v1.00 - Atualiza FCP.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2023-05-03_informe-tecnico-2023.004-v.1.00-publicado-em-03052023/IT2023.004v1.00 - Atualiza FCP.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:24+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-05-03_informe-tecnico-2023.003-v.1.00-publicado-em-03052023",
@@ -646,16 +646,16 @@
       "description": "Informe Técnico 2023.003 - v.1.00",
       "published_at": "2023-05-03",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=DKwrx0uZMIk=",
-      "folder": "data/nfe/informes-tecnicos/2023-05-03_informe-tecnico-2023.003-v.1.00-publicado-em-03052023",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2023-05-03_informe-tecnico-2023.003-v.1.00-publicado-em-03052023",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2023-05-03_informe-tecnico-2023.003-v.1.00-publicado-em-03052023/IT_2023.003_v1.00 - Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2023-05-03_informe-tecnico-2023.003-v.1.00-publicado-em-03052023/IT_2023.003_v1.00 - Tabela de CombustÃ­veis Sujeitos Ã  TributaÃ§Ã£o MonofÃ¡sica.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:25+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-04-24_informe-tecnico-2023.002-v.1.00-vigente-a-partir-de-24042023-publicado-em-11042023",
@@ -663,16 +663,16 @@
       "description": "Informe Técnico 2023.002 - v.1.00 - Vigente a partir de 24/04/2023",
       "published_at": "2023-04-24",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=wVMnweUA2rE=",
-      "folder": "data/nfe/informes-tecnicos/2023-04-24_informe-tecnico-2023.002-v.1.00-vigente-a-partir-de-24042023-publicado-em-11042023",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2023-04-24_informe-tecnico-2023.002-v.1.00-vigente-a-partir-de-24042023-publicado-em-11042023",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2023-04-24_informe-tecnico-2023.002-v.1.00-vigente-a-partir-de-24042023-publicado-em-11042023/IT2023.002v1.00 - Tabela CFOP - 11-04-2023.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2023-04-24_informe-tecnico-2023.002-v.1.00-vigente-a-partir-de-24042023-publicado-em-11042023/IT2023.002v1.00 - Tabela CFOP - 11-04-2023.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:26+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-03-13_informe-tecnico-2023.001-v.1.00-vigente-a-partir-de-13032023-publicado-em-03022023",
@@ -680,16 +680,16 @@
       "description": "Informe Técnico 2023.001 - v.1.00 - Vigente a partir de 13/03/2023",
       "published_at": "2023-03-13",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=c8Qb8Prv1iA=",
-      "folder": "data/nfe/informes-tecnicos/2023-03-13_informe-tecnico-2023.001-v.1.00-vigente-a-partir-de-13032023-publicado-em-03022023",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2023-03-13_informe-tecnico-2023.001-v.1.00-vigente-a-partir-de-13032023-publicado-em-03022023",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/2023-03-13_informe-tecnico-2023.001-v.1.00-vigente-a-partir-de-13032023-publicado-em-03022023/IT 2023.001_v1.00 - Tabela cProdANP.pdf"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2023-03-13_informe-tecnico-2023.001-v.1.00-vigente-a-partir-de-13032023-publicado-em-03022023/IT 2023.001_v1.00 - Tabela cProdANP.pdf"
       ],
-      "downloaded_at": "2026-09-05T18:30:27+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_visualizador-de-df-e",
@@ -697,16 +697,16 @@
       "description": "Visualizador de DF-e",
       "published_at": "",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/download.aspx?tipoConteudo=vBO/4eBj5F4=",
-      "folder": "data/nfe/informes-tecnicos/undated_visualizador-de-df-e",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/undated_visualizador-de-df-e",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/undated_visualizador-de-df-e/download.aspx"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/undated_visualizador-de-df-e/download.aspx"
       ],
-      "downloaded_at": "2026-09-05T18:30:28+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_assinador",
@@ -714,16 +714,16 @@
       "description": "Assinador",
       "published_at": "",
       "source_url": "https://hom.nfe.fazenda.gov.br/portal/download.aspx?tipoConteudo=OFrcUd5//Lg=",
-      "folder": "data/nfe/informes-tecnicos/undated_assinador",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/undated_assinador",
+      "folder": "",
+      "folder_url": "",
       "files": [
         "data/nfe/informes-tecnicos/undated_assinador/download.aspx"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/undated_assinador/download.aspx"
       ],
-      "downloaded_at": "2026-09-05T18:30:28+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     }
   ]
 }
