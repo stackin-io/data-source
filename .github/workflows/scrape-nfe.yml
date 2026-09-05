@@ -57,6 +57,6 @@ jobs:
             echo "No new files to commit."
             exit 0
           fi
-          git commit -m "🤖 DATA(nfe): Scheduled scrape $(date -u +%Y-%m-%d)"
+          git commit -m "DATA(nfe): Scheduled scrape $(date -u +%Y-%m-%d)"
           git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
           git push
