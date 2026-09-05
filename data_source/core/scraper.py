@@ -10,6 +10,7 @@ from pathlib import Path
 from data_source.config import Settings, get_settings
 from data_source.core.browser import Browser
 from data_source.core.downloader import Downloader
+from data_source.core.feed import build_atom
 from data_source.core.logger import configure as configure_logging
 from data_source.core.logger import get_logger
 from data_source.core.storage import LocalStorage, Storage
@@ -282,7 +283,10 @@ class BaseScraper(ABC):
         except Exception as exc:
             self._log.warning("history.write_failed", error=str(exc))
 
-        self._write_root_sitemap(base_url, generated_at=manifest["generated_at"])
+        generated_at = str(manifest["generated_at"])
+        self._write_context_feed(result, base_url, generated_at=generated_at)
+        self._write_root_sitemap(base_url, generated_at=generated_at)
+        self._write_root_feed(base_url, generated_at=generated_at)
 
     def _to_public_url(self, base_url: str, local_path: str) -> str:
         try:
@@ -290,6 +294,93 @@ class BaseScraper(ABC):
         except ValueError:
             return ""
         return f"{base_url}/{rel.as_posix()}"
+
+    def _write_context_feed(
+        self,
+        result: ScrapeResult,
+        base_url: str,
+        *,
+        generated_at: str,
+    ) -> None:
+        """Atom feed with one entry per item — newest published_at first, capped at 50."""
+        entries: list[dict] = []
+        sorted_items = sorted(
+            result.items,
+            key=lambda r: (r.published_at, r.downloaded_at),
+            reverse=True,
+        )
+        for r in sorted_items[:50]:
+            updated = r.published_at
+            if updated and len(updated) == 10:
+                updated = f"{updated}T00:00:00+00:00"
+            entries.append(
+                {
+                    "id": f"{base_url}/{result.context}/{r.slug}",
+                    "title": r.title,
+                    "summary": r.description,
+                    "link": r.folder_url or f"{base_url}/{result.context}/{r.slug}/",
+                    "updated": updated or r.downloaded_at or generated_at,
+                }
+            )
+        feed_xml = build_atom(
+            feed_id=f"{base_url}/{result.context}/feed.xml",
+            title=f"Stackin data-source — {result.context}",
+            subtitle=(
+                f"Automated updates from the {result.context.upper()} scraper — "
+                "official docs, XSDs, technical notes."
+            ),
+            self_url=f"{base_url}/{result.context}/feed.xml",
+            site_url=f"{base_url}/{result.context}/",
+            updated=generated_at,
+            entries=entries,
+        )
+        try:
+            self._storage.write_text(result.context, "feed.xml", feed_xml)
+        except Exception as exc:
+            self._log.warning("feed.write_failed", error=str(exc))
+
+    def _write_root_feed(self, base_url: str, *, generated_at: str) -> None:
+        """Root Atom feed aggregating the top-N most recent items across every context.
+        Subscribers who want everything follow this one URL."""
+        root = Path(self._settings.output_dir)
+        aggregated: list[dict] = []
+        for ctx_dir in sorted(p for p in root.iterdir() if p.is_dir()):
+            m = ctx_dir / "manifest.json"
+            if not m.exists():
+                continue
+            try:
+                with m.open(encoding="utf-8") as fh:
+                    data = json.load(fh)
+            except (OSError, json.JSONDecodeError):
+                continue
+            ctx = data.get("context", ctx_dir.name)
+            for it in data.get("items", []):
+                updated = it.get("published_at") or ""
+                if updated and len(updated) == 10:
+                    updated = f"{updated}T00:00:00+00:00"
+                aggregated.append(
+                    {
+                        "id": f"{base_url}/{ctx}/{it.get('slug', '')}",
+                        "title": f"[{ctx.upper()}] {it.get('title', '')}",
+                        "summary": it.get("description", ""),
+                        "link": it.get("folder_url", ""),
+                        "updated": updated or it.get("downloaded_at") or generated_at,
+                    }
+                )
+        aggregated.sort(key=lambda e: e.get("updated", ""), reverse=True)
+        feed_xml = build_atom(
+            feed_id=f"{base_url}/feed.xml",
+            title="Stackin data-source — todas as fontes",
+            subtitle="Todas as atualizações fiscais oficiais indexadas pelo Stackin.",
+            self_url=f"{base_url}/feed.xml",
+            site_url=base_url,
+            updated=generated_at,
+            entries=aggregated[:100],
+        )
+        try:
+            (root / "feed.xml").write_text(feed_xml, encoding="utf-8")
+        except OSError as exc:
+            self._log.warning("root_feed.write_failed", error=str(exc))
 
     def _write_root_sitemap(self, base_url: str, *, generated_at: str) -> None:
         """Aggregate every context's manifest under `data/manifest.json` — the
@@ -309,6 +400,7 @@ class BaseScraper(ABC):
                 {
                     "context": data.get("context", ctx_dir.name),
                     "manifest_url": f"{base_url}/{ctx_dir.name}/manifest.json",
+                    "feed_url": f"{base_url}/{ctx_dir.name}/feed.xml",
                     "generated_at": data.get("generated_at", ""),
                     "totals": data.get("totals", {}),
                 }
@@ -316,6 +408,7 @@ class BaseScraper(ABC):
         root_manifest = {
             "generated_at": generated_at,
             "public_base_url": base_url,
+            "feed_url": f"{base_url}/feed.xml",
             "contexts": entries,
         }
         try:
