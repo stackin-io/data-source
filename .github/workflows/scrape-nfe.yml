@@ -1,0 +1,44 @@
+name: scrape-nfe
+
+on:
+  schedule:
+    - cron: "0 5 * * 1"  # weekly, Monday 05:00 UTC
+  workflow_dispatch:
+
+concurrency:
+  group: scrape-nfe
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      DATA_SOURCE_HEADLESS: "true"
+      DATA_SOURCE_LOG_LEVEL: INFO
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Install Poetry
+        run: pipx install poetry
+
+      - name: Install deps
+        run: poetry install --no-interaction --no-ansi
+
+      - name: Run NFe scraper
+        run: poetry run data-source scrape nfe --out ./data
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nfe-${{ github.run_id }}
+          path: data/nfe/
+          retention-days: 30
