@@ -80,6 +80,13 @@ class NFeNotasTecnicasScraper(_NFePortalScraper):
     list_page = "listaConteudo.aspx?tipoConteudo=04BIflQt1aY="
 
 
+class NFeInformesTecnicosScraper(_NFePortalScraper):
+    """Informes Técnicos oficiais da NF-e (documentos vigentes)."""
+
+    context = "nfe/informes-tecnicos"
+    list_page = "listaConteudo.aspx?tipoConteudo=hXzemuyNHW4="
+
+
 # Backwards-compat alias — existing callers importing `NFeScraper` keep working.
 NFeScraper = NFeEsquemasXMLScraper
 

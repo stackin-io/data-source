@@ -39,6 +39,7 @@ Cola a URL do feed em qualquer leitor de RSS/Atom — Feedly, Inoreader, NetNews
 - Todas as fontes: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml`
 - Só NF-e — Esquemas XML: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/feed.xml`
 - Só NF-e — Notas Técnicas: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/feed.xml`
+- Só NF-e — Informes Técnicos: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/feed.xml`
 - Só NFS-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/feed.xml`
 
 **Newsletter por e-mail:** apontar Mailchimp, Buttondown ou Kill the Newsletter pra qualquer uma das URLs acima. Cada publicação nova vira e-mail automático pra sua lista, sem trabalho manual.
@@ -50,6 +51,7 @@ Sua aplicação consome o manifest diretamente e reage a mudanças. Recomendado 
 - Sitemap geral: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/manifest.json`
 - NF-e — Esquemas XML: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/manifest.json`
 - NF-e — Notas Técnicas: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/manifest.json`
+- NF-e — Informes Técnicos: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/manifest.json`
 - NFS-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/manifest.json`
 - Histórico por fonte: `.../data/<fonte>/history.json`
 
@@ -70,6 +72,7 @@ Cada item aparece com estrutura completa em ambos os canais:
 |---|---|---|---|
 | **NF-e** (portal SEFAZ homologação) | **Esquemas XML** | Pacotes de Liberação, XSDs, eventos, cartas de correção | ZIP, XSD, XML |
 | **NF-e** (portal SEFAZ homologação) | **Notas Técnicas** | Notas Técnicas oficiais vigentes e anteriores | PDF, DOC, DOCX |
+| **NF-e** (portal SEFAZ homologação) | **Informes Técnicos** | Informes Técnicos oficiais vigentes | PDF, DOC, DOCX |
 | **NFS-e** (ADN nacional gov.br) | — | Guias, manuais, esquemas XSD, anexos de domínio e layout | PDF, ZIP, XSD, XLSX |
 
 Outras fontes (NFC-e, DF-e, projetos estaduais) entram sob demanda.
