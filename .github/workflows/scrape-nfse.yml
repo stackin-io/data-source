@@ -2,7 +2,9 @@ name: scrape-nfse
 
 on:
   schedule:
-    - cron: "30 5 * * 1"  # weekly, Monday 05:30 UTC (offset from nfe)
+    # every 6h — offset +30min from nfe to avoid parallel push contention
+    # 00:30, 06:30, 12:30, 18:30 BRT (UTC-3) = 03:30, 09:30, 15:30, 21:30 UTC
+    - cron: "30 3,9,15,21 * * *"
   workflow_dispatch:
 
 concurrency:
