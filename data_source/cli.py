@@ -19,7 +19,7 @@ log = get_logger("cli")
 def scrape(
     name: Annotated[str, typer.Argument(help="Scraper id (e.g. nfe, nfse)")],
     out: Annotated[Path | None, typer.Option("--out", help="Output dir")] = None,
-    headless: Annotated[bool, typer.Option("--headless/--headed")] = True,
+    headless: Annotated[bool, typer.Option(help="Run browser headless (use --no-headless to see it)")] = True,
     force: Annotated[
         bool,
         typer.Option("--force", help="Re-download items even if the target folder already has files"),
