@@ -1,69 +1,96 @@
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/stackin-io/stackin-python-sdk/master/docs/assets/stackin.png" width="120" />
+
+**A base fiscal brasileira, sempre atualizada — sem clicar em nada.**
+
+[![Feed](https://img.shields.io/badge/feed-atom-orange?style=flat-square)](https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml)
+[![Manifest](https://img.shields.io/badge/manifest-json-blue?style=flat-square)](https://raw.githubusercontent.com/stackin-io/data-source/master/data/manifest.json)
+[![Schedule](https://img.shields.io/badge/updates-a%20cada%206h-success?style=flat-square)](.github/workflows)
+[![License](https://img.shields.io/badge/license-MIT-informational?style=flat-square)](LICENSE)
+
+[Assinar feed](https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml) · [Ver manifest](https://raw.githubusercontent.com/stackin-io/data-source/master/data/manifest.json) · [stackin.io](https://stackin.io)
+
+</div>
+
+---
+
 # data-source
 
-Scheduled Selenium scraping jobs that collect official Brazilian fiscal documentation and XML schemas (NFe / NFSe) into a versioned data lake, and are designed to extend to any other paginated/authenticated source without rewriting the core.
+Toda vez que a SEFAZ ou o ADN publica um novo XSD, um MOC, uma Nota Técnica ou uma versão de schema, o `data-source` percebe, baixa, descompacta, versiona e avisa. Você não precisa entrar no portal, não precisa checar página, não precisa se lembrar. **Você só assina.**
 
-Runs entirely as GitHub Actions workflows — no server, no cron on a machine. Each job is a `Scraper` subclass invoked via CLI.
+Feito pra quem constrói produto fiscal e não pode perder uma atualização — ERPs, integradores, contadores, times de compliance e todo mundo que hoje mantém uma planilha de "quando foi a última vez que olhei o portal".
 
-## Architecture
+## O que você ganha
 
-```
-data_source/
-├── core/               # framework — no source-specific logic here
-│   ├── scraper.py      # abstract BaseScraper (Template Method + Strategy)
-│   ├── browser.py      # Selenium factory (headless Chrome, retries, timeouts)
-│   ├── storage.py      # Storage protocol + LocalStorage impl (S3 slot open)
-│   ├── downloader.py   # streams files w/ tenacity retry
-│   └── logger.py       # structlog JSON logs (CI-friendly)
-├── scrapers/
-│   ├── nfe.py          # NFe scraper — portal, MOC, XSDs
-│   └── nfse.py         # NFSe scraper — ADN, XSDs, manuais
-├── cli.py              # typer app: `data-source scrape nfe`, `... nfse`
-├── config.py           # pydantic-settings, env-driven
-├── exceptions.py
-└── __main__.py
+- **Nunca mais fica desatualizado.** Portal oficial da NF-e e ADN da NFS-e varridos a cada 6 horas. Novo pacote publicado hoje aparece aqui hoje.
+- **Um único lugar pra pegar tudo.** XSDs, MOCs, manuais, notas técnicas, eventos, cartas de correção — organizados por data e assunto, prontos pra baixar.
+- **Assinatura via feed** (Atom/RSS). Coloca no Feedly, no Slack, no e-mail, no que quiser — cada versão nova vira uma notificação.
+- **Sitemap JSON público.** Sua aplicação consome o manifest, pega só o que mudou, e nunca chama o portal de origem — zero risco de bloqueio, zero fricção com a SEFAZ.
+- **ZIP descompactado sozinho.** Cada pacote vem com o arquivo original e a pasta extraída pronta pra consumir.
+- **Histórico completo.** Toda execução fica registrada em `history.json`. Auditoria e rastreabilidade em um único arquivo.
 
-.github/workflows/
-├── scrape-nfe.yml      # cron weekly + workflow_dispatch
-└── scrape-nfse.yml
-```
+## Fontes cobertas hoje
 
-## Design principles
-
-- **BaseScraper is a Template Method** — subclasses override `discover()` (find the pages/links) and `extract(item)` (turn a page into files); base handles browser lifecycle, retry, storage, logging.
-- **Storage is a Protocol** — `LocalStorage` today, `S3Storage` tomorrow, no scraper change.
-- **Everything retries** with exponential backoff (`tenacity`), max 3 by default, configurable per scraper.
-- **Selenium is contained** — only `core/browser.py` touches `webdriver`. Scrapers work against a thin `Browser` wrapper. Swappable to Playwright without changing scrapers.
-- **Idempotent output** — writes go to `data/<context>/<yyyy-mm-dd>/...`, filename derived from URL hash. Re-runs overwrite same file.
-- **CI-first** — logs JSON, exit codes signal partial success, artifacts uploaded from `data/`.
-
-## Usage
-
-Local dev:
-
-```bash
-poetry install
-poetry run data-source scrape nfe --out ./data
-poetry run data-source scrape nfse --out ./data
-poetry run data-source list                   # available scrapers
-```
-
-CI: workflows in `.github/workflows/` run each scraper on schedule (weekly Mon 05:00 UTC), commit results to a data branch (or upload as artifact — decide before first prod run).
-
-## Adding a new source
-
-1. Create `data_source/scrapers/<name>.py` with a `class <Name>Scraper(BaseScraper)`.
-2. Implement `discover(self) -> Iterable[ScrapeItem]` and `extract(self, item: ScrapeItem) -> Iterable[Artifact]`.
-3. Register it in `data_source/scrapers/__init__.py` (`REGISTRY`).
-4. Add a workflow file `.github/workflows/scrape-<name>.yml` (copy from existing).
-
-No changes to `core/` should be needed. If they are, promote the pattern back to `core/` instead of duplicating.
-
-## Environment
-
-| Var | Default | Purpose |
+| Fonte | Descrição | Frequência |
 |---|---|---|
-| `DATA_SOURCE_OUTPUT_DIR` | `./data` | Root output dir |
-| `DATA_SOURCE_HEADLESS` | `true` | Run Chrome headless (must be `true` in CI) |
-| `DATA_SOURCE_TIMEOUT_S` | `30` | Per-page timeout |
-| `DATA_SOURCE_MAX_RETRIES` | `3` | Retry budget per operation |
-| `DATA_SOURCE_LOG_LEVEL` | `INFO` | `DEBUG`/`INFO`/`WARNING`/`ERROR` |
+| **NF-e** — portal oficial | Pacotes de Liberação, MOC, Notas Técnicas, eventos, cartas de correção | 6h |
+| **NF-e homologação** | Ambiente de testes SEFAZ | 6h |
+| **NFS-e** — ADN nacional | Documentação técnica, biblioteca de XSDs e manuais | 6h |
+
+Outras fontes fiscais (NFC-e, DF-e, projetos estaduais) entram sob demanda — o framework foi feito pra isso.
+
+## Como assinar
+
+### Feed único (todas as fontes)
+
+```
+https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml
+```
+
+Cola em qualquer leitor de RSS/Atom e pronto. Feedly, Inoreader, NetNewsWire, Slack, Discord, Mailchimp, Buttondown, Kill the Newsletter — todos aceitam Atom nativo.
+
+### Feed por fonte
+
+```
+https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/feed.xml
+https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/feed.xml
+```
+
+Só NF-e ou só NFS-e — pra times que só se importam com uma das duas.
+
+### Newsletter por e-mail
+
+Aponte serviços tipo [Mailchimp RSS Campaign](https://mailchimp.com/help/share-your-blog-posts-with-mailchimp/), [Buttondown](https://buttondown.email/) ou [Kill the Newsletter](https://kill-the-newsletter.com/) pro feed acima. Cada publicação nova vira e-mail automático pra sua lista.
+
+### Sitemap JSON
+
+Aplicações consomem direto o manifest público:
+
+```
+https://raw.githubusercontent.com/stackin-io/data-source/master/data/manifest.json
+```
+
+Retorna a lista de contextos, contagens e link pros manifests detalhados de cada fonte. Cada manifest de fonte traz título, descrição, data de publicação, URL original e link direto pros arquivos já hospedados aqui.
+
+## Como funciona por baixo
+
+Todo o processo roda em GitHub Actions — sem servidor, sem banco de dados, sem custo de infra. A cada 6 horas o job varre as fontes, baixa o que é novo (pula o que já baixou), descompacta ZIPs, atualiza os manifests e feeds, e comita tudo no próprio repositório. Reprodutível, auditável, gratuito.
+
+Genérico por design: adicionar uma nova fonte é criar uma classe, apontar a URL, e reaproveitar tudo — download com retry, descompactação, storage, feed, manifest, histórico. Um scraper novo vira feed público na hora.
+
+## Por que existe
+
+Todo integrador fiscal brasileiro repete o mesmo trabalho: monitorar dois portais, baixar zip, descompactar, comparar, guardar, avisar o time. Manualmente. Todo mês. Todo trimestre. Toda vez que a SEFAZ solta uma NT.
+
+Isso não é diferencial de produto. É custo compartilhado que ninguém precisa pagar duas vezes. O `data-source` resolve uma vez pra todo mundo, em código aberto, versionado.
+
+Feito pela [Stackin](https://stackin.io) — plataforma completa de emissão fiscal para o Brasil.
+
+---
+
+<div align="center">
+
+Feito com ☕ e frustração acumulada com portais fiscais.
+
+</div>
