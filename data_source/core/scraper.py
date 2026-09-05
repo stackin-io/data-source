@@ -344,16 +344,15 @@ class BaseScraper(ABC):
         Subscribers who want everything follow this one URL."""
         root = Path(self._settings.output_dir)
         aggregated: list[dict] = []
-        for ctx_dir in sorted(p for p in root.iterdir() if p.is_dir()):
-            m = ctx_dir / "manifest.json"
-            if not m.exists():
+        for m in sorted(root.rglob("manifest.json")):
+            if m.parent == root:
                 continue
             try:
                 with m.open(encoding="utf-8") as fh:
                     data = json.load(fh)
             except (OSError, json.JSONDecodeError):
                 continue
-            ctx = data.get("context", ctx_dir.name)
+            ctx = data.get("context", str(m.parent.relative_to(root)))
             for it in data.get("items", []):
                 updated = it.get("published_at") or ""
                 if updated and len(updated) == 10:
@@ -387,20 +386,20 @@ class BaseScraper(ABC):
         top-level sitemap consumers can hit to discover which datasets exist."""
         root = Path(self._settings.output_dir)
         entries: list[dict] = []
-        for ctx_dir in sorted(p for p in root.iterdir() if p.is_dir()):
-            m = ctx_dir / "manifest.json"
-            if not m.exists():
+        for m in sorted(root.rglob("manifest.json")):
+            if m.parent == root:
                 continue
             try:
                 with m.open(encoding="utf-8") as fh:
                     data = json.load(fh)
             except (OSError, json.JSONDecodeError):
                 continue
+            rel = m.parent.relative_to(root).as_posix()
             entries.append(
                 {
-                    "context": data.get("context", ctx_dir.name),
-                    "manifest_url": f"{base_url}/{ctx_dir.name}/manifest.json",
-                    "feed_url": f"{base_url}/{ctx_dir.name}/feed.xml",
+                    "context": data.get("context", rel),
+                    "manifest_url": f"{base_url}/{rel}/manifest.json",
+                    "feed_url": f"{base_url}/{rel}/feed.xml",
                     "generated_at": data.get("generated_at", ""),
                     "totals": data.get("totals", {}),
                 }

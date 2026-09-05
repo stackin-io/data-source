@@ -1,0 +1,212 @@
+Esquemas XML
+VERSÕES OFICIAIS (em uso)
+
+Esquema XML NF-e/NFC-e - Schema dos eventos da NT 2025.002 v.1.40 - RTC (ZIP). Publicado em 27/07/2026
+
+Schemas XML NF-e -010e_v.1.02 - NT 2025.002 v.1.40 , NT 2026.002 v.1.0 e NT 2026.003 v.1.0 - (Publicado em 10/07/2026)
+
+Schemas XML NF-e - 010d_v.1.03 CNPJ Alfanumérico- NT 2026.004.v.1.01- (Publicado em 10/07/2026)
+
+Esquemas XML NF-e - Pacote de Liberação Distribuição de DF-e v.1.04. Publicado em 03/07/2026 (ZIP)
+
+Schemas XML NF-e 010d_v1.01 - CNPJ Alfanumérico - NT 2026.004.v.1.01, Eventos e ws de Consulta CCC. (Publicado em 08/06/2026)
+
+Schemas XML NFAg - Pacote de Liberação 1.00d (ZIP) - (Publicado em 13/11/2025)
+
+Schemas XML NFAg - Pacote de Liberação 1.00c (ZIP) - (Publicado em 10/11/2025)
+
+Schemas XML NFAg - Pacote de Liberação 1.00b (ZIP) - (Publicado em 28/10/2025)
+
+Esquema XML NF-e/NFC-e - Schema dos eventos da NT 2025.002 v.1.20 - RTC (ZIP). Publicado em 18/08/2025
+
+Esquemas XML NF-e - Pacote de Liberação Evento de Averbação v1.01 (atualizado em 30/04/2025) (ZIP)
+
+Esquemas XML NF-e/NFC-e - Evento de Conciliação Financeira. Publicado em 30/07/2024 (ZIP)
+
+Esquemas XML NF-e - Evento Insucesso na Entrega da NF-e. Publicado em 26/04/2024 (ZIP)
+
+Esquemas XML NFC-e - Evento Cancelamento por Substituição (Atualizado em 21/12/2018) (ZIP)
+
+Esquemas XML NF-e / NFC-e - Evento Cancelamento (Atualizado em 21/12/2018) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação Evento Suframa Vistoria v1.01 (25/11/2015) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação Evento Suframa Internaliza v1.01 (26/01/2015) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação Evento Prorrog. Indust. 1.0 (27/11/2015) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação Evento Canc v1.01 (30/05/2014) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação Evento CCe v1.01 (30/05/2014) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação Evento EPEC v1.01 (30/05/2014) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação Evento Manifesta Destinatário v1.01 (30/05/2014) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação Evento EPEC NFCe v1.00 (07/05/2014) (ZIP)
+
+Esquemas XML NF-e - Consulta Situação NF-e(01/10/10) (ZIP)
+
+VERSÕES PARA TESTES (Homologação)
+
+Esquemas XML NF-e - Evento Cancelamento(Atualizado em 05/04/2012) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 6j - Sem Âncora (26/10/2011) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 6j(21/10/2011) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 6i (28/09/2011) (ZIP)
+
+Esquemas XML NF-e - Carta de Correção Eletrônica(17/05/11) (ZIP)
+
+Esquemas XML NF-e - Consulta Situação NF-e(01/10/10) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 6g(29/06/2010) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 5f(29/06/10) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 6f(01/06/2010) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 6e(24/03/2010) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 5d(14/08/09) (ZIP)
+
+Esquemas XML DPEC - Pacote de Liberação No. 101a(14/01/09) (ZIP)
+
+VERSÕES ANTERIORES (em desuso)
+
+Esquema XML NF-e/NFC-e - Schema dos eventos da NT 2025.002 v.1.30 - RTC (ZIP). Publicado em 07/10/2025 - Atualizado em 30/10/2025
+
+Schemas XML NF-e -010e_v1.01- NT 2025.002 v.1.40 , NT 2026.002 v.1.0 e NT 2026.003 v.1.0 - (Publicado em 26/06/2026)
+
+Schemas XML NF-e - 010d_v1.02- CNPJ Alfanumérico- NT 2026.004.v.1.01 - (Publicado em 26/06/2026)
+
+Esquemas XML NF-e - Pacote de Liberação Distribuição de DF-e v.1.03. Publicado em 23/06/2022 (ZIP)
+
+Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010c (NT 2022.002 v.1.30) (ZIP) - (Publicado em 26/03/2026)
+
+Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b (Novo leiaute da NF-e, NT 2025.002 v.1.30, NT 2024.003 e NT 2025.001) (ZIP). Publicado em 07/10/2025
+
+Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b (Novo leiaute da NF-e, NT 2025.002 v.1.20, NT 2024.003 e NT 2025.001) (ZIP). Publicado em 30/07/2025
+
+Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010b (Novo leiaute da NF-e, NT 2025.002 v.1.10, NT 2024.003 e NT 2025.001) (ZIP). Publicado em 09/06/2025
+
+Esquema XML NF-e/NFC-e - Pacote de Liberação nº 9q (Novo leiaute da NF-e, NT 2025.001 v.1.00) (ZIP). Publicado em 19/05/2025
+
+Esquema XML NF-e/NFC-e - Pacote de Liberação nº 010a (Novo leiaute da NF-e, NT 2025.002 v.1.01) (ZIP). Publicado em 15/04/2025
+
+Esquema XML NF-e/NFC-e - Pacote de Liberação nº 9p (Novo leiaute da NF-e, NT 2024.003 v.1.03) (ZIP). Publicado em 24/02/2025
+
+Esquemas XML NF-e - Pacote de Liberação Evento de Averbação v1.00 (atualizado em 23/08/2018) (ZIP)
+
+Esquema XML NF-e/NFC-e - Pacote de Liberação nº 9p1 (Novo leiaute da NF-e, NT 2024.003 v.1.02) (ZIP). Publicado em 23/10/2024
+
+Esquema XML NF-e/NFC-e - Pacote de Liberação nº 9o (Novo leiaute da NF-e, NT 2024.001 v.1.00) (ZIP). Publicado em 04/06/2024
+
+Esquemas XML NF-e/NFC-e - Pacote de Liberação nº 9n (Novo leiaute da NF-e, NT 2023.004 v.1.11 e NT 2019.001 v.1.62). Publicado em 19/03/2024
+
+Esquemas XML NF-e - Evento Insucesso na Entrega da NF-e. Publicado em 09/01/2024 (ZIP)
+
+Esquemas XML NF-e/NFC-e - Pacote de Liberação nº 9m (Novo leiaute da NF-e, NT 2023.004 v.1.01 e NT 2019.001 v.1.60). Publicado em 07/02/2024.
+
+Esquema XML NF-e/NFC-e - Pacote de Liberação nº 9k (Novo leiaute da NF-e, NT 2023.001 v.1.20). Publicado em 11/04/2023
+
+Esquemas XML NF-e - Pacote de Liberação No. 6d(12/03/2010) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 006preC (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 006pre (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 5c(14/01/09) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 5b(04/11/08) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 5a(01/11/07) (ZIP)
+
+Pacote de liberação No. 5a (10/07/2007) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 4 (29/11/06) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 3a (26/05/06) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 2 (08/05/06) (ZIP)
+
+Esquemas XML DPEC - Pacote de Liberação No. 101a(14/01/09) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 5d(14/08/09) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 6e(24/03/2010) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 6f(01/06/2010) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 5f(29/06/10) (ZIP)
+
+Esquemas XML NF-e - Carta de Correção Eletrônica(17/05/11) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 6i (28/09/2011) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 6j(21/10/2011) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 6j - Sem Âncora (26/10/2011) (ZIP)
+
+Esquemas XML NF-e - Manifestacão Destinatário v1.01 (21/03/2012) (ZIP)
+
+Esquemas XML NF-e - Manifestacão Destinatário v1.02 (06/09/2012) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 6m (01/09/2012) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 6n (27/08/2012) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 6p (31/10/2012) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 6q (29/11/2012) (ZIP)
+
+Esquemas XML NF-e - Evento Cancelamento(Atualizado em 05/04/2012) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 6r (05/04/2013) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No.7a (06/05/2013) (ZIP) - para uso exclusivo das empresas integrantes do grupo piloto da NFC-e
+
+Esquemas XML NF-e / NFC-e - Pacote de Liberação No. 8a (10/10/2013) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 8b (11/12/2013) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 6t (21/03/2014) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 8c (21/03/2014) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 8d (02/05/2014) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação Evento EPEC v1.00 (18/03/2014) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação Evento Generico v1.01 (30/05/2014) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 6u (30/05/2014) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 6v (05/08/2014) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 8e (05/08/2014) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação Distribuição de DF-e v1.00 (20/08/14) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação Distribuição de DF-e v.1.03. Publicado em 22/06/2022 (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 8g (16/10/2015) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 8h1 (17/11/2015) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 9 (novo leiaute da NF-e, NT 2016.002 v.1.10) (10/04/2017) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 9 (novo leiaute da NF-e, NT 2016.002 v.1.20) (28/07/2017) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 9 (novo leiaute da NF-e, NT 2016.002 v.1.30) (14/09/2017) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 9 (Novo leiaute da NF-e, NT 2016.002 v.1.50) (27/04/2017) (ZIP)
+
+Esquemas XML NF-e - Pacote de Liberação No. 9 (Novo leiaute da NF-e, NT 2016.002 v.1.60)
+
+Esquemas XML NF-e/NFC-e - Pacote de Liberação No. 9 - (Novo leiaute da NF-e - Inclusão de código na lista de serviços). Publicado em 04/10/21.
+
+Esquemas XML NF-e/NFC-e - Pacote de Liberação No. 9 (Novo leiaute da NF-e, NT 2018.005 v.1.10). Publicado em 27/02/2019.
+
+Esquemas XML NF-e - Evento Comprovante Entrega da NF-e . Publicado em 19/05/2021 (Atualizado em 12/06/2021)

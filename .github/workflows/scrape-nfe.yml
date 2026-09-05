@@ -36,8 +36,11 @@ jobs:
       - name: Install deps
         run: poetry install --no-interaction --no-ansi
 
-      - name: Run NFe scraper
-        run: poetry run data-source scrape nfe --out ./data
+      - name: Run NFe Esquemas XML scraper
+        run: poetry run data-source scrape nfe/esquemas-xml --out ./data
+
+      - name: Run NFe Notas Técnicas scraper
+        run: poetry run data-source scrape nfe/notas-tecnicas --out ./data
 
       - name: Commit new files as stackin-bot
         run: |
