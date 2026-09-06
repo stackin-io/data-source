@@ -171,6 +171,16 @@ class TestEverySVRSPortalIsRegistered(unittest.TestCase):
         "svrs/cte/documentos": "https://dfe-portal.svrs.rs.gov.br/Cte/Documentos",
         "svrs/mdfe/documentos": "https://dfe-portal.svrs.rs.gov.br/Mdfe/Documentos",
         "svrs/bpe/documentos": "https://dfe-portal.svrs.rs.gov.br/Bpe/Documentos",
+        "svrs/nf3e/documentos": "https://dfe-portal.svrs.rs.gov.br/Nf3e/Documentos",
+        "svrs/nfcom/documentos": "https://dfe-portal.svrs.rs.gov.br/Nfcom/Documentos",
+        "svrs/nfag/documentos": "https://dfe-portal.svrs.rs.gov.br/Nfag/Documentos",
+        "svrs/nfgas/documentos": "https://dfe-portal.svrs.rs.gov.br/Nfgas/Documentos",
+        "svrs/dce/documentos": "https://dfe-portal.svrs.rs.gov.br/Dce/Documentos",
+        "svrs/nfabi/documentos": "https://dfe-portal.svrs.rs.gov.br/Nfabi/Documentos",
+        "svrs/difal/documentos": "https://dfe-portal.svrs.rs.gov.br/Difal/Documentos",
+        "svrs/nff/documentos": "https://dfe-portal.svrs.rs.gov.br/Nff/Documentos",
+        "svrs/pes/documentos": "https://dfe-portal.svrs.rs.gov.br/Pes/Documentos",
+        "svrs/one/documentos": "https://dfe-portal.svrs.rs.gov.br/One/Documentos",
     }
 
     def test_each_context_resolves_to_its_own_portal(self):
@@ -183,6 +193,10 @@ class TestEverySVRSPortalIsRegistered(unittest.TestCase):
                 )
                 self.assertEqual(scraper.list_url(), url)
                 self.assertFalse(scraper.uses_browser)
+
+    def test_the_registry_carries_every_svrs_portal(self):
+        registered = {c for c in REGISTRY if c.startswith("svrs/")}
+        self.assertEqual(registered, set(self.EXPECTED))
 
     def test_contexts_are_distinct(self):
         slugs = {REGISTRY[c].doc_slug for c in self.EXPECTED}
