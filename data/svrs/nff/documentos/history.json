@@ -1,0 +1,13 @@
+[
+  {
+    "started_at": "2026-09-06T04:51:18+00:00",
+    "generated_at": "2026-09-06T04:51:25+00:00",
+    "duration_s": 7.29,
+    "totals": {
+      "discovered": 6,
+      "persisted": 6,
+      "skipped": 0,
+      "failed": 0
+    }
+  }
+]

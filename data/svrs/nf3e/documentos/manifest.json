@@ -1,0 +1,724 @@
+{
+  "context": "svrs/nf3e/documentos",
+  "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos",
+  "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos",
+  "generated_at": "2026-09-06T04:49:58+00:00",
+  "started_at": "2026-09-06T04:49:37+00:00",
+  "duration_s": 21.08,
+  "totals": {
+    "discovered": 26,
+    "persisted": 26,
+    "skipped": 0,
+    "failed": 0
+  },
+  "items": [
+    {
+      "slug": "2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split",
+      "title": "Informe Técnico 2026.001 v1.01 - Tabela de Meios de Pagamento para Vinculação com o Split",
+      "description": "Informe Técnico 2026.001 v1.01 - Tabela de Meios de Pagamento para Vinculação com o Split",
+      "published_at": "2026-08-25",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT+2026.001+v.1.01+-+Tabelas+de+Meios+de+Pagamento+para+Vincula%C3%A7%C3%A3o+com+o+Split.pdf",
+      "folder": "data/svrs/nf3e/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split",
+      "files": [
+        "data/svrs/nf3e/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split/it-2026.001-v.1.01-tabelas-de-meios-de-pagamento-para-vinculacao-com-o-split.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split/it-2026.001-v.1.01-tabelas-de-meios-de-pagamento-para-vinculacao-com-o-split.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:49:39+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-08-01_nota-tecnica-2026.002-rtc-v1.01",
+      "title": "Nota Técnica 2026.002 RTC v1.01",
+      "description": "Nota Técnica 2026.002 RTC v1.01",
+      "published_at": "2026-08-01",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NF3E/DownloadArquivoEstatico/?sistema=NF3E&tipoArquivo=3&nomeArquivo=NF3e_Nota_Tecnica_2026_002+v1.01.pdf",
+      "folder": "data/svrs/nf3e/documentos/2026-08-01_nota-tecnica-2026.002-rtc-v1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2026-08-01_nota-tecnica-2026.002-rtc-v1.01",
+      "files": [
+        "data/svrs/nf3e/documentos/2026-08-01_nota-tecnica-2026.002-rtc-v1.01/nf3e-nota-tecnica-2026-002-v1.01.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-08-01_nota-tecnica-2026.002-rtc-v1.01/nf3e-nota-tecnica-2026-002-v1.01.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:49:40+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-06-29_schemas-nt-2026.002-rtc",
+      "title": "Schemas NT 2026.002 RTC",
+      "description": "Schemas NT 2026.002 RTC",
+      "published_at": "2026-06-29",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NF3E/DownloadArquivoEstatico/?sistema=NF3E&tipoArquivo=2&nomeArquivo=PL_NF3E_1.00a_NT2026.002+RTC_1.01.zip",
+      "folder": "data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc",
+      "files": [
+        "data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01.zip",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/consReciNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/consReciNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/consSitNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/consSitNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/consStatServNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/consStatServNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/DFeTiposBasicos_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/evCancNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/evCancVincPgto_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/eventoNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/eventoNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/evVincPgto_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/nf3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/nf3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/procEventoNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/procNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/retConsReciNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/retConsSitNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/retConsStatServNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/retEventoNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/retNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/tiposGeralNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/consReciNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/consReciNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/consSitNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/consSitNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/consStatServNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/consStatServNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/DFeTiposBasicos_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/evCancNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/evCancVincPgto_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/eventoNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/eventoNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/evVincPgto_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/nf3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/nf3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/procEventoNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/procNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/retConsReciNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/retConsSitNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/retConsStatServNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/retEventoNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/retNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/tiposGeralNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nf3e-1.00a-nt2026.002-rtc-1.01/PL_NF3E_1.00a_NT2026.002 RTC_1.01/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "downloaded_at": "2026-09-06T04:49:40+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-06-22_tabela-de-codigos-de-credito-presumido",
+      "title": "Tabela de Códigos de Crédito Presumido",
+      "description": "Tabela de Códigos de Crédito Presumido",
+      "published_at": "2026-06-22",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=cCredPres_2026-06-22.xlsx",
+      "folder": "data/svrs/nf3e/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido",
+      "files": [
+        "data/svrs/nf3e/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido/ccredpres-2026-06-22.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido/ccredpres-2026-06-22.xlsx"
+      ],
+      "downloaded_at": "2026-09-06T04:49:41+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "title": "Tabela de Código de Classificação Tributária da RT",
+      "description": "Tabela de Código de Classificação Tributária da RT",
+      "published_at": "2026-06-22",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=cClassTrib+2026-06-22.xlsx",
+      "folder": "data/svrs/nf3e/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "files": [
+        "data/svrs/nf3e/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt/cclasstrib-2026-06-22.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt/cclasstrib-2026-06-22.xlsx"
+      ],
+      "downloaded_at": "2026-09-06T04:49:42+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50",
+      "title": "IT 2025.002 RT Tabela de Classificação Tributária v1.50",
+      "description": "IT 2025.002 RT Tabela de Classificação Tributária v1.50",
+      "published_at": "2026-04-15",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT+2025.002+v.1.50+-+Tabelas+de+Classifica%C3%A7%C3%A3o+do+IBS+e+da+CBS.pdf",
+      "folder": "data/svrs/nf3e/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50",
+      "files": [
+        "data/svrs/nf3e/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50/it-2025.002-v.1.50-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50/it-2025.002-v.1.50-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:49:43+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-03-13_schemas-nt-2025.001-rtc-1.14",
+      "title": "Schemas NT 2025.001 RTC 1.14",
+      "description": "Schemas NT 2025.001 RTC 1.14",
+      "published_at": "2026-03-13",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NF3E/DownloadArquivoEstatico/?sistema=NF3E&tipoArquivo=2&nomeArquivo=PL_NF3E_1.00a_NT2025_001+-+RTC_1.14.zip",
+      "folder": "data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14",
+      "files": [
+        "data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14.zip",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/consReciNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/consReciNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/consSitNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/consSitNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/consStatServNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/consStatServNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/DFeTiposBasicos_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/evCancNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/eventoNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/eventoNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/nf3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/nf3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/procEventoNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/procNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/retConsReciNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/retConsSitNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/retConsStatServNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/retEventoNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/retNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/tiposGeralNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/consReciNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/consReciNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/consSitNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/consSitNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/consStatServNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/consStatServNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/DFeTiposBasicos_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/evCancNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/eventoNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/eventoNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/nf3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/nf3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/procEventoNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/procNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/retConsReciNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/retConsSitNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/retConsStatServNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/retEventoNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/retNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/tiposGeralNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2025.001-rtc-1.14/pl-nf3e-1.00a-nt2025-001-rtc-1.14/PL_NF3E_1.00a_NT2025_001 - RTC_1.14/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "downloaded_at": "2026-09-06T04:49:43+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01",
+      "title": "Schemas NT 2026.001 RTC Vinculação Pagamento v1.01",
+      "description": "Schemas NT 2026.001 RTC Vinculação Pagamento v1.01",
+      "published_at": "2026-03-13",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NF3E/DownloadArquivoEstatico/?sistema=NF3E&tipoArquivo=2&nomeArquivo=PL_NF3E_1.00a_NT2026_001+-+RTC_VincPgto_1.01.zip",
+      "folder": "data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01",
+      "files": [
+        "data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01.zip",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/consReciNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/consReciNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/consSitNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/consSitNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/consStatServNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/consStatServNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/DFeTiposBasicos_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/evCancNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/evCancVincPgto_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/eventoNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/eventoNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/evVincPgto_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/nf3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/nf3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/procEventoNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/procNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/retConsReciNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/retConsSitNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/retConsStatServNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/retEventoNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/retNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/tiposGeralNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/consReciNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/consReciNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/consSitNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/consSitNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/consStatServNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/consStatServNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/DFeTiposBasicos_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/evCancNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/evCancVincPgto_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/eventoNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/eventoNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/evVincPgto_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/nf3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/nf3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/procEventoNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/procNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/retConsReciNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/retConsSitNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/retConsStatServNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/retEventoNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/retNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/tiposGeralNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-13_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nf3e-1.00a-nt2026-001-rtc-vincpgto-1.01/PL_NF3E_1.00a_NT2026_001 - RTC_VincPgto_1.01/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "downloaded_at": "2026-09-06T04:49:44+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-03-12_nota-tecnica-2025.001-rtc-v1.14a",
+      "title": "Nota Técnica 2025.001 - RTC v1.14a",
+      "description": "Nota Técnica 2025.001 - RTC v1.14a",
+      "published_at": "2026-03-12",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NF3E/DownloadArquivoEstatico/?sistema=NF3E&tipoArquivo=3&nomeArquivo=NF3e_Nota_Tecnica_2025_001_RTC_v1.14a.pdf",
+      "folder": "data/svrs/nf3e/documentos/2026-03-12_nota-tecnica-2025.001-rtc-v1.14a",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2026-03-12_nota-tecnica-2025.001-rtc-v1.14a",
+      "files": [
+        "data/svrs/nf3e/documentos/2026-03-12_nota-tecnica-2025.001-rtc-v1.14a/nf3e-nota-tecnica-2025-001-rtc-v1.14a.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-12_nota-tecnica-2025.001-rtc-v1.14a/nf3e-nota-tecnica-2025-001-rtc-v1.14a.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:49:45+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026",
+      "title": "Tabela de Meios de Pagamento – Publicada em 04/03/2026",
+      "description": "Tabela de Meios de Pagamento – Publicada em 04/03/2026",
+      "published_at": "2026-03-04",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=Tabela_de_meios_de_pagamento+-+04032026.xlsx",
+      "folder": "data/svrs/nf3e/documentos/2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026",
+      "files": [
+        "data/svrs/nf3e/documentos/2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026/tabela-de-meios-de-pagamento-04032026.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026/tabela-de-meios-de-pagamento-04032026.xlsx"
+      ],
+      "downloaded_at": "2026-09-06T04:49:46+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11",
+      "title": "Informe Técnico 2024.002 - Atualiza Tabela de Meios de Pagamento - v1.11",
+      "description": "Informe Técnico 2024.002 - Atualiza Tabela de Meios de Pagamento - v1.11",
+      "published_at": "2026-03-04",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT2024.002v1.11+-+Atualiza+Tabela+Meios+de+Pagamento+-+04032026.pdf",
+      "folder": "data/svrs/nf3e/documentos/2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11",
+      "files": [
+        "data/svrs/nf3e/documentos/2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11/it2024.002v1.11-atualiza-tabela-meios-de-pagamento-04032026.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11/it2024.002v1.11-atualiza-tabela-meios-de-pagamento-04032026.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:49:46+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-03-02_nota-tecnica-2026.001-rtc-vinculacao-pagamento-v1.01",
+      "title": "Nota Técnica 2026.001 - RTC Vinculação Pagamento v1.01",
+      "description": "Nota Técnica 2026.001 - RTC Vinculação Pagamento v1.01",
+      "published_at": "2026-03-02",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NF3E/DownloadArquivoEstatico/?sistema=NF3E&tipoArquivo=3&nomeArquivo=NF3e_Nota_Tecnica_2026_001_RTC_VinculacaoPgto_v1.01.pdf",
+      "folder": "data/svrs/nf3e/documentos/2026-03-02_nota-tecnica-2026.001-rtc-vinculacao-pagamento-v1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2026-03-02_nota-tecnica-2026.001-rtc-vinculacao-pagamento-v1.01",
+      "files": [
+        "data/svrs/nf3e/documentos/2026-03-02_nota-tecnica-2026.001-rtc-vinculacao-pagamento-v1.01/nf3e-nota-tecnica-2026-001-rtc-vinculacaopgto-v1.01.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2026-03-02_nota-tecnica-2026.001-rtc-vinculacao-pagamento-v1.01/nf3e-nota-tecnica-2026-001-rtc-vinculacaopgto-v1.01.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:49:47+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-12-17_informe-tecnico-2025.002-novos-cclass",
+      "title": "Informe Técnico 2025.002 - Novos cClass",
+      "description": "Informe Técnico 2025.002 - Novos cClass",
+      "published_at": "2025-12-17",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NF3E/DownloadArquivoEstatico/?sistema=NF3E&tipoArquivo=16&nomeArquivo=NF3e_Informe+T%C3%A9cnico+2025.002+v1.0+-+Novos+cClass.pdf",
+      "folder": "data/svrs/nf3e/documentos/2025-12-17_informe-tecnico-2025.002-novos-cclass",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2025-12-17_informe-tecnico-2025.002-novos-cclass",
+      "files": [
+        "data/svrs/nf3e/documentos/2025-12-17_informe-tecnico-2025.002-novos-cclass/nf3e-informe-tecnico-2025.002-v1.0-novos-cclass.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2025-12-17_informe-tecnico-2025.002-novos-cclass/nf3e-informe-tecnico-2025.002-v1.0-novos-cclass.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:49:48+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-06-06_informe-tecnico-2025.001-novos-cclass",
+      "title": "Informe Técnico 2025.001 - Novos cClass",
+      "description": "Informe Técnico 2025.001 - Novos cClass",
+      "published_at": "2025-06-06",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NF3E/DownloadArquivoEstatico/?sistema=NF3E&tipoArquivo=16&nomeArquivo=NF3e_Informe+T%C3%A9cnico+2025.001+v1.0+-+Novos+cClass.pdf",
+      "folder": "data/svrs/nf3e/documentos/2025-06-06_informe-tecnico-2025.001-novos-cclass",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2025-06-06_informe-tecnico-2025.001-novos-cclass",
+      "files": [
+        "data/svrs/nf3e/documentos/2025-06-06_informe-tecnico-2025.001-novos-cclass/nf3e-informe-tecnico-2025.001-v1.0-novos-cclass.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2025-06-06_informe-tecnico-2025.001-novos-cclass/nf3e-informe-tecnico-2025.001-v1.0-novos-cclass.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:49:49+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00",
+      "title": "Nota Técnica DFe Conjunta - CNPJ Alfanumérico v1.00",
+      "description": "Nota Técnica DFe Conjunta - CNPJ Alfanumérico v1.00",
+      "published_at": "2025-05-07",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=3&nomeArquivo=DFe+NTCJ+2025.001_CNPJ+Alfa_v1.00.pdf",
+      "folder": "data/svrs/nf3e/documentos/2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00",
+      "files": [
+        "data/svrs/nf3e/documentos/2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00/dfe-ntcj-2025.001-cnpj-alfa-v1.00.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00/dfe-ntcj-2025.001-cnpj-alfa-v1.00.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:49:49+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2024-07-08_nota-tecnica-2024.002-desativacao-do-servico-assincrono-1.01",
+      "title": "Nota Técnica 2024.002 - Desativação do Serviço Assíncrono - 1.01",
+      "description": "Nota Técnica 2024.002 - Desativação do Serviço Assíncrono - 1.01",
+      "published_at": "2024-07-08",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NF3E/DownloadArquivoEstatico/?sistema=NF3E&tipoArquivo=3&nomeArquivo=NF3e_Nota_Tecnica_2024_002_v1.01.pdf",
+      "folder": "data/svrs/nf3e/documentos/2024-07-08_nota-tecnica-2024.002-desativacao-do-servico-assincrono-1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2024-07-08_nota-tecnica-2024.002-desativacao-do-servico-assincrono-1.01",
+      "files": [
+        "data/svrs/nf3e/documentos/2024-07-08_nota-tecnica-2024.002-desativacao-do-servico-assincrono-1.01/nf3e-nota-tecnica-2024-002-v1.01.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-07-08_nota-tecnica-2024.002-desativacao-do-servico-assincrono-1.01/nf3e-nota-tecnica-2024-002-v1.01.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:49:50+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2024-01-16_schemas-nt-2024.001",
+      "title": "Schemas NT 2024.001",
+      "description": "Schemas NT 2024.001",
+      "published_at": "2024-01-16",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NF3E/DownloadArquivoEstatico/?sistema=NF3E&tipoArquivo=2&nomeArquivo=PL_NF3E_1.00a_NT2024_001.zip",
+      "folder": "data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001",
+      "files": [
+        "data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001.zip",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/consReciNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/consReciNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/consSitNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/consSitNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/consStatServNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/consStatServNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/enviNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/evCancNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/eventoNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/eventoNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/nf3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/nf3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/procEventoNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/procNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/retConsReciNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/retConsSitNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/retConsStatServNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/retEnviNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/retEventoNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/retNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/tiposGeralNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/consReciNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/consReciNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/consSitNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/consSitNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/consStatServNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/consStatServNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/enviNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/evCancNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/eventoNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/eventoNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/nf3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/nf3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/procEventoNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/procNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/retConsReciNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/retConsSitNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/retConsStatServNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/retEnviNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/retEventoNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/retNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/tiposGeralNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_schemas-nt-2024.001/pl-nf3e-1.00a-nt2024-001/PL_NF3E_1.00a_NT2024_001/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "downloaded_at": "2026-09-06T04:49:51+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2024-01-16_nota-tecnica-2024.001",
+      "title": "Nota Técnica 2024.001",
+      "description": "Nota Técnica 2024.001",
+      "published_at": "2024-01-16",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NF3E/DownloadArquivoEstatico/?sistema=NF3E&tipoArquivo=3&nomeArquivo=NF3e_Nota_Tecnica_2024_001_v1.00.pdf",
+      "folder": "data/svrs/nf3e/documentos/2024-01-16_nota-tecnica-2024.001",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2024-01-16_nota-tecnica-2024.001",
+      "files": [
+        "data/svrs/nf3e/documentos/2024-01-16_nota-tecnica-2024.001/nf3e-nota-tecnica-2024-001-v1.00.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2024-01-16_nota-tecnica-2024.001/nf3e-nota-tecnica-2024-001-v1.00.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:49:52+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2023-05-04_schemas-nt-2023.001-v1.01",
+      "title": "Schemas NT 2023.001 v1.01",
+      "description": "Schemas NT 2023.001 v1.01",
+      "published_at": "2023-05-04",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NF3E/DownloadArquivoEstatico/?sistema=NF3E&tipoArquivo=2&nomeArquivo=PL_NF3E_1.00a_NT2023_001_v1.01.zip",
+      "folder": "data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01",
+      "files": [
+        "data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01.zip",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/consReciNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/consReciNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/consSitNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/consSitNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/consStatServNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/consStatServNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/enviNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/evCancNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/eventoNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/eventoNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/nf3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/nf3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/procEventoNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/procNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/retConsReciNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/retConsSitNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/retConsStatServNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/retEnviNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/retEventoNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/retNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/tiposGeralNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/consReciNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/consReciNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/consSitNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/consSitNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/consStatServNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/consStatServNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/enviNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/evCancNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/eventoNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/eventoNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/nf3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/nf3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/procEventoNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/procNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/retConsReciNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/retConsSitNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/retConsStatServNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/retEnviNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/retEventoNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/retNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/tiposGeralNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_schemas-nt-2023.001-v1.01/pl-nf3e-1.00a-nt2023-001-v1.01/PL_NF3E_1.00a_NT2023_001/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "downloaded_at": "2026-09-06T04:49:52+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2023-05-04_nota-tecnica-2023.001",
+      "title": "Nota Técnica 2023.001",
+      "description": "Nota Técnica 2023.001",
+      "published_at": "2023-05-04",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NF3E/DownloadArquivoEstatico/?sistema=NF3E&tipoArquivo=3&nomeArquivo=NF3e_Nota_Tecnica_2023_001_v1.01.pdf",
+      "folder": "data/svrs/nf3e/documentos/2023-05-04_nota-tecnica-2023.001",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2023-05-04_nota-tecnica-2023.001",
+      "files": [
+        "data/svrs/nf3e/documentos/2023-05-04_nota-tecnica-2023.001/nf3e-nota-tecnica-2023-001-v1.01.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2023-05-04_nota-tecnica-2023.001/nf3e-nota-tecnica-2023-001-v1.01.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:49:53+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2022-06-22_nota-tecnica-2022.001-v1.01",
+      "title": "Nota Técnica 2022.001 v1.01",
+      "description": "Nota Técnica 2022.001 v1.01",
+      "published_at": "2022-06-22",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NF3E/DownloadArquivoEstatico/?sistema=NF3E&tipoArquivo=3&nomeArquivo=NF3e_Nota_Tecnica_2022_001_v1.01.pdf",
+      "folder": "data/svrs/nf3e/documentos/2022-06-22_nota-tecnica-2022.001-v1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2022-06-22_nota-tecnica-2022.001-v1.01",
+      "files": [
+        "data/svrs/nf3e/documentos/2022-06-22_nota-tecnica-2022.001-v1.01/nf3e-nota-tecnica-2022-001-v1.01.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2022-06-22_nota-tecnica-2022.001-v1.01/nf3e-nota-tecnica-2022-001-v1.01.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:49:54+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao",
+      "title": "Schemas XML NF3e - Pacote de Liberação 1.00a (revisão)",
+      "description": "Schemas XML NF3e - Pacote de Liberação 1.00a (revisão)",
+      "published_at": "2021-10-14",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NF3E/DownloadArquivoEstatico/?sistema=NF3E&tipoArquivo=2&nomeArquivo=PL_NF3E_1.00a_rev.zip",
+      "folder": "data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao",
+      "files": [
+        "data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev.zip",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/consReciNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/consReciNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/consSitNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/consSitNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/consStatServNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/consStatServNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/enviNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/evCancNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/eventoNF3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/eventoNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/nf3eTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/nf3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/procEventoNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/procNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/retConsReciNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/retConsSitNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/retConsStatServNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/retEnviNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/retEventoNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/retNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/tiposGeralNF3e_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/consReciNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/consReciNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/consSitNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/consSitNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/consStatServNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/consStatServNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/enviNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/evCancNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/eventoNF3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/eventoNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/nf3eTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/nf3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/procEventoNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/procNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/retConsReciNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/retConsSitNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/retConsStatServNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/retEnviNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/retEventoNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/retNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/tiposGeralNF3e_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-10-14_schemas-xml-nf3e-pacote-de-liberacao-1.00a-revisao/pl-nf3e-1.00a-rev/PL_NF3E_1.00a/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "downloaded_at": "2026-09-06T04:49:55+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2021-09-17_moc-nf3e-1.00a-anexo-leiaute-e-regras-de-validacao",
+      "title": "MOC NF3e 1.00a - Anexo Leiaute e Regras de Validação",
+      "description": "MOC NF3e 1.00a - Anexo Leiaute e Regras de Validação",
+      "published_at": "2021-09-17",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NF3E/DownloadArquivoEstatico/?sistema=NF3E&tipoArquivo=1&nomeArquivo=MOC_NF3E_Anexo+I_Leiaute+e+Regras+de+Validacao_v1.00a.pdf",
+      "folder": "data/svrs/nf3e/documentos/2021-09-17_moc-nf3e-1.00a-anexo-leiaute-e-regras-de-validacao",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2021-09-17_moc-nf3e-1.00a-anexo-leiaute-e-regras-de-validacao",
+      "files": [
+        "data/svrs/nf3e/documentos/2021-09-17_moc-nf3e-1.00a-anexo-leiaute-e-regras-de-validacao/moc-nf3e-anexo-i-leiaute-e-regras-de-validacao-v1.00a.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-09-17_moc-nf3e-1.00a-anexo-leiaute-e-regras-de-validacao/moc-nf3e-anexo-i-leiaute-e-regras-de-validacao-v1.00a.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:49:55+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2021-09-17_moc-nf3e-1.00a-anexo-danf3e",
+      "title": "MOC NF3e 1.00a - Anexo DANF3E",
+      "description": "MOC NF3e 1.00a - Anexo DANF3E",
+      "published_at": "2021-09-17",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NF3E/DownloadArquivoEstatico/?sistema=NF3E&tipoArquivo=1&nomeArquivo=MOC_NF3E_Anexo+II_DANF3E_v1.00a.pdf",
+      "folder": "data/svrs/nf3e/documentos/2021-09-17_moc-nf3e-1.00a-anexo-danf3e",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2021-09-17_moc-nf3e-1.00a-anexo-danf3e",
+      "files": [
+        "data/svrs/nf3e/documentos/2021-09-17_moc-nf3e-1.00a-anexo-danf3e/moc-nf3e-anexo-ii-danf3e-v1.00a.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-09-17_moc-nf3e-1.00a-anexo-danf3e/moc-nf3e-anexo-ii-danf3e-v1.00a.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:49:56+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2021-01-26_nota-explicativa-2020.001-micro-e-mini-geracao-v1.01",
+      "title": "Nota Explicativa 2020.001 - Micro e Mini Geração [v1.01]",
+      "description": "Nota Explicativa 2020.001 - Micro e Mini Geração [v1.01]",
+      "published_at": "2021-01-26",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NF3E/DownloadArquivoEstatico/?sistema=NF3E&tipoArquivo=14&nomeArquivo=NF3E_Nota_Explicativa_2020_001_Micro_e_MiniGeracao_v1.01.pdf",
+      "folder": "data/svrs/nf3e/documentos/2021-01-26_nota-explicativa-2020.001-micro-e-mini-geracao-v1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2021-01-26_nota-explicativa-2020.001-micro-e-mini-geracao-v1.01",
+      "files": [
+        "data/svrs/nf3e/documentos/2021-01-26_nota-explicativa-2020.001-micro-e-mini-geracao-v1.01/nf3e-nota-explicativa-2020-001-micro-e-minigeracao-v1.01.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2021-01-26_nota-explicativa-2020.001-micro-e-mini-geracao-v1.01/nf3e-nota-explicativa-2020-001-micro-e-minigeracao-v1.01.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:49:57+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2020-09-17_moc-nf3e-1.00a-visao-geral",
+      "title": "MOC NF3e 1.00a - Visão Geral",
+      "description": "MOC NF3e 1.00a - Visão Geral",
+      "published_at": "2020-09-17",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NF3E/DownloadArquivoEstatico/?sistema=NF3E&tipoArquivo=1&nomeArquivo=MOC_NF3E_VisaoGeral_v1.00a.pdf",
+      "folder": "data/svrs/nf3e/documentos/2020-09-17_moc-nf3e-1.00a-visao-geral",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos/2020-09-17_moc-nf3e-1.00a-visao-geral",
+      "files": [
+        "data/svrs/nf3e/documentos/2020-09-17_moc-nf3e-1.00a-visao-geral/moc-nf3e-visaogeral-v1.00a.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/2020-09-17_moc-nf3e-1.00a-visao-geral/moc-nf3e-visaogeral-v1.00a.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:49:58+00:00",
+      "status": "ok"
+    }
+  ]
+}

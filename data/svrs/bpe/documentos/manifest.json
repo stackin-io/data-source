@@ -2,13 +2,13 @@
   "context": "svrs/bpe/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos",
-  "generated_at": "2026-09-06T04:42:42+00:00",
-  "started_at": "2026-09-06T04:42:19+00:00",
-  "duration_s": 22.63,
+  "generated_at": "2026-09-06T04:49:36+00:00",
+  "started_at": "2026-09-06T04:49:35+00:00",
+  "duration_s": 1.04,
   "totals": {
     "discovered": 28,
-    "persisted": 28,
-    "skipped": 0,
+    "persisted": 0,
+    "skipped": 28,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-08-25_nota-tecnica-2025.002-v2.00-bpe-transporte-aereo/bpe-nota-tecnica-2025-002-bpeta-v2.00.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:22+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split",
@@ -43,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split/it-2026.001-v.1.01-tabelas-de-meios-de-pagamento-para-vinculacao-com-o-split.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:22+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-01_nota-tecnica-2026.002-rtc-v1.01",
@@ -60,8 +60,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-08-01_nota-tecnica-2026.002-rtc-v1.01/bpe-nota-tecnica-2026-002-v1.01.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:23+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-06-22_schemas-nt-2026.002",
@@ -73,54 +73,54 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002",
       "files": [
         "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/bpeTA_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/bpeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/bpeTM_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/bpe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/consSitBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/consSitBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/consStatServBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/consStatServBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/DFeTiposBasicos_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/DFeTiposBasicos_v1.00_old.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/evAlteracaoPoltrona_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/evCancBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/evCancVincPgto_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/eventoBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/eventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/evExcessoBagagem_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/evNaoEmbBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/evVincPgto_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/procBPeTM_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/procBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/procEventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/retBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/retConsSitBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/retConsStatServBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/retEventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/tiposGeralBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/DFeTiposBasicos_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/DFeTiposBasicos_v1.00_old.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/bpeTA_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/bpeTM_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/bpeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/bpe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/consSitBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/consSitBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/consStatServBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/consStatServBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/evAlteracaoPoltrona_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/evCancBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/evCancVincPgto_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/evExcessoBagagem_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/evNaoEmbBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/evVincPgto_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/eventoBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/eventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/procBPeTM_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/procBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/procEventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/retBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/retConsSitBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/retConsStatServBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/retEventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/tiposGeralBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/DFeTiposBasicos_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/DFeTiposBasicos_v1.00_old.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/bpeTA_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/bpeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/bpeTM_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/bpeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/bpe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/consSitBPeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/consSitBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/consStatServBPeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/consStatServBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/DFeTiposBasicos_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/DFeTiposBasicos_v1.00_old.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/evAlteracaoPoltrona_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/evCancBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/evCancVincPgto_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/eventoBPeTiposBasico_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/eventoBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/evExcessoBagagem_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/evNaoEmbBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/evVincPgto_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/eventoBPeTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/eventoBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/procBPeTM_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/procBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/procEventoBPe_v1.00.xsd",
@@ -131,8 +131,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/tiposGeralBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_schemas-nt-2026.002/pl-bpe-100b-nt2026.002-rtc-1.01/PL_BPe_100b_NT2026.002 RTC_1.01/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:42:24+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
@@ -148,8 +148,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt/cclasstrib-2026-06-22.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:42:25+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-06-22_tabela-de-codigos-de-credito-presumido",
@@ -165,8 +165,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido/ccredpres-2026-06-22.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:42:25+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr",
@@ -178,52 +178,52 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr",
       "files": [
         "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/bpeTA_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/bpeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/bpeTM_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/bpe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/consSitBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/consSitBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/consStatServBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/consStatServBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/DFeTiposBasicos_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/evAlteracaoPoltrona_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/evCancBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/evCancVincPgto_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/eventoBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/eventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/evExcessoBagagem_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/evNaoEmbBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/evVincPgto_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/procBPeTM_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/procBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/procEventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/retBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/retConsSitBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/retConsStatServBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/retEventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/tiposGeralBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/DFeTiposBasicos_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/bpeTA_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/bpeTM_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/bpeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/bpe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/consSitBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/consSitBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/consStatServBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/consStatServBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/evAlteracaoPoltrona_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/evCancBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/evCancVincPgto_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/evExcessoBagagem_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/evNaoEmbBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/evVincPgto_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/eventoBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/eventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/procBPeTM_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/procBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/procEventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/retBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/retConsSitBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/retConsStatServBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/retEventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/tiposGeralBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/DFeTiposBasicos_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/bpeTA_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/bpeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/bpeTM_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/bpeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/bpe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/consSitBPeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/consSitBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/consStatServBPeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/consStatServBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/DFeTiposBasicos_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/evAlteracaoPoltrona_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/evCancBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/evCancVincPgto_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/eventoBPeTiposBasico_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/eventoBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/evExcessoBagagem_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/evNaoEmbBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/evVincPgto_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/eventoBPeTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/eventoBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/procBPeTM_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/procBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/procEventoBPe_v1.00.xsd",
@@ -234,8 +234,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/tiposGeralBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-16_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01bcorr/pl-bpe-100b-nt2026.001-rtc-vincpgto-v1.01b-corr/PL_BPe_100b_NT2026.001 RTC_VincPgto_v1.01b_corr/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:42:26+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-05-20_schemas-nt-2025.001-rtc-v1.14a",
@@ -247,48 +247,48 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a",
       "files": [
         "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/bpeTA_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/bpeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/bpeTM_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/bpe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/consSitBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/consSitBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/consStatServBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/consStatServBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/DFeTiposBasicos_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/evAlteracaoPoltrona_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/evCancBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/eventoBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/eventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/evExcessoBagagem_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/evNaoEmbBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/procBPeTM_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/procBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/procEventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/retBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/retConsSitBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/retConsStatServBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/retEventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/tiposGeralBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/DFeTiposBasicos_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/bpeTA_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/bpeTM_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/bpeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/bpe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/consSitBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/consSitBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/consStatServBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/consStatServBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/evAlteracaoPoltrona_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/evCancBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/evExcessoBagagem_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/evNaoEmbBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/eventoBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/eventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/procBPeTM_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/procBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/procEventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/retBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/retConsSitBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/retConsStatServBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/retEventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/tiposGeralBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/DFeTiposBasicos_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/bpeTA_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/bpeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/bpeTM_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/bpeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/bpe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/consSitBPeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/consSitBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/consStatServBPeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/consStatServBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/DFeTiposBasicos_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/evAlteracaoPoltrona_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/evCancBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/eventoBPeTiposBasico_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/eventoBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/evExcessoBagagem_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/evNaoEmbBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/eventoBPeTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/eventoBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/procBPeTM_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/procBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/procEventoBPe_v1.00.xsd",
@@ -299,8 +299,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/tiposGeralBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:42:27+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50",
@@ -316,8 +316,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50/it-2025.002-v.1.50-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:28+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-03-12_nota-tecnica-2025.001-rtc-v1.14a",
@@ -333,8 +333,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-03-12_nota-tecnica-2025.001-rtc-v1.14a/bpe-nota-tecnica-2025-001-rtc-v1.14a.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:28+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026",
@@ -350,8 +350,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026/tabela-de-meios-de-pagamento-04032026.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:42:29+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11",
@@ -367,8 +367,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11/it2024.002v1.11-atualiza-tabela-meios-de-pagamento-04032026.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:30+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-03-02_nota-tecnica-2026.001-rtc-vinculacao-pagamento-v1.01",
@@ -384,8 +384,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-03-02_nota-tecnica-2026.001-rtc-vinculacao-pagamento-v1.01/bpe-nota-tecnica-2026-001-rtc-vinculacaopgto-v1.01.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:31+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00",
@@ -401,8 +401,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00/dfe-ntcj-2025.001-cnpj-alfa-v1.00.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:32+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-01-16_schemas-nt-2024.001",
@@ -414,33 +414,33 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001",
       "files": [
         "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/bpeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/bpeTM_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/bpe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/consSitBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/consSitBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/consStatServBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/consStatServBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/evAlteracaoPoltrona_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/evCancBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/eventoBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/eventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/evExcessoBagagem_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/evNaoEmbBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/procBPeTM_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/procBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/procEventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/retBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/retConsSitBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/retConsStatServBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/retEventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/tiposGeralBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/bpeTM_v1.00.xsd",
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/bpeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/bpe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/consSitBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/consSitBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/consStatServBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/consStatServBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/evAlteracaoPoltrona_v1.00.xsd",
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/evCancBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/evExcessoBagagem_v1.00.xsd",
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/evNaoEmbBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/eventoBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/eventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/procBPeTM_v1.00.xsd",
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/procBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/procEventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/retBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/retConsSitBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/retConsStatServBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/retEventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/tiposGeralBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024.zip",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/bpeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/bpeTM_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/bpeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/bpe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/consSitBPeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/consSitBPe_v1.00.xsd",
@@ -448,10 +448,10 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/consStatServBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/evAlteracaoPoltrona_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/evCancBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/eventoBPeTiposBasico_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/eventoBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/evExcessoBagagem_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/evNaoEmbBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/eventoBPeTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/eventoBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/procBPeTM_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/procBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/procEventoBPe_v1.00.xsd",
@@ -462,8 +462,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/tiposGeralBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_schemas-nt-2024.001/pl-bpe-100b-nt012024/PL_BPe_100b_NT012024/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:42:32+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-01-16_nota-tecnica-2024.001",
@@ -479,8 +479,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2024-01-16_nota-tecnica-2024.001/bpe-nota-tecnica-2024-001-v1.00.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:33+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-10-24_nota-tecnica-2022.001-v1.01",
@@ -496,8 +496,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-10-24_nota-tecnica-2022.001-v1.01/bpe-nota-tecnica-2022-001-v1.01.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:34+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-09-21_schemas-nt-2021.001-v1.01",
@@ -509,33 +509,33 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01",
       "files": [
         "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/bpeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/bpeTM_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/bpe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/consSitBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/consSitBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/consStatServBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/consStatServBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/evAlteracaoPoltrona_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/evCancBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/eventoBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/eventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/evExcessoBagagem_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/evNaoEmbBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/procBPeTM_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/procBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/procEventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/retBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/retConsSitBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/retConsStatServBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/retEventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/tiposGeralBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/bpeTM_v1.00.xsd",
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/bpeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/bpe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/consSitBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/consSitBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/consStatServBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/consStatServBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/evAlteracaoPoltrona_v1.00.xsd",
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/evCancBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/evExcessoBagagem_v1.00.xsd",
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/evNaoEmbBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/eventoBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/eventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/procBPeTM_v1.00.xsd",
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/procBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/procEventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/retBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/retConsSitBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/retConsStatServBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/retEventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/tiposGeralBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01.zip",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/bpeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/bpeTM_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/bpeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/bpe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/consSitBPeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/consSitBPe_v1.00.xsd",
@@ -543,10 +543,10 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/consStatServBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/evAlteracaoPoltrona_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/evCancBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/eventoBPeTiposBasico_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/eventoBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/evExcessoBagagem_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/evNaoEmbBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/eventoBPeTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/eventoBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/procBPeTM_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/procBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/procEventoBPe_v1.00.xsd",
@@ -557,8 +557,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/tiposGeralBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_schemas-nt-2021.001-v1.01/pl-bpe-100b-nt012021-1.01/PL_BPe_100b_NT012021/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:42:34+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-09-21_nota-tecnica-2020.002-bp-e-transporte-metropolitano-v1.01",
@@ -574,8 +574,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2022-09-21_nota-tecnica-2020.002-bp-e-transporte-metropolitano-v1.01/bpe-nt-2020.002-bpetm-v1.01.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:35+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-01-26_nota-tecnica-2021.001",
@@ -591,8 +591,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2021-01-26_nota-tecnica-2021.001/bpe-nota-tecnica-2021-001.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:36+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01",
@@ -604,26 +604,26 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01",
       "files": [
         "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/bpeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/bpe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consSitBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consSitBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consStatServBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consStatServBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evAlteracaoPoltrona_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evCancBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/eventoBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/eventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evExcessoBagagem_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evNaoEmbBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/procBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/procEventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retConsSitBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retConsStatServBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retEventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/tiposGeralBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/bpeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/bpe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consSitBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consSitBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consStatServBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consStatServBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evAlteracaoPoltrona_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evCancBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evExcessoBagagem_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evNaoEmbBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/eventoBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/eventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/procBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/procEventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retConsSitBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retConsStatServBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retEventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/tiposGeralBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01.zip",
@@ -635,10 +635,10 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consStatServBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evAlteracaoPoltrona_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evCancBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/eventoBPeTiposBasico_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/eventoBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evExcessoBagagem_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evNaoEmbBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/eventoBPeTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/eventoBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/procBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/procEventoBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retBPe_v1.00.xsd",
@@ -648,8 +648,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/tiposGeralBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:42:37+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao",
@@ -661,33 +661,33 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao",
       "files": [
         "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/bpeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/bpeTM_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/bpe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consSitBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consSitBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consStatServBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consStatServBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evAlteracaoPoltrona_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evCancBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/eventoBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/eventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evExcessoBagagem_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evNaoEmbBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/procBPeTM_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/procBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/procEventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/retBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/retConsSitBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/retConsStatServBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/retEventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/tiposGeralBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/bpeTM_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/bpeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/bpe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consSitBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consSitBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consStatServBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consStatServBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evAlteracaoPoltrona_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evCancBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evExcessoBagagem_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evNaoEmbBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/eventoBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/eventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/procBPeTM_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/procBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/procEventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/retBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/retConsSitBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/retConsStatServBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/retEventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/tiposGeralBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020.zip",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/bpeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/bpeTM_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/bpeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/bpe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consSitBPeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consSitBPe_v1.00.xsd",
@@ -695,10 +695,10 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consStatServBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evAlteracaoPoltrona_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evCancBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/eventoBPeTiposBasico_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/eventoBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evExcessoBagagem_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evNaoEmbBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/eventoBPeTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/eventoBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/procBPeTM_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/procBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/procEventoBPe_v1.00.xsd",
@@ -709,8 +709,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/tiposGeralBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:42:37+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-07-20_nota-tecnica-2020.001-evento-excesso-de-bagagem-v1.01",
@@ -726,8 +726,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_nota-tecnica-2020.001-evento-excesso-de-bagagem-v1.01/bpe-nt-2020.001-evento-excesso-bagagem-v1.01.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:38+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano",
@@ -739,33 +739,33 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano",
       "files": [
         "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/bpeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/bpeTM_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/bpe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consSitBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consSitBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consStatServBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consStatServBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evAlteracaoPoltrona_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evCancBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/eventoBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/eventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evExcessoBagagem_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evNaoEmbBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/procBPeTM_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/procBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/procEventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/retBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/retConsSitBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/retConsStatServBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/retEventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/tiposGeralBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/bpeTM_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/bpeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/bpe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consSitBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consSitBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consStatServBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consStatServBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evAlteracaoPoltrona_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evCancBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evExcessoBagagem_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evNaoEmbBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/eventoBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/eventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/procBPeTM_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/procBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/procEventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/retBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/retConsSitBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/retConsStatServBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/retEventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/tiposGeralBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020.zip",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/bpeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/bpeTM_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/bpeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/bpe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consSitBPeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consSitBPe_v1.00.xsd",
@@ -773,10 +773,10 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/consStatServBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evAlteracaoPoltrona_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evCancBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/eventoBPeTiposBasico_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/eventoBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evExcessoBagagem_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/evNaoEmbBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/eventoBPeTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/eventoBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/procBPeTM_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/procBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/procEventoBPe_v1.00.xsd",
@@ -787,8 +787,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/tiposGeralBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-04-14_nota-tecnica-2020.002-bp-e-transporte-metropolitano/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:42:39+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-06-13_moc-bp-e-1.00b-visao-geral",
@@ -804,8 +804,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2019-06-13_moc-bp-e-1.00b-visao-geral/moc-bpe-visaogeral-v1.00b.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:40+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-06-13_moc-bp-e-1.00b-leiaute",
@@ -821,8 +821,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2019-06-13_moc-bp-e-1.00b-leiaute/moc-bpe-anexo-i-leiaute-v1.00b.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:41+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-06-13_moc-bp-e-1.00b-dabpe",
@@ -838,8 +838,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2019-06-13_moc-bp-e-1.00b-dabpe/moc-bpe-anexo-ii-dabpe-v1.00b.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:41+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-06-13_schemas-bp-e-versao-1.00b",
@@ -851,25 +851,25 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b",
       "files": [
         "data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/bpeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/bpe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/consSitBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/consSitBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/consStatServBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/consStatServBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/evAlteracaoPoltrona_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/evCancBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/eventoBPeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/eventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/evNaoEmbBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/procBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/procEventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/retBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/retConsSitBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/retConsStatServBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/retEventoBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/tiposGeralBPe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/bpeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/bpe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/consSitBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/consSitBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/consStatServBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/consStatServBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/evAlteracaoPoltrona_v1.00.xsd",
+        "data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/evCancBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/evNaoEmbBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/eventoBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/eventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/procBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/procEventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/retBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/retConsSitBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/retConsStatServBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/retEventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/tiposGeralBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b.zip",
@@ -881,9 +881,9 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/consStatServBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/evAlteracaoPoltrona_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/evCancBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/evNaoEmbBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/eventoBPeTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/eventoBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/evNaoEmbBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/procBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/procEventoBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/retBPe_v1.00.xsd",
@@ -893,8 +893,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/tiposGeralBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2019-06-13_schemas-bp-e-versao-1.00b/pl-bpe-100b/PL_BPe_100b/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:42:42+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     }
   ]
 }

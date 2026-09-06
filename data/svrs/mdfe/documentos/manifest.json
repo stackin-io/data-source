@@ -2,13 +2,13 @@
   "context": "svrs/mdfe/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/mdfe/documentos",
-  "generated_at": "2026-09-06T04:42:18+00:00",
-  "started_at": "2026-09-06T04:41:54+00:00",
-  "duration_s": 23.68,
+  "generated_at": "2026-09-06T04:49:34+00:00",
+  "started_at": "2026-09-06T04:49:33+00:00",
+  "duration_s": 1.04,
   "totals": {
     "discovered": 30,
-    "persisted": 30,
-    "skipped": 0,
+    "persisted": 0,
+    "skipped": 30,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split/it-2026.001-v.1.01-tabelas-de-meios-de-pagamento-para-vinculacao-com-o-split.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:57+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
@@ -43,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt/cclasstrib-2026-06-22.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:41:57+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-06-22_tabela-de-codigos-de-credito-presumido",
@@ -60,8 +60,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido/ccredpres-2026-06-22.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:41:58+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-05-29_nota-tecnica-2026.001",
@@ -77,8 +77,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-05-29_nota-tecnica-2026.001/mdfe-nota-tecnica-2026-001.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:59+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-04-25_schemas-nt-2025.001-v-1.04",
@@ -90,47 +90,47 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04",
       "files": [
         "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/consMDFeNaoEncTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/consMDFeNaoEnc_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/consReciMDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/consReciMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/consSitMDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/consSitMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/consStatServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/consStatServTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/distMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/enviMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/evAlteracaoPagtoServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/evCancMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/evConfirmaServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/evEncMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/eventoMDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/eventoMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/evIncCondutorMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/evInclusaoDFeMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/evPagtoOperMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/leiauteDistMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/mdfeConsultaDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/mdfeConsultaDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/mdfeModalAereo_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/mdfeModalAquaviario_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/mdfeModalFerroviario_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/mdfeModalRodoviario_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/mdfeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/mdfe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/procEventoMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/procMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/retConsMDFeNaoEnc_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/retConsReciMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/retConsSitMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/retConsStatServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/retDistMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/retEnviMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/retEventoMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/retMDFeConsultaDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/retMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/tiposGeralMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/consMDFeNaoEncTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/consMDFeNaoEnc_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/consReciMDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/consReciMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/consSitMDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/consSitMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/consStatServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/consStatServTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/distMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/enviMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/evAlteracaoPagtoServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/evCancMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/evConfirmaServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/evEncMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/evIncCondutorMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/evInclusaoDFeMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/evPagtoOperMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/eventoMDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/eventoMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/leiauteDistMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/mdfeConsultaDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/mdfeConsultaDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/mdfeModalAereo_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/mdfeModalAquaviario_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/mdfeModalFerroviario_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/mdfeModalRodoviario_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/mdfeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/mdfe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/procEventoMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/procMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/retConsMDFeNaoEnc_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/retConsReciMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/retConsSitMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/retConsStatServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/retDistMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/retEnviMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/retEventoMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/retMDFeConsultaDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/retMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/tiposGeralMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04.zip",
@@ -148,11 +148,11 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/evCancMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/evConfirmaServMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/evEncMDFe_v3.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/eventoMDFeTiposBasico_v3.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/eventoMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/evIncCondutorMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/evInclusaoDFeMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/evPagtoOperMDFe_v3.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/eventoMDFeTiposBasico_v3.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/eventoMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/leiauteDistMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/mdfeConsultaDFeTiposBasico_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/mdfeConsultaDFe_v3.00.xsd",
@@ -176,8 +176,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/tiposGeralMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-04-25_schemas-nt-2025.001-v-1.04/pl-mdfe-300b-nt012025-1.04/PL_MDFe_300b_NT012025_1.05/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:41:59+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-04-25_nota-tecnica-2022.002-v1.02-paa",
@@ -193,8 +193,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-04-25_nota-tecnica-2022.002-v1.02-paa/mdfe-nota-tecnica-2022-02-paa-v1.02.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:00+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50",
@@ -210,8 +210,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50/it-2025.002-v.1.50-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:01+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026",
@@ -227,8 +227,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026/tabela-de-meios-de-pagamento-04032026.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:42:02+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11",
@@ -244,8 +244,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11/it2024.002v1.11-atualiza-tabela-meios-de-pagamento-04032026.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:02+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-08-21_nota-tecnica-2025.001-v1.03",
@@ -261,8 +261,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2025-08-21_nota-tecnica-2025.001-v1.03/mdfe-nota-tecnica-2025-001-1.03.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:03+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00",
@@ -278,8 +278,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00/dfe-ntcj-2025.001-cnpj-alfa-v1.00.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:04+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-08-16_schemas-nt-2024.002-v1.01",
@@ -291,56 +291,56 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01",
       "files": [
         "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consMDFeNaoEnc_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consMDFeNaoEncTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consReciMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consReciMDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consSitMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consSitMDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consStatServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consStatServTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/distMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/enviMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/evAlteracaoPagtoServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/evCancMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/evConfirmaServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/evEncMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/eventoMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/eventoMDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/evIncCondutorMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/evInclusaoDFeMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/evPagtoOperMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/leiauteDistMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeConsultaDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeConsultaDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeModalAereo_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeModalAquaviario_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeModalFerroviario_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeModalRodoviario_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/procEventoMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/procMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retConsMDFeNaoEnc_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retConsReciMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retConsSitMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retConsStatServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retDistMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retEnviMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retEventoMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retMDFeConsultaDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/tiposGeralMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consMDFeNaoEncTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consMDFeNaoEnc_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consReciMDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consReciMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consSitMDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consSitMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consStatServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consStatServTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/distMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/enviMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/evAlteracaoPagtoServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/evCancMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/evConfirmaServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/evEncMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/evIncCondutorMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/evInclusaoDFeMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/evPagtoOperMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/eventoMDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/eventoMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/leiauteDistMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeConsultaDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeConsultaDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeModalAereo_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeModalAquaviario_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeModalFerroviario_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeModalRodoviario_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/procEventoMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/procMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retConsMDFeNaoEnc_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retConsReciMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retConsSitMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retConsStatServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retDistMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retEnviMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retEventoMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retMDFeConsultaDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/tiposGeralMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02.zip",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consMDFeNaoEnc_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consMDFeNaoEncTiposBasico_v3.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consReciMDFe_v3.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consMDFeNaoEnc_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consReciMDFeTiposBasico_v3.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consSitMDFe_v3.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consReciMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consSitMDFeTiposBasico_v3.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consSitMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consStatServMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/consStatServTiposBasico_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/distMDFe_v3.00.xsd",
@@ -349,20 +349,20 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/evCancMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/evConfirmaServMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/evEncMDFe_v3.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/eventoMDFe_v3.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/eventoMDFeTiposBasico_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/evIncCondutorMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/evInclusaoDFeMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/evPagtoOperMDFe_v3.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/eventoMDFeTiposBasico_v3.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/eventoMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/leiauteDistMDFe_v3.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfe_v3.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeConsultaDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeConsultaDFeTiposBasico_v3.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeConsultaDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeModalAereo_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeModalAquaviario_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeModalFerroviario_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeModalRodoviario_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfeTiposBasico_v3.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/mdfe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/procEventoMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/procMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retConsMDFeNaoEnc_v3.00.xsd",
@@ -372,13 +372,13 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retDistMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retEnviMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retEventoMDFe_v3.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retMDFeConsultaDFe_v3.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/retMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/tiposGeralMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_schemas-nt-2024.002-v1.01/pl-mdfe-300b-nt022024-1.02/PL_MDFe_300b_NT022024_1.02/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:42:05+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-08-16_nota-tecnica-2024.002-v1.01",
@@ -394,8 +394,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-08-16_nota-tecnica-2024.002-v1.01/mdfe-nota-tecnica-2024-002-ctesimplificado-v1.01.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:05+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-03-12_schemas-nt-2024.001-v1.02",
@@ -407,47 +407,47 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02",
       "files": [
         "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/consMDFeNaoEncTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/consMDFeNaoEnc_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/consReciMDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/consReciMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/consSitMDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/consSitMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/consStatServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/consStatServTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/distMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/enviMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/evAlteracaoPagtoServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/evCancMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/evConfirmaServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/evEncMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/eventoMDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/eventoMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/evIncCondutorMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/evInclusaoDFeMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/evPagtoOperMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/leiauteDistMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/mdfeConsultaDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/mdfeConsultaDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/mdfeModalAereo_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/mdfeModalAquaviario_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/mdfeModalFerroviario_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/mdfeModalRodoviario_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/mdfeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/mdfe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/procEventoMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/procMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/retConsMDFeNaoEnc_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/retConsReciMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/retConsSitMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/retConsStatServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/retDistMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/retEnviMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/retEventoMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/retMDFeConsultaDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/retMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/tiposGeralMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/consMDFeNaoEncTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/consMDFeNaoEnc_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/consReciMDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/consReciMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/consSitMDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/consSitMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/consStatServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/consStatServTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/distMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/enviMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/evAlteracaoPagtoServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/evCancMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/evConfirmaServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/evEncMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/evIncCondutorMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/evInclusaoDFeMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/evPagtoOperMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/eventoMDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/eventoMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/leiauteDistMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/mdfeConsultaDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/mdfeConsultaDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/mdfeModalAereo_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/mdfeModalAquaviario_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/mdfeModalFerroviario_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/mdfeModalRodoviario_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/mdfeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/mdfe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/procEventoMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/procMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/retConsMDFeNaoEnc_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/retConsReciMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/retConsSitMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/retConsStatServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/retDistMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/retEnviMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/retEventoMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/retMDFeConsultaDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/retMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/tiposGeralMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02.zip",
@@ -465,11 +465,11 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/evCancMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/evConfirmaServMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/evEncMDFe_v3.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/eventoMDFeTiposBasico_v3.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/eventoMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/evIncCondutorMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/evInclusaoDFeMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/evPagtoOperMDFe_v3.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/eventoMDFeTiposBasico_v3.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/eventoMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/leiauteDistMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/mdfeConsultaDFeTiposBasico_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/mdfeConsultaDFe_v3.00.xsd",
@@ -493,8 +493,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/tiposGeralMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-03-12_schemas-nt-2024.001-v1.02/pl-mdfe-300b-nt012024-v1.02/PL_MDFe_300b_NT012024/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:42:06+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-03-12_nota-tecnica-2024.001-v1.02",
@@ -510,8 +510,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2024-03-12_nota-tecnica-2024.001-v1.02/mdfe-nota-tecnica-2024-001-v1.02.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:07+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-08-11_schemas-nt-2023.002-integracao-infrasa",
@@ -523,48 +523,48 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa",
       "files": [
         "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/consMDFeNaoEncTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/consMDFeNaoEnc_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/consReciMDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/consReciMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/consSitMDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/consSitMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/consStatServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/consStatServTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/distMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/enviMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/evAlteracaoPagtoServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/evCancMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/evConfirmaServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/evEncMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/eventoMDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/eventoMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/evIncCondutorMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/evInclusaoDFeMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/evPagtoOperMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/leiauteDistMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/mdfeConsultaDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/mdfeConsultaDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/mdfeModalAereo_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/mdfeModalAquaviario_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/mdfeModalFerroviario_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/mdfeModalRodoviario_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/mdfeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/mdfe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/procEventoMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/procMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/retConsMDFeNaoEnc_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/retConsMDFeNaoEnc_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/retConsReciMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/retConsSitMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/retConsStatServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/retDistMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/retEnviMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/retEventoMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/retMDFeConsultaDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/retMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/tiposGeralMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/consMDFeNaoEncTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/consMDFeNaoEnc_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/consReciMDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/consReciMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/consSitMDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/consSitMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/consStatServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/consStatServTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/distMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/enviMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/evAlteracaoPagtoServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/evCancMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/evConfirmaServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/evEncMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/evIncCondutorMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/evInclusaoDFeMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/evPagtoOperMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/eventoMDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/eventoMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/leiauteDistMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/mdfeConsultaDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/mdfeConsultaDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/mdfeModalAereo_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/mdfeModalAquaviario_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/mdfeModalFerroviario_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/mdfeModalRodoviario_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/mdfeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/mdfe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/procEventoMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/procMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/retConsMDFeNaoEnc_v1.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/retConsMDFeNaoEnc_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/retConsReciMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/retConsSitMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/retConsStatServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/retDistMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/retEnviMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/retEventoMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/retMDFeConsultaDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/retMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/tiposGeralMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023.zip",
@@ -582,11 +582,11 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/evCancMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/evConfirmaServMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/evEncMDFe_v3.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/eventoMDFeTiposBasico_v3.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/eventoMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/evIncCondutorMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/evInclusaoDFeMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/evPagtoOperMDFe_v3.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/eventoMDFeTiposBasico_v3.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/eventoMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/leiauteDistMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/mdfeConsultaDFeTiposBasico_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/mdfeConsultaDFe_v3.00.xsd",
@@ -611,8 +611,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/tiposGeralMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2023-08-11_schemas-nt-2023.002-integracao-infrasa/pl-mdfe-300b-nt022023/PL_MDFe_300b_NT022023/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:42:08+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-08-11_nota-tecnica-2023.002-integracao-com-infrasa",
@@ -628,8 +628,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2023-08-11_nota-tecnica-2023.002-integracao-com-infrasa/mdfe-nota-tecnica-2023-02-v1.00.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:08+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-03-23_nota-tecnica-2023.001",
@@ -645,8 +645,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2023-03-23_nota-tecnica-2023.001/mdfe-nota-tecnica-2023-01-v1.00.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:09+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-12-12_schemas-da-versao-3.00b-do-mdfe",
@@ -658,48 +658,48 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe",
       "files": [
         "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/consMDFeNaoEncTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/consMDFeNaoEnc_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/consReciMDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/consReciMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/consSitMDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/consSitMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/consStatServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/consStatServTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/distMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/enviMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/evAlteracaoPagtoServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/evCancMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/evConfirmaServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/evEncMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/eventoMDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/eventoMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/evIncCondutorMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/evInclusaoDFeMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/evPagtoOperMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/leiauteDistMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/mdfeConsultaDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/mdfeConsultaDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/mdfeModalAereo_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/mdfeModalAquaviario_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/mdfeModalFerroviario_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/mdfeModalRodoviario_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/mdfeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/mdfe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/procEventoMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/procMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/retConsMDFeNaoEnc_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/retConsMDFeNaoEnc_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/retConsReciMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/retConsSitMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/retConsStatServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/retDistMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/retEnviMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/retEventoMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/retMDFeConsultaDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/retMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/tiposGeralMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/consMDFeNaoEncTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/consMDFeNaoEnc_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/consReciMDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/consReciMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/consSitMDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/consSitMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/consStatServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/consStatServTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/distMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/enviMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/evAlteracaoPagtoServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/evCancMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/evConfirmaServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/evEncMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/evIncCondutorMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/evInclusaoDFeMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/evPagtoOperMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/eventoMDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/eventoMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/leiauteDistMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/mdfeConsultaDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/mdfeConsultaDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/mdfeModalAereo_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/mdfeModalAquaviario_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/mdfeModalFerroviario_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/mdfeModalRodoviario_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/mdfeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/mdfe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/procEventoMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/procMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/retConsMDFeNaoEnc_v1.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/retConsMDFeNaoEnc_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/retConsReciMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/retConsSitMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/retConsStatServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/retDistMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/retEnviMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/retEventoMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/retMDFeConsultaDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/retMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/tiposGeralMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b.zip",
@@ -717,11 +717,11 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/evCancMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/evConfirmaServMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/evEncMDFe_v3.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/eventoMDFeTiposBasico_v3.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/eventoMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/evIncCondutorMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/evInclusaoDFeMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/evPagtoOperMDFe_v3.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/eventoMDFeTiposBasico_v3.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/eventoMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/leiauteDistMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/mdfeConsultaDFeTiposBasico_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/mdfeConsultaDFe_v3.00.xsd",
@@ -746,8 +746,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/tiposGeralMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-12-12_schemas-da-versao-3.00b-do-mdfe/pl-mdfe-300b/PL_MDFe_300b/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:42:10+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-12-07_moc-mdfe-3.00b-visao-geral",
@@ -763,8 +763,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-12-07_moc-mdfe-3.00b-visao-geral/moc-mdfe-visaogeral-v3.00b.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:11+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-12-07_moc-mdfe-3.00b-anexo-i-leiaute-e-regras-de-validacao",
@@ -780,8 +780,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-12-07_moc-mdfe-3.00b-anexo-i-leiaute-e-regras-de-validacao/moc-mdfe-anexo-i-leiaute-e-regras-validacao-v3.00b.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:11+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-12-07_moc-mdfe-3.00b-anexo-ii-damdfe",
@@ -797,8 +797,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-12-07_moc-mdfe-3.00b-anexo-ii-damdfe/moc-mdfe-anexo-ii-damdfe-v3.00b.docx"
       ],
-      "downloaded_at": "2026-09-06T04:42:12+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-03-30_nota-tecnica-2015.002-ws-distribuicao-interessados-1.03",
@@ -814,8 +814,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-03-30_nota-tecnica-2015.002-ws-distribuicao-interessados-1.03/mdfe-notatecnica-2015-002-ws-distribuicao-dfe-v1.03.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:13+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-03-23_schemas-nt-2022.001-v1.03",
@@ -827,48 +827,48 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03",
       "files": [
         "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/consMDFeNaoEncTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/consMDFeNaoEnc_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/consReciMDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/consReciMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/consSitMDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/consSitMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/consStatServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/consStatServTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/distMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/enviMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/evAlteracaoPagtoServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/evCancMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/evConfirmaServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/evEncMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/eventoMDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/eventoMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/evIncCondutorMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/evInclusaoDFeMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/evPagtoOperMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/leiauteDistMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/mdfeConsultaDFeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/mdfeConsultaDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/mdfeModalAereo_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/mdfeModalAquaviario_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/mdfeModalFerroviario_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/mdfeModalRodoviario_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/mdfeTiposBasico_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/mdfe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/procEventoMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/procMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/retConsMDFeNaoEnc_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/retConsMDFeNaoEnc_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/retConsReciMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/retConsSitMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/retConsStatServMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/retDistMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/retEnviMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/retEventoMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/retMDFeConsultaDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/retMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/tiposGeralMDFe_v3.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/consMDFeNaoEncTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/consMDFeNaoEnc_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/consReciMDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/consReciMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/consSitMDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/consSitMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/consStatServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/consStatServTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/distMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/enviMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/evAlteracaoPagtoServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/evCancMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/evConfirmaServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/evEncMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/evIncCondutorMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/evInclusaoDFeMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/evPagtoOperMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/eventoMDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/eventoMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/leiauteDistMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/mdfeConsultaDFeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/mdfeConsultaDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/mdfeModalAereo_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/mdfeModalAquaviario_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/mdfeModalFerroviario_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/mdfeModalRodoviario_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/mdfeTiposBasico_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/mdfe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/procEventoMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/procMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/retConsMDFeNaoEnc_v1.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/retConsMDFeNaoEnc_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/retConsReciMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/retConsSitMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/retConsStatServMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/retDistMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/retEnviMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/retEventoMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/retMDFeConsultaDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/retMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/tiposGeralMDFe_v3.00.xsd",
+        "data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03.zip",
@@ -886,11 +886,11 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/evCancMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/evConfirmaServMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/evEncMDFe_v3.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/eventoMDFeTiposBasico_v3.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/eventoMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/evIncCondutorMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/evInclusaoDFeMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/evPagtoOperMDFe_v3.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/eventoMDFeTiposBasico_v3.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/eventoMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/leiauteDistMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/mdfeConsultaDFeTiposBasico_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/mdfeConsultaDFe_v3.00.xsd",
@@ -915,8 +915,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/tiposGeralMDFe_v3.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-03-23_schemas-nt-2022.001-v1.03/pl-mdfe-300a-nt012022-1.03/PL_MDFe_300a_NT012022/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:42:14+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-02-23_nota-tecnica-2022.001-v1.00",
@@ -932,8 +932,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2022-02-23_nota-tecnica-2022.001-v1.00/mdfe-nota-tecnica-2022-01-v1.00.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:14+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-07-07_nota-tecnica-2020.002-nff-versao-1.05",
@@ -949,8 +949,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2021-07-07_nota-tecnica-2020.002-nff-versao-1.05/mdfe-nota-tecnica-2020-002-nff-1.05.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:15+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-05-27_nota-tecnica-2021.001-v1.02",
@@ -966,8 +966,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2021-05-27_nota-tecnica-2021.001-v1.02/mdfe-nota-tecnica-2021-001-v1.02.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:16+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-05-27_nota-tecnica-2021.002-v1.03",
@@ -983,8 +983,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2021-05-27_nota-tecnica-2021.002-v1.03/mdfe-nota-tecnica-2021-002-v1.03.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:17+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-03-23_nota-tecnica-2020.001-mdf-e-integrado-v-1.04",
@@ -1000,8 +1000,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2020-03-23_nota-tecnica-2020.001-mdf-e-integrado-v-1.04/mdfe-nota-tecnica-2020-001-mdfe-integrado-v1.04.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:42:17+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2016-03-23_nt-2015.002-distribuicao-aos-atores-v1.00b",
@@ -1013,11 +1013,11 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/mdfe/documentos/2016-03-23_nt-2015.002-distribuicao-aos-atores-v1.00b",
       "files": [
         "data/svrs/mdfe/documentos/2016-03-23_nt-2015.002-distribuicao-aos-atores-v1.00b/pl-mdfedistdfe-100.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2016-03-23_nt-2015.002-distribuicao-aos-atores-v1.00b/pl-mdfedistdfe-100/PL_MDFeDistDFe_100/distDFeInt_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2016-03-23_nt-2015.002-distribuicao-aos-atores-v1.00b/pl-mdfedistdfe-100/PL_MDFeDistDFe_100/retDistDFeInt_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2016-03-23_nt-2015.002-distribuicao-aos-atores-v1.00b/pl-mdfedistdfe-100/PL_MDFeDistDFe_100/tiposDistDFe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2016-03-23_nt-2015.002-distribuicao-aos-atores-v1.00b/pl-mdfedistdfe-100/PL_MDFeDistDFe_100/tiposGeralMDFe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/mdfe/documentos/2016-03-23_nt-2015.002-distribuicao-aos-atores-v1.00b/pl-mdfedistdfe-100/PL_MDFeDistDFe_100/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/mdfe/documentos/2016-03-23_nt-2015.002-distribuicao-aos-atores-v1.00b/pl-mdfedistdfe-100/PL_MDFeDistDFe_100/distDFeInt_v1.00.xsd",
+        "data/svrs/mdfe/documentos/2016-03-23_nt-2015.002-distribuicao-aos-atores-v1.00b/pl-mdfedistdfe-100/PL_MDFeDistDFe_100/retDistDFeInt_v1.00.xsd",
+        "data/svrs/mdfe/documentos/2016-03-23_nt-2015.002-distribuicao-aos-atores-v1.00b/pl-mdfedistdfe-100/PL_MDFeDistDFe_100/tiposDistDFe_v1.00.xsd",
+        "data/svrs/mdfe/documentos/2016-03-23_nt-2015.002-distribuicao-aos-atores-v1.00b/pl-mdfedistdfe-100/PL_MDFeDistDFe_100/tiposGeralMDFe_v1.00.xsd",
+        "data/svrs/mdfe/documentos/2016-03-23_nt-2015.002-distribuicao-aos-atores-v1.00b/pl-mdfedistdfe-100/PL_MDFeDistDFe_100/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2016-03-23_nt-2015.002-distribuicao-aos-atores-v1.00b/pl-mdfedistdfe-100.zip",
@@ -1027,8 +1027,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2016-03-23_nt-2015.002-distribuicao-aos-atores-v1.00b/pl-mdfedistdfe-100/PL_MDFeDistDFe_100/tiposGeralMDFe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2016-03-23_nt-2015.002-distribuicao-aos-atores-v1.00b/pl-mdfedistdfe-100/PL_MDFeDistDFe_100/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:42:18+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     }
   ]
 }

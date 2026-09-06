@@ -1,0 +1,118 @@
+{
+  "context": "svrs/nff/documentos",
+  "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nff/documentos",
+  "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nff/documentos",
+  "generated_at": "2026-09-06T04:51:25+00:00",
+  "started_at": "2026-09-06T04:51:18+00:00",
+  "duration_s": 7.29,
+  "totals": {
+    "discovered": 6,
+    "persisted": 6,
+    "skipped": 0,
+    "failed": 0
+  },
+  "items": [
+    {
+      "slug": "2026-01-30_manual-de-orientacao-ao-produtor-rural-2026",
+      "title": "Manual de Orientação ao Produtor Rural 2026",
+      "description": "Manual de Orientação ao Produtor Rural 2026",
+      "published_at": "2026-01-30",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFF/DownloadArquivoEstatico/?sistema=NFF&tipoArquivo=1&nomeArquivo=MANUAL+DE+ORIENTA%C3%87%C3%83O+AO+PRODUTOR+RURAL+2026.pdf",
+      "folder": "data/svrs/nff/documentos/2026-01-30_manual-de-orientacao-ao-produtor-rural-2026",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nff/documentos/2026-01-30_manual-de-orientacao-ao-produtor-rural-2026",
+      "files": [
+        "data/svrs/nff/documentos/2026-01-30_manual-de-orientacao-ao-produtor-rural-2026/manual-de-orientacao-ao-produtor-rural-2026.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nff/documentos/2026-01-30_manual-de-orientacao-ao-produtor-rural-2026/manual-de-orientacao-ao-produtor-rural-2026.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:51:22+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2023-12-15_manual-nff-do-mei",
+      "title": "Manual NFF do MEI",
+      "description": "Manual NFF do MEI",
+      "published_at": "2023-12-15",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFF/DownloadArquivoEstatico/?sistema=NFF&tipoArquivo=1&nomeArquivo=Manual_NFF_MEI_v100.pdf",
+      "folder": "data/svrs/nff/documentos/2023-12-15_manual-nff-do-mei",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nff/documentos/2023-12-15_manual-nff-do-mei",
+      "files": [
+        "data/svrs/nff/documentos/2023-12-15_manual-nff-do-mei/manual-nff-mei-v100.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nff/documentos/2023-12-15_manual-nff-do-mei/manual-nff-mei-v100.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:51:22+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2023-09-06_manual-da-nota-fiscal-facil-v1.00-modulo-ppr",
+      "title": "Manual da Nota Fiscal Fácil v1.00 - Módulo PPR",
+      "description": "Manual da Nota Fiscal Fácil v1.00 - Módulo PPR",
+      "published_at": "2023-09-06",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFF/DownloadArquivoEstatico/?sistema=NFF&tipoArquivo=1&nomeArquivo=NFF+Produtor+-+Manual+do+produtor+rural.pdf",
+      "folder": "data/svrs/nff/documentos/2023-09-06_manual-da-nota-fiscal-facil-v1.00-modulo-ppr",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nff/documentos/2023-09-06_manual-da-nota-fiscal-facil-v1.00-modulo-ppr",
+      "files": [
+        "data/svrs/nff/documentos/2023-09-06_manual-da-nota-fiscal-facil-v1.00-modulo-ppr/nff-produtor-manual-do-produtor-rural.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nff/documentos/2023-09-06_manual-da-nota-fiscal-facil-v1.00-modulo-ppr/nff-produtor-manual-do-produtor-rural.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:51:23+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2021-07-05_apresentacao-nota-fiscal-facil",
+      "title": "Apresentação Nota Fiscal Fácil",
+      "description": "Apresentação Nota Fiscal Fácil",
+      "published_at": "2021-07-05",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFF/DownloadArquivoEstatico/?sistema=NFF&tipoArquivo=13&nomeArquivo=Apresenta%C3%A7%C3%A3o+Geral+NFF.pdf",
+      "folder": "data/svrs/nff/documentos/2021-07-05_apresentacao-nota-fiscal-facil",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nff/documentos/2021-07-05_apresentacao-nota-fiscal-facil",
+      "files": [
+        "data/svrs/nff/documentos/2021-07-05_apresentacao-nota-fiscal-facil/apresentacao-geral-nff.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nff/documentos/2021-07-05_apresentacao-nota-fiscal-facil/apresentacao-geral-nff.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:51:24+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2021-05-11_manual-da-nota-fiscal-facil-v1.00-modulo-tac",
+      "title": "Manual da Nota Fiscal Fácil v1.00 - Módulo TAC",
+      "description": "Manual da Nota Fiscal Fácil v1.00 - Módulo TAC",
+      "published_at": "2021-05-11",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFF/DownloadArquivoEstatico/?sistema=NFF&tipoArquivo=1&nomeArquivo=Manual_Nota_Fiscal_Facil_1.00.pdf",
+      "folder": "data/svrs/nff/documentos/2021-05-11_manual-da-nota-fiscal-facil-v1.00-modulo-tac",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nff/documentos/2021-05-11_manual-da-nota-fiscal-facil-v1.00-modulo-tac",
+      "files": [
+        "data/svrs/nff/documentos/2021-05-11_manual-da-nota-fiscal-facil-v1.00-modulo-tac/manual-nota-fiscal-facil-1.00.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nff/documentos/2021-05-11_manual-da-nota-fiscal-facil-v1.00-modulo-tac/manual-nota-fiscal-facil-1.00.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:51:25+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2020-11-16_apresentacao-nota-fiscal-facil",
+      "title": "Apresentação Nota Fiscal Fácil",
+      "description": "Apresentação Nota Fiscal Fácil",
+      "published_at": "2020-11-16",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFF/DownloadArquivoEstatico/?sistema=NFF&tipoArquivo=13&nomeArquivo=NFF+2020-11-05+Nota+Fiscal+F%C3%A1cil+-+Ricardo+Neves+mod+VPF.pptx",
+      "folder": "data/svrs/nff/documentos/2020-11-16_apresentacao-nota-fiscal-facil",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nff/documentos/2020-11-16_apresentacao-nota-fiscal-facil",
+      "files": [
+        "data/svrs/nff/documentos/2020-11-16_apresentacao-nota-fiscal-facil/nff-2020-11-05-nota-fiscal-facil-ricardo-neves-mod-vpf.pptx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nff/documentos/2020-11-16_apresentacao-nota-fiscal-facil/nff-2020-11-05-nota-fiscal-facil-ricardo-neves-mod-vpf.pptx"
+      ],
+      "downloaded_at": "2026-09-06T04:51:25+00:00",
+      "status": "ok"
+    }
+  ]
+}

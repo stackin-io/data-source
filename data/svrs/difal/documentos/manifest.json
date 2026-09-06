@@ -1,0 +1,169 @@
+{
+  "context": "svrs/difal/documentos",
+  "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos",
+  "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/difal/documentos",
+  "generated_at": "2026-09-06T04:51:17+00:00",
+  "started_at": "2026-09-06T04:51:10+00:00",
+  "duration_s": 7.1,
+  "totals": {
+    "discovered": 9,
+    "persisted": 9,
+    "skipped": 0,
+    "failed": 0
+  },
+  "items": [
+    {
+      "slug": "2025-05-30_aliquotas-icms-amapa",
+      "title": "ALÍQUOTAS ICMS AMAPÁ",
+      "description": "ALÍQUOTAS ICMS AMAPÁ",
+      "published_at": "2025-05-30",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DIFAL/DownloadArquivoEstatico/?sistema=DIFAL&tipoArquivo=12&nomeArquivo=AP+-+Vers%C3%A3o+001+-+30-05-2025.pdf",
+      "folder": "data/svrs/difal/documentos/2025-05-30_aliquotas-icms-amapa",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/difal/documentos/2025-05-30_aliquotas-icms-amapa",
+      "files": [
+        "data/svrs/difal/documentos/2025-05-30_aliquotas-icms-amapa/ap-versao-001-30-05-2025.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/2025-05-30_aliquotas-icms-amapa/ap-versao-001-30-05-2025.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:51:12+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-05-30_beneficios-fiscais-relativos-ao-icms-no-estado-do-amapa",
+      "title": "BENEFÍCIOS FISCAIS RELATIVOS AO ICMS NO ESTADO DO AMAPÁ",
+      "description": "BENEFÍCIOS FISCAIS RELATIVOS AO ICMS NO ESTADO DO AMAPÁ",
+      "published_at": "2025-05-30",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DIFAL/DownloadArquivoEstatico/?sistema=DIFAL&tipoArquivo=12&nomeArquivo=TABELA+DE+BENEF%C3%8DCIOS+FISCAIS+-+2025.pdf",
+      "folder": "data/svrs/difal/documentos/2025-05-30_beneficios-fiscais-relativos-ao-icms-no-estado-do-amapa",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/difal/documentos/2025-05-30_beneficios-fiscais-relativos-ao-icms-no-estado-do-amapa",
+      "files": [
+        "data/svrs/difal/documentos/2025-05-30_beneficios-fiscais-relativos-ao-icms-no-estado-do-amapa/tabela-de-beneficios-fiscais-2025.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/2025-05-30_beneficios-fiscais-relativos-ao-icms-no-estado-do-amapa/tabela-de-beneficios-fiscais-2025.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:51:12+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2024-09-13_df-versao-001-14062024",
+      "title": "DF - Versão 001 - 14/06/2024",
+      "description": "DF - Versão 001 - 14/06/2024",
+      "published_at": "2024-09-13",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DIFAL/DownloadArquivoEstatico/?sistema=DIFAL&tipoArquivo=12&nomeArquivo=tabela_aliquotas_icms_produto_14_06_2024.xlsx",
+      "folder": "data/svrs/difal/documentos/2024-09-13_df-versao-001-14062024",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/difal/documentos/2024-09-13_df-versao-001-14062024",
+      "files": [
+        "data/svrs/difal/documentos/2024-09-13_df-versao-001-14062024/tabela-aliquotas-icms-produto-14-06-2024.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/2024-09-13_df-versao-001-14062024/tabela-aliquotas-icms-produto-14-06-2024.xlsx"
+      ],
+      "downloaded_at": "2026-09-06T04:51:13+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2024-04-01_go-versao-001-01-04-2024",
+      "title": "GO - Versão 001 - 01-04-2024",
+      "description": "GO - Versão 001 - 01-04-2024",
+      "published_at": "2024-04-01",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DIFAL/DownloadArquivoEstatico/?sistema=DIFAL&tipoArquivo=12&nomeArquivo=GO+-+Vers%C3%A3o+001+-+01-04-2024.xlsx",
+      "folder": "data/svrs/difal/documentos/2024-04-01_go-versao-001-01-04-2024",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/difal/documentos/2024-04-01_go-versao-001-01-04-2024",
+      "files": [
+        "data/svrs/difal/documentos/2024-04-01_go-versao-001-01-04-2024/go-versao-001-01-04-2024.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/2024-04-01_go-versao-001-01-04-2024/go-versao-001-01-04-2024.xlsx"
+      ],
+      "downloaded_at": "2026-09-06T04:51:14+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2024-01-19_pb-versao-001-01-01-2024",
+      "title": "PB - Versão 001 - 01-01-2024",
+      "description": "PB - Versão 001 - 01-01-2024",
+      "published_at": "2024-01-19",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DIFAL/DownloadArquivoEstatico/?sistema=DIFAL&tipoArquivo=12&nomeArquivo=PB+-+Vers%C3%A3o+001+-+01-01-2024.xlsx",
+      "folder": "data/svrs/difal/documentos/2024-01-19_pb-versao-001-01-01-2024",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/difal/documentos/2024-01-19_pb-versao-001-01-01-2024",
+      "files": [
+        "data/svrs/difal/documentos/2024-01-19_pb-versao-001-01-01-2024/pb-versao-001-01-01-2024.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/2024-01-19_pb-versao-001-01-01-2024/pb-versao-001-01-01-2024.xlsx"
+      ],
+      "downloaded_at": "2026-09-06T04:51:14+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2023-10-10_pb-versao-000-29-09-2023",
+      "title": "PB - Versão 000 - 29-09-2023",
+      "description": "PB - Versão 000 - 29-09-2023",
+      "published_at": "2023-10-10",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DIFAL/DownloadArquivoEstatico/?sistema=DIFAL&tipoArquivo=12&nomeArquivo=PB+-+Vers%C3%A3o+000+-+30-12-2021.xlsx",
+      "folder": "data/svrs/difal/documentos/2023-10-10_pb-versao-000-29-09-2023",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/difal/documentos/2023-10-10_pb-versao-000-29-09-2023",
+      "files": [
+        "data/svrs/difal/documentos/2023-10-10_pb-versao-000-29-09-2023/pb-versao-000-30-12-2021.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/2023-10-10_pb-versao-000-29-09-2023/pb-versao-000-30-12-2021.xlsx"
+      ],
+      "downloaded_at": "2026-09-06T04:51:15+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2023-09-18_go-versao-000-27-12-2021",
+      "title": "GO - Versão 000 - 27-12-2021",
+      "description": "GO - Versão 000 - 27-12-2021",
+      "published_at": "2023-09-18",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DIFAL/DownloadArquivoEstatico/?sistema=DIFAL&tipoArquivo=12&nomeArquivo=GO+-+Vers%C3%A3o+000+-+27-12-2021.xlsx",
+      "folder": "data/svrs/difal/documentos/2023-09-18_go-versao-000-27-12-2021",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/difal/documentos/2023-09-18_go-versao-000-27-12-2021",
+      "files": [
+        "data/svrs/difal/documentos/2023-09-18_go-versao-000-27-12-2021/go-versao-000-27-12-2021.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/2023-09-18_go-versao-000-27-12-2021/go-versao-000-27-12-2021.xlsx"
+      ],
+      "downloaded_at": "2026-09-06T04:51:16+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2023-08-01_mg-versao-000-30-12-2021",
+      "title": "MG - Versão 000 - 30-12-2021",
+      "description": "MG - Versão 000 - 30-12-2021",
+      "published_at": "2023-08-01",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DIFAL/DownloadArquivoEstatico/?sistema=DIFAL&tipoArquivo=12&nomeArquivo=MG+-+Vers%C3%A3o+000+-+30-12-2021.xlsx",
+      "folder": "data/svrs/difal/documentos/2023-08-01_mg-versao-000-30-12-2021",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/difal/documentos/2023-08-01_mg-versao-000-30-12-2021",
+      "files": [
+        "data/svrs/difal/documentos/2023-08-01_mg-versao-000-30-12-2021/mg-versao-000-30-12-2021.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/2023-08-01_mg-versao-000-30-12-2021/mg-versao-000-30-12-2021.xlsx"
+      ],
+      "downloaded_at": "2026-09-06T04:51:17+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2023-08-01_mg-versao-001-01-07-2023",
+      "title": "MG - Versão 001 - 01-07-2023",
+      "description": "MG - Versão 001 - 01-07-2023",
+      "published_at": "2023-08-01",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DIFAL/DownloadArquivoEstatico/?sistema=DIFAL&tipoArquivo=12&nomeArquivo=MG+-+Vers%C3%A3o+001+-+01-07-2023.xlsx",
+      "folder": "data/svrs/difal/documentos/2023-08-01_mg-versao-001-01-07-2023",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/difal/documentos/2023-08-01_mg-versao-001-01-07-2023",
+      "files": [
+        "data/svrs/difal/documentos/2023-08-01_mg-versao-001-01-07-2023/mg-versao-001-01-07-2023.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/2023-08-01_mg-versao-001-01-07-2023/mg-versao-001-01-07-2023.xlsx"
+      ],
+      "downloaded_at": "2026-09-06T04:51:17+00:00",
+      "status": "ok"
+    }
+  ]
+}

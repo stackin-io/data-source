@@ -2,13 +2,13 @@
   "context": "svrs/nfce/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos",
-  "generated_at": "2026-09-06T04:41:27+00:00",
-  "started_at": "2026-09-06T04:40:50+00:00",
-  "duration_s": 37.5,
+  "generated_at": "2026-09-06T04:49:29+00:00",
+  "started_at": "2026-09-06T04:49:28+00:00",
+  "duration_s": 1.52,
   "totals": {
     "discovered": 48,
-    "persisted": 47,
-    "skipped": 0,
+    "persisted": 0,
+    "skipped": 47,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2026-08-25_nota-tecnica-2026.006-rtc-vinculacao-pagamento/nt-2026.006-v1.00-rtc-vinculacaopagamento.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:40:52+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split",
@@ -43,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split/it-2026.001-v.1.01-tabelas-de-meios-de-pagamento-para-vinculacao-com-o-split.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:40:52+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-01_nota-tecnica-2025.002-v1.51-rtc",
@@ -60,8 +60,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2026-08-01_nota-tecnica-2025.002-v1.51-rtc/nt-2025.002-v1.51-rtc-nf-e-ibs-cbs-is.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:40:54+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-07-29_nota-tecnica-2023.003-v1.30",
@@ -73,7 +73,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-06T04:40:54+00:00",
+      "downloaded_at": "2026-09-06T04:49:29+00:00",
       "status": "ok"
     },
     {
@@ -90,8 +90,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido/ccredpres-2026-06-22.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:40:55+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
@@ -107,8 +107,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt/cclasstrib-2026-06-22.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:40:55+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-06-08_nota-tecnica-2026.004-schema-cnpj-alfa-v1.01",
@@ -124,8 +124,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2026-06-08_nota-tecnica-2026.004-schema-cnpj-alfa-v1.01/nt-2026.004-v1.01-alteraschemanfcenfecnpjalfa.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:40:56+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50",
@@ -141,8 +141,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50/it-2025.002-v.1.50-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:40:58+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026",
@@ -158,8 +158,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026/tabela-de-meios-de-pagamento-04032026.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:40:58+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11",
@@ -175,8 +175,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11/it2024.002v1.11-atualiza-tabela-meios-de-pagamento-04032026.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:40:59+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00",
@@ -192,8 +192,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00/dfe-ntcj-2025.001-cnpj-alfa-v1.00.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:40:59+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-12-05_tabela-de-combustiveis-sujeitos-a-tributacao-monofasica",
@@ -209,8 +209,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2024-12-05_tabela-de-combustiveis-sujeitos-a-tributacao-monofasica/tabela-de-combustiveis-sujeitos-a-tributacao-monofasica-202412.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:41:00+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-12-05_informe-tecnico-2023.003-tabela-de-combustiveis-sujeitos-a-tributacao-monofasica",
@@ -226,8 +226,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2024-12-05_informe-tecnico-2023.003-tabela-de-combustiveis-sujeitos-a-tributacao-monofasica/it-2023.003v1.04-tabela-de-combustiveis-sujeitos-a-tributacao-monofasica.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:01+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-09-13_nota-tecnica-2018.005-v-1.40",
@@ -243,8 +243,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2024-09-13_nota-tecnica-2018.005-v-1.40/nt2018-005-v1-40-alteracaodeleiautenf-enfc-e.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:02+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-08-01_dfe-nota-tecnica-2024.002-nfe-nfce-e-imposto-seletivo",
@@ -260,8 +260,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2024-08-01_dfe-nota-tecnica-2024.002-nfe-nfce-e-imposto-seletivo/nt-rt-2024.002-nf-e-e-nfc-e-v1.00-ibs-cbs-e-imposto-seletivo.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:02+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-06-13_nota-tecnica-2023.001-v1.51-tributacao-monofasica-de-combustivel",
@@ -277,8 +277,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2024-06-13_nota-tecnica-2023.001-v1.51-tributacao-monofasica-de-combustivel/nt2023.001-v1.51-tributacaomonofasicacombustiveis.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:03+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-06-06_informe-tecnico-2024.002-1.01-atualiza-tabela-de-meios-de-pagamento",
@@ -294,8 +294,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2024-06-06_informe-tecnico-2024.002-1.01-atualiza-tabela-de-meios-de-pagamento/it2024.002v1.01-atualiza-tabela-meios-de-pagamento-03062024.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:04+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-06-03_tabela-de-meios-de-pagamento-publicada-em-03062024",
@@ -311,8 +311,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2024-06-03_tabela-de-meios-de-pagamento-publicada-em-03062024/tabela-de-meios-de-pagamento-03062024.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:41:05+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62",
@@ -324,25 +324,25 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62",
       "files": [
         "data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/consReciNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/consSitNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/consStatServ_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/enviNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/inutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/leiauteConsSitNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/leiauteConsStatServ_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/leiauteInutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/leiauteNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/nfe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/procInutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/procNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/retConsReciNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/retConsSitNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/retConsStatServ_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/retEnviNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/retInutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/tiposBasico_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/consReciNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/consSitNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/consStatServ_v4.00.xsd",
+        "data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/enviNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/inutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/leiauteConsSitNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/leiauteConsStatServ_v4.00.xsd",
+        "data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/leiauteInutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/leiauteNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/nfe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/procInutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/procNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/retConsReciNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/retConsSitNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/retConsStatServ_v4.00.xsd",
+        "data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/retEnviNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/retInutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/tiposBasico_v4.00.xsd",
+        "data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162.zip",
@@ -366,8 +366,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/tiposBasico_v4.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2024-03-19_schemas-da-nt-2023.004-v1.11-e-nt-2019.001-v1.62/pl-009n-nt2023-004-v101-e-nt2019-001-v162/PL_009n_NT2023_004_v101_e_NT2019_001_v162/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:41:05+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-03-19_nota-tecnica-2019.001-v-1.62-regras-de-validacao",
@@ -383,8 +383,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2024-03-19_nota-tecnica-2019.001-v-1.62-regras-de-validacao/nt2019-001-v1-62-regras-de-validacao.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:06+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-03-19_nota-tecnica-2023.004-v1.11",
@@ -400,8 +400,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2024-03-19_nota-tecnica-2023.004-v1.11/nt2023.004-v1.11-campos-e-regras.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:07+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-05-24_nota-tecnica-2023.002-v1.00",
@@ -417,8 +417,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2023-05-24_nota-tecnica-2023.002-v1.00/nt2023.002-v1.0-emitente-cpf-nfce.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:08+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis",
@@ -430,29 +430,29 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis",
       "files": [
         "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/consCad_v2.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/consReciNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/consSitNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/consStatServ_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/enviNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/inutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/leiauteConsSitNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/leiauteConsStatServ_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/leiauteConsultaCadastro_v2.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/leiauteInutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/leiauteNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/nfe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/procInutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/procNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/retConsCad_v2.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/retConsReciNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/retConsSitNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/retConsStatServ_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/retEnviNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/retInutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/tiposBasico_v1.03.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/tiposBasico_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/consCad_v2.00.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/consReciNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/consSitNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/consStatServ_v4.00.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/enviNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/inutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/leiauteConsSitNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/leiauteConsStatServ_v4.00.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/leiauteConsultaCadastro_v2.00.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/leiauteInutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/leiauteNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/nfe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/procInutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/procNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/retConsCad_v2.00.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/retConsReciNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/retConsSitNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/retConsStatServ_v4.00.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/retEnviNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/retInutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/tiposBasico_v1.03.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/tiposBasico_v4.00.xsd",
+        "data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120.zip",
@@ -480,8 +480,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/tiposBasico_v4.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis/pl-009k-nt2023-001-v120/PL_009k_NT2023_001_v120/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:41:08+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-12-22_pacote-de-schemas-pl-009j",
@@ -493,29 +493,29 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j",
       "files": [
         "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/consCad_v2.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/consReciNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/consSitNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/consStatServ_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/enviNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/inutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/leiauteConsSitNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/leiauteConsStatServ_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/leiauteConsultaCadastro_v2.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/leiauteInutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/leiauteNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/nfe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/procInutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/procNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/retConsCad_v2.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/retConsReciNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/retConsSitNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/retConsStatServ_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/retEnviNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/retInutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/tiposBasico_v1.03.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/tiposBasico_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/consCad_v2.00.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/consReciNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/consSitNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/consStatServ_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/enviNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/inutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/leiauteConsSitNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/leiauteConsStatServ_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/leiauteConsultaCadastro_v2.00.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/leiauteInutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/leiauteNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/nfe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/procInutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/procNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/retConsCad_v2.00.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/retConsReciNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/retConsSitNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/retConsStatServ_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/retEnviNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/retInutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/tiposBasico_v1.03.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/tiposBasico_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a.zip",
@@ -543,8 +543,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/tiposBasico_v4.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2022-12-22_pacote-de-schemas-pl-009j/pl-009j-nt2022-003-v100a/PL_009j_NT2022_003_v100a/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:41:09+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-12-22_nt2022.003-versao-1.10",
@@ -560,8 +560,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2022-12-22_nt2022.003-versao-1.10/nt2022.003v1.10-referenciamento.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:10+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-05-30_schemas-nt-2022.001",
@@ -573,10 +573,10 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos/2022-05-30_schemas-nt-2022.001",
       "files": [
         "data/svrs/nfce/documentos/2022-05-30_schemas-nt-2022.001/pl-consultagtin-v1.00.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-05-30_schemas-nt-2022.001/pl-consultagtin-v1.00/ccgConsGTIN/consGTIN_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-05-30_schemas-nt-2022.001/pl-consultagtin-v1.00/ccgConsGTIN/leiauteCcgConsGTIN_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-05-30_schemas-nt-2022.001/pl-consultagtin-v1.00/ccgConsGTIN/retConsGTIN_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-05-30_schemas-nt-2022.001/pl-consultagtin-v1.00/ccgConsGTIN/tiposBasicosCcgConsGTIN_v1.00.xsd"
+        "data/svrs/nfce/documentos/2022-05-30_schemas-nt-2022.001/pl-consultagtin-v1.00/ccgConsGTIN/consGTIN_v1.00.xsd",
+        "data/svrs/nfce/documentos/2022-05-30_schemas-nt-2022.001/pl-consultagtin-v1.00/ccgConsGTIN/leiauteCcgConsGTIN_v1.00.xsd",
+        "data/svrs/nfce/documentos/2022-05-30_schemas-nt-2022.001/pl-consultagtin-v1.00/ccgConsGTIN/retConsGTIN_v1.00.xsd",
+        "data/svrs/nfce/documentos/2022-05-30_schemas-nt-2022.001/pl-consultagtin-v1.00/ccgConsGTIN/tiposBasicosCcgConsGTIN_v1.00.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2022-05-30_schemas-nt-2022.001/pl-consultagtin-v1.00.zip",
@@ -585,8 +585,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2022-05-30_schemas-nt-2022.001/pl-consultagtin-v1.00/ccgConsGTIN/retConsGTIN_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2022-05-30_schemas-nt-2022.001/pl-consultagtin-v1.00/ccgConsGTIN/tiposBasicosCcgConsGTIN_v1.00.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:41:11+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-05-30_nota-tecnica-2022.001-consulta-gtin-via-webservice",
@@ -602,8 +602,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2022-05-30_nota-tecnica-2022.001-consulta-gtin-via-webservice/nt2022.001-v1.00-ws-consulta-gtin.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:11+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i",
@@ -615,25 +615,25 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i",
       "files": [
         "data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/consReciNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/consSitNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/consStatServ_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/enviNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/inutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/leiauteConsSitNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/leiauteConsStatServ_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/leiauteInutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/leiauteNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/nfe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/procInutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/procNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/retConsReciNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/retConsSitNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/retConsStatServ_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/retEnviNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/retInutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/tiposBasico_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/consReciNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/consSitNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/consStatServ_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/enviNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/inutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/leiauteConsSitNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/leiauteConsStatServ_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/leiauteInutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/leiauteNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/nfe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/procInutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/procNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/retConsReciNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/retConsSitNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/retConsStatServ_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/retEnviNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/retInutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/tiposBasico_v4.00.xsd",
+        "data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c.zip",
@@ -657,8 +657,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/tiposBasico_v4.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2022-03-08_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-i/pl-009i-nt2021-004-v100c/PL_009i_NT2021_004_v100c/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:41:12+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-01-12_nota-tecnica-2021.004-v1.10",
@@ -674,8 +674,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2022-01-12_nota-tecnica-2021.004-v1.10/nt2021.004v1.10-novos-campos-e-regras.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:13+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g",
@@ -687,25 +687,25 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g",
       "files": [
         "data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/consReciNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/consSitNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/consStatServ_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/enviNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/inutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/leiauteConsSitNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/leiauteConsStatServ_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/leiauteInutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/leiauteNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/nfe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/procInutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/procNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/retConsReciNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/retConsSitNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/retConsStatServ_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/retEnviNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/retInutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/tiposBasico_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/consReciNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/consSitNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/consStatServ_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/enviNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/inutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/leiauteConsSitNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/leiauteConsStatServ_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/leiauteInutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/leiauteNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/nfe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/procInutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/procNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/retConsReciNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/retConsSitNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/retConsStatServ_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/retEnviNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/retInutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/tiposBasico_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120.zip",
@@ -729,8 +729,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/tiposBasico_v4.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2021-06-29_schemas-xml-nf-enfc-e-pacote-de-liberacao-no.-9-versao-g/pl-009g-v4-00-nt-2020-005-v120/PL_009g_V4_00_NT_2020_005_v120/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:41:14+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-06-10_schemas-nf-e-009f-da-nt-2020.005",
@@ -742,25 +742,25 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005",
       "files": [
         "data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/consReciNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/consSitNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/consStatServ_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/enviNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/inutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/leiauteConsSitNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/leiauteConsStatServ_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/leiauteInutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/leiauteNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/nfe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/procInutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/procNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/retConsReciNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/retConsSitNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/retConsStatServ_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/retEnviNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/retInutNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/tiposBasico_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/consReciNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/consSitNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/consStatServ_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/enviNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/inutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/leiauteConsSitNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/leiauteConsStatServ_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/leiauteInutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/leiauteNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/nfe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/procInutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/procNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/retConsReciNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/retConsSitNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/retConsStatServ_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/retEnviNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/retInutNFe_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/tiposBasico_v4.00.xsd",
+        "data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100.zip",
@@ -784,8 +784,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/tiposBasico_v4.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2021-06-10_schemas-nf-e-009f-da-nt-2020.005/pl-009f-v4-00-nt-2020-005-v100/PL_009f_V4_00_NT_2020_005_v100/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:41:14+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-12-16_manual-de-orientacao-do-contribuinte-versao-7.00",
@@ -801,8 +801,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2020-12-16_manual-de-orientacao-do-contribuinte-versao-7.00/moc7-visao-geral.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:15+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-12-16_manual-de-orientacao-do-contribuinte-versao-7.00-anexo-i-leiaute-nf-e",
@@ -818,8 +818,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2020-12-16_manual-de-orientacao-do-contribuinte-versao-7.00-anexo-i-leiaute-nf-e/moc7-anexo-i-leiaute-e-rv.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:16+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-12-16_manual-de-orientacao-do-contribuinte-versao-7.00-anexo-ii-danfe",
@@ -835,8 +835,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2020-12-16_manual-de-orientacao-do-contribuinte-versao-7.00-anexo-ii-danfe/moc7-anexo-ii-manual-especificacoes-tecnicas-danfe-codigo-barras.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:17+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-12-16_manual-de-orientacoes-do-contribuinte-versao-7.00-anexo-iv",
@@ -852,8 +852,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2020-12-16_manual-de-orientacoes-do-contribuinte-versao-7.00-anexo-iv/moc7-anexo-iv-manual-contingencia-nfc-e.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:17+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-06-01_nota-tecnica-2016.003-v1.70",
@@ -869,8 +869,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2020-06-01_nota-tecnica-2016.003-v1.70/nt-2016-003-v1-70-tabela-ncm-vigencia-01-07-2020.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:18+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-02-27_nota-tecnica-2018.001-v-1.10",
@@ -886,8 +886,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2020-02-27_nota-tecnica-2018.001-v-1.10/nt2018.001-v1-10-emitente-cpf.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:19+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-01-31_tabela-cbenef-x-cst",
@@ -903,8 +903,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2020-01-31_tabela-cbenef-x-cst/tabela-cbenef-x-cst-31-01-2020.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:41:20+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-01-06_nota-tecnica-2020.001-v1.00",
@@ -920,8 +920,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2020-01-06_nota-tecnica-2020.001-v1.00/nt-2020-001.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:21+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-12-01_manual-de-padroes-tecnicos-do-danfe-nfc-e-e-qrcode-versao-5.1",
@@ -937,8 +937,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2019-12-01_manual-de-padroes-tecnicos-do-danfe-nfc-e-e-qrcode-versao-5.1/manual-de-padroes-tecnicos-do-danfe-nfc-e-e-qr-code-versao-5.1.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:21+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-04-12_nota-tecnica-2017.002-implementa-nova-tabela-cfop-versao-1.20",
@@ -954,8 +954,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2019-04-12_nota-tecnica-2017.002-implementa-nova-tabela-cfop-versao-1.20/nt-2017-002-v1-20-tabela-cfop.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:22+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao",
@@ -967,14 +967,14 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao",
       "files": [
         "data/svrs/nfce/documentos/2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao/evento-cancsubst-v1.01-nt-2018-004.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao/evento-cancsubst-v1.01-nt-2018-004/Evento_CancSubst_v1.01/e110112_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao/evento-cancsubst-v1.01-nt-2018-004/Evento_CancSubst_v1.01/envEventoCancSubst_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao/evento-cancsubst-v1.01-nt-2018-004/Evento_CancSubst_v1.01/eventoCancSubst_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao/evento-cancsubst-v1.01-nt-2018-004/Evento_CancSubst_v1.01/leiauteEventoCancSubst_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao/evento-cancsubst-v1.01-nt-2018-004/Evento_CancSubst_v1.01/procEventoCancSubst_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao/evento-cancsubst-v1.01-nt-2018-004/Evento_CancSubst_v1.01/retEnvEventoCancSubst_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao/evento-cancsubst-v1.01-nt-2018-004/Evento_CancSubst_v1.01/tiposBasico_v1.03.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao/evento-cancsubst-v1.01-nt-2018-004/Evento_CancSubst_v1.01/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/nfce/documentos/2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao/evento-cancsubst-v1.01-nt-2018-004/Evento_CancSubst_v1.01/e110112_v1.00.xsd",
+        "data/svrs/nfce/documentos/2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao/evento-cancsubst-v1.01-nt-2018-004/Evento_CancSubst_v1.01/envEventoCancSubst_v1.00.xsd",
+        "data/svrs/nfce/documentos/2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao/evento-cancsubst-v1.01-nt-2018-004/Evento_CancSubst_v1.01/eventoCancSubst_v1.00.xsd",
+        "data/svrs/nfce/documentos/2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao/evento-cancsubst-v1.01-nt-2018-004/Evento_CancSubst_v1.01/leiauteEventoCancSubst_v1.00.xsd",
+        "data/svrs/nfce/documentos/2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao/evento-cancsubst-v1.01-nt-2018-004/Evento_CancSubst_v1.01/procEventoCancSubst_v1.00.xsd",
+        "data/svrs/nfce/documentos/2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao/evento-cancsubst-v1.01-nt-2018-004/Evento_CancSubst_v1.01/retEnvEventoCancSubst_v1.00.xsd",
+        "data/svrs/nfce/documentos/2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao/evento-cancsubst-v1.01-nt-2018-004/Evento_CancSubst_v1.01/tiposBasico_v1.03.xsd",
+        "data/svrs/nfce/documentos/2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao/evento-cancsubst-v1.01-nt-2018-004/Evento_CancSubst_v1.01/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao/evento-cancsubst-v1.01-nt-2018-004.zip",
@@ -987,8 +987,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao/evento-cancsubst-v1.01-nt-2018-004/Evento_CancSubst_v1.01/tiposBasico_v1.03.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nfc-e-evento-cancelamento-por-substituicao/evento-cancsubst-v1.01-nt-2018-004/Evento_CancSubst_v1.01/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:41:23+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento",
@@ -1000,14 +1000,14 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento",
       "files": [
         "data/svrs/nfce/documentos/2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento/evento-canc-pl-v1.01-nt-2018-004.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento/evento-canc-pl-v1.01-nt-2018-004/Evento_Canc_PL_v1.01/e110111_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento/evento-canc-pl-v1.01-nt-2018-004/Evento_Canc_PL_v1.01/envEventoCancNFe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento/evento-canc-pl-v1.01-nt-2018-004/Evento_Canc_PL_v1.01/eventoCancNFe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento/evento-canc-pl-v1.01-nt-2018-004/Evento_Canc_PL_v1.01/leiauteEventoCancNFe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento/evento-canc-pl-v1.01-nt-2018-004/Evento_Canc_PL_v1.01/procEventoCancNFe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento/evento-canc-pl-v1.01-nt-2018-004/Evento_Canc_PL_v1.01/retEnvEventoCancNFe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento/evento-canc-pl-v1.01-nt-2018-004/Evento_Canc_PL_v1.01/tiposBasico_v1.03.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento/evento-canc-pl-v1.01-nt-2018-004/Evento_Canc_PL_v1.01/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/nfce/documentos/2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento/evento-canc-pl-v1.01-nt-2018-004/Evento_Canc_PL_v1.01/e110111_v1.00.xsd",
+        "data/svrs/nfce/documentos/2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento/evento-canc-pl-v1.01-nt-2018-004/Evento_Canc_PL_v1.01/envEventoCancNFe_v1.00.xsd",
+        "data/svrs/nfce/documentos/2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento/evento-canc-pl-v1.01-nt-2018-004/Evento_Canc_PL_v1.01/eventoCancNFe_v1.00.xsd",
+        "data/svrs/nfce/documentos/2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento/evento-canc-pl-v1.01-nt-2018-004/Evento_Canc_PL_v1.01/leiauteEventoCancNFe_v1.00.xsd",
+        "data/svrs/nfce/documentos/2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento/evento-canc-pl-v1.01-nt-2018-004/Evento_Canc_PL_v1.01/procEventoCancNFe_v1.00.xsd",
+        "data/svrs/nfce/documentos/2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento/evento-canc-pl-v1.01-nt-2018-004/Evento_Canc_PL_v1.01/retEnvEventoCancNFe_v1.00.xsd",
+        "data/svrs/nfce/documentos/2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento/evento-canc-pl-v1.01-nt-2018-004/Evento_Canc_PL_v1.01/tiposBasico_v1.03.xsd",
+        "data/svrs/nfce/documentos/2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento/evento-canc-pl-v1.01-nt-2018-004/Evento_Canc_PL_v1.01/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento/evento-canc-pl-v1.01-nt-2018-004.zip",
@@ -1020,8 +1020,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento/evento-canc-pl-v1.01-nt-2018-004/Evento_Canc_PL_v1.01/tiposBasico_v1.03.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2018-12-21_schemas-xml-nf-e-nfc-e-evento-cancelamento/evento-canc-pl-v1.01-nt-2018-004/Evento_Canc_PL_v1.01/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:41:23+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-09-10_nota-tecnica-2016.002-v-1.61",
@@ -1037,8 +1037,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2018-09-10_nota-tecnica-2016.002-v-1.61/nt-2016-002-v1-61.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:24+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-05-24_manual-de-boas-praticas-no-desenvolvimento-do-emissor-nfc-e-versao-1.0",
@@ -1054,8 +1054,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2018-05-24_manual-de-boas-praticas-no-desenvolvimento-do-emissor-nfc-e-versao-1.0/manual-de-boas-praticas-nfc-e-bp-2018.001-versao-1-0.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:25+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-02-01_manual-de-especificacoes-tecnicas-do-danfe-nfc-e-e-qr-code-versao-5.0",
@@ -1071,8 +1071,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2018-02-01_manual-de-especificacoes-tecnicas-do-danfe-nfc-e-e-qr-code-versao-5.0/manual-de-especificacoes-tecnicas-do-danfe-nfc-e-qr-code-versao-5.0.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:41:26+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2014-05-30_schemas-xml-nf-e-pacote-de-liberacao-evento-generico-v1.01",
@@ -1084,12 +1084,12 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos/2014-05-30_schemas-xml-nf-e-pacote-de-liberacao-evento-generico-v1.01",
       "files": [
         "data/svrs/nfce/documentos/2014-05-30_schemas-xml-nf-e-pacote-de-liberacao-evento-generico-v1.01/evento-generico-pl-v1.01.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2014-05-30_schemas-xml-nf-e-pacote-de-liberacao-evento-generico-v1.01/evento-generico-pl-v1.01/Evento_Generico_PL_v1.01/envEvento_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2014-05-30_schemas-xml-nf-e-pacote-de-liberacao-evento-generico-v1.01/evento-generico-pl-v1.01/Evento_Generico_PL_v1.01/leiauteEvento_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2014-05-30_schemas-xml-nf-e-pacote-de-liberacao-evento-generico-v1.01/evento-generico-pl-v1.01/Evento_Generico_PL_v1.01/procEventoNFe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2014-05-30_schemas-xml-nf-e-pacote-de-liberacao-evento-generico-v1.01/evento-generico-pl-v1.01/Evento_Generico_PL_v1.01/retEnvEvento_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2014-05-30_schemas-xml-nf-e-pacote-de-liberacao-evento-generico-v1.01/evento-generico-pl-v1.01/Evento_Generico_PL_v1.01/tiposBasico_v1.03.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2014-05-30_schemas-xml-nf-e-pacote-de-liberacao-evento-generico-v1.01/evento-generico-pl-v1.01/Evento_Generico_PL_v1.01/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/nfce/documentos/2014-05-30_schemas-xml-nf-e-pacote-de-liberacao-evento-generico-v1.01/evento-generico-pl-v1.01/Evento_Generico_PL_v1.01/envEvento_v1.00.xsd",
+        "data/svrs/nfce/documentos/2014-05-30_schemas-xml-nf-e-pacote-de-liberacao-evento-generico-v1.01/evento-generico-pl-v1.01/Evento_Generico_PL_v1.01/leiauteEvento_v1.00.xsd",
+        "data/svrs/nfce/documentos/2014-05-30_schemas-xml-nf-e-pacote-de-liberacao-evento-generico-v1.01/evento-generico-pl-v1.01/Evento_Generico_PL_v1.01/procEventoNFe_v1.00.xsd",
+        "data/svrs/nfce/documentos/2014-05-30_schemas-xml-nf-e-pacote-de-liberacao-evento-generico-v1.01/evento-generico-pl-v1.01/Evento_Generico_PL_v1.01/retEnvEvento_v1.00.xsd",
+        "data/svrs/nfce/documentos/2014-05-30_schemas-xml-nf-e-pacote-de-liberacao-evento-generico-v1.01/evento-generico-pl-v1.01/Evento_Generico_PL_v1.01/tiposBasico_v1.03.xsd",
+        "data/svrs/nfce/documentos/2014-05-30_schemas-xml-nf-e-pacote-de-liberacao-evento-generico-v1.01/evento-generico-pl-v1.01/Evento_Generico_PL_v1.01/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2014-05-30_schemas-xml-nf-e-pacote-de-liberacao-evento-generico-v1.01/evento-generico-pl-v1.01.zip",
@@ -1100,8 +1100,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2014-05-30_schemas-xml-nf-e-pacote-de-liberacao-evento-generico-v1.01/evento-generico-pl-v1.01/Evento_Generico_PL_v1.01/tiposBasico_v1.03.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2014-05-30_schemas-xml-nf-e-pacote-de-liberacao-evento-generico-v1.01/evento-generico-pl-v1.01/Evento_Generico_PL_v1.01/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:41:26+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2014-05-07_schemas-xml-nf-e-pacote-de-liberacao-evento-epec-nfce-v1.00",
@@ -1113,20 +1113,20 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos/2014-05-07_schemas-xml-nf-e-pacote-de-liberacao-evento-epec-nfce-v1.00",
       "files": [
         "data/svrs/nfce/documentos/2014-05-07_schemas-xml-nf-e-pacote-de-liberacao-evento-epec-nfce-v1.00/evento-epec-nfce-pl1.00.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2014-05-07_schemas-xml-nf-e-pacote-de-liberacao-evento-epec-nfce-v1.00/evento-epec-nfce-pl1.00/xmldsig-core-schema_v1.01.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2014-05-07_schemas-xml-nf-e-pacote-de-liberacao-evento-epec-nfce-v1.00/evento-epec-nfce-pl1.00/retEventoEPEC_v0.01.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2014-05-07_schemas-xml-nf-e-pacote-de-liberacao-evento-epec-nfce-v1.00/evento-epec-nfce-pl1.00/eventoEPEC_v0.01.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/nfce/documentos/2014-05-07_schemas-xml-nf-e-pacote-de-liberacao-evento-epec-nfce-v1.00/evento-epec-nfce-pl1.00/tiposBasico_v3.10.xsd"
+        "data/svrs/nfce/documentos/2014-05-07_schemas-xml-nf-e-pacote-de-liberacao-evento-epec-nfce-v1.00/evento-epec-nfce-pl1.00/eventoEPEC_v0.01.xsd",
+        "data/svrs/nfce/documentos/2014-05-07_schemas-xml-nf-e-pacote-de-liberacao-evento-epec-nfce-v1.00/evento-epec-nfce-pl1.00/retEventoEPEC_v0.01.xsd",
+        "data/svrs/nfce/documentos/2014-05-07_schemas-xml-nf-e-pacote-de-liberacao-evento-epec-nfce-v1.00/evento-epec-nfce-pl1.00/tiposBasico_v3.10.xsd",
+        "data/svrs/nfce/documentos/2014-05-07_schemas-xml-nf-e-pacote-de-liberacao-evento-epec-nfce-v1.00/evento-epec-nfce-pl1.00/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2014-05-07_schemas-xml-nf-e-pacote-de-liberacao-evento-epec-nfce-v1.00/evento-epec-nfce-pl1.00.zip",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2014-05-07_schemas-xml-nf-e-pacote-de-liberacao-evento-epec-nfce-v1.00/evento-epec-nfce-pl1.00/xmldsig-core-schema_v1.01.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2014-05-07_schemas-xml-nf-e-pacote-de-liberacao-evento-epec-nfce-v1.00/evento-epec-nfce-pl1.00/retEventoEPEC_v0.01.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2014-05-07_schemas-xml-nf-e-pacote-de-liberacao-evento-epec-nfce-v1.00/evento-epec-nfce-pl1.00/eventoEPEC_v0.01.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2014-05-07_schemas-xml-nf-e-pacote-de-liberacao-evento-epec-nfce-v1.00/evento-epec-nfce-pl1.00/tiposBasico_v3.10.xsd"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2014-05-07_schemas-xml-nf-e-pacote-de-liberacao-evento-epec-nfce-v1.00/evento-epec-nfce-pl1.00/retEventoEPEC_v0.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2014-05-07_schemas-xml-nf-e-pacote-de-liberacao-evento-epec-nfce-v1.00/evento-epec-nfce-pl1.00/tiposBasico_v3.10.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2014-05-07_schemas-xml-nf-e-pacote-de-liberacao-evento-epec-nfce-v1.00/evento-epec-nfce-pl1.00/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:41:27+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T04:42:42+00:00",
+  "generated_at": "2026-09-06T04:51:46+00:00",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data",
   "browse_base_url": "https://github.com/stackin-io/data-source/tree/master/data",
   "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml",
@@ -74,11 +74,11 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos",
-      "generated_at": "2026-09-06T04:42:42+00:00",
+      "generated_at": "2026-09-06T04:49:36+00:00",
       "totals": {
         "discovered": 28,
-        "persisted": 28,
-        "skipped": 0,
+        "persisted": 0,
+        "skipped": 28,
         "failed": 0
       }
     },
@@ -87,10 +87,36 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/cte/documentos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/cte/documentos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/cte/documentos",
-      "generated_at": "2026-09-06T04:41:53+00:00",
+      "generated_at": "2026-09-06T04:49:32+00:00",
       "totals": {
         "discovered": 31,
-        "persisted": 31,
+        "persisted": 0,
+        "skipped": 31,
+        "failed": 0
+      }
+    },
+    {
+      "context": "svrs/dce/documentos",
+      "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/manifest.json",
+      "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/feed.xml",
+      "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/dce/documentos",
+      "generated_at": "2026-09-06T04:50:59+00:00",
+      "totals": {
+        "discovered": 15,
+        "persisted": 15,
+        "skipped": 0,
+        "failed": 0
+      }
+    },
+    {
+      "context": "svrs/difal/documentos",
+      "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/manifest.json",
+      "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/feed.xml",
+      "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/difal/documentos",
+      "generated_at": "2026-09-06T04:51:17+00:00",
+      "totals": {
+        "discovered": 9,
+        "persisted": 9,
         "skipped": 0,
         "failed": 0
       }
@@ -100,10 +126,49 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/mdfe/documentos",
-      "generated_at": "2026-09-06T04:42:18+00:00",
+      "generated_at": "2026-09-06T04:49:34+00:00",
       "totals": {
         "discovered": 30,
-        "persisted": 30,
+        "persisted": 0,
+        "skipped": 30,
+        "failed": 0
+      }
+    },
+    {
+      "context": "svrs/nf3e/documentos",
+      "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/manifest.json",
+      "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/feed.xml",
+      "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos",
+      "generated_at": "2026-09-06T04:49:58+00:00",
+      "totals": {
+        "discovered": 26,
+        "persisted": 26,
+        "skipped": 0,
+        "failed": 0
+      }
+    },
+    {
+      "context": "svrs/nfabi/documentos",
+      "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfabi/documentos/manifest.json",
+      "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfabi/documentos/feed.xml",
+      "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfabi/documentos",
+      "generated_at": "2026-09-06T04:51:09+00:00",
+      "totals": {
+        "discovered": 11,
+        "persisted": 11,
+        "skipped": 0,
+        "failed": 0
+      }
+    },
+    {
+      "context": "svrs/nfag/documentos",
+      "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfag/documentos/manifest.json",
+      "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfag/documentos/feed.xml",
+      "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfag/documentos",
+      "generated_at": "2026-09-06T04:50:33+00:00",
+      "totals": {
+        "discovered": 15,
+        "persisted": 15,
         "skipped": 0,
         "failed": 0
       }
@@ -113,10 +178,23 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos",
-      "generated_at": "2026-09-06T04:41:27+00:00",
+      "generated_at": "2026-09-06T04:49:29+00:00",
       "totals": {
         "discovered": 48,
-        "persisted": 47,
+        "persisted": 0,
+        "skipped": 47,
+        "failed": 0
+      }
+    },
+    {
+      "context": "svrs/nfcom/documentos",
+      "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/manifest.json",
+      "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/feed.xml",
+      "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfcom/documentos",
+      "generated_at": "2026-09-06T04:50:18+00:00",
+      "totals": {
+        "discovered": 25,
+        "persisted": 25,
         "skipped": 0,
         "failed": 0
       }
@@ -126,11 +204,63 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos",
-      "generated_at": "2026-09-06T04:40:48+00:00",
+      "generated_at": "2026-09-06T04:49:27+00:00",
       "totals": {
         "discovered": 92,
         "persisted": 0,
         "skipped": 86,
+        "failed": 0
+      }
+    },
+    {
+      "context": "svrs/nff/documentos",
+      "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nff/documentos/manifest.json",
+      "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nff/documentos/feed.xml",
+      "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nff/documentos",
+      "generated_at": "2026-09-06T04:51:25+00:00",
+      "totals": {
+        "discovered": 6,
+        "persisted": 6,
+        "skipped": 0,
+        "failed": 0
+      }
+    },
+    {
+      "context": "svrs/nfgas/documentos",
+      "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/manifest.json",
+      "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/feed.xml",
+      "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos",
+      "generated_at": "2026-09-06T04:50:46+00:00",
+      "totals": {
+        "discovered": 15,
+        "persisted": 15,
+        "skipped": 0,
+        "failed": 0
+      }
+    },
+    {
+      "context": "svrs/one/documentos",
+      "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/manifest.json",
+      "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/feed.xml",
+      "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/one/documentos",
+      "generated_at": "2026-09-06T04:51:46+00:00",
+      "totals": {
+        "discovered": 10,
+        "persisted": 10,
+        "skipped": 0,
+        "failed": 0
+      }
+    },
+    {
+      "context": "svrs/pes/documentos",
+      "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/manifest.json",
+      "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/feed.xml",
+      "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/pes/documentos",
+      "generated_at": "2026-09-06T04:51:35+00:00",
+      "totals": {
+        "discovered": 10,
+        "persisted": 10,
+        "skipped": 0,
         "failed": 0
       }
     }

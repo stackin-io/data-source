@@ -1,0 +1,387 @@
+{
+  "context": "svrs/nfgas/documentos",
+  "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos",
+  "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos",
+  "generated_at": "2026-09-06T04:50:46+00:00",
+  "started_at": "2026-09-06T04:50:34+00:00",
+  "duration_s": 12.18,
+  "totals": {
+    "discovered": 15,
+    "persisted": 15,
+    "skipped": 0,
+    "failed": 0
+  },
+  "items": [
+    {
+      "slug": "2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-ii-leiaute-danfgas-v1.00a",
+      "title": "Manual de Orientações do Contribuinte - Anexo II - Leiaute DANFGas v1.00a",
+      "description": "Manual de Orientações do Contribuinte - Anexo II - Leiaute DANFGas v1.00a",
+      "published_at": "2026-08-25",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFGAS/DownloadArquivoEstatico/?sistema=NFGAS&tipoArquivo=1&nomeArquivo=MOC_NFGas_Anexo+II_DANFGas_v1.00a.pdf",
+      "folder": "data/svrs/nfgas/documentos/2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-ii-leiaute-danfgas-v1.00a",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-ii-leiaute-danfgas-v1.00a",
+      "files": [
+        "data/svrs/nfgas/documentos/2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-ii-leiaute-danfgas-v1.00a/moc-nfgas-anexo-ii-danfgas-v1.00a.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-ii-leiaute-danfgas-v1.00a/moc-nfgas-anexo-ii-danfgas-v1.00a.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:50:36+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-08-25_manual-de-orientacoes-do-contribuinte-visao-geral-v1.00g",
+      "title": "Manual de Orientações do Contribuinte - Visão Geral v1.00g",
+      "description": "Manual de Orientações do Contribuinte - Visão Geral v1.00g",
+      "published_at": "2026-08-25",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFGAS/DownloadArquivoEstatico/?sistema=NFGAS&tipoArquivo=1&nomeArquivo=MOC_NFGas_VisaoGeral_v1.00g.pdf",
+      "folder": "data/svrs/nfgas/documentos/2026-08-25_manual-de-orientacoes-do-contribuinte-visao-geral-v1.00g",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-08-25_manual-de-orientacoes-do-contribuinte-visao-geral-v1.00g",
+      "files": [
+        "data/svrs/nfgas/documentos/2026-08-25_manual-de-orientacoes-do-contribuinte-visao-geral-v1.00g/moc-nfgas-visaogeral-v1.00g.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-08-25_manual-de-orientacoes-do-contribuinte-visao-geral-v1.00g/moc-nfgas-visaogeral-v1.00g.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:50:36+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-i-leiaute-e-regras-de-validacao-v1.00g",
+      "title": "Manual de Orientações do Contribuinte - Anexo I - Leiaute e Regras de Validação v1.00g",
+      "description": "Manual de Orientações do Contribuinte - Anexo I - Leiaute e Regras de Validação v1.00g",
+      "published_at": "2026-08-25",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFGAS/DownloadArquivoEstatico/?sistema=NFGAS&tipoArquivo=1&nomeArquivo=MOC_NFGas_Anexo+I_Leiaute+e+Regras+de+Valida%C3%A7%C3%A3o_v1.00g.pdf",
+      "folder": "data/svrs/nfgas/documentos/2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-i-leiaute-e-regras-de-validacao-v1.00g",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-i-leiaute-e-regras-de-validacao-v1.00g",
+      "files": [
+        "data/svrs/nfgas/documentos/2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-i-leiaute-e-regras-de-validacao-v1.00g/moc-nfgas-anexo-i-leiaute-e-regras-de-validacao-v1.00g.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-i-leiaute-e-regras-de-validacao-v1.00g/moc-nfgas-anexo-i-leiaute-e-regras-de-validacao-v1.00g.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:50:37+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split",
+      "title": "Informe Técnico 2026.001 v1.01 - Tabela de Meios de Pagamento para Vinculação com o Split",
+      "description": "Informe Técnico 2026.001 v1.01 - Tabela de Meios de Pagamento para Vinculação com o Split",
+      "published_at": "2026-08-25",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT+2026.001+v.1.01+-+Tabelas+de+Meios+de+Pagamento+para+Vincula%C3%A7%C3%A3o+com+o+Split.pdf",
+      "folder": "data/svrs/nfgas/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split",
+      "files": [
+        "data/svrs/nfgas/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split/it-2026.001-v.1.01-tabelas-de-meios-de-pagamento-para-vinculacao-com-o-split.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split/it-2026.001-v.1.01-tabelas-de-meios-de-pagamento-para-vinculacao-com-o-split.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:50:37+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-06-29_schemas-nt-2026.002-rtc",
+      "title": "Schemas NT 2026.002 RTC",
+      "description": "Schemas NT 2026.002 RTC",
+      "published_at": "2026-06-29",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFGAS/DownloadArquivoEstatico/?sistema=NFGAS&tipoArquivo=2&nomeArquivo=PL_NFGas_NT2026.002+RTC_1.01.zip",
+      "folder": "data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc",
+      "files": [
+        "data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01.zip",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/consSitNFGasTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/consSitNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/consStatServNFGasTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/consStatServNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/DFeTiposBasicos_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/evCancNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/evCancVincPgto_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/eventoNFGasTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/eventoNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/evVincPgto_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/nfgasTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/nfgas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/procEventoNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/procNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/retConsSitNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/retConsStatServNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/retEventoNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/retNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/tiposGeralNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/consSitNFGasTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/consSitNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/consStatServNFGasTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/consStatServNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/DFeTiposBasicos_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/evCancNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/evCancVincPgto_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/eventoNFGasTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/eventoNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/evVincPgto_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/nfgasTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/nfgas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/procEventoNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/procNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/retConsSitNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/retConsStatServNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/retEventoNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/retNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/tiposGeralNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-29_schemas-nt-2026.002-rtc/pl-nfgas-nt2026.002-rtc-1.01/PL_NFGas_NT2026.002 RTC_1.01/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "downloaded_at": "2026-09-06T04:50:38+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-06-22_tabela-de-codigos-de-credito-presumido",
+      "title": "Tabela de Códigos de Crédito Presumido",
+      "description": "Tabela de Códigos de Crédito Presumido",
+      "published_at": "2026-06-22",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=cCredPres_2026-06-22.xlsx",
+      "folder": "data/svrs/nfgas/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido",
+      "files": [
+        "data/svrs/nfgas/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido/ccredpres-2026-06-22.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido/ccredpres-2026-06-22.xlsx"
+      ],
+      "downloaded_at": "2026-09-06T04:50:39+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "title": "Tabela de Código de Classificação Tributária da RT",
+      "description": "Tabela de Código de Classificação Tributária da RT",
+      "published_at": "2026-06-22",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=cClassTrib+2026-06-22.xlsx",
+      "folder": "data/svrs/nfgas/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "files": [
+        "data/svrs/nfgas/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt/cclasstrib-2026-06-22.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt/cclasstrib-2026-06-22.xlsx"
+      ],
+      "downloaded_at": "2026-09-06T04:50:40+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-06-10_nota-tecnica-2026.002-rtc-v1.00",
+      "title": "Nota Técnica 2026.002 RTC v1.00",
+      "description": "Nota Técnica 2026.002 RTC v1.00",
+      "published_at": "2026-06-10",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFGAS/DownloadArquivoEstatico/?sistema=NFGAS&tipoArquivo=3&nomeArquivo=NFGas_Nota_Tecnica_2026_002+v1.00.pdf",
+      "folder": "data/svrs/nfgas/documentos/2026-06-10_nota-tecnica-2026.002-rtc-v1.00",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-06-10_nota-tecnica-2026.002-rtc-v1.00",
+      "files": [
+        "data/svrs/nfgas/documentos/2026-06-10_nota-tecnica-2026.002-rtc-v1.00/nfgas-nota-tecnica-2026-002-v1.00.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-10_nota-tecnica-2026.002-rtc-v1.00/nfgas-nota-tecnica-2026-002-v1.00.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:50:40+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01",
+      "title": "Schemas NT 2026.001 RTC Vinculação Pagamento v1.01",
+      "description": "Schemas NT 2026.001 RTC Vinculação Pagamento v1.01",
+      "published_at": "2026-06-03",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFGAS/DownloadArquivoEstatico/?sistema=NFGAS&tipoArquivo=2&nomeArquivo=PL_NFGas_1.00d_NT2026.001+RTC_VincPgto_v1.01a_Corr.zip",
+      "folder": "data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01",
+      "files": [
+        "data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr.zip",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/consSitNFGasTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/consSitNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/consStatServNFGasTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/consStatServNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/DFeTiposBasicos_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/evCancNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/evCancVincPgto_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/eventoNFGasTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/eventoNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/evVincPgto_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/nfgasTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/nfgas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/procEventoNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/procNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/retConsSitNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/retConsStatServNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/retEventoNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/retNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/tiposGeralNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/consSitNFGasTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/consSitNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/consStatServNFGasTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/consStatServNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/DFeTiposBasicos_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/evCancNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/evCancVincPgto_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/eventoNFGasTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/eventoNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/evVincPgto_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/nfgasTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/nfgas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/procEventoNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/procNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/retConsSitNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/retConsStatServNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/retEventoNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/retNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/tiposGeralNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-06-03_schemas-nt-2026.001-rtc-vinculacao-pagamento-v1.01/pl-nfgas-1.00d-nt2026.001-rtc-vincpgto-v1.01a-corr/PL_NFGas_1.00d_NT2026.001 RTC_VincPgto_v1.01a/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "downloaded_at": "2026-09-06T04:50:41+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50",
+      "title": "IT 2025.002 RT Tabela de Classificação Tributária v1.50",
+      "description": "IT 2025.002 RT Tabela de Classificação Tributária v1.50",
+      "published_at": "2026-04-15",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT+2025.002+v.1.50+-+Tabelas+de+Classifica%C3%A7%C3%A3o+do+IBS+e+da+CBS.pdf",
+      "folder": "data/svrs/nfgas/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50",
+      "files": [
+        "data/svrs/nfgas/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50/it-2025.002-v.1.50-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50/it-2025.002-v.1.50-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:50:42+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-03-13_pacote-de-schemas-nfgas-1.00e",
+      "title": "Pacote de Schemas NFGas 1.00e",
+      "description": "Pacote de Schemas NFGas 1.00e",
+      "published_at": "2026-03-13",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFGAS/DownloadArquivoEstatico/?sistema=NFGAS&tipoArquivo=2&nomeArquivo=PL_NFGas_1.00e.zip",
+      "folder": "data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e",
+      "files": [
+        "data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e.zip",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/consSitNFGasTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/consSitNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/consStatServNFGasTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/consStatServNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/DFeTiposBasicos_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/evCancNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/eventoNFGasTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/eventoNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/nfgasTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/nfgas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/procEventoNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/procNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/retConsSitNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/retConsStatServNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/retEventoNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/retNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/tiposGeralNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/consSitNFGasTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/consSitNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/consStatServNFGasTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/consStatServNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/DFeTiposBasicos_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/evCancNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/eventoNFGasTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/eventoNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/nfgasTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/nfgas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/procEventoNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/procNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/retConsSitNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/retConsStatServNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/retEventoNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/retNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/tiposGeralNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-13_pacote-de-schemas-nfgas-1.00e/pl-nfgas-1.00e/PL_NFGas_1.00e/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "downloaded_at": "2026-09-06T04:50:43+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026",
+      "title": "Tabela de Meios de Pagamento – Publicada em 04/03/2026",
+      "description": "Tabela de Meios de Pagamento – Publicada em 04/03/2026",
+      "published_at": "2026-03-04",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=Tabela_de_meios_de_pagamento+-+04032026.xlsx",
+      "folder": "data/svrs/nfgas/documentos/2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026",
+      "files": [
+        "data/svrs/nfgas/documentos/2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026/tabela-de-meios-de-pagamento-04032026.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026/tabela-de-meios-de-pagamento-04032026.xlsx"
+      ],
+      "downloaded_at": "2026-09-06T04:50:43+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11",
+      "title": "Informe Técnico 2024.002 - Atualiza Tabela de Meios de Pagamento - v1.11",
+      "description": "Informe Técnico 2024.002 - Atualiza Tabela de Meios de Pagamento - v1.11",
+      "published_at": "2026-03-04",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT2024.002v1.11+-+Atualiza+Tabela+Meios+de+Pagamento+-+04032026.pdf",
+      "folder": "data/svrs/nfgas/documentos/2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11",
+      "files": [
+        "data/svrs/nfgas/documentos/2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11/it2024.002v1.11-atualiza-tabela-meios-de-pagamento-04032026.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11/it2024.002v1.11-atualiza-tabela-meios-de-pagamento-04032026.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:50:44+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-03-02_nota-tecnica-2026.001-rtc-vinculacao-pagamento-v1.01",
+      "title": "Nota Técnica 2026.001 - RTC Vinculação Pagamento v1.01",
+      "description": "Nota Técnica 2026.001 - RTC Vinculação Pagamento v1.01",
+      "published_at": "2026-03-02",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFGAS/DownloadArquivoEstatico/?sistema=NFGAS&tipoArquivo=3&nomeArquivo=NFGas_Nota_Tecnica_2026_001_RTC_VinculacaoPgto_v1.01.pdf",
+      "folder": "data/svrs/nfgas/documentos/2026-03-02_nota-tecnica-2026.001-rtc-vinculacao-pagamento-v1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-03-02_nota-tecnica-2026.001-rtc-vinculacao-pagamento-v1.01",
+      "files": [
+        "data/svrs/nfgas/documentos/2026-03-02_nota-tecnica-2026.001-rtc-vinculacao-pagamento-v1.01/nfgas-nota-tecnica-2026-001-rtc-vinculacaopgto-v1.01.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-03-02_nota-tecnica-2026.001-rtc-vinculacao-pagamento-v1.01/nfgas-nota-tecnica-2026-001-rtc-vinculacaopgto-v1.01.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:50:45+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00",
+      "title": "Nota Técnica DFe Conjunta - CNPJ Alfanumérico v1.00",
+      "description": "Nota Técnica DFe Conjunta - CNPJ Alfanumérico v1.00",
+      "published_at": "2025-05-07",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=3&nomeArquivo=DFe+NTCJ+2025.001_CNPJ+Alfa_v1.00.pdf",
+      "folder": "data/svrs/nfgas/documentos/2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00",
+      "files": [
+        "data/svrs/nfgas/documentos/2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00/dfe-ntcj-2025.001-cnpj-alfa-v1.00.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00/dfe-ntcj-2025.001-cnpj-alfa-v1.00.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:50:46+00:00",
+      "status": "ok"
+    }
+  ]
+}

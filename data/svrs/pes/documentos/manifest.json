@@ -1,0 +1,200 @@
+{
+  "context": "svrs/pes/documentos",
+  "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos",
+  "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/pes/documentos",
+  "generated_at": "2026-09-06T04:51:35+00:00",
+  "started_at": "2026-09-06T04:51:26+00:00",
+  "duration_s": 8.21,
+  "totals": {
+    "discovered": 10,
+    "persisted": 10,
+    "skipped": 0,
+    "failed": 0
+  },
+  "items": [
+    {
+      "slug": "2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split",
+      "title": "Informe Técnico 2026.001 v1.01 - Tabela de Meios de Pagamento para Vinculação com o Split",
+      "description": "Informe Técnico 2026.001 v1.01 - Tabela de Meios de Pagamento para Vinculação com o Split",
+      "published_at": "2026-08-25",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT+2026.001+v.1.01+-+Tabelas+de+Meios+de+Pagamento+para+Vincula%C3%A7%C3%A3o+com+o+Split.pdf",
+      "folder": "data/svrs/pes/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/pes/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split",
+      "files": [
+        "data/svrs/pes/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split/it-2026.001-v.1.01-tabelas-de-meios-de-pagamento-para-vinculacao-com-o-split.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split/it-2026.001-v.1.01-tabelas-de-meios-de-pagamento-para-vinculacao-com-o-split.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:51:28+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-08-10_manual-de-credenciamento-de-provedores-e-empresas-usuarias-do-paa",
+      "title": "Manual de Credenciamento de Provedores e empresas usuárias do PAA",
+      "description": "Manual de Credenciamento de Provedores e empresas usuárias do PAA",
+      "published_at": "2026-08-10",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/PES/DownloadArquivoEstatico/?sistema=PES&tipoArquivo=14&nomeArquivo=PAA_Credenciamento+de+Provedores+e+Usu%C3%A1rios.pdf",
+      "folder": "data/svrs/pes/documentos/2026-08-10_manual-de-credenciamento-de-provedores-e-empresas-usuarias-do-paa",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/pes/documentos/2026-08-10_manual-de-credenciamento-de-provedores-e-empresas-usuarias-do-paa",
+      "files": [
+        "data/svrs/pes/documentos/2026-08-10_manual-de-credenciamento-de-provedores-e-empresas-usuarias-do-paa/paa-credenciamento-de-provedores-e-usuarios.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-08-10_manual-de-credenciamento-de-provedores-e-empresas-usuarias-do-paa/paa-credenciamento-de-provedores-e-usuarios.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:51:29+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-06-22_tabela-de-codigos-de-credito-presumido",
+      "title": "Tabela de Códigos de Crédito Presumido",
+      "description": "Tabela de Códigos de Crédito Presumido",
+      "published_at": "2026-06-22",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=cCredPres_2026-06-22.xlsx",
+      "folder": "data/svrs/pes/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/pes/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido",
+      "files": [
+        "data/svrs/pes/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido/ccredpres-2026-06-22.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido/ccredpres-2026-06-22.xlsx"
+      ],
+      "downloaded_at": "2026-09-06T04:51:29+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "title": "Tabela de Código de Classificação Tributária da RT",
+      "description": "Tabela de Código de Classificação Tributária da RT",
+      "published_at": "2026-06-22",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=cClassTrib+2026-06-22.xlsx",
+      "folder": "data/svrs/pes/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/pes/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "files": [
+        "data/svrs/pes/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt/cclasstrib-2026-06-22.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt/cclasstrib-2026-06-22.xlsx"
+      ],
+      "downloaded_at": "2026-09-06T04:51:30+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-04-23_manual-de-orientacao-do-provedor-de-assinatura-e-autorizacao-v1.01",
+      "title": "Manual de Orientação do Provedor de Assinatura e Autorização V1.01",
+      "description": "Manual de Orientação do Provedor de Assinatura e Autorização V1.01",
+      "published_at": "2026-04-23",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/PES/DownloadArquivoEstatico/?sistema=PES&tipoArquivo=1&nomeArquivo=Manual+de+Orienta%C3%A7%C3%B5es+do+PAA+-+MOPAA_v1.01.pdf",
+      "folder": "data/svrs/pes/documentos/2026-04-23_manual-de-orientacao-do-provedor-de-assinatura-e-autorizacao-v1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/pes/documentos/2026-04-23_manual-de-orientacao-do-provedor-de-assinatura-e-autorizacao-v1.01",
+      "files": [
+        "data/svrs/pes/documentos/2026-04-23_manual-de-orientacao-do-provedor-de-assinatura-e-autorizacao-v1.01/manual-de-orientacoes-do-paa-mopaa-v1.01.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-04-23_manual-de-orientacao-do-provedor-de-assinatura-e-autorizacao-v1.01/manual-de-orientacoes-do-paa-mopaa-v1.01.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:51:31+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01",
+      "title": "Pacote de Schemas do Provedor de Assinatura e Autorização v1.01",
+      "description": "Pacote de Schemas do Provedor de Assinatura e Autorização v1.01",
+      "published_at": "2026-04-23",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/PES/DownloadArquivoEstatico/?sistema=PES&tipoArquivo=2&nomeArquivo=PL_DFePAA_101.zip",
+      "folder": "data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01",
+      "files": [
+        "data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101.zip",
+        "/home/runner/work/data-source/data-source/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/distPAA_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/leiauteDistPAA_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/leiauteManSitPAA_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/ManSitPAA_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/retDistPAA_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/retManSitPAA_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/tiposGeralPAA_v1.00.xsd"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/distPAA_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/leiauteDistPAA_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/leiauteManSitPAA_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/ManSitPAA_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/retDistPAA_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/retManSitPAA_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/tiposGeralPAA_v1.00.xsd"
+      ],
+      "downloaded_at": "2026-09-06T04:51:32+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50",
+      "title": "IT 2025.002 RT Tabela de Classificação Tributária v1.50",
+      "description": "IT 2025.002 RT Tabela de Classificação Tributária v1.50",
+      "published_at": "2026-04-15",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT+2025.002+v.1.50+-+Tabelas+de+Classifica%C3%A7%C3%A3o+do+IBS+e+da+CBS.pdf",
+      "folder": "data/svrs/pes/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/pes/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50",
+      "files": [
+        "data/svrs/pes/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50/it-2025.002-v.1.50-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50/it-2025.002-v.1.50-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:51:33+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026",
+      "title": "Tabela de Meios de Pagamento – Publicada em 04/03/2026",
+      "description": "Tabela de Meios de Pagamento – Publicada em 04/03/2026",
+      "published_at": "2026-03-04",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=Tabela_de_meios_de_pagamento+-+04032026.xlsx",
+      "folder": "data/svrs/pes/documentos/2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/pes/documentos/2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026",
+      "files": [
+        "data/svrs/pes/documentos/2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026/tabela-de-meios-de-pagamento-04032026.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026/tabela-de-meios-de-pagamento-04032026.xlsx"
+      ],
+      "downloaded_at": "2026-09-06T04:51:33+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11",
+      "title": "Informe Técnico 2024.002 - Atualiza Tabela de Meios de Pagamento - v1.11",
+      "description": "Informe Técnico 2024.002 - Atualiza Tabela de Meios de Pagamento - v1.11",
+      "published_at": "2026-03-04",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT2024.002v1.11+-+Atualiza+Tabela+Meios+de+Pagamento+-+04032026.pdf",
+      "folder": "data/svrs/pes/documentos/2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/pes/documentos/2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11",
+      "files": [
+        "data/svrs/pes/documentos/2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11/it2024.002v1.11-atualiza-tabela-meios-de-pagamento-04032026.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11/it2024.002v1.11-atualiza-tabela-meios-de-pagamento-04032026.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:51:34+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00",
+      "title": "Nota Técnica DFe Conjunta - CNPJ Alfanumérico v1.00",
+      "description": "Nota Técnica DFe Conjunta - CNPJ Alfanumérico v1.00",
+      "published_at": "2025-05-07",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=3&nomeArquivo=DFe+NTCJ+2025.001_CNPJ+Alfa_v1.00.pdf",
+      "folder": "data/svrs/pes/documentos/2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/pes/documentos/2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00",
+      "files": [
+        "data/svrs/pes/documentos/2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00/dfe-ntcj-2025.001-cnpj-alfa-v1.00.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00/dfe-ntcj-2025.001-cnpj-alfa-v1.00.pdf"
+      ],
+      "downloaded_at": "2026-09-06T04:51:35+00:00",
+      "status": "ok"
+    }
+  ]
+}

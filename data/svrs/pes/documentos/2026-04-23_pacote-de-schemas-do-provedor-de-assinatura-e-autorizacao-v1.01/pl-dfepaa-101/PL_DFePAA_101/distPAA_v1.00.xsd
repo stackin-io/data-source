@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2025 rel. 2 (x64) (https://www.altova.com) by PROCERGS (Procergs - Centro de Tecnologia da Informação e Comunicação do Estado do Rio Grande do Sul S.A.) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.portalfiscal.inf.br/paa" targetNamespace="http://www.portalfiscal.inf.br/paa" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="leiauteDistPAA_v1.00.xsd"/>
+	<xs:element name="distPAA" type="TDistPAA">
+		<xs:annotation>
+			<xs:documentation>Solicitação de compartilhamento de dados pela SVD do vínculo entre Provedores de Assinatura e Autorização e usuários do sistema
+			</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>
