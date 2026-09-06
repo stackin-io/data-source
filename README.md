@@ -41,6 +41,7 @@ Cola a URL do feed em qualquer leitor de RSS/Atom — Feedly, Inoreader, NetNews
 - Só NF-e — Notas Técnicas: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/feed.xml`
 - Só NF-e — Informes Técnicos: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/feed.xml`
 - Só NF-e — Diversos: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/feed.xml`
+- Só NF-e — Manuais: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/feed.xml`
 - Só NFS-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/feed.xml`
 
 **Newsletter por e-mail:** apontar Mailchimp, Buttondown ou Kill the Newsletter pra qualquer uma das URLs acima. Cada publicação nova vira e-mail automático pra sua lista, sem trabalho manual.
@@ -54,6 +55,7 @@ Sua aplicação consome o manifest diretamente e reage a mudanças. Recomendado 
 - NF-e — Notas Técnicas: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/manifest.json`
 - NF-e — Informes Técnicos: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/manifest.json`
 - NF-e — Diversos: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/manifest.json`
+- NF-e — Manuais: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/manifest.json`
 - NFS-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/manifest.json`
 - Histórico por fonte: `.../data/<fonte>/history.json`
 
@@ -76,6 +78,7 @@ Cada item aparece com estrutura completa em ambos os canais:
 | **NF-e** (portal SEFAZ homologação) | **Notas Técnicas** | Notas Técnicas oficiais vigentes e anteriores | PDF, DOC, DOCX |
 | **NF-e** (portal SEFAZ homologação) | **Informes Técnicos** | Informes Técnicos oficiais vigentes | PDF, DOC, DOCX |
 | **NF-e** (portal SEFAZ homologação) | **Diversos** | Publicações avulsas e complementares | PDF, ZIP, DOC |
+| **NF-e** (portal SEFAZ homologação) | **Manuais** | MOC, Manual do Emissor e demais manuais oficiais | PDF, ZIP, DOC |
 | **NFS-e** (ADN nacional gov.br) | — | Guias, manuais, esquemas XSD, anexos de domínio e layout | PDF, ZIP, XSD, XLSX |
 
 Outras fontes (NFC-e, DF-e, projetos estaduais) entram sob demanda.
