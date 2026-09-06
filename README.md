@@ -151,7 +151,7 @@ Feito pela [Stackin](https://app.stackin.io).
 - **Feed Atom e Manifest JSON** (estruturas geradas por este projeto): [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/). Exige atribuição visível a `stackin-io/data-source` em qualquer app que consuma.
 - **Arquivos oficiais em `data/**`** (PDFs, ZIPs, XSDs, XMLs): domínio público, mantêm autoria dos órgãos originais (SEFAZ, ADN gov.br, SVRS). Este projeto apenas espelha.
 
-Para uso comercial fora da AGPL, contatar [contato@stackin.io](mailto:contato@stackin.io) — exceções comerciais podem ser negociadas.
+Para uso comercial fora da AGPL, contatar [support@stackin.io](mailto:support@stackin.io) — exceções comerciais podem ser negociadas.
 
 <!--
 Keywords: NF-e, NFe, NFS-e, NFSe, SEFAZ, ADN, gov.br, Brasil, Nota Fiscal Eletrônica,
