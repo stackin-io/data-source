@@ -1,13 +1,14 @@
 {
   "context": "nfe/diversos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos",
-  "generated_at": "2026-09-05T22:38:18+00:00",
-  "started_at": "2026-09-05T22:38:15+00:00",
-  "duration_s": 2.81,
+  "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/diversos",
+  "generated_at": "2026-09-06T12:28:11+00:00",
+  "started_at": "2026-09-06T12:28:05+00:00",
+  "duration_s": 6.14,
   "totals": {
-    "discovered": 62,
+    "discovered": 64,
     "persisted": 0,
-    "skipped": 64,
+    "skipped": 62,
     "failed": 0
   },
   "items": [
@@ -947,6 +948,32 @@
       "status": "skipped"
     },
     {
+      "slug": "undated_visualizador-de-df-e",
+      "title": "Visualizador de DF-e",
+      "description": "Visualizador de DF-e",
+      "published_at": "",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/download.aspx?tipoConteudo=vBO/4eBj5F4=",
+      "folder": "",
+      "folder_url": "",
+      "files": [],
+      "file_urls": [],
+      "downloaded_at": "2026-09-06T12:28:11+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_assinador",
+      "title": "Assinador",
+      "description": "Assinador",
+      "published_at": "",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/download.aspx?tipoConteudo=OFrcUd5//Lg=",
+      "folder": "",
+      "folder_url": "",
+      "files": [],
+      "file_urls": [],
+      "downloaded_at": "2026-09-06T12:28:11+00:00",
+      "status": "ok"
+    },
+    {
       "slug": "undated_tabela-de-cnpjs-alfa-cadastrados-no-ccc-de-homologacao",
       "title": "Tabela de CNPJs alfa cadastrados no CCC de homologação",
       "description": "Tabela de CNPJs alfa cadastrados no CCC de homologação",
@@ -1065,6 +1092,5 @@
       "downloaded_at": "",
       "status": "skipped"
     }
-  ],
-  "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/diversos"
+  ]
 }

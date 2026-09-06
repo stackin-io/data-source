@@ -1,13 +1,14 @@
 {
   "context": "nfe/notas-tecnicas",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas",
-  "generated_at": "2026-09-05T22:38:10+00:00",
-  "started_at": "2026-09-05T22:38:07+00:00",
-  "duration_s": 3.05,
+  "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas",
+  "generated_at": "2026-09-06T12:27:56+00:00",
+  "started_at": "2026-09-06T12:27:50+00:00",
+  "duration_s": 5.84,
   "totals": {
-    "discovered": 191,
+    "discovered": 193,
     "persisted": 0,
-    "skipped": 193,
+    "skipped": 191,
     "failed": 0
   },
   "items": [
@@ -3257,7 +3258,32 @@
       ],
       "downloaded_at": "",
       "status": "skipped"
+    },
+    {
+      "slug": "undated_visualizador-de-df-e",
+      "title": "Visualizador de DF-e",
+      "description": "Visualizador de DF-e",
+      "published_at": "",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/download.aspx?tipoConteudo=vBO/4eBj5F4=",
+      "folder": "",
+      "folder_url": "",
+      "files": [],
+      "file_urls": [],
+      "downloaded_at": "2026-09-06T12:27:55+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_assinador",
+      "title": "Assinador",
+      "description": "Assinador",
+      "published_at": "",
+      "source_url": "https://hom.nfe.fazenda.gov.br/portal/download.aspx?tipoConteudo=OFrcUd5//Lg=",
+      "folder": "",
+      "folder_url": "",
+      "files": [],
+      "file_urls": [],
+      "downloaded_at": "2026-09-06T12:27:56+00:00",
+      "status": "ok"
     }
-  ],
-  "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas"
+  ]
 }
