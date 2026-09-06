@@ -43,6 +43,7 @@ Cola a URL do feed em qualquer leitor de RSS/Atom — Feedly, Inoreader, NetNews
 - Só NF-e — Diversos: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/feed.xml`
 - Só NF-e — Manuais: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/feed.xml`
 - Só NFS-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/feed.xml`
+- Só SVRS — NF-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/feed.xml`
 
 **Newsletter por e-mail:** apontar Mailchimp, Buttondown ou Kill the Newsletter pra qualquer uma das URLs acima. Cada publicação nova vira e-mail automático pra sua lista, sem trabalho manual.
 
@@ -57,6 +58,7 @@ Sua aplicação consome o manifest diretamente e reage a mudanças. Recomendado 
 - NF-e — Diversos: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/manifest.json`
 - NF-e — Manuais: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/manifest.json`
 - NFS-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/manifest.json`
+- SVRS — NF-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/manifest.json`
 - Histórico por fonte: `.../data/<fonte>/history.json`
 
 ## O que você recebe
@@ -67,7 +69,7 @@ Cada item aparece com estrutura completa em ambos os canais:
 - **Descrição** — versão limpa do título, sem sufixos de data ou formato.
 - **Data de publicação** — normalizada em `YYYY-MM-DD`, extraída da própria fonte oficial.
 - **Seção** — Guia, Manual, Esquema XSD, Anexo, Nota Técnica etc.
-- **URL original** — link direto pro portal SEFAZ ou ADN.
+- **URL original** — link direto pro portal SEFAZ, ADN ou SVRS.
 - **Arquivos** — PDF, ZIP, XSD, XML, XLSX espelhados aqui, mais o conteúdo já descompactado quando é ZIP.
 
 ## Fontes cobertas
@@ -80,8 +82,14 @@ Cada item aparece com estrutura completa em ambos os canais:
 | **NF-e** (portal SEFAZ homologação) | **Diversos** | Publicações avulsas e complementares | PDF, ZIP, DOC |
 | **NF-e** (portal SEFAZ homologação) | **Manuais** | MOC, Manual do Emissor e demais manuais oficiais | PDF, ZIP, DOC |
 | **NFS-e** (ADN nacional gov.br) | — | Guias, manuais, esquemas XSD, anexos de domínio e layout | PDF, ZIP, XSD, XLSX |
+| **NF-e** (portal DF-e da SVRS) | **Documentos** | A publicação da SEFAZ Virtual RS, que atende 22 UFs | PDF, ZIP, XLSX |
 
-Outras fontes (NFC-e, DF-e, projetos estaduais) entram sob demanda.
+A NF-e tem **duas fontes oficiais** aqui, e as duas ficam: o portal SEFAZ de homologação
+é a base normativa nacional, e a SVRS é o que 22 UFs publicam. As duas podem divulgar o
+mesmo documento em datas diferentes, então nada é deduplicado entre elas — o contexto
+`svrs/` existe justamente pra você escolher qual segue.
+
+Outras fontes (NFC-e, CT-e, MDF-e e o resto dos DF-e da SVRS, projetos estaduais) entram sob demanda.
 
 ## Por que existe
 
