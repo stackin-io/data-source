@@ -32,11 +32,21 @@ jobs:
       - name: Install deps
         run: poetry install --no-interaction --no-ansi
 
-      - name: Run SVRS scrapers
-        run: |
-          for doc in nfe nfce cte mdfe bpe; do
-            poetry run data-source scrape "svrs/$doc/documentos" --out ./data
-          done
+      - name: Scrape NF-e
+        run: poetry run data-source scrape svrs/nfe/documentos --out ./data
+
+      - name: Scrape NFC-e
+        run: poetry run data-source scrape svrs/nfce/documentos --out ./data
+
+      - name: Scrape CT-e
+        run: poetry run data-source scrape svrs/cte/documentos --out ./data
+
+      - name: Scrape MDF-e
+        run: poetry run data-source scrape svrs/mdfe/documentos --out ./data
+
+      - name: Scrape BP-e
+        run: poetry run data-source scrape svrs/bpe/documentos --out ./data
+
 
       - name: Rebuild every feed and the root sitemap
         run: poetry run data-source rebuild-index --out ./data
