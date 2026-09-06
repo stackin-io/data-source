@@ -16,6 +16,10 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        doc: [nfe, nfce, cte, mdfe, bpe]
     env:
       DATA_SOURCE_LOG_LEVEL: INFO
       DATA_SOURCE_TIMEOUT_S: "60"
@@ -32,11 +36,49 @@ jobs:
       - name: Install deps
         run: poetry install --no-interaction --no-ansi
 
-      - name: Run SVRS scrapers
+      - name: Run SVRS ${{ matrix.doc }} scraper
+        run: poetry run data-source scrape "svrs/${{ matrix.doc }}/documentos" --out ./data
+
+      - name: Upload the scraped context
+        uses: actions/upload-artifact@v4
+        with:
+          name: svrs-${{ matrix.doc }}
+          path: data/svrs/${{ matrix.doc }}
+          retention-days: 1
+
+  publish:
+    needs: scrape
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Poetry
+        run: pipx install poetry
+
+      - name: Install deps
+        run: poetry install --no-interaction --no-ansi
+
+      - name: Download every scraped context
+        uses: actions/download-artifact@v4
+        with:
+          path: data/svrs
+          pattern: svrs-*
+
+      - name: Flatten the artifact folders
         run: |
-          for doc in nfe nfce cte mdfe bpe; do
-            poetry run data-source scrape "svrs/$doc/documentos" --out ./data
+          cd data/svrs
+          for dir in svrs-*; do
+            [ -d "$dir" ] || continue
+            mv "$dir" "${dir#svrs-}"
           done
+
+      - name: Rebuild every feed and the root sitemap
+        run: poetry run data-source rebuild-index --out ./data
 
       - name: Commit new files as stackin-bot
         run: |
