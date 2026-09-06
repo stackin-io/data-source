@@ -7,7 +7,7 @@
 [![Feed](https://img.shields.io/badge/feed-atom-orange?style=flat-square)](https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml)
 [![Manifest](https://img.shields.io/badge/manifest-json-blue?style=flat-square)](https://raw.githubusercontent.com/stackin-io/data-source/master/data/manifest.json)
 [![Updates](https://img.shields.io/badge/updates-a%20cada%206h-success?style=flat-square)](.github/workflows)
-[![License](https://img.shields.io/badge/license-MIT-informational?style=flat-square)](LICENSE)
+[![License](https://img.shields.io/badge/license-AGPL--3.0-informational?style=flat-square)](LICENSE)
 
 [Assinar newsletter](https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml) · [Manifest JSON](https://raw.githubusercontent.com/stackin-io/data-source/master/data/manifest.json) · [app.stackin.io](https://app.stackin.io)
 
@@ -144,6 +144,14 @@ Todo integrador fiscal brasileiro repete o mesmo trabalho: monitorar dois portai
 Isso não é diferencial de produto. É custo compartilhado que ninguém precisa pagar duas vezes. O `data-source` resolve uma vez pra todo mundo, em código aberto.
 
 Feito pela [Stackin](https://app.stackin.io).
+
+## Licença
+
+- **Código** (scrapers, geração de feed/manifest, workflows): [AGPL-3.0](LICENSE). Rehost como serviço, mesmo sem redistribuir binário, exige publicar código-fonte de qualquer modificação (§13).
+- **Feed Atom e Manifest JSON** (estruturas geradas por este projeto): [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/). Exige atribuição visível a `stackin-io/data-source` em qualquer app que consuma.
+- **Arquivos oficiais em `data/**`** (PDFs, ZIPs, XSDs, XMLs): domínio público, mantêm autoria dos órgãos originais (SEFAZ, ADN gov.br, SVRS). Este projeto apenas espelha.
+
+Para uso comercial fora da AGPL, contatar [contato@stackin.io](mailto:contato@stackin.io) — exceções comerciais podem ser negociadas.
 
 <!--
 Keywords: NF-e, NFe, NFS-e, NFSe, SEFAZ, ADN, gov.br, Brasil, Nota Fiscal Eletrônica,
