@@ -5,6 +5,7 @@ from pathlib import Path
 import typer
 
 from data_source.config import get_settings
+from data_source.core.index import rebuild
 from data_source.core.logger import configure as configure_logging
 from data_source.core.logger import get_logger
 from data_source.exceptions import UnknownScraperError
@@ -39,6 +40,24 @@ def scrape(
     )
     if result.failed and not result.persisted:
         raise typer.Exit(code=2)
+
+
+@app.command("rebuild-index")
+def rebuild_index(
+    out: Path | None = typer.Option(None, "--out", help="Output dir"),
+) -> None:
+    """Regenerate every feed and the root sitemap from the manifests on disk.
+
+    Scrapes nothing. A parallel run needs this: each job only sees its own
+    context, so the root sitemap has to be aggregated afterwards.
+    """
+    settings = get_settings()
+    if out is not None:
+        settings = settings.model_copy(update={"output_dir": out})
+    configure_logging(settings.log_level)
+
+    contexts = rebuild(settings)
+    typer.echo(f"rebuilt {len(contexts)} contexts: {', '.join(contexts)}")
 
 
 @app.command("list")
