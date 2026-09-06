@@ -3,6 +3,7 @@ from data_source.scrapers.nfe import (
     NFeDiversosScraper,
     NFeEsquemasXMLScraper,
     NFeInformesTecnicosScraper,
+    NFeManuaisScraper,
     NFeNotasTecnicasScraper,
     NFeScraper,
 )
@@ -13,6 +14,7 @@ REGISTRY: dict[str, type[BaseScraper]] = {
     NFeNotasTecnicasScraper.context: NFeNotasTecnicasScraper,
     NFeInformesTecnicosScraper.context: NFeInformesTecnicosScraper,
     NFeDiversosScraper.context: NFeDiversosScraper,
+    NFeManuaisScraper.context: NFeManuaisScraper,
     NFSeScraper.context: NFSeScraper,
 }
 
@@ -21,6 +23,7 @@ __all__ = [
     "NFeDiversosScraper",
     "NFeEsquemasXMLScraper",
     "NFeInformesTecnicosScraper",
+    "NFeManuaisScraper",
     "NFeNotasTecnicasScraper",
     "NFeScraper",
     "NFSeScraper",
