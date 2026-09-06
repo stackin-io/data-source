@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 from abc import ABC, abstractmethod
 from collections.abc import Iterable
+from contextlib import nullcontext
 from dataclasses import asdict, dataclass, field
 from datetime import UTC, datetime
 from pathlib import Path
@@ -72,9 +73,13 @@ class BaseScraper(ABC):
 
     Base owns: browser lifecycle, retry, storage, logging, error containment.
     Subclasses own: what pages exist for this source, how each page turns into files.
+
+    Set `uses_browser = False` on sources whose listing is server-rendered — the run
+    then never starts Chrome and needs no driver in CI.
     """
 
     context: str = ""
+    uses_browser: bool = True
 
     def __init__(
         self,
@@ -126,7 +131,8 @@ class BaseScraper(ABC):
         started_at = datetime.now(tz=UTC)
         result = ScrapeResult(context=self.context)
         self._log.info("scrape.start", context=self.context, force=force)
-        with self._browser, self._downloader:
+        browser_ctx = self._browser if self.uses_browser else nullcontext()
+        with browser_ctx, self._downloader:
             try:
                 items = list(self._safe_discover())
             except DiscoveryError as exc:
@@ -142,6 +148,7 @@ class BaseScraper(ABC):
                         result.skipped += 1
                         record.status = "skipped"
                         record.files = self._list_existing_files(probe)
+                        record.folder = str(Path(self._settings.output_dir) / probe)
                         result.items.append(record)
                         self._log.info("scrape.skip_existing", url=item.url, subpath=sub)
                         continue
@@ -227,13 +234,15 @@ class BaseScraper(ABC):
         finished_at: datetime,
     ) -> None:
         base_url = self._settings.public_base_url.rstrip("/")
+        browse_url = self._settings.browse_base_url.rstrip("/")
         for r in result.items:
             r.file_urls = [self._to_public_url(base_url, p) for p in r.files]
-            r.folder_url = self._to_public_url(base_url, r.folder) if r.folder else ""
+            r.folder_url = self._to_public_url(browse_url, r.folder) if r.folder else ""
 
         manifest = {
             "context": result.context,
             "public_base_url": f"{base_url}/{result.context}",
+            "browse_url": f"{browse_url}/{result.context}",
             "generated_at": finished_at.isoformat(timespec="seconds"),
             "started_at": started_at.isoformat(timespec="seconds"),
             "duration_s": round((finished_at - started_at).total_seconds(), 2),
@@ -284,7 +293,9 @@ class BaseScraper(ABC):
             self._log.warning("history.write_failed", error=str(exc))
 
         generated_at = str(manifest["generated_at"])
-        self._write_context_feed(result, base_url, generated_at=generated_at)
+        self._write_context_feed(
+            result, base_url, browse_url=browse_url, generated_at=generated_at
+        )
         self._write_root_sitemap(base_url, generated_at=generated_at)
         self._write_root_feed(base_url, generated_at=generated_at)
 
@@ -300,6 +311,7 @@ class BaseScraper(ABC):
         result: ScrapeResult,
         base_url: str,
         *,
+        browse_url: str,
         generated_at: str,
     ) -> None:
         """Atom feed with one entry per item — newest published_at first, capped at 50."""
@@ -318,7 +330,7 @@ class BaseScraper(ABC):
                     "id": f"{base_url}/{result.context}/{r.slug}",
                     "title": r.title,
                     "summary": r.description,
-                    "link": r.folder_url or f"{base_url}/{result.context}/{r.slug}/",
+                    "link": r.folder_url or f"{browse_url}/{result.context}/{r.slug}",
                     "updated": updated or r.downloaded_at or generated_at,
                 }
             )
@@ -330,7 +342,7 @@ class BaseScraper(ABC):
                 "official docs, XSDs, technical notes."
             ),
             self_url=f"{base_url}/{result.context}/feed.xml",
-            site_url=f"{base_url}/{result.context}/",
+            site_url=f"{browse_url}/{result.context}",
             updated=generated_at,
             entries=entries,
         )
@@ -372,7 +384,7 @@ class BaseScraper(ABC):
             title="Stackin data-source — todas as fontes",
             subtitle="Todas as atualizações fiscais oficiais indexadas pelo Stackin.",
             self_url=f"{base_url}/feed.xml",
-            site_url=base_url,
+            site_url=self._settings.browse_base_url.rstrip("/"),
             updated=generated_at,
             entries=aggregated[:100],
         )
@@ -386,6 +398,7 @@ class BaseScraper(ABC):
         top-level sitemap consumers can hit to discover which datasets exist."""
         root = Path(self._settings.output_dir)
         entries: list[dict] = []
+        browse_url = self._settings.browse_base_url.rstrip("/")
         for m in sorted(root.rglob("manifest.json")):
             if m.parent == root:
                 continue
@@ -400,6 +413,7 @@ class BaseScraper(ABC):
                     "context": data.get("context", rel),
                     "manifest_url": f"{base_url}/{rel}/manifest.json",
                     "feed_url": f"{base_url}/{rel}/feed.xml",
+                    "browse_url": f"{browse_url}/{rel}",
                     "generated_at": data.get("generated_at", ""),
                     "totals": data.get("totals", {}),
                 }
@@ -407,6 +421,7 @@ class BaseScraper(ABC):
         root_manifest = {
             "generated_at": generated_at,
             "public_base_url": base_url,
+            "browse_base_url": browse_url,
             "feed_url": f"{base_url}/feed.xml",
             "contexts": entries,
         }

@@ -57,6 +57,9 @@ class _NFePortalScraper(BaseScraper):
     def extract(self, item: ScrapeItem) -> Iterable[Artifact]:
         title = item.metadata.get("title", "")
         downloaded = self._downloader.fetch(item.url, title_hint=title)
+        if downloaded.content_type.startswith("text/html"):
+            self._log.warning("scrape.not_a_file", url=item.url, title=title)
+            return
         yield Artifact(
             filename=downloaded.filename,
             data=downloaded.data,
