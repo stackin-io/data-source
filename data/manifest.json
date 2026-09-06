@@ -1,15 +1,17 @@
 {
   "generated_at": "2026-09-06T00:18:17+00:00",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data",
+  "browse_base_url": "https://github.com/stackin-io/data-source/tree/master/data",
   "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml",
   "contexts": [
     {
       "context": "nfe/diversos",
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/feed.xml",
+      "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/diversos",
       "generated_at": "2026-09-05T22:38:18+00:00",
       "totals": {
-        "discovered": 64,
+        "discovered": 62,
         "persisted": 0,
         "skipped": 64,
         "failed": 0
@@ -19,9 +21,10 @@
       "context": "nfe/esquemas-xml",
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/feed.xml",
+      "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/esquemas-xml",
       "generated_at": "2026-09-05T22:38:05+00:00",
       "totals": {
-        "discovered": 105,
+        "discovered": 103,
         "persisted": 0,
         "skipped": 105,
         "failed": 0
@@ -31,9 +34,10 @@
       "context": "nfe/informes-tecnicos",
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/feed.xml",
+      "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/informes-tecnicos",
       "generated_at": "2026-09-05T22:38:14+00:00",
       "totals": {
-        "discovered": 42,
+        "discovered": 40,
         "persisted": 0,
         "skipped": 42,
         "failed": 0
@@ -43,9 +47,10 @@
       "context": "nfe/notas-tecnicas",
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/feed.xml",
+      "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas",
       "generated_at": "2026-09-05T22:38:10+00:00",
       "totals": {
-        "discovered": 193,
+        "discovered": 191,
         "persisted": 0,
         "skipped": 193,
         "failed": 0
@@ -55,6 +60,7 @@
       "context": "nfse",
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/feed.xml",
+      "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse",
       "generated_at": "2026-09-06T00:18:17+00:00",
       "totals": {
         "discovered": 17,

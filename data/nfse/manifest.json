@@ -18,7 +18,7 @@
       "published_at": "2026-02-09",
       "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/nfse-esquemas_xsd-v1-01-20260209.zip",
       "folder": "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209",
       "files": [
         "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209.zip",
         "/home/runner/work/data-source/data-source/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.00/CNC_v1.00.xsd",
@@ -75,7 +75,7 @@
       "published_at": "2026-02-09",
       "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo_i-sefin_adn-dps_nfse-snnfse-v1-01-20260209.xlsx",
       "folder": "data/nfse/2026-02-09_anexoi-sefinadn-dpsnfse-snnfse-v1.01-20260209",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_anexoi-sefinadn-dpsnfse-snnfse-v1.01-20260209",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-02-09_anexoi-sefinadn-dpsnfse-snnfse-v1.01-20260209",
       "files": [
         "data/nfse/2026-02-09_anexoi-sefinadn-dpsnfse-snnfse-v1.01-20260209/anexo_i-sefin_adn-dps_nfse-snnfse-v1-01-20260209.xlsx"
       ],
@@ -92,7 +92,7 @@
       "published_at": "2026-01-22",
       "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo_b-nbs2-lista_servico_nacional-snnfse-v1-01-20260122.xlsx",
       "folder": "data/nfse/2026-01-22_anexob-nbs2-listaserviconacional-snnfse-v1.01-20260122",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-01-22_anexob-nbs2-listaserviconacional-snnfse-v1.01-20260122",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-01-22_anexob-nbs2-listaserviconacional-snnfse-v1.01-20260122",
       "files": [
         "data/nfse/2026-01-22_anexob-nbs2-listaserviconacional-snnfse-v1.01-20260122/anexo_b-nbs2-lista_servico_nacional-snnfse-v1-01-20260122.xlsx"
       ],
@@ -109,7 +109,7 @@
       "published_at": "2026-01-22",
       "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo_ii-sefin_adn-pedregevt_evt-snnfse-v1-01-20260122.xlsx",
       "folder": "data/nfse/2026-01-22_anexoii-sefinadn-pedregevtevt-snnfse-v1.01-20260122",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-01-22_anexoii-sefinadn-pedregevtevt-snnfse-v1.01-20260122",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-01-22_anexoii-sefinadn-pedregevtevt-snnfse-v1.01-20260122",
       "files": [
         "data/nfse/2026-01-22_anexoii-sefinadn-pedregevtevt-snnfse-v1.01-20260122/anexo_ii-sefin_adn-pedregevt_evt-snnfse-v1-01-20260122.xlsx"
       ],
@@ -126,7 +126,7 @@
       "published_at": "2025-12-16",
       "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo_iii-cnc-snnfse-v1-00-20251216.xlsx",
       "folder": "data/nfse/2025-12-16_anexoiii-cnc-snnfse-v1.00-20251216",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-12-16_anexoiii-cnc-snnfse-v1.00-20251216",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-12-16_anexoiii-cnc-snnfse-v1.00-20251216",
       "files": [
         "data/nfse/2025-12-16_anexoiii-cnc-snnfse-v1.00-20251216/anexo_iii-cnc-snnfse-v1-00-20251216.xlsx"
       ],
@@ -143,7 +143,7 @@
       "published_at": "2025-12-16",
       "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo_iv-adn-snnfse-v1-00-20251216.xlsx",
       "folder": "data/nfse/2025-12-16_anexoiv-adn-snnfse-v1.00-20251216",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-12-16_anexoiv-adn-snnfse-v1.00-20251216",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-12-16_anexoiv-adn-snnfse-v1.00-20251216",
       "files": [
         "data/nfse/2025-12-16_anexoiv-adn-snnfse-v1.00-20251216/anexo_iv-adn-snnfse-v1-00-20251216.xlsx"
       ],
@@ -160,7 +160,7 @@
       "published_at": "2025-12-16",
       "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo_v-painel_adm_municipal-snnfse-v1-00-20251216.xlsx",
       "folder": "data/nfse/2025-12-16_anexov-paineladmmunicipal-snnfse-v1.00-20251216",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-12-16_anexov-paineladmmunicipal-snnfse-v1.00-20251216",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-12-16_anexov-paineladmmunicipal-snnfse-v1.00-20251216",
       "files": [
         "data/nfse/2025-12-16_anexov-paineladmmunicipal-snnfse-v1.00-20251216/anexo_v-painel_adm_municipal-snnfse-v1-00-20251216.xlsx"
       ],
@@ -177,7 +177,7 @@
       "published_at": "2025-12-10",
       "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo_a-municipio_ibge-paises_iso2-v1-00-snnfse-20251210.xlsx",
       "folder": "data/nfse/2025-12-10_anexoa-municipioibge-paisesiso2-v1.00-snnfse-20251210",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-12-10_anexoa-municipioibge-paisesiso2-v1.00-snnfse-20251210",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-12-10_anexoa-municipioibge-paisesiso2-v1.00-snnfse-20251210",
       "files": [
         "data/nfse/2025-12-10_anexoa-municipioibge-paisesiso2-v1.00-snnfse-20251210/anexo_a-municipio_ibge-paises_iso2-v1-00-snnfse-20251210.xlsx"
       ],
@@ -194,7 +194,7 @@
       "published_at": "2025-10-01",
       "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/guia-do-painel-administrativo-municipal-nfs-e-v1-2-out2025.pdf",
       "folder": "data/nfse/2025-10-01_guia-do-painel-administrativo-municipal",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-10-01_guia-do-painel-administrativo-municipal",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-10-01_guia-do-painel-administrativo-municipal",
       "files": [
         "data/nfse/2025-10-01_guia-do-painel-administrativo-municipal/guia-do-painel-administrativo-municipal-nfs-e-v1-2-out2025.pdf"
       ],
@@ -211,7 +211,7 @@
       "published_at": "2025-10-01",
       "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/manual-contribuintes-emissor-publico-api-sistema-nacional-nfs-e-v1-2-out2025.pdf",
       "folder": "data/nfse/2025-10-01_api-manual-de-contribuintes-emissor-publico",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-10-01_api-manual-de-contribuintes-emissor-publico",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-10-01_api-manual-de-contribuintes-emissor-publico",
       "files": [
         "data/nfse/2025-10-01_api-manual-de-contribuintes-emissor-publico/manual-contribuintes-emissor-publico-api-sistema-nacional-nfs-e-v1-2-out2025.pdf"
       ],
@@ -228,7 +228,7 @@
       "published_at": "",
       "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/guia-emissorpubliconacionalweb_snnfse-ern-v12.pdf",
       "folder": "data/nfse/undated_guia-do-emissor-publico-nacional-web",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_guia-do-emissor-publico-nacional-web",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_guia-do-emissor-publico-nacional-web",
       "files": [
         "data/nfse/undated_guia-do-emissor-publico-nacional-web/guia-emissorpubliconacionalweb_snnfse-ern-v12.pdf"
       ],
@@ -245,7 +245,7 @@
       "published_at": "",
       "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/manual-municipios-apis-adn-sistema-nacional-nfs-e-v1-2-out21025.pdf",
       "folder": "data/nfse/undated_api-manual-de-municipios-adn-compartilhamento",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_api-manual-de-municipios-adn-compartilhamento",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_api-manual-de-municipios-adn-compartilhamento",
       "files": [
         "data/nfse/undated_api-manual-de-municipios-adn-compartilhamento/manual-municipios-apis-adn-sistema-nacional-nfs-e-v1-2-out21025.pdf"
       ],
@@ -262,7 +262,7 @@
       "published_at": "",
       "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/manual-municipios-cnc-api-sistema-nacional-nfs-e-v1-2-out21025.pdf",
       "folder": "data/nfse/undated_api-manual-de-municipios-cnc-cadastro-nacional-de-contribuintes",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_api-manual-de-municipios-cnc-cadastro-nacional-de-contribuintes",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_api-manual-de-municipios-cnc-cadastro-nacional-de-contribuintes",
       "files": [
         "data/nfse/undated_api-manual-de-municipios-cnc-cadastro-nacional-de-contribuintes/manual-municipios-cnc-api-sistema-nacional-nfs-e-v1-2-out21025.pdf"
       ],
@@ -279,7 +279,7 @@
       "published_at": "",
       "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/manual-municipios-emissor-publico-api-sistema-nacional-nfs-e-v1-2-out21025.pdf",
       "folder": "data/nfse/undated_api-manual-de-municipios-emissor-publico",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_api-manual-de-municipios-emissor-publico",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_api-manual-de-municipios-emissor-publico",
       "files": [
         "data/nfse/undated_api-manual-de-municipios-emissor-publico/manual-municipios-emissor-publico-api-sistema-nacional-nfs-e-v1-2-out21025.pdf"
       ],
@@ -296,7 +296,7 @@
       "published_at": "",
       "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/manual-contribuintes-apis-adn-sistema-nacional-nfse.pdf",
       "folder": "data/nfse/undated_api-manual-de-contribuintes-guia-de-utilizacao-das-apis-do-adn",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_api-manual-de-contribuintes-guia-de-utilizacao-das-apis-do-adn",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_api-manual-de-contribuintes-guia-de-utilizacao-das-apis-do-adn",
       "files": [
         "data/nfse/undated_api-manual-de-contribuintes-guia-de-utilizacao-das-apis-do-adn/manual-contribuintes-apis-adn-sistema-nacional-nfse.pdf"
       ],
@@ -313,7 +313,7 @@
       "published_at": "",
       "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/manual-contribuintes-emissor-publico-api-emissao-decisao-administrativa-e-judicial.pdf",
       "folder": "data/nfse/undated_api-manual-de-contribuintes-emissor-publico-nacional-emissao-por-decisao-administrativa-ou-judicial",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_api-manual-de-contribuintes-emissor-publico-nacional-emissao-por-decisao-administrativa-ou-judicial",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_api-manual-de-contribuintes-emissor-publico-nacional-emissao-por-decisao-administrativa-ou-judicial",
       "files": [
         "data/nfse/undated_api-manual-de-contribuintes-emissor-publico-nacional-emissao-por-decisao-administrativa-ou-judicial/manual-contribuintes-emissor-publico-api-emissao-decisao-administrativa-e-judicial.pdf"
       ],
@@ -330,7 +330,7 @@
       "published_at": "",
       "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo-c-indop-ibscbs-snnfse-v1-01.xlsx",
       "folder": "data/nfse/undated_anexoc-indopibscbs-snnfse-v1.01",
-      "folder_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_anexoc-indopibscbs-snnfse-v1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_anexoc-indopibscbs-snnfse-v1.01",
       "files": [
         "data/nfse/undated_anexoc-indopibscbs-snnfse-v1.01/anexo-c-indop-ibscbs-snnfse-v1-01.xlsx"
       ],
@@ -340,5 +340,6 @@
       "downloaded_at": "2026-09-06T00:18:17+00:00",
       "status": "ok"
     }
-  ]
+  ],
+  "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse"
 }
