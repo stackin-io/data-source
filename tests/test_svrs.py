@@ -1,10 +1,12 @@
 import tempfile
 import unittest
 from pathlib import Path
+from typing import ClassVar
 from unittest.mock import MagicMock
 
 from data_source.config import Settings
 from data_source.core.scraper import ScrapeItem
+from data_source.scrapers import REGISTRY
 from data_source.scrapers.nfe import NFeDiversosScraper
 from data_source.scrapers.svrs import SVRSNFeDocumentosScraper
 
@@ -159,3 +161,29 @@ class TestNFePortalRejectsHtml(unittest.TestCase):
             data=b"%PDF-", filename="a.pdf", content_type="application/pdf"
         )
         self.assertEqual(len(list(self.scraper.extract(self.item))), 1)
+
+
+class TestEverySVRSPortalIsRegistered(unittest.TestCase):
+
+    EXPECTED: ClassVar[dict[str, str]] = {
+        "svrs/nfe/documentos": "https://dfe-portal.svrs.rs.gov.br/Nfe/Documentos",
+        "svrs/nfce/documentos": "https://dfe-portal.svrs.rs.gov.br/Nfce/Documentos",
+        "svrs/cte/documentos": "https://dfe-portal.svrs.rs.gov.br/Cte/Documentos",
+        "svrs/mdfe/documentos": "https://dfe-portal.svrs.rs.gov.br/Mdfe/Documentos",
+        "svrs/bpe/documentos": "https://dfe-portal.svrs.rs.gov.br/Bpe/Documentos",
+    }
+
+    def test_each_context_resolves_to_its_own_portal(self):
+        for context, url in self.EXPECTED.items():
+            with self.subTest(context=context):
+                scraper = REGISTRY[context](
+                    settings=Settings(output_dir=Path(tempfile.gettempdir())),
+                    browser=MagicMock(),
+                    downloader=MagicMock(),
+                )
+                self.assertEqual(scraper.list_url(), url)
+                self.assertFalse(scraper.uses_browser)
+
+    def test_contexts_are_distinct(self):
+        slugs = {REGISTRY[c].doc_slug for c in self.EXPECTED}
+        self.assertEqual(len(slugs), len(self.EXPECTED))
