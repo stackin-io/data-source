@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 from abc import ABC, abstractmethod
 from collections.abc import Iterable
+from contextlib import nullcontext
 from dataclasses import asdict, dataclass, field
 from datetime import UTC, datetime
 from pathlib import Path
@@ -72,9 +73,13 @@ class BaseScraper(ABC):
 
     Base owns: browser lifecycle, retry, storage, logging, error containment.
     Subclasses own: what pages exist for this source, how each page turns into files.
+
+    Set `uses_browser = False` on sources whose listing is server-rendered — the run
+    then never starts Chrome and needs no driver in CI.
     """
 
     context: str = ""
+    uses_browser: bool = True
 
     def __init__(
         self,
@@ -126,7 +131,8 @@ class BaseScraper(ABC):
         started_at = datetime.now(tz=UTC)
         result = ScrapeResult(context=self.context)
         self._log.info("scrape.start", context=self.context, force=force)
-        with self._browser, self._downloader:
+        browser_ctx = self._browser if self.uses_browser else nullcontext()
+        with browser_ctx, self._downloader:
             try:
                 items = list(self._safe_discover())
             except DiscoveryError as exc:
