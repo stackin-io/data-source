@@ -48,6 +48,16 @@ Cola a URL do feed em qualquer leitor de RSS/Atom — Feedly, Inoreader, NetNews
 - Só SVRS — CT-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/cte/documentos/feed.xml`
 - Só SVRS — MDF-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/feed.xml`
 - Só SVRS — BP-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/feed.xml`
+- Só SVRS — NF3e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/feed.xml`
+- Só SVRS — NFCom: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/feed.xml`
+- Só SVRS — NFAg: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfag/documentos/feed.xml`
+- Só SVRS — NFGas: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/feed.xml`
+- Só SVRS — DC-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/feed.xml`
+- Só SVRS — NFABI: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfabi/documentos/feed.xml`
+- Só SVRS — DIFAL: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/feed.xml`
+- Só SVRS — NFF: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nff/documentos/feed.xml`
+- Só SVRS — PES: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/feed.xml`
+- Só SVRS — ONE: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/feed.xml`
 
 **Newsletter por e-mail:** apontar Mailchimp, Buttondown ou Kill the Newsletter pra qualquer uma das URLs acima. Cada publicação nova vira e-mail automático pra sua lista, sem trabalho manual.
 
@@ -67,6 +77,16 @@ Sua aplicação consome o manifest diretamente e reage a mudanças. Recomendado 
 - SVRS — CT-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/cte/documentos/manifest.json`
 - SVRS — MDF-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/manifest.json`
 - SVRS — BP-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/manifest.json`
+- SVRS — NF3e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/manifest.json`
+- SVRS — NFCom: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/manifest.json`
+- SVRS — NFAg: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfag/documentos/manifest.json`
+- SVRS — NFGas: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/manifest.json`
+- SVRS — DC-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/manifest.json`
+- SVRS — NFABI: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfabi/documentos/manifest.json`
+- SVRS — DIFAL: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/manifest.json`
+- SVRS — NFF: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nff/documentos/manifest.json`
+- SVRS — PES: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/manifest.json`
+- SVRS — ONE: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/manifest.json`
 - Histórico por fonte: `.../data/<fonte>/history.json`
 
 ## O que você recebe
@@ -95,13 +115,27 @@ Cada item aparece com estrutura completa em ambos os canais:
 | **CT-e** (portal DF-e da SVRS) | **Documentos** | Manuais, notas técnicas e schemas do Conhecimento de Transporte | PDF, ZIP, XLSX |
 | **MDF-e** (portal DF-e da SVRS) | **Documentos** | Manuais, notas técnicas e schemas do Manifesto de Documentos Fiscais | PDF, ZIP, XLSX |
 | **BP-e** (portal DF-e da SVRS) | **Documentos** | Manuais, notas técnicas e schemas do Bilhete de Passagem | PDF, ZIP, XLSX |
+| **NF3e** (portal DF-e da SVRS) | **Documentos** | Nota Fiscal de Energia Elétrica | PDF, ZIP, XLSX |
+| **NFCom** (portal DF-e da SVRS) | **Documentos** | Nota Fiscal de Serviço de Comunicação | PDF, ZIP, XLSX |
+| **NFAg** (portal DF-e da SVRS) | **Documentos** | Nota Fiscal de Produtor Agropecuário | PDF, ZIP, XLSX |
+| **NFGas** (portal DF-e da SVRS) | **Documentos** | Nota Fiscal de Gás Canalizado | PDF, ZIP, XLSX |
+| **DC-e** (portal DF-e da SVRS) | **Documentos** | Declaração de Conteúdo eletrônica | PDF, ZIP, XLSX |
+| **NFABI** (portal DF-e da SVRS) | **Documentos** | Nota Fiscal de Abastecimento | PDF, ZIP, XLSX |
+| **DIFAL** (portal DF-e da SVRS) | **Documentos** | Diferencial de alíquota — tributário, não é documento fiscal | PDF, ZIP, XLSX |
+| **NFF** (portal DF-e da SVRS) | **Documentos** | Nota Fiscal Fácil — meta-documento de infraestrutura | PDF, ZIP, XLSX |
+| **PES** (portal DF-e da SVRS) | **Documentos** | Portal de Entrega Simplificada — meta-documento | PDF, ZIP, XLSX |
+| **ONE** (portal DF-e da SVRS) | **Documentos** | Operador Nacional do Estacionamento — meta-documento | PDF, ZIP, XLSX |
 
 A NF-e tem **duas fontes oficiais** aqui, e as duas ficam: o portal SEFAZ de homologação
 é a base normativa nacional, e a SVRS é o que 22 UFs publicam. As duas podem divulgar o
 mesmo documento em datas diferentes, então nada é deduplicado entre elas — o contexto
 `svrs/` existe justamente pra você escolher qual segue.
 
-Outras fontes (NF3e, NFCom, NFAg, NFGas, DC-e, NFABI e os meta-documentos da SVRS, projetos estaduais) entram sob demanda.
+As quatro últimas linhas não são documentos fiscais emitíveis: DIFAL é tributário, e NFF,
+PES e ONE são meta-documentos de infraestrutura da SVRS. Estão aqui porque a fonte é a
+mesma e a documentação importa para quem integra, mas não têm equivalente na API do Stackin.
+
+Portais estaduais próprios (SP, MG, PR, MT, MS) entram sob demanda.
 
 ## Por que existe
 
