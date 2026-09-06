@@ -85,3 +85,36 @@ class TestFolderUrlsNeverUseRaw(unittest.TestCase):
             root = json.load(fh)
         self.assertEqual(root["browse_base_url"], TREE)
         self.assertEqual(root["contexts"][0]["browse_url"], f"{TREE}/nfse")
+
+
+class _EmptyFileScraper(_OneFileScraper):
+    def extract(self, item: ScrapeItem) -> Iterable[Artifact]:  # noqa: ARG002
+        yield Artifact(filename="doc.pdf", data=b"", subpath="2026-02-09_manual")
+
+
+class TestEmptyDownloadsAreNotPersisted(unittest.TestCase):
+    """The SVRS portal answers 200 with zero bytes on its own dead links."""
+
+    def setUp(self):
+        self._tmp = tempfile.TemporaryDirectory()
+        self.root = Path(self._tmp.name)
+        downloader = MagicMock()
+        downloader.__enter__.return_value = downloader
+        self.result = _EmptyFileScraper(
+            settings=Settings(
+                output_dir=self.root, public_base_url=RAW, browse_base_url=TREE
+            ),
+            storage=LocalStorage(self.root),
+            browser=MagicMock(),
+            downloader=downloader,
+        ).run()
+
+    def tearDown(self):
+        self._tmp.cleanup()
+
+    def test_nothing_is_written(self):
+        self.assertEqual(self.result.persisted, 0)
+        self.assertFalse((self.root / "nfse" / "2026-02-09_manual").exists())
+
+    def test_it_is_not_counted_as_a_failure(self):
+        self.assertEqual(self.result.failed, 0)
