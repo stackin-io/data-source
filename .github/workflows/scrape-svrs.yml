@@ -20,6 +20,9 @@ jobs:
     timeout-minutes: 30
     env:
       DATA_SOURCE_LOG_LEVEL: INFO
+      # the PROCERGS datacenter that hosts the portal drops connections under
+      # load; a 30s connect timeout burns all three retries on one bad minute
+      DATA_SOURCE_TIMEOUT_S: "60"
     steps:
       - uses: actions/checkout@v4
 
