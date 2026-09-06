@@ -8,7 +8,13 @@ from data_source.scrapers.nfe import (
     NFeScraper,
 )
 from data_source.scrapers.nfse import NFSeScraper
-from data_source.scrapers.svrs import SVRSNFeDocumentosScraper
+from data_source.scrapers.svrs import (
+    SVRSBPeDocumentosScraper,
+    SVRSCTeDocumentosScraper,
+    SVRSMDFeDocumentosScraper,
+    SVRSNFCeDocumentosScraper,
+    SVRSNFeDocumentosScraper,
+)
 
 REGISTRY: dict[str, type[BaseScraper]] = {
     NFeEsquemasXMLScraper.context: NFeEsquemasXMLScraper,
@@ -18,6 +24,10 @@ REGISTRY: dict[str, type[BaseScraper]] = {
     NFeManuaisScraper.context: NFeManuaisScraper,
     NFSeScraper.context: NFSeScraper,
     SVRSNFeDocumentosScraper.context: SVRSNFeDocumentosScraper,
+    SVRSNFCeDocumentosScraper.context: SVRSNFCeDocumentosScraper,
+    SVRSCTeDocumentosScraper.context: SVRSCTeDocumentosScraper,
+    SVRSMDFeDocumentosScraper.context: SVRSMDFeDocumentosScraper,
+    SVRSBPeDocumentosScraper.context: SVRSBPeDocumentosScraper,
 }
 
 __all__ = [
@@ -29,5 +39,9 @@ __all__ = [
     "NFeNotasTecnicasScraper",
     "NFeScraper",
     "NFSeScraper",
+    "SVRSBPeDocumentosScraper",
+    "SVRSCTeDocumentosScraper",
+    "SVRSMDFeDocumentosScraper",
+    "SVRSNFCeDocumentosScraper",
     "SVRSNFeDocumentosScraper",
 ]

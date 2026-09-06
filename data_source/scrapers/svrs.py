@@ -94,6 +94,34 @@ class SVRSNFeDocumentosScraper(_SVRSPortalScraper):
     doc_slug = "Nfe"
 
 
+class SVRSNFCeDocumentosScraper(_SVRSPortalScraper):
+    """Documentos oficiais da NFC-e publicados pela SEFAZ Virtual RS."""
+
+    context = "svrs/nfce/documentos"
+    doc_slug = "Nfce"
+
+
+class SVRSCTeDocumentosScraper(_SVRSPortalScraper):
+    """Documentos oficiais do CT-e publicados pela SEFAZ Virtual RS."""
+
+    context = "svrs/cte/documentos"
+    doc_slug = "Cte"
+
+
+class SVRSMDFeDocumentosScraper(_SVRSPortalScraper):
+    """Documentos oficiais do MDF-e publicados pela SEFAZ Virtual RS."""
+
+    context = "svrs/mdfe/documentos"
+    doc_slug = "Mdfe"
+
+
+class SVRSBPeDocumentosScraper(_SVRSPortalScraper):
+    """Documentos oficiais do BP-e publicados pela SEFAZ Virtual RS."""
+
+    context = "svrs/bpe/documentos"
+    doc_slug = "Bpe"
+
+
 def _download_url(sistema: str, tipo: str, filename: str) -> str:
     query = urlencode(
         {"sistema": sistema, "tipoArquivo": tipo, "nomeArquivo": filename}
