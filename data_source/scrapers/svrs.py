@@ -122,6 +122,76 @@ class SVRSBPeDocumentosScraper(_SVRSPortalScraper):
     doc_slug = "Bpe"
 
 
+class SVRSNF3eDocumentosScraper(_SVRSPortalScraper):
+    """Documentos oficiais da NF3e (energia elétrica)."""
+
+    context = "svrs/nf3e/documentos"
+    doc_slug = "Nf3e"
+
+
+class SVRSNFComDocumentosScraper(_SVRSPortalScraper):
+    """Documentos oficiais da NFCom (comunicação)."""
+
+    context = "svrs/nfcom/documentos"
+    doc_slug = "Nfcom"
+
+
+class SVRSNFAgDocumentosScraper(_SVRSPortalScraper):
+    """Documentos oficiais da NFAg (agropecuária)."""
+
+    context = "svrs/nfag/documentos"
+    doc_slug = "Nfag"
+
+
+class SVRSNFGasDocumentosScraper(_SVRSPortalScraper):
+    """Documentos oficiais da NFGas (gás canalizado)."""
+
+    context = "svrs/nfgas/documentos"
+    doc_slug = "Nfgas"
+
+
+class SVRSDCeDocumentosScraper(_SVRSPortalScraper):
+    """Documentos oficiais da DC-e (declaração de conteúdo)."""
+
+    context = "svrs/dce/documentos"
+    doc_slug = "Dce"
+
+
+class SVRSNFABIDocumentosScraper(_SVRSPortalScraper):
+    """Documentos oficiais da NFABI (abastecimento)."""
+
+    context = "svrs/nfabi/documentos"
+    doc_slug = "Nfabi"
+
+
+class SVRSDIFALDocumentosScraper(_SVRSPortalScraper):
+    """Documentos do DIFAL — tributário, não é documento fiscal."""
+
+    context = "svrs/difal/documentos"
+    doc_slug = "Difal"
+
+
+class SVRSNFFDocumentosScraper(_SVRSPortalScraper):
+    """Documentos da NFF — meta-documento de infraestrutura."""
+
+    context = "svrs/nff/documentos"
+    doc_slug = "Nff"
+
+
+class SVRSPESDocumentosScraper(_SVRSPortalScraper):
+    """Documentos do PES — meta-documento de infraestrutura."""
+
+    context = "svrs/pes/documentos"
+    doc_slug = "Pes"
+
+
+class SVRSONEDocumentosScraper(_SVRSPortalScraper):
+    """Documentos do ONE — meta-documento de infraestrutura."""
+
+    context = "svrs/one/documentos"
+    doc_slug = "One"
+
+
 def _download_url(sistema: str, tipo: str, filename: str) -> str:
     query = urlencode(
         {"sistema": sistema, "tipoArquivo": tipo, "nomeArquivo": filename}
