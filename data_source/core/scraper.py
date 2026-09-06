@@ -164,6 +164,11 @@ class BaseScraper(ABC):
                 item_folder: str = ""
                 item_ok = True
                 for art in artifacts:
+                    if not art.data:
+                        self._log.warning(
+                            "scrape.empty_file", url=item.url, filename=art.filename
+                        )
+                        continue
                     try:
                         target_context = self.context
                         if art.subpath:
