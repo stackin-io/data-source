@@ -47,6 +47,36 @@ jobs:
       - name: Scrape BP-e
         run: poetry run data-source scrape svrs/bpe/documentos --out ./data
 
+      - name: Scrape NF3e
+        run: poetry run data-source scrape svrs/nf3e/documentos --out ./data
+
+      - name: Scrape NFCom
+        run: poetry run data-source scrape svrs/nfcom/documentos --out ./data
+
+      - name: Scrape NFAg
+        run: poetry run data-source scrape svrs/nfag/documentos --out ./data
+
+      - name: Scrape NFGas
+        run: poetry run data-source scrape svrs/nfgas/documentos --out ./data
+
+      - name: Scrape DC-e
+        run: poetry run data-source scrape svrs/dce/documentos --out ./data
+
+      - name: Scrape NFABI
+        run: poetry run data-source scrape svrs/nfabi/documentos --out ./data
+
+      - name: Scrape DIFAL
+        run: poetry run data-source scrape svrs/difal/documentos --out ./data
+
+      - name: Scrape NFF
+        run: poetry run data-source scrape svrs/nff/documentos --out ./data
+
+      - name: Scrape PES
+        run: poetry run data-source scrape svrs/pes/documentos --out ./data
+
+      - name: Scrape ONE
+        run: poetry run data-source scrape svrs/one/documentos --out ./data
+
 
       - name: Rebuild every feed and the root sitemap
         run: poetry run data-source rebuild-index --out ./data
