@@ -73,6 +73,14 @@ class TestFolderUrlsNeverUseRaw(unittest.TestCase):
         self.assertEqual(manifest["public_base_url"], f"{RAW}/nfse")
         self.assertEqual(manifest["browse_url"], f"{TREE}/nfse")
 
+    def test_no_raw_folder_url_anywhere_in_the_feed(self):
+        feed = self._feed()
+        self.assertNotIn(f"{RAW}/nfse/2026-02-09_manual", feed)
+        self.assertIn(f"<id>{TREE}/nfse/2026-02-09_manual</id>", feed)
+
+    def test_the_self_link_stays_on_raw_because_it_is_a_file(self):
+        self.assertIn(f'href="{RAW}/nfse/feed.xml"', self._feed())
+
     def test_feed_entry_links_to_the_folder_on_the_browse_base(self):
         self.assertIn(f'href="{TREE}/nfse/2026-02-09_manual"', self._feed())
 
