@@ -44,6 +44,10 @@ Cola a URL do feed em qualquer leitor de RSS/Atom — Feedly, Inoreader, NetNews
 - Só NF-e — Manuais: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/feed.xml`
 - Só NFS-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/feed.xml`
 - Só SVRS — NF-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/feed.xml`
+- Só SVRS — NFC-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/feed.xml`
+- Só SVRS — CT-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/cte/documentos/feed.xml`
+- Só SVRS — MDF-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/feed.xml`
+- Só SVRS — BP-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/feed.xml`
 
 **Newsletter por e-mail:** apontar Mailchimp, Buttondown ou Kill the Newsletter pra qualquer uma das URLs acima. Cada publicação nova vira e-mail automático pra sua lista, sem trabalho manual.
 
@@ -59,6 +63,10 @@ Sua aplicação consome o manifest diretamente e reage a mudanças. Recomendado 
 - NF-e — Manuais: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/manifest.json`
 - NFS-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/manifest.json`
 - SVRS — NF-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/manifest.json`
+- SVRS — NFC-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/manifest.json`
+- SVRS — CT-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/cte/documentos/manifest.json`
+- SVRS — MDF-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/manifest.json`
+- SVRS — BP-e: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/manifest.json`
 - Histórico por fonte: `.../data/<fonte>/history.json`
 
 ## O que você recebe
@@ -83,13 +91,17 @@ Cada item aparece com estrutura completa em ambos os canais:
 | **NF-e** (portal SEFAZ homologação) | **Manuais** | MOC, Manual do Emissor e demais manuais oficiais | PDF, ZIP, DOC |
 | **NFS-e** (ADN nacional gov.br) | — | Guias, manuais, esquemas XSD, anexos de domínio e layout | PDF, ZIP, XSD, XLSX |
 | **NF-e** (portal DF-e da SVRS) | **Documentos** | A publicação da SEFAZ Virtual RS, que atende 22 UFs | PDF, ZIP, XLSX |
+| **NFC-e** (portal DF-e da SVRS) | **Documentos** | Manuais, notas técnicas e schemas da Nota Fiscal de Consumidor | PDF, ZIP, XLSX |
+| **CT-e** (portal DF-e da SVRS) | **Documentos** | Manuais, notas técnicas e schemas do Conhecimento de Transporte | PDF, ZIP, XLSX |
+| **MDF-e** (portal DF-e da SVRS) | **Documentos** | Manuais, notas técnicas e schemas do Manifesto de Documentos Fiscais | PDF, ZIP, XLSX |
+| **BP-e** (portal DF-e da SVRS) | **Documentos** | Manuais, notas técnicas e schemas do Bilhete de Passagem | PDF, ZIP, XLSX |
 
 A NF-e tem **duas fontes oficiais** aqui, e as duas ficam: o portal SEFAZ de homologação
 é a base normativa nacional, e a SVRS é o que 22 UFs publicam. As duas podem divulgar o
 mesmo documento em datas diferentes, então nada é deduplicado entre elas — o contexto
 `svrs/` existe justamente pra você escolher qual segue.
 
-Outras fontes (NFC-e, CT-e, MDF-e e o resto dos DF-e da SVRS, projetos estaduais) entram sob demanda.
+Outras fontes (NF3e, NFCom, NFAg, NFGas, DC-e, NFABI e os meta-documentos da SVRS, projetos estaduais) entram sob demanda.
 
 ## Por que existe
 
