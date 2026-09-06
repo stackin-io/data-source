@@ -94,6 +94,13 @@ class NFeDiversosScraper(_NFePortalScraper):
     list_page = "listaConteudo.aspx?tipoConteudo=/NJarYc9nus="
 
 
+class NFeManuaisScraper(_NFePortalScraper):
+    """Manuais oficiais da NF-e (MOC, manuais do emissor e afins)."""
+
+    context = "nfe/manuais"
+    list_page = "listaConteudo.aspx?tipoConteudo=ndIjl+iEFdE="
+
+
 # Backwards-compat alias — existing callers importing `NFeScraper` keep working.
 NFeScraper = NFeEsquemasXMLScraper
 
