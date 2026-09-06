@@ -2,8 +2,6 @@ name: scrape-nfse
 
 on:
   schedule:
-    # daily at 06:00 BRT (UTC-3) = 09:00 UTC
-    # shared concurrency group serializes with scrape-nfe when both fire at same slot
     - cron: "0 9 * * *"
   workflow_dispatch:
 
