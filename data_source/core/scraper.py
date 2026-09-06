@@ -11,7 +11,7 @@ from pathlib import Path
 from data_source.config import Settings, get_settings
 from data_source.core.browser import Browser
 from data_source.core.downloader import Downloader
-from data_source.core.feed import build_atom
+from data_source.core.index import build_context_feed, rebuild
 from data_source.core.logger import configure as configure_logging
 from data_source.core.logger import get_logger
 from data_source.core.storage import LocalStorage, Storage
@@ -297,12 +297,18 @@ class BaseScraper(ABC):
         except Exception as exc:
             self._log.warning("history.write_failed", error=str(exc))
 
-        generated_at = str(manifest["generated_at"])
-        self._write_context_feed(
-            result, base_url, browse_url=browse_url, generated_at=generated_at
-        )
-        self._write_root_sitemap(base_url, generated_at=generated_at)
-        self._write_root_feed(base_url, generated_at=generated_at)
+        try:
+            self._storage.write_text(
+                result.context,
+                "feed.xml",
+                build_context_feed(self._settings, manifest),
+            )
+        except Exception as exc:
+            self._log.warning("feed.write_failed", error=str(exc))
+        try:
+            rebuild(self._settings, feeds=False)
+        except OSError as exc:
+            self._log.warning("index.rebuild_failed", error=str(exc))
 
     def _to_public_url(self, base_url: str, local_path: str) -> str:
         try:
@@ -310,134 +316,6 @@ class BaseScraper(ABC):
         except ValueError:
             return ""
         return f"{base_url}/{rel.as_posix()}"
-
-    def _write_context_feed(
-        self,
-        result: ScrapeResult,
-        base_url: str,
-        *,
-        browse_url: str,
-        generated_at: str,
-    ) -> None:
-        """Atom feed with one entry per item — newest published_at first, capped at 50."""
-        entries: list[dict] = []
-        sorted_items = sorted(
-            result.items,
-            key=lambda r: (r.published_at, r.downloaded_at),
-            reverse=True,
-        )
-        for r in sorted_items[:50]:
-            updated = r.published_at
-            if updated and len(updated) == 10:
-                updated = f"{updated}T00:00:00+00:00"
-            entries.append(
-                {
-                    "id": f"{browse_url}/{result.context}/{r.slug}",
-                    "title": r.title,
-                    "summary": r.description,
-                    "link": r.folder_url or f"{browse_url}/{result.context}/{r.slug}",
-                    "updated": updated or r.downloaded_at or generated_at,
-                }
-            )
-        feed_xml = build_atom(
-            feed_id=f"{base_url}/{result.context}/feed.xml",
-            title=f"Stackin data-source — {result.context}",
-            subtitle=(
-                f"Automated updates from the {result.context.upper()} scraper — "
-                "official docs, XSDs, technical notes."
-            ),
-            self_url=f"{base_url}/{result.context}/feed.xml",
-            site_url=f"{browse_url}/{result.context}",
-            updated=generated_at,
-            entries=entries,
-        )
-        try:
-            self._storage.write_text(result.context, "feed.xml", feed_xml)
-        except Exception as exc:
-            self._log.warning("feed.write_failed", error=str(exc))
-
-    def _write_root_feed(self, base_url: str, *, generated_at: str) -> None:
-        """Root Atom feed aggregating the top-N most recent items across every context.
-        Subscribers who want everything follow this one URL."""
-        root = Path(self._settings.output_dir)
-        browse_url = self._settings.browse_base_url.rstrip("/")
-        aggregated: list[dict] = []
-        for m in sorted(root.rglob("manifest.json")):
-            if m.parent == root:
-                continue
-            try:
-                with m.open(encoding="utf-8") as fh:
-                    data = json.load(fh)
-            except (OSError, json.JSONDecodeError):
-                continue
-            ctx = data.get("context", str(m.parent.relative_to(root)))
-            for it in data.get("items", []):
-                updated = it.get("published_at") or ""
-                if updated and len(updated) == 10:
-                    updated = f"{updated}T00:00:00+00:00"
-                aggregated.append(
-                    {
-                        "id": f"{browse_url}/{ctx}/{it.get('slug', '')}",
-                        "title": f"[{ctx.upper()}] {it.get('title', '')}",
-                        "summary": it.get("description", ""),
-                        "link": it.get("folder_url", ""),
-                        "updated": updated or it.get("downloaded_at") or generated_at,
-                    }
-                )
-        aggregated.sort(key=lambda e: e.get("updated", ""), reverse=True)
-        feed_xml = build_atom(
-            feed_id=f"{base_url}/feed.xml",
-            title="Stackin data-source — todas as fontes",
-            subtitle="Todas as atualizações fiscais oficiais indexadas pelo Stackin.",
-            self_url=f"{base_url}/feed.xml",
-            site_url=self._settings.browse_base_url.rstrip("/"),
-            updated=generated_at,
-            entries=aggregated[:100],
-        )
-        try:
-            (root / "feed.xml").write_text(feed_xml, encoding="utf-8")
-        except OSError as exc:
-            self._log.warning("root_feed.write_failed", error=str(exc))
-
-    def _write_root_sitemap(self, base_url: str, *, generated_at: str) -> None:
-        """Aggregate every context's manifest under `data/manifest.json` — the
-        top-level sitemap consumers can hit to discover which datasets exist."""
-        root = Path(self._settings.output_dir)
-        entries: list[dict] = []
-        browse_url = self._settings.browse_base_url.rstrip("/")
-        for m in sorted(root.rglob("manifest.json")):
-            if m.parent == root:
-                continue
-            try:
-                with m.open(encoding="utf-8") as fh:
-                    data = json.load(fh)
-            except (OSError, json.JSONDecodeError):
-                continue
-            rel = m.parent.relative_to(root).as_posix()
-            entries.append(
-                {
-                    "context": data.get("context", rel),
-                    "manifest_url": f"{base_url}/{rel}/manifest.json",
-                    "feed_url": f"{base_url}/{rel}/feed.xml",
-                    "browse_url": f"{browse_url}/{rel}",
-                    "generated_at": data.get("generated_at", ""),
-                    "totals": data.get("totals", {}),
-                }
-            )
-        root_manifest = {
-            "generated_at": generated_at,
-            "public_base_url": base_url,
-            "browse_base_url": browse_url,
-            "feed_url": f"{base_url}/feed.xml",
-            "contexts": entries,
-        }
-        try:
-            (root / "manifest.json").write_text(
-                json.dumps(root_manifest, ensure_ascii=False, indent=2) + "\n",
-                encoding="utf-8",
-            )
-        except OSError as exc:
-            self._log.warning("root_manifest.write_failed", error=str(exc))
 
     def download(self, url: str) -> bytes:
         """Convenience: use the shared Downloader (retry+backoff)."""
