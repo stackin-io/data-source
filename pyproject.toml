@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Scheduled Selenium scraping jobs for NFe/NFSe official docs and XMLs (extendable to other sources)."
 authors = ["Stackin <dev@stackin.io>"]
 readme = "README.md"
-license = "MIT"
+license = "AGPL-3.0-or-later"
 packages = [{include = "data_source"}]
 
 [tool.poetry.dependencies]
