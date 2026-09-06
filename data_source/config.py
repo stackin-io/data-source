@@ -25,6 +25,11 @@ class Settings(BaseSettings):
         description="Base URL where the scraped data folder is publicly served. Used to "
         "render sitemap-style URLs in manifest.json so downstream consumers can fetch files.",
     )
+    browse_base_url: str = Field(
+        default="https://github.com/stackin-io/data-source/tree/master/data",
+        description="Base URL for folder links. raw.githubusercontent serves files only "
+        "and 404s on any directory, so folders are linked through the GitHub tree view.",
+    )
 
 
 def get_settings() -> Settings:
