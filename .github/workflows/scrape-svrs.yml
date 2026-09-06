@@ -18,6 +18,7 @@ jobs:
     timeout-minutes: 30
     strategy:
       fail-fast: false
+      max-parallel: 2
       matrix:
         doc: [nfe, nfce, cte, mdfe, bpe]
     env:
