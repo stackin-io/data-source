@@ -332,7 +332,7 @@ class BaseScraper(ABC):
                 updated = f"{updated}T00:00:00+00:00"
             entries.append(
                 {
-                    "id": f"{base_url}/{result.context}/{r.slug}",
+                    "id": f"{browse_url}/{result.context}/{r.slug}",
                     "title": r.title,
                     "summary": r.description,
                     "link": r.folder_url or f"{browse_url}/{result.context}/{r.slug}",
@@ -360,6 +360,7 @@ class BaseScraper(ABC):
         """Root Atom feed aggregating the top-N most recent items across every context.
         Subscribers who want everything follow this one URL."""
         root = Path(self._settings.output_dir)
+        browse_url = self._settings.browse_base_url.rstrip("/")
         aggregated: list[dict] = []
         for m in sorted(root.rglob("manifest.json")):
             if m.parent == root:
@@ -376,7 +377,7 @@ class BaseScraper(ABC):
                     updated = f"{updated}T00:00:00+00:00"
                 aggregated.append(
                     {
-                        "id": f"{base_url}/{ctx}/{it.get('slug', '')}",
+                        "id": f"{browse_url}/{ctx}/{it.get('slug', '')}",
                         "title": f"[{ctx.upper()}] {it.get('title', '')}",
                         "summary": it.get("description", ""),
                         "link": it.get("folder_url", ""),
