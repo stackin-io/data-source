@@ -32,8 +32,11 @@ jobs:
       - name: Install deps
         run: poetry install --no-interaction --no-ansi
 
-      - name: Run SVRS NFe scraper
-        run: poetry run data-source scrape svrs/nfe/documentos --out ./data
+      - name: Run SVRS scrapers
+        run: |
+          for doc in nfe nfce cte mdfe bpe; do
+            poetry run data-source scrape "svrs/$doc/documentos" --out ./data
+          done
 
       - name: Commit new files as stackin-bot
         run: |
