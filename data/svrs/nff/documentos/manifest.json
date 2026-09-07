@@ -2,13 +2,13 @@
   "context": "svrs/nff/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nff/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nff/documentos",
-  "generated_at": "2026-09-06T04:51:25+00:00",
-  "started_at": "2026-09-06T04:51:18+00:00",
-  "duration_s": 7.29,
+  "generated_at": "2026-09-07T14:39:32+00:00",
+  "started_at": "2026-09-07T14:39:31+00:00",
+  "duration_s": 1.38,
   "totals": {
     "discovered": 6,
-    "persisted": 6,
-    "skipped": 0,
+    "persisted": 0,
+    "skipped": 6,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nff/documentos/2026-01-30_manual-de-orientacao-ao-produtor-rural-2026/manual-de-orientacao-ao-produtor-rural-2026.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:51:22+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-12-15_manual-nff-do-mei",
@@ -43,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nff/documentos/2023-12-15_manual-nff-do-mei/manual-nff-mei-v100.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:51:22+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-09-06_manual-da-nota-fiscal-facil-v1.00-modulo-ppr",
@@ -60,8 +60,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nff/documentos/2023-09-06_manual-da-nota-fiscal-facil-v1.00-modulo-ppr/nff-produtor-manual-do-produtor-rural.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:51:23+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-07-05_apresentacao-nota-fiscal-facil",
@@ -77,8 +77,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nff/documentos/2021-07-05_apresentacao-nota-fiscal-facil/apresentacao-geral-nff.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:51:24+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-05-11_manual-da-nota-fiscal-facil-v1.00-modulo-tac",
@@ -94,8 +94,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nff/documentos/2021-05-11_manual-da-nota-fiscal-facil-v1.00-modulo-tac/manual-nota-fiscal-facil-1.00.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:51:25+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-11-16_apresentacao-nota-fiscal-facil",
@@ -111,8 +111,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nff/documentos/2020-11-16_apresentacao-nota-fiscal-facil/nff-2020-11-05-nota-fiscal-facil-ricardo-neves-mod-vpf.pptx"
       ],
-      "downloaded_at": "2026-09-06T04:51:25+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     }
   ]
 }

@@ -2,13 +2,13 @@
   "context": "svrs/dce/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/dce/documentos",
-  "generated_at": "2026-09-06T04:50:59+00:00",
-  "started_at": "2026-09-06T04:50:47+00:00",
-  "duration_s": 12.04,
+  "generated_at": "2026-09-07T14:39:25+00:00",
+  "started_at": "2026-09-07T14:39:24+00:00",
+  "duration_s": 1.03,
   "totals": {
     "discovered": 15,
-    "persisted": 15,
-    "skipped": 0,
+    "persisted": 0,
+    "skipped": 15,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split/it-2026.001-v.1.01-tabelas-de-meios-de-pagamento-para-vinculacao-com-o-split.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:50:49+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-17_nt-2024.001-v1.30",
@@ -43,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2026-08-17_nt-2024.001-v1.30/nt2024.001-v1.30-alteracao-de-leiaute-e-correcoes.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:50:49+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-06-22_tabela-de-codigos-de-credito-presumido",
@@ -60,8 +60,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido/ccredpres-2026-06-22.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:50:49+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
@@ -77,8 +77,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt/cclasstrib-2026-06-22.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:50:50+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50",
@@ -94,8 +94,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50/it-2025.002-v.1.50-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:50:52+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-04-13_schemas-bt-2024.001-svd",
@@ -107,12 +107,12 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/dce/documentos/2026-04-13_schemas-bt-2024.001-svd",
       "files": [
         "data/svrs/dce/documentos/2026-04-13_schemas-bt-2024.001-svd/pl-dce-100-bt2024.001-svd-v1.00.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2026-04-13_schemas-bt-2024.001-svd/pl-dce-100-bt2024.001-svd-v1.00/PL_DCe_100_BT2024.001_SVD_v1.00/distDCeAut_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2026-04-13_schemas-bt-2024.001-svd/pl-dce-100-bt2024.001-svd-v1.00/PL_DCe_100_BT2024.001_SVD_v1.00/distDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2026-04-13_schemas-bt-2024.001-svd/pl-dce-100-bt2024.001-svd-v1.00/PL_DCe_100_BT2024.001_SVD_v1.00/leiauteDistDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2026-04-13_schemas-bt-2024.001-svd/pl-dce-100-bt2024.001-svd-v1.00/PL_DCe_100_BT2024.001_SVD_v1.00/retDistDCeAut_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2026-04-13_schemas-bt-2024.001-svd/pl-dce-100-bt2024.001-svd-v1.00/PL_DCe_100_BT2024.001_SVD_v1.00/retDistDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2026-04-13_schemas-bt-2024.001-svd/pl-dce-100-bt2024.001-svd-v1.00/PL_DCe_100_BT2024.001_SVD_v1.00/tiposGeralDCe_v1.00.xsd"
+        "data/svrs/dce/documentos/2026-04-13_schemas-bt-2024.001-svd/pl-dce-100-bt2024.001-svd-v1.00/PL_DCe_100_BT2024.001_SVD_v1.00/distDCeAut_v1.00.xsd",
+        "data/svrs/dce/documentos/2026-04-13_schemas-bt-2024.001-svd/pl-dce-100-bt2024.001-svd-v1.00/PL_DCe_100_BT2024.001_SVD_v1.00/distDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2026-04-13_schemas-bt-2024.001-svd/pl-dce-100-bt2024.001-svd-v1.00/PL_DCe_100_BT2024.001_SVD_v1.00/leiauteDistDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2026-04-13_schemas-bt-2024.001-svd/pl-dce-100-bt2024.001-svd-v1.00/PL_DCe_100_BT2024.001_SVD_v1.00/retDistDCeAut_v1.00.xsd",
+        "data/svrs/dce/documentos/2026-04-13_schemas-bt-2024.001-svd/pl-dce-100-bt2024.001-svd-v1.00/PL_DCe_100_BT2024.001_SVD_v1.00/retDistDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2026-04-13_schemas-bt-2024.001-svd/pl-dce-100-bt2024.001-svd-v1.00/PL_DCe_100_BT2024.001_SVD_v1.00/tiposGeralDCe_v1.00.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2026-04-13_schemas-bt-2024.001-svd/pl-dce-100-bt2024.001-svd-v1.00.zip",
@@ -123,8 +123,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2026-04-13_schemas-bt-2024.001-svd/pl-dce-100-bt2024.001-svd-v1.00/PL_DCe_100_BT2024.001_SVD_v1.00/retDistDCe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2026-04-13_schemas-bt-2024.001-svd/pl-dce-100-bt2024.001-svd-v1.00/PL_DCe_100_BT2024.001_SVD_v1.00/tiposGeralDCe_v1.00.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:50:52+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026",
@@ -140,8 +140,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026/tabela-de-meios-de-pagamento-04032026.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:50:53+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11",
@@ -157,8 +157,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11/it2024.002v1.11-atualiza-tabela-meios-de-pagamento-04032026.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:50:53+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00",
@@ -174,8 +174,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00/dfe-ntcj-2025.001-cnpj-alfa-v1.00.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:50:54+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-10-08_schemas-nt-2024.001",
@@ -187,56 +187,56 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001",
       "files": [
         "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/consSitDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/consSitDCeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/consStatServDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/consStatServDCeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/dceTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/retConsSitDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/retConsStatServDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/tiposGeralDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/xmldsig-core-schema_v1.01.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/dce/dce_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/dce/dceTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/dce/procDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/dce/retDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/dce/tiposGeralDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/dce/xmldsig-core-schema_v1.01.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/evCancDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/eventoDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/eventoDCeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/procEventoDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/retEventoDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/tiposGeralDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/consSitDCeTiposBasico_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/consSitDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/consStatServDCeTiposBasico_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/consStatServDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/dceTiposBasico_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/retConsSitDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/retConsStatServDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/tiposGeralDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/xmldsig-core-schema_v1.01.xsd",
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/dce/dceTiposBasico_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/dce/dce_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/dce/procDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/dce/retDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/dce/tiposGeralDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/dce/xmldsig-core-schema_v1.01.xsd",
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/evCancDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/eventoDCeTiposBasico_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/eventoDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/procEventoDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/retEventoDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/tiposGeralDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00.zip",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/consSitDCe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/consSitDCeTiposBasico_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/consStatServDCe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/consSitDCe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/consStatServDCeTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/consStatServDCe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/dceTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/retConsSitDCe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/retConsStatServDCe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/tiposGeralDCe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/consulta/xmldsig-core-schema_v1.01.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/dce/dce_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/dce/dceTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/dce/dce_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/dce/procDCe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/dce/retDCe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/dce/tiposGeralDCe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/dce/xmldsig-core-schema_v1.01.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/evCancDCe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/eventoDCe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/eventoDCeTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/eventoDCe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/procEventoDCe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/retEventoDCe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/tiposGeralDCe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-10-08_schemas-nt-2024.001/pl-dce-v1.00a-nt2024.001v1.00/xsd/pl100/evento/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:50:55+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-04-19_manual-da-declaracao-de-conteudo-eletronica-versao-1.00",
@@ -252,8 +252,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_manual-da-declaracao-de-conteudo-eletronica-versao-1.00/manual-dc-e-visao-geral.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:50:56+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-04-19_manual-da-dce-anexo-i-leiaute-dc-e-e-regras-de-validacao",
@@ -269,8 +269,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_manual-da-dce-anexo-i-leiaute-dc-e-e-regras-de-validacao/manual-dc-e-anexo-i-leiaute-dc-e-e-regras-de-validacao.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:50:56+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-04-19_manual-dce-anexo-ii-especificacoes-tecnicas-da-dace-e-qr-code",
@@ -286,8 +286,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_manual-dce-anexo-ii-especificacoes-tecnicas-da-dace-e-qr-code/manual-dce-anexo-ii-especificacoes-tecnicas-da-dace-e-qr-code.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:50:57+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-04-19_manual-dce-anexo-iii-manual-de-credenciamento-v1.10",
@@ -303,8 +303,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_manual-dce-anexo-iii-manual-de-credenciamento-v1.10/manual-dce-anexo-iii-manual-de-credenciamento-v1.10.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:50:58+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-04-19_pacote-de-schemas-da-dce-versao-1.00",
@@ -316,56 +316,56 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00",
       "files": [
         "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/eventoDCeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/tiposGeralDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/retEventoDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/evCancDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/procEventoDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/eventoDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/xmldsig-core-schema_v1.01.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/dce/dce_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/dce/procDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/dce/retDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/dce/tiposGeralDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/dce/dceTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/dce/xmldsig-core-schema_v1.01.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/retConsSitDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/consStatServDCeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/consSitDCeTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/retConsStatServDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/consSitDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/consStatServDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/tiposGeralDCe_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/dceTiposBasico_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/xmldsig-core-schema_v1.01.xsd"
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/consSitDCeTiposBasico_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/consSitDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/consStatServDCeTiposBasico_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/consStatServDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/dceTiposBasico_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/retConsSitDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/retConsStatServDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/tiposGeralDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/xmldsig-core-schema_v1.01.xsd",
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/dce/dceTiposBasico_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/dce/dce_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/dce/procDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/dce/retDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/dce/tiposGeralDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/dce/xmldsig-core-schema_v1.01.xsd",
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/evCancDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/eventoDCeTiposBasico_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/eventoDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/procEventoDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/retEventoDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/tiposGeralDCe_v1.00.xsd",
+        "data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a.zip",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/eventoDCeTiposBasico_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/tiposGeralDCe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/retEventoDCe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/evCancDCe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/procEventoDCe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/eventoDCe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/xmldsig-core-schema_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/consSitDCeTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/consSitDCe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/consStatServDCeTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/consStatServDCe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/dceTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/retConsSitDCe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/retConsStatServDCe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/tiposGeralDCe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/xmldsig-core-schema_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/dce/dceTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/dce/dce_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/dce/procDCe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/dce/retDCe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/dce/tiposGeralDCe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/dce/dceTiposBasico_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/dce/xmldsig-core-schema_v1.01.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/retConsSitDCe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/consStatServDCeTiposBasico_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/consSitDCeTiposBasico_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/retConsStatServDCe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/consSitDCe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/consStatServDCe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/tiposGeralDCe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/dceTiposBasico_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/consulta/xmldsig-core-schema_v1.01.xsd"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/evCancDCe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/eventoDCeTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/eventoDCe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/procEventoDCe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/retEventoDCe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/tiposGeralDCe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/2024-04-19_pacote-de-schemas-da-dce-versao-1.00/pl-dce-v1.00a/xsd/pl100/evento/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:50:59+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     }
   ]
 }

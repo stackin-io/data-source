@@ -2,13 +2,13 @@
   "context": "svrs/difal/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/difal/documentos",
-  "generated_at": "2026-09-06T04:51:17+00:00",
-  "started_at": "2026-09-06T04:51:10+00:00",
-  "duration_s": 7.1,
+  "generated_at": "2026-09-07T14:39:30+00:00",
+  "started_at": "2026-09-07T14:39:29+00:00",
+  "duration_s": 0.86,
   "totals": {
     "discovered": 9,
-    "persisted": 9,
-    "skipped": 0,
+    "persisted": 0,
+    "skipped": 9,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/2025-05-30_aliquotas-icms-amapa/ap-versao-001-30-05-2025.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:51:12+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-05-30_beneficios-fiscais-relativos-ao-icms-no-estado-do-amapa",
@@ -43,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/2025-05-30_beneficios-fiscais-relativos-ao-icms-no-estado-do-amapa/tabela-de-beneficios-fiscais-2025.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:51:12+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-09-13_df-versao-001-14062024",
@@ -60,8 +60,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/2024-09-13_df-versao-001-14062024/tabela-aliquotas-icms-produto-14-06-2024.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:51:13+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-04-01_go-versao-001-01-04-2024",
@@ -77,8 +77,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/2024-04-01_go-versao-001-01-04-2024/go-versao-001-01-04-2024.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:51:14+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-01-19_pb-versao-001-01-01-2024",
@@ -94,8 +94,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/2024-01-19_pb-versao-001-01-01-2024/pb-versao-001-01-01-2024.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:51:14+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-10-10_pb-versao-000-29-09-2023",
@@ -111,8 +111,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/2023-10-10_pb-versao-000-29-09-2023/pb-versao-000-30-12-2021.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:51:15+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-09-18_go-versao-000-27-12-2021",
@@ -128,8 +128,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/2023-09-18_go-versao-000-27-12-2021/go-versao-000-27-12-2021.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:51:16+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-08-01_mg-versao-000-30-12-2021",
@@ -145,8 +145,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/2023-08-01_mg-versao-000-30-12-2021/mg-versao-000-30-12-2021.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:51:17+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-08-01_mg-versao-001-01-07-2023",
@@ -162,8 +162,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/2023-08-01_mg-versao-001-01-07-2023/mg-versao-001-01-07-2023.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:51:17+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     }
   ]
 }

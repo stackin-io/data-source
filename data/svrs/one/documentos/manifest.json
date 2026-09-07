@@ -2,13 +2,13 @@
   "context": "svrs/one/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/one/documentos",
-  "generated_at": "2026-09-06T04:51:46+00:00",
-  "started_at": "2026-09-06T04:51:35+00:00",
-  "duration_s": 10.31,
+  "generated_at": "2026-09-07T14:39:37+00:00",
+  "started_at": "2026-09-07T14:39:35+00:00",
+  "duration_s": 1.59,
   "totals": {
     "discovered": 10,
-    "persisted": 10,
-    "skipped": 0,
+    "persisted": 0,
+    "skipped": 10,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split/it-2026.001-v.1.01-tabelas-de-meios-de-pagamento-para-vinculacao-com-o-split.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:51:38+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-05_credenciamento-de-concessionarias-de-pedagio",
@@ -43,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/2026-08-05_credenciamento-de-concessionarias-de-pedagio/one-credenciamento-de-operadores.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:51:39+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-06-22_tabela-de-codigos-de-credito-presumido",
@@ -60,8 +60,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido/ccredpres-2026-06-22.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:51:39+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
@@ -77,8 +77,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt/cclasstrib-2026-06-22.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:51:40+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50",
@@ -94,8 +94,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50/it-2025.002-v.1.50-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:51:42+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026",
@@ -111,8 +111,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026/tabela-de-meios-de-pagamento-04032026.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:51:43+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11",
@@ -128,8 +128,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11/it2024.002v1.11-atualiza-tabela-meios-de-pagamento-04032026.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:51:43+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-11-12_manual-de-integracao-entre-sistemas-versao-2.00e",
@@ -145,8 +145,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/2025-11-12_manual-de-integracao-entre-sistemas-versao-2.00e/manual-one-v2.00e.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:51:45+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-11-12_schemas-da-versao-2.00e-do-one",
@@ -158,19 +158,19 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one",
       "files": [
         "data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/leiauteLeituraONE_v2.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/leiauteManutencaoONE_v2.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/oneConsFoto_v2.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/oneConsPorPlaca_v2.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/oneDistLeitura_v2.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/oneManutencaoEQP_v2.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/oneRecepcaoLeitura_v2.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/retOneConsFoto_v2.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/retOneConsPorPlaca_v2.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/retOneDistLeitura_v2.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/retOneManutencaoEQP_v2.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/retOneRecepLeitura_v2.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/tiposGeralONE_v2.00.xsd"
+        "data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/leiauteLeituraONE_v2.00.xsd",
+        "data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/leiauteManutencaoONE_v2.00.xsd",
+        "data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/oneConsFoto_v2.00.xsd",
+        "data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/oneConsPorPlaca_v2.00.xsd",
+        "data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/oneDistLeitura_v2.00.xsd",
+        "data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/oneManutencaoEQP_v2.00.xsd",
+        "data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/oneRecepcaoLeitura_v2.00.xsd",
+        "data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/retOneConsFoto_v2.00.xsd",
+        "data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/retOneConsPorPlaca_v2.00.xsd",
+        "data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/retOneDistLeitura_v2.00.xsd",
+        "data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/retOneManutencaoEQP_v2.00.xsd",
+        "data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/retOneRecepLeitura_v2.00.xsd",
+        "data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/tiposGeralONE_v2.00.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00.zip",
@@ -188,8 +188,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/retOneRecepLeitura_v2.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/2025-11-12_schemas-da-versao-2.00e-do-one/pl-one-v200e-1.00/PL_ONE_v200e_1.00/tiposGeralONE_v2.00.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:51:45+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00",
@@ -205,8 +205,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00/dfe-ntcj-2025.001-cnpj-alfa-v1.00.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:51:46+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     }
   ]
 }

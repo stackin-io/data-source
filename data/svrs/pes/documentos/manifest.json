@@ -2,13 +2,13 @@
   "context": "svrs/pes/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/pes/documentos",
-  "generated_at": "2026-09-06T04:51:35+00:00",
-  "started_at": "2026-09-06T04:51:26+00:00",
-  "duration_s": 8.21,
+  "generated_at": "2026-09-07T14:39:34+00:00",
+  "started_at": "2026-09-07T14:39:33+00:00",
+  "duration_s": 0.87,
   "totals": {
     "discovered": 10,
-    "persisted": 10,
-    "skipped": 0,
+    "persisted": 0,
+    "skipped": 10,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split/it-2026.001-v.1.01-tabelas-de-meios-de-pagamento-para-vinculacao-com-o-split.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:51:28+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-10_manual-de-credenciamento-de-provedores-e-empresas-usuarias-do-paa",
@@ -43,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-08-10_manual-de-credenciamento-de-provedores-e-empresas-usuarias-do-paa/paa-credenciamento-de-provedores-e-usuarios.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:51:29+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-06-22_tabela-de-codigos-de-credito-presumido",
@@ -60,8 +60,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido/ccredpres-2026-06-22.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:51:29+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
@@ -77,8 +77,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt/cclasstrib-2026-06-22.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:51:30+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-04-23_manual-de-orientacao-do-provedor-de-assinatura-e-autorizacao-v1.01",
@@ -94,8 +94,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-04-23_manual-de-orientacao-do-provedor-de-assinatura-e-autorizacao-v1.01/manual-de-orientacoes-do-paa-mopaa-v1.01.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:51:31+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01",
@@ -107,26 +107,26 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01",
       "files": [
         "data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/distPAA_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/leiauteDistPAA_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/leiauteManSitPAA_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/ManSitPAA_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/retDistPAA_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/retManSitPAA_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/tiposGeralPAA_v1.00.xsd"
+        "data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/ManSitPAA_v1.00.xsd",
+        "data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/distPAA_v1.00.xsd",
+        "data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/leiauteDistPAA_v1.00.xsd",
+        "data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/leiauteManSitPAA_v1.00.xsd",
+        "data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/retDistPAA_v1.00.xsd",
+        "data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/retManSitPAA_v1.00.xsd",
+        "data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/tiposGeralPAA_v1.00.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/ManSitPAA_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/distPAA_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/leiauteDistPAA_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/leiauteManSitPAA_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/ManSitPAA_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/retDistPAA_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/retManSitPAA_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-04-23_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.01/pl-dfepaa-101/PL_DFePAA_101/tiposGeralPAA_v1.00.xsd"
       ],
-      "downloaded_at": "2026-09-06T04:51:32+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50",
@@ -142,8 +142,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50/it-2025.002-v.1.50-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:51:33+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026",
@@ -159,8 +159,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-03-04_tabela-de-meios-de-pagamento-publicada-em-04032026/tabela-de-meios-de-pagamento-04032026.xlsx"
       ],
-      "downloaded_at": "2026-09-06T04:51:33+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11",
@@ -176,8 +176,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-03-04_informe-tecnico-2024.002-atualiza-tabela-de-meios-de-pagamento-v1.11/it2024.002v1.11-atualiza-tabela-meios-de-pagamento-04032026.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:51:34+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00",
@@ -193,8 +193,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2025-05-07_nota-tecnica-dfe-conjunta-cnpj-alfanumerico-v1.00/dfe-ntcj-2025.001-cnpj-alfa-v1.00.pdf"
       ],
-      "downloaded_at": "2026-09-06T04:51:35+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     }
   ]
 }
