@@ -2,13 +2,13 @@
   "context": "nfe/manuais",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/manuais",
-  "generated_at": "2026-09-06T12:34:56+00:00",
-  "started_at": "2026-09-06T12:28:12+00:00",
-  "duration_s": 403.44,
+  "generated_at": "2026-09-07T14:35:29+00:00",
+  "started_at": "2026-09-07T14:35:24+00:00",
+  "duration_s": 4.29,
   "totals": {
     "discovered": 15,
-    "persisted": 13,
-    "skipped": 0,
+    "persisted": 0,
+    "skipped": 13,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/2025-11-13_teste-manual-de-orientacao-do-contribuinte-da-nfag-visao-geral-v.1.00d-publicado-em-13112025/MOC_NFAg_VisaoGeral_v1.00d.pdf"
       ],
-      "downloaded_at": "2026-09-06T12:28:46+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2009-11-27_manual-de-integracao-do-contribuinte-versao-4.0.1-de-27112009-pdf",
@@ -43,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/2009-11-27_manual-de-integracao-do-contribuinte-versao-4.0.1-de-27112009-pdf/Manual_NFe_v401_2009-11-04.pdf"
       ],
-      "downloaded_at": "2026-09-06T12:30:12+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_visualizador-de-df-e",
@@ -56,7 +56,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-06T12:30:12+00:00",
+      "downloaded_at": "2026-09-07T14:35:28+00:00",
       "status": "ok"
     },
     {
@@ -69,7 +69,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-06T12:30:13+00:00",
+      "downloaded_at": "2026-09-07T14:35:29+00:00",
       "status": "ok"
     },
     {
@@ -86,8 +86,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-orientacao-do-contribuinte-versao-6.00/Manual_de_Orientacao_Contribuinte_v_6.00"
       ],
-      "downloaded_at": "2026-09-06T12:32:31+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_manual-de-boas-praticas-no-desenvolvimento-de-emissor-de-nfc-e-bp-2018.001-versao-1.0",
@@ -103,8 +103,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-boas-praticas-no-desenvolvimento-de-emissor-de-nfc-e-bp-2018.001-versao-1.0/Manual de Boas PrÃ¡ticas NFC-e - BP 2018.001 - versÃ£o 1 0.pdf"
       ],
-      "downloaded_at": "2026-09-06T12:32:38+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_manual-de-especificacoes-tecnicas-do-danfe-nfc-e-e-qr-code-versao-3.5",
@@ -120,8 +120,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-especificacoes-tecnicas-do-danfe-nfc-e-e-qr-code-versao-3.5/Manual de EspecificaÃ§Ãµes TÃ©cnicas do DANFE NFCeQRCode_Versao3_5.pdf"
       ],
-      "downloaded_at": "2026-09-06T12:32:57+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_manual-de-especificacoes-tecnicas-do-danfenfc-e-e-qrcode-versao-6.0",
@@ -137,8 +137,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-especificacoes-tecnicas-do-danfenfc-e-e-qrcode-versao-6.0/20250324 - Manual_de_EspecificaÃ§Ãµes_TÃ©cnicas_do_DANFE_NFC-e_QR_Code.pdf"
       ],
-      "downloaded_at": "2026-09-06T12:33:25+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_manual-de-especificacoes-tecnicas-do-danfe-nfc-e-e-qr-code-versao-3.4",
@@ -154,8 +154,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-especificacoes-tecnicas-do-danfe-nfc-e-e-qr-code-versao-3.4/Manual de Especificacoes Tecnicas do DANFE NFCeQRCode_Versao3.4_26_10_2015.pdf"
       ],
-      "downloaded_at": "2026-09-06T12:33:39+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_manual-de-especificacoes-tecnicas-do-danfe-nfc-e-e-qr-code-versao-3.2",
@@ -171,8 +171,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-especificacoes-tecnicas-do-danfe-nfc-e-e-qr-code-versao-3.2/Manual_de_Especificacoes_Tecnicas_do_DANFE_NFC-e_QRCode_Versao3.2.pdf"
       ],
-      "downloaded_at": "2026-09-06T12:33:47+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_manual-de-especificacoes-da-contingencia-offline-para-nfc-e-versao-1.2",
@@ -188,8 +188,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-especificacoes-da-contingencia-offline-para-nfc-e-versao-1.2/Manual_de_especificacoes_tecnicas_da_Contingencia_Offline_versao_1.2_30_04_2013.pdf"
       ],
-      "downloaded_at": "2026-09-06T12:33:51+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip",
@@ -201,18 +201,18 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip",
       "files": [
         "data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip/Manual_de_Utilizacao_da_sefaz_virtual_do_ambiente_nacional.zip",
-        "/home/runner/work/data-source/data-source/data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip/Manual_de_Utilizacao_da_sefaz_virtual_do_ambiente_nacional/Manual da SEFAZ Virtual para Empresas.doc",
-        "/home/runner/work/data-source/data-source/data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip/Manual_de_Utilizacao_da_sefaz_virtual_do_ambiente_nacional/Anexo I.doc",
-        "/home/runner/work/data-source/data-source/data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip/Manual_de_Utilizacao_da_sefaz_virtual_do_ambiente_nacional/Anexo II.doc"
+        "data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip/Manual_de_Utilizacao_da_sefaz_virtual_do_ambiente_nacional/Anexo I.doc",
+        "data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip/Manual_de_Utilizacao_da_sefaz_virtual_do_ambiente_nacional/Anexo II.doc",
+        "data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip/Manual_de_Utilizacao_da_sefaz_virtual_do_ambiente_nacional/Manual da SEFAZ Virtual para Empresas.doc"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip/Manual_de_Utilizacao_da_sefaz_virtual_do_ambiente_nacional.zip",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip/Manual_de_Utilizacao_da_sefaz_virtual_do_ambiente_nacional/Manual da SEFAZ Virtual para Empresas.doc",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip/Manual_de_Utilizacao_da_sefaz_virtual_do_ambiente_nacional/Anexo I.doc",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip/Manual_de_Utilizacao_da_sefaz_virtual_do_ambiente_nacional/Anexo II.doc"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip/Manual_de_Utilizacao_da_sefaz_virtual_do_ambiente_nacional/Anexo II.doc",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip/Manual_de_Utilizacao_da_sefaz_virtual_do_ambiente_nacional/Manual da SEFAZ Virtual para Empresas.doc"
       ],
-      "downloaded_at": "2026-09-06T12:34:02+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_manual-de-usuarios-da-sefaz-virtual-rs",
@@ -228,8 +228,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-usuarios-da-sefaz-virtual-rs/manual_usuarios_SVRS.pdf"
       ],
-      "downloaded_at": "2026-09-06T12:34:06+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_manual-do-emissor-de-nf-e",
@@ -245,8 +245,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-do-emissor-de-nf-e/manual_emissor_nfe.pdf"
       ],
-      "downloaded_at": "2026-09-06T12:34:09+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_manual-de-contingencia-da-nf-e-versao-1.01",
@@ -262,8 +262,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-contingencia-da-nf-e-versao-1.01/ManualContingencia.pdf"
       ],
-      "downloaded_at": "2026-09-06T12:34:56+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     }
   ]
 }
