@@ -6,7 +6,7 @@
 
 [![Feed](https://img.shields.io/badge/feed-atom-orange?style=flat-square)](https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml)
 [![Manifest](https://img.shields.io/badge/manifest-json-blue?style=flat-square)](https://raw.githubusercontent.com/stackin-io/data-source/master/data/manifest.json)
-[![Updates](https://img.shields.io/badge/updates-a%20cada%206h-success?style=flat-square)](.github/workflows)
+[![Updates](https://img.shields.io/badge/updates-diário-success?style=flat-square)](.github/workflows)
 [![License](https://img.shields.io/badge/license-AGPL--3.0-informational?style=flat-square)](LICENSE)
 
 [Assinar newsletter](https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml) · [Manifest JSON](https://raw.githubusercontent.com/stackin-io/data-source/master/data/manifest.json) · [app.stackin.io](https://app.stackin.io)
@@ -21,7 +21,7 @@ Publicações oficiais da **NF-e** (portal SEFAZ) e da **NFS-e** (ADN nacional g
 
 ## Como funciona
 
-A cada **6 horas**, um robô varre os portais oficiais, identifica o que é novidade em relação à última passagem, baixa os arquivos, descompacta os ZIPs, e organiza tudo por data de publicação. Cada documento fica numa pasta própria com título completo, data e todos os arquivos que compõem o pacote.
+**Uma vez por dia**, um robô varre os portais oficiais, identifica o que é novidade em relação à última passagem, baixa os arquivos, descompacta os ZIPs, e organiza tudo por data de publicação. Cada documento fica numa pasta própria com título completo, data e todos os arquivos que compõem o pacote.
 
 Duas coisas são publicadas todo ciclo:
 
@@ -63,7 +63,7 @@ Cola a URL do feed em qualquer leitor de RSS/Atom — Feedly, Inoreader, NetNews
 
 ### Manifest JSON (integração via código)
 
-Sua aplicação consome o manifest diretamente e reage a mudanças. Recomendado consultar de hora em hora e comparar `generated_at` com a última leitura.
+Sua aplicação consome o manifest diretamente e reage a mudanças. Recomendado consultar uma vez por dia e comparar `generated_at` com a última leitura.
 
 - Sitemap geral: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/manifest.json`
 - NF-e — Esquemas XML: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/manifest.json`
