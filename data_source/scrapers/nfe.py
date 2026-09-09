@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 from data_source.core.downloader import slugify
 from data_source.core.scraper import Artifact, BaseScraper, ScrapeItem
 
-PORTAL_ROOT = "https://hom.nfe.fazenda.gov.br/portal/"
+PORTAL_ROOT = "https://www.nfe.fazenda.gov.br/portal/"
 DOWNLOAD_PREFIXES = ("exibirArquivo.aspx", "download.aspx")
 _DATE_RE = re.compile(r"(\d{2})/(\d{2})/(\d{2,4})")
 
