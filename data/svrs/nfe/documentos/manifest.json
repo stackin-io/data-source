@@ -2,9 +2,9 @@
   "context": "svrs/nfe/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos",
-  "generated_at": "2026-09-08T13:12:13+00:00",
-  "started_at": "2026-09-08T13:12:08+00:00",
-  "duration_s": 4.98,
+  "generated_at": "2026-09-09T15:55:00+00:00",
+  "started_at": "2026-09-09T15:54:55+00:00",
+  "duration_s": 5.33,
   "totals": {
     "discovered": 92,
     "persisted": 0,
@@ -12,23 +12,6 @@
     "failed": 0
   },
   "items": [
-    {
-      "slug": "2026-08-25_nota-tecnica-2026.006-rtc-vinculacao-pagamento",
-      "title": "Nota Técnica 2026.006 RTC - Vinculação Pagamento",
-      "description": "Nota Técnica 2026.006 RTC - Vinculação Pagamento",
-      "published_at": "2026-08-25",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFE/DownloadArquivoEstatico/?sistema=NFE&tipoArquivo=3&nomeArquivo=NT_2026.006_v1.00_RTC_VinculacaoPagamento.pdf",
-      "folder": "data/svrs/nfe/documentos/2026-08-25_nota-tecnica-2026.006-rtc-vinculacao-pagamento",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-08-25_nota-tecnica-2026.006-rtc-vinculacao-pagamento",
-      "files": [
-        "data/svrs/nfe/documentos/2026-08-25_nota-tecnica-2026.006-rtc-vinculacao-pagamento/nt-2026.006-v1.00-rtc-vinculacaopagamento.pdf"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-08-25_nota-tecnica-2026.006-rtc-vinculacao-pagamento/nt-2026.006-v1.00-rtc-vinculacaopagamento.pdf"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
     {
       "slug": "2026-08-25_nota-tecnica-2026.002-v1.10a-operacoes-de-vendas-presenciais-e-nao-presenciais-com-impressao-de-danfe-simplificado-tipo-",
       "title": "Nota Técnica 2026.002 v1.10a - Operações de Vendas Presenciais e Não Presenciais com Impressão de DANFE Simplificado Tipo 2",
@@ -47,18 +30,35 @@
       "status": "skipped"
     },
     {
-      "slug": "2026-08-25_informe-tecnico-2023.002-v2.00-tabela-cfop",
-      "title": "Informe Técnico 2023.002 v2.00 - Tabela CFOP",
-      "description": "Informe Técnico 2023.002 v2.00 - Tabela CFOP",
+      "slug": "2026-08-25_nota-tecnica-2026.006-rtc-vinculacao-pagamento",
+      "title": "Nota Técnica 2026.006 RTC - Vinculação Pagamento",
+      "description": "Nota Técnica 2026.006 RTC - Vinculação Pagamento",
       "published_at": "2026-08-25",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFE/DownloadArquivoEstatico/?sistema=NFE&tipoArquivo=16&nomeArquivo=IT_2023.002_v2.00_Tabela_CFOP_indExcIBSCBS.pdf",
-      "folder": "data/svrs/nfe/documentos/2026-08-25_informe-tecnico-2023.002-v2.00-tabela-cfop",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-08-25_informe-tecnico-2023.002-v2.00-tabela-cfop",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFE/DownloadArquivoEstatico/?sistema=NFE&tipoArquivo=3&nomeArquivo=NT_2026.006_v1.00_RTC_VinculacaoPagamento.pdf",
+      "folder": "data/svrs/nfe/documentos/2026-08-25_nota-tecnica-2026.006-rtc-vinculacao-pagamento",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-08-25_nota-tecnica-2026.006-rtc-vinculacao-pagamento",
       "files": [
-        "data/svrs/nfe/documentos/2026-08-25_informe-tecnico-2023.002-v2.00-tabela-cfop/it-2023.002-v2.00-tabela-cfop-indexcibscbs.pdf"
+        "data/svrs/nfe/documentos/2026-08-25_nota-tecnica-2026.006-rtc-vinculacao-pagamento/nt-2026.006-v1.00-rtc-vinculacaopagamento.pdf"
       ],
       "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-08-25_informe-tecnico-2023.002-v2.00-tabela-cfop/it-2023.002-v2.00-tabela-cfop-indexcibscbs.pdf"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-08-25_nota-tecnica-2026.006-rtc-vinculacao-pagamento/nt-2026.006-v1.00-rtc-vinculacaopagamento.pdf"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split",
+      "title": "Informe Técnico 2026.001 v1.01 - Tabela de Meios de Pagamento para Vinculação com o Split",
+      "description": "Informe Técnico 2026.001 v1.01 - Tabela de Meios de Pagamento para Vinculação com o Split",
+      "published_at": "2026-08-25",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT+2026.001+v.1.01+-+Tabelas+de+Meios+de+Pagamento+para+Vincula%C3%A7%C3%A3o+com+o+Split.pdf",
+      "folder": "data/svrs/nfe/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split",
+      "files": [
+        "data/svrs/nfe/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split/it-2026.001-v.1.01-tabelas-de-meios-de-pagamento-para-vinculacao-com-o-split.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split/it-2026.001-v.1.01-tabelas-de-meios-de-pagamento-para-vinculacao-com-o-split.pdf"
       ],
       "downloaded_at": "",
       "status": "skipped"
@@ -81,18 +81,18 @@
       "status": "skipped"
     },
     {
-      "slug": "2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split",
-      "title": "Informe Técnico 2026.001 v1.01 - Tabela de Meios de Pagamento para Vinculação com o Split",
-      "description": "Informe Técnico 2026.001 v1.01 - Tabela de Meios de Pagamento para Vinculação com o Split",
+      "slug": "2026-08-25_informe-tecnico-2023.002-v2.00-tabela-cfop",
+      "title": "Informe Técnico 2023.002 v2.00 - Tabela CFOP",
+      "description": "Informe Técnico 2023.002 v2.00 - Tabela CFOP",
       "published_at": "2026-08-25",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT+2026.001+v.1.01+-+Tabelas+de+Meios+de+Pagamento+para+Vincula%C3%A7%C3%A3o+com+o+Split.pdf",
-      "folder": "data/svrs/nfe/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFE/DownloadArquivoEstatico/?sistema=NFE&tipoArquivo=16&nomeArquivo=IT_2023.002_v2.00_Tabela_CFOP_indExcIBSCBS.pdf",
+      "folder": "data/svrs/nfe/documentos/2026-08-25_informe-tecnico-2023.002-v2.00-tabela-cfop",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-08-25_informe-tecnico-2023.002-v2.00-tabela-cfop",
       "files": [
-        "data/svrs/nfe/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split/it-2026.001-v.1.01-tabelas-de-meios-de-pagamento-para-vinculacao-com-o-split.pdf"
+        "data/svrs/nfe/documentos/2026-08-25_informe-tecnico-2023.002-v2.00-tabela-cfop/it-2023.002-v2.00-tabela-cfop-indexcibscbs.pdf"
       ],
       "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split/it-2026.001-v.1.01-tabelas-de-meios-de-pagamento-para-vinculacao-com-o-split.pdf"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-08-25_informe-tecnico-2023.002-v2.00-tabela-cfop/it-2023.002-v2.00-tabela-cfop-indexcibscbs.pdf"
       ],
       "downloaded_at": "",
       "status": "skipped"
@@ -202,23 +202,6 @@
       "status": "skipped"
     },
     {
-      "slug": "2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
-      "title": "Tabela de Código de Classificação Tributária da RT",
-      "description": "Tabela de Código de Classificação Tributária da RT",
-      "published_at": "2026-06-22",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=cClassTrib+2026-06-22.xlsx",
-      "folder": "data/svrs/nfe/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
-      "files": [
-        "data/svrs/nfe/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt/cclasstrib-2026-06-22.xlsx"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt/cclasstrib-2026-06-22.xlsx"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
       "slug": "2026-06-22_tabela-de-codigos-de-credito-presumido",
       "title": "Tabela de Códigos de Crédito Presumido",
       "description": "Tabela de Códigos de Crédito Presumido",
@@ -231,6 +214,23 @@
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido/ccredpres-2026-06-22.xlsx"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "title": "Tabela de Código de Classificação Tributária da RT",
+      "description": "Tabela de Código de Classificação Tributária da RT",
+      "published_at": "2026-06-22",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=cClassTrib+2026-06-22.xlsx",
+      "folder": "data/svrs/nfe/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "files": [
+        "data/svrs/nfe/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt/cclasstrib-2026-06-22.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt/cclasstrib-2026-06-22.xlsx"
       ],
       "downloaded_at": "",
       "status": "skipped"
@@ -994,23 +994,6 @@
       "status": "skipped"
     },
     {
-      "slug": "2024-03-19_nt-2023.004-v1.11",
-      "title": "NT 2023.004 v1.11",
-      "description": "NT 2023.004 v1.11",
-      "published_at": "2024-03-19",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFE/DownloadArquivoEstatico/?sistema=NFE&tipoArquivo=3&nomeArquivo=NT2023.004_v1.11+-Campos+e+Regras.pdf",
-      "folder": "data/svrs/nfe/documentos/2024-03-19_nt-2023.004-v1.11",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2024-03-19_nt-2023.004-v1.11",
-      "files": [
-        "data/svrs/nfe/documentos/2024-03-19_nt-2023.004-v1.11/nt2023.004-v1.11-campos-e-regras.pdf"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2024-03-19_nt-2023.004-v1.11/nt2023.004-v1.11-campos-e-regras.pdf"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
       "slug": "2024-03-19_nota-tecnica-2019.001-v-1.62-regras-de-validacao",
       "title": "Nota Técnica 2019.001 - v 1.62 - Regras de Validação",
       "description": "Nota Técnica 2019.001 - v 1.62 - Regras de Validação",
@@ -1023,6 +1006,23 @@
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2024-03-19_nota-tecnica-2019.001-v-1.62-regras-de-validacao/nt2019-001-v1-62-regras-de-validacao.pdf"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "2024-03-19_nt-2023.004-v1.11",
+      "title": "NT 2023.004 v1.11",
+      "description": "NT 2023.004 v1.11",
+      "published_at": "2024-03-19",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFE/DownloadArquivoEstatico/?sistema=NFE&tipoArquivo=3&nomeArquivo=NT2023.004_v1.11+-Campos+e+Regras.pdf",
+      "folder": "data/svrs/nfe/documentos/2024-03-19_nt-2023.004-v1.11",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2024-03-19_nt-2023.004-v1.11",
+      "files": [
+        "data/svrs/nfe/documentos/2024-03-19_nt-2023.004-v1.11/nt2023.004-v1.11-campos-e-regras.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2024-03-19_nt-2023.004-v1.11/nt2023.004-v1.11-campos-e-regras.pdf"
       ],
       "downloaded_at": "",
       "status": "skipped"
@@ -1105,7 +1105,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-08T13:12:09+00:00",
+      "downloaded_at": "2026-09-09T15:54:56+00:00",
       "status": "ok"
     },
     {
@@ -1695,7 +1695,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-08T13:12:10+00:00",
+      "downloaded_at": "2026-09-09T15:54:57+00:00",
       "status": "ok"
     },
     {
@@ -1708,7 +1708,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-08T13:12:11+00:00",
+      "downloaded_at": "2026-09-09T15:54:58+00:00",
       "status": "ok"
     },
     {
@@ -1721,7 +1721,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-08T13:12:11+00:00",
+      "downloaded_at": "2026-09-09T15:54:58+00:00",
       "status": "ok"
     },
     {
@@ -1734,7 +1734,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-08T13:12:12+00:00",
+      "downloaded_at": "2026-09-09T15:54:59+00:00",
       "status": "ok"
     },
     {
@@ -1747,7 +1747,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-08T13:12:13+00:00",
+      "downloaded_at": "2026-09-09T15:55:00+00:00",
       "status": "ok"
     },
     {

@@ -2,9 +2,9 @@
   "context": "svrs/nfce/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos",
-  "generated_at": "2026-09-08T13:12:15+00:00",
-  "started_at": "2026-09-08T13:12:14+00:00",
-  "duration_s": 1.08,
+  "generated_at": "2026-09-09T15:55:03+00:00",
+  "started_at": "2026-09-09T15:55:01+00:00",
+  "duration_s": 1.98,
   "totals": {
     "discovered": 48,
     "persisted": 0,
@@ -73,25 +73,8 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-08T13:12:15+00:00",
+      "downloaded_at": "2026-09-09T15:55:03+00:00",
       "status": "ok"
-    },
-    {
-      "slug": "2026-06-22_tabela-de-codigos-de-credito-presumido",
-      "title": "Tabela de Códigos de Crédito Presumido",
-      "description": "Tabela de Códigos de Crédito Presumido",
-      "published_at": "2026-06-22",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=cCredPres_2026-06-22.xlsx",
-      "folder": "data/svrs/nfce/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido",
-      "files": [
-        "data/svrs/nfce/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido/ccredpres-2026-06-22.xlsx"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido/ccredpres-2026-06-22.xlsx"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
     },
     {
       "slug": "2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
@@ -106,6 +89,23 @@
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt/cclasstrib-2026-06-22.xlsx"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "2026-06-22_tabela-de-codigos-de-credito-presumido",
+      "title": "Tabela de Códigos de Crédito Presumido",
+      "description": "Tabela de Códigos de Crédito Presumido",
+      "published_at": "2026-06-22",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=cCredPres_2026-06-22.xlsx",
+      "folder": "data/svrs/nfce/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido",
+      "files": [
+        "data/svrs/nfce/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido/ccredpres-2026-06-22.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido/ccredpres-2026-06-22.xlsx"
       ],
       "downloaded_at": "",
       "status": "skipped"
