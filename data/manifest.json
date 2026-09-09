@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T15:55:27+00:00",
+  "generated_at": "2026-09-09T16:08:04+00:00",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data",
   "browse_base_url": "https://github.com/stackin-io/data-source/tree/master/data",
   "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml",
@@ -9,11 +9,11 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/diversos",
-      "generated_at": "2026-09-09T13:16:20+00:00",
+      "generated_at": "2026-09-09T16:07:52+00:00",
       "totals": {
-        "discovered": 64,
-        "persisted": 0,
-        "skipped": 62,
+        "discovered": 97,
+        "persisted": 37,
+        "skipped": 58,
         "failed": 0
       }
     },
@@ -22,11 +22,11 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/esquemas-xml",
-      "generated_at": "2026-09-09T13:15:58+00:00",
+      "generated_at": "2026-09-09T16:04:34+00:00",
       "totals": {
-        "discovered": 105,
-        "persisted": 0,
-        "skipped": 103,
+        "discovered": 134,
+        "persisted": 44,
+        "skipped": 88,
         "failed": 0
       }
     },
@@ -35,11 +35,11 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/informes-tecnicos",
-      "generated_at": "2026-09-09T13:16:14+00:00",
+      "generated_at": "2026-09-09T16:07:17+00:00",
       "totals": {
-        "discovered": 42,
-        "persisted": 0,
-        "skipped": 40,
+        "discovered": 50,
+        "persisted": 13,
+        "skipped": 35,
         "failed": 0
       }
     },
@@ -48,11 +48,11 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/manuais",
-      "generated_at": "2026-09-09T13:16:26+00:00",
+      "generated_at": "2026-09-09T16:08:04+00:00",
       "totals": {
-        "discovered": 15,
-        "persisted": 0,
-        "skipped": 13,
+        "discovered": 14,
+        "persisted": 6,
+        "skipped": 6,
         "failed": 0
       }
     },
@@ -61,11 +61,11 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas",
-      "generated_at": "2026-09-09T13:16:08+00:00",
+      "generated_at": "2026-09-09T16:07:00+00:00",
       "totals": {
-        "discovered": 193,
-        "persisted": 0,
-        "skipped": 191,
+        "discovered": 314,
+        "persisted": 175,
+        "skipped": 137,
         "failed": 0
       }
     },
