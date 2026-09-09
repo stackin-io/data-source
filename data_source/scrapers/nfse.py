@@ -26,14 +26,18 @@ _MONTHS = {
 
 class NFSeScraper(BaseScraper):
     """ADN nacional (gov.br/nfse) — collects the current guides, manuals, XSDs
-    and appendix files and stores each under `data/nfse/<YYYY-MM-DD>_<slug>/`."""
+    and appendix files and stores each under `data/nfse/<YYYY-MM-DD>_<slug>/`.
+
+    The listing is server-rendered, so no browser is needed: Chrome's renderer
+    timed out on the page's third-party scripts long before the anchors mattered.
+    """
 
     context = "nfse"
+    uses_browser = False
 
     def discover(self) -> Iterable[ScrapeItem]:
-        driver = self.browser.driver
-        driver.get(ADN_ROOT)
-        soup = BeautifulSoup(driver.page_source, "lxml")
+        page = self.download(ADN_ROOT).decode("utf-8", errors="replace")
+        soup = BeautifulSoup(page, "lxml")
 
         seen: set[str] = set()
         items: list[ScrapeItem] = []
