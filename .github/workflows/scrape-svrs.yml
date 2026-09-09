@@ -18,7 +18,7 @@ jobs:
     timeout-minutes: 45
     env:
       DATA_SOURCE_LOG_LEVEL: INFO
-      DATA_SOURCE_TIMEOUT_S: "60"
+      DATA_SOURCE_TIMEOUT_S: "120"
     steps:
       - uses: actions/checkout@v4
 
@@ -33,48 +33,63 @@ jobs:
         run: poetry install --no-interaction --no-ansi
 
       - name: Scrape NF-e
+        continue-on-error: true
         run: poetry run data-source scrape svrs/nfe/documentos --out ./data
 
       - name: Scrape NFC-e
+        continue-on-error: true
         run: poetry run data-source scrape svrs/nfce/documentos --out ./data
 
       - name: Scrape CT-e
+        continue-on-error: true
         run: poetry run data-source scrape svrs/cte/documentos --out ./data
 
       - name: Scrape MDF-e
+        continue-on-error: true
         run: poetry run data-source scrape svrs/mdfe/documentos --out ./data
 
       - name: Scrape BP-e
+        continue-on-error: true
         run: poetry run data-source scrape svrs/bpe/documentos --out ./data
 
       - name: Scrape NF3e
+        continue-on-error: true
         run: poetry run data-source scrape svrs/nf3e/documentos --out ./data
 
       - name: Scrape NFCom
+        continue-on-error: true
         run: poetry run data-source scrape svrs/nfcom/documentos --out ./data
 
       - name: Scrape NFAg
+        continue-on-error: true
         run: poetry run data-source scrape svrs/nfag/documentos --out ./data
 
       - name: Scrape NFGas
+        continue-on-error: true
         run: poetry run data-source scrape svrs/nfgas/documentos --out ./data
 
       - name: Scrape DC-e
+        continue-on-error: true
         run: poetry run data-source scrape svrs/dce/documentos --out ./data
 
       - name: Scrape NFABI
+        continue-on-error: true
         run: poetry run data-source scrape svrs/nfabi/documentos --out ./data
 
       - name: Scrape DIFAL
+        continue-on-error: true
         run: poetry run data-source scrape svrs/difal/documentos --out ./data
 
       - name: Scrape NFF
+        continue-on-error: true
         run: poetry run data-source scrape svrs/nff/documentos --out ./data
 
       - name: Scrape PES
+        continue-on-error: true
         run: poetry run data-source scrape svrs/pes/documentos --out ./data
 
       - name: Scrape ONE
+        continue-on-error: true
         run: poetry run data-source scrape svrs/one/documentos --out ./data
 
 
