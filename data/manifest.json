@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T22:06:43+00:00",
+  "generated_at": "2026-09-09T22:09:40+00:00",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data",
   "browse_base_url": "https://github.com/stackin-io/data-source/tree/master/data",
   "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml",
@@ -9,11 +9,11 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/confaz/cest/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/confaz/cest/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/confaz/cest",
-      "generated_at": "2026-09-09T22:06:43+00:00",
+      "generated_at": "2026-09-09T22:09:40+00:00",
       "totals": {
         "discovered": 1,
-        "persisted": 1,
-        "skipped": 0,
+        "persisted": 0,
+        "skipped": 1,
         "failed": 0
       }
     },

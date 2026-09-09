@@ -2,13 +2,13 @@
   "context": "confaz/cest",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/confaz/cest",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/confaz/cest",
-  "generated_at": "2026-09-09T22:06:43+00:00",
-  "started_at": "2026-09-09T22:06:42+00:00",
-  "duration_s": 1.07,
+  "generated_at": "2026-09-09T22:09:40+00:00",
+  "started_at": "2026-09-09T22:09:40+00:00",
+  "duration_s": 0.0,
   "totals": {
     "discovered": 1,
-    "persisted": 1,
-    "skipped": 0,
+    "persisted": 0,
+    "skipped": 1,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/confaz/cest/2026-09-09_convenio-icms-142-2018/tabela-cest.json"
       ],
-      "downloaded_at": "2026-09-09T22:06:43+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     }
   ]
 }

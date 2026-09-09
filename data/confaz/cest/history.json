@@ -9,5 +9,16 @@
       "skipped": 0,
       "failed": 0
     }
+  },
+  {
+    "started_at": "2026-09-09T22:09:40+00:00",
+    "generated_at": "2026-09-09T22:09:40+00:00",
+    "duration_s": 0.0,
+    "totals": {
+      "discovered": 1,
+      "persisted": 0,
+      "skipped": 1,
+      "failed": 0
+    }
   }
 ]
