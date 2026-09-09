@@ -1,9 +1,22 @@
 {
-  "generated_at": "2026-09-09T16:08:04+00:00",
+  "generated_at": "2026-09-09T22:06:43+00:00",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data",
   "browse_base_url": "https://github.com/stackin-io/data-source/tree/master/data",
   "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml",
   "contexts": [
+    {
+      "context": "confaz/cest",
+      "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/confaz/cest/manifest.json",
+      "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/confaz/cest/feed.xml",
+      "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/confaz/cest",
+      "generated_at": "2026-09-09T22:06:43+00:00",
+      "totals": {
+        "discovered": 1,
+        "persisted": 1,
+        "skipped": 0,
+        "failed": 0
+      }
+    },
     {
       "context": "nfe/diversos",
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/manifest.json",

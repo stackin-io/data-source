@@ -1,0 +1,33 @@
+{
+  "context": "confaz/cest",
+  "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/confaz/cest",
+  "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/confaz/cest",
+  "generated_at": "2026-09-09T22:06:43+00:00",
+  "started_at": "2026-09-09T22:06:42+00:00",
+  "duration_s": 1.07,
+  "totals": {
+    "discovered": 1,
+    "persisted": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "items": [
+    {
+      "slug": "2026-09-09_convenio-icms-142-2018",
+      "title": "Convênio ICMS 142/2018 — Tabela CEST",
+      "description": "Tabela consolidada do CEST extraída dos anexos do Convênio ICMS 142/2018 do CONFAZ.",
+      "published_at": "",
+      "source_url": "https://www.confaz.fazenda.gov.br/legislacao/convenios/2018/CV142_18",
+      "folder": "data/confaz/cest/2026-09-09_convenio-icms-142-2018",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/confaz/cest/2026-09-09_convenio-icms-142-2018",
+      "files": [
+        "data/confaz/cest/2026-09-09_convenio-icms-142-2018/tabela-cest.json"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/confaz/cest/2026-09-09_convenio-icms-142-2018/tabela-cest.json"
+      ],
+      "downloaded_at": "2026-09-09T22:06:43+00:00",
+      "status": "ok"
+    }
+  ]
+}
