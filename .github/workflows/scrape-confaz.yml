@@ -1,0 +1,48 @@
+name: scrape-confaz
+
+on:
+  schedule:
+    - cron: "0 10 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: scrape-data-source
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      DATA_SOURCE_LOG_LEVEL: INFO
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Poetry
+        run: pipx install poetry
+
+      - name: Install deps
+        run: poetry install --no-interaction --no-ansi
+
+      - name: Scrape CONFAZ CEST
+        run: poetry run data-source scrape confaz/cest --out ./data
+
+      - name: Commit new files as stackin-bot
+        run: |
+          git config user.name "stackin-bot"
+          git config user.email "bot@stackin.io"
+          git add data/confaz data/manifest.json data/feed.xml
+          if git diff --cached --quiet; then
+            echo "No new files to commit."
+            exit 0
+          fi
+          git commit -m "DATA(confaz): Scheduled scrape $(date -u +%Y-%m-%d)"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push
