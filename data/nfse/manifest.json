@@ -2,9 +2,9 @@
   "context": "nfse",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse",
-  "generated_at": "2026-09-09T13:38:21+00:00",
-  "started_at": "2026-09-09T13:38:20+00:00",
-  "duration_s": 0.58,
+  "generated_at": "2026-09-10T13:29:21+00:00",
+  "started_at": "2026-09-10T13:29:20+00:00",
+  "duration_s": 1.22,
   "totals": {
     "discovered": 17,
     "persisted": 0,
