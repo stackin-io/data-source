@@ -2,13 +2,13 @@
   "context": "nfe/informes-tecnicos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/informes-tecnicos",
-  "generated_at": "2026-09-09T16:07:17+00:00",
-  "started_at": "2026-09-09T16:07:01+00:00",
-  "duration_s": 16.03,
+  "generated_at": "2026-09-10T13:13:34+00:00",
+  "started_at": "2026-09-10T13:13:30+00:00",
+  "duration_s": 3.72,
   "totals": {
     "discovered": 50,
-    "persisted": 13,
-    "skipped": 35,
+    "persisted": 0,
+    "skipped": 48,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-09-04_informe-tecnico-2023.002-v.2.10-publicado-em-04092026/IT_2023.002_v2.10_Tabela_CFOP_Descrição.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:07:07+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-09-03_informe-tecnico-2024.001-v.2.40-publicado-em-03092026",
@@ -43,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-09-03_informe-tecnico-2024.001-v.2.40-publicado-em-03092026/IT2024.001v2.40 - Atualiza tabela de NCM.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:07:07+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-25_informe-tecnico-2026.001-v.1.01-meios-de-pagamento-publicado-em-25082026",
@@ -60,8 +60,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-08-25_informe-tecnico-2026.001-v.1.01-meios-de-pagamento-publicado-em-25082026/IT 2026.001 v.1.01 - Tabelas de Meios.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:07:08+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-25_informe-tecnico-2025.004-v.1.20-publicado-em-25082026",
@@ -77,8 +77,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-08-25_informe-tecnico-2025.004-v.1.20-publicado-em-25082026/IT 2025.004 v.1.20 - Tabela de Indíce.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:07:08+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-25_informe-tecnico-2023.002-v.2.00-cfop-publicado-em-25082026",
@@ -94,8 +94,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-08-25_informe-tecnico-2023.002-v.2.00-cfop-publicado-em-25082026/IT_2023.002_v2.00_Tabela_CFOP_indExcIBSCBS.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:07:09+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-06-23_informe-tecnico-2025.002-v.1.60-publicado-em-23062026",
@@ -315,8 +315,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-10-07_informe-tecnico-2025.002-v.1.21-publicado-em-07102025/IT 2025.002 v.1.21 - Tabelas de Classificação do IBS e da CBS.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:07:11+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-10-03_informe-tecnico-2025.002-v.1.20-publicado-em-03102025",
@@ -332,8 +332,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-10-03_informe-tecnico-2025.002-v.1.20-publicado-em-03102025/IT 2025.002 v.1.20 - Tabelas de Classificação do IBS e da CBS.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:07:11+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-09-29_informe-tecnico-2024.002-v.1.10-publicado-em-29092025",
@@ -383,8 +383,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2025-07-31_informe-tecnico-2024.001-v.2.20-publicado-em-31072025/IT2024.001v2.20 - Atualiza tabela de NCM.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:07:12+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-06-24_informe-tecnico-2025.002-v.1.11-publicado-em-24062025",
@@ -536,8 +536,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-12-18_informe-tecnico-2024.001-v.2.10-publicado-em-18122024/IT2024.001v2.10 - Atualiza tabela de NCM.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:07:12+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-12-09_informe-tecnico-2024.001-v.-1.00-corrigido-em-091224-publicado-em-07122024",
@@ -553,8 +553,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-12-09_informe-tecnico-2024.001-v.-1.00-corrigido-em-091224-publicado-em-07122024/IT_2024.001 RT Código de Classificação Tributária.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:07:13+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-12-06_informe-tecnico-2023.003-v.1.04-publicado-em-06122024",
@@ -621,8 +621,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-06-07_informe-tecnico-2024.002-v.1.01-publicado-em-07062024/IT2024.002v1.01 - Atualiza Tabela Meios de Pagamento - 03062024.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:07:14+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-05-27_informe-tecnico-2023.003-v.1.03-publicado-em-27052024",
@@ -638,8 +638,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-05-27_informe-tecnico-2023.003-v.1.03-publicado-em-27052024/IT_2023.003_v1.03 - Tabela de Combustíveis Sujeitos à Tributação Monofásica.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:07:15+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-04-11_informe-tecnico-2024.002-v.1.00-publicado-em-11042024",
@@ -723,8 +723,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2024-01-30_informe-tecnico-2023.004-v.1.02-publicado-em-30012024/IT2023.004v1.02 - Atualiza FCP 2024_01.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:07:15+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-01-29_informe-tecnico-2023.003-v.1.01-publicado-em-29012024",
@@ -838,7 +838,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-09T16:07:16+00:00",
+      "downloaded_at": "2026-09-10T13:13:34+00:00",
       "status": "ok"
     },
     {
@@ -851,7 +851,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-09T16:07:17+00:00",
+      "downloaded_at": "2026-09-10T13:13:34+00:00",
       "status": "ok"
     }
   ]

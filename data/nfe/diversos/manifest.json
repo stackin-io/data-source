@@ -2,13 +2,13 @@
   "context": "nfe/diversos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/diversos",
-  "generated_at": "2026-09-09T16:07:52+00:00",
-  "started_at": "2026-09-09T16:07:18+00:00",
-  "duration_s": 33.36,
+  "generated_at": "2026-09-10T13:13:39+00:00",
+  "started_at": "2026-09-10T13:13:35+00:00",
+  "duration_s": 3.71,
   "totals": {
     "discovered": 97,
-    "persisted": 37,
-    "skipped": 58,
+    "persisted": 0,
+    "skipped": 95,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-09-04_tabela-de-cfop-publicada-em-04092026/IT_2023_002_v2_10_Tabela_CFOP_Descrição.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:24+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-25_tabela-de-cfop-publicada-em-25082026",
@@ -43,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-08-25_tabela-de-cfop-publicada-em-25082026/IT_2023.002_v2.00_Tabela_CFOP_indExcI.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:24+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-25_tabela-de-codigo-de-indice-de-biocombustivel-do-ibs-e-cbs-publicada-em-25082026",
@@ -60,8 +60,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-08-25_tabela-de-codigo-de-indice-de-biocombustivel-do-ibs-e-cbs-publicada-em-25082026/IT 2025.004 v.1.20 - Tabela de Índice.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:24+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-06-23_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-23062026",
@@ -179,8 +179,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-02-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-01022026-publicada-em-02092026/IT2024.001v2.40 - Tabela NCM 2022 com Utrib_Comércio Exterior_vigência 01.10.26.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:26+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-02-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigente-a-partir-de-01022026-publicada-em-24112025",
@@ -332,8 +332,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2025-10-03_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-03102025/cCredPres_2025-10-03_Public_verde.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:26+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-10-03_tabela-de-codigo-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-03102025",
@@ -791,8 +791,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2024-01-22_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-22012024/Tabela_Alíquotas_FCP_por_UF_2024-01.xslsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:27+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-12-28_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-28122023",
@@ -893,8 +893,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-04-24_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-24042023/Tabela_Alíquotas_FCP_por_UF_2023_04.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:27+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-04-19_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-19042023",
@@ -927,8 +927,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-04-11_tabela-de-cfop-vigencia-24-04-2023-publicada-em-11042023/IT 2023.002-v1.00_Tabela_CFOP_Vigência_20230424.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:29+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-04-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01042023-publicada-em-03022023",
@@ -978,8 +978,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-03-13_tabela-de-codigo-de-produtos-da-anp-vigente-a-partir-de-13032023-publicada-em-03022023/Tabela_Codigo_Produto_ANP-20230102.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:29+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-03-12_tabela-de-codigos-de-produtos-da-anp-vigente-ate-12032023",
@@ -995,8 +995,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-03-12_tabela-de-codigos-de-produtos-da-anp-vigente-ate-12032023/Tabela_Codigo_Produto_ANP-201512.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:30+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-03-10_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-10032023",
@@ -1012,8 +1012,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-03-10_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-10032023/Tabela de Combustíveis Sujeitos à Tributação Monofásica_20230410.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:30+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-02-16_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-16022023",
@@ -1029,8 +1029,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-02-16_tabela-de-codigos-de-combustiveis-sujeitos-a-tributacao-monofasica-de-icms-publicada-em-16022023/Tabela de Combustíveis Sujeitos à Tributação Monofásica.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:31+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-01-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01012023-publicada-em-04112022",
@@ -1046,8 +1046,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2023-01-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01012023-publicada-em-04112022/Tabela NCM 2022 com Utrib_Comércio Exterior_vigência  01012023- v 04.11.22.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:32+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-01-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01012023-publicada-em-05092022-republicada-em-1909",
@@ -1080,8 +1080,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2022-09-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01092022-publicada-em-01082022/Tabela NCM 2022 com Utrib_Comércio Exterior_vigência  01092022- v 01.08.22.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:33+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-07-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01072022-publicada-em-02052022",
@@ -1097,8 +1097,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2022-07-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01072022-publicada-em-02052022/Tabela_NCM_2022_v26.04.22.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:33+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-04-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01042022-publicada-em-07122021",
@@ -1114,8 +1114,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2022-04-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigente-a-partir-de-01042022-publicada-em-07122021/Tabela NCM 2022 com Utrib_Comércio Exterior_vigência  01042022- v 07.12.21.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:34+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-10-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01102021-publicada-em-14092021-os-ncms-extintos-serao-aceito",
@@ -1131,8 +1131,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2021-10-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01102021-publicada-em-14092021-os-ncms-extintos-serao-aceito/Tabela NCM com Utrib_Comércio Exterior_vigência 01-10-2021_v14092021.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:35+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-08-04_cadeia-de-certificados-do-www1-atualizada-em-04082021",
@@ -1148,8 +1148,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2021-08-04_cadeia-de-certificados-do-www1-atualizada-em-04082021/cadeia_www1.nfe.fazenda.gov.br.p7b"
       ],
-      "downloaded_at": "2026-09-09T16:07:36+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-07-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01072021-publicada-em-29062021",
@@ -1165,8 +1165,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2021-07-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01072021-publicada-em-29062021/Tabela NCM com Utrib_Comércio Exterior_vigência 01-07-2021_v29062021.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:36+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-04-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01042021-publicada-em-19022021",
@@ -1199,8 +1199,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2021-03-16_tabela-de-bandeiras-de-cartoes-de-creditodebito-publicada-em-16032021/Tabela de bandeiras de cartão de crédito-débito.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:37+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-03-16_tabela-de-meios-de-pagamento-publicada-em-16032021",
@@ -1233,8 +1233,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2021-01-14_cadeia-de-certificados-do-www-atualizada-em-14012021/cadeia_www.nfe.fazenda.gov.br.p7b"
       ],
-      "downloaded_at": "2026-09-09T16:07:38+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-01-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01012021-republicada-em-16112020",
@@ -1250,8 +1250,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2021-01-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01012021-republicada-em-16112020/Tabela NCM com Utrib_Comércio Exterior_vigência 01-01-2021_v13112020.xls"
       ],
-      "downloaded_at": "2026-09-09T16:07:39+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-01-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01012021-publicada-em-15102020",
@@ -1267,8 +1267,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2021-01-01_tabela-de-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01012021-publicada-em-15102020/Tabela NCM com Utrib_Comércio Exterior_vigência 01-01-2021_v13102020.xls"
       ],
-      "downloaded_at": "2026-09-09T16:07:40+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-07-01_tabela-de-ncm-e-respectiva-utribcomercio-exterior-vigencia-01072020-publicada-em-01062020",
@@ -1301,8 +1301,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2020-01-31_tabela-cbenef-x-cst-relacionada-a-nota-tecnica-2019.001-atualizada-em-31012020/TABELA cBenef_X_CST 31_01_2020.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:40+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-01-15_tabela-de-cfop-vigencia-01-02-2020-publicada-em-15012020",
@@ -1318,8 +1318,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2020-01-15_tabela-de-cfop-vigencia-01-02-2020-publicada-em-15012020/Tabela_CFOP_NT_2017.002_V1.40_Vigência_20190201b.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:41+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-01-01_tabela-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01012020-publicada-em-11112019",
@@ -1352,8 +1352,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2019-12-02_tabela-de-cfop-vigencia-01-dez-2019-atualizada-em-02122019/Tabela_CFOP_NT_2017.002_V1.30_Vigência_20191201-versao20191202.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:42+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-04-12_tabela-de-paises-relacionada-a-nt-2018.003.-v1.01-atualizada-em-12042019",
@@ -1369,8 +1369,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2019-04-12_tabela-de-paises-relacionada-a-nt-2018.003.-v1.01-atualizada-em-12042019/Tabela de Países - Ref. NT 2018.003. v1.01.ods"
       ],
-      "downloaded_at": "2026-09-09T16:07:42+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-01-01_tabela-ncm-e-respectiva-utrib-comercio-exterior-vigencia-01012019-publicada-em-09112018",
@@ -1403,8 +1403,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2018-08-02_tabela-de-aliquotas-de-fcp-por-uf-atualizada-em-02082018/Tabela_Alíquotas_FCP_por_UF_2018-08.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:43+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-05-04_tabela-de-paises-relacionada-a-nt-2018.003.-v1.00-atualizada-em-04052018",
@@ -1420,8 +1420,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2018-05-04_tabela-de-paises-relacionada-a-nt-2018.003.-v1.00-atualizada-em-04052018/Tabela de País - Ref. NT 2018.003. v1.00.ods"
       ],
-      "downloaded_at": "2026-09-09T16:07:44+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_visualizador-de-df-e",
@@ -1433,7 +1433,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-09T16:07:45+00:00",
+      "downloaded_at": "2026-09-10T13:13:39+00:00",
       "status": "ok"
     },
     {
@@ -1446,7 +1446,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-09T16:07:45+00:00",
+      "downloaded_at": "2026-09-10T13:13:39+00:00",
       "status": "ok"
     },
     {
@@ -1480,8 +1480,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_tabela-de-codigos-de-item-da-lista-de-servicos/Tabela de Códigos de Item da Lista de Serviços.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:46+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_tabela-de-padroes-de-regimes-especiais",
@@ -1497,8 +1497,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_tabela-de-padroes-de-regimes-especiais/Tabela de Padrões de Regime Especial.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:47+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_tabela-de-tipo-e-especie-de-veiculo",
@@ -1514,8 +1514,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_tabela-de-tipo-e-especie-de-veiculo/Tabela de Tipo e Especie de Veículo.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:48+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_tabela-prefixo-gs1",
@@ -1531,8 +1531,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_tabela-prefixo-gs1/Tabela_Prefixo_GS1.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:48+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_tabela-unidades-de-medida-comercial-05.07.2016",
@@ -1548,8 +1548,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_tabela-unidades-de-medida-comercial-05.07.2016/Tabela_Unidades_de_Medida_Comercial_05072016.xls"
       ],
-      "downloaded_at": "2026-09-09T16:07:49+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_dtb-2014-municipio",
@@ -1582,8 +1582,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_tabela-de-cfop-vigencia-01-mai-2019/Tabela_CFOP_NT_2017.002_V1.20_Vigência_20190501.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:50+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_tabela-de-cfop-vigencia-01-set-2018",
@@ -1616,8 +1616,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_tabela-de-cfop-vigencia-01-jan-2018/Tabela_CFOP_Vigência_20180101_v20171213.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:51+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_tabela-de-cfop-relacionada-a-versao-1.40-da-nt2015002",
@@ -1633,8 +1633,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/undated_tabela-de-cfop-relacionada-a-versao-1.40-da-nt2015002/160314_Tabela_CFOP.xlsx"
       ],
-      "downloaded_at": "2026-09-09T16:07:51+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_consumo-indevido-do-ambiente-de-autorizacao",

@@ -2,13 +2,13 @@
   "context": "nfe/manuais",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/manuais",
-  "generated_at": "2026-09-09T16:08:04+00:00",
-  "started_at": "2026-09-09T16:07:53+00:00",
-  "duration_s": 10.84,
+  "generated_at": "2026-09-10T13:13:44+00:00",
+  "started_at": "2026-09-10T13:13:40+00:00",
+  "duration_s": 3.67,
   "totals": {
     "discovered": 14,
-    "persisted": 6,
-    "skipped": 6,
+    "persisted": 0,
+    "skipped": 12,
     "failed": 0
   },
   "items": [
@@ -22,7 +22,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-09T16:07:57+00:00",
+      "downloaded_at": "2026-09-10T13:13:44+00:00",
       "status": "ok"
     },
     {
@@ -35,7 +35,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-09T16:07:58+00:00",
+      "downloaded_at": "2026-09-10T13:13:44+00:00",
       "status": "ok"
     },
     {
@@ -52,8 +52,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-orientacao-ao-contribuinte-moc-versao-7.0-nf-e-e-nfc-e/Manual de Orientação ao Contribuinte - MOC - versão 7.0 - NF-e e NFC-e.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:08:00+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_anexo-i-leiaute-e-regra-de-validacao-nf-e-e-nfc-e",
@@ -69,8 +69,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_anexo-i-leiaute-e-regra-de-validacao-nf-e-e-nfc-e/ANEXO I - Leiaute e Regra de Validação - NF-e e NFC-e.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:08:01+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_anexo-ii-manual-especificacoes-tecnicas-danfe-codigo-barras",
@@ -86,8 +86,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_anexo-ii-manual-especificacoes-tecnicas-danfe-codigo-barras/ANEXO II -Manual EspecificaçõesTécnicas - Danfe-Código-Barras.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:08:01+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_anexo-iii-manual-de-contingencia-nf-e",
@@ -103,8 +103,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_anexo-iii-manual-de-contingencia-nf-e/Anexo III - Manual de Contingência - NF-e.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:08:02+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_anexo-iv-manual-de-contingencia-nfc-e",
@@ -120,8 +120,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_anexo-iv-manual-de-contingencia-nfc-e/Anexo IV - Manual de Contingência - NFC-e.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:08:03+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_manual-de-especificacoes-tecnicas-do-danfenfc-e-e-qrcode-versao-6.0",
@@ -154,8 +154,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-especificacoes-da-contingencia-offline-para-nfc-e-versao-2.0/Manual_de_especificacoes_tecnicas_da_Contingencia_Off-line_versao_2.0.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:08:04+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_manual-de-boas-praticas-no-desenvolvimento-de-emissor-de-nfc-e-bp-2018.001-versao-1.0",

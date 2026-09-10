@@ -2,16 +2,33 @@
   "context": "nfe/notas-tecnicas",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas",
-  "generated_at": "2026-09-09T16:07:00+00:00",
-  "started_at": "2026-09-09T16:04:36+00:00",
-  "duration_s": 143.91,
+  "generated_at": "2026-09-10T13:13:29+00:00",
+  "started_at": "2026-09-10T13:13:24+00:00",
+  "duration_s": 5.09,
   "totals": {
-    "discovered": 314,
-    "persisted": 175,
-    "skipped": 137,
+    "discovered": 315,
+    "persisted": 1,
+    "skipped": 312,
     "failed": 0
   },
   "items": [
+    {
+      "slug": "2026-09-09_nota-tecnica-2026.009-v.1.00-publicada-em-09092026",
+      "title": "Nota Técnica 2026.009 v.1.00 - Publicada em 09/09/2026",
+      "description": "Nota Técnica 2026.009 v.1.00",
+      "published_at": "2026-09-09",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=ADlgg2xjMZI=",
+      "folder": "data/nfe/notas-tecnicas/2026-09-09_nota-tecnica-2026.009-v.1.00-publicada-em-09092026",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas/2026-09-09_nota-tecnica-2026.009-v.1.00-publicada-em-09092026",
+      "files": [
+        "data/nfe/notas-tecnicas/2026-09-09_nota-tecnica-2026.009-v.1.00-publicada-em-09092026/NT2026.009_v1.00_Alteracao_RV_CFOP.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-09-09_nota-tecnica-2026.009-v.1.00-publicada-em-09092026/NT2026.009_v1.00_Alteracao_RV_CFOP.pdf"
+      ],
+      "downloaded_at": "2026-09-10T13:13:28+00:00",
+      "status": "ok"
+    },
     {
       "slug": "2026-08-25_nota-tecnica-2026.002-v.1.10a-publicada-em-25082026",
       "title": "Nota Técnica 2026.002 v.1.10a - Publicada em 25/08/2026",
@@ -26,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-08-25_nota-tecnica-2026.002-v.1.10a-publicada-em-25082026/NT_2026.002_v1.10a_DANFE_Simpl_Tp2_Emi_Offline_Autoriz_Alerta_v2.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:42+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-25_nota-tecnica-2026.006-v.1.00-publicada-em-25082026",
@@ -43,8 +60,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-08-25_nota-tecnica-2026.006-v.1.00-publicada-em-25082026/NT_2026.006_v1.00_RTC_VinculacaoPagamento[2775].pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:43+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-04_nota-tecnica-2014.001-v.1.41-publicada-em-04082026",
@@ -247,8 +264,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-06-03_nota-tecnica-2025.002-v.1.50-publicada-em-03062026/NT_2025.002_v1.50_RTC_NF-e_IBS_CBS_IS.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:44+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-05-25_nota-tecnica-2026.003-v.1.00-publicada-em-25052026",
@@ -332,8 +349,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-04-30_nota-tecnica-2026.004-v.1.00-publicada-em-30042026/NT_2026.004_v1.00_AlteraSchemaNFCeNFeCNPJAlfa.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:44+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-04-30_nota-tecnica-2025.002-v.1.36-publicada-em-30042026",
@@ -349,8 +366,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-04-30_nota-tecnica-2025.002-v.1.36-publicada-em-30042026/NT_2025.002_v1.36_RTC_NF-e_IBS_CBS_IS.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:45+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-04-23_nota-tecnica-2020.001-v.1.60-publicada-em-23042026",
@@ -604,8 +621,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2025-10-03_nota-tecnica-2024.003-v.1.07-publicada-em-03102025/NT2024.003- Produtos AGRO NF-e - v 1.07.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:46+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-10-03_nota-tecnica-2025.002-v.1.30-publicada-em-03102025",
@@ -621,8 +638,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2025-10-03_nota-tecnica-2025.002-v.1.30-publicada-em-03102025/NT_2025.002_v1.30_RTC_NF-e_IBS_CBS_IS.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:47+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-09-29_nota-tecnica-2025.001.-v.1.03-corrigido-publicada-em-29092025",
@@ -995,8 +1012,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2024-12-06_rt-nota-tecnica-2024.002-v.1.10-ibscbs-publicada-em-06122024/NT_2024.002_NFe_v1_10_IBS_CBS_e_Imposto_Seletivo_Final.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:47+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2024-10-11_nota-tecnica-2022.005-v.1.11-publicada-em-11102024",
@@ -1454,8 +1471,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2023-12-20_nota-tecnica-2023.005-v.1.00-publicada-em-20122023/NT 2023.005 - v.1.00 - Evento Insucesso na Entrega da NF-e.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:48+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-12-12_nota-tecnica-2019.001-v.1.54-publicada-em-12122023",
@@ -1488,8 +1505,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2023-12-11_nota-tecnica-2023.004-v.1.00-publicada-em-11122023/NT2023.004_v1.00 - ECONF - Campos - e Regras.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:49+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-12-05_nota-tecnica-2021.003-v.1.30-publicada-em-05122023",
@@ -1539,8 +1556,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2023-10-30_nota-tecnica-2016.003-v.3.62-publicada-em-30102023/NT 2016_003 v3.62 - Tabela NCM -  vigência 01-11-2023 ou 01-01-2024.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:49+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-09-29_nota-tecnica-2016.003-v.3.61-publicada-em-29092023",
@@ -1556,8 +1573,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2023-09-29_nota-tecnica-2016.003-v.3.61-publicada-em-29092023/NT 2016_003 v3.61 - Tabela NCM -  vigência 01-11-2023.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:50+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-09-27_nota-tecnica-2023.001-v1.40-publicada-em-27092023",
@@ -1573,8 +1590,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2023-09-27_nota-tecnica-2023.001-v1.40-publicada-em-27092023/NT2023.001v1.40-Tributação monofásica dos combustíveis.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:51+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-08-24_nota-tecnica-2023.001-v1.30-publicada-em-24082023",
@@ -1641,8 +1658,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2023-06-26_nota-tecnica-2020.007-v.1.30-publicada-em-26062023/NT2020.007_v1.30 - Evento_Ator_NFe_Transportador.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:52+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-06-01_nota-tecnica-2023.003-v1.00-publicada-em-01062023",
@@ -1692,8 +1709,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2023-05-24_nota-tecnica-2023.002-v1.00-publicada-em-24052023/NT2023.002_v1.0 - Emitente CPF - NFCe .pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:52+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-04-11_nota-tecnica-2023.001-v1.20-publicada-em-11042023",
@@ -1709,8 +1726,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2023-04-11_nota-tecnica-2023.001-v1.20-publicada-em-11042023/NT2023.001v1.20-Tributação monofásica dos combustíveis.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:53+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-04-03_nota-tecnica-2023.001-v1.11-publicada-em-03042023",
@@ -1726,8 +1743,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2023-04-03_nota-tecnica-2023.001-v1.11-publicada-em-03042023/NT2023.001v1.11-Tributacao monofasica dos combustiveis.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:54+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-03-10_nota-tecnica-2023.001-v1.10-publicada-em-10032023",
@@ -1743,8 +1760,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2023-03-10_nota-tecnica-2023.001-v1.10-publicada-em-10032023/NT2023.001v1.10-Tributação monofásica dos combustíveis.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:55+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-02-16_nota-tecnica-2023.001-v1.00-publicada-em-16022023",
@@ -1760,8 +1777,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2023-02-16_nota-tecnica-2023.001-v1.00-publicada-em-16022023/NT2023.001v1.00-Tributação Monofásica sobre Combustíveis.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:55+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-02-14_nota-tecnica-2022.004-v1.10-publicada-em-14022023",
@@ -1777,8 +1794,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2023-02-14_nota-tecnica-2022.004-v1.10-publicada-em-14022023/NT2022.004 - v1.10 - Regras de Validação ISSQN.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:56+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-02-07_nota-tecnica-2019.001-v.1.53-publicada-em-07022023",
@@ -1794,8 +1811,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2023-02-07_nota-tecnica-2019.001-v.1.53-publicada-em-07022023/NT2019_001_v1_53 - Regras de Validação.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:57+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-02-03_nota-tecnica-2016.003-v.3.50-publicada-em-03022023",
@@ -1811,8 +1828,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2023-02-03_nota-tecnica-2016.003-v.3.50-publicada-em-03022023/NT 2016_003 v3.50 - Tabela NCM - vigência 01-04-2023.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:58+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-02-03_nota-tecnica-2020.007-v.1.23-publicada-em-03022023",
@@ -1828,8 +1845,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2023-02-03_nota-tecnica-2020.007-v.1.23-publicada-em-03022023/NT2020.007_v1.23 - Evento_Ator_NFe_Transportador.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:58+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-01-25_nota-tecnica-2022.003-v.1.11-publicada-em-25012023",
@@ -1845,8 +1862,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2023-01-25_nota-tecnica-2022.003-v.1.11-publicada-em-25012023/NT2022.003v1.11-Referenciamento.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:04:59+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2023-01-25_nota-tecnica-2022.005-v.1.10-publicada-em-25012023",
@@ -1862,8 +1879,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2023-01-25_nota-tecnica-2022.005-v.1.10-publicada-em-25012023/NT2022.005_v1.10 - DIFAL.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:00+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-12-22_nota-tecnica-2022.003-v.1.10-publicada-em-22122022",
@@ -1879,8 +1896,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-12-22_nota-tecnica-2022.003-v.1.10-publicada-em-22122022/NT2022.003v1.10-Referenciamento.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:01+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-12-16_nota-tecnica-2022.005-v.1.00-publicada-em-16122022",
@@ -1896,8 +1913,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-12-16_nota-tecnica-2022.005-v.1.00-publicada-em-16122022/NT2022.005_v1.00 - DIFAL.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:01+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-12-16_nota-tecnica-2022.004-v.1.00-publicada-em-16122022",
@@ -1913,8 +1930,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-12-16_nota-tecnica-2022.004-v.1.00-publicada-em-16122022/NT2022_004_v1_00 - Regras de Validação ISSQN.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:02+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-12-14_nota-tecnica-2021.002-v.1.11-correcao-publicada-em-14122022",
@@ -1930,8 +1947,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-12-14_nota-tecnica-2021.002-v.1.11-correcao-publicada-em-14122022/NT2021.002 v1.11 Nota Fiscal Fácil.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:03+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-12-14_nota-tecnica-2021.003-v.1.20-publicada-em-14122022",
@@ -1947,8 +1964,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-12-14_nota-tecnica-2021.003-v.1.20-publicada-em-14122022/NT2021.003_v1_20 - Validação GTIN.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:04+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-11-09_nota-tecnica-2022.003-v.1.00-publicada-em-09112022-atualizada-em-09112022",
@@ -1964,8 +1981,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-11-09_nota-tecnica-2022.003-v.1.00-publicada-em-09112022-atualizada-em-09112022/NT2022.003v1.00.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:04+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-11-04_nota-tecnica-2016.003-v.3.40-publicada-em-04112022-atualizada-em-07112022",
@@ -1981,8 +1998,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-11-04_nota-tecnica-2016.003-v.3.40-publicada-em-04112022-atualizada-em-07112022/NT 2016_003 v3.40 - Tabela NCM - vigência 01-01-2023 - v221107.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:05+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-11-01_nota-tecnica-2021.004-v.1.35-publicada-em-01112022",
@@ -1998,8 +2015,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-11-01_nota-tecnica-2021.004-v.1.35-publicada-em-01112022/NT2021.004v1.35 - Novos Campos e Regras.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:06+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-10-31_nota-tecnica-2020.007-v.1.22-publicada-em-31102022",
@@ -2015,8 +2032,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-10-31_nota-tecnica-2020.007-v.1.22-publicada-em-31102022/NT2020.007_v1.22 - Evento_Ator_NFe_Transportador.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:07+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-09-26_nota-tecnica-2020.006-v.1.31-publicada-em-26092022",
@@ -2066,8 +2083,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-09-05_nota-tecnica-2016.003-v.3.30-publicada-em-05092022/NT 2016_003 v3.30 - Tabela NCM - vigência 01-01-2023.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:07+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-08-31_nota-tecnica-2021.004-v.1.33-publicada-em-31082022",
@@ -2083,8 +2100,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-08-31_nota-tecnica-2021.004-v.1.33-publicada-em-31082022/NT2021.004v1.33 - Regras de Validação para Implantação Futura.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:08+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-08-29_nota-tecnica-2019.001-v.1.52-publicada-em-29082022",
@@ -2100,8 +2117,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-08-29_nota-tecnica-2019.001-v.1.52-publicada-em-29082022/NT2019_001_v1_52 - Regras de Validação.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:09+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-08-19_nota-tecnica-2020.002-v.1.01-publicada-em-19082022",
@@ -2117,8 +2134,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-08-19_nota-tecnica-2020.002-v.1.01-publicada-em-19082022/NT2020.002v.1.01- específica para IPI.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:10+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-08-04_nota-tecnica-2022.002-v.1.10-publicada-em-04082022",
@@ -2151,8 +2168,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-08-01_nota-tecnica-2016.003-v.3.20-publicada-em-01082022/NT 2016_003 v3.20 - Tabela NCM - vigência 01-09-2022.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:10+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-07-25_nota-tecnica-2021.004-v.1.32-publicada-em-25072022",
@@ -2168,8 +2185,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-07-25_nota-tecnica-2021.004-v.1.32-publicada-em-25072022/NT2021.004v1.32 - Novos Campos e Regras.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:11+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-07-08_nota-tecnica-2021.004-v.1.31-publicada-em-08072022",
@@ -2185,8 +2202,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-07-08_nota-tecnica-2021.004-v.1.31-publicada-em-08072022/NT2021.004v1.31 - Novos Campos e Regras.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:12+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-07-07_nota-tecnica-2021.003-v.1.10-publicada-em-07072022",
@@ -2202,8 +2219,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-07-07_nota-tecnica-2021.003-v.1.10-publicada-em-07072022/NT2021.003_v1_10 - Validação GTIN.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:13+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-07-06_nota-tecnica-2021.001-v.1.01-publicada-em-06072022",
@@ -2219,8 +2236,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-07-06_nota-tecnica-2021.001-v.1.01-publicada-em-06072022/NT 2021_001_v1.01_Evento_Comprovante_Entrega_NFe.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:13+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-07-05_nota-tecnica-2022.002-v.1.00-publicada-em-05072022",
@@ -2236,8 +2253,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-07-05_nota-tecnica-2022.002-v.1.00-publicada-em-05072022/NT2022.002 - Equiparação Exportação.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:14+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-06-21_nota-tecnica-2014.001-v.1.30-publicada-em-21062022",
@@ -2270,8 +2287,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-06-02_nota-tecnica-2020.001-v.1.40-publicada-em-02062022/NT_2020.001 v1.40 - Manifestação do destinatário.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:15+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-05-31_nota-tecnica-2022.001-v.1.00-publicada-em-31052022",
@@ -2287,8 +2304,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-05-31_nota-tecnica-2022.001-v.1.00-publicada-em-31052022/NT2022.001_v1.00 - WS Consulta GTIN.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:16+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-05-26_nota-tecnica-2014.002-v.1.13-a-1.15-publicada-em-26052022",
@@ -2304,8 +2321,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-05-26_nota-tecnica-2014.002-v.1.13-a-1.15-publicada-em-26052022/NT2014.002_v1.13 a 1.15 - WsNFeDistribuicaoDFe.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:16+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-05-17_nota-tecnica-2020.001-v.1.30-publicada-em-17052022",
@@ -2321,8 +2338,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-05-17_nota-tecnica-2020.001-v.1.30-publicada-em-17052022/NT_2020.001 v1.30 - Manifestação do destinatário.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:17+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-05-12_nota-tecnica-2021.004-v.1.30-publicada-em-12052022",
@@ -2338,8 +2355,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-05-12_nota-tecnica-2021.004-v.1.30-publicada-em-12052022/NT2021.004v1.30 - Nova data para entrada em produção.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:18+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-05-02_nota-tecnica-2016.003-v.3.10-publicada-em-02052022",
@@ -2372,8 +2389,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-04-18_nota-tecnica-2021.004-v.1.21-publicada-em-18042022/NT2021.004v1.21 - Novos Campos e Regras.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:19+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-03-21_nota-tecnica-2020.001-v.1.20-publicada-em-21032022",
@@ -2389,8 +2406,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-03-21_nota-tecnica-2020.001-v.1.20-publicada-em-21032022/NT_2020.001 v1.20 - Manifestação do destinatário.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:19+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-03-17_nota-tecnica-2021.002-v.1.11-publicada-em-17032022",
@@ -2406,8 +2423,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-03-17_nota-tecnica-2021.002-v.1.11-publicada-em-17032022/NFe_Nota Técnica_2021.002 v1.11 Nota Fiscal Fácil.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:20+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-03-14_nota-tecnica-2021.004-v.1.20-publicada-em-14032022",
@@ -2423,8 +2440,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-03-14_nota-tecnica-2021.004-v.1.20-publicada-em-14032022/NT2021.004v1.20 - Novos Campos e Regras.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:21+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-03-09_nota-tecnica-2014.002-v.1.12-publicada-em-09032022",
@@ -2440,8 +2457,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-03-09_nota-tecnica-2014.002-v.1.12-publicada-em-09032022/NT2014.002 - v1.12 - WsNFeDistribuicaoDFe.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:22+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2022-02-01_nota-tecnica-2020.007-v.1.21-publicada-em-01022022",
@@ -2474,8 +2491,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2022-01-12_nota-tecnica-2021.004-v.1.10-publicada-em-12012022/NT2021.004v1.10 - Novos Campos e Regras.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:22+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-12-07_nota-tecnica-2016.003-v.3.00-publicada-em-07122021",
@@ -2491,8 +2508,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2021-12-07_nota-tecnica-2016.003-v.3.00-publicada-em-07122021/NT 2016_003 v3.00 - Tabela NCM - vigência 01-04-2022.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:23+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-12-03_nota-tecnica-2014.001-v.1.21-publicada-em-03122021",
@@ -2508,8 +2525,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2021-12-03_nota-tecnica-2014.001-v.1.21-publicada-em-03122021/NT_2014_001 v1.21 - Evento EPEC.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:24+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-11-29_nota-tecnica-2021.004-v.1.00-publicada-em-29112021",
@@ -2525,8 +2542,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2021-11-29_nota-tecnica-2021.004-v.1.00-publicada-em-29112021/NT2021.004 v.1.00.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:25+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-11-17_nota-tecnica-2014.002-v.1.11-publicada-em-17112021",
@@ -2559,8 +2576,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2021-10-18_nota-tecnica-2020.007-v.1.20-publicada-em-18102021/NT2020.007_v1.20 - Evento_Ator_NFe_Transportador.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:25+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-10-15_nota-tecnica-2020.005-v.1.21-publicada-em-15102021",
@@ -2576,8 +2593,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2021-10-15_nota-tecnica-2020.005-v.1.21-publicada-em-15102021/NT2020.005_v1_21 - Regras de Validação.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:26+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-10-15_nota-tecnica-2014.002-v.1.10-publicada-em-15102021",
@@ -2593,8 +2610,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2021-10-15_nota-tecnica-2014.002-v.1.10-publicada-em-15102021/NT2014.002_v1.10_WsNFeDistribuicaoDFe.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:27+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-09-14_nota-tecnica-2016.003-v.2.10-publicada-em-14092021",
@@ -2610,8 +2627,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2021-09-14_nota-tecnica-2016.003-v.2.10-publicada-em-14092021/NT 2016_003 v2_10 - Tabela NCM - vigência 01-10-2021.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:28+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-09-13_nota-tecnica-2021.003-v.1.00-publicada-em-13092021",
@@ -2627,8 +2644,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2021-09-13_nota-tecnica-2021.003-v.1.00-publicada-em-13092021/NT2021.003_v1_00 - Validação GTIN.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:28+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-07-28_nota-tecnica-2020.006-v.1.30-publicada-em-28072021",
@@ -2661,8 +2678,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2021-07-09_nota-tecnica-2021.002-v.1.10-publicada-em-09072021/NFe_Nota_Tecnica_2021.002 v1.10 Nota Fiscal Fácil.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:29+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-06-29_nota-tecnica-2020.005-v.-1.20-publicada-em-29062021",
@@ -2678,8 +2695,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2021-06-29_nota-tecnica-2020.005-v.-1.20-publicada-em-29062021/Nota Técnica 2020.005 - v1.20 - Regras de Validação.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:30+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-06-29_nota-tecnica-2016.003-v.2.00-publicada-em-29062021",
@@ -2695,8 +2712,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2021-06-29_nota-tecnica-2016.003-v.2.00-publicada-em-29062021/NT 2016_003 v2_00 - Tabela NCM - vigência 01-07-2021.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:31+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-06-22_nota-tecnica-2020.001-v.1.10-publicada-em-22062021",
@@ -2729,8 +2746,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2021-03-26_nota-tecnica-2021.002-v.1.00-publicada-em-26032021/NFe_Nota_Tecnica_2021.002 v1.00_NFF.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:31+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-03-17_nota-tecnica-2020.006-v.1.20-publicada-em-17032021",
@@ -2746,8 +2763,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2021-03-17_nota-tecnica-2020.006-v.1.20-publicada-em-17032021/NT2020_006 v1_20 - Intermediador e Marketplace.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:32+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-03-11_nota-tecnica-2014.002-v.1.02d-publicada-em-11032021",
@@ -2763,8 +2780,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2021-03-11_nota-tecnica-2014.002-v.1.02d-publicada-em-11032021/NT2014_002_v1_02d_WsNFeDistribuicaoDFe.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:33+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-02-24_nota-tecnica-2021.001-v.1.00-publicada-em-24022021",
@@ -2780,8 +2797,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2021-02-24_nota-tecnica-2021.001-v.1.00-publicada-em-24022021/NT 2021_001_v1_00_Evento_Comprovante_Entrega_NFe.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:34+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-02-19_nota-tecnica-2016.003-v.1.90-publicada-em-19022021",
@@ -2814,8 +2831,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2021-02-15_nota-tecnica-2020.006-v.1.10-publicada-em-15022021/NT2020.006 v1.10 - Intermediador e Marketplace.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:34+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2021-02-11_nota-tecnica-2020.007-v.1.10-publicada-em-11022021",
@@ -2831,8 +2848,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2021-02-11_nota-tecnica-2020.007-v.1.10-publicada-em-11022021/NT2020.007_v1.10 - Evento_Ator_NFe_Transportador.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:35+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-12-22_nota-tecnica-2020.005-v.1.10-publicada-em-22122020",
@@ -2848,8 +2865,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2020-12-22_nota-tecnica-2020.005-v.1.10-publicada-em-22122020/NT2020.005_v1_10 - Regras de Validação.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:36+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-11-16_nota-tecnica-2016.003-v.1.81-publicada-em-16112020",
@@ -2865,8 +2882,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2020-11-16_nota-tecnica-2016.003-v.1.81-publicada-em-16112020/NT 2016_003 v1_81 - Tabela NCM - vigência 01-01-2021.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:37+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-11-12_nota-tecnica-2020.005-v.1.00-publicada-em-12112020",
@@ -2882,8 +2899,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2020-11-12_nota-tecnica-2020.005-v.1.00-publicada-em-12112020/NT2020.005_v1_00 - Regras de Validação 09nov.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:37+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-11-05_nota-tecnica-2020.007-v.1.00a-publicada-em-05112020",
@@ -2899,8 +2916,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2020-11-05_nota-tecnica-2020.007-v.1.00a-publicada-em-05112020/NT2020.007_v1.00a -  Evento_Ator_NFe_Transportador.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:38+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-10-14_nota-tecnica-2016.003-v.1.80-publicada-em-14102020",
@@ -2916,8 +2933,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2020-10-14_nota-tecnica-2016.003-v.1.80-publicada-em-14102020/NT 2016_003 v1_80 - Tabela NCM - vigência 01-01-2021.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:39+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-10-02_nota-tecnica-2020.007-v.1.00-publicada-em-02102020",
@@ -2933,8 +2950,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2020-10-02_nota-tecnica-2020.007-v.1.00-publicada-em-02102020/NT2020.007 - Evento_Ator_NFe_Transportador_Publicacao.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:40+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-10-02_nota-tecnica-2020.006-v.1.00-publicada-em-02102020",
@@ -2950,8 +2967,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2020-10-02_nota-tecnica-2020.006-v.1.00-publicada-em-02102020/NT2020.006 - v.1.00 - intermediador ou agenciador da operação comercial.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:40+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-09-25_nota-tecnica-2019.001-v.1.51-publicada-em-25092020",
@@ -2967,8 +2984,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2020-09-25_nota-tecnica-2019.001-v.1.51-publicada-em-25092020/NT2019_001_v1_51 - Regras de Validação - 22092020.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:41+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-08-31_nota-tecnica-2014.002-v.1.02c-publicada-em-31082020",
@@ -2984,8 +3001,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2020-08-31_nota-tecnica-2014.002-v.1.02c-publicada-em-31082020/NT2014_002_v1.02c_WsNFeDistribuicaoDFe.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:42+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-08-28_nota-tecnica-2020.004-v.1.00-publicada-em-28082020",
@@ -3001,8 +3018,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2020-08-28_nota-tecnica-2020.004-v.1.00-publicada-em-28082020/NT2020.004 - DANFE_SIMPLIFICADO v1.00.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:43+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-06-25_nota-tecnica-2020.003-v.1.00-publicada-em-25062020",
@@ -3035,8 +3052,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2020-06-01_nota-tecnica-2016.003-v.1.70-publicada-em-01062020/NT 2016_003 v1_70 - Tabela NCM - vigência 01-07-2020.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:43+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-05-18_nota-tecnica-2020.002-v.1.00-publicada-em-18052020",
@@ -3069,8 +3086,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2020-04-08_nota-tecnica-2019.001-v.1.50-publicada-em-08042020/NT2019_001_v1_50 - Regras de Validação.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:44+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-02-27_nota-tecnica-2018.001-v.1.10-publicada-em-27022020",
@@ -3086,8 +3103,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2020-02-27_nota-tecnica-2018.001-v.1.10-publicada-em-27022020/NT2018.001_v1_10 - Emitente_CPF.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:45+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-01-15_nota-tecnica-2017.002-v.1.40-publicada-em-15012020",
@@ -3103,8 +3120,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2020-01-15_nota-tecnica-2017.002-v.1.40-publicada-em-15012020/NT_2017_002_v1_40-Tabela CFOP.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:46+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2020-01-07_nota-tecnica-2020.001-v.1.00-publicada-em-07012020",
@@ -3120,8 +3137,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2020-01-07_nota-tecnica-2020.001-v.1.00-publicada-em-07012020/NT_2020_001.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:46+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-12-30_nota-tecnica-2019.001-v.1.40-publicada-em-30122019",
@@ -3137,8 +3154,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2019-12-30_nota-tecnica-2019.001-v.1.40-publicada-em-30122019/NT2019_001_v1_40 - Regras de Validação.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:47+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-12-05_nota-tecnica-2014.001-v.1.20-publicada-em-05122019",
@@ -3154,8 +3171,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2019-12-05_nota-tecnica-2014.001-v.1.20-publicada-em-05122019/NT_2014_001 v1_20 - Evento EPEC - final.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:48+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-11-25_nota-tecnica-2017.002-v.1.30-publicada-em-25112019",
@@ -3171,8 +3188,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2019-11-25_nota-tecnica-2017.002-v.1.30-publicada-em-25112019/NT_2017_002_v1_30 - Tabela CFOP.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:49+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-11-11_nota-tecnica-2016.003-v.-1.60-publicada-em-11112019",
@@ -3188,8 +3205,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2019-11-11_nota-tecnica-2016.003-v.-1.60-publicada-em-11112019/NT 2016_003 v1_60 - Tabela NCM - vigência 01-01-2020.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:49+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-08-30_nota-tecnica-2019.001-v.1.30-publicada-em-30082019",
@@ -3205,8 +3222,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2019-08-30_nota-tecnica-2019.001-v.1.30-publicada-em-30082019/NT2019_001_v1_30 - Regras de Validação.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:50+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-08-20_nota-tecnica-2019.001-v.1.20-publicada-em-20082019",
@@ -3222,8 +3239,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2019-08-20_nota-tecnica-2019.001-v.1.20-publicada-em-20082019/NT2019_001_v1_20 - Regras de Validação.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:51+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-07-16_nota-tecnica-2019.001-v.1.10-publicada-em-16072019",
@@ -3239,8 +3256,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2019-07-16_nota-tecnica-2019.001-v.1.10-publicada-em-16072019/NT2019_001_v1_10 - Regras de Validação.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:52+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-05-03_nota-tecnica-2019.001-v.1.00-publicada-em-03052019",
@@ -3256,8 +3273,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2019-05-03_nota-tecnica-2019.001-v.1.00-publicada-em-03052019/NT2019_001_v1_00 - Regras de Validação.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:52+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-04-26_nota-tecnica-2018.005-v.1.30-publicada-em-26042019",
@@ -3273,8 +3290,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2019-04-26_nota-tecnica-2018.005-v.1.30-publicada-em-26042019/NT2018 005_v1_30-AlteracaodeleiauteNF-eNFC-e.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:53+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-04-12_nota-tecnica-2018.003-v.1.01-publicada-em-12042019",
@@ -3290,8 +3307,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2019-04-12_nota-tecnica-2018.003-v.1.01-publicada-em-12042019/NT 2018-003 -v1.01 - Tabela de Países.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:54+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-04-12_nota-tecnica-2017.002-v.1.20-publicada-em-12042019",
@@ -3307,8 +3324,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2019-04-12_nota-tecnica-2017.002-v.1.20-publicada-em-12042019/NT_2017_002_v1_20 - Tabela CFOP.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:55+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-03-15_nota-tecnica-2018.005-v.1.20-publicada-em-15032019",
@@ -3324,8 +3341,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2019-03-15_nota-tecnica-2018.005-v.1.20-publicada-em-15032019/NT 2018 005_v1_20 - Alteração de leiaute NF-e e NFC-e (Final).pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:55+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-02-12_nota-tecnica-2018.005-v.1.10-publicada-em-12022019",
@@ -3341,8 +3358,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2019-02-12_nota-tecnica-2018.005-v.1.10-publicada-em-12022019/NT 2018.005_v1_10 - Alteração de leiaute NF-e e NFC-e.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:56+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2019-01-02_nota-tecnica-2018.005-v.1.00-publicada-em-02012019",
@@ -3358,8 +3375,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2019-01-02_nota-tecnica-2018.005-v.1.00-publicada-em-02012019/NT 2018.005 - Alteração de leiaute NF-e e NFC-e.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:57+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-12-21_nota-tecnica-2018.004-v.1.00-publicada-em-21122018",
@@ -3375,8 +3392,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2018-12-21_nota-tecnica-2018.004-v.1.00-publicada-em-21122018/NT_2018_004 - Cancelamento por Substituição da NFC-e.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:58+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-12-07_nota-tecnica-2017.001-v.1.50-publicada-em-07122018",
@@ -3392,8 +3409,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2018-12-07_nota-tecnica-2017.001-v.1.50-publicada-em-07122018/NT_2017_001_v1_50.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:58+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-11-09_nota-tecnica-2016.003-v.1.50-publicada-em-09112018",
@@ -3409,8 +3426,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2018-11-09_nota-tecnica-2016.003-v.1.50-publicada-em-09112018/NT 2016_003 - Versão 1_50 Nova Tabela de NCM e Utrib - vigência 01-01-2019.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:05:59+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-09-10_nota-tecnica-2016.002-v.1.61-publicada-em-10092018",
@@ -3426,8 +3443,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2018-09-10_nota-tecnica-2016.002-v.1.61-publicada-em-10092018/NT_2016_002_v1 61.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:00+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-08-28_nota-tecnica-2017.002-v.1.10-publicada-em-28082018",
@@ -3443,8 +3460,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2018-08-28_nota-tecnica-2017.002-v.1.10-publicada-em-28082018/NT_2017_002_v1_10.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:01+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-08-28_nota-tecnica-2017.001-v.1.40-publicada-em-28082018",
@@ -3460,8 +3477,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2018-08-28_nota-tecnica-2017.001-v.1.40-publicada-em-28082018/NT_2017_001_v1_40.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:01+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-07-16_nota-tecnica-2016.001-v.1.40-publicada-em-16072018",
@@ -3477,8 +3494,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2018-07-16_nota-tecnica-2016.001-v.1.40-publicada-em-16072018/NT2016 001 V1_40 - Altera tabela - Unidades de Medidas Tributaveis no Comercio Exterior.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:02+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-06-25_nota-tecnica-2017.001-v.1.30-publicada-em-25062018",
@@ -3494,8 +3511,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2018-06-25_nota-tecnica-2017.001-v.1.30-publicada-em-25062018/NT_2017_001_v1_30.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:03+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-06-18_nota-tecnica-2016.002-v.1.60-publicada-em-18062018",
@@ -3511,8 +3528,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2018-06-18_nota-tecnica-2016.002-v.1.60-publicada-em-18062018/NT_2016_002_v1_60.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:04+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-05-16_nota-tecnica-2016.002-v.1.51-publicada-em-16052018",
@@ -3528,8 +3545,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2018-05-16_nota-tecnica-2016.002-v.1.51-publicada-em-16052018/NT_2016_002_v1 51.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:04+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-05-07_nota-tecnica-2016.003-v.1.40-publicada-em-07052018",
@@ -3545,8 +3562,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2018-05-07_nota-tecnica-2016.003-v.1.40-publicada-em-07052018/NT 2016_003_v_1_40 - Nova Tabela NCM e Utrib - vigência 01-07-2018.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:05+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-05-02_nota-tecnica-2018.003-v.1.00-publicada-em-02052018",
@@ -3562,8 +3579,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2018-05-02_nota-tecnica-2018.003-v.1.00-publicada-em-02052018/NT 2018.003- v1.00 -Tabela de País.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:06+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-04-26_nota-tecnica-2016.002-v.1.50-publicada-em-26042018",
@@ -3579,8 +3596,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2018-04-26_nota-tecnica-2016.002-v.1.50-publicada-em-26042018/NT_2016_002_v1 50.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:07+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-04-23_nota-tecnica-2018.002-v.1.00-publicada-em-23042018",
@@ -3596,8 +3613,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2018-04-23_nota-tecnica-2018.002-v.1.00-publicada-em-23042018/NT_2018_002_v1.00.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:07+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-04-19_nota-tecnica-2018.001-v.1.00-publicada-em-19042018",
@@ -3613,8 +3630,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2018-04-19_nota-tecnica-2018.001-v.1.00-publicada-em-19042018/NT_2018_001_v.1.00.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:08+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2018-02-27_nota-tecnica-2017.001-v.1.20-publicada-em-27022018",
@@ -3647,8 +3664,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2017-12-22_nota-tecnica-2016.002-v.1.42-publicada-em-22122017/NT_2016_002_v1.42.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:09+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2017-12-18_nota-tecnica-2017.002-v.1.00-publicada-em-18122017",
@@ -3664,8 +3681,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2017-12-18_nota-tecnica-2017.002-v.1.00-publicada-em-18122017/NT_2017_002_v.1.00.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:10+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2017-12-15_nota-tecnica-2016.003-v.1.30-publicada-em-15122017",
@@ -3681,8 +3698,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2017-12-15_nota-tecnica-2016.003-v.1.30-publicada-em-15122017/NT 2016 - 003 - v.1.30.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:10+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2017-12-14_nota-tecnica-2017.001-v.1.10-publicada-em-14122017",
@@ -3698,8 +3715,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2017-12-14_nota-tecnica-2017.001-v.1.10-publicada-em-14122017/NT_2017_001_v1.10_Validações_do_GTIN.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:11+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2017-11-07_nota-tecnica-2016.002-v.1.41-publicada-em-07112017",
@@ -3715,8 +3732,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2017-11-07_nota-tecnica-2016.002-v.1.41-publicada-em-07112017/NT_2016_002_v1.41.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:13+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2017-10-24_nota-tecnica-2016.002-v.1.40-publicada-em-24102017",
@@ -3732,8 +3749,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2017-10-24_nota-tecnica-2016.002-v.1.40-publicada-em-24102017/NT_2016_002_v1.40.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:16+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2017-09-27_nota-tecnica-2016.002-v.1.31-publicada-em-27092017",
@@ -3749,8 +3766,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2017-09-27_nota-tecnica-2016.002-v.1.31-publicada-em-27092017/NT_2016_002_v1.31.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:16+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2017-09-12_nota-tecnica-2016.002-v.1.30-publicada-em-12092017",
@@ -3766,8 +3783,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2017-09-12_nota-tecnica-2016.002-v.1.30-publicada-em-12092017/NT_2016_002_v1.30.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:17+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2017-06-23_nota-tecnica-2015.003-v.1.94-publicada-em-23062017",
@@ -3783,8 +3800,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2017-06-23_nota-tecnica-2015.003-v.1.94-publicada-em-23062017/NT_2015_003_v194.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:17+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2017-05-31_nota-tecnica-2016.002-v.1.20-publicada-em-31052017",
@@ -3800,8 +3817,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2017-05-31_nota-tecnica-2016.002-v.1.20-publicada-em-31052017/NT_2016_002_v1.20.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:18+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2017-05-30_nota-tecnica-2014.002-v.1.02b-publicada-em-30052017",
@@ -3817,8 +3834,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2017-05-30_nota-tecnica-2014.002-v.1.02b-publicada-em-30052017/NT2014.002_v1.02b_WsNFeDistribuicaoDFe.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:19+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2017-05-29_nota-tecnica-2014.002-v.1.01c-publicada-em-29052017",
@@ -3834,8 +3851,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2017-05-29_nota-tecnica-2014.002-v.1.01c-publicada-em-29052017/NT2014.002_v1.01c_WsNFeDistribuicaoDFe.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:19+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2017-04-17_nota-tecnica-2016.001-v.1.30-publicada-em-17042017",
@@ -3851,8 +3868,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2017-04-17_nota-tecnica-2016.001-v.1.30-publicada-em-17042017/NT2016 001 V1-30 - Altera Tabela Utrib - Unidades de Medidas Tributaveis no Comercio Exterior_docx.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:20+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2017-04-11_nota-tecnica-2016.002-v.1.10-publicada-em-11042017",
@@ -3868,8 +3885,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2017-04-11_nota-tecnica-2016.002-v.1.10-publicada-em-11042017/NT_2016_002_v1.10.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:21+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2017-02-24_nota-tecnica-2016.001-v.1.20-publicada-em-24022017",
@@ -3885,8 +3902,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2017-02-24_nota-tecnica-2016.001-v.1.20-publicada-em-24022017/NT2016_001_V1_20.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:22+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2017-01-20_nota-tecnica-2015.003-v.1.93-publicada-em-20012017",
@@ -3902,8 +3919,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2017-01-20_nota-tecnica-2015.003-v.1.93-publicada-em-20012017/NT_2015_003_v193.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:23+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2017-01-04_nota-tecnica-2015.003-v.1.92-publicada-em-04012017",
@@ -3919,8 +3936,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2017-01-04_nota-tecnica-2015.003-v.1.92-publicada-em-04012017/NT_2015_003_v192.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:23+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2016-12-28_nota-tecnica-2016.003-publicada-em-28122016",
@@ -3936,8 +3953,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2016-12-28_nota-tecnica-2016.003-publicada-em-28122016/NT2016 003 V1.0 - Nova Tabela de NCM - Resolução Camex nº 125-16.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:24+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2016-12-28_nota-tecnica-2016.001-v.1.10-publicada-em-28122016",
@@ -3953,8 +3970,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2016-12-28_nota-tecnica-2016.001-v.1.10-publicada-em-28122016/NT2016 001 V1.10 - Unidades de Medidas Tributaveis no Comercio Exterior.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:25+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2016-11-30_nota-tecnica-2016.002-v.1.00-publicada-em-30112016",
@@ -3970,8 +3987,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2016-11-30_nota-tecnica-2016.002-v.1.00-publicada-em-30112016/NT_2016_002_v1.00.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:26+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2016-11-03_nota-tecnica-2015.003-v.1.91-publicada-em-03112016",
@@ -3987,8 +4004,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2016-11-03_nota-tecnica-2015.003-v.1.91-publicada-em-03112016/NT_2015_003_v191.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:26+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2016-11-01_nota-tecnica-2016.001-v.1.00-publicada-em-01112016",
@@ -4004,8 +4021,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2016-11-01_nota-tecnica-2016.001-v.1.00-publicada-em-01112016/NT2016 001 V1.00 - Unidades de Medidas Tributaveis no Comercio Exterior .pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:27+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2016-10-25_nota-tecnica-2014.002-v.1.02-publicada-em-25102016",
@@ -4021,8 +4038,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2016-10-25_nota-tecnica-2014.002-v.1.02-publicada-em-25102016/NT2014.002_v1.02_WsNFeDistribuicaoDFe.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:28+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2016-10-25_nota-tecnica-2014.002-v.1.01b-publicada-em-25102016",
@@ -4038,8 +4055,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2016-10-25_nota-tecnica-2014.002-v.1.01b-publicada-em-25102016/NT2014.002_v1.01b_WsNFeDistribuicaoDFe.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:28+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2016-10-18_nota-tecnica-2015.003-v.1.90-publicada-em-18102016",
@@ -4055,8 +4072,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2016-10-18_nota-tecnica-2015.003-v.1.90-publicada-em-18102016/NT_2015_003_v190.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:29+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2016-08-26_nota-tecnica-2015.002-v.1.41-publicada-em-26082016",
@@ -4072,8 +4089,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2016-08-26_nota-tecnica-2015.002-v.1.41-publicada-em-26082016/NT_2015_002_v141 (23-08-2016).pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:30+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2016-07-25_nota-tecnica-2015.001-v.1.20-publicada-em-25072016",
@@ -4089,8 +4106,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2016-07-25_nota-tecnica-2015.001-v.1.20-publicada-em-25072016/NT2015 001_v1_20.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:31+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2016-06-09_nota-tecnica-2015.003-v.1.80-publicada-em-09062016",
@@ -4106,8 +4123,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2016-06-09_nota-tecnica-2015.003-v.1.80-publicada-em-09062016/NT_2015_003_v180.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:32+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2016-04-13_nota-tecnica-2015.003-v.1.71-publicada-em-13042016",
@@ -4123,8 +4140,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2016-04-13_nota-tecnica-2015.003-v.1.71-publicada-em-13042016/NT_2015_003_v171.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:32+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2016-03-29_nota-tecnica-2015.003-v.1.70-publicada-em-29032016",
@@ -4140,8 +4157,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2016-03-29_nota-tecnica-2015.003-v.1.70-publicada-em-29032016/NT_2015_003_v170.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:33+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2015-12-30_nota-tecnica-2015.003-v.1.60-publicada-em-30122015",
@@ -4157,8 +4174,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2015-12-30_nota-tecnica-2015.003-v.1.60-publicada-em-30122015/NT_2015_003_v160.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:34+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2015-12-28_nota-tecnica-2015.002-v.1.30-publicada-em-28122015",
@@ -4174,8 +4191,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2015-12-28_nota-tecnica-2015.002-v.1.30-publicada-em-28122015/NT2015 002_v1_30.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:35+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2015-12-17_nota-tecnica-2015.003-v.1.50-publicada-em-17122015",
@@ -4191,8 +4208,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2015-12-17_nota-tecnica-2015.003-v.1.50-publicada-em-17122015/NT_2015_003_v150.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:35+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2015-12-01_nota-tecnica-2015.003-v.1.40-publicada-em-01122015",
@@ -4208,8 +4225,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2015-12-01_nota-tecnica-2015.003-v.1.40-publicada-em-01122015/NT_2015_003_v140.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:36+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2015-11-19_nota-tecnica-2015.002-v.1.20-publicada-em-19112015",
@@ -4225,8 +4242,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2015-11-19_nota-tecnica-2015.002-v.1.20-publicada-em-19112015/NT2015.002_v1.20_WS_Consulta_Situação_Outros.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:37+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2015-06-12_nota-tecnica-2015.001-v.1.10-publicada-em-12062015",
@@ -4242,8 +4259,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2015-06-12_nota-tecnica-2015.001-v.1.10-publicada-em-12062015/NT2015 001_v1_10.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:38+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2015-03-25_nota-tecnica-2013.005-v.1.22-publicada-em-25032015",
@@ -4259,8 +4276,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2015-03-25_nota-tecnica-2013.005-v.1.22-publicada-em-25032015/NT2013.005_v1.22.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:40+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2015-03-23_nota-tecnica-2015.002-v.1.40-publicada-em-23032015",
@@ -4276,8 +4293,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2015-03-23_nota-tecnica-2015.002-v.1.40-publicada-em-23032015/NT_2015_002_v1.40.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:40+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2015-01-12_nota-tecnica-nfc-e-2014.003-v.1.02-publicada-em-12012015",
@@ -4293,8 +4310,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2015-01-12_nota-tecnica-nfc-e-2014.003-v.1.02-publicada-em-12012015/NT2014.003_v1.02.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:41+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2014-11-18_nota-tecnica-2013.005-v.1.20-publicada-em-18112014",
@@ -4310,8 +4327,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2014-11-18_nota-tecnica-2013.005-v.1.20-publicada-em-18112014/NT2013.005_v1.20.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:43+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2014-10-08_nota-tecnica-2013.005-v.1.10-publicada-em-08102014",
@@ -4327,8 +4344,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2014-10-08_nota-tecnica-2013.005-v.1.10-publicada-em-08102014/NT2013.005_v_1.10.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:44+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2014-09-16_nota-tecnica-2013.007-v.1.03-publicada-em-16092014",
@@ -4344,8 +4361,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2014-09-16_nota-tecnica-2013.007-v.1.03-publicada-em-16092014/NT_2013_007_v1.03_SVC.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:45+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2014-08-20_nota-tecnica-nfc-e-2014.001-publicada-em-20082014",
@@ -4361,8 +4378,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2014-08-20_nota-tecnica-nfc-e-2014.001-publicada-em-20082014/NT-NFCe 2014.001.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:45+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2014-08-11_nota-tecnica-2014.004-v.1.10-publicada-em-11082014",
@@ -4378,8 +4395,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2014-08-11_nota-tecnica-2014.004-v.1.10-publicada-em-11082014/NT2014.004_v1.10_NCM_Pais_Fuso_Evento.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:46+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2014-06-11_nota-tecnica-2014.004-v.1.00-publicada-em-11062014",
@@ -4395,8 +4412,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2014-06-11_nota-tecnica-2014.004-v.1.00-publicada-em-11062014/NT2014.004_v1.00_NCM_Pais_Fuso_Evento.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:47+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2014-05-30_nota-tecnica-nfc-e-2014.003-v.1.00-publicada-em-30052014",
@@ -4412,8 +4429,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2014-05-30_nota-tecnica-nfc-e-2014.003-v.1.00-publicada-em-30052014/NT2014.003_v1.00.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:48+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2014-05-12_nota-tecnica-2014.001-v.1.00-publicada-em-12052014",
@@ -4429,8 +4446,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2014-05-12_nota-tecnica-2014.001-v.1.00-publicada-em-12052014/NT2014_001_v1.00_Evento_EPEC.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:48+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2014-04-02_nota-tecnica-2013.005-v.1.03-publicada-em-02042014",
@@ -4446,8 +4463,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2014-04-02_nota-tecnica-2013.005-v.1.03-publicada-em-02042014/NT2013.005_v1.03.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:50+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2013-12-13_nota-tecnica-2013.007-svc-v1.02-publicada-em-13122013",
@@ -4463,8 +4480,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2013-12-13_nota-tecnica-2013.007-svc-v1.02-publicada-em-13122013/NT 2013 007_v1.02_SVC.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:51+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2013-12-12_nota-tecnica-2013.008-publicada-em-12122013",
@@ -4497,8 +4514,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2013-12-12_nota-tecnica-2013.005-v.1.02-publicada-em-12122013/NT2013.005_v1.02_Versao_Nacional_2013.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:52+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2013-08-05_nota-tecnica-2013.006-publicada-em-05082013",
@@ -4514,8 +4531,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2013-08-05_nota-tecnica-2013.006-publicada-em-05082013/NT2013.006_v1.00_Resol_13_FCI.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:52+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2013-05-09_nota-tecnica-2012.004-publicada-em-09052013",
@@ -4565,8 +4582,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2013-04-26_nota-tecnica-2013.003-v.1.00a-publicada-em-26042013/NT2013.003_v1.00a_Lei_Transparencia.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:53+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2013-04-15_nota-tecnica-2011.006-publicada-em-15042013",
@@ -4599,8 +4616,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2013-03-28_nota-tecnica-2013.002-v.1.00b-publicada-em-28032013/NT2013 002_B2B_v1.00b.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:54+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2013-03-12_nota-tecnica-2013.001-v.1.00-publicada-em-12032013",
@@ -4616,8 +4633,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2013-03-12_nota-tecnica-2013.001-v.1.00-publicada-em-12032013/NT2013.001_Manifestacao_Combustivel.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:54+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2013-02-08_nota-tecnica-2012.005-publicada-em-08022013",
@@ -4667,8 +4684,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2012-09-24_nota-tecnica-2012.002-publicada-em-24092012/NT 2012_002.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:55+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2012-02-17_nota-tecnica-2012.001-publicada-em-17022012",
@@ -4786,8 +4803,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2011-09-15_nota-tecnica-2008.002-publicada-em-15092011/NT2008.002.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:56+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2011-09-15_nota-tecnica-2007.001-publicada-em-15092011",
@@ -4820,8 +4837,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2011-07-26_nota-tecnica-2011.004-publicada-em-26072011/NT2011.004.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:57+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2011-05-19_nota-tecnica-2011.003-publicada-em-19052011",
@@ -4854,8 +4871,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2011-05-16_nota-tecnica-2009.006-publicada-em-16052011/NT2009.006.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:57+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2011-05-13_nota-tecnica-2010.010-publicada-em-13052011",
@@ -4905,8 +4922,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2011-02-25_nota-tecnica-2011.001-publicada-em-25022011/NT2011_001.pdf"
       ],
-      "downloaded_at": "2026-09-09T16:06:58+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2010-12-10_nota-tecnica-2010.009-publicada-em-10122010",
@@ -5326,7 +5343,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-09T16:06:59+00:00",
+      "downloaded_at": "2026-09-10T13:13:28+00:00",
       "status": "ok"
     },
     {
@@ -5339,7 +5356,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-09T16:07:00+00:00",
+      "downloaded_at": "2026-09-10T13:13:29+00:00",
       "status": "ok"
     }
   ]
