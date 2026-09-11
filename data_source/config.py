@@ -20,10 +20,7 @@ class Settings(BaseSettings):
         default=10,
         ge=1,
         le=300,
-        description="Ceiling for the exponential backoff between attempts. "
-        "The default gives up in about a minute, which is right for a host "
-        "that is merely busy and useless against one that is throttling a "
-        "whole IP range — raise both this and max_retries there.",
+        description="Ceiling for the exponential backoff between attempts.",
     )
     log_level: str = Field(default="INFO")
     user_agent: str = Field(
