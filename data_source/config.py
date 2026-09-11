@@ -16,6 +16,15 @@ class Settings(BaseSettings):
     headless: bool = Field(default=True)
     timeout_s: int = Field(default=30, ge=1, le=600)
     max_retries: int = Field(default=3, ge=0, le=10)
+    retry_max_wait_s: int = Field(
+        default=10,
+        ge=1,
+        le=300,
+        description="Ceiling for the exponential backoff between attempts. "
+        "The default gives up in about a minute, which is right for a host "
+        "that is merely busy and useless against one that is throttling a "
+        "whole IP range — raise both this and max_retries there.",
+    )
     log_level: str = Field(default="INFO")
     user_agent: str = Field(
         default="Mozilla/5.0 (compatible; StackinDataSource/0.1; +https://stackin.io)"

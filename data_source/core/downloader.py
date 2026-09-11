@@ -40,11 +40,13 @@ class Downloader:
         *,
         timeout_s: int = 30,
         max_retries: int = 3,
+        retry_max_wait_s: int = 10,
         user_agent: str | None = None,
         throttle_ms: int = 750,
     ) -> None:
         self._timeout_s = timeout_s
         self._max_retries = max_retries
+        self._retry_max_wait_s = retry_max_wait_s
         self._throttle_s = throttle_ms / 1000.0
         headers = {"User-Agent": user_agent} if user_agent else {}
         self._client = httpx.Client(timeout=timeout_s, follow_redirects=True, headers=headers)
@@ -67,7 +69,9 @@ class Downloader:
         @retry(
             reraise=True,
             stop=stop_after_attempt(self._max_retries),
-            wait=wait_exponential(multiplier=1, min=1, max=10),
+            wait=wait_exponential(
+                multiplier=1, min=1, max=self._retry_max_wait_s
+            ),
             retry=retry_if_exception_type((httpx.HTTPError,)),
         )
         def _do() -> httpx.Response:

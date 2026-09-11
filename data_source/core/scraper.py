@@ -101,6 +101,7 @@ class BaseScraper(ABC):
         self._downloader = downloader or Downloader(
             timeout_s=self._settings.timeout_s,
             max_retries=self._settings.max_retries,
+            retry_max_wait_s=self._settings.retry_max_wait_s,
             user_agent=self._settings.user_agent,
         )
         configure_logging(self._settings.log_level)
