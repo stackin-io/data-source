@@ -21,6 +21,12 @@ def scrape(
     out: Path | None = typer.Option(None, "--out", help="Output dir"),
     headless: bool = typer.Option(True, "--headless/--no-headless", help="Run browser headless"),
     force: bool = typer.Option(False, "--force", help="Re-download items even if target folder has files"),
+    allow_failures: bool = typer.Option(
+        False,
+        "--allow-failures",
+        help="Exit 0 even when every item failed. For a source that is "
+        "unreachable from this host rather than broken.",
+    ),
 ) -> None:
     """Run a registered scraper end-to-end. Skips items whose folder already has files (use --force to override)."""
     settings = get_settings()
@@ -39,6 +45,14 @@ def scrape(
         f"persisted={result.persisted} skipped={result.skipped} failed={result.failed}"
     )
     if result.failed and not result.persisted:
+        if allow_failures:
+            typer.echo(
+                f"[{result.context}] {result.failed} item(s) failed and "
+                "nothing was persisted. Exiting 0 because --allow-failures "
+                "was given: the data on disk is the last good scrape, not "
+                "today's. Read the log above before trusting it."
+            )
+            return
         raise typer.Exit(code=2)
 
 
