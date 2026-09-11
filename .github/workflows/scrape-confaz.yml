@@ -15,9 +15,17 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     env:
       DATA_SOURCE_LOG_LEVEL: INFO
+      # CONFAZ answers in under a second from a Brazilian address and times
+      # out from this runner, which is Azure in the US. Government sites
+      # here throttle foreign cloud ranges. Six attempts backing off to two
+      # minutes gives a throttle time to lift; it does nothing against an
+      # outright block, which is why the job no longer fails on it.
+      DATA_SOURCE_TIMEOUT_S: "90"
+      DATA_SOURCE_MAX_RETRIES: "6"
+      DATA_SOURCE_RETRY_MAX_WAIT_S: "120"
     steps:
       - uses: actions/checkout@v4
 
@@ -32,7 +40,7 @@ jobs:
         run: poetry install --no-interaction --no-ansi
 
       - name: Scrape CONFAZ CEST
-        run: poetry run data-source scrape confaz/cest --out ./data
+        run: poetry run data-source scrape confaz/cest --out ./data --allow-failures
 
       - name: Commit new files as stackin-bot
         run: |
