@@ -21,8 +21,8 @@ jobs:
       # CONFAZ answers in under a second from a Brazilian address and times
       # out from this runner, which is Azure in the US. Government sites
       # here throttle foreign cloud ranges. Six attempts backing off to two
-      # minutes gives a throttle time to lift; it does nothing against an
-      # outright block, which is why the job no longer fails on it.
+      # minutes gives a throttle time to lift; against an outright block it
+      # changes nothing, and the job stays red — which is the honest signal.
       DATA_SOURCE_TIMEOUT_S: "90"
       DATA_SOURCE_MAX_RETRIES: "6"
       DATA_SOURCE_RETRY_MAX_WAIT_S: "120"
@@ -40,7 +40,7 @@ jobs:
         run: poetry install --no-interaction --no-ansi
 
       - name: Scrape CONFAZ CEST
-        run: poetry run data-source scrape confaz/cest --out ./data --allow-failures
+        run: poetry run data-source scrape confaz/cest --out ./data
 
       - name: Commit new files as stackin-bot
         run: |
