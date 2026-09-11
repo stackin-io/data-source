@@ -2,13 +2,13 @@
   "context": "nfe/notas-tecnicas",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas",
-  "generated_at": "2026-09-10T13:13:29+00:00",
-  "started_at": "2026-09-10T13:13:24+00:00",
-  "duration_s": 5.09,
+  "generated_at": "2026-09-11T13:07:09+00:00",
+  "started_at": "2026-09-11T13:07:02+00:00",
+  "duration_s": 6.85,
   "totals": {
     "discovered": 315,
-    "persisted": 1,
-    "skipped": 312,
+    "persisted": 0,
+    "skipped": 313,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-09-09_nota-tecnica-2026.009-v.1.00-publicada-em-09092026/NT2026.009_v1.00_Alteracao_RV_CFOP.pdf"
       ],
-      "downloaded_at": "2026-09-10T13:13:28+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-25_nota-tecnica-2026.002-v.1.10a-publicada-em-25082026",
@@ -5343,7 +5343,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-10T13:13:28+00:00",
+      "downloaded_at": "2026-09-11T13:07:08+00:00",
       "status": "ok"
     },
     {
@@ -5356,7 +5356,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-10T13:13:29+00:00",
+      "downloaded_at": "2026-09-11T13:07:08+00:00",
       "status": "ok"
     }
   ]
