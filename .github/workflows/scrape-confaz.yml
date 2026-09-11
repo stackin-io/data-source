@@ -28,6 +28,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install Chrome
+        uses: browser-actions/setup-chrome@v1
+
       - name: Install Poetry
         run: pipx install poetry
 
