@@ -6,6 +6,8 @@ from collections.abc import Iterable
 from datetime import UTC, datetime
 
 from bs4 import BeautifulSoup
+from selenium.common.exceptions import WebDriverException
+from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
 
 from data_source.core.scraper import Artifact, BaseScraper, ScrapeItem
 
@@ -19,7 +21,7 @@ _NCM_RE = re.compile(r"^\d{4}[\d./ ,-]{2,}$")
 class ConfazCestScraper(BaseScraper):
 
     context = "confaz/cest"
-    uses_browser = False
+    uses_browser = True
 
     def discover(self) -> Iterable[ScrapeItem]:
         yield ScrapeItem(
@@ -40,9 +42,31 @@ class ConfazCestScraper(BaseScraper):
         today = datetime.now(tz=UTC).date().isoformat()
         return f"{today}_convenio-icms-142-2018"
 
+    def _load(self, url: str) -> str:
+        """The page source, retried like the downloader would retry it.
+
+        The browser is used here instead of httpx, and the retry that
+        came free with the downloader does not. Without this the scrape
+        gets one attempt where it used to get max_retries.
+        """
+
+        @retry(
+            reraise=True,
+            stop=stop_after_attempt(self._settings.max_retries),
+            wait=wait_exponential(
+                multiplier=1, min=1, max=self._settings.retry_max_wait_s
+            ),
+            retry=retry_if_exception_type((WebDriverException,)),
+        )
+        def _do() -> str:
+            self._log.info("confaz.page.start", url=url)
+            self.browser.driver.get(url)
+            return str(self.browser.driver.page_source)
+
+        return _do()
+
     def extract(self, item: ScrapeItem) -> Iterable[Artifact]:
-        page = self._downloader.get(item.url).decode("utf-8", errors="replace")
-        soup = BeautifulSoup(page, "lxml")
+        soup = BeautifulSoup(self._load(item.url), "lxml")
 
         rows = list(self._extract_rows(soup))
         self._log.info("confaz.cest.parsed", rows=len(rows))
