@@ -2,9 +2,9 @@
   "context": "svrs/nfce/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos",
-  "generated_at": "2026-09-12T05:26:29+00:00",
-  "started_at": "2026-09-12T05:26:28+00:00",
-  "duration_s": 1.51,
+  "generated_at": "2026-09-12T12:32:29+00:00",
+  "started_at": "2026-09-12T12:32:28+00:00",
+  "duration_s": 1.1,
   "totals": {
     "discovered": 48,
     "persisted": 0,
@@ -73,7 +73,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-12T05:26:29+00:00",
+      "downloaded_at": "2026-09-12T12:32:29+00:00",
       "status": "ok"
     },
     {

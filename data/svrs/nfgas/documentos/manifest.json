@@ -2,9 +2,9 @@
   "context": "svrs/nfgas/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos",
-  "generated_at": "2026-09-12T05:26:45+00:00",
-  "started_at": "2026-09-12T05:26:44+00:00",
-  "duration_s": 1.1,
+  "generated_at": "2026-09-12T12:32:43+00:00",
+  "started_at": "2026-09-12T12:32:43+00:00",
+  "duration_s": 0.9,
   "totals": {
     "discovered": 15,
     "persisted": 0,
