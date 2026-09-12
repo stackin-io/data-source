@@ -2,9 +2,9 @@
   "context": "nfe/notas-tecnicas",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas",
-  "generated_at": "2026-09-11T13:07:09+00:00",
-  "started_at": "2026-09-11T13:07:02+00:00",
-  "duration_s": 6.85,
+  "generated_at": "2026-09-12T12:30:37+00:00",
+  "started_at": "2026-09-12T12:30:31+00:00",
+  "duration_s": 5.47,
   "totals": {
     "discovered": 315,
     "persisted": 0,
@@ -5343,7 +5343,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-11T13:07:08+00:00",
+      "downloaded_at": "2026-09-12T12:30:36+00:00",
       "status": "ok"
     },
     {
@@ -5356,7 +5356,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-11T13:07:08+00:00",
+      "downloaded_at": "2026-09-12T12:30:37+00:00",
       "status": "ok"
     }
   ]
