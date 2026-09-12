@@ -2,32 +2,32 @@
   "context": "svrs/nfe/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos",
-  "generated_at": "2026-09-10T13:14:38+00:00",
-  "started_at": "2026-09-10T13:14:33+00:00",
-  "duration_s": 5.23,
+  "generated_at": "2026-09-12T05:26:26+00:00",
+  "started_at": "2026-09-12T05:26:20+00:00",
+  "duration_s": 6.2,
   "totals": {
-    "discovered": 92,
-    "persisted": 0,
+    "discovered": 93,
+    "persisted": 1,
     "skipped": 86,
     "failed": 0
   },
   "items": [
     {
-      "slug": "2026-08-25_nota-tecnica-2026.002-v1.10a-operacoes-de-vendas-presenciais-e-nao-presenciais-com-impressao-de-danfe-simplificado-tipo-",
-      "title": "Nota Técnica 2026.002 v1.10a - Operações de Vendas Presenciais e Não Presenciais com Impressão de DANFE Simplificado Tipo 2",
-      "description": "Nota Técnica 2026.002 v1.10a - Operações de Vendas Presenciais e Não Presenciais com Impressão de DANFE Simplificado Tipo 2",
-      "published_at": "2026-08-25",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFE/DownloadArquivoEstatico/?sistema=NFE&tipoArquivo=3&nomeArquivo=NT_2026.002_v1.10a_DANFE_Simpl_Tp2_Emi_Offline_Autoriz_Alerta_v2.pdf",
-      "folder": "data/svrs/nfe/documentos/2026-08-25_nota-tecnica-2026.002-v1.10a-operacoes-de-vendas-presenciais-e-nao-presenciais-com-impressao-de-danfe-simplificado-tipo-",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-08-25_nota-tecnica-2026.002-v1.10a-operacoes-de-vendas-presenciais-e-nao-presenciais-com-impressao-de-danfe-simplificado-tipo-",
+      "slug": "2026-09-09_nota-tecnica-2026.009-v.1.00",
+      "title": "Nota Técnica 2026.009 v.1.00",
+      "description": "Nota Técnica 2026.009 v.1.00",
+      "published_at": "2026-09-09",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFE/DownloadArquivoEstatico/?sistema=NFE&tipoArquivo=3&nomeArquivo=NT2026.009_v1.00_Alteracao_RV_CFOP.pdf",
+      "folder": "data/svrs/nfe/documentos/2026-09-09_nota-tecnica-2026.009-v.1.00",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-09-09_nota-tecnica-2026.009-v.1.00",
       "files": [
-        "data/svrs/nfe/documentos/2026-08-25_nota-tecnica-2026.002-v1.10a-operacoes-de-vendas-presenciais-e-nao-presenciais-com-impressao-de-danfe-simplificado-tipo-/nt-2026.002-v1.10a-danfe-simpl-tp2-emi-offline-autoriz-alerta-v2.pdf"
+        "data/svrs/nfe/documentos/2026-09-09_nota-tecnica-2026.009-v.1.00/nt2026.009-v1.00-alteracao-rv-cfop.pdf"
       ],
       "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-08-25_nota-tecnica-2026.002-v1.10a-operacoes-de-vendas-presenciais-e-nao-presenciais-com-impressao-de-danfe-simplificado-tipo-/nt-2026.002-v1.10a-danfe-simpl-tp2-emi-offline-autoriz-alerta-v2.pdf"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-09-09_nota-tecnica-2026.009-v.1.00/nt2026.009-v1.00-alteracao-rv-cfop.pdf"
       ],
-      "downloaded_at": "",
-      "status": "skipped"
+      "downloaded_at": "2026-09-12T05:26:22+00:00",
+      "status": "ok"
     },
     {
       "slug": "2026-08-25_nota-tecnica-2026.006-rtc-vinculacao-pagamento",
@@ -42,6 +42,23 @@
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-08-25_nota-tecnica-2026.006-rtc-vinculacao-pagamento/nt-2026.006-v1.00-rtc-vinculacaopagamento.pdf"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "2026-08-25_nota-tecnica-2026.002-v1.10a-operacoes-de-vendas-presenciais-e-nao-presenciais-com-impressao-de-danfe-simplificado-tipo-",
+      "title": "Nota Técnica 2026.002 v1.10a - Operações de Vendas Presenciais e Não Presenciais com Impressão de DANFE Simplificado Tipo 2",
+      "description": "Nota Técnica 2026.002 v1.10a - Operações de Vendas Presenciais e Não Presenciais com Impressão de DANFE Simplificado Tipo 2",
+      "published_at": "2026-08-25",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFE/DownloadArquivoEstatico/?sistema=NFE&tipoArquivo=3&nomeArquivo=NT_2026.002_v1.10a_DANFE_Simpl_Tp2_Emi_Offline_Autoriz_Alerta_v2.pdf",
+      "folder": "data/svrs/nfe/documentos/2026-08-25_nota-tecnica-2026.002-v1.10a-operacoes-de-vendas-presenciais-e-nao-presenciais-com-impressao-de-danfe-simplificado-tipo-",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-08-25_nota-tecnica-2026.002-v1.10a-operacoes-de-vendas-presenciais-e-nao-presenciais-com-impressao-de-danfe-simplificado-tipo-",
+      "files": [
+        "data/svrs/nfe/documentos/2026-08-25_nota-tecnica-2026.002-v1.10a-operacoes-de-vendas-presenciais-e-nao-presenciais-com-impressao-de-danfe-simplificado-tipo-/nt-2026.002-v1.10a-danfe-simpl-tp2-emi-offline-autoriz-alerta-v2.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-08-25_nota-tecnica-2026.002-v1.10a-operacoes-de-vendas-presenciais-e-nao-presenciais-com-impressao-de-danfe-simplificado-tipo-/nt-2026.002-v1.10a-danfe-simpl-tp2-emi-offline-autoriz-alerta-v2.pdf"
       ],
       "downloaded_at": "",
       "status": "skipped"
@@ -1105,7 +1122,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-10T13:14:34+00:00",
+      "downloaded_at": "2026-09-12T05:26:23+00:00",
       "status": "ok"
     },
     {
@@ -1695,7 +1712,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-10T13:14:35+00:00",
+      "downloaded_at": "2026-09-12T05:26:23+00:00",
       "status": "ok"
     },
     {
@@ -1708,7 +1725,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-10T13:14:36+00:00",
+      "downloaded_at": "2026-09-12T05:26:24+00:00",
       "status": "ok"
     },
     {
@@ -1721,7 +1738,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-10T13:14:37+00:00",
+      "downloaded_at": "2026-09-12T05:26:25+00:00",
       "status": "ok"
     },
     {
@@ -1734,7 +1751,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-10T13:14:37+00:00",
+      "downloaded_at": "2026-09-12T05:26:26+00:00",
       "status": "ok"
     },
     {
@@ -1747,7 +1764,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-10T13:14:38+00:00",
+      "downloaded_at": "2026-09-12T05:26:26+00:00",
       "status": "ok"
     },
     {

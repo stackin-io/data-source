@@ -2,9 +2,9 @@
   "context": "svrs/mdfe/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/mdfe/documentos",
-  "generated_at": "2026-09-10T13:14:44+00:00",
-  "started_at": "2026-09-10T13:14:43+00:00",
-  "duration_s": 0.93,
+  "generated_at": "2026-09-12T05:26:34+00:00",
+  "started_at": "2026-09-12T05:26:33+00:00",
+  "duration_s": 1.13,
   "totals": {
     "discovered": 30,
     "persisted": 0,
