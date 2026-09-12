@@ -1,0 +1,12 @@
+[project]
+name = "data-source"
+type = "library"
+language = "python"
+
+[source_host]
+kind = "github"
+repo = "stackin-io/data-source"
+
+[release]
+strategy = "semver"
+changelog = "conventional"

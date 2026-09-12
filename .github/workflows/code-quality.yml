@@ -1,0 +1,14 @@
+name: Code Quality
+
+on:
+  pull_request:
+    branches: ["main", "master"]
+  workflow_dispatch:
+
+jobs:
+  code-quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actionplatform/ci-github/setup@v1
+      - uses: actionplatform/ci-github/check@v1
