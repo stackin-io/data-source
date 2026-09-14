@@ -2,9 +2,9 @@
   "context": "svrs/nf3e/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos",
-  "generated_at": "2026-09-13T13:33:59+00:00",
-  "started_at": "2026-09-13T13:33:58+00:00",
-  "duration_s": 1.25,
+  "generated_at": "2026-09-14T15:30:58+00:00",
+  "started_at": "2026-09-14T15:30:57+00:00",
+  "duration_s": 0.97,
   "totals": {
     "discovered": 26,
     "persisted": 0,
