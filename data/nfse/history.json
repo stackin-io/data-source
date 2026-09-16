@@ -119,5 +119,16 @@
       "skipped": 17,
       "failed": 0
     }
+  },
+  {
+    "started_at": "2026-09-16T14:08:56+00:00",
+    "generated_at": "2026-09-16T14:08:57+00:00",
+    "duration_s": 0.81,
+    "totals": {
+      "discovered": 17,
+      "persisted": 0,
+      "skipped": 17,
+      "failed": 0
+    }
   }
 ]
