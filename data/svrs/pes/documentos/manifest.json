@@ -2,13 +2,13 @@
   "context": "svrs/pes/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/pes/documentos",
-  "generated_at": "2026-09-16T13:57:10+00:00",
-  "started_at": "2026-09-16T13:57:08+00:00",
-  "duration_s": 2.56,
+  "generated_at": "2026-09-17T14:00:13+00:00",
+  "started_at": "2026-09-17T14:00:12+00:00",
+  "duration_s": 0.82,
   "totals": {
     "discovered": 10,
-    "persisted": 2,
-    "skipped": 8,
+    "persisted": 0,
+    "skipped": 10,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-09-16_manual-de-orientacao-do-provedor-de-assinatura-e-autorizacao-v1.02/manual-de-orientacoes-do-paa-mopaa-v1.02.pdf"
       ],
-      "downloaded_at": "2026-09-16T13:57:10+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02",
@@ -39,26 +39,26 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02",
       "files": [
         "data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102.zip",
-        "/home/runner/work/data-source/data-source/data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/distPAA_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/leiauteDistPAA_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/leiauteManSitPAA_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/ManSitPAA_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/retDistPAA_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/retManSitPAA_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/tiposGeralPAA_v1.00.xsd"
+        "data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/ManSitPAA_v1.00.xsd",
+        "data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/distPAA_v1.00.xsd",
+        "data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/leiauteDistPAA_v1.00.xsd",
+        "data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/leiauteManSitPAA_v1.00.xsd",
+        "data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/retDistPAA_v1.00.xsd",
+        "data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/retManSitPAA_v1.00.xsd",
+        "data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/tiposGeralPAA_v1.00.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/ManSitPAA_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/distPAA_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/leiauteDistPAA_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/leiauteManSitPAA_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/ManSitPAA_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/retDistPAA_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/retManSitPAA_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-09-16_pacote-de-schemas-do-provedor-de-assinatura-e-autorizacao-v1.02/pl-dfepaa-102/PL_DFePAA_102/tiposGeralPAA_v1.00.xsd"
       ],
-      "downloaded_at": "2026-09-16T13:57:10+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split",
