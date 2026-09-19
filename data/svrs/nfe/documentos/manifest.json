@@ -2,9 +2,9 @@
   "context": "svrs/nfe/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos",
-  "generated_at": "2026-09-18T13:17:19+00:00",
-  "started_at": "2026-09-18T13:17:13+00:00",
-  "duration_s": 5.47,
+  "generated_at": "2026-09-19T12:47:58+00:00",
+  "started_at": "2026-09-19T12:47:52+00:00",
+  "duration_s": 6.17,
   "totals": {
     "discovered": 93,
     "persisted": 0,
@@ -1122,7 +1122,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-18T13:17:15+00:00",
+      "downloaded_at": "2026-09-19T12:47:54+00:00",
       "status": "ok"
     },
     {
@@ -1712,7 +1712,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-18T13:17:16+00:00",
+      "downloaded_at": "2026-09-19T12:47:55+00:00",
       "status": "ok"
     },
     {
@@ -1725,7 +1725,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-18T13:17:16+00:00",
+      "downloaded_at": "2026-09-19T12:47:56+00:00",
       "status": "ok"
     },
     {
@@ -1738,7 +1738,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-18T13:17:17+00:00",
+      "downloaded_at": "2026-09-19T12:47:56+00:00",
       "status": "ok"
     },
     {
@@ -1751,7 +1751,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-18T13:17:18+00:00",
+      "downloaded_at": "2026-09-19T12:47:57+00:00",
       "status": "ok"
     },
     {
@@ -1764,7 +1764,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-18T13:17:19+00:00",
+      "downloaded_at": "2026-09-19T12:47:58+00:00",
       "status": "ok"
     },
     {
