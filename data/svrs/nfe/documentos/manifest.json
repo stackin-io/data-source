@@ -2,13 +2,13 @@
   "context": "svrs/nfe/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos",
-  "generated_at": "2026-09-19T12:47:58+00:00",
-  "started_at": "2026-09-19T12:47:52+00:00",
-  "duration_s": 6.17,
+  "generated_at": "2026-09-23T13:59:50+00:00",
+  "started_at": "2026-09-23T13:59:42+00:00",
+  "duration_s": 7.58,
   "totals": {
     "discovered": 93,
-    "persisted": 0,
-    "skipped": 87,
+    "persisted": 1,
+    "skipped": 86,
     "failed": 0
   },
   "items": [
@@ -219,6 +219,23 @@
       "status": "skipped"
     },
     {
+      "slug": "2026-06-23_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.60",
+      "title": "IT 2025.002 RT Tabela de Classificação Tributária v1.60",
+      "description": "IT 2025.002 RT Tabela de Classificação Tributária v1.60",
+      "published_at": "2026-06-23",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT+2025.002+v.1.60+-+Tabelas+de+Classifica%C3%A7%C3%A3o+do+IBS+e+da+CBS+-+%282026_06_22%29.pdf",
+      "folder": "data/svrs/nfe/documentos/2026-06-23_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.60",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-06-23_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.60",
+      "files": [
+        "data/svrs/nfe/documentos/2026-06-23_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.60/it-2025.002-v.1.60-tabelas-de-classificacao-do-ibs-e-da-cbs-2026-06-22.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-06-23_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.60/it-2025.002-v.1.60-tabelas-de-classificacao-do-ibs-e-da-cbs-2026-06-22.pdf"
+      ],
+      "downloaded_at": "2026-09-23T13:59:46+00:00",
+      "status": "ok"
+    },
+    {
       "slug": "2026-06-22_tabela-de-codigos-de-credito-presumido",
       "title": "Tabela de Códigos de Crédito Presumido",
       "description": "Tabela de Códigos de Crédito Presumido",
@@ -282,23 +299,6 @@
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-05-22_nota-tecnica-2026.003-especificacoes-tecnicas-do-danfe-simplificado-tipo-2/nt-2026.003-v1.00-danfe-simplificado-tipo-2.pdf"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
-      "slug": "2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50",
-      "title": "IT 2025.002 RT Tabela de Classificação Tributária v1.50",
-      "description": "IT 2025.002 RT Tabela de Classificação Tributária v1.50",
-      "published_at": "2026-04-15",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT+2025.002+v.1.50+-+Tabelas+de+Classifica%C3%A7%C3%A3o+do+IBS+e+da+CBS.pdf",
-      "folder": "data/svrs/nfe/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50",
-      "files": [
-        "data/svrs/nfe/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50/it-2025.002-v.1.50-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50/it-2025.002-v.1.50-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
       ],
       "downloaded_at": "",
       "status": "skipped"
@@ -1122,7 +1122,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-19T12:47:54+00:00",
+      "downloaded_at": "2026-09-23T13:59:46+00:00",
       "status": "ok"
     },
     {
@@ -1712,7 +1712,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-19T12:47:55+00:00",
+      "downloaded_at": "2026-09-23T13:59:47+00:00",
       "status": "ok"
     },
     {
@@ -1725,7 +1725,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-19T12:47:56+00:00",
+      "downloaded_at": "2026-09-23T13:59:47+00:00",
       "status": "ok"
     },
     {
@@ -1738,7 +1738,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-19T12:47:56+00:00",
+      "downloaded_at": "2026-09-23T13:59:48+00:00",
       "status": "ok"
     },
     {
@@ -1751,7 +1751,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-19T12:47:57+00:00",
+      "downloaded_at": "2026-09-23T13:59:49+00:00",
       "status": "ok"
     },
     {
@@ -1764,7 +1764,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-19T12:47:58+00:00",
+      "downloaded_at": "2026-09-23T13:59:50+00:00",
       "status": "ok"
     },
     {

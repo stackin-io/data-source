@@ -2,13 +2,13 @@
   "context": "svrs/bpe/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos",
-  "generated_at": "2026-09-19T12:48:10+00:00",
-  "started_at": "2026-09-19T12:48:08+00:00",
-  "duration_s": 1.87,
+  "generated_at": "2026-09-23T14:00:09+00:00",
+  "started_at": "2026-09-23T14:00:05+00:00",
+  "duration_s": 3.56,
   "totals": {
     "discovered": 28,
-    "persisted": 0,
-    "skipped": 28,
+    "persisted": 1,
+    "skipped": 27,
     "failed": 0
   },
   "items": [
@@ -62,6 +62,23 @@
       ],
       "downloaded_at": "",
       "status": "skipped"
+    },
+    {
+      "slug": "2026-06-23_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.60",
+      "title": "IT 2025.002 RT Tabela de Classificação Tributária v1.60",
+      "description": "IT 2025.002 RT Tabela de Classificação Tributária v1.60",
+      "published_at": "2026-06-23",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT+2025.002+v.1.60+-+Tabelas+de+Classifica%C3%A7%C3%A3o+do+IBS+e+da+CBS+-+%282026_06_22%29.pdf",
+      "folder": "data/svrs/bpe/documentos/2026-06-23_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.60",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos/2026-06-23_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.60",
+      "files": [
+        "data/svrs/bpe/documentos/2026-06-23_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.60/it-2025.002-v.1.60-tabelas-de-classificacao-do-ibs-e-da-cbs-2026-06-22.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-06-23_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.60/it-2025.002-v.1.60-tabelas-de-classificacao-do-ibs-e-da-cbs-2026-06-22.pdf"
+      ],
+      "downloaded_at": "2026-09-23T14:00:09+00:00",
+      "status": "ok"
     },
     {
       "slug": "2026-06-22_schemas-nt-2026.002",
@@ -298,23 +315,6 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/retEventoBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/tiposGeralBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-05-20_schemas-nt-2025.001-rtc-v1.14a/pl-bpe-100b-nt2025.001-rtc-1.14a-corr/PL_BPe_100b_NT2025.001 RTC_1.14a_corr/xmldsig-core-schema_v1.01.xsd"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
-      "slug": "2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50",
-      "title": "IT 2025.002 RT Tabela de Classificação Tributária v1.50",
-      "description": "IT 2025.002 RT Tabela de Classificação Tributária v1.50",
-      "published_at": "2026-04-15",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT+2025.002+v.1.50+-+Tabelas+de+Classifica%C3%A7%C3%A3o+do+IBS+e+da+CBS.pdf",
-      "folder": "data/svrs/bpe/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50",
-      "files": [
-        "data/svrs/bpe/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50/it-2025.002-v.1.50-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-04-15_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.50/it-2025.002-v.1.50-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
       ],
       "downloaded_at": "",
       "status": "skipped"
