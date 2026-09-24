@@ -8,6 +8,8 @@ from dataclasses import asdict, dataclass, field
 from datetime import UTC, datetime
 from pathlib import Path
 
+from tenacity import Retrying, stop_after_attempt, wait_exponential
+
 from data_source.config import Settings, get_settings
 from data_source.core.browser import Browser
 from data_source.core.downloader import Downloader
@@ -135,7 +137,7 @@ class BaseScraper(ABC):
         browser_ctx = self._browser if self.uses_browser else nullcontext()
         with browser_ctx, self._downloader:
             try:
-                items = list(self._safe_discover())
+                items = self._discover_with_retry()
             except DiscoveryError as exc:
                 self._log.error("scrape.discovery_failed", error=str(exc))
                 raise
@@ -207,6 +209,22 @@ class BaseScraper(ABC):
             failed=result.failed,
         )
         return result
+
+    def _discover_with_retry(self) -> list[ScrapeItem]:
+        """Retry discovery with backoff; a slow portal fails one attempt."""
+        retrying = Retrying(
+            reraise=True,
+            stop=stop_after_attempt(max(1, self._settings.max_retries)),
+            wait=wait_exponential(
+                multiplier=1, min=1, max=self._settings.retry_max_wait_s
+            ),
+            before_sleep=lambda state: self._log.warning(
+                "scrape.discovery_retry",
+                attempt=state.attempt_number,
+                error=str(state.outcome.exception()),
+            ),
+        )
+        return retrying(lambda: list(self._safe_discover()))
 
     def _safe_discover(self) -> Iterable[ScrapeItem]:
         try:
