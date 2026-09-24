@@ -16,7 +16,7 @@ class _FakeScraper(BaseScraper):
     def __init__(self, items, artifacts_by_url, **kwargs):
         super().__init__(**kwargs)
         self._items = items
-        self._artifacts_by_url = artifacts_by_url
+        self._artifacts_by_url: dict[str, list[Artifact]] = artifacts_by_url
 
     def discover(self) -> Iterable[ScrapeItem]:
         yield from self._items

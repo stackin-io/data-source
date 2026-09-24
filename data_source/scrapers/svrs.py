@@ -193,14 +193,14 @@ def _download_url(sistema: str, tipo: str, filename: str) -> str:
     return f"{PORTAL_ROOT}/{sistema}/DownloadArquivoEstatico/?{query}"
 
 
-def _description(article) -> str:  # type: ignore[no-untyped-def]
+def _description(article) -> str:
     paragraph = article.find("p")
     if paragraph is None:
         return ""
     return " ".join(paragraph.get_text(" ", strip=True).split())[:500]
 
 
-def _published_at(article) -> str | None:  # type: ignore[no-untyped-def]
+def _published_at(article) -> str | None:
     time_tag = article.find("time")
     if time_tag is None:
         return None

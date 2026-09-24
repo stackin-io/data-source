@@ -56,7 +56,7 @@ class Downloader:
     def __enter__(self) -> Downloader:
         return self
 
-    def __exit__(self, exc_type, exc, tb) -> None:  # type: ignore[no-untyped-def]
+    def __exit__(self, exc_type, exc, tb) -> None:
         self._client.close()
 
     def _throttle(self) -> None:

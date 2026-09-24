@@ -78,7 +78,7 @@ class Browser:
         self.start()
         return self
 
-    def __exit__(self, exc_type, exc, tb) -> None:  # type: ignore[no-untyped-def]
+    def __exit__(self, exc_type, exc, tb) -> None:
         self.stop()
 
 
