@@ -122,6 +122,52 @@ class TestBaseScraperRun(unittest.TestCase):
         with self.assertRaises(DiscoveryError):
             scraper.run()
 
+    def test_retries_discovery_until_it_succeeds(self):
+        calls = []
+
+        class Flaky(_FakeScraper):
+            def discover(self):
+                calls.append(1)
+                if len(calls) < 2:
+                    raise RuntimeError("renderer timeout")
+                yield from self._items
+
+        items = [ScrapeItem(url="https://x/1", kind="file")]
+        scraper = Flaky(
+            items,
+            {"https://x/1": [Artifact(filename="a.xml", data=b"<a/>")]},
+            settings=self.settings,
+            storage=self.storage,
+            browser=self.browser,
+            downloader=self.downloader,
+        )
+
+        result = scraper.run()
+
+        self.assertEqual(len(calls), 2)
+        self.assertEqual(result.persisted, 1)
+
+    def test_gives_up_after_max_retries(self):
+        calls = []
+
+        class AlwaysDown(_FakeScraper):
+            def discover(self):
+                calls.append(1)
+                raise RuntimeError("network down")
+
+        scraper = AlwaysDown(
+            [],
+            {},
+            settings=self.settings,
+            storage=self.storage,
+            browser=self.browser,
+            downloader=self.downloader,
+        )
+
+        with self.assertRaises(DiscoveryError):
+            scraper.run()
+        self.assertEqual(len(calls), self.settings.max_retries)
+
 
 if __name__ == "__main__":
     unittest.main()
