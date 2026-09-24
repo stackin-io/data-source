@@ -69,9 +69,7 @@ class Downloader:
         @retry(
             reraise=True,
             stop=stop_after_attempt(self._max_retries),
-            wait=wait_exponential(
-                multiplier=1, min=1, max=self._retry_max_wait_s
-            ),
+            wait=wait_exponential(multiplier=1, min=1, max=self._retry_max_wait_s),
             retry=retry_if_exception_type((httpx.HTTPError,)),
         )
         def _do() -> httpx.Response:

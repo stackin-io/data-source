@@ -39,7 +39,6 @@ LISTING = """
 
 
 class TestSVRSDiscovery(unittest.TestCase):
-
     def setUp(self):
         self._tmp = tempfile.TemporaryDirectory()
         self.settings = Settings(output_dir=Path(self._tmp.name))
@@ -164,7 +163,6 @@ class TestNFePortalRejectsHtml(unittest.TestCase):
 
 
 class TestEverySVRSPortalIsRegistered(unittest.TestCase):
-
     EXPECTED: ClassVar[dict[str, str]] = {
         "svrs/nfe/documentos": "https://dfe-portal.svrs.rs.gov.br/Nfe/Documentos",
         "svrs/nfce/documentos": "https://dfe-portal.svrs.rs.gov.br/Nfce/Documentos",

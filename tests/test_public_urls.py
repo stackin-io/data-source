@@ -40,9 +40,7 @@ class TestFolderUrlsNeverUseRaw(unittest.TestCase):
         downloader = MagicMock()
         downloader.__enter__.return_value = downloader
         self.result = _OneFileScraper(
-            settings=Settings(
-                output_dir=self.root, public_base_url=RAW, browse_base_url=TREE
-            ),
+            settings=Settings(output_dir=self.root, public_base_url=RAW, browse_base_url=TREE),
             storage=LocalStorage(self.root),
             browser=MagicMock(),
             downloader=downloader,
@@ -60,9 +58,7 @@ class TestFolderUrlsNeverUseRaw(unittest.TestCase):
 
     def test_file_urls_use_raw(self):
         item = self._manifest()["items"][0]
-        self.assertEqual(
-            item["file_urls"], [f"{RAW}/nfse/2026-02-09_manual/doc.pdf"]
-        )
+        self.assertEqual(item["file_urls"], [f"{RAW}/nfse/2026-02-09_manual/doc.pdf"])
 
     def test_folder_url_uses_the_browse_base(self):
         item = self._manifest()["items"][0]
@@ -109,9 +105,7 @@ class TestEmptyDownloadsAreNotPersisted(unittest.TestCase):
         downloader = MagicMock()
         downloader.__enter__.return_value = downloader
         self.result = _EmptyFileScraper(
-            settings=Settings(
-                output_dir=self.root, public_base_url=RAW, browse_base_url=TREE
-            ),
+            settings=Settings(output_dir=self.root, public_base_url=RAW, browse_base_url=TREE),
             storage=LocalStorage(self.root),
             browser=MagicMock(),
             downloader=downloader,

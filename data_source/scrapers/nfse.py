@@ -19,8 +19,18 @@ _DATE_MONTH_RE = re.compile(
     flags=re.IGNORECASE,
 )
 _MONTHS = {
-    "jan": "01", "fev": "02", "mar": "03", "abr": "04", "mai": "05", "jun": "06",
-    "jul": "07", "ago": "08", "set": "09", "out": "10", "nov": "11", "dez": "12",
+    "jan": "01",
+    "fev": "02",
+    "mar": "03",
+    "abr": "04",
+    "mai": "05",
+    "jun": "06",
+    "jul": "07",
+    "ago": "08",
+    "set": "09",
+    "out": "10",
+    "nov": "11",
+    "dez": "12",
 }
 
 

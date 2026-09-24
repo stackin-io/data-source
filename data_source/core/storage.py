@@ -61,7 +61,4 @@ class LocalStorage:
         folder = self._root.joinpath(*parts)
         if not folder.exists():
             return False
-        return any(
-            entry.is_file() and entry.name != ".gitkeep"
-            for entry in folder.iterdir()
-        )
+        return any(entry.is_file() and entry.name != ".gitkeep" for entry in folder.iterdir())

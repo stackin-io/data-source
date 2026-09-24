@@ -69,7 +69,9 @@ class Browser:
     @property
     def driver(self) -> WebDriver:
         if self._driver is None:
-            raise BrowserError("browser not started; use `with Browser(...)` or call .start() first")
+            raise BrowserError(
+                "browser not started; use `with Browser(...)` or call .start() first"
+            )
         return self._driver
 
     def __enter__(self) -> Browser:
