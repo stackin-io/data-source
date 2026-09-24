@@ -47,9 +47,7 @@ class TestRebuildAggregatesEveryContext(unittest.TestCase):
             (folder / "manifest.json").write_text(
                 json.dumps(manifest(context, slug, published)), encoding="utf-8"
             )
-        self.settings = Settings(
-            output_dir=self.root, public_base_url=RAW, browse_base_url=TREE
-        )
+        self.settings = Settings(output_dir=self.root, public_base_url=RAW, browse_base_url=TREE)
         self.contexts = rebuild(self.settings)
 
     def tearDown(self):

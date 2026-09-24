@@ -168,9 +168,7 @@ class BaseScraper(ABC):
                 item_ok = True
                 for art in artifacts:
                     if not art.data:
-                        self._log.warning(
-                            "scrape.empty_file", url=item.url, filename=art.filename
-                        )
+                        self._log.warning("scrape.empty_file", url=item.url, filename=art.filename)
                         continue
                     try:
                         target_context = self.context
@@ -215,9 +213,7 @@ class BaseScraper(ABC):
         retrying = Retrying(
             reraise=True,
             stop=stop_after_attempt(max(1, self._settings.max_retries)),
-            wait=wait_exponential(
-                multiplier=1, min=1, max=self._settings.retry_max_wait_s
-            ),
+            wait=wait_exponential(multiplier=1, min=1, max=self._settings.retry_max_wait_s),
             before_sleep=lambda state: self._log.warning(
                 "scrape.discovery_retry",
                 attempt=state.attempt_number,

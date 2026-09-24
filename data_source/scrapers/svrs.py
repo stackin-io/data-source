@@ -51,9 +51,7 @@ class _SVRSPortalScraper(BaseScraper):
             filename = html.unescape(match.group("nome"))
             items.append(
                 ScrapeItem(
-                    url=_download_url(
-                        match.group("sistema"), match.group("tipo"), filename
-                    ),
+                    url=_download_url(match.group("sistema"), match.group("tipo"), filename),
                     kind="download",
                     metadata={
                         "title": title,
@@ -77,9 +75,7 @@ class _SVRSPortalScraper(BaseScraper):
         title = item.metadata.get("title", "")
         downloaded = self._downloader.fetch(item.url, title_hint=title)
         yield Artifact(
-            filename=_safe_filename(
-                item.metadata.get("filename") or downloaded.filename
-            ),
+            filename=_safe_filename(item.metadata.get("filename") or downloaded.filename),
             data=downloaded.data,
             content_type=downloaded.content_type,
             subpath=self.subpath_for(item),
@@ -193,9 +189,7 @@ class SVRSONEDocumentosScraper(_SVRSPortalScraper):
 
 
 def _download_url(sistema: str, tipo: str, filename: str) -> str:
-    query = urlencode(
-        {"sistema": sistema, "tipoArquivo": tipo, "nomeArquivo": filename}
-    )
+    query = urlencode({"sistema": sistema, "tipoArquivo": tipo, "nomeArquivo": filename})
     return f"{PORTAL_ROOT}/{sistema}/DownloadArquivoEstatico/?{query}"
 
 

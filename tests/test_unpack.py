@@ -14,7 +14,6 @@ def _make_zip(path: Path, entries: dict[str, bytes]) -> None:
 
 
 class TestMaybeUnpackZip(unittest.TestCase):
-
     def setUp(self):
         self._tmp = tempfile.TemporaryDirectory()
         self.root = Path(self._tmp.name)

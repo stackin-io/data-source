@@ -20,7 +20,9 @@ def scrape(
     name: str = typer.Argument(..., help="Scraper id (e.g. nfe, nfse)"),
     out: Path | None = typer.Option(None, "--out", help="Output dir"),
     headless: bool = typer.Option(True, "--headless/--no-headless", help="Run browser headless"),
-    force: bool = typer.Option(False, "--force", help="Re-download items even if target folder has files"),
+    force: bool = typer.Option(
+        False, "--force", help="Re-download items even if target folder has files"
+    ),
 ) -> None:
     """Run a registered scraper end-to-end. Skips items whose folder already has files (use --force to override)."""
     settings = get_settings()

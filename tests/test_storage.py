@@ -6,7 +6,6 @@ from data_source.core.storage import LocalStorage
 
 
 class TestLocalStorage(unittest.TestCase):
-
     def setUp(self) -> None:
         self._tmp = tempfile.TemporaryDirectory()
         self.root = Path(self._tmp.name)

@@ -4,7 +4,6 @@ from data_source.core.downloader import Downloader, slugify
 
 
 class TestSuggestFilename(unittest.TestCase):
-
     def test_uses_original_name_when_url_has_filename(self):
         self.assertEqual(
             Downloader.suggest_filename("https://x/schemas/leiauteNFe_v4.00.xsd"),
@@ -25,7 +24,6 @@ class TestSuggestFilename(unittest.TestCase):
 
 
 class TestSlugify(unittest.TestCase):
-
     def test_replaces_spaces_with_dashes_and_lowercases(self):
         self.assertEqual(
             slugify("Esquemas XML NF-e - Pacote de Liberação"),

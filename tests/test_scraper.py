@@ -26,7 +26,6 @@ class _FakeScraper(BaseScraper):
 
 
 class TestBaseScraperContract(unittest.TestCase):
-
     def test_requires_context_attribute(self):
         class NoContext(BaseScraper):
             def discover(self):
@@ -40,7 +39,6 @@ class TestBaseScraperContract(unittest.TestCase):
 
 
 class TestBaseScraperRun(unittest.TestCase):
-
     def setUp(self):
         self._tmp = tempfile.TemporaryDirectory()
         self.root = Path(self._tmp.name)

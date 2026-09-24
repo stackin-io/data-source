@@ -57,8 +57,7 @@ def build_context_feed(settings: Settings, manifest: dict) -> str:
             "id": f"{browse_url}/{context}/{item.get('slug', '')}",
             "title": item.get("title", ""),
             "summary": item.get("description", ""),
-            "link": item.get("folder_url")
-            or f"{browse_url}/{context}/{item.get('slug', '')}",
+            "link": item.get("folder_url") or f"{browse_url}/{context}/{item.get('slug', '')}",
             "updated": entry_updated(item, generated_at),
         }
         for item in items[:CONTEXT_FEED_LIMIT]

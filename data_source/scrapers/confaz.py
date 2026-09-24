@@ -19,7 +19,6 @@ _NCM_RE = re.compile(r"^\d{4}[\d./ ,-]{2,}$")
 
 
 class ConfazCestScraper(BaseScraper):
-
     context = "confaz/cest"
     uses_browser = True
 
@@ -53,9 +52,7 @@ class ConfazCestScraper(BaseScraper):
         @retry(
             reraise=True,
             stop=stop_after_attempt(self._settings.max_retries),
-            wait=wait_exponential(
-                multiplier=1, min=1, max=self._settings.retry_max_wait_s
-            ),
+            wait=wait_exponential(multiplier=1, min=1, max=self._settings.retry_max_wait_s),
             retry=retry_if_exception_type((WebDriverException,)),
         )
         def _do() -> str:

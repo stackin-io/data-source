@@ -5,7 +5,6 @@ from data_source.core.feed import build_atom
 
 
 class TestBuildAtom(unittest.TestCase):
-
     def _parse(self, xml: str) -> ET.Element:
         return ET.fromstring(xml.encode("utf-8"))
 
