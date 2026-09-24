@@ -8,7 +8,10 @@ from data_source.config import Settings
 from data_source.core.scraper import ScrapeItem
 from data_source.scrapers import REGISTRY
 from data_source.scrapers.nfe import NFeDiversosScraper
-from data_source.scrapers.svrs import SVRSNFeDocumentosScraper
+from data_source.scrapers.svrs import (
+    SVRSNFeDocumentosScraper,
+    _SVRSPortalScraper,
+)
 
 LISTING = """
 <html><body>
@@ -184,7 +187,9 @@ class TestEverySVRSPortalIsRegistered(unittest.TestCase):
     def test_each_context_resolves_to_its_own_portal(self):
         for context, url in self.EXPECTED.items():
             with self.subTest(context=context):
-                scraper = REGISTRY[context](
+                cls = REGISTRY[context]
+                assert issubclass(cls, _SVRSPortalScraper)
+                scraper = cls(
                     settings=Settings(output_dir=Path(tempfile.gettempdir())),
                     browser=MagicMock(),
                     downloader=MagicMock(),
@@ -197,5 +202,7 @@ class TestEverySVRSPortalIsRegistered(unittest.TestCase):
         self.assertEqual(registered, set(self.EXPECTED))
 
     def test_contexts_are_distinct(self):
-        slugs = {REGISTRY[c].doc_slug for c in self.EXPECTED}
+        classes = [REGISTRY[c] for c in self.EXPECTED]
+        assert all(issubclass(c, _SVRSPortalScraper) for c in classes)
+        slugs = {c.doc_slug for c in classes if issubclass(c, _SVRSPortalScraper)}
         self.assertEqual(len(slugs), len(self.EXPECTED))

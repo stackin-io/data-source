@@ -108,7 +108,7 @@ class NFeManuaisScraper(_NFePortalScraper):
 NFeScraper = NFeEsquemasXMLScraper
 
 
-def _link_title(anchor) -> str:  # type: ignore[no-untyped-def]
+def _link_title(anchor) -> str:
     span = anchor.find("span", class_="tituloConteudo")
     text = (span.get_text(" ", strip=True) if span else anchor.get_text(" ", strip=True)) or ""
     return " ".join(text.split())

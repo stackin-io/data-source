@@ -297,9 +297,8 @@ class BaseScraper(ABC):
         if history_path.exists():
             try:
                 with history_path.open(encoding="utf-8") as fh:
-                    history = json.load(fh)
-                    if not isinstance(history, list):
-                        history = []
+                    loaded = json.load(fh)
+                history = loaded if isinstance(loaded, list) else []
             except (OSError, json.JSONDecodeError):
                 history = []
         history.append(entry)

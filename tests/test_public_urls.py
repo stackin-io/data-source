@@ -51,7 +51,8 @@ class TestFolderUrlsNeverUseRaw(unittest.TestCase):
 
     def _manifest(self) -> dict:
         with (self.root / "nfse" / "manifest.json").open(encoding="utf-8") as fh:
-            return json.load(fh)
+            data: dict = json.load(fh)
+        return data
 
     def _feed(self) -> str:
         return (self.root / "nfse" / "feed.xml").read_text(encoding="utf-8")

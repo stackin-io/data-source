@@ -101,7 +101,7 @@ class NFSeScraper(BaseScraper):
         )
 
 
-def _nearest_section(anchor) -> str | None:  # type: ignore[no-untyped-def]
+def _nearest_section(anchor) -> str | None:
     """Walk up siblings to find the section label (`<strong>Guias</strong>` etc)."""
     row = anchor.find_parent("tr")
     if row is None:

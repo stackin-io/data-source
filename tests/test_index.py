@@ -55,7 +55,8 @@ class TestRebuildAggregatesEveryContext(unittest.TestCase):
 
     def _root_manifest(self) -> dict:
         with (self.root / "manifest.json").open(encoding="utf-8") as fh:
-            return json.load(fh)
+            data: dict = json.load(fh)
+        return data
 
     def test_returns_every_context_found_on_disk(self):
         self.assertEqual(
@@ -70,7 +71,7 @@ class TestRebuildAggregatesEveryContext(unittest.TestCase):
 
     def test_root_feed_carries_an_entry_per_context_newest_first(self):
         root = ET.parse(self.root / "feed.xml").getroot()
-        titles = [e.find(f"{NS}title").text for e in root.findall(f"{NS}entry")]
+        titles = [e.findtext(f"{NS}title", "") for e in root.findall(f"{NS}entry")]
         self.assertEqual(len(titles), 3)
         self.assertTrue(titles[0].startswith("[SVRS/NFE/DOCUMENTOS]"))
         self.assertTrue(titles[-1].startswith("[SVRS/CTE/DOCUMENTOS]"))
