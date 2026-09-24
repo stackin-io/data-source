@@ -2,13 +2,13 @@
   "context": "svrs/nfe/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos",
-  "generated_at": "2026-09-23T13:59:50+00:00",
-  "started_at": "2026-09-23T13:59:42+00:00",
-  "duration_s": 7.58,
+  "generated_at": "2026-09-24T13:56:34+00:00",
+  "started_at": "2026-09-24T13:56:29+00:00",
+  "duration_s": 5.17,
   "totals": {
     "discovered": 93,
-    "persisted": 1,
-    "skipped": 86,
+    "persisted": 0,
+    "skipped": 87,
     "failed": 0
   },
   "items": [
@@ -232,8 +232,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-06-23_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.60/it-2025.002-v.1.60-tabelas-de-classificacao-do-ibs-e-da-cbs-2026-06-22.pdf"
       ],
-      "downloaded_at": "2026-09-23T13:59:46+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-06-22_tabela-de-codigos-de-credito-presumido",
@@ -1122,7 +1122,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-23T13:59:46+00:00",
+      "downloaded_at": "2026-09-24T13:56:30+00:00",
       "status": "ok"
     },
     {
@@ -1712,7 +1712,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-23T13:59:47+00:00",
+      "downloaded_at": "2026-09-24T13:56:31+00:00",
       "status": "ok"
     },
     {
@@ -1725,7 +1725,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-23T13:59:47+00:00",
+      "downloaded_at": "2026-09-24T13:56:32+00:00",
       "status": "ok"
     },
     {
@@ -1738,7 +1738,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-23T13:59:48+00:00",
+      "downloaded_at": "2026-09-24T13:56:33+00:00",
       "status": "ok"
     },
     {
@@ -1751,7 +1751,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-23T13:59:49+00:00",
+      "downloaded_at": "2026-09-24T13:56:33+00:00",
       "status": "ok"
     },
     {
@@ -1764,7 +1764,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-23T13:59:50+00:00",
+      "downloaded_at": "2026-09-24T13:56:34+00:00",
       "status": "ok"
     },
     {

@@ -2,13 +2,13 @@
   "context": "svrs/mdfe/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/mdfe/documentos",
-  "generated_at": "2026-09-23T14:00:04+00:00",
-  "started_at": "2026-09-23T14:00:01+00:00",
-  "duration_s": 3.53,
+  "generated_at": "2026-09-24T13:56:41+00:00",
+  "started_at": "2026-09-24T13:56:39+00:00",
+  "duration_s": 1.23,
   "totals": {
     "discovered": 30,
-    "persisted": 1,
-    "skipped": 29,
+    "persisted": 0,
+    "skipped": 30,
     "failed": 0
   },
   "items": [
@@ -43,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/2026-06-23_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.60/it-2025.002-v.1.60-tabelas-de-classificacao-do-ibs-e-da-cbs-2026-06-22.pdf"
       ],
-      "downloaded_at": "2026-09-23T14:00:04+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
