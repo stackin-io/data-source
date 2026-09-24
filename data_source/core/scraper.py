@@ -221,7 +221,7 @@ class BaseScraper(ABC):
             before_sleep=lambda state: self._log.warning(
                 "scrape.discovery_retry",
                 attempt=state.attempt_number,
-                error=str(state.outcome.exception()),
+                error=str(state.outcome and state.outcome.exception()),
             ),
         )
         return retrying(lambda: list(self._safe_discover()))
