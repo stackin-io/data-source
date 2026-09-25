@@ -2,9 +2,9 @@
   "context": "nfe/diversos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/diversos",
-  "generated_at": "2026-09-24T05:15:56+00:00",
-  "started_at": "2026-09-24T05:15:51+00:00",
-  "duration_s": 5.08,
+  "generated_at": "2026-09-25T14:18:24+00:00",
+  "started_at": "2026-09-25T14:18:19+00:00",
+  "duration_s": 4.88,
   "totals": {
     "discovered": 97,
     "persisted": 0,
@@ -17,7 +17,7 @@
       "title": "Tabela de CFOP - Publicada em 04/09/2026",
       "description": "Tabela de CFOP",
       "published_at": "2026-09-04",
-      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=cQyJHWhaTZQ=",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=74KmX8poGpM=",
       "folder": "data/nfe/diversos/2026-09-04_tabela-de-cfop-publicada-em-04092026",
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/diversos/2026-09-04_tabela-de-cfop-publicada-em-04092026",
       "files": [
@@ -1433,7 +1433,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-24T05:15:55+00:00",
+      "downloaded_at": "2026-09-25T14:18:23+00:00",
       "status": "ok"
     },
     {
@@ -1446,7 +1446,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-24T05:15:56+00:00",
+      "downloaded_at": "2026-09-25T14:18:23+00:00",
       "status": "ok"
     },
     {
