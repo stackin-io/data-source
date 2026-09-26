@@ -2,13 +2,13 @@
   "context": "svrs/nfe/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos",
-  "generated_at": "2026-09-25T14:20:32+00:00",
-  "started_at": "2026-09-25T14:20:25+00:00",
-  "duration_s": 6.96,
+  "generated_at": "2026-09-26T13:31:40+00:00",
+  "started_at": "2026-09-26T13:31:34+00:00",
+  "duration_s": 6.29,
   "totals": {
     "discovered": 95,
     "persisted": 1,
-    "skipped": 87,
+    "skipped": 88,
     "failed": 0
   },
   "items": [
@@ -17,12 +17,16 @@
       "title": "Nota Técnica 2021.003 v.1.50",
       "description": "Nota Técnica 2021.003 v.1.50",
       "published_at": "2026-09-25",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFE/DownloadArquivoEstatico/?sistema=NFE&tipoArquivo=3&nomeArquivo=NT2021.003_v1_50+-+Validac%C2%B8a~o+GTIN+Grupo+V.pdf",
-      "folder": "",
-      "folder_url": "",
-      "files": [],
-      "file_urls": [],
-      "downloaded_at": "2026-09-25T14:20:27+00:00",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFE/DownloadArquivoEstatico/?sistema=NFE&tipoArquivo=3&nomeArquivo=NT2021.003_v1_50+-+Valida%C3%A7%C3%A3o+GTIN+Grupo+V.pdf",
+      "folder": "data/svrs/nfe/documentos/2026-09-25_nota-tecnica-2021.003-v.1.50",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-09-25_nota-tecnica-2021.003-v.1.50",
+      "files": [
+        "data/svrs/nfe/documentos/2026-09-25_nota-tecnica-2021.003-v.1.50/nt2021.003-v1-50-validacao-gtin-grupo-v.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-09-25_nota-tecnica-2021.003-v.1.50/nt2021.003-v1-50-validacao-gtin-grupo-v.pdf"
+      ],
+      "downloaded_at": "2026-09-26T13:31:36+00:00",
       "status": "ok"
     },
     {
@@ -39,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-09-24_nota-tecnica-2023.003-v.1.4/nt-2023.003-v1.40-cfop-nfce.pdf"
       ],
-      "downloaded_at": "2026-09-25T14:20:28+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-09-09_nota-tecnica-2026.009-v.1.00",
@@ -1152,7 +1156,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-25T14:20:28+00:00",
+      "downloaded_at": "2026-09-26T13:31:36+00:00",
       "status": "ok"
     },
     {
@@ -1742,7 +1746,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-25T14:20:29+00:00",
+      "downloaded_at": "2026-09-26T13:31:37+00:00",
       "status": "ok"
     },
     {
@@ -1755,7 +1759,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-25T14:20:30+00:00",
+      "downloaded_at": "2026-09-26T13:31:38+00:00",
       "status": "ok"
     },
     {
@@ -1768,7 +1772,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-25T14:20:30+00:00",
+      "downloaded_at": "2026-09-26T13:31:39+00:00",
       "status": "ok"
     },
     {
@@ -1781,7 +1785,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-25T14:20:31+00:00",
+      "downloaded_at": "2026-09-26T13:31:39+00:00",
       "status": "ok"
     },
     {
@@ -1794,7 +1798,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-25T14:20:32+00:00",
+      "downloaded_at": "2026-09-26T13:31:40+00:00",
       "status": "ok"
     },
     {

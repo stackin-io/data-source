@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T13:29:08+00:00",
+  "generated_at": "2026-09-26T13:32:09+00:00",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data",
   "browse_base_url": "https://github.com/stackin-io/data-source/tree/master/data",
   "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml",
@@ -100,7 +100,7 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos",
-      "generated_at": "2026-09-25T14:20:42+00:00",
+      "generated_at": "2026-09-26T13:31:49+00:00",
       "totals": {
         "discovered": 28,
         "persisted": 0,
@@ -113,7 +113,7 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/cte/documentos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/cte/documentos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/cte/documentos",
-      "generated_at": "2026-09-25T14:20:37+00:00",
+      "generated_at": "2026-09-26T13:31:45+00:00",
       "totals": {
         "discovered": 31,
         "persisted": 0,
@@ -126,7 +126,7 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/dce/documentos",
-      "generated_at": "2026-09-25T14:20:54+00:00",
+      "generated_at": "2026-09-26T13:31:59+00:00",
       "totals": {
         "discovered": 15,
         "persisted": 0,
@@ -139,7 +139,7 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/difal/documentos",
-      "generated_at": "2026-09-25T14:20:58+00:00",
+      "generated_at": "2026-09-26T13:32:03+00:00",
       "totals": {
         "discovered": 9,
         "persisted": 0,
@@ -152,7 +152,7 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/mdfe/documentos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/mdfe/documentos",
-      "generated_at": "2026-09-25T14:20:39+00:00",
+      "generated_at": "2026-09-26T13:31:47+00:00",
       "totals": {
         "discovered": 30,
         "persisted": 0,
@@ -165,7 +165,7 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nf3e/documentos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nf3e/documentos",
-      "generated_at": "2026-09-25T14:20:45+00:00",
+      "generated_at": "2026-09-26T13:31:51+00:00",
       "totals": {
         "discovered": 26,
         "persisted": 0,
@@ -178,7 +178,7 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfabi/documentos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfabi/documentos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfabi/documentos",
-      "generated_at": "2026-09-25T14:20:56+00:00",
+      "generated_at": "2026-09-26T13:32:01+00:00",
       "totals": {
         "discovered": 11,
         "persisted": 0,
@@ -191,7 +191,7 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfag/documentos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfag/documentos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfag/documentos",
-      "generated_at": "2026-09-25T14:20:50+00:00",
+      "generated_at": "2026-09-26T13:31:55+00:00",
       "totals": {
         "discovered": 15,
         "persisted": 0,
@@ -204,7 +204,7 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos",
-      "generated_at": "2026-09-25T14:20:35+00:00",
+      "generated_at": "2026-09-26T13:31:43+00:00",
       "totals": {
         "discovered": 48,
         "persisted": 0,
@@ -217,7 +217,7 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfcom/documentos",
-      "generated_at": "2026-09-25T14:20:48+00:00",
+      "generated_at": "2026-09-26T13:31:54+00:00",
       "totals": {
         "discovered": 25,
         "persisted": 0,
@@ -230,11 +230,11 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos",
-      "generated_at": "2026-09-25T14:20:32+00:00",
+      "generated_at": "2026-09-26T13:31:40+00:00",
       "totals": {
         "discovered": 95,
         "persisted": 1,
-        "skipped": 87,
+        "skipped": 88,
         "failed": 0
       }
     },
@@ -243,7 +243,7 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nff/documentos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nff/documentos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nff/documentos",
-      "generated_at": "2026-09-25T14:21:01+00:00",
+      "generated_at": "2026-09-26T13:32:05+00:00",
       "totals": {
         "discovered": 6,
         "persisted": 0,
@@ -256,7 +256,7 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos",
-      "generated_at": "2026-09-25T14:20:52+00:00",
+      "generated_at": "2026-09-26T13:31:57+00:00",
       "totals": {
         "discovered": 15,
         "persisted": 0,
@@ -269,7 +269,7 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/one/documentos",
-      "generated_at": "2026-09-25T14:21:05+00:00",
+      "generated_at": "2026-09-26T13:32:09+00:00",
       "totals": {
         "discovered": 10,
         "persisted": 0,
@@ -282,7 +282,7 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/pes/documentos",
-      "generated_at": "2026-09-25T14:21:03+00:00",
+      "generated_at": "2026-09-26T13:32:07+00:00",
       "totals": {
         "discovered": 10,
         "persisted": 0,
