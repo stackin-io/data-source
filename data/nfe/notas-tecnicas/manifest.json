@@ -2,13 +2,13 @@
   "context": "nfe/notas-tecnicas",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas",
-  "generated_at": "2026-09-25T14:18:11+00:00",
-  "started_at": "2026-09-25T14:18:02+00:00",
-  "duration_s": 8.4,
+  "generated_at": "2026-09-26T13:28:50+00:00",
+  "started_at": "2026-09-26T13:28:45+00:00",
+  "duration_s": 4.64,
   "totals": {
     "discovered": 317,
-    "persisted": 2,
-    "skipped": 313,
+    "persisted": 0,
+    "skipped": 315,
     "failed": 0
   },
   "items": [
@@ -17,7 +17,7 @@
       "title": "Nota Técnica 2021.003 - v.1.50 - Publicada em 25/09/2026",
       "description": "Nota Técnica 2021.003 - v.1.50",
       "published_at": "2026-09-25",
-      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=AMQDYLGE6Is=",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=ENot2yWE72Q=",
       "folder": "data/nfe/notas-tecnicas/2026-09-25_nota-tecnica-2021.003-v.1.50-publicada-em-25092026",
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas/2026-09-25_nota-tecnica-2021.003-v.1.50-publicada-em-25092026",
       "files": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-09-25_nota-tecnica-2021.003-v.1.50-publicada-em-25092026/NT2021.003_v1_50 - validacao GTIN Grupo V.pdf"
       ],
-      "downloaded_at": "2026-09-25T14:18:09+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-09-25_nota-tecnica-2023.003-v.1.40-publicada-em-25092026",
@@ -43,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-09-25_nota-tecnica-2023.003-v.1.40-publicada-em-25092026/NT_2023.003_v1.40_CFOP_NFCe.pdf"
       ],
-      "downloaded_at": "2026-09-25T14:18:09+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-09-09_nota-tecnica-2026.009-v.1.00-publicada-em-09092026",
@@ -5377,7 +5377,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-25T14:18:10+00:00",
+      "downloaded_at": "2026-09-26T13:28:49+00:00",
       "status": "ok"
     },
     {
@@ -5390,7 +5390,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-25T14:18:11+00:00",
+      "downloaded_at": "2026-09-26T13:28:49+00:00",
       "status": "ok"
     }
   ]
