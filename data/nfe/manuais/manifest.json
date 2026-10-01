@@ -2,9 +2,9 @@
   "context": "nfe/manuais",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/manuais",
-  "generated_at": "2026-09-30T15:29:13+00:00",
-  "started_at": "2026-09-30T15:28:57+00:00",
-  "duration_s": 16.16,
+  "generated_at": "2026-10-01T15:50:22+00:00",
+  "started_at": "2026-10-01T15:50:17+00:00",
+  "duration_s": 5.06,
   "totals": {
     "discovered": 14,
     "persisted": 0,
@@ -22,7 +22,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-30T15:29:12+00:00",
+      "downloaded_at": "2026-10-01T15:50:22+00:00",
       "status": "ok"
     },
     {
@@ -35,7 +35,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-09-30T15:29:13+00:00",
+      "downloaded_at": "2026-10-01T15:50:22+00:00",
       "status": "ok"
     },
     {
