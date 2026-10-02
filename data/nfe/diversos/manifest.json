@@ -2,16 +2,50 @@
   "context": "nfe/diversos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/diversos",
-  "generated_at": "2026-10-01T15:50:16+00:00",
-  "started_at": "2026-10-01T15:50:10+00:00",
-  "duration_s": 5.04,
+  "generated_at": "2026-10-02T15:11:22+00:00",
+  "started_at": "2026-10-02T15:11:16+00:00",
+  "duration_s": 5.85,
   "totals": {
-    "discovered": 97,
-    "persisted": 0,
+    "discovered": 99,
+    "persisted": 2,
     "skipped": 95,
     "failed": 0
   },
   "items": [
+    {
+      "slug": "2026-10-01_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-01102026",
+      "title": "Tabela de Código de Crédito Presumido do IBS e CBS - Publicada em 01/10/2026",
+      "description": "Tabela de Código de Crédito Presumido do IBS e CBS",
+      "published_at": "2026-10-01",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=2fJ9V18v0U8=",
+      "folder": "data/nfe/diversos/2026-10-01_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-01102026",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/diversos/2026-10-01_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-01102026",
+      "files": [
+        "data/nfe/diversos/2026-10-01_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-01102026/IT 2025.002 v.1.70 - cCredPres.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-10-01_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-01102026/IT 2025.002 v.1.70 - cCredPres.xlsx"
+      ],
+      "downloaded_at": "2026-10-02T15:11:20+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-01_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-01102026",
+      "title": "Tabela de Classificação Tributária do IBS e CBS - Publicada em 01/10/2026",
+      "description": "Tabela de Classificação Tributária do IBS e CBS",
+      "published_at": "2026-10-01",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=Cd5xq2ZVuEg=",
+      "folder": "data/nfe/diversos/2026-10-01_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-01102026",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/diversos/2026-10-01_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-01102026",
+      "files": [
+        "data/nfe/diversos/2026-10-01_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-01102026/IT 2025.002 v.1.70 - cClassTrib.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-10-01_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-01102026/IT 2025.002 v.1.70 - cClassTrib.xlsx"
+      ],
+      "downloaded_at": "2026-10-02T15:11:21+00:00",
+      "status": "ok"
+    },
     {
       "slug": "2026-09-04_tabela-de-cfop-publicada-em-04092026",
       "title": "Tabela de CFOP - Publicada em 04/09/2026",
@@ -64,28 +98,11 @@
       "status": "skipped"
     },
     {
-      "slug": "2026-06-23_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-23062026",
-      "title": "Tabela de Classificação Tributária do IBS e CBS - Publicada em 23/06/2026",
-      "description": "Tabela de Classificação Tributária do IBS e CBS",
-      "published_at": "2026-06-23",
-      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=D5b4Ov84WDg=",
-      "folder": "data/nfe/diversos/2026-06-23_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-23062026",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/diversos/2026-06-23_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-23062026",
-      "files": [
-        "data/nfe/diversos/2026-06-23_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-23062026/cClassTrib 2026-06-22.xlsx"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-06-23_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-23062026/cClassTrib 2026-06-22.xlsx"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
       "slug": "2026-06-23_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-23062026",
       "title": "Tabela de Código de Crédito Presumido do IBS e CBS - Publicada em 23/06/2026",
       "description": "Tabela de Código de Crédito Presumido do IBS e CBS",
       "published_at": "2026-06-23",
-      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=TpJZSmm9U1c=",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=Xfz0VyQjcUg=",
       "folder": "data/nfe/diversos/2026-06-23_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-23062026",
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/diversos/2026-06-23_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-23062026",
       "files": [
@@ -93,6 +110,23 @@
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-06-23_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-23062026/cCredPres_2026-06-22.xlsx"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "2026-06-23_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-23062026",
+      "title": "Tabela de Classificação Tributária do IBS e CBS - Publicada em 23/06/2026",
+      "description": "Tabela de Classificação Tributária do IBS e CBS",
+      "published_at": "2026-06-23",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=CMlTOCo8JuE=",
+      "folder": "data/nfe/diversos/2026-06-23_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-23062026",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/diversos/2026-06-23_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-23062026",
+      "files": [
+        "data/nfe/diversos/2026-06-23_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-23062026/cClassTrib 2026-06-22.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-06-23_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-23062026/cClassTrib 2026-06-22.xlsx"
       ],
       "downloaded_at": "",
       "status": "skipped"
@@ -1433,7 +1467,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-01T15:50:15+00:00",
+      "downloaded_at": "2026-10-02T15:11:21+00:00",
       "status": "ok"
     },
     {
@@ -1446,7 +1480,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-01T15:50:15+00:00",
+      "downloaded_at": "2026-10-02T15:11:22+00:00",
       "status": "ok"
     },
     {

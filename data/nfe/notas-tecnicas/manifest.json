@@ -2,16 +2,101 @@
   "context": "nfe/notas-tecnicas",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas",
-  "generated_at": "2026-10-01T15:50:01+00:00",
-  "started_at": "2026-10-01T15:49:56+00:00",
-  "duration_s": 5.45,
+  "generated_at": "2026-10-02T15:11:07+00:00",
+  "started_at": "2026-10-02T15:10:57+00:00",
+  "duration_s": 9.5,
   "totals": {
-    "discovered": 317,
-    "persisted": 0,
+    "discovered": 322,
+    "persisted": 5,
     "skipped": 315,
     "failed": 0
   },
   "items": [
+    {
+      "slug": "2026-10-01_nota-tecnica-2026.007-v.1.10-publicada-em-01102026",
+      "title": "Nota Técnica 2026.007 v.1.10 - Publicada em 01/10/2026",
+      "description": "Nota Técnica 2026.007 v.1.10",
+      "published_at": "2026-10-01",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=fpJlwzhffcQ=",
+      "folder": "data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2026.007-v.1.10-publicada-em-01102026",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2026.007-v.1.10-publicada-em-01102026",
+      "files": [
+        "data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2026.007-v.1.10-publicada-em-01102026/NT2026.007_v1.10 - Emissão NF-e sem IE e RV LCC.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2026.007-v.1.10-publicada-em-01102026/NT2026.007_v1.10 - Emissão NF-e sem IE e RV LCC.pdf"
+      ],
+      "downloaded_at": "2026-10-02T15:11:03+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-01_nota-tecnica-2026.008-v.1.00-publicada-em-01102026",
+      "title": "Nota Técnica 2026.008 v.1.00 - Publicada em 01/10/2026",
+      "description": "Nota Técnica 2026.008 v.1.00",
+      "published_at": "2026-10-01",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=qAoMot6VyiY=",
+      "folder": "data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2026.008-v.1.00-publicada-em-01102026",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2026.008-v.1.00-publicada-em-01102026",
+      "files": [
+        "data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2026.008-v.1.00-publicada-em-01102026/NT_2026.008_v1.00_RTC_ValorLiquidoProduto.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2026.008-v.1.00-publicada-em-01102026/NT_2026.008_v1.00_RTC_ValorLiquidoProduto.pdf"
+      ],
+      "downloaded_at": "2026-10-02T15:11:03+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-01_nota-tecnica-2026.002-v.1.11-publicada-em-01102026",
+      "title": "Nota Técnica 2026.002 v.1.11 - Publicada em 01/10/2026",
+      "description": "Nota Técnica 2026.002 v.1.11",
+      "published_at": "2026-10-01",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=m8aACnFLK/Y=",
+      "folder": "data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2026.002-v.1.11-publicada-em-01102026",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2026.002-v.1.11-publicada-em-01102026",
+      "files": [
+        "data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2026.002-v.1.11-publicada-em-01102026/NT_2026.002_v1.11_DANFE_Simpl_Tp2_Emi_Offline_Autoriz_Alerta.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2026.002-v.1.11-publicada-em-01102026/NT_2026.002_v1.11_DANFE_Simpl_Tp2_Emi_Offline_Autoriz_Alerta.pdf"
+      ],
+      "downloaded_at": "2026-10-02T15:11:04+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-01_nota-tecnica-2025.002-v.1.52-publicada-em-01102026",
+      "title": "Nota Técnica 2025.002 v.1.52 - Publicada em 01/10/2026",
+      "description": "Nota Técnica 2025.002 v.1.52",
+      "published_at": "2026-10-01",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=HXPO8VLbh4o=",
+      "folder": "data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2025.002-v.1.52-publicada-em-01102026",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2025.002-v.1.52-publicada-em-01102026",
+      "files": [
+        "data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2025.002-v.1.52-publicada-em-01102026/NT_2025.002_v1.52_RTC_NF-e_IBS_CBS_IS.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2025.002-v.1.52-publicada-em-01102026/NT_2025.002_v1.52_RTC_NF-e_IBS_CBS_IS.pdf"
+      ],
+      "downloaded_at": "2026-10-02T15:11:05+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-01_nota-tecnica-2026.010-v.1.00-publicada-em-01102026",
+      "title": "Nota Técnica 2026.010 v.1.00 - Publicada em 01/10/2026",
+      "description": "Nota Técnica 2026.010 v.1.00",
+      "published_at": "2026-10-01",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=ugn4MYF5PLg=",
+      "folder": "data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2026.010-v.1.00-publicada-em-01102026",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2026.010-v.1.00-publicada-em-01102026",
+      "files": [
+        "data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2026.010-v.1.00-publicada-em-01102026/NFe_NT_2026.010_v1_00_DANFE_RTC.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2026.010-v.1.00-publicada-em-01102026/NFe_NT_2026.010_v1_00_DANFE_RTC.pdf"
+      ],
+      "downloaded_at": "2026-10-02T15:11:05+00:00",
+      "status": "ok"
+    },
     {
       "slug": "2026-09-25_nota-tecnica-2021.003-v.1.50-publicada-em-25092026",
       "title": "Nota Técnica 2021.003 - v.1.50 - Publicada em 25/09/2026",
@@ -64,23 +149,6 @@
       "status": "skipped"
     },
     {
-      "slug": "2026-08-25_nota-tecnica-2026.002-v.1.10a-publicada-em-25082026",
-      "title": "Nota Técnica 2026.002 v.1.10a - Publicada em 25/08/2026",
-      "description": "Nota Técnica 2026.002 v.1.10a",
-      "published_at": "2026-08-25",
-      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=8zOzIahvn8I=",
-      "folder": "data/nfe/notas-tecnicas/2026-08-25_nota-tecnica-2026.002-v.1.10a-publicada-em-25082026",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas/2026-08-25_nota-tecnica-2026.002-v.1.10a-publicada-em-25082026",
-      "files": [
-        "data/nfe/notas-tecnicas/2026-08-25_nota-tecnica-2026.002-v.1.10a-publicada-em-25082026/NT_2026.002_v1.10a_DANFE_Simpl_Tp2_Emi_Offline_Autoriz_Alerta_v2.pdf"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-08-25_nota-tecnica-2026.002-v.1.10a-publicada-em-25082026/NT_2026.002_v1.10a_DANFE_Simpl_Tp2_Emi_Offline_Autoriz_Alerta_v2.pdf"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
       "slug": "2026-08-25_nota-tecnica-2026.006-v.1.00-publicada-em-25082026",
       "title": "Nota Técnica 2026.006 v.1.00 - Publicada em 25/08/2026",
       "description": "Nota Técnica 2026.006 v.1.00",
@@ -93,6 +161,23 @@
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-08-25_nota-tecnica-2026.006-v.1.00-publicada-em-25082026/NT_2026.006_v1.00_RTC_VinculacaoPagamento[2775].pdf"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "2026-08-25_nota-tecnica-2026.002-v.1.10a-publicada-em-25082026",
+      "title": "Nota Técnica 2026.002 v.1.10a - Publicada em 25/08/2026",
+      "description": "Nota Técnica 2026.002 v.1.10a",
+      "published_at": "2026-08-25",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=8zOzIahvn8I=",
+      "folder": "data/nfe/notas-tecnicas/2026-08-25_nota-tecnica-2026.002-v.1.10a-publicada-em-25082026",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas/2026-08-25_nota-tecnica-2026.002-v.1.10a-publicada-em-25082026",
+      "files": [
+        "data/nfe/notas-tecnicas/2026-08-25_nota-tecnica-2026.002-v.1.10a-publicada-em-25082026/NT_2026.002_v1.10a_DANFE_Simpl_Tp2_Emi_Offline_Autoriz_Alerta_v2.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-08-25_nota-tecnica-2026.002-v.1.10a-publicada-em-25082026/NT_2026.002_v1.10a_DANFE_Simpl_Tp2_Emi_Offline_Autoriz_Alerta_v2.pdf"
       ],
       "downloaded_at": "",
       "status": "skipped"
@@ -132,23 +217,6 @@
       "status": "skipped"
     },
     {
-      "slug": "2026-08-04_nota-tecnica-2025.002-v.1.51-publicada-em-04082026",
-      "title": "Nota Técnica 2025.002 v.1.51 - Publicada em 04/08/2026",
-      "description": "Nota Técnica 2025.002 v.1.51",
-      "published_at": "2026-08-04",
-      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=AKD/muSmiIY=",
-      "folder": "data/nfe/notas-tecnicas/2026-08-04_nota-tecnica-2025.002-v.1.51-publicada-em-04082026",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas/2026-08-04_nota-tecnica-2025.002-v.1.51-publicada-em-04082026",
-      "files": [
-        "data/nfe/notas-tecnicas/2026-08-04_nota-tecnica-2025.002-v.1.51-publicada-em-04082026/NT_2025.002_v1.51_RTC.pdf"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-08-04_nota-tecnica-2025.002-v.1.51-publicada-em-04082026/NT_2025.002_v1.51_RTC.pdf"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
       "slug": "2026-08-04_nota-tecnica-2026.002-v.1.10-publicada-em-04082026",
       "title": "Nota Técnica 2026.002 v.1.10 - Publicada em 04/08/2026",
       "description": "Nota Técnica 2026.002 v.1.10",
@@ -161,6 +229,23 @@
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-08-04_nota-tecnica-2026.002-v.1.10-publicada-em-04082026/NT_2026.002_v1.10_DANFE_Simpl_Tp2.pdf"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "2026-08-04_nota-tecnica-2025.002-v.1.51-publicada-em-04082026",
+      "title": "Nota Técnica 2025.002 v.1.51 - Publicada em 04/08/2026",
+      "description": "Nota Técnica 2025.002 v.1.51",
+      "published_at": "2026-08-04",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=AKD/muSmiIY=",
+      "folder": "data/nfe/notas-tecnicas/2026-08-04_nota-tecnica-2025.002-v.1.51-publicada-em-04082026",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas/2026-08-04_nota-tecnica-2025.002-v.1.51-publicada-em-04082026",
+      "files": [
+        "data/nfe/notas-tecnicas/2026-08-04_nota-tecnica-2025.002-v.1.51-publicada-em-04082026/NT_2025.002_v1.51_RTC.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-08-04_nota-tecnica-2025.002-v.1.51-publicada-em-04082026/NT_2025.002_v1.51_RTC.pdf"
       ],
       "downloaded_at": "",
       "status": "skipped"
@@ -5377,7 +5462,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-01T15:50:01+00:00",
+      "downloaded_at": "2026-10-02T15:11:06+00:00",
       "status": "ok"
     },
     {
@@ -5390,7 +5475,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-01T15:50:01+00:00",
+      "downloaded_at": "2026-10-02T15:11:07+00:00",
       "status": "ok"
     }
   ]
