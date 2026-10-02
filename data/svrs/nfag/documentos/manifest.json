@@ -2,16 +2,84 @@
   "context": "svrs/nfag/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfag/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfag/documentos",
-  "generated_at": "2026-09-30T15:30:55+00:00",
-  "started_at": "2026-09-30T15:30:54+00:00",
-  "duration_s": 0.94,
+  "generated_at": "2026-10-02T15:14:52+00:00",
+  "started_at": "2026-10-02T15:14:47+00:00",
+  "duration_s": 5.04,
   "totals": {
-    "discovered": 15,
-    "persisted": 0,
-    "skipped": 15,
+    "discovered": 16,
+    "persisted": 4,
+    "skipped": 12,
     "failed": 0
   },
   "items": [
+    {
+      "slug": "2026-10-01_nota-tecnica-2026.004-rtc",
+      "title": "Nota Técnica 2026.004 RTC",
+      "description": "Nota Técnica 2026.004 RTC",
+      "published_at": "2026-10-01",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFAG/DownloadArquivoEstatico/?sistema=NFAG&tipoArquivo=3&nomeArquivo=NFAg_Nota_Tecnica_2026_004_v1.00.pdf",
+      "folder": "data/svrs/nfag/documentos/2026-10-01_nota-tecnica-2026.004-rtc",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfag/documentos/2026-10-01_nota-tecnica-2026.004-rtc",
+      "files": [
+        "data/svrs/nfag/documentos/2026-10-01_nota-tecnica-2026.004-rtc/nfag-nota-tecnica-2026-004-v1.00.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfag/documentos/2026-10-01_nota-tecnica-2026.004-rtc/nfag-nota-tecnica-2026-004-v1.00.pdf"
+      ],
+      "downloaded_at": "2026-10-02T15:14:50+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-01_tabela-de-codigos-de-credito-presumido",
+      "title": "Tabela de Códigos de Crédito Presumido",
+      "description": "Tabela de Códigos de Crédito Presumido",
+      "published_at": "2026-10-01",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=IT+2025.002+v.1.70+-+cCredPres.xlsx",
+      "folder": "data/svrs/nfag/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfag/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido",
+      "files": [
+        "data/svrs/nfag/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido/it-2025.002-v.1.70-ccredpres.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfag/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido/it-2025.002-v.1.70-ccredpres.xlsx"
+      ],
+      "downloaded_at": "2026-10-02T15:14:50+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "title": "Tabela de Código de Classificação Tributária da RT",
+      "description": "Tabela de Código de Classificação Tributária da RT",
+      "published_at": "2026-10-01",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=IT+2025.002+v.1.70+-+cClassTrib.xlsx",
+      "folder": "data/svrs/nfag/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfag/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "files": [
+        "data/svrs/nfag/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt/it-2025.002-v.1.70-cclasstrib.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfag/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt/it-2025.002-v.1.70-cclasstrib.xlsx"
+      ],
+      "downloaded_at": "2026-10-02T15:14:51+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70",
+      "title": "IT 2025.002 RT Tabela de Classificação Tributária v1.70",
+      "description": "IT 2025.002 RT Tabela de Classificação Tributária v1.70",
+      "published_at": "2026-10-01",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT+2025.002+v.1.70+-+Tabelas+de+Classifica%C3%A7%C3%A3o+do+IBS+e+da+CBS.pdf",
+      "folder": "data/svrs/nfag/documentos/2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfag/documentos/2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70",
+      "files": [
+        "data/svrs/nfag/documentos/2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70/it-2025.002-v.1.70-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfag/documentos/2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70/it-2025.002-v.1.70-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
+      ],
+      "downloaded_at": "2026-10-02T15:14:52+00:00",
+      "status": "ok"
+    },
     {
       "slug": "2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-ii-leiaute-danfag-v1.02",
       "title": "Manual de Orientações do Contribuinte - Anexo II - Leiaute DANFAG v1.02",
@@ -135,57 +203,6 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfag/documentos/2026-06-29_schema-nt-2026.002-rtc/pl-nfag-nt2026.002-rtc-1.01/PL_NFAg_NT2026.002 RTC_1.01/retNFAg_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfag/documentos/2026-06-29_schema-nt-2026.002-rtc/pl-nfag-nt2026.002-rtc-1.01/PL_NFAg_NT2026.002 RTC_1.01/tiposGeralNFAg_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfag/documentos/2026-06-29_schema-nt-2026.002-rtc/pl-nfag-nt2026.002-rtc-1.01/PL_NFAg_NT2026.002 RTC_1.01/xmldsig-core-schema_v1.01.xsd"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
-      "slug": "2026-06-23_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.60",
-      "title": "IT 2025.002 RT Tabela de Classificação Tributária v1.60",
-      "description": "IT 2025.002 RT Tabela de Classificação Tributária v1.60",
-      "published_at": "2026-06-23",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT+2025.002+v.1.60+-+Tabelas+de+Classifica%C3%A7%C3%A3o+do+IBS+e+da+CBS+-+%282026_06_22%29.pdf",
-      "folder": "data/svrs/nfag/documentos/2026-06-23_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.60",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfag/documentos/2026-06-23_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.60",
-      "files": [
-        "data/svrs/nfag/documentos/2026-06-23_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.60/it-2025.002-v.1.60-tabelas-de-classificacao-do-ibs-e-da-cbs-2026-06-22.pdf"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfag/documentos/2026-06-23_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.60/it-2025.002-v.1.60-tabelas-de-classificacao-do-ibs-e-da-cbs-2026-06-22.pdf"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
-      "slug": "2026-06-22_tabela-de-codigos-de-credito-presumido",
-      "title": "Tabela de Códigos de Crédito Presumido",
-      "description": "Tabela de Códigos de Crédito Presumido",
-      "published_at": "2026-06-22",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=cCredPres_2026-06-22.xlsx",
-      "folder": "data/svrs/nfag/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfag/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido",
-      "files": [
-        "data/svrs/nfag/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido/ccredpres-2026-06-22.xlsx"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfag/documentos/2026-06-22_tabela-de-codigos-de-credito-presumido/ccredpres-2026-06-22.xlsx"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
-      "slug": "2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
-      "title": "Tabela de Código de Classificação Tributária da RT",
-      "description": "Tabela de Código de Classificação Tributária da RT",
-      "published_at": "2026-06-22",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=cClassTrib+2026-06-22.xlsx",
-      "folder": "data/svrs/nfag/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfag/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt",
-      "files": [
-        "data/svrs/nfag/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt/cclasstrib-2026-06-22.xlsx"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfag/documentos/2026-06-22_tabela-de-codigo-de-classificacao-tributaria-da-rt/cclasstrib-2026-06-22.xlsx"
       ],
       "downloaded_at": "",
       "status": "skipped"
