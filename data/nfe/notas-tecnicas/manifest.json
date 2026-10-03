@@ -2,13 +2,13 @@
   "context": "nfe/notas-tecnicas",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas",
-  "generated_at": "2026-10-02T15:11:07+00:00",
-  "started_at": "2026-10-02T15:10:57+00:00",
-  "duration_s": 9.5,
+  "generated_at": "2026-10-03T14:04:03+00:00",
+  "started_at": "2026-10-03T14:03:59+00:00",
+  "duration_s": 3.89,
   "totals": {
     "discovered": 322,
-    "persisted": 5,
-    "skipped": 315,
+    "persisted": 0,
+    "skipped": 320,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2026.007-v.1.10-publicada-em-01102026/NT2026.007_v1.10 - Emissão NF-e sem IE e RV LCC.pdf"
       ],
-      "downloaded_at": "2026-10-02T15:11:03+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_nota-tecnica-2026.008-v.1.00-publicada-em-01102026",
@@ -43,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2026.008-v.1.00-publicada-em-01102026/NT_2026.008_v1.00_RTC_ValorLiquidoProduto.pdf"
       ],
-      "downloaded_at": "2026-10-02T15:11:03+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_nota-tecnica-2026.002-v.1.11-publicada-em-01102026",
@@ -60,8 +60,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2026.002-v.1.11-publicada-em-01102026/NT_2026.002_v1.11_DANFE_Simpl_Tp2_Emi_Offline_Autoriz_Alerta.pdf"
       ],
-      "downloaded_at": "2026-10-02T15:11:04+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_nota-tecnica-2025.002-v.1.52-publicada-em-01102026",
@@ -77,8 +77,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2025.002-v.1.52-publicada-em-01102026/NT_2025.002_v1.52_RTC_NF-e_IBS_CBS_IS.pdf"
       ],
-      "downloaded_at": "2026-10-02T15:11:05+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_nota-tecnica-2026.010-v.1.00-publicada-em-01102026",
@@ -94,8 +94,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-10-01_nota-tecnica-2026.010-v.1.00-publicada-em-01102026/NFe_NT_2026.010_v1_00_DANFE_RTC.pdf"
       ],
-      "downloaded_at": "2026-10-02T15:11:05+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-09-25_nota-tecnica-2021.003-v.1.50-publicada-em-25092026",
@@ -5462,7 +5462,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-02T15:11:06+00:00",
+      "downloaded_at": "2026-10-03T14:04:02+00:00",
       "status": "ok"
     },
     {
@@ -5475,7 +5475,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-02T15:11:07+00:00",
+      "downloaded_at": "2026-10-03T14:04:03+00:00",
       "status": "ok"
     }
   ]

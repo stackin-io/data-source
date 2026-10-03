@@ -2,13 +2,13 @@
   "context": "nfe/diversos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/diversos",
-  "generated_at": "2026-10-02T15:11:22+00:00",
-  "started_at": "2026-10-02T15:11:16+00:00",
-  "duration_s": 5.85,
+  "generated_at": "2026-10-03T14:04:12+00:00",
+  "started_at": "2026-10-03T14:04:09+00:00",
+  "duration_s": 3.78,
   "totals": {
     "discovered": 99,
-    "persisted": 2,
-    "skipped": 95,
+    "persisted": 0,
+    "skipped": 97,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-10-01_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-01102026/IT 2025.002 v.1.70 - cCredPres.xlsx"
       ],
-      "downloaded_at": "2026-10-02T15:11:20+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-01102026",
@@ -43,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-10-01_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-01102026/IT 2025.002 v.1.70 - cClassTrib.xlsx"
       ],
-      "downloaded_at": "2026-10-02T15:11:21+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-09-04_tabela-de-cfop-publicada-em-04092026",
@@ -1467,7 +1467,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-02T15:11:21+00:00",
+      "downloaded_at": "2026-10-03T14:04:12+00:00",
       "status": "ok"
     },
     {
@@ -1480,7 +1480,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-02T15:11:22+00:00",
+      "downloaded_at": "2026-10-03T14:04:12+00:00",
       "status": "ok"
     },
     {

@@ -2,13 +2,13 @@
   "context": "nfe/informes-tecnicos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/informes-tecnicos",
-  "generated_at": "2026-10-02T15:11:15+00:00",
-  "started_at": "2026-10-02T15:11:08+00:00",
-  "duration_s": 7.31,
+  "generated_at": "2026-10-03T14:04:07+00:00",
+  "started_at": "2026-10-03T14:04:04+00:00",
+  "duration_s": 3.62,
   "totals": {
     "discovered": 51,
-    "persisted": 1,
-    "skipped": 48,
+    "persisted": 0,
+    "skipped": 49,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-10-01_informe-tecnico-2025.002-v.1.70-publicado-em-01102026/IT 2025.002 v.1.70 - Tabelas de Classificação do IBS e da CBS.pdf"
       ],
-      "downloaded_at": "2026-10-02T15:11:14+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-09-04_informe-tecnico-2023.002-v.2.10-publicado-em-04092026",
@@ -855,7 +855,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-02T15:11:14+00:00",
+      "downloaded_at": "2026-10-03T14:04:07+00:00",
       "status": "ok"
     },
     {
@@ -868,7 +868,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-02T15:11:15+00:00",
+      "downloaded_at": "2026-10-03T14:04:07+00:00",
       "status": "ok"
     }
   ]
