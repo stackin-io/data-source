@@ -2,13 +2,13 @@
   "context": "svrs/one/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/one/documentos",
-  "generated_at": "2026-10-02T15:15:23+00:00",
-  "started_at": "2026-10-02T15:15:18+00:00",
-  "duration_s": 4.28,
+  "generated_at": "2026-10-03T14:06:23+00:00",
+  "started_at": "2026-10-03T14:06:22+00:00",
+  "duration_s": 1.12,
   "totals": {
     "discovered": 10,
-    "persisted": 3,
-    "skipped": 7,
+    "persisted": 0,
+    "skipped": 10,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido/it-2025.002-v.1.70-ccredpres.xlsx"
       ],
-      "downloaded_at": "2026-10-02T15:15:19+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
@@ -43,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt/it-2025.002-v.1.70-cclasstrib.xlsx"
       ],
-      "downloaded_at": "2026-10-02T15:15:21+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70",
@@ -60,8 +60,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70/it-2025.002-v.1.70-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
       ],
-      "downloaded_at": "2026-10-02T15:15:23+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split",

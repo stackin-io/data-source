@@ -2,13 +2,13 @@
   "context": "svrs/pes/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/pes/documentos",
-  "generated_at": "2026-10-02T15:15:18+00:00",
-  "started_at": "2026-10-02T15:15:13+00:00",
-  "duration_s": 4.3,
+  "generated_at": "2026-10-03T14:06:21+00:00",
+  "started_at": "2026-10-03T14:06:20+00:00",
+  "duration_s": 0.94,
   "totals": {
     "discovered": 10,
-    "persisted": 3,
-    "skipped": 7,
+    "persisted": 0,
+    "skipped": 10,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido/it-2025.002-v.1.70-ccredpres.xlsx"
       ],
-      "downloaded_at": "2026-10-02T15:15:14+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
@@ -43,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt/it-2025.002-v.1.70-cclasstrib.xlsx"
       ],
-      "downloaded_at": "2026-10-02T15:15:16+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70",
@@ -60,8 +60,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/pes/documentos/2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70/it-2025.002-v.1.70-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
       ],
-      "downloaded_at": "2026-10-02T15:15:18+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-09-16_manual-de-orientacao-do-provedor-de-assinatura-e-autorizacao-v1.02",

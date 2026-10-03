@@ -2,16 +2,73 @@
   "context": "svrs/nfgas/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos",
-  "generated_at": "2026-10-02T15:14:58+00:00",
-  "started_at": "2026-10-02T15:14:53+00:00",
-  "duration_s": 5.06,
+  "generated_at": "2026-10-03T14:06:10+00:00",
+  "started_at": "2026-10-03T14:06:08+00:00",
+  "duration_s": 1.46,
   "totals": {
-    "discovered": 16,
-    "persisted": 4,
-    "skipped": 12,
+    "discovered": 17,
+    "persisted": 1,
+    "skipped": 16,
     "failed": 0
   },
   "items": [
+    {
+      "slug": "2026-10-02_nota-tecnica-2026.004-rtc",
+      "title": "Nota Técnica 2026.004 RTC",
+      "description": "Nota Técnica 2026.004 RTC",
+      "published_at": "2026-10-02",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFGAS/DownloadArquivoEstatico/?sistema=NFGAS&tipoArquivo=2&nomeArquivo=PL_NFGas_NT2026.004+RTC_1.00.zip",
+      "folder": "data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc",
+      "files": [
+        "data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00.zip",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/consSitNFGasTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/consSitNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/consStatServNFGasTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/consStatServNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/DFeTiposBasicos_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/evCancNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/evCancVincPgto_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/eventoNFGasTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/eventoNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/evVincPgto_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/nfgasTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/nfgas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/procEventoNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/procNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/retConsSitNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/retConsStatServNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/retEventoNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/retNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/tiposGeralNFGas_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/consSitNFGasTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/consSitNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/consStatServNFGasTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/consStatServNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/DFeTiposBasicos_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/evCancNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/evCancVincPgto_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/eventoNFGasTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/eventoNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/evVincPgto_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/nfgasTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/nfgas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/procEventoNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/procNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/retConsSitNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/retConsStatServNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/retEventoNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/retNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/tiposGeralNFGas_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfgas-nt2026.004-rtc-1.00/PL_NFGas_NT2026.004 RTC_1.00/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "downloaded_at": "2026-10-03T14:06:10+00:00",
+      "status": "ok"
+    },
     {
       "slug": "2026-10-01_nota-tecnica-2026.004-rtc",
       "title": "Nota Técnica 2026.004 RTC",
@@ -26,8 +83,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-01_nota-tecnica-2026.004-rtc/nfgas-nota-tecnica-2026-004-v1.00.pdf"
       ],
-      "downloaded_at": "2026-10-02T15:14:55+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_tabela-de-codigos-de-credito-presumido",
@@ -43,8 +100,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido/it-2025.002-v.1.70-ccredpres.xlsx"
       ],
-      "downloaded_at": "2026-10-02T15:14:56+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
@@ -60,8 +117,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt/it-2025.002-v.1.70-cclasstrib.xlsx"
       ],
-      "downloaded_at": "2026-10-02T15:14:56+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70",
@@ -77,8 +134,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70/it-2025.002-v.1.70-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
       ],
-      "downloaded_at": "2026-10-02T15:14:58+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-ii-leiaute-danfgas-v1.00a",

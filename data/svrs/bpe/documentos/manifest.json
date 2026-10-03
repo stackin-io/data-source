@@ -2,16 +2,87 @@
   "context": "svrs/bpe/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos",
-  "generated_at": "2026-10-02T15:14:36+00:00",
-  "started_at": "2026-10-02T15:14:31+00:00",
-  "duration_s": 4.88,
+  "generated_at": "2026-10-03T14:05:59+00:00",
+  "started_at": "2026-10-03T14:05:57+00:00",
+  "duration_s": 1.62,
   "totals": {
-    "discovered": 29,
-    "persisted": 4,
-    "skipped": 25,
+    "discovered": 30,
+    "persisted": 1,
+    "skipped": 29,
     "failed": 0
   },
   "items": [
+    {
+      "slug": "2026-10-02_schemas-nt-2026.004",
+      "title": "Schemas NT 2026.004",
+      "description": "Schemas NT 2026.004",
+      "published_at": "2026-10-02",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/BPE/DownloadArquivoEstatico/?sistema=BPE&tipoArquivo=2&nomeArquivo=PL_BPe_100b_NT2026.004+RTC_1.00.zip",
+      "folder": "data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004",
+      "files": [
+        "data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00.zip",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/bpeTA_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/bpeTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/bpeTM_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/bpe_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/consSitBPeTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/consSitBPe_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/consStatServBPeTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/consStatServBPe_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/DFeTiposBasicos_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/DFeTiposBasicos_v1.00_old.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/evAlteracaoPoltrona_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/evCancBPe_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/evCancVincPgto_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/eventoBPeTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/eventoBPe_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/evExcessoBagagem_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/evNaoEmbBPe_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/evVincPgto_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/procBPeTM_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/procBPe_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/procEventoBPe_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/retBPe_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/retConsSitBPe_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/retConsStatServBPe_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/retEventoBPe_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/tiposGeralBPe_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/bpeTA_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/bpeTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/bpeTM_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/bpe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/consSitBPeTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/consSitBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/consStatServBPeTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/consStatServBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/DFeTiposBasicos_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/DFeTiposBasicos_v1.00_old.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/evAlteracaoPoltrona_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/evCancBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/evCancVincPgto_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/eventoBPeTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/eventoBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/evExcessoBagagem_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/evNaoEmbBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/evVincPgto_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/procBPeTM_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/procBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/procEventoBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/retBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/retConsSitBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/retConsStatServBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/retEventoBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/tiposGeralBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-02_schemas-nt-2026.004/pl-bpe-100b-nt2026.004-rtc-1.00/PL_BPe_100b_NT2026.004 RTC_1.00/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "downloaded_at": "2026-10-03T14:05:59+00:00",
+      "status": "ok"
+    },
     {
       "slug": "2026-10-01_nota-tecnica-2026.004-rtc",
       "title": "Nota Técnica 2026.004 RTC",
@@ -26,8 +97,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-01_nota-tecnica-2026.004-rtc/bpe-nota-tecnica-2026-004-v1.00.pdf"
       ],
-      "downloaded_at": "2026-10-02T15:14:33+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_tabela-de-codigos-de-credito-presumido",
@@ -43,8 +114,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido/it-2025.002-v.1.70-ccredpres.xlsx"
       ],
-      "downloaded_at": "2026-10-02T15:14:33+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
@@ -60,8 +131,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt/it-2025.002-v.1.70-cclasstrib.xlsx"
       ],
-      "downloaded_at": "2026-10-02T15:14:34+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70",
@@ -77,8 +148,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70/it-2025.002-v.1.70-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
       ],
-      "downloaded_at": "2026-10-02T15:14:36+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-25_nota-tecnica-2025.002-v2.00-bpe-transporte-aereo",

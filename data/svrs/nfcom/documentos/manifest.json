@@ -2,16 +2,73 @@
   "context": "svrs/nfcom/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfcom/documentos",
-  "generated_at": "2026-10-02T15:14:46+00:00",
-  "started_at": "2026-10-02T15:14:42+00:00",
-  "duration_s": 4.53,
+  "generated_at": "2026-10-03T14:06:05+00:00",
+  "started_at": "2026-10-03T14:06:03+00:00",
+  "duration_s": 1.74,
   "totals": {
-    "discovered": 26,
-    "persisted": 4,
-    "skipped": 22,
+    "discovered": 27,
+    "persisted": 1,
+    "skipped": 26,
     "failed": 0
   },
   "items": [
+    {
+      "slug": "2026-10-02_nota-tecnica-2026.004-rtc",
+      "title": "Nota Técnica 2026.004 RTC",
+      "description": "Nota Técnica 2026.004 RTC",
+      "published_at": "2026-10-02",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFCOM/DownloadArquivoEstatico/?sistema=NFCOM&tipoArquivo=2&nomeArquivo=PL_NFCOM_1.00_NT2026.004+RTC_1.00.zip",
+      "folder": "data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc",
+      "files": [
+        "data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00.zip",
+        "/home/runner/work/data-source/data-source/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/consSitNFComTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/consSitNFCom_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/consStatServNFComTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/consStatServNFCom_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/DFeTiposBasicos_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/evCancNFCom_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/evCancVincPgto_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/eventoNFComTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/eventoNFCom_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/evVincPgto_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/nfcomTiposBasico_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/nfcom_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/procEventoNFCom_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/procNFCom_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/retConsSitNFCom_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/retConsStatServNFCom_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/retEventoNFCom_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/retNFCom_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/tiposGeralNFCom_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/consSitNFComTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/consSitNFCom_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/consStatServNFComTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/consStatServNFCom_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/DFeTiposBasicos_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/evCancNFCom_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/evCancVincPgto_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/eventoNFComTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/eventoNFCom_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/evVincPgto_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/nfcomTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/nfcom_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/procEventoNFCom_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/procNFCom_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/retConsSitNFCom_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/retConsStatServNFCom_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/retEventoNFCom_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/retNFCom_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/tiposGeralNFCom_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-02_nota-tecnica-2026.004-rtc/pl-nfcom-1.00-nt2026.004-rtc-1.00/PL_NFCOM_1.00_NT2026.004 RTC_1.00/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "downloaded_at": "2026-10-03T14:06:05+00:00",
+      "status": "ok"
+    },
     {
       "slug": "2026-10-01_nota-tecnica-2026.004-rtc",
       "title": "Nota Técnica 2026.004 RTC",
@@ -26,8 +83,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-01_nota-tecnica-2026.004-rtc/nfcom-nota-tecnica-2026-004-v1.00.pdf"
       ],
-      "downloaded_at": "2026-10-02T15:14:44+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_tabela-de-codigos-de-credito-presumido",
@@ -43,8 +100,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido/it-2025.002-v.1.70-ccredpres.xlsx"
       ],
-      "downloaded_at": "2026-10-02T15:14:44+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
@@ -60,8 +117,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt/it-2025.002-v.1.70-cclasstrib.xlsx"
       ],
-      "downloaded_at": "2026-10-02T15:14:45+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70",
@@ -77,8 +134,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfcom/documentos/2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70/it-2025.002-v.1.70-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
       ],
-      "downloaded_at": "2026-10-02T15:14:46+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-25_informe-tecnico-2026.001-v1.01-tabela-de-meios-de-pagamento-para-vinculacao-com-o-split",
