@@ -2,9 +2,9 @@
   "context": "svrs/nff/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nff/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nff/documentos",
-  "generated_at": "2026-10-03T14:06:19+00:00",
-  "started_at": "2026-10-03T14:06:18+00:00",
-  "duration_s": 1.3,
+  "generated_at": "2026-10-04T14:32:18+00:00",
+  "started_at": "2026-10-04T14:32:17+00:00",
+  "duration_s": 1.29,
   "totals": {
     "discovered": 6,
     "persisted": 0,
