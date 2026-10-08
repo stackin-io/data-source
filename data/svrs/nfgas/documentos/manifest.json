@@ -2,9 +2,9 @@
   "context": "svrs/nfgas/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos",
-  "generated_at": "2026-10-06T15:36:50+00:00",
-  "started_at": "2026-10-06T15:36:49+00:00",
-  "duration_s": 0.88,
+  "generated_at": "2026-10-08T15:59:41+00:00",
+  "started_at": "2026-10-08T15:59:41+00:00",
+  "duration_s": 0.84,
   "totals": {
     "discovered": 17,
     "persisted": 0,
@@ -138,23 +138,6 @@
       "status": "skipped"
     },
     {
-      "slug": "2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-ii-leiaute-danfgas-v1.00a",
-      "title": "Manual de Orientações do Contribuinte - Anexo II - Leiaute DANFGas v1.00a",
-      "description": "Manual de Orientações do Contribuinte - Anexo II - Leiaute DANFGas v1.00a",
-      "published_at": "2026-08-25",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFGAS/DownloadArquivoEstatico/?sistema=NFGAS&tipoArquivo=1&nomeArquivo=MOC_NFGas_Anexo+II_DANFGas_v1.00a.pdf",
-      "folder": "data/svrs/nfgas/documentos/2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-ii-leiaute-danfgas-v1.00a",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-ii-leiaute-danfgas-v1.00a",
-      "files": [
-        "data/svrs/nfgas/documentos/2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-ii-leiaute-danfgas-v1.00a/moc-nfgas-anexo-ii-danfgas-v1.00a.pdf"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-ii-leiaute-danfgas-v1.00a/moc-nfgas-anexo-ii-danfgas-v1.00a.pdf"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
       "slug": "2026-08-25_manual-de-orientacoes-do-contribuinte-visao-geral-v1.00g",
       "title": "Manual de Orientações do Contribuinte - Visão Geral v1.00g",
       "description": "Manual de Orientações do Contribuinte - Visão Geral v1.00g",
@@ -184,6 +167,23 @@
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-i-leiaute-e-regras-de-validacao-v1.00g/moc-nfgas-anexo-i-leiaute-e-regras-de-validacao-v1.00g.pdf"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-ii-leiaute-danfgas-v1.00a",
+      "title": "Manual de Orientações do Contribuinte - Anexo II - Leiaute DANFGas v1.00a",
+      "description": "Manual de Orientações do Contribuinte - Anexo II - Leiaute DANFGas v1.00a",
+      "published_at": "2026-08-25",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFGAS/DownloadArquivoEstatico/?sistema=NFGAS&tipoArquivo=1&nomeArquivo=MOC_NFGas_Anexo+II_DANFGas_v1.00a.pdf",
+      "folder": "data/svrs/nfgas/documentos/2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-ii-leiaute-danfgas-v1.00a",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-ii-leiaute-danfgas-v1.00a",
+      "files": [
+        "data/svrs/nfgas/documentos/2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-ii-leiaute-danfgas-v1.00a/moc-nfgas-anexo-ii-danfgas-v1.00a.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-08-25_manual-de-orientacoes-do-contribuinte-anexo-ii-leiaute-danfgas-v1.00a/moc-nfgas-anexo-ii-danfgas-v1.00a.pdf"
       ],
       "downloaded_at": "",
       "status": "skipped"

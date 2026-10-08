@@ -2,9 +2,9 @@
   "context": "svrs/nfce/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos",
-  "generated_at": "2026-10-06T15:36:35+00:00",
-  "started_at": "2026-10-06T15:36:33+00:00",
-  "duration_s": 1.81,
+  "generated_at": "2026-10-08T15:59:26+00:00",
+  "started_at": "2026-10-08T15:59:25+00:00",
+  "duration_s": 1.16,
   "totals": {
     "discovered": 48,
     "persisted": 0,
@@ -12,23 +12,6 @@
     "failed": 0
   },
   "items": [
-    {
-      "slug": "2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
-      "title": "Tabela de Código de Classificação Tributária da RT",
-      "description": "Tabela de Código de Classificação Tributária da RT",
-      "published_at": "2026-10-01",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=IT+2025.002+v.1.70+-+cClassTrib.xlsx",
-      "folder": "data/svrs/nfce/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
-      "files": [
-        "data/svrs/nfce/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt/it-2025.002-v.1.70-cclasstrib.xlsx"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt/it-2025.002-v.1.70-cclasstrib.xlsx"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
     {
       "slug": "2026-10-01_tabela-de-codigos-de-credito-presumido",
       "title": "Tabela de Códigos de Crédito Presumido",
@@ -42,6 +25,23 @@
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido/it-2025.002-v.1.70-ccredpres.xlsx"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "title": "Tabela de Código de Classificação Tributária da RT",
+      "description": "Tabela de Código de Classificação Tributária da RT",
+      "published_at": "2026-10-01",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=IT+2025.002+v.1.70+-+cClassTrib.xlsx",
+      "folder": "data/svrs/nfce/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "files": [
+        "data/svrs/nfce/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt/it-2025.002-v.1.70-cclasstrib.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt/it-2025.002-v.1.70-cclasstrib.xlsx"
       ],
       "downloaded_at": "",
       "status": "skipped"
@@ -124,7 +124,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-06T15:36:35+00:00",
+      "downloaded_at": "2026-10-08T15:59:26+00:00",
       "status": "ok"
     },
     {

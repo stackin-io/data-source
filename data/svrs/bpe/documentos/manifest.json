@@ -2,9 +2,9 @@
   "context": "svrs/bpe/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos",
-  "generated_at": "2026-10-06T15:36:41+00:00",
-  "started_at": "2026-10-06T15:36:40+00:00",
-  "duration_s": 1.05,
+  "generated_at": "2026-10-08T15:59:33+00:00",
+  "started_at": "2026-10-08T15:59:32+00:00",
+  "duration_s": 1.02,
   "totals": {
     "discovered": 30,
     "persisted": 0,
@@ -101,23 +101,6 @@
       "status": "skipped"
     },
     {
-      "slug": "2026-10-01_tabela-de-codigos-de-credito-presumido",
-      "title": "Tabela de Códigos de Crédito Presumido",
-      "description": "Tabela de Códigos de Crédito Presumido",
-      "published_at": "2026-10-01",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=IT+2025.002+v.1.70+-+cCredPres.xlsx",
-      "folder": "data/svrs/bpe/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido",
-      "files": [
-        "data/svrs/bpe/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido/it-2025.002-v.1.70-ccredpres.xlsx"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido/it-2025.002-v.1.70-ccredpres.xlsx"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
       "slug": "2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
       "title": "Tabela de Código de Classificação Tributária da RT",
       "description": "Tabela de Código de Classificação Tributária da RT",
@@ -130,6 +113,23 @@
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt/it-2025.002-v.1.70-cclasstrib.xlsx"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "2026-10-01_tabela-de-codigos-de-credito-presumido",
+      "title": "Tabela de Códigos de Crédito Presumido",
+      "description": "Tabela de Códigos de Crédito Presumido",
+      "published_at": "2026-10-01",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=IT+2025.002+v.1.70+-+cCredPres.xlsx",
+      "folder": "data/svrs/bpe/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido",
+      "files": [
+        "data/svrs/bpe/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido/it-2025.002-v.1.70-ccredpres.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido/it-2025.002-v.1.70-ccredpres.xlsx"
       ],
       "downloaded_at": "",
       "status": "skipped"
@@ -683,6 +683,63 @@
       "status": "skipped"
     },
     {
+      "slug": "2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01",
+      "title": "Schemas NT 2020.001 - Evento Excesso de Bagagem [v1.01]",
+      "description": "Schemas NT 2020.001 - Evento Excesso de Bagagem [v1.01]",
+      "published_at": "2020-07-20",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/BPE/DownloadArquivoEstatico/?sistema=BPE&tipoArquivo=2&nomeArquivo=PL_BPe_100b_NT012020_v1.01.zip",
+      "folder": "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01",
+      "files": [
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01.zip",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/bpeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/bpe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consSitBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consSitBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consStatServBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consStatServBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evAlteracaoPoltrona_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evCancBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evExcessoBagagem_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evNaoEmbBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/eventoBPeTiposBasico_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/eventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/procBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/procEventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retConsSitBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retConsStatServBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retEventoBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/tiposGeralBPe_v1.00.xsd",
+        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/bpeTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/bpe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consSitBPeTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consSitBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consStatServBPeTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consStatServBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evAlteracaoPoltrona_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evCancBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evExcessoBagagem_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evNaoEmbBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/eventoBPeTiposBasico_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/eventoBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/procBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/procEventoBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retConsSitBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retConsStatServBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retEventoBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/tiposGeralBPe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
       "slug": "2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao",
       "title": "Schemas da NT 2020.002 - BP-e TM [atualização]",
       "description": "Schemas da NT 2020.002 - BP-e TM [atualização]",
@@ -739,63 +796,6 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/retEventoBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/tiposGeralBPe_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-da-nt-2020.002-bp-e-tm-atualizacao/pl-bpe-100b-nt022020/PL_BPe_100b_NT022020/xmldsig-core-schema_v1.01.xsd"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
-      "slug": "2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01",
-      "title": "Schemas NT 2020.001 - Evento Excesso de Bagagem [v1.01]",
-      "description": "Schemas NT 2020.001 - Evento Excesso de Bagagem [v1.01]",
-      "published_at": "2020-07-20",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/BPE/DownloadArquivoEstatico/?sistema=BPE&tipoArquivo=2&nomeArquivo=PL_BPe_100b_NT012020_v1.01.zip",
-      "folder": "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01",
-      "files": [
-        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01.zip",
-        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/bpeTiposBasico_v1.00.xsd",
-        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/bpe_v1.00.xsd",
-        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consSitBPeTiposBasico_v1.00.xsd",
-        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consSitBPe_v1.00.xsd",
-        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consStatServBPeTiposBasico_v1.00.xsd",
-        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consStatServBPe_v1.00.xsd",
-        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evAlteracaoPoltrona_v1.00.xsd",
-        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evCancBPe_v1.00.xsd",
-        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evExcessoBagagem_v1.00.xsd",
-        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evNaoEmbBPe_v1.00.xsd",
-        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/eventoBPeTiposBasico_v1.00.xsd",
-        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/eventoBPe_v1.00.xsd",
-        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/procBPe_v1.00.xsd",
-        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/procEventoBPe_v1.00.xsd",
-        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retBPe_v1.00.xsd",
-        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retConsSitBPe_v1.00.xsd",
-        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retConsStatServBPe_v1.00.xsd",
-        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retEventoBPe_v1.00.xsd",
-        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/tiposGeralBPe_v1.00.xsd",
-        "data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/xmldsig-core-schema_v1.01.xsd"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01.zip",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/bpeTiposBasico_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/bpe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consSitBPeTiposBasico_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consSitBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consStatServBPeTiposBasico_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/consStatServBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evAlteracaoPoltrona_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evCancBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evExcessoBagagem_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/evNaoEmbBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/eventoBPeTiposBasico_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/eventoBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/procBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/procEventoBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retConsSitBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retConsStatServBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/retEventoBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/tiposGeralBPe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos/2020-07-20_schemas-nt-2020.001-evento-excesso-de-bagagem-v1.01/pl-bpe-100b-nt012020-v1.01/PL_BPe_100b_NT012020/xmldsig-core-schema_v1.01.xsd"
       ],
       "downloaded_at": "",
       "status": "skipped"

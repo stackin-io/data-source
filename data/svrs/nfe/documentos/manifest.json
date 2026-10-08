@@ -2,9 +2,9 @@
   "context": "svrs/nfe/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos",
-  "generated_at": "2026-10-06T15:36:32+00:00",
-  "started_at": "2026-10-06T15:36:26+00:00",
-  "duration_s": 5.99,
+  "generated_at": "2026-10-08T15:59:24+00:00",
+  "started_at": "2026-10-08T15:59:19+00:00",
+  "duration_s": 5.15,
   "totals": {
     "discovered": 100,
     "persisted": 0,
@@ -98,23 +98,6 @@
       "status": "skipped"
     },
     {
-      "slug": "2026-10-01_tabela-de-codigos-de-credito-presumido",
-      "title": "Tabela de Códigos de Crédito Presumido",
-      "description": "Tabela de Códigos de Crédito Presumido",
-      "published_at": "2026-10-01",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=IT+2025.002+v.1.70+-+cCredPres.xlsx",
-      "folder": "data/svrs/nfe/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido",
-      "files": [
-        "data/svrs/nfe/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido/it-2025.002-v.1.70-ccredpres.xlsx"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido/it-2025.002-v.1.70-ccredpres.xlsx"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
       "slug": "2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
       "title": "Tabela de Código de Classificação Tributária da RT",
       "description": "Tabela de Código de Classificação Tributária da RT",
@@ -127,6 +110,23 @@
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt/it-2025.002-v.1.70-cclasstrib.xlsx"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "2026-10-01_tabela-de-codigos-de-credito-presumido",
+      "title": "Tabela de Códigos de Crédito Presumido",
+      "description": "Tabela de Códigos de Crédito Presumido",
+      "published_at": "2026-10-01",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=IT+2025.002+v.1.70+-+cCredPres.xlsx",
+      "folder": "data/svrs/nfe/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido",
+      "files": [
+        "data/svrs/nfe/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido/it-2025.002-v.1.70-ccredpres.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido/it-2025.002-v.1.70-ccredpres.xlsx"
       ],
       "downloaded_at": "",
       "status": "skipped"
@@ -1241,7 +1241,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-06T15:36:28+00:00",
+      "downloaded_at": "2026-10-08T15:59:20+00:00",
       "status": "ok"
     },
     {
@@ -1831,7 +1831,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-06T15:36:29+00:00",
+      "downloaded_at": "2026-10-08T15:59:21+00:00",
       "status": "ok"
     },
     {
@@ -1844,7 +1844,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-06T15:36:29+00:00",
+      "downloaded_at": "2026-10-08T15:59:22+00:00",
       "status": "ok"
     },
     {
@@ -1857,7 +1857,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-06T15:36:30+00:00",
+      "downloaded_at": "2026-10-08T15:59:23+00:00",
       "status": "ok"
     },
     {
@@ -1870,7 +1870,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-06T15:36:31+00:00",
+      "downloaded_at": "2026-10-08T15:59:23+00:00",
       "status": "ok"
     },
     {
@@ -1883,7 +1883,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-06T15:36:32+00:00",
+      "downloaded_at": "2026-10-08T15:59:24+00:00",
       "status": "ok"
     },
     {
