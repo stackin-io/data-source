@@ -2,9 +2,9 @@
   "context": "svrs/difal/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/difal/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/difal/documentos",
-  "generated_at": "2026-10-17T12:37:30+00:00",
-  "started_at": "2026-10-17T12:37:29+00:00",
-  "duration_s": 1.16,
+  "generated_at": "2026-10-18T12:54:48+00:00",
+  "started_at": "2026-10-18T12:54:47+00:00",
+  "duration_s": 1.27,
   "totals": {
     "discovered": 9,
     "persisted": 0,
