@@ -2,13 +2,13 @@
   "context": "nfe/esquemas-xml",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/esquemas-xml",
-  "generated_at": "2026-10-26T15:37:06+00:00",
-  "started_at": "2026-10-26T15:36:49+00:00",
-  "duration_s": 17.09,
+  "generated_at": "2026-10-27T15:01:03+00:00",
+  "started_at": "2026-10-27T15:00:52+00:00",
+  "duration_s": 11.17,
   "totals": {
     "discovered": 135,
-    "persisted": 1,
-    "skipped": 132,
+    "persisted": 0,
+    "skipped": 133,
     "failed": 0
   },
   "items": [
@@ -22,14 +22,14 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/esquemas-xml/2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026",
       "files": [
         "data/nfe/esquemas-xml/2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026/PL_010g_v1.03.zip",
-        "/home/runner/work/data-source/data-source/data/nfe/esquemas-xml/2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026/PL_010g_v1.03/PL_010g_v1.03/Evento/e110001_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/nfe/esquemas-xml/2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026/PL_010g_v1.03/PL_010g_v1.03/Evento/e110300_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/nfe/esquemas-xml/2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026/PL_010g_v1.03/PL_010g_v1.03/Evento/tiposBasico_v1.03.xsd",
-        "/home/runner/work/data-source/data-source/data/nfe/esquemas-xml/2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026/PL_010g_v1.03/PL_010g_v1.03/NFe/DFeTiposBasicos_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/nfe/esquemas-xml/2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026/PL_010g_v1.03/PL_010g_v1.03/NFe/leiauteNFe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/nfe/esquemas-xml/2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026/PL_010g_v1.03/PL_010g_v1.03/NFe/nfe_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/nfe/esquemas-xml/2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026/PL_010g_v1.03/PL_010g_v1.03/NFe/tiposBasico_v4.00.xsd",
-        "/home/runner/work/data-source/data-source/data/nfe/esquemas-xml/2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026/PL_010g_v1.03/PL_010g_v1.03/NFe/xmldsig-core-schema_v1.01.xsd"
+        "data/nfe/esquemas-xml/2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026/PL_010g_v1.03/PL_010g_v1.03/Evento/e110001_v1.00.xsd",
+        "data/nfe/esquemas-xml/2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026/PL_010g_v1.03/PL_010g_v1.03/Evento/e110300_v1.00.xsd",
+        "data/nfe/esquemas-xml/2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026/PL_010g_v1.03/PL_010g_v1.03/Evento/tiposBasico_v1.03.xsd",
+        "data/nfe/esquemas-xml/2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026/PL_010g_v1.03/PL_010g_v1.03/NFe/DFeTiposBasicos_v1.00.xsd",
+        "data/nfe/esquemas-xml/2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026/PL_010g_v1.03/PL_010g_v1.03/NFe/leiauteNFe_v4.00.xsd",
+        "data/nfe/esquemas-xml/2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026/PL_010g_v1.03/PL_010g_v1.03/NFe/nfe_v4.00.xsd",
+        "data/nfe/esquemas-xml/2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026/PL_010g_v1.03/PL_010g_v1.03/NFe/tiposBasico_v4.00.xsd",
+        "data/nfe/esquemas-xml/2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026/PL_010g_v1.03/PL_010g_v1.03/NFe/xmldsig-core-schema_v1.01.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026/PL_010g_v1.03.zip",
@@ -42,8 +42,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026/PL_010g_v1.03/PL_010g_v1.03/NFe/tiposBasico_v4.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026/PL_010g_v1.03/PL_010g_v1.03/NFe/xmldsig-core-schema_v1.01.xsd"
       ],
-      "downloaded_at": "2026-10-26T15:37:04+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-08-31_schemas-xml-nf-e-pacote-de-liberacao-no-010f-nt-2025.002-v.1.50-e-nt-2026.007-v.1.00-publicado-em-310826",
@@ -6732,7 +6732,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-26T15:37:05+00:00",
+      "downloaded_at": "2026-10-27T15:01:03+00:00",
       "status": "ok"
     },
     {
@@ -6745,7 +6745,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-26T15:37:06+00:00",
+      "downloaded_at": "2026-10-27T15:01:03+00:00",
       "status": "ok"
     },
     {

@@ -2,16 +2,33 @@
   "context": "nfe/notas-tecnicas",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas",
-  "generated_at": "2026-10-26T15:37:12+00:00",
-  "started_at": "2026-10-26T15:37:08+00:00",
-  "duration_s": 4.7,
+  "generated_at": "2026-10-27T15:01:10+00:00",
+  "started_at": "2026-10-27T15:01:05+00:00",
+  "duration_s": 5.54,
   "totals": {
-    "discovered": 322,
-    "persisted": 0,
+    "discovered": 323,
+    "persisted": 1,
     "skipped": 320,
     "failed": 0
   },
   "items": [
+    {
+      "slug": "2026-10-27_nota-tecnica-nt2023.002v1.02-publicada-em-27102026",
+      "title": "Nota Técnica NT2023.002_v1.02 - Publicada em 27/10/2026",
+      "description": "Nota Técnica NT2023.002_v1.02",
+      "published_at": "2026-10-27",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=DCFRgnlk4g8=",
+      "folder": "data/nfe/notas-tecnicas/2026-10-27_nota-tecnica-nt2023.002v1.02-publicada-em-27102026",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/notas-tecnicas/2026-10-27_nota-tecnica-nt2023.002v1.02-publicada-em-27102026",
+      "files": [
+        "data/nfe/notas-tecnicas/2026-10-27_nota-tecnica-nt2023.002v1.02-publicada-em-27102026/NFe_NT2023.002_v1.02.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/notas-tecnicas/2026-10-27_nota-tecnica-nt2023.002v1.02-publicada-em-27102026/NFe_NT2023.002_v1.02.pdf"
+      ],
+      "downloaded_at": "2026-10-27T15:01:09+00:00",
+      "status": "ok"
+    },
     {
       "slug": "2026-10-01_nota-tecnica-2026.007-v.1.10-publicada-em-01102026",
       "title": "Nota Técnica 2026.007 v.1.10 - Publicada em 01/10/2026",
@@ -5462,7 +5479,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-26T15:37:12+00:00",
+      "downloaded_at": "2026-10-27T15:01:09+00:00",
       "status": "ok"
     },
     {
@@ -5475,7 +5492,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-26T15:37:12+00:00",
+      "downloaded_at": "2026-10-27T15:01:10+00:00",
       "status": "ok"
     }
   ]
