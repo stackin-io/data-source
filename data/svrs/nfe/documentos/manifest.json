@@ -2,16 +2,33 @@
   "context": "svrs/nfe/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos",
-  "generated_at": "2026-10-26T15:40:33+00:00",
-  "started_at": "2026-10-26T15:40:28+00:00",
-  "duration_s": 5.5,
+  "generated_at": "2026-10-27T15:03:05+00:00",
+  "started_at": "2026-10-27T15:02:59+00:00",
+  "duration_s": 5.96,
   "totals": {
-    "discovered": 100,
-    "persisted": 0,
+    "discovered": 101,
+    "persisted": 1,
     "skipped": 94,
     "failed": 0
   },
   "items": [
+    {
+      "slug": "2026-10-26_nota-tecnica-2023.002-v1.02",
+      "title": "Nota Técnica 2023.002 v1.02",
+      "description": "Nota Técnica 2023.002 v1.02",
+      "published_at": "2026-10-26",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFE/DownloadArquivoEstatico/?sistema=NFE&tipoArquivo=3&nomeArquivo=NFe_NT2023.002_v1.02+%28Fim+autoriza%C3%A7%C3%A3o+ass%C3%ADncrona+e+inutiliza%C3%A7%C3%A3o%29.pdf",
+      "folder": "data/svrs/nfe/documentos/2026-10-26_nota-tecnica-2023.002-v1.02",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-10-26_nota-tecnica-2023.002-v1.02",
+      "files": [
+        "data/svrs/nfe/documentos/2026-10-26_nota-tecnica-2023.002-v1.02/nfe-nt2023.002-v1.02-fim-autorizacao-assincrona-e-inutilizacao.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-26_nota-tecnica-2023.002-v1.02/nfe-nt2023.002-v1.02-fim-autorizacao-assincrona-e-inutilizacao.pdf"
+      ],
+      "downloaded_at": "2026-10-27T15:03:01+00:00",
+      "status": "ok"
+    },
     {
       "slug": "2026-10-01_nota-tecnica-2025.002-v1.52-rtc",
       "title": "Nota Técnica 2025.002 v1.52 - RTC",
@@ -1241,7 +1258,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-26T15:40:29+00:00",
+      "downloaded_at": "2026-10-27T15:03:02+00:00",
       "status": "ok"
     },
     {
@@ -1831,7 +1848,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-26T15:40:30+00:00",
+      "downloaded_at": "2026-10-27T15:03:02+00:00",
       "status": "ok"
     },
     {
@@ -1844,7 +1861,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-26T15:40:31+00:00",
+      "downloaded_at": "2026-10-27T15:03:03+00:00",
       "status": "ok"
     },
     {
@@ -1857,7 +1874,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-26T15:40:32+00:00",
+      "downloaded_at": "2026-10-27T15:03:04+00:00",
       "status": "ok"
     },
     {
@@ -1870,7 +1887,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-26T15:40:32+00:00",
+      "downloaded_at": "2026-10-27T15:03:05+00:00",
       "status": "ok"
     },
     {
@@ -1883,7 +1900,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-26T15:40:33+00:00",
+      "downloaded_at": "2026-10-27T15:03:05+00:00",
       "status": "ok"
     },
     {
