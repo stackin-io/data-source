@@ -2,13 +2,13 @@
   "context": "svrs/nfe/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos",
-  "generated_at": "2026-10-27T15:03:05+00:00",
-  "started_at": "2026-10-27T15:02:59+00:00",
-  "duration_s": 5.96,
+  "generated_at": "2026-10-28T15:39:40+00:00",
+  "started_at": "2026-10-28T15:39:35+00:00",
+  "duration_s": 5.71,
   "totals": {
     "discovered": 101,
-    "persisted": 1,
-    "skipped": 94,
+    "persisted": 0,
+    "skipped": 95,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-26_nota-tecnica-2023.002-v1.02/nfe-nt2023.002-v1.02-fim-autorizacao-assincrona-e-inutilizacao.pdf"
       ],
-      "downloaded_at": "2026-10-27T15:03:01+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_nota-tecnica-2025.002-v1.52-rtc",
@@ -1258,7 +1258,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-27T15:03:02+00:00",
+      "downloaded_at": "2026-10-28T15:39:37+00:00",
       "status": "ok"
     },
     {
@@ -1848,7 +1848,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-27T15:03:02+00:00",
+      "downloaded_at": "2026-10-28T15:39:37+00:00",
       "status": "ok"
     },
     {
@@ -1861,7 +1861,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-27T15:03:03+00:00",
+      "downloaded_at": "2026-10-28T15:39:38+00:00",
       "status": "ok"
     },
     {
@@ -1874,7 +1874,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-27T15:03:04+00:00",
+      "downloaded_at": "2026-10-28T15:39:39+00:00",
       "status": "ok"
     },
     {
@@ -1887,7 +1887,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-27T15:03:05+00:00",
+      "downloaded_at": "2026-10-28T15:39:40+00:00",
       "status": "ok"
     },
     {
@@ -1900,7 +1900,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-27T15:03:05+00:00",
+      "downloaded_at": "2026-10-28T15:39:40+00:00",
       "status": "ok"
     },
     {

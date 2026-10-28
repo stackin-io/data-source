@@ -2,9 +2,9 @@
   "context": "svrs/cte/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/cte/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/cte/documentos",
-  "generated_at": "2026-10-27T15:03:10+00:00",
-  "started_at": "2026-10-27T15:03:09+00:00",
-  "duration_s": 0.84,
+  "generated_at": "2026-10-28T15:39:46+00:00",
+  "started_at": "2026-10-28T15:39:45+00:00",
+  "duration_s": 1.37,
   "totals": {
     "discovered": 33,
     "persisted": 0,
