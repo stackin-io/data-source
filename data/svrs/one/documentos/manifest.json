@@ -2,9 +2,9 @@
   "context": "svrs/one/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/one/documentos",
-  "generated_at": "2026-10-28T15:40:16+00:00",
-  "started_at": "2026-10-28T15:40:15+00:00",
-  "duration_s": 0.98,
+  "generated_at": "2026-10-29T15:45:54+00:00",
+  "started_at": "2026-10-29T15:45:53+00:00",
+  "duration_s": 1.14,
   "totals": {
     "discovered": 10,
     "persisted": 0,
