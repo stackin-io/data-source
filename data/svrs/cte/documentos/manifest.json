@@ -2,16 +2,84 @@
   "context": "svrs/cte/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/cte/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/cte/documentos",
-  "generated_at": "2026-10-29T15:45:29+00:00",
-  "started_at": "2026-10-29T15:45:28+00:00",
-  "duration_s": 1.01,
+  "generated_at": "2026-10-30T15:27:41+00:00",
+  "started_at": "2026-10-30T15:27:37+00:00",
+  "duration_s": 3.84,
   "totals": {
-    "discovered": 33,
-    "persisted": 0,
-    "skipped": 33,
+    "discovered": 34,
+    "persisted": 4,
+    "skipped": 30,
     "failed": 0
   },
   "items": [
+    {
+      "slug": "2026-10-30_nota-tecnica-2026.005-simples-nacional",
+      "title": "Nota Técnica 2026.005 - Simples Nacional",
+      "description": "Nota Técnica 2026.005 - Simples Nacional",
+      "published_at": "2026-10-30",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/CTE/DownloadArquivoEstatico/?sistema=CTE&tipoArquivo=3&nomeArquivo=CTe_Nota_Tecnica_2026_005_SN_v1.00.pdf",
+      "folder": "data/svrs/cte/documentos/2026-10-30_nota-tecnica-2026.005-simples-nacional",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/cte/documentos/2026-10-30_nota-tecnica-2026.005-simples-nacional",
+      "files": [
+        "data/svrs/cte/documentos/2026-10-30_nota-tecnica-2026.005-simples-nacional/cte-nota-tecnica-2026-005-sn-v1.00.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/cte/documentos/2026-10-30_nota-tecnica-2026.005-simples-nacional/cte-nota-tecnica-2026-005-sn-v1.00.pdf"
+      ],
+      "downloaded_at": "2026-10-30T15:27:39+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-30_nota-tecnica-2026.004-v1.01",
+      "title": "Nota Técnica 2026.004 - v1.01",
+      "description": "Nota Técnica 2026.004 - v1.01",
+      "published_at": "2026-10-30",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/CTE/DownloadArquivoEstatico/?sistema=CTE&tipoArquivo=3&nomeArquivo=CTe_Nota_Tecnica_2026_004_v1.01.pdf",
+      "folder": "data/svrs/cte/documentos/2026-10-30_nota-tecnica-2026.004-v1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/cte/documentos/2026-10-30_nota-tecnica-2026.004-v1.01",
+      "files": [
+        "data/svrs/cte/documentos/2026-10-30_nota-tecnica-2026.004-v1.01/cte-nota-tecnica-2026-004-v1.01.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/cte/documentos/2026-10-30_nota-tecnica-2026.004-v1.01/cte-nota-tecnica-2026-004-v1.01.pdf"
+      ],
+      "downloaded_at": "2026-10-30T15:27:39+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-30_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "title": "Tabela de Código de Classificação Tributária da RT",
+      "description": "Tabela de Código de Classificação Tributária da RT",
+      "published_at": "2026-10-30",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=Tabela+IT+2025.002+v.1.71+-+cClassTrib.xlsx",
+      "folder": "data/svrs/cte/documentos/2026-10-30_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/cte/documentos/2026-10-30_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "files": [
+        "data/svrs/cte/documentos/2026-10-30_tabela-de-codigo-de-classificacao-tributaria-da-rt/tabela-it-2025.002-v.1.71-cclasstrib.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/cte/documentos/2026-10-30_tabela-de-codigo-de-classificacao-tributaria-da-rt/tabela-it-2025.002-v.1.71-cclasstrib.xlsx"
+      ],
+      "downloaded_at": "2026-10-30T15:27:39+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-30_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.71",
+      "title": "IT 2025.002 RT Tabela de Classificação Tributária v1.71",
+      "description": "IT 2025.002 RT Tabela de Classificação Tributária v1.71",
+      "published_at": "2026-10-30",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT+2025.002+v.1.71+-+Tabelas+de+Classifica%C3%A7%C3%A3o+do+IBS+e+da+CBS.pdf",
+      "folder": "data/svrs/cte/documentos/2026-10-30_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.71",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/cte/documentos/2026-10-30_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.71",
+      "files": [
+        "data/svrs/cte/documentos/2026-10-30_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.71/it-2025.002-v.1.71-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/cte/documentos/2026-10-30_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.71/it-2025.002-v.1.71-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
+      ],
+      "downloaded_at": "2026-10-30T15:27:41+00:00",
+      "status": "ok"
+    },
     {
       "slug": "2026-10-15_schemas-nt-2026.004-rtc",
       "title": "Schemas NT 2026.004 RTC",
@@ -124,23 +192,6 @@
       "status": "skipped"
     },
     {
-      "slug": "2026-10-01_nota-tecnica-2026.004-rtc",
-      "title": "Nota Técnica 2026.004 RTC",
-      "description": "Nota Técnica 2026.004 RTC",
-      "published_at": "2026-10-01",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/CTE/DownloadArquivoEstatico/?sistema=CTE&tipoArquivo=3&nomeArquivo=CTe_Nota_Tecnica_2026_004_v1.00.pdf",
-      "folder": "data/svrs/cte/documentos/2026-10-01_nota-tecnica-2026.004-rtc",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/cte/documentos/2026-10-01_nota-tecnica-2026.004-rtc",
-      "files": [
-        "data/svrs/cte/documentos/2026-10-01_nota-tecnica-2026.004-rtc/cte-nota-tecnica-2026-004-v1.00.pdf"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/cte/documentos/2026-10-01_nota-tecnica-2026.004-rtc/cte-nota-tecnica-2026-004-v1.00.pdf"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
       "slug": "2026-10-01_tabela-de-codigos-de-credito-presumido",
       "title": "Tabela de Códigos de Crédito Presumido",
       "description": "Tabela de Códigos de Crédito Presumido",
@@ -153,40 +204,6 @@
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/cte/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido/it-2025.002-v.1.70-ccredpres.xlsx"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
-      "slug": "2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
-      "title": "Tabela de Código de Classificação Tributária da RT",
-      "description": "Tabela de Código de Classificação Tributária da RT",
-      "published_at": "2026-10-01",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=IT+2025.002+v.1.70+-+cClassTrib.xlsx",
-      "folder": "data/svrs/cte/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/cte/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
-      "files": [
-        "data/svrs/cte/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt/it-2025.002-v.1.70-cclasstrib.xlsx"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/cte/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt/it-2025.002-v.1.70-cclasstrib.xlsx"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
-      "slug": "2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70",
-      "title": "IT 2025.002 RT Tabela de Classificação Tributária v1.70",
-      "description": "IT 2025.002 RT Tabela de Classificação Tributária v1.70",
-      "published_at": "2026-10-01",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT+2025.002+v.1.70+-+Tabelas+de+Classifica%C3%A7%C3%A3o+do+IBS+e+da+CBS.pdf",
-      "folder": "data/svrs/cte/documentos/2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/cte/documentos/2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70",
-      "files": [
-        "data/svrs/cte/documentos/2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70/it-2025.002-v.1.70-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/cte/documentos/2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70/it-2025.002-v.1.70-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
       ],
       "downloaded_at": "",
       "status": "skipped"

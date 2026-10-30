@@ -2,16 +2,135 @@
   "context": "svrs/nfe/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos",
-  "generated_at": "2026-10-29T15:45:24+00:00",
-  "started_at": "2026-10-29T15:45:07+00:00",
-  "duration_s": 16.95,
+  "generated_at": "2026-10-30T15:27:32+00:00",
+  "started_at": "2026-10-30T15:27:21+00:00",
+  "duration_s": 10.26,
   "totals": {
-    "discovered": 101,
-    "persisted": 0,
-    "skipped": 95,
+    "discovered": 106,
+    "persisted": 7,
+    "skipped": 93,
     "failed": 0
   },
   "items": [
+    {
+      "slug": "2026-10-30_nota-tecnica-2026.005-v1.00-rtc-simples-nacional",
+      "title": "Nota Técnica 2026.005 v1.00 - RTC - Simples Nacional",
+      "description": "Nota Técnica 2026.005 v1.00 - RTC - Simples Nacional",
+      "published_at": "2026-10-30",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFE/DownloadArquivoEstatico/?sistema=NFE&tipoArquivo=3&nomeArquivo=NT_2026.005_v1.00_RTC_SimplesNacional.pdf",
+      "folder": "data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2026.005-v1.00-rtc-simples-nacional",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2026.005-v1.00-rtc-simples-nacional",
+      "files": [
+        "data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2026.005-v1.00-rtc-simples-nacional/nt-2026.005-v1.00-rtc-simplesnacional.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2026.005-v1.00-rtc-simples-nacional/nt-2026.005-v1.00-rtc-simplesnacional.pdf"
+      ],
+      "downloaded_at": "2026-10-30T15:27:23+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-30_nota-tecnica-2025.002-v1.53-rtc",
+      "title": "Nota Técnica 2025.002 v1.53 - RTC",
+      "description": "Nota Técnica 2025.002 v1.53 - RTC",
+      "published_at": "2026-10-30",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFE/DownloadArquivoEstatico/?sistema=NFE&tipoArquivo=3&nomeArquivo=NT_2025.002_v1.53_RTC_NF-e_IBS_CBS_IS.pdf",
+      "folder": "data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2025.002-v1.53-rtc",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2025.002-v1.53-rtc",
+      "files": [
+        "data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2025.002-v1.53-rtc/nt-2025.002-v1.53-rtc-nf-e-ibs-cbs-is.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2025.002-v1.53-rtc/nt-2025.002-v1.53-rtc-nf-e-ibs-cbs-is.pdf"
+      ],
+      "downloaded_at": "2026-10-30T15:27:24+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-30_nota-tecnica-2026.006-v1.01-rtc-vinculacao-pagamento",
+      "title": "Nota Técnica 2026.006 v1.01 - RTC - Vinculação Pagamento",
+      "description": "Nota Técnica 2026.006 v1.01 - RTC - Vinculação Pagamento",
+      "published_at": "2026-10-30",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFE/DownloadArquivoEstatico/?sistema=NFE&tipoArquivo=3&nomeArquivo=NT_2026.006_v1.01_RTC_VinculacaoPagamento.pdf",
+      "folder": "data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2026.006-v1.01-rtc-vinculacao-pagamento",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2026.006-v1.01-rtc-vinculacao-pagamento",
+      "files": [
+        "data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2026.006-v1.01-rtc-vinculacao-pagamento/nt-2026.006-v1.01-rtc-vinculacaopagamento.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2026.006-v1.01-rtc-vinculacao-pagamento/nt-2026.006-v1.01-rtc-vinculacaopagamento.pdf"
+      ],
+      "downloaded_at": "2026-10-30T15:27:24+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-30_nota-tecnica-2026.008-v1.01-valor-liquido",
+      "title": "Nota Técnica 2026.008 v1.01 - Valor Líquido",
+      "description": "Nota Técnica 2026.008 v1.01 - Valor Líquido",
+      "published_at": "2026-10-30",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFE/DownloadArquivoEstatico/?sistema=NFE&tipoArquivo=3&nomeArquivo=NT_2026.008_v1.01_RTC_ValorLiquido.pdf",
+      "folder": "data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2026.008-v1.01-valor-liquido",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2026.008-v1.01-valor-liquido",
+      "files": [
+        "data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2026.008-v1.01-valor-liquido/nt-2026.008-v1.01-rtc-valorliquido.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2026.008-v1.01-valor-liquido/nt-2026.008-v1.01-rtc-valorliquido.pdf"
+      ],
+      "downloaded_at": "2026-10-30T15:27:25+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-30_nota-tecnica-2026.007-v1.11",
+      "title": "Nota Técnica 2026.007 v1.11",
+      "description": "Nota Técnica 2026.007 v1.11",
+      "published_at": "2026-10-30",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFE/DownloadArquivoEstatico/?sistema=NFE&tipoArquivo=3&nomeArquivo=NT2026.007_v1.11+-+Emiss%C3%A3o+NF-e+sem+IE.pdf",
+      "folder": "data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2026.007-v1.11",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2026.007-v1.11",
+      "files": [
+        "data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2026.007-v1.11/nt2026.007-v1.11-emissao-nf-e-sem-ie.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2026.007-v1.11/nt2026.007-v1.11-emissao-nf-e-sem-ie.pdf"
+      ],
+      "downloaded_at": "2026-10-30T15:27:26+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-30_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "title": "Tabela de Código de Classificação Tributária da RT",
+      "description": "Tabela de Código de Classificação Tributária da RT",
+      "published_at": "2026-10-30",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=Tabela+IT+2025.002+v.1.71+-+cClassTrib.xlsx",
+      "folder": "data/svrs/nfe/documentos/2026-10-30_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-10-30_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "files": [
+        "data/svrs/nfe/documentos/2026-10-30_tabela-de-codigo-de-classificacao-tributaria-da-rt/tabela-it-2025.002-v.1.71-cclasstrib.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-30_tabela-de-codigo-de-classificacao-tributaria-da-rt/tabela-it-2025.002-v.1.71-cclasstrib.xlsx"
+      ],
+      "downloaded_at": "2026-10-30T15:27:26+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-30_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.71",
+      "title": "IT 2025.002 RT Tabela de Classificação Tributária v1.71",
+      "description": "IT 2025.002 RT Tabela de Classificação Tributária v1.71",
+      "published_at": "2026-10-30",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT+2025.002+v.1.71+-+Tabelas+de+Classifica%C3%A7%C3%A3o+do+IBS+e+da+CBS.pdf",
+      "folder": "data/svrs/nfe/documentos/2026-10-30_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.71",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-10-30_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.71",
+      "files": [
+        "data/svrs/nfe/documentos/2026-10-30_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.71/it-2025.002-v.1.71-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-30_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.71/it-2025.002-v.1.71-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
+      ],
+      "downloaded_at": "2026-10-30T15:27:27+00:00",
+      "status": "ok"
+    },
     {
       "slug": "2026-10-26_nota-tecnica-2023.002-v1.02",
       "title": "Nota Técnica 2023.002 v1.02",
@@ -115,23 +234,6 @@
       "status": "skipped"
     },
     {
-      "slug": "2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
-      "title": "Tabela de Código de Classificação Tributária da RT",
-      "description": "Tabela de Código de Classificação Tributária da RT",
-      "published_at": "2026-10-01",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=IT+2025.002+v.1.70+-+cClassTrib.xlsx",
-      "folder": "data/svrs/nfe/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
-      "files": [
-        "data/svrs/nfe/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt/it-2025.002-v.1.70-cclasstrib.xlsx"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt/it-2025.002-v.1.70-cclasstrib.xlsx"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
       "slug": "2026-10-01_tabela-de-codigos-de-credito-presumido",
       "title": "Tabela de Códigos de Crédito Presumido",
       "description": "Tabela de Códigos de Crédito Presumido",
@@ -144,23 +246,6 @@
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido/it-2025.002-v.1.70-ccredpres.xlsx"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
-      "slug": "2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70",
-      "title": "IT 2025.002 RT Tabela de Classificação Tributária v1.70",
-      "description": "IT 2025.002 RT Tabela de Classificação Tributária v1.70",
-      "published_at": "2026-10-01",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT+2025.002+v.1.70+-+Tabelas+de+Classifica%C3%A7%C3%A3o+do+IBS+e+da+CBS.pdf",
-      "folder": "data/svrs/nfe/documentos/2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos/2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70",
-      "files": [
-        "data/svrs/nfe/documentos/2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70/it-2025.002-v.1.70-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70/it-2025.002-v.1.70-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
       ],
       "downloaded_at": "",
       "status": "skipped"
@@ -1258,7 +1343,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-29T15:45:21+00:00",
+      "downloaded_at": "2026-10-30T15:27:28+00:00",
       "status": "ok"
     },
     {
@@ -1848,7 +1933,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-29T15:45:21+00:00",
+      "downloaded_at": "2026-10-30T15:27:29+00:00",
       "status": "ok"
     },
     {
@@ -1861,7 +1946,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-29T15:45:22+00:00",
+      "downloaded_at": "2026-10-30T15:27:29+00:00",
       "status": "ok"
     },
     {
@@ -1874,7 +1959,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-29T15:45:22+00:00",
+      "downloaded_at": "2026-10-30T15:27:30+00:00",
       "status": "ok"
     },
     {
@@ -1887,7 +1972,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-29T15:45:23+00:00",
+      "downloaded_at": "2026-10-30T15:27:31+00:00",
       "status": "ok"
     },
     {
@@ -1900,7 +1985,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-29T15:45:24+00:00",
+      "downloaded_at": "2026-10-30T15:27:32+00:00",
       "status": "ok"
     },
     {

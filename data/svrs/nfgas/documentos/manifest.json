@@ -2,16 +2,67 @@
   "context": "svrs/nfgas/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos",
-  "generated_at": "2026-10-29T15:45:41+00:00",
-  "started_at": "2026-10-29T15:45:40+00:00",
-  "duration_s": 1.0,
+  "generated_at": "2026-10-30T15:28:08+00:00",
+  "started_at": "2026-10-30T15:28:05+00:00",
+  "duration_s": 2.87,
   "totals": {
     "discovered": 17,
-    "persisted": 0,
-    "skipped": 17,
+    "persisted": 3,
+    "skipped": 14,
     "failed": 0
   },
   "items": [
+    {
+      "slug": "2026-10-30_nota-tecnica-2026.004-v1.01",
+      "title": "Nota Técnica 2026.004 v1.01",
+      "description": "Nota Técnica 2026.004 v1.01",
+      "published_at": "2026-10-30",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFGAS/DownloadArquivoEstatico/?sistema=NFGAS&tipoArquivo=3&nomeArquivo=NFGas_Nota_Tecnica_2026_004_v1.01.pdf",
+      "folder": "data/svrs/nfgas/documentos/2026-10-30_nota-tecnica-2026.004-v1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-10-30_nota-tecnica-2026.004-v1.01",
+      "files": [
+        "data/svrs/nfgas/documentos/2026-10-30_nota-tecnica-2026.004-v1.01/nfgas-nota-tecnica-2026-004-v1.01.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-30_nota-tecnica-2026.004-v1.01/nfgas-nota-tecnica-2026-004-v1.01.pdf"
+      ],
+      "downloaded_at": "2026-10-30T15:28:07+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-30_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "title": "Tabela de Código de Classificação Tributária da RT",
+      "description": "Tabela de Código de Classificação Tributária da RT",
+      "published_at": "2026-10-30",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=Tabela+IT+2025.002+v.1.71+-+cClassTrib.xlsx",
+      "folder": "data/svrs/nfgas/documentos/2026-10-30_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-10-30_tabela-de-codigo-de-classificacao-tributaria-da-rt",
+      "files": [
+        "data/svrs/nfgas/documentos/2026-10-30_tabela-de-codigo-de-classificacao-tributaria-da-rt/tabela-it-2025.002-v.1.71-cclasstrib.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-30_tabela-de-codigo-de-classificacao-tributaria-da-rt/tabela-it-2025.002-v.1.71-cclasstrib.xlsx"
+      ],
+      "downloaded_at": "2026-10-30T15:28:07+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-30_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.71",
+      "title": "IT 2025.002 RT Tabela de Classificação Tributária v1.71",
+      "description": "IT 2025.002 RT Tabela de Classificação Tributária v1.71",
+      "published_at": "2026-10-30",
+      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT+2025.002+v.1.71+-+Tabelas+de+Classifica%C3%A7%C3%A3o+do+IBS+e+da+CBS.pdf",
+      "folder": "data/svrs/nfgas/documentos/2026-10-30_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.71",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-10-30_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.71",
+      "files": [
+        "data/svrs/nfgas/documentos/2026-10-30_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.71/it-2025.002-v.1.71-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-30_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.71/it-2025.002-v.1.71-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
+      ],
+      "downloaded_at": "2026-10-30T15:28:08+00:00",
+      "status": "ok"
+    },
     {
       "slug": "2026-10-02_nota-tecnica-2026.004-rtc",
       "title": "Nota Técnica 2026.004 RTC",
@@ -70,23 +121,6 @@
       "status": "skipped"
     },
     {
-      "slug": "2026-10-01_nota-tecnica-2026.004-rtc",
-      "title": "Nota Técnica 2026.004 RTC",
-      "description": "Nota Técnica 2026.004 RTC",
-      "published_at": "2026-10-01",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/NFGAS/DownloadArquivoEstatico/?sistema=NFGAS&tipoArquivo=3&nomeArquivo=NFGas_Nota_Tecnica_2026_004_v1.00.pdf",
-      "folder": "data/svrs/nfgas/documentos/2026-10-01_nota-tecnica-2026.004-rtc",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-10-01_nota-tecnica-2026.004-rtc",
-      "files": [
-        "data/svrs/nfgas/documentos/2026-10-01_nota-tecnica-2026.004-rtc/nfgas-nota-tecnica-2026-004-v1.00.pdf"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-01_nota-tecnica-2026.004-rtc/nfgas-nota-tecnica-2026-004-v1.00.pdf"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
       "slug": "2026-10-01_tabela-de-codigos-de-credito-presumido",
       "title": "Tabela de Códigos de Crédito Presumido",
       "description": "Tabela de Códigos de Crédito Presumido",
@@ -99,40 +133,6 @@
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-01_tabela-de-codigos-de-credito-presumido/it-2025.002-v.1.70-ccredpres.xlsx"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
-      "slug": "2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
-      "title": "Tabela de Código de Classificação Tributária da RT",
-      "description": "Tabela de Código de Classificação Tributária da RT",
-      "published_at": "2026-10-01",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=12&nomeArquivo=IT+2025.002+v.1.70+-+cClassTrib.xlsx",
-      "folder": "data/svrs/nfgas/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt",
-      "files": [
-        "data/svrs/nfgas/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt/it-2025.002-v.1.70-cclasstrib.xlsx"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-01_tabela-de-codigo-de-classificacao-tributaria-da-rt/it-2025.002-v.1.70-cclasstrib.xlsx"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
-      "slug": "2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70",
-      "title": "IT 2025.002 RT Tabela de Classificação Tributária v1.70",
-      "description": "IT 2025.002 RT Tabela de Classificação Tributária v1.70",
-      "published_at": "2026-10-01",
-      "source_url": "https://dfe-portal.svrs.rs.gov.br/DFE/DownloadArquivoEstatico/?sistema=DFE&tipoArquivo=16&nomeArquivo=IT+2025.002+v.1.70+-+Tabelas+de+Classifica%C3%A7%C3%A3o+do+IBS+e+da+CBS.pdf",
-      "folder": "data/svrs/nfgas/documentos/2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfgas/documentos/2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70",
-      "files": [
-        "data/svrs/nfgas/documentos/2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70/it-2025.002-v.1.70-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfgas/documentos/2026-10-01_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.70/it-2025.002-v.1.70-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
       ],
       "downloaded_at": "",
       "status": "skipped"
