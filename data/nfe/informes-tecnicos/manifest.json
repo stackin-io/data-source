@@ -2,16 +2,50 @@
   "context": "nfe/informes-tecnicos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/informes-tecnicos",
-  "generated_at": "2026-10-30T15:26:21+00:00",
-  "started_at": "2026-10-30T15:26:17+00:00",
-  "duration_s": 3.72,
+  "generated_at": "2026-10-31T14:55:01+00:00",
+  "started_at": "2026-10-31T14:54:53+00:00",
+  "duration_s": 8.26,
   "totals": {
-    "discovered": 51,
-    "persisted": 0,
+    "discovered": 53,
+    "persisted": 2,
     "skipped": 49,
     "failed": 0
   },
   "items": [
+    {
+      "slug": "2026-10-30_informe-tecnico-2026.003-v1.00-publicado-em-30102026",
+      "title": "Informe Técnico 2026.003 v1.00 - Publicado em 30/10/2026",
+      "description": "Informe Técnico 2026.003 v1.00",
+      "published_at": "2026-10-30",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=ubZJ18I0T78=",
+      "folder": "data/nfe/informes-tecnicos/2026-10-30_informe-tecnico-2026.003-v1.00-publicado-em-30102026",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/informes-tecnicos/2026-10-30_informe-tecnico-2026.003-v1.00-publicado-em-30102026",
+      "files": [
+        "data/nfe/informes-tecnicos/2026-10-30_informe-tecnico-2026.003-v1.00-publicado-em-30102026/NFeABI_Informe Técnico NFe ABI 2026.003 - v1.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-10-30_informe-tecnico-2026.003-v1.00-publicado-em-30102026/NFeABI_Informe Técnico NFe ABI 2026.003 - v1.pdf"
+      ],
+      "downloaded_at": "2026-10-31T14:54:59+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-30_informe-tecnico-2025.002-v1.71-publicado-em-30102026",
+      "title": "Informe Técnico 2025.002 v1.71 - Publicado em 30/10/2026",
+      "description": "Informe Técnico 2025.002 v1.71",
+      "published_at": "2026-10-30",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=WYEtloOC2CQ=",
+      "folder": "data/nfe/informes-tecnicos/2026-10-30_informe-tecnico-2025.002-v1.71-publicado-em-30102026",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/informes-tecnicos/2026-10-30_informe-tecnico-2025.002-v1.71-publicado-em-30102026",
+      "files": [
+        "data/nfe/informes-tecnicos/2026-10-30_informe-tecnico-2025.002-v1.71-publicado-em-30102026/IT 2025.002 v.1.71 - Tabelas de Classificação do IBS e da CBS.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-10-30_informe-tecnico-2025.002-v1.71-publicado-em-30102026/IT 2025.002 v.1.71 - Tabelas de Classificação do IBS e da CBS.pdf"
+      ],
+      "downloaded_at": "2026-10-31T14:55:00+00:00",
+      "status": "ok"
+    },
     {
       "slug": "2026-10-01_informe-tecnico-2025.002-v.1.70-publicado-em-01102026",
       "title": "Informe Técnico 2025.002 - v.1.70 - Publicado em 01/10/2026",
@@ -855,7 +889,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-30T15:26:21+00:00",
+      "downloaded_at": "2026-10-31T14:55:00+00:00",
       "status": "ok"
     },
     {
@@ -868,7 +902,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-30T15:26:21+00:00",
+      "downloaded_at": "2026-10-31T14:55:01+00:00",
       "status": "ok"
     }
   ]
