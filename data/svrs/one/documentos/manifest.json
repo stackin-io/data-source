@@ -2,13 +2,13 @@
   "context": "svrs/one/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/one/documentos",
-  "generated_at": "2026-10-30T15:28:29+00:00",
-  "started_at": "2026-10-30T15:28:25+00:00",
-  "duration_s": 3.47,
+  "generated_at": "2026-10-31T14:56:33+00:00",
+  "started_at": "2026-10-31T14:56:33+00:00",
+  "duration_s": 0.83,
   "totals": {
     "discovered": 10,
-    "persisted": 2,
-    "skipped": 8,
+    "persisted": 0,
+    "skipped": 10,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/2026-10-30_tabela-de-codigo-de-classificacao-tributaria-da-rt/tabela-it-2025.002-v.1.71-cclasstrib.xlsx"
       ],
-      "downloaded_at": "2026-10-30T15:28:28+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-30_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.71",
@@ -43,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/one/documentos/2026-10-30_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.71/it-2025.002-v.1.71-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
       ],
-      "downloaded_at": "2026-10-30T15:28:29+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_tabela-de-codigos-de-credito-presumido",

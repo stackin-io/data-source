@@ -2,13 +2,13 @@
   "context": "svrs/nfe/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos",
-  "generated_at": "2026-10-30T15:27:32+00:00",
-  "started_at": "2026-10-30T15:27:21+00:00",
-  "duration_s": 10.26,
+  "generated_at": "2026-10-31T14:56:00+00:00",
+  "started_at": "2026-10-31T14:55:55+00:00",
+  "duration_s": 5.28,
   "totals": {
     "discovered": 106,
-    "persisted": 7,
-    "skipped": 93,
+    "persisted": 0,
+    "skipped": 100,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2026.005-v1.00-rtc-simples-nacional/nt-2026.005-v1.00-rtc-simplesnacional.pdf"
       ],
-      "downloaded_at": "2026-10-30T15:27:23+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-30_nota-tecnica-2025.002-v1.53-rtc",
@@ -43,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2025.002-v1.53-rtc/nt-2025.002-v1.53-rtc-nf-e-ibs-cbs-is.pdf"
       ],
-      "downloaded_at": "2026-10-30T15:27:24+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-30_nota-tecnica-2026.006-v1.01-rtc-vinculacao-pagamento",
@@ -60,8 +60,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2026.006-v1.01-rtc-vinculacao-pagamento/nt-2026.006-v1.01-rtc-vinculacaopagamento.pdf"
       ],
-      "downloaded_at": "2026-10-30T15:27:24+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-30_nota-tecnica-2026.008-v1.01-valor-liquido",
@@ -77,8 +77,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2026.008-v1.01-valor-liquido/nt-2026.008-v1.01-rtc-valorliquido.pdf"
       ],
-      "downloaded_at": "2026-10-30T15:27:25+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-30_nota-tecnica-2026.007-v1.11",
@@ -94,8 +94,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-30_nota-tecnica-2026.007-v1.11/nt2026.007-v1.11-emissao-nf-e-sem-ie.pdf"
       ],
-      "downloaded_at": "2026-10-30T15:27:26+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-30_tabela-de-codigo-de-classificacao-tributaria-da-rt",
@@ -111,8 +111,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-30_tabela-de-codigo-de-classificacao-tributaria-da-rt/tabela-it-2025.002-v.1.71-cclasstrib.xlsx"
       ],
-      "downloaded_at": "2026-10-30T15:27:26+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-30_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.71",
@@ -128,8 +128,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos/2026-10-30_it-2025.002-rt-tabela-de-classificacao-tributaria-v1.71/it-2025.002-v.1.71-tabelas-de-classificacao-do-ibs-e-da-cbs.pdf"
       ],
-      "downloaded_at": "2026-10-30T15:27:27+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-26_nota-tecnica-2023.002-v1.02",
@@ -1343,7 +1343,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-30T15:27:28+00:00",
+      "downloaded_at": "2026-10-31T14:55:56+00:00",
       "status": "ok"
     },
     {
@@ -1933,7 +1933,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-30T15:27:29+00:00",
+      "downloaded_at": "2026-10-31T14:55:57+00:00",
       "status": "ok"
     },
     {
@@ -1946,7 +1946,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-30T15:27:29+00:00",
+      "downloaded_at": "2026-10-31T14:55:58+00:00",
       "status": "ok"
     },
     {
@@ -1959,7 +1959,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-30T15:27:30+00:00",
+      "downloaded_at": "2026-10-31T14:55:59+00:00",
       "status": "ok"
     },
     {
@@ -1972,7 +1972,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-30T15:27:31+00:00",
+      "downloaded_at": "2026-10-31T14:55:59+00:00",
       "status": "ok"
     },
     {
@@ -1985,7 +1985,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-30T15:27:32+00:00",
+      "downloaded_at": "2026-10-31T14:56:00+00:00",
       "status": "ok"
     },
     {
