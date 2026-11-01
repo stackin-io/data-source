@@ -2,13 +2,13 @@
   "context": "nfe/informes-tecnicos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/informes-tecnicos",
-  "generated_at": "2026-10-31T14:55:01+00:00",
-  "started_at": "2026-10-31T14:54:53+00:00",
-  "duration_s": 8.26,
+  "generated_at": "2026-11-01T15:34:36+00:00",
+  "started_at": "2026-11-01T15:34:32+00:00",
+  "duration_s": 3.81,
   "totals": {
     "discovered": 53,
-    "persisted": 2,
-    "skipped": 49,
+    "persisted": 0,
+    "skipped": 51,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-10-30_informe-tecnico-2026.003-v1.00-publicado-em-30102026/NFeABI_Informe Técnico NFe ABI 2026.003 - v1.pdf"
       ],
-      "downloaded_at": "2026-10-31T14:54:59+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-30_informe-tecnico-2025.002-v1.71-publicado-em-30102026",
@@ -43,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos/2026-10-30_informe-tecnico-2025.002-v1.71-publicado-em-30102026/IT 2025.002 v.1.71 - Tabelas de Classificação do IBS e da CBS.pdf"
       ],
-      "downloaded_at": "2026-10-31T14:55:00+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_informe-tecnico-2025.002-v.1.70-publicado-em-01102026",
@@ -889,7 +889,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-31T14:55:00+00:00",
+      "downloaded_at": "2026-11-01T15:34:36+00:00",
       "status": "ok"
     },
     {
@@ -902,7 +902,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-31T14:55:01+00:00",
+      "downloaded_at": "2026-11-01T15:34:36+00:00",
       "status": "ok"
     }
   ]

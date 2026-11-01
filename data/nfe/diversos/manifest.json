@@ -2,13 +2,13 @@
   "context": "nfe/diversos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/diversos",
-  "generated_at": "2026-10-31T14:55:08+00:00",
-  "started_at": "2026-10-31T14:55:02+00:00",
-  "duration_s": 6.31,
+  "generated_at": "2026-11-01T15:34:41+00:00",
+  "started_at": "2026-11-01T15:34:37+00:00",
+  "duration_s": 3.87,
   "totals": {
     "discovered": 100,
-    "persisted": 1,
-    "skipped": 97,
+    "persisted": 0,
+    "skipped": 98,
     "failed": 0
   },
   "items": [
@@ -26,8 +26,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos/2026-10-30_tabela-de-classificacao-tributaria-do-ibs-e-cbs-publicada-em-30102026/Tabela IT 2025.002 v.1.71 - cClassTrib.xlsx"
       ],
-      "downloaded_at": "2026-10-31T14:55:07+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-01_tabela-de-codigo-de-credito-presumido-do-ibs-e-cbs-publicada-em-01102026",
@@ -1484,7 +1484,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-31T14:55:08+00:00",
+      "downloaded_at": "2026-11-01T15:34:41+00:00",
       "status": "ok"
     },
     {
@@ -1497,7 +1497,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-10-31T14:55:08+00:00",
+      "downloaded_at": "2026-11-01T15:34:41+00:00",
       "status": "ok"
     },
     {
