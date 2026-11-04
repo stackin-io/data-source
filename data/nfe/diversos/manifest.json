@@ -2,9 +2,9 @@
   "context": "nfe/diversos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/diversos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/diversos",
-  "generated_at": "2026-11-03T16:44:05+00:00",
-  "started_at": "2026-11-03T16:44:01+00:00",
-  "duration_s": 3.9,
+  "generated_at": "2026-11-04T16:41:15+00:00",
+  "started_at": "2026-11-04T16:41:11+00:00",
+  "duration_s": 3.77,
   "totals": {
     "discovered": 100,
     "persisted": 0,
@@ -1484,7 +1484,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-11-03T16:44:05+00:00",
+      "downloaded_at": "2026-11-04T16:41:15+00:00",
       "status": "ok"
     },
     {
@@ -1497,7 +1497,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-11-03T16:44:05+00:00",
+      "downloaded_at": "2026-11-04T16:41:15+00:00",
       "status": "ok"
     },
     {
