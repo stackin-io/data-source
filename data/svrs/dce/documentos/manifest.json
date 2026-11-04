@@ -2,9 +2,9 @@
   "context": "svrs/dce/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/dce/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/dce/documentos",
-  "generated_at": "2026-11-03T16:48:31+00:00",
-  "started_at": "2026-11-03T16:48:30+00:00",
-  "duration_s": 0.79,
+  "generated_at": "2026-11-04T16:43:07+00:00",
+  "started_at": "2026-11-04T16:43:06+00:00",
+  "duration_s": 0.89,
   "totals": {
     "discovered": 15,
     "persisted": 0,

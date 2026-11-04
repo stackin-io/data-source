@@ -2,9 +2,9 @@
   "context": "svrs/bpe/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/bpe/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/bpe/documentos",
-  "generated_at": "2026-11-03T16:48:22+00:00",
-  "started_at": "2026-11-03T16:48:21+00:00",
-  "duration_s": 0.98,
+  "generated_at": "2026-11-04T16:42:57+00:00",
+  "started_at": "2026-11-04T16:42:56+00:00",
+  "duration_s": 1.04,
   "totals": {
     "discovered": 32,
     "persisted": 0,
