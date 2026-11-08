@@ -2,9 +2,9 @@
   "context": "nfe/esquemas-xml",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/esquemas-xml",
-  "generated_at": "2026-11-07T15:16:28+00:00",
-  "started_at": "2026-11-07T15:16:21+00:00",
-  "duration_s": 6.89,
+  "generated_at": "2026-11-08T15:40:04+00:00",
+  "started_at": "2026-11-08T15:39:50+00:00",
+  "duration_s": 14.14,
   "totals": {
     "discovered": 135,
     "persisted": 0,
@@ -6732,7 +6732,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-11-07T15:16:27+00:00",
+      "downloaded_at": "2026-11-08T15:40:04+00:00",
       "status": "ok"
     },
     {
@@ -6745,7 +6745,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-11-07T15:16:27+00:00",
+      "downloaded_at": "2026-11-08T15:40:04+00:00",
       "status": "ok"
     },
     {
