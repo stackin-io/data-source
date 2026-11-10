@@ -2,9 +2,9 @@
   "context": "svrs/nfabi/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfabi/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfabi/documentos",
-  "generated_at": "2026-11-09T19:23:40+00:00",
-  "started_at": "2026-11-09T19:23:39+00:00",
-  "duration_s": 0.7,
+  "generated_at": "2026-11-10T16:42:19+00:00",
+  "started_at": "2026-11-10T16:42:18+00:00",
+  "duration_s": 0.8,
   "totals": {
     "discovered": 14,
     "persisted": 0,
