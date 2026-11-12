@@ -2,9 +2,9 @@
   "context": "nfe/informes-tecnicos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/informes-tecnicos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/informes-tecnicos",
-  "generated_at": "2026-11-11T16:45:56+00:00",
-  "started_at": "2026-11-11T16:45:53+00:00",
-  "duration_s": 3.78,
+  "generated_at": "2026-11-12T17:14:20+00:00",
+  "started_at": "2026-11-12T17:14:15+00:00",
+  "duration_s": 4.74,
   "totals": {
     "discovered": 53,
     "persisted": 0,
@@ -889,7 +889,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-11-11T16:45:56+00:00",
+      "downloaded_at": "2026-11-12T17:14:20+00:00",
       "status": "ok"
     },
     {
@@ -902,7 +902,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-11-11T16:45:56+00:00",
+      "downloaded_at": "2026-11-12T17:14:20+00:00",
       "status": "ok"
     }
   ]
