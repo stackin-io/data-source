@@ -2,16 +2,51 @@
   "context": "nfe/esquemas-xml",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/esquemas-xml",
-  "generated_at": "2026-11-12T17:14:08+00:00",
-  "started_at": "2026-11-12T17:13:54+00:00",
-  "duration_s": 14.06,
+  "generated_at": "2026-11-13T16:51:17+00:00",
+  "started_at": "2026-11-13T16:51:09+00:00",
+  "duration_s": 7.84,
   "totals": {
-    "discovered": 135,
-    "persisted": 0,
+    "discovered": 136,
+    "persisted": 1,
     "skipped": 133,
     "failed": 0
   },
   "items": [
+    {
+      "slug": "2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado",
+      "title": "Schemas XML NF-e - Pacote de Liberação nº 010h v.1.03 - NT 2026.006 v.1.00, NT 2026.008 v.1.01 e NT 2026.005 v.1.00 (Publicado em 13/11/2026)",
+      "description": "Schemas XML NF-e - Pacote de Liberação nº 010h v.1.03 - NT 2026.006 v.1.00, NT 2026.008 v.1.01 e NT 2026.005 v.1.00 (",
+      "published_at": "2026-11-13",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=YhWikFoTxUo=",
+      "folder": "data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado",
+      "files": [
+        "data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado/PL_010h_v1.03.zip",
+        "/home/runner/work/data-source/data-source/data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado/PL_010h_v1.03/PL_010h_v1.03/Evento/e110001_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado/PL_010h_v1.03/PL_010h_v1.03/Evento/e110300_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado/PL_010h_v1.03/PL_010h_v1.03/Evento/e412140_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado/PL_010h_v1.03/PL_010h_v1.03/Evento/tiposBasico_v1.03.xsd",
+        "/home/runner/work/data-source/data-source/data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado/PL_010h_v1.03/PL_010h_v1.03/NFe/DFeTiposBasicos_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado/PL_010h_v1.03/PL_010h_v1.03/NFe/leiauteNFe_v4.00.xsd",
+        "/home/runner/work/data-source/data-source/data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado/PL_010h_v1.03/PL_010h_v1.03/NFe/nfe_v4.00.xsd",
+        "/home/runner/work/data-source/data-source/data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado/PL_010h_v1.03/PL_010h_v1.03/NFe/tiposBasico_v4.00.xsd",
+        "/home/runner/work/data-source/data-source/data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado/PL_010h_v1.03/PL_010h_v1.03/NFe/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado/PL_010h_v1.03.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado/PL_010h_v1.03/PL_010h_v1.03/Evento/e110001_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado/PL_010h_v1.03/PL_010h_v1.03/Evento/e110300_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado/PL_010h_v1.03/PL_010h_v1.03/Evento/e412140_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado/PL_010h_v1.03/PL_010h_v1.03/Evento/tiposBasico_v1.03.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado/PL_010h_v1.03/PL_010h_v1.03/NFe/DFeTiposBasicos_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado/PL_010h_v1.03/PL_010h_v1.03/NFe/leiauteNFe_v4.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado/PL_010h_v1.03/PL_010h_v1.03/NFe/nfe_v4.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado/PL_010h_v1.03/PL_010h_v1.03/NFe/tiposBasico_v4.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml/2026-11-13_schemas-xml-nf-e-pacote-de-liberacao-no-010h-v.1.03-nt-2026.006-v.1.00-nt-2026.008-v.1.01-e-nt-2026.005-v.1.00-publicado/PL_010h_v1.03/PL_010h_v1.03/NFe/xmldsig-core-schema_v1.01.xsd"
+      ],
+      "downloaded_at": "2026-11-13T16:51:16+00:00",
+      "status": "ok"
+    },
     {
       "slug": "2026-10-26_schemas-xml-nf-e-pacote-de-liberacao-no-010g-v.1.03-nt-2026.006-v.1.00-e-nt-2026.008-v.1.00-publicado-em-261026",
       "title": "Schemas XML NF-e - Pacote de Liberação nº 010g v.1.03 - NT 2026.006 v.1.00 e NT 2026.008 v.1.00 (Publicado em 26/10/26)",
@@ -6732,7 +6767,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-11-12T17:14:07+00:00",
+      "downloaded_at": "2026-11-13T16:51:16+00:00",
       "status": "ok"
     },
     {
@@ -6745,7 +6780,7 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-11-12T17:14:08+00:00",
+      "downloaded_at": "2026-11-13T16:51:17+00:00",
       "status": "ok"
     },
     {
