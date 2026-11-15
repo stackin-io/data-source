@@ -2,12 +2,12 @@
   "context": "nfse",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse",
-  "generated_at": "2026-11-14T15:41:42+00:00",
-  "started_at": "2026-11-14T15:41:41+00:00",
-  "duration_s": 0.97,
+  "generated_at": "2026-11-15T16:13:03+00:00",
+  "started_at": "2026-11-15T16:12:21+00:00",
+  "duration_s": 41.27,
   "totals": {
-    "discovered": 17,
-    "persisted": 0,
+    "discovered": 43,
+    "persisted": 26,
     "skipped": 17,
     "failed": 0
   },
@@ -28,6 +28,111 @@
       ],
       "downloaded_at": "",
       "status": "skipped"
+    },
+    {
+      "slug": "2026-10-26_rtc-anexo-viii-versao-1.02.00-26102026-correlacao-entre-item-de-serv.-nbs-cclasstrib-e-cindop-anexovii",
+      "title": "Anexo VIII versão 1.02.00 (26/10/2026) - Correlação entre Item de Serv., NBS, cClassTrib e cIndOp (AnexoVII)",
+      "description": "Anexo VIII versão 1.02.00 (26/10/2026) - Correlação entre Item de Serv., NBS, cClassTrib e cIndOp (AnexoVII)",
+      "published_at": "2026-10-26",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/rtc/anexo_viii-tabela-correlacao-v01-02-00-20261026.xlsx",
+      "folder": "data/nfse/2026-10-26_rtc-anexo-viii-versao-1.02.00-26102026-correlacao-entre-item-de-serv.-nbs-cclasstrib-e-cindop-anexovii",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-10-26_rtc-anexo-viii-versao-1.02.00-26102026-correlacao-entre-item-de-serv.-nbs-cclasstrib-e-cindop-anexovii",
+      "files": [
+        "data/nfse/2026-10-26_rtc-anexo-viii-versao-1.02.00-26102026-correlacao-entre-item-de-serv.-nbs-cclasstrib-e-cindop-anexovii/anexo_viii-tabela-correlacao-v01-02-00-20261026.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-26_rtc-anexo-viii-versao-1.02.00-26102026-correlacao-entre-item-de-serv.-nbs-cclasstrib-e-cindop-anexovii/anexo_viii-tabela-correlacao-v01-02-00-20261026.xlsx"
+      ],
+      "downloaded_at": "2026-11-15T16:12:24+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-20_prodrest-anexoi-sefinadn-dpsnfse-snnfse-prodrest-v1.01-20261020",
+      "title": "ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe-PRODREST-v1.01-20261020",
+      "description": "ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe-PRODREST-v1.01-20261020",
+      "published_at": "2026-10-20",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/anexo_i-sefin_adn-dps_nfse-snnfse_prodrest-v1-01-20261020.xlsx",
+      "folder": "data/nfse/2026-10-20_prodrest-anexoi-sefinadn-dpsnfse-snnfse-prodrest-v1.01-20261020",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-10-20_prodrest-anexoi-sefinadn-dpsnfse-snnfse-prodrest-v1.01-20261020",
+      "files": [
+        "data/nfse/2026-10-20_prodrest-anexoi-sefinadn-dpsnfse-snnfse-prodrest-v1.01-20261020/anexo_i-sefin_adn-dps_nfse-snnfse_prodrest-v1-01-20261020.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-anexoi-sefinadn-dpsnfse-snnfse-prodrest-v1.01-20261020/anexo_i-sefin_adn-dps_nfse-snnfse_prodrest-v1-01-20261020.xlsx"
+      ],
+      "downloaded_at": "2026-11-15T16:12:25+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-20_prodrest-anexoii-sefinadn-pedregevtevt-snnfse-prodrest-v1.01-20261020",
+      "title": "ANEXO_II-SEFIN_ADN-PEDREGEVT_EVT-SNNFSe-PRODREST-v1.01-20261020",
+      "description": "ANEXO_II-SEFIN_ADN-PEDREGEVT_EVT-SNNFSe-PRODREST-v1.01-20261020",
+      "published_at": "2026-10-20",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/anexo_ii-sefin_adn-pedregevt_evt-snnfse_prodrest-v1-01-20261020.xlsx",
+      "folder": "data/nfse/2026-10-20_prodrest-anexoii-sefinadn-pedregevtevt-snnfse-prodrest-v1.01-20261020",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-10-20_prodrest-anexoii-sefinadn-pedregevtevt-snnfse-prodrest-v1.01-20261020",
+      "files": [
+        "data/nfse/2026-10-20_prodrest-anexoii-sefinadn-pedregevtevt-snnfse-prodrest-v1.01-20261020/anexo_ii-sefin_adn-pedregevt_evt-snnfse_prodrest-v1-01-20261020.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-anexoii-sefinadn-pedregevtevt-snnfse-prodrest-v1.01-20261020/anexo_ii-sefin_adn-pedregevt_evt-snnfse_prodrest-v1-01-20261020.xlsx"
+      ],
+      "downloaded_at": "2026-11-15T16:12:26+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020",
+      "title": "NFSe-ESQUEMAS_XSD-PRODREST-v1.01-20261020",
+      "description": "NFSe-ESQUEMAS_XSD-PRODREST-v1.01-20261020",
+      "published_at": "2026-10-20",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/esquemas_prod_restrita_20261020.zip",
+      "folder": "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020",
+      "files": [
+        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020.zip",
+        "/home/runner/work/data-source/data-source/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/evento_v1.01.xsd",
+        "/home/runner/work/data-source/data-source/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/NFSe_v1.01.xsd",
+        "/home/runner/work/data-source/data-source/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/pedRegEvento_v1.01.xsd",
+        "/home/runner/work/data-source/data-source/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposCnc_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposComplexos_v1.01.xsd",
+        "/home/runner/work/data-source/data-source/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposEventos_v1.01.xsd",
+        "/home/runner/work/data-source/data-source/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposSimples_v1.01.xsd",
+        "/home/runner/work/data-source/data-source/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/xmldsig-core-schema.xsd",
+        "/home/runner/work/data-source/data-source/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/CNC_v1.00.xsd",
+        "/home/runner/work/data-source/data-source/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/DPS_v1.01.xsd"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/evento_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/NFSe_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/pedRegEvento_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposCnc_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposComplexos_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposEventos_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposSimples_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/xmldsig-core-schema.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/CNC_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/DPS_v1.01.xsd"
+      ],
+      "downloaded_at": "2026-11-15T16:12:26+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-07-14_rtc-nota-tecnica-secgnfs-e-no-008",
+      "title": "Nota Técnica SE/CGNFS-e nº 008",
+      "description": "Nota Técnica SE/CGNFS-e nº 008",
+      "published_at": "2026-07-14",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/rtc/nt-008-se-cgnfse-danfse-20260714-v1-02.pdf",
+      "folder": "data/nfse/2026-07-14_rtc-nota-tecnica-secgnfs-e-no-008",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-07-14_rtc-nota-tecnica-secgnfs-e-no-008",
+      "files": [
+        "data/nfse/2026-07-14_rtc-nota-tecnica-secgnfs-e-no-008/nt-008-se-cgnfse-danfse-20260714-v1-02.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-07-14_rtc-nota-tecnica-secgnfs-e-no-008/nt-008-se-cgnfse-danfse-20260714-v1-02.pdf"
+      ],
+      "downloaded_at": "2026-11-15T16:12:29+00:00",
+      "status": "ok"
     },
     {
       "slug": "2026-02-09_nfse-esquemasxsd-v1.01-20260209",
@@ -138,6 +243,40 @@
       "status": "skipped"
     },
     {
+      "slug": "2026-01-22_prodrest-anexob-nbs2-listaserviconacional-snnfse-prodrest-v1.01-20260122",
+      "title": "ANEXO_B-NBS2-LISTA_SERVICO_NACIONAL-SNNFSe-PRODREST-v1.01-20260122",
+      "description": "ANEXO_B-NBS2-LISTA_SERVICO_NACIONAL-SNNFSe-PRODREST-v1.01-20260122",
+      "published_at": "2026-01-22",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/anexo_b-nbs2-lista_servico_nacional-snnfse-prodrest-v1-01-20260122.xlsx",
+      "folder": "data/nfse/2026-01-22_prodrest-anexob-nbs2-listaserviconacional-snnfse-prodrest-v1.01-20260122",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-01-22_prodrest-anexob-nbs2-listaserviconacional-snnfse-prodrest-v1.01-20260122",
+      "files": [
+        "data/nfse/2026-01-22_prodrest-anexob-nbs2-listaserviconacional-snnfse-prodrest-v1.01-20260122/anexo_b-nbs2-lista_servico_nacional-snnfse-prodrest-v1-01-20260122.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-01-22_prodrest-anexob-nbs2-listaserviconacional-snnfse-prodrest-v1.01-20260122/anexo_b-nbs2-lista_servico_nacional-snnfse-prodrest-v1-01-20260122.xlsx"
+      ],
+      "downloaded_at": "2026-11-15T16:12:29+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-01-22_prodrest-anexoc-indopibscbs-snnfse-prodrest-v1.01-20260122",
+      "title": "ANEXO_C-INDOP_IBSCBS-SNNFSe-PRODREST-v1.01-20260122",
+      "description": "ANEXO_C-INDOP_IBSCBS-SNNFSe-PRODREST-v1.01-20260122",
+      "published_at": "2026-01-22",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/anexo_c-indop_ibscbs-snnfse-prodrest-v1-01-20260122.xlsx",
+      "folder": "data/nfse/2026-01-22_prodrest-anexoc-indopibscbs-snnfse-prodrest-v1.01-20260122",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-01-22_prodrest-anexoc-indopibscbs-snnfse-prodrest-v1.01-20260122",
+      "files": [
+        "data/nfse/2026-01-22_prodrest-anexoc-indopibscbs-snnfse-prodrest-v1.01-20260122/anexo_c-indop_ibscbs-snnfse-prodrest-v1-01-20260122.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-01-22_prodrest-anexoc-indopibscbs-snnfse-prodrest-v1.01-20260122/anexo_c-indop_ibscbs-snnfse-prodrest-v1-01-20260122.xlsx"
+      ],
+      "downloaded_at": "2026-11-15T16:12:30+00:00",
+      "status": "ok"
+    },
+    {
       "slug": "2025-12-16_anexoiii-cnc-snnfse-v1.00-20251216",
       "title": "ANEXO_III-CNC-SNNFSe-v1.00-20251216",
       "description": "ANEXO_III-CNC-SNNFSe-v1.00-20251216",
@@ -204,6 +343,40 @@
       ],
       "downloaded_at": "",
       "status": "skipped"
+    },
+    {
+      "slug": "2025-12-10_rtc-nota-tecnica-secgnfs-e-no-004",
+      "title": "Nota Técnica SE/CGNFS-e nº 004",
+      "description": "Nota Técnica SE/CGNFS-e nº 004",
+      "published_at": "2025-12-10",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/nt-004-se-cgnfse-novo-layout-rtc-v2-00-20251210.pdf",
+      "folder": "data/nfse/2025-12-10_rtc-nota-tecnica-secgnfs-e-no-004",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-12-10_rtc-nota-tecnica-secgnfs-e-no-004",
+      "files": [
+        "data/nfse/2025-12-10_rtc-nota-tecnica-secgnfs-e-no-004/nt-004-se-cgnfse-novo-layout-rtc-v2-00-20251210.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-12-10_rtc-nota-tecnica-secgnfs-e-no-004/nt-004-se-cgnfse-novo-layout-rtc-v2-00-20251210.pdf"
+      ],
+      "downloaded_at": "2026-11-15T16:12:32+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-12-10_rtc-esquemas-xsd-anexovi-leiautesrnrtcibscbs-v1.01.03-nt004",
+      "title": "Esquemas XSD - AnexoVI-LeiautesRN_RTC_IBSCBS-V1.01.03 - NT004",
+      "description": "Esquemas XSD - AnexoVI-LeiautesRN_RTC_IBSCBS-V1.01.03 - NT004",
+      "published_at": "2025-12-10",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/nfse-esquemas_xsd-rtc-v1-00-20251210.zip",
+      "folder": "data/nfse/2025-12-10_rtc-esquemas-xsd-anexovi-leiautesrnrtcibscbs-v1.01.03-nt004",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-12-10_rtc-esquemas-xsd-anexovi-leiautesrnrtcibscbs-v1.01.03-nt004",
+      "files": [
+        "data/nfse/2025-12-10_rtc-esquemas-xsd-anexovi-leiautesrnrtcibscbs-v1.01.03-nt004/nfse-esquemas_xsd-rtc-v1-00-20251210.zip"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-12-10_rtc-esquemas-xsd-anexovi-leiautesrnrtcibscbs-v1.01.03-nt004/nfse-esquemas_xsd-rtc-v1-00-20251210.zip"
+      ],
+      "downloaded_at": "2026-11-15T16:12:32+00:00",
+      "status": "ok"
     },
     {
       "slug": "2025-10-01_guia-do-painel-administrativo-municipal",
@@ -340,6 +513,295 @@
       ],
       "downloaded_at": "",
       "status": "skipped"
+    },
+    {
+      "slug": "undated_prodrest-guia-para-utilizacao-do-modulo-de-apuracao-nacional",
+      "title": "Guia para Utilização do Módulo de Apuração Nacional",
+      "description": "Guia para Utilização do Módulo de Apuração Nacional",
+      "published_at": "",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/guia-utilizacao-do-man-v1-00-08abr2026.pdf",
+      "folder": "data/nfse/undated_prodrest-guia-para-utilizacao-do-modulo-de-apuracao-nacional",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_prodrest-guia-para-utilizacao-do-modulo-de-apuracao-nacional",
+      "files": [
+        "data/nfse/undated_prodrest-guia-para-utilizacao-do-modulo-de-apuracao-nacional/guia-utilizacao-do-man-v1-00-08abr2026.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_prodrest-guia-para-utilizacao-do-modulo-de-apuracao-nacional/guia-utilizacao-do-man-v1-00-08abr2026.pdf"
+      ],
+      "downloaded_at": "2026-11-15T16:12:38+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_prodrest-guia-do-emissor-publico-nacional-web-com-formulario-ibscbs",
+      "title": "Guia do Emissor Público Nacional Web (com formulário IBS/CBS)",
+      "description": "Guia do Emissor Público Nacional Web (com formulário IBS/CBS)",
+      "published_at": "",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/guia_emissor_publico_nacional_web_snnfse-ern_versao_1-2-1.pdf",
+      "folder": "data/nfse/undated_prodrest-guia-do-emissor-publico-nacional-web-com-formulario-ibscbs",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_prodrest-guia-do-emissor-publico-nacional-web-com-formulario-ibscbs",
+      "files": [
+        "data/nfse/undated_prodrest-guia-do-emissor-publico-nacional-web-com-formulario-ibscbs/guia_emissor_publico_nacional_web_snnfse-ern_versao_1-2-1.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_prodrest-guia-do-emissor-publico-nacional-web-com-formulario-ibscbs/guia_emissor_publico_nacional_web_snnfse-ern_versao_1-2-1.pdf"
+      ],
+      "downloaded_at": "2026-11-15T16:12:49+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_prodrest-nota-tecnica-secgnfs-e-no-009",
+      "title": "Nota Técnica SE/CGNFS-e nº 009",
+      "description": "Nota Técnica SE/CGNFS-e nº 009",
+      "published_at": "",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/rtc/nota-tecnica-009-se-cgnfs-e-v-1-01.pdf",
+      "folder": "data/nfse/undated_prodrest-nota-tecnica-secgnfs-e-no-009",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_prodrest-nota-tecnica-secgnfs-e-no-009",
+      "files": [
+        "data/nfse/undated_prodrest-nota-tecnica-secgnfs-e-no-009/nota-tecnica-009-se-cgnfs-e-v-1-01.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_prodrest-nota-tecnica-secgnfs-e-no-009/nota-tecnica-009-se-cgnfs-e-v-1-01.pdf"
+      ],
+      "downloaded_at": "2026-11-15T16:12:50+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_rtc-anexovi-leiautesrnrtcibscbs-v1.04.01-nt009-v1.01",
+      "title": "AnexoVI-LeiautesRN_RTC_IBSCBS-v1.04.01 - NT009 v1.01",
+      "description": "AnexoVI-LeiautesRN_RTC_IBSCBS-v1.04.01 - NT009 v1.01",
+      "published_at": "",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/rtc/anexovi-leiautesrn_rtc_ibscbs-v1-04-01-nt009.xlsx",
+      "folder": "data/nfse/undated_rtc-anexovi-leiautesrnrtcibscbs-v1.04.01-nt009-v1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_rtc-anexovi-leiautesrnrtcibscbs-v1.04.01-nt009-v1.01",
+      "files": [
+        "data/nfse/undated_rtc-anexovi-leiautesrnrtcibscbs-v1.04.01-nt009-v1.01/anexovi-leiautesrn_rtc_ibscbs-v1-04-01-nt009.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-anexovi-leiautesrnrtcibscbs-v1.04.01-nt009-v1.01/anexovi-leiautesrn_rtc_ibscbs-v1-04-01-nt009.xlsx"
+      ],
+      "downloaded_at": "2026-11-15T16:12:51+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_rtc-anexovii-indopibscbsv1.03.00-nt009-v1.01",
+      "title": "AnexoVII-IndOp_IBSCBS_v1.03.00 - NT009 v1.01",
+      "description": "AnexoVII-IndOp_IBSCBS_v1.03.00 - NT009 v1.01",
+      "published_at": "",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/rtc/anexovii-indop_ibscbs_v1-03-00-nt009.xlsx",
+      "folder": "data/nfse/undated_rtc-anexovii-indopibscbsv1.03.00-nt009-v1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_rtc-anexovii-indopibscbsv1.03.00-nt009-v1.01",
+      "files": [
+        "data/nfse/undated_rtc-anexovii-indopibscbsv1.03.00-nt009-v1.01/anexovii-indop_ibscbs_v1-03-00-nt009.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-anexovii-indopibscbsv1.03.00-nt009-v1.01/anexovii-indop_ibscbs_v1-03-00-nt009.xlsx"
+      ],
+      "downloaded_at": "2026-11-15T16:12:51+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_rtc-anexo-viii-versao-1.01.00-correlacao-entre-item-de-serv.-nbs-cclasstrib-e-cindop-anexovii",
+      "title": "Anexo VIII versão 1.01.00 - Correlação entre Item de Serv., NBS, cClassTrib e cIndOp (AnexoVII)",
+      "description": "Anexo VIII versão 1.01.00 - Correlação entre Item de Serv., NBS, cClassTrib e cIndOp (AnexoVII)",
+      "published_at": "",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/rtc/anexoviii-correlacaoitemnbsindopcclasstrib_ibscbs_v1-00-00.xlsx",
+      "folder": "data/nfse/undated_rtc-anexo-viii-versao-1.01.00-correlacao-entre-item-de-serv.-nbs-cclasstrib-e-cindop-anexovii",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_rtc-anexo-viii-versao-1.01.00-correlacao-entre-item-de-serv.-nbs-cclasstrib-e-cindop-anexovii",
+      "files": [
+        "data/nfse/undated_rtc-anexo-viii-versao-1.01.00-correlacao-entre-item-de-serv.-nbs-cclasstrib-e-cindop-anexovii/anexoviii-correlacaoitemnbsindopcclasstrib_ibscbs_v1-00-00.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-anexo-viii-versao-1.01.00-correlacao-entre-item-de-serv.-nbs-cclasstrib-e-cindop-anexovii/anexoviii-correlacaoitemnbsindopcclasstrib_ibscbs_v1-00-00.xlsx"
+      ],
+      "downloaded_at": "2026-11-15T16:12:52+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_rtc-nota-tecnica-secgnfs-e-no-007",
+      "title": "Nota Técnica SE/CGNFS-e nº 007",
+      "description": "Nota Técnica SE/CGNFS-e nº 007",
+      "published_at": "",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/rtc/nt-007-se-cgnfse-v1-0.pdf",
+      "folder": "data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-007",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-007",
+      "files": [
+        "data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-007/nt-007-se-cgnfse-v1-0.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-007/nt-007-se-cgnfse-v1-0.pdf"
+      ],
+      "downloaded_at": "2026-11-15T16:12:53+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_rtc-anexovi-leiautesrnrtcibscbs-v1.03.00-nt007",
+      "title": "AnexoVI-LeiautesRN_RTC_IBSCBS-V1.03.00 – NT007",
+      "description": "AnexoVI-LeiautesRN_RTC_IBSCBS-V1.03.00 – NT007",
+      "published_at": "",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/rtc/anexovi-leiautesrn_rtc_ibscbs-v1-03-00-2013-nt007.xlsx",
+      "folder": "data/nfse/undated_rtc-anexovi-leiautesrnrtcibscbs-v1.03.00-nt007",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_rtc-anexovi-leiautesrnrtcibscbs-v1.03.00-nt007",
+      "files": [
+        "data/nfse/undated_rtc-anexovi-leiautesrnrtcibscbs-v1.03.00-nt007/anexovi-leiautesrn_rtc_ibscbs-v1-03-00-2013-nt007.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-anexovi-leiautesrnrtcibscbs-v1.03.00-nt007/anexovi-leiautesrn_rtc_ibscbs-v1-03-00-2013-nt007.xlsx"
+      ],
+      "downloaded_at": "2026-11-15T16:12:53+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_rtc-anexovii-indopibscbsv1.01.00",
+      "title": "AnexoVII-IndOp_IBSCBS_V1.01.00",
+      "description": "AnexoVII-IndOp_IBSCBS_V1.01.00",
+      "published_at": "",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/rtc/anexovii-indop_ibscbs_v1-01-00.xlsx",
+      "folder": "data/nfse/undated_rtc-anexovii-indopibscbsv1.01.00",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_rtc-anexovii-indopibscbsv1.01.00",
+      "files": [
+        "data/nfse/undated_rtc-anexovii-indopibscbsv1.01.00/anexovii-indop_ibscbs_v1-01-00.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-anexovii-indopibscbsv1.01.00/anexovii-indop_ibscbs_v1-01-00.xlsx"
+      ],
+      "downloaded_at": "2026-11-15T16:12:54+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_rtc-nota-tecnica-secgnfs-e-no-006",
+      "title": "Nota Técnica SE/CGNFS-e nº 006",
+      "description": "Nota Técnica SE/CGNFS-e nº 006",
+      "published_at": "",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/rtc/nt-006-se-cgnfse-leiaute-nfse-via.pdf",
+      "folder": "data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-006",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-006",
+      "files": [
+        "data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-006/nt-006-se-cgnfse-leiaute-nfse-via.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-006/nt-006-se-cgnfse-leiaute-nfse-via.pdf"
+      ],
+      "downloaded_at": "2026-11-15T16:12:56+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_rtc-anexoviii-versao-1.00.00-correlacao-entre-item-de-servico-nbs-cclasstrib-e-cindop-anexovii",
+      "title": "AnexoVIII versão 1.00.00 - Correlação entre Item de Serviço, NBS, cClassTrib e cIndOp (AnexoVII)",
+      "description": "AnexoVIII versão 1.00.00 - Correlação entre Item de Serviço, NBS, cClassTrib e cIndOp (AnexoVII)",
+      "published_at": "",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/rtc/anexoviii-correlacaoitemnbsindopcclasstrib_ibscbs_v1-01-00.xlsx",
+      "folder": "data/nfse/undated_rtc-anexoviii-versao-1.00.00-correlacao-entre-item-de-servico-nbs-cclasstrib-e-cindop-anexovii",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_rtc-anexoviii-versao-1.00.00-correlacao-entre-item-de-servico-nbs-cclasstrib-e-cindop-anexovii",
+      "files": [
+        "data/nfse/undated_rtc-anexoviii-versao-1.00.00-correlacao-entre-item-de-servico-nbs-cclasstrib-e-cindop-anexovii/anexoviii-correlacaoitemnbsindopcclasstrib_ibscbs_v1-01-00.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-anexoviii-versao-1.00.00-correlacao-entre-item-de-servico-nbs-cclasstrib-e-cindop-anexovii/anexoviii-correlacaoitemnbsindopcclasstrib_ibscbs_v1-01-00.xlsx"
+      ],
+      "downloaded_at": "2026-11-15T16:12:56+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_rtc-nota-tecnica-secgnfs-e-no-005",
+      "title": "Nota Técnica SE/CGNFS-e nº 005",
+      "description": "Nota Técnica SE/CGNFS-e nº 005",
+      "published_at": "",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/rtc/nt-005-se-cgnfse-novo-layout-rtc.pdf",
+      "folder": "data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-005",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-005",
+      "files": [
+        "data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-005/nt-005-se-cgnfse-novo-layout-rtc.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-005/nt-005-se-cgnfse-novo-layout-rtc.pdf"
+      ],
+      "downloaded_at": "2026-11-15T16:12:57+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_rtc-anexovi-leiautesrnrtcibscbs-v1.02.01-nt005",
+      "title": "AnexoVI-LeiautesRN_RTC_IBSCBS-V1.02.01 - NT005",
+      "description": "AnexoVI-LeiautesRN_RTC_IBSCBS-V1.02.01 - NT005",
+      "published_at": "",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/rtc/anexovi-leiautesrn_rtc_ibscbs-v1-02-00.xlsx",
+      "folder": "data/nfse/undated_rtc-anexovi-leiautesrnrtcibscbs-v1.02.01-nt005",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_rtc-anexovi-leiautesrnrtcibscbs-v1.02.01-nt005",
+      "files": [
+        "data/nfse/undated_rtc-anexovi-leiautesrnrtcibscbs-v1.02.01-nt005/anexovi-leiautesrn_rtc_ibscbs-v1-02-00.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-anexovi-leiautesrnrtcibscbs-v1.02.01-nt005/anexovi-leiautesrn_rtc_ibscbs-v1-02-00.xlsx"
+      ],
+      "downloaded_at": "2026-11-15T16:12:58+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_rtc-anexovi-leiautesrnrtcibscbs-v1.01.03-nt004",
+      "title": "AnexoVI-LeiautesRN_RTC_IBSCBS-V1.01.03 - NT004",
+      "description": "AnexoVI-LeiautesRN_RTC_IBSCBS-V1.01.03 - NT004",
+      "published_at": "",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/anexovi-leiautesrn_rtc_ibscbs-v1-01-03-nt004.xlsx",
+      "folder": "data/nfse/undated_rtc-anexovi-leiautesrnrtcibscbs-v1.01.03-nt004",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_rtc-anexovi-leiautesrnrtcibscbs-v1.01.03-nt004",
+      "files": [
+        "data/nfse/undated_rtc-anexovi-leiautesrnrtcibscbs-v1.01.03-nt004/anexovi-leiautesrn_rtc_ibscbs-v1-01-03-nt004.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-anexovi-leiautesrnrtcibscbs-v1.01.03-nt004/anexovi-leiautesrn_rtc_ibscbs-v1-01-03-nt004.xlsx"
+      ],
+      "downloaded_at": "2026-11-15T16:12:59+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_rtc-anexovii-indopibscbsv1.00.00",
+      "title": "AnexoVII-IndOp_IBSCBS_V1.00.00",
+      "description": "AnexoVII-IndOp_IBSCBS_V1.00.00",
+      "published_at": "",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/rtc/anexovii-indop_ibscbs_v1-00-00.xlsx",
+      "folder": "data/nfse/undated_rtc-anexovii-indopibscbsv1.00.00",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_rtc-anexovii-indopibscbsv1.00.00",
+      "files": [
+        "data/nfse/undated_rtc-anexovii-indopibscbsv1.00.00/anexovii-indop_ibscbs_v1-00-00.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-anexovii-indopibscbsv1.00.00/anexovii-indop_ibscbs_v1-00-00.xlsx"
+      ],
+      "downloaded_at": "2026-11-15T16:12:59+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_rtc-nota-tecnica-secgnfs-e-no-003",
+      "title": "Nota Técnica SE/CGNFS-e nº 003",
+      "description": "Nota Técnica SE/CGNFS-e nº 003",
+      "published_at": "",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/rtc/nt-003-1-2-se-cgnfse-novo-layout-rtc.pdf",
+      "folder": "data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-003",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-003",
+      "files": [
+        "data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-003/nt-003-1-2-se-cgnfse-novo-layout-rtc.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-003/nt-003-1-2-se-cgnfse-novo-layout-rtc.pdf"
+      ],
+      "downloaded_at": "2026-11-15T16:13:01+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_rtc-nota-tecnica-secgnfs-e-no-001",
+      "title": "Nota Técnica SE/CGNFS-e nº 001",
+      "description": "Nota Técnica SE/CGNFS-e nº 001",
+      "published_at": "",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/rtc/nota-tecnica-001-se-cgnfse-novo-layout-rtc.pdf",
+      "folder": "data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-001",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-001",
+      "files": [
+        "data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-001/nota-tecnica-001-se-cgnfse-novo-layout-rtc.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-001/nota-tecnica-001-se-cgnfse-novo-layout-rtc.pdf"
+      ],
+      "downloaded_at": "2026-11-15T16:13:03+00:00",
+      "status": "ok"
     }
   ]
 }
