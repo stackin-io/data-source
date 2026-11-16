@@ -2,13 +2,13 @@
   "context": "nfse",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse",
-  "generated_at": "2026-11-15T16:13:03+00:00",
-  "started_at": "2026-11-15T16:12:21+00:00",
-  "duration_s": 41.27,
+  "generated_at": "2026-11-16T19:27:53+00:00",
+  "started_at": "2026-11-16T19:27:51+00:00",
+  "duration_s": 1.88,
   "totals": {
     "discovered": 43,
-    "persisted": 26,
-    "skipped": 17,
+    "persisted": 0,
+    "skipped": 43,
     "failed": 0
   },
   "items": [
@@ -43,8 +43,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-26_rtc-anexo-viii-versao-1.02.00-26102026-correlacao-entre-item-de-serv.-nbs-cclasstrib-e-cindop-anexovii/anexo_viii-tabela-correlacao-v01-02-00-20261026.xlsx"
       ],
-      "downloaded_at": "2026-11-15T16:12:24+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-20_prodrest-anexoi-sefinadn-dpsnfse-snnfse-prodrest-v1.01-20261020",
@@ -60,8 +60,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-anexoi-sefinadn-dpsnfse-snnfse-prodrest-v1.01-20261020/anexo_i-sefin_adn-dps_nfse-snnfse_prodrest-v1-01-20261020.xlsx"
       ],
-      "downloaded_at": "2026-11-15T16:12:25+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-20_prodrest-anexoii-sefinadn-pedregevtevt-snnfse-prodrest-v1.01-20261020",
@@ -77,8 +77,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-anexoii-sefinadn-pedregevtevt-snnfse-prodrest-v1.01-20261020/anexo_ii-sefin_adn-pedregevt_evt-snnfse_prodrest-v1-01-20261020.xlsx"
       ],
-      "downloaded_at": "2026-11-15T16:12:26+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020",
@@ -90,32 +90,32 @@
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020",
       "files": [
         "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020.zip",
-        "/home/runner/work/data-source/data-source/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/evento_v1.01.xsd",
-        "/home/runner/work/data-source/data-source/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/NFSe_v1.01.xsd",
-        "/home/runner/work/data-source/data-source/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/pedRegEvento_v1.01.xsd",
-        "/home/runner/work/data-source/data-source/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposCnc_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposComplexos_v1.01.xsd",
-        "/home/runner/work/data-source/data-source/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposEventos_v1.01.xsd",
-        "/home/runner/work/data-source/data-source/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposSimples_v1.01.xsd",
-        "/home/runner/work/data-source/data-source/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/xmldsig-core-schema.xsd",
-        "/home/runner/work/data-source/data-source/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/CNC_v1.00.xsd",
-        "/home/runner/work/data-source/data-source/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/DPS_v1.01.xsd"
+        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/CNC_v1.00.xsd",
+        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/DPS_v1.01.xsd",
+        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/NFSe_v1.01.xsd",
+        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/evento_v1.01.xsd",
+        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/pedRegEvento_v1.01.xsd",
+        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposCnc_v1.00.xsd",
+        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposComplexos_v1.01.xsd",
+        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposEventos_v1.01.xsd",
+        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposSimples_v1.01.xsd",
+        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/xmldsig-core-schema.xsd"
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020.zip",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/evento_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/CNC_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/DPS_v1.01.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/NFSe_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/evento_v1.01.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/pedRegEvento_v1.01.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposCnc_v1.00.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposComplexos_v1.01.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposEventos_v1.01.xsd",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposSimples_v1.01.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/xmldsig-core-schema.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/CNC_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/DPS_v1.01.xsd"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/xmldsig-core-schema.xsd"
       ],
-      "downloaded_at": "2026-11-15T16:12:26+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-07-14_rtc-nota-tecnica-secgnfs-e-no-008",
@@ -131,8 +131,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-07-14_rtc-nota-tecnica-secgnfs-e-no-008/nt-008-se-cgnfse-danfse-20260714-v1-02.pdf"
       ],
-      "downloaded_at": "2026-11-15T16:12:29+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-02-09_nfse-esquemasxsd-v1.01-20260209",
@@ -256,8 +256,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-01-22_prodrest-anexob-nbs2-listaserviconacional-snnfse-prodrest-v1.01-20260122/anexo_b-nbs2-lista_servico_nacional-snnfse-prodrest-v1-01-20260122.xlsx"
       ],
-      "downloaded_at": "2026-11-15T16:12:29+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2026-01-22_prodrest-anexoc-indopibscbs-snnfse-prodrest-v1.01-20260122",
@@ -273,8 +273,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-01-22_prodrest-anexoc-indopibscbs-snnfse-prodrest-v1.01-20260122/anexo_c-indop_ibscbs-snnfse-prodrest-v1-01-20260122.xlsx"
       ],
-      "downloaded_at": "2026-11-15T16:12:30+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-12-16_anexoiii-cnc-snnfse-v1.00-20251216",
@@ -358,8 +358,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-12-10_rtc-nota-tecnica-secgnfs-e-no-004/nt-004-se-cgnfse-novo-layout-rtc-v2-00-20251210.pdf"
       ],
-      "downloaded_at": "2026-11-15T16:12:32+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-12-10_rtc-esquemas-xsd-anexovi-leiautesrnrtcibscbs-v1.01.03-nt004",
@@ -375,8 +375,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-12-10_rtc-esquemas-xsd-anexovi-leiautesrnrtcibscbs-v1.01.03-nt004/nfse-esquemas_xsd-rtc-v1-00-20251210.zip"
       ],
-      "downloaded_at": "2026-11-15T16:12:32+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "2025-10-01_guia-do-painel-administrativo-municipal",
@@ -528,8 +528,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_prodrest-guia-para-utilizacao-do-modulo-de-apuracao-nacional/guia-utilizacao-do-man-v1-00-08abr2026.pdf"
       ],
-      "downloaded_at": "2026-11-15T16:12:38+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_prodrest-guia-do-emissor-publico-nacional-web-com-formulario-ibscbs",
@@ -545,8 +545,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_prodrest-guia-do-emissor-publico-nacional-web-com-formulario-ibscbs/guia_emissor_publico_nacional_web_snnfse-ern_versao_1-2-1.pdf"
       ],
-      "downloaded_at": "2026-11-15T16:12:49+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_prodrest-nota-tecnica-secgnfs-e-no-009",
@@ -562,8 +562,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_prodrest-nota-tecnica-secgnfs-e-no-009/nota-tecnica-009-se-cgnfs-e-v-1-01.pdf"
       ],
-      "downloaded_at": "2026-11-15T16:12:50+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_rtc-anexovi-leiautesrnrtcibscbs-v1.04.01-nt009-v1.01",
@@ -579,8 +579,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-anexovi-leiautesrnrtcibscbs-v1.04.01-nt009-v1.01/anexovi-leiautesrn_rtc_ibscbs-v1-04-01-nt009.xlsx"
       ],
-      "downloaded_at": "2026-11-15T16:12:51+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_rtc-anexovii-indopibscbsv1.03.00-nt009-v1.01",
@@ -596,8 +596,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-anexovii-indopibscbsv1.03.00-nt009-v1.01/anexovii-indop_ibscbs_v1-03-00-nt009.xlsx"
       ],
-      "downloaded_at": "2026-11-15T16:12:51+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_rtc-anexo-viii-versao-1.01.00-correlacao-entre-item-de-serv.-nbs-cclasstrib-e-cindop-anexovii",
@@ -613,8 +613,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-anexo-viii-versao-1.01.00-correlacao-entre-item-de-serv.-nbs-cclasstrib-e-cindop-anexovii/anexoviii-correlacaoitemnbsindopcclasstrib_ibscbs_v1-00-00.xlsx"
       ],
-      "downloaded_at": "2026-11-15T16:12:52+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_rtc-nota-tecnica-secgnfs-e-no-007",
@@ -630,8 +630,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-007/nt-007-se-cgnfse-v1-0.pdf"
       ],
-      "downloaded_at": "2026-11-15T16:12:53+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_rtc-anexovi-leiautesrnrtcibscbs-v1.03.00-nt007",
@@ -647,8 +647,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-anexovi-leiautesrnrtcibscbs-v1.03.00-nt007/anexovi-leiautesrn_rtc_ibscbs-v1-03-00-2013-nt007.xlsx"
       ],
-      "downloaded_at": "2026-11-15T16:12:53+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_rtc-anexovii-indopibscbsv1.01.00",
@@ -664,8 +664,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-anexovii-indopibscbsv1.01.00/anexovii-indop_ibscbs_v1-01-00.xlsx"
       ],
-      "downloaded_at": "2026-11-15T16:12:54+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_rtc-nota-tecnica-secgnfs-e-no-006",
@@ -681,8 +681,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-006/nt-006-se-cgnfse-leiaute-nfse-via.pdf"
       ],
-      "downloaded_at": "2026-11-15T16:12:56+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_rtc-anexoviii-versao-1.00.00-correlacao-entre-item-de-servico-nbs-cclasstrib-e-cindop-anexovii",
@@ -698,8 +698,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-anexoviii-versao-1.00.00-correlacao-entre-item-de-servico-nbs-cclasstrib-e-cindop-anexovii/anexoviii-correlacaoitemnbsindopcclasstrib_ibscbs_v1-01-00.xlsx"
       ],
-      "downloaded_at": "2026-11-15T16:12:56+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_rtc-nota-tecnica-secgnfs-e-no-005",
@@ -715,8 +715,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-005/nt-005-se-cgnfse-novo-layout-rtc.pdf"
       ],
-      "downloaded_at": "2026-11-15T16:12:57+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_rtc-anexovi-leiautesrnrtcibscbs-v1.02.01-nt005",
@@ -732,8 +732,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-anexovi-leiautesrnrtcibscbs-v1.02.01-nt005/anexovi-leiautesrn_rtc_ibscbs-v1-02-00.xlsx"
       ],
-      "downloaded_at": "2026-11-15T16:12:58+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_rtc-anexovi-leiautesrnrtcibscbs-v1.01.03-nt004",
@@ -749,8 +749,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-anexovi-leiautesrnrtcibscbs-v1.01.03-nt004/anexovi-leiautesrn_rtc_ibscbs-v1-01-03-nt004.xlsx"
       ],
-      "downloaded_at": "2026-11-15T16:12:59+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_rtc-anexovii-indopibscbsv1.00.00",
@@ -766,8 +766,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-anexovii-indopibscbsv1.00.00/anexovii-indop_ibscbs_v1-00-00.xlsx"
       ],
-      "downloaded_at": "2026-11-15T16:12:59+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_rtc-nota-tecnica-secgnfs-e-no-003",
@@ -783,8 +783,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-003/nt-003-1-2-se-cgnfse-novo-layout-rtc.pdf"
       ],
-      "downloaded_at": "2026-11-15T16:13:01+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     },
     {
       "slug": "undated_rtc-nota-tecnica-secgnfs-e-no-001",
@@ -800,8 +800,8 @@
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_rtc-nota-tecnica-secgnfs-e-no-001/nota-tecnica-001-se-cgnfse-novo-layout-rtc.pdf"
       ],
-      "downloaded_at": "2026-11-15T16:13:03+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     }
   ]
 }
