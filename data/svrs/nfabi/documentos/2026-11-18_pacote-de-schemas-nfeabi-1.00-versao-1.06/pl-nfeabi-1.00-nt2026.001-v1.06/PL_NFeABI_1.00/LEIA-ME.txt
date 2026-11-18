@@ -1,0 +1,171 @@
+Pacote de Schemas XSD - NF-e ABI v1.00
+
+Estrutura reorganizada seguindo o padrão do pacote PL_NFGas_1.00e:
+- todos os arquivos em uma única pasta do pacote;
+- nfeabiTiposBasico_v1.00.xsd centraliza os tipos complexos do leiaute da NF-e ABI;
+- tiposGeralNFeABI_v1.00.xsd centraliza tipos simples gerais;
+- DFeTiposBasicos_v1.00.xsd concentra tipos básicos comuns DF-e/RTC;
+- não há cópias duplicadas de tiposGeral, nfeabiTiposBasico ou xmldsig em subpastas de consulta/evento/nfeabi.
+
+Arquivos principais:
+- nfeabi_v1.00.xsd: raiz NFeABI;
+- procNFeABI_v1.00.xsd: documento processado;
+- eventoNFeABI_v1.00.xsd e procEventoNFeABI_v1.00.xsd: eventos;
+- consSit/consStatServ e retornos: serviços de consulta/status.
+- evDesfazimAlienacNFeABI_v1.00.xsd: detalhe do Evento de Desfazimento da Alienação (NT 2026.001).
+
+
+==========================================================================
+ATUALIZAÇÃO - NT 2026.001 (Ajustes no Leiaute e nas Regras de Validação)
+==========================================================================
+
+1. NFeABI_v1.00.xsd
+
+ ide
+ - tpNF (B08): pattern [0-1] -> [0-2] (incluído 2=Transição).
+ - gModNat (B10): ocorrência 1-1 -> 0-1 (não informado para tpNF=2).
+ - tpPagAnt (B18a): NOVO, 0-1, após finNFe. 1=Pagamento antecipado;
+   2=Fornecimento com pagamento realizado anteriormente.
+
+ infNFeABI
+ - gPagAntecipado (BB01): NOVO grupo, 0-1, entre NFref e emit, com
+   chNFePagAnt (BB02, TChNFeABI, 1-99).
+ - transmit (E01) e adquirente (F01): 1-99 -> 0-99.
+ - imovel (G01): 1-1 -> 0-1.
+ - infOper (H01): 1-1 -> 0-1.
+ - gInfTrib (U01): 1-1 -> 0-1.
+ - gInfTribTransic (UA01): NOVO grupo, 0-1, após gInfTrib.
+ - NFref (BA01): sem alteração no schema (a NT corrige apenas o pai no
+   leiaute para A01, que já era a posição no XSD).
+
+ emit
+ - tpEmit (C18): incluído o código 11 (pattern 0[1-9]|1[01]|99).
+
+ imovel/cadastro
+ - cadastro (G03): 0-1 -> 1-1.
+ - Tags renomeadas: nIptu -> nIPTU (G06); indIncra -> indINCRA (G07);
+   nIncra -> nINCRA (G08).
+ - indRIP (G08a) e nRIP (G08b): NOVOS, 0-1, após nINCRA.
+ - enquadramento (G11): 0-1 -> 1-1 (TImovel também é usado em
+   gTorna/imovelTorna, que passa a herdar as mesmas ocorrências).
+
+ infOper/gIncorpLote
+ - CNO (H10b): NOVO. cCIBObra (H10a) e CNO (H10b) passam a ser uma
+   escolha (xs:choice minOccurs=0), conforme Ele "CE" na NT.
+
+ infNFeSupl
+ - qrCode (ZX02): maxLength 600 -> 1000.
+
+2. nfeabiTiposBasico_v1.00.xsd
+ - TGInfPagAntecip: NOVO (U09a): vPagAntecip, dtPagAntecip (TDate),
+   indCNPJempImob, CNPJempImob (0-1).
+ - TGIBSCBS: incluído gInfPagAntecip (0-1) como primeiro filho;
+   vOperacIndiv (U10): 1-1 -> 0-1.
+ - Tipos NOVOS do regime de transição (UA05 a UA25): TIBSCBSTransic,
+   TGExigSusp, TGIBSCBSTransic, TGIBSUFTransic, TGIBSMunTransic,
+   TGCBSTransic (os grupos de IBS/CBS da transição não possuem gRed).
+
+3. Eventos
+ - evDesfazimAlienacNFeABI_v1.00.xsd: NOVO. Elemento evDesfazimAlienac
+   (ZZC01): descEvento, tpDesfaz, dtDesfaz (TData), xDesfaz (0-1),
+   sem o grupo gRetCob (removido na revisão de 18/11/2026 - ver item 9).
+ - evApropCredIndNFeABI: sem alteração estrutural (NT alterou apenas
+   a orientação do ZZB01).
+ - eventoNFeABITiposBasico_v1.00.xsd / TEvento: tpEvento passa a aceitar
+   somente os códigos definidos na NT 2026.001 (revisão):
+     110111 = Cancelamento (evCancNFeABI)
+     112310 = Pagamento de Parcela (evPagParcelaNFeABI)
+     112320 = Desfazimento da Alienação (evDesfazimAlienac)
+     211310 = Apropriação de créditos individuais (evApropCredIndNFeABI)
+
+ Grupo total (NFeABI_v1.00.xsd / TTotal)
+ - vTotalOperacao (W03) e vOperacIndiv (W04): 1-1 -> 0-1. Não informados
+   para tpNF=2 e tpPagAnt=1 (regras W03-10/20 e W04-10/20, cStat 1038 a
+   1041, incluídas na NT revisada).
+
+4. Decisões de interpretação (registradas também na NT revisada)
+ - nProcesso (UA10): tamanho 1-30 (NT ajustada de "30" para "1-30").
+ - gIBSCBSTransic (UA11): grupo obrigatório (NT ajustada de Ele "CG"
+   para "G", pois não há grupo concorrente de escolha).
+ - CNO (H10b): [0-9]{2,60}, conforme NT (o CNO da RFB tem 12 dígitos -
+   avaliar restringir em versão futura).
+ - Evento de desfazimento: o grupo gIBSCBS reutiliza TGIBSUF, TGIBSMun e
+   TGCBS, que contêm gRed (pRedAliq/pAliqEfet). Isso é exigido pela NT
+   (ZZC13, ZZC19 e ZZC25, com vIBSUF = pAliqEfet * vBC). gRed é redução de
+   ALÍQUOTA; os redutores de ajuste e social (base de cálculo) ficam
+   afastados porque TGIBSCBSEventoDesfaz não contém vRedAjusteIndiv nem
+   vRedSocialIndiv (teste nok_ev_19 comprova a rejeição).
+ - TImovel é reutilizado em gTorna/imovelTorna (H07, "Tipo Complexo
+   imóvel"); cadastro e enquadramento 1-1 valem também para o imóvel
+   recebido na permuta com torna, o que é coerente com o leiaute.
+ - Nome do evento: tag evDesfazimAlienac mantida conforme NT (sem o
+   sufixo "NFeABI" dos demais eventos); arquivo
+   evDesfazimAlienacNFeABI_v1.00.xsd.
+
+5. Correções feitas na NT 2026.001 (marcadas em roxo no .docx revisado)
+ - Códigos tpEvento (tabela no capítulo 3 e linhas ZZA01/ZZB01/ZZC01).
+ - Leiaute W03/W04 com ocorrência 0-1 e regras W03-10/20, W04-10/20.
+ - Regra G02-10 renumerada para G01-20 e condição corrigida
+   (igual à "2=Transição").
+ - G08, G08-10 e G08b-10: referências corrigidas para indINCRA e indRIP.
+ - ZZB01: Pai preenchido com P17.
+ - UA10 (Tam. 1-30), UA11 (Ele G), grafias em U09b/U09c e W11.
+
+6. Observação fora do escopo da NT (pacote original)
+ - evCancNFeABI/nProt usa TProt ([0-9]{16}), enquanto protNFeABI/nProt e
+   retEvento/nProt usam [0-9]{15}. Verificar o tamanho correto do
+   protocolo no MOC.
+
+7. Regras condicionais (tpNF, tpPagAnt, indIncorpLote, indRIP, tpDesfaz
+   etc.) não são expressas no XSD: são validadas pelas regras de negócio
+   da NT (rejeições 1000 a 1041).
+
+8. Validação: 14 schemas raiz compilados; 26 XMLs de teste (positivos e
+   negativos), incluindo os 4 eventos dentro do envelope eventoNFeABI;
+   matriz campo a campo NT x XSD (105 linhas, sem divergências).
+
+
+==========================================================================
+9. REVISÃO DE 18/11/2026 - Conferência com a NT 2026.001 v1.00 publicada
+==========================================================================
+ - evDesfazimAlienacNFeABI_v1.00.xsd: removido o grupo gRetCob (ZZC05),
+   inexistente no leiaute publicado (evento termina em xDesfaz, ZZC04).
+   Removidos também os tipos que ficaram sem uso em
+   eventoNFeABITiposBasico_v1.00.xsd: TGRetCobDesfaz e TGIBSCBSEventoDesfaz.
+ - nfeabiTiposBasico_v1.00.xsd / TGIBSCBSTransic: incluído vRecTotal
+   (UA15a, TDec_1302, 1-1) entre vRecFinRET (UA15) e vBC (UA16).
+   Regra UA15a-10 (cStat 1032): vRecTotal = vRecRecebRET + vRecFinRET.
+ - NFeABI_v1.00.xsd / gIncorpLote/indIncorpLote (H09): pattern [0-1] -> [0-2]
+   (2=Alienação decorrente de loteamento ou desmembramento).
+ - cStat: pattern [0-9]{3} -> [0-9]{3,4} em TStat (tiposGeral), protNFeABI,
+   retNFeABI e retEvento, para comportar as rejeições 1000 a 1051 da NT.
+
+
+==========================================================================
+REVISAO v1.06 - 18/11/2026 - CORRECOES E VERIFICACAO COMPLEMENTAR
+==========================================================================
+- Referencias documentais NT 2026.010 substituidas por NT 2026.001.
+- Corrigida documentacao de H10a/H10b para indIncorpLote=1 ou 2.
+- Incluido validar_eventos.py para segunda validacao obrigatoria do detalhe
+  e verificacao de correspondencia entre tpEvento e nome do elemento.
+- Mantido xs:any processContents=skip no envelope, pois alteracao isolada
+  para 'lax' nao garante validacao dos schemas de detalhes; a segunda
+  validacao precisa ser integrada ao autorizador.
+- CNPJIncImob (UA12) mantido obrigatorio, conforme ocorrencia 1-1 na NT
+  publicada. Possivel abrangencia dos arts. 485 e 486 requer decisao
+  normativa antes de qualquer relaxamento.
+- CNO mantido numerico de 2 a 60 caracteres, como especificado na NT.
+  A eventual restricao a 12 digitos exige adequacao previa da NT.
+- TProt mantido com 16 digitos: TODOS os usos de TProt neste PL
+  compartilham atualmente este tipo; nao foi confirmada, a partir da
+  NT publicada, outra dimensao. Validar com o MOC do protocolo.
+- UA10 nProcesso permanece 1-30 (ja implementado na v1.05).
+- UA11 gIBSCBSTransic permanece como grupo obrigatorio (ja implementado).
+- Regras de negocio de rejeicao (p.ex. 1035, 1036, 1037) seguem no
+  autorizador, nao sao garantidas pelo schema XML 1.0.
+- Os schemas XSD foram recompilados por lxml.XMLSchema.
+
+Exemplo de uso da verificacao de evento (requer python3 e lxml):
+  python validar_eventos.py /caminho/evento.xml
+Para eventos acompanhados de assinatura XMLDSig, a verificacao de
+assinatura criptografica deve ser implementada separadamente.
