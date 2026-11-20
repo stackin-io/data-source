@@ -55,6 +55,7 @@ class NFSeScraper(BaseScraper):
     """
 
     context = "nfse"
+    min_items = 10
     uses_browser = False
 
     def discover(self) -> Iterable[ScrapeItem]:
