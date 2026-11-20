@@ -1,14 +1,16 @@
 import runpy
 import sys
+import tempfile
 import unittest
+from collections.abc import Iterable
 from pathlib import Path
 from typing import ClassVar
-from unittest.mock import patch
+from unittest.mock import MagicMock, patch
 
 from typer.testing import CliRunner
 
 from data_source import cli
-from data_source.core.scraper import ScrapeResult
+from data_source.core.scraper import Artifact, BaseScraper, ScrapeItem, ScrapeResult
 from data_source.exceptions import UnknownScraperError
 
 
@@ -21,10 +23,12 @@ class _FakeScraper:
     def __init__(self, *, settings):
         self.settings = settings
         self.force = None
+        self.min_items = None
         _FakeScraper.instances.append(self)
 
-    def run(self, *, force):
+    def run(self, *, force, min_items=None):
         self.force = force
+        self.min_items = min_items
         return self.result
 
 
@@ -96,6 +100,60 @@ class TestScrape(_CliTest):
 
         self.assertNotEqual(result.exit_code, 0)
         self.assertEqual(_FakeScraper.instances, [])
+
+
+class _Empty(BaseScraper):
+    context = "empty"
+    uses_browser = False
+    min_items = 5
+
+    def __init__(self, **kwargs):
+        downloader = MagicMock()
+        downloader.__enter__.return_value = downloader
+        super().__init__(browser=MagicMock(), downloader=downloader, **kwargs)
+
+    def discover(self) -> Iterable[ScrapeItem]:
+        return []
+
+    def extract(self, item: ScrapeItem) -> Iterable[Artifact]:  # noqa: ARG002
+        return []
+
+
+class TestScrapeMinimumItems(unittest.TestCase):
+    """A scrape that finds nothing must not exit 0 (issue #11)."""
+
+    def setUp(self):
+        self._tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self._tmp.cleanup)
+        registry = patch.dict(cli.REGISTRY, {"empty": _Empty})
+        registry.start()
+        self.addCleanup(registry.stop)
+
+    def _invoke(self, *extra):
+        return CliRunner().invoke(
+            cli.app,
+            ["scrape", "empty", "--out", self._tmp.name, *extra],
+            env={"DATA_SOURCE_MAX_RETRIES": "1"},
+        )
+
+    def test_exits_3_when_discovery_is_below_the_floor(self):
+        result = self._invoke()
+
+        self.assertEqual(result.exit_code, 3, result.output)
+        self.assertIn("discovered 0 item(s), expected at least 5", result.output)
+
+    def test_min_items_zero_lets_an_empty_run_pass(self):
+        result = self._invoke("--min-items", "0")
+
+        self.assertEqual(result.exit_code, 0, result.output)
+        self.assertIn("discovered=0", result.output)
+
+    def test_min_items_is_passed_to_the_scraper(self):
+        with patch.dict(cli.REGISTRY, {"fake": _FakeScraper}):
+            _FakeScraper.instances = []
+            CliRunner().invoke(cli.app, ["scrape", "fake", "--min-items", "7"])
+
+        self.assertEqual(_FakeScraper.instances[-1].min_items, 7)
 
 
 class TestRebuildIndex(_CliTest):
