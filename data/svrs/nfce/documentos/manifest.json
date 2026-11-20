@@ -2,9 +2,9 @@
   "context": "svrs/nfce/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfce/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfce/documentos",
-  "generated_at": "2026-11-19T17:53:50+00:00",
-  "started_at": "2026-11-19T17:53:25+00:00",
-  "duration_s": 25.4,
+  "generated_at": "2026-11-20T17:26:51+00:00",
+  "started_at": "2026-11-20T17:26:50+00:00",
+  "duration_s": 1.69,
   "totals": {
     "discovered": 48,
     "persisted": 0,
@@ -124,8 +124,8 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-11-19T17:53:50+00:00",
-      "status": "ok"
+      "downloaded_at": "2026-11-20T17:26:51+00:00",
+      "status": "empty"
     },
     {
       "slug": "2026-06-08_nota-tecnica-2026.004-schema-cnpj-alfa-v1.01",

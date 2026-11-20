@@ -2,9 +2,9 @@
   "context": "svrs/nfe/documentos",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/svrs/nfe/documentos",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/svrs/nfe/documentos",
-  "generated_at": "2026-11-19T17:53:24+00:00",
-  "started_at": "2026-11-19T17:51:42+00:00",
-  "duration_s": 101.7,
+  "generated_at": "2026-11-20T17:26:48+00:00",
+  "started_at": "2026-11-20T17:26:43+00:00",
+  "duration_s": 5.74,
   "totals": {
     "discovered": 106,
     "persisted": 0,
@@ -1343,8 +1343,8 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-11-19T17:52:06+00:00",
-      "status": "ok"
+      "downloaded_at": "2026-11-20T17:26:45+00:00",
+      "status": "empty"
     },
     {
       "slug": "2023-04-11_schemas-pl-9k-nt-2023.001-tributacao-monofasica-de-combustiveis",
@@ -1933,8 +1933,8 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-11-19T17:52:15+00:00",
-      "status": "ok"
+      "downloaded_at": "2026-11-20T17:26:45+00:00",
+      "status": "empty"
     },
     {
       "slug": "2020-10-14_schemas-nt-2020.006-marketplace-v1.00",
@@ -1946,8 +1946,8 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-11-19T17:52:30+00:00",
-      "status": "ok"
+      "downloaded_at": "2026-11-20T17:26:46+00:00",
+      "status": "empty"
     },
     {
       "slug": "2020-08-31_nota-tecnica-2014.002-v1.02-distribuicao-atores",
@@ -1959,8 +1959,8 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-11-19T17:52:53+00:00",
-      "status": "ok"
+      "downloaded_at": "2026-11-20T17:26:47+00:00",
+      "status": "empty"
     },
     {
       "slug": "2020-06-01_nota-tecnica-2016.003-v1.70",
@@ -1972,8 +1972,8 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-11-19T17:53:14+00:00",
-      "status": "ok"
+      "downloaded_at": "2026-11-20T17:26:48+00:00",
+      "status": "empty"
     },
     {
       "slug": "2020-05-18_nota-tecnica-2020.002-v.1.00",
@@ -1985,8 +1985,8 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-11-19T17:53:24+00:00",
-      "status": "ok"
+      "downloaded_at": "2026-11-20T17:26:48+00:00",
+      "status": "empty"
     },
     {
       "slug": "2020-02-27_nota-tecnica-2018.001-v-1.10",
