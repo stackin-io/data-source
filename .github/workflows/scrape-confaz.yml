@@ -26,7 +26,7 @@ jobs:
       DATA_SOURCE_MAX_RETRIES: "6"
       DATA_SOURCE_RETRY_MAX_WAIT_S: "120"
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - uses: actions/setup-python@v7
         with:
