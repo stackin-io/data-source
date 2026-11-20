@@ -70,7 +70,9 @@ class ScrapeResult:
     items: list[ItemRecord] = field(default_factory=list)
 
 
-def _item_status(ok: bool, artifacts: list[Artifact], files: list[str]) -> str:
+def _item_status(
+    ok: bool, artifacts: list[Artifact], files: list[str], no_file: str = "no_file"
+) -> str:
     """Manifest status of an extracted item.
 
     `ok` only when a file was written. `empty` when the source served 0 bytes,
@@ -81,7 +83,7 @@ def _item_status(ok: bool, artifacts: list[Artifact], files: list[str]) -> str:
         return "partial"
     if files:
         return "ok"
-    return "empty" if artifacts else "no_file"
+    return "empty" if artifacts else no_file
 
 
 class BaseScraper(ABC):
@@ -148,6 +150,11 @@ class BaseScraper(ABC):
         this so skip-if-exists works before the network hit.
         """
         return ""
+
+    def status_without_file(self, item: ScrapeItem) -> str:  # noqa: ARG002
+        """Manifest status when extract() yielded nothing. Override to say why,
+        e.g. `unchanged` for a source that only writes when its content moved."""
+        return "no_file"
 
     def run(self, *, force: bool = False, min_items: int | None = None) -> ScrapeResult:
         """Scrape end-to-end. `min_items` overrides the class floor for this run."""
@@ -223,7 +230,9 @@ class BaseScraper(ABC):
                 record.files = item_files
                 record.folder = item_folder
                 record.downloaded_at = datetime.now(tz=UTC).isoformat(timespec="seconds")
-                record.status = _item_status(item_ok, artifacts, item_files)
+                record.status = _item_status(
+                    item_ok, artifacts, item_files, self.status_without_file(item)
+                )
                 result.items.append(record)
         finished_at = datetime.now(tz=UTC)
         self._write_manifest(result, started_at=started_at, finished_at=finished_at)

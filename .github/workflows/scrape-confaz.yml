@@ -18,6 +18,10 @@ jobs:
     timeout-minutes: 30
     env:
       DATA_SOURCE_LOG_LEVEL: INFO
+      # CONFAZ drops connections from GitHub-hosted runners (Azure, US): the
+      # TCP connect times out, curl and Chrome alike (re-checked 2026-11-20).
+      # Keep this workflow disabled until it runs from a Brazilian egress
+      # (self-hosted runner or proxy); see issue #16.
       DATA_SOURCE_TIMEOUT_S: "90"
       DATA_SOURCE_MAX_RETRIES: "6"
       DATA_SOURCE_RETRY_MAX_WAIT_S: "120"
@@ -42,3 +46,9 @@ jobs:
 
       - name: Commit new files as stackin-bot
         run: .github/scripts/commit-data.sh confaz
+
+      - name: Alert Discord on failure
+        if: failure()
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: .github/scripts/notify-failure.sh
