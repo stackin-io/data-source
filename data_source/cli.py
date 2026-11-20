@@ -8,7 +8,7 @@ from data_source.config import get_settings
 from data_source.core.index import rebuild
 from data_source.core.logger import configure as configure_logging
 from data_source.core.logger import get_logger
-from data_source.exceptions import UnknownScraperError
+from data_source.exceptions import TooFewItemsError, UnknownScraperError
 from data_source.scrapers import REGISTRY
 
 app = typer.Typer(add_completion=False, no_args_is_help=True, help="Stackin data-source scraper")
@@ -23,6 +23,13 @@ def scrape(
     force: bool = typer.Option(
         False, "--force", help="Re-download items even if target folder has files"
     ),
+    min_items: int | None = typer.Option(
+        None,
+        "--min-items",
+        min=0,
+        help="Fail when discovery finds fewer items than this. "
+        "Defaults to the scraper's own floor; 0 disables the check.",
+    ),
 ) -> None:
     """Run a registered scraper end-to-end. Skips items whose folder already has files (use --force to override)."""
     settings = get_settings()
@@ -35,7 +42,11 @@ def scrape(
     if scraper_cls is None:
         raise UnknownScraperError(f"unknown scraper: {name!r}. available: {sorted(REGISTRY)}")
 
-    result = scraper_cls(settings=settings).run(force=force)
+    try:
+        result = scraper_cls(settings=settings).run(force=force, min_items=min_items)
+    except TooFewItemsError as exc:
+        typer.echo(f"ERROR: {exc}", err=True)
+        raise typer.Exit(code=3) from exc
     typer.echo(
         f"[{result.context}] discovered={result.discovered} "
         f"persisted={result.persisted} skipped={result.skipped} failed={result.failed}"

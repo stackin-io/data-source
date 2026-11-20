@@ -36,3 +36,9 @@ jobs:
 
       - name: Commit new files as stackin-bot
         run: .github/scripts/commit-data.sh nfse
+
+      - name: Alert Discord on failure
+        if: failure()
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: .github/scripts/notify-failure.sh

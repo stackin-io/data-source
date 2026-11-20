@@ -87,6 +87,7 @@ class SVRSNFeDocumentosScraper(_SVRSPortalScraper):
     """Documentos oficiais da NF-e publicados pela SEFAZ Virtual RS (22 UFs)."""
 
     context = "svrs/nfe/documentos"
+    min_items = 50
     doc_slug = "Nfe"
 
 
@@ -94,6 +95,7 @@ class SVRSNFCeDocumentosScraper(_SVRSPortalScraper):
     """Documentos oficiais da NFC-e publicados pela SEFAZ Virtual RS."""
 
     context = "svrs/nfce/documentos"
+    min_items = 24
     doc_slug = "Nfce"
 
 
@@ -101,6 +103,7 @@ class SVRSCTeDocumentosScraper(_SVRSPortalScraper):
     """Documentos oficiais do CT-e publicados pela SEFAZ Virtual RS."""
 
     context = "svrs/cte/documentos"
+    min_items = 15
     doc_slug = "Cte"
 
 
@@ -108,6 +111,7 @@ class SVRSMDFeDocumentosScraper(_SVRSPortalScraper):
     """Documentos oficiais do MDF-e publicados pela SEFAZ Virtual RS."""
 
     context = "svrs/mdfe/documentos"
+    min_items = 15
     doc_slug = "Mdfe"
 
 
@@ -115,6 +119,7 @@ class SVRSBPeDocumentosScraper(_SVRSPortalScraper):
     """Documentos oficiais do BP-e publicados pela SEFAZ Virtual RS."""
 
     context = "svrs/bpe/documentos"
+    min_items = 15
     doc_slug = "Bpe"
 
 
@@ -122,6 +127,7 @@ class SVRSNF3eDocumentosScraper(_SVRSPortalScraper):
     """Documentos oficiais da NF3e (energia elétrica)."""
 
     context = "svrs/nf3e/documentos"
+    min_items = 12
     doc_slug = "Nf3e"
 
 
@@ -129,6 +135,7 @@ class SVRSNFComDocumentosScraper(_SVRSPortalScraper):
     """Documentos oficiais da NFCom (comunicação)."""
 
     context = "svrs/nfcom/documentos"
+    min_items = 12
     doc_slug = "Nfcom"
 
 
@@ -136,6 +143,7 @@ class SVRSNFAgDocumentosScraper(_SVRSPortalScraper):
     """Documentos oficiais da NFAg (agropecuária)."""
 
     context = "svrs/nfag/documentos"
+    min_items = 8
     doc_slug = "Nfag"
 
 
@@ -143,6 +151,7 @@ class SVRSNFGasDocumentosScraper(_SVRSPortalScraper):
     """Documentos oficiais da NFGas (gás canalizado)."""
 
     context = "svrs/nfgas/documentos"
+    min_items = 8
     doc_slug = "Nfgas"
 
 
@@ -150,6 +159,7 @@ class SVRSDCeDocumentosScraper(_SVRSPortalScraper):
     """Documentos oficiais da DC-e (declaração de conteúdo)."""
 
     context = "svrs/dce/documentos"
+    min_items = 7
     doc_slug = "Dce"
 
 
@@ -157,6 +167,7 @@ class SVRSNFABIDocumentosScraper(_SVRSPortalScraper):
     """Documentos oficiais da NFABI (abastecimento)."""
 
     context = "svrs/nfabi/documentos"
+    min_items = 6
     doc_slug = "Nfabi"
 
 
@@ -164,6 +175,7 @@ class SVRSDIFALDocumentosScraper(_SVRSPortalScraper):
     """Documentos do DIFAL — tributário, não é documento fiscal."""
 
     context = "svrs/difal/documentos"
+    min_items = 4
     doc_slug = "Difal"
 
 
@@ -171,6 +183,7 @@ class SVRSNFFDocumentosScraper(_SVRSPortalScraper):
     """Documentos da NFF — meta-documento de infraestrutura."""
 
     context = "svrs/nff/documentos"
+    min_items = 3
     doc_slug = "Nff"
 
 
@@ -178,6 +191,7 @@ class SVRSPESDocumentosScraper(_SVRSPortalScraper):
     """Documentos do PES — meta-documento de infraestrutura."""
 
     context = "svrs/pes/documentos"
+    min_items = 5
     doc_slug = "Pes"
 
 
@@ -185,6 +199,7 @@ class SVRSONEDocumentosScraper(_SVRSPortalScraper):
     """Documentos do ONE — meta-documento de infraestrutura."""
 
     context = "svrs/one/documentos"
+    min_items = 5
     doc_slug = "One"
 
 

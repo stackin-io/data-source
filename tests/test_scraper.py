@@ -7,7 +7,7 @@ from unittest.mock import MagicMock
 from data_source.config import Settings
 from data_source.core.scraper import Artifact, BaseScraper, ScrapeItem
 from data_source.core.storage import LocalStorage
-from data_source.exceptions import DiscoveryError, ScraperError
+from data_source.exceptions import DiscoveryError, ScraperError, TooFewItemsError
 
 
 class _FakeScraper(BaseScraper):
@@ -165,6 +165,115 @@ class TestBaseScraperRun(unittest.TestCase):
         with self.assertRaises(DiscoveryError):
             scraper.run()
         self.assertEqual(len(calls), self.settings.max_retries)
+
+
+class TestItemStatus(TestBaseScraperRun):
+    """SVRS serves some links as 200 with 0 bytes; they were recorded as `ok`."""
+
+    def _status_of(self, artifacts):
+        items = [ScrapeItem(url="https://x/1", kind="file")]
+        scraper = self._make(items, {"https://x/1": artifacts})
+        return scraper.run().items[0].status
+
+    def test_written_file_is_ok(self):
+        self.assertEqual(self._status_of([Artifact(filename="a.xml", data=b"<a/>")]), "ok")
+
+    def test_zero_byte_download_is_empty(self):
+        self.assertEqual(self._status_of([Artifact(filename="a.xml", data=b"")]), "empty")
+
+    def test_no_artifact_is_no_file(self):
+        self.assertEqual(self._status_of([]), "no_file")
+
+
+class TestMinimumItems(TestBaseScraperRun):
+    """A source that lists nothing must fail the run, not pass it.
+
+    scrape-nfe discovered 0 items in all five contexts on 2026-11-19, stayed
+    green and committed empty manifests (issue #11).
+    """
+
+    def _items(self, n):
+        return [ScrapeItem(url=f"https://x/{i}", kind="file") for i in range(n)]
+
+    def _artifacts(self, n):
+        return {f"https://x/{i}": [Artifact(filename=f"{i}.xml", data=b"<a/>")] for i in range(n)}
+
+    def test_zero_items_fails_by_default(self):
+        scraper = self._make([], {})
+
+        with self.assertRaises(TooFewItemsError) as ctx:
+            scraper.run()
+
+        self.assertEqual(ctx.exception.found, 0)
+        self.assertEqual(ctx.exception.minimum, 1)
+        self.assertIn("expected at least 1", str(ctx.exception))
+
+    def test_fewer_than_the_class_floor_fails(self):
+        scraper = self._make(self._items(2), self._artifacts(2))
+        scraper.min_items = 3
+
+        with self.assertRaises(TooFewItemsError):
+            scraper.run()
+
+    def test_at_the_floor_succeeds(self):
+        scraper = self._make(self._items(3), self._artifacts(3))
+        scraper.min_items = 3
+
+        result = scraper.run()
+
+        self.assertEqual(result.discovered, 3)
+
+    def test_run_argument_overrides_the_class_floor(self):
+        scraper = self._make([], {})
+        scraper.min_items = 50
+
+        result = scraper.run(min_items=0)
+
+        self.assertEqual(result.discovered, 0)
+
+    def test_previous_manifest_survives_a_short_discovery(self):
+        good = self._make(self._items(2), self._artifacts(2))
+        good.run()
+        manifest = self.root / "fake" / "manifest.json"
+        before = manifest.read_text()
+
+        with self.assertRaises(TooFewItemsError):
+            self._make([], {}).run()
+
+        self.assertEqual(manifest.read_text(), before)
+
+    def test_short_discovery_is_retried(self):
+        calls = []
+
+        class HalfRendered(_FakeScraper):
+            def discover(self):
+                calls.append(1)
+                if len(calls) < 2:
+                    return
+                yield from self._items
+
+        scraper = HalfRendered(
+            self._items(1),
+            self._artifacts(1),
+            settings=self.settings,
+            storage=self.storage,
+            browser=self.browser,
+            downloader=self.downloader,
+        )
+
+        result = scraper.run()
+
+        self.assertEqual(len(calls), 2)
+        self.assertEqual(result.discovered, 1)
+
+
+class TestEveryRegisteredScraperHasAFloor(unittest.TestCase):
+    def test_floor_is_at_least_one(self):
+        from data_source.scrapers import REGISTRY
+
+        for name, cls in REGISTRY.items():
+            with self.subTest(scraper=name):
+                self.assertGreaterEqual(cls.min_items, 1)
 
 
 if __name__ == "__main__":

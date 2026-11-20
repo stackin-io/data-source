@@ -33,68 +33,94 @@ jobs:
         run: poetry install --no-interaction --no-ansi
 
       - name: Scrape NF-e
+        id: nfe
         continue-on-error: true
         run: poetry run data-source scrape svrs/nfe/documentos --out ./data
 
       - name: Scrape NFC-e
+        id: nfce
         continue-on-error: true
         run: poetry run data-source scrape svrs/nfce/documentos --out ./data
 
       - name: Scrape CT-e
+        id: cte
         continue-on-error: true
         run: poetry run data-source scrape svrs/cte/documentos --out ./data
 
       - name: Scrape MDF-e
+        id: mdfe
         continue-on-error: true
         run: poetry run data-source scrape svrs/mdfe/documentos --out ./data
 
       - name: Scrape BP-e
+        id: bpe
         continue-on-error: true
         run: poetry run data-source scrape svrs/bpe/documentos --out ./data
 
       - name: Scrape NF3e
+        id: nf3e
         continue-on-error: true
         run: poetry run data-source scrape svrs/nf3e/documentos --out ./data
 
       - name: Scrape NFCom
+        id: nfcom
         continue-on-error: true
         run: poetry run data-source scrape svrs/nfcom/documentos --out ./data
 
       - name: Scrape NFAg
+        id: nfag
         continue-on-error: true
         run: poetry run data-source scrape svrs/nfag/documentos --out ./data
 
       - name: Scrape NFGas
+        id: nfgas
         continue-on-error: true
         run: poetry run data-source scrape svrs/nfgas/documentos --out ./data
 
       - name: Scrape DC-e
+        id: dce
         continue-on-error: true
         run: poetry run data-source scrape svrs/dce/documentos --out ./data
 
       - name: Scrape NFABI
+        id: nfabi
         continue-on-error: true
         run: poetry run data-source scrape svrs/nfabi/documentos --out ./data
 
       - name: Scrape DIFAL
+        id: difal
         continue-on-error: true
         run: poetry run data-source scrape svrs/difal/documentos --out ./data
 
       - name: Scrape NFF
+        id: nff
         continue-on-error: true
         run: poetry run data-source scrape svrs/nff/documentos --out ./data
 
       - name: Scrape PES
+        id: pes
         continue-on-error: true
         run: poetry run data-source scrape svrs/pes/documentos --out ./data
 
       - name: Scrape ONE
+        id: one
         continue-on-error: true
         run: poetry run data-source scrape svrs/one/documentos --out ./data
-
 
       - name: Rebuild every feed and the root sitemap
         run: poetry run data-source rebuild-index --out ./data
 
       - name: Commit new files as stackin-bot
         run: .github/scripts/commit-data.sh svrs
+
+      - name: Fail when any SVRS scrape failed
+        if: contains(join(steps.*.outcome, ','), 'failure')
+        run: |
+          echo "::error::At least one SVRS scrape failed. The others were committed; see the steps above."
+          exit 1
+
+      - name: Alert Discord on failure
+        if: failure()
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: .github/scripts/notify-failure.sh

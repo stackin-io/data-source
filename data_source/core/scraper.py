@@ -18,7 +18,7 @@ from data_source.core.logger import configure as configure_logging
 from data_source.core.logger import get_logger
 from data_source.core.storage import LocalStorage, Storage
 from data_source.core.unpack import maybe_unpack_zip
-from data_source.exceptions import DiscoveryError, ScraperError
+from data_source.exceptions import DiscoveryError, ScraperError, TooFewItemsError
 
 
 @dataclass(frozen=True)
@@ -70,6 +70,20 @@ class ScrapeResult:
     items: list[ItemRecord] = field(default_factory=list)
 
 
+def _item_status(ok: bool, artifacts: list[Artifact], files: list[str]) -> str:
+    """Manifest status of an extracted item.
+
+    `ok` only when a file was written. `empty` when the source served 0 bytes,
+    `no_file` when it served nothing that is a file (an HTML page, say). Both
+    used to read `ok` with `files: []`, hiding links that are broken upstream.
+    """
+    if not ok:
+        return "partial"
+    if files:
+        return "ok"
+    return "empty" if artifacts else "no_file"
+
+
 class BaseScraper(ABC):
     """Template Method — subclasses override discover() and extract().
 
@@ -78,10 +92,15 @@ class BaseScraper(ABC):
 
     Set `uses_browser = False` on sources whose listing is server-rendered — the run
     then never starts Chrome and needs no driver in CI.
+
+    `min_items` is the fewest items a healthy discovery returns. Fewer means the
+    source changed or blocked us, and the run raises TooFewItemsError before the
+    manifest is rewritten. Sources set it to about half their usual count.
     """
 
     context: str = ""
     uses_browser: bool = True
+    min_items: int = 1
 
     def __init__(
         self,
@@ -130,16 +149,26 @@ class BaseScraper(ABC):
         """
         return ""
 
-    def run(self, *, force: bool = False) -> ScrapeResult:
+    def run(self, *, force: bool = False, min_items: int | None = None) -> ScrapeResult:
+        """Scrape end-to-end. `min_items` overrides the class floor for this run."""
+        floor = self.min_items if min_items is None else min_items
         started_at = datetime.now(tz=UTC)
         result = ScrapeResult(context=self.context)
         self._log.info("scrape.start", context=self.context, force=force)
         browser_ctx = self._browser if self.uses_browser else nullcontext()
         with browser_ctx, self._downloader:
             try:
-                items = self._discover_with_retry()
+                items = self._discover_with_retry(floor)
             except DiscoveryError as exc:
                 self._log.error("scrape.discovery_failed", error=str(exc))
+                raise
+            except TooFewItemsError as exc:
+                self._log.error(
+                    "scrape.too_few_items",
+                    context=self.context,
+                    discovered=exc.found,
+                    minimum=exc.minimum,
+                )
                 raise
             result.discovered = len(items)
             for item in items:
@@ -194,7 +223,7 @@ class BaseScraper(ABC):
                 record.files = item_files
                 record.folder = item_folder
                 record.downloaded_at = datetime.now(tz=UTC).isoformat(timespec="seconds")
-                record.status = "ok" if item_ok else "partial"
+                record.status = _item_status(item_ok, artifacts, item_files)
                 result.items.append(record)
         finished_at = datetime.now(tz=UTC)
         self._write_manifest(result, started_at=started_at, finished_at=finished_at)
@@ -208,8 +237,12 @@ class BaseScraper(ABC):
         )
         return result
 
-    def _discover_with_retry(self) -> list[ScrapeItem]:
-        """Retry discovery with backoff; a slow portal fails one attempt."""
+    def _discover_with_retry(self, floor: int = 0) -> list[ScrapeItem]:
+        """Retry discovery with backoff; a slow portal fails one attempt.
+
+        A discovery below `floor` is retried too: a half-rendered page lists
+        nothing without raising.
+        """
         retrying = Retrying(
             reraise=True,
             stop=stop_after_attempt(max(1, self._settings.max_retries)),
@@ -220,7 +253,12 @@ class BaseScraper(ABC):
                 error=str(state.outcome and state.outcome.exception()),
             ),
         )
-        return retrying(lambda: list(self._safe_discover()))
+        return retrying(lambda: self._checked(list(self._safe_discover()), floor))
+
+    def _checked(self, items: list[ScrapeItem], floor: int) -> list[ScrapeItem]:
+        if len(items) < floor:
+            raise TooFewItemsError(self.context, len(items), floor)
+        return items
 
     def _safe_discover(self) -> Iterable[ScrapeItem]:
         try:

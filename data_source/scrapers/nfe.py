@@ -45,6 +45,16 @@ class _NFePortalScraper(BaseScraper):
                     },
                 )
             )
+        if not items:
+            # 2026-11-19: every category listed nothing for one run and the
+            # next ones were fine. Leave what the portal served in the log.
+            self._log.warning(
+                "nfe.no_download_links",
+                requested=url,
+                landed=driver.current_url,
+                title=driver.title,
+                html_bytes=len(driver.page_source),
+            )
         items.sort(key=lambda it: it.metadata.get("published_at", ""), reverse=True)
         yield from items
 
@@ -73,6 +83,7 @@ class NFeEsquemasXMLScraper(_NFePortalScraper):
     """Pacotes de Liberação, XSDs e Esquemas XML da NF-e."""
 
     context = "nfe/esquemas-xml"
+    min_items = 60
     list_page = "listaConteudo.aspx?tipoConteudo=BMPFMBoln3w="
 
 
@@ -80,6 +91,7 @@ class NFeNotasTecnicasScraper(_NFePortalScraper):
     """Notas Técnicas oficiais da NF-e (documentos vigentes e anteriores)."""
 
     context = "nfe/notas-tecnicas"
+    min_items = 150
     list_page = "listaConteudo.aspx?tipoConteudo=04BIflQt1aY="
 
 
@@ -87,6 +99,7 @@ class NFeInformesTecnicosScraper(_NFePortalScraper):
     """Informes Técnicos oficiais da NF-e (documentos vigentes)."""
 
     context = "nfe/informes-tecnicos"
+    min_items = 25
     list_page = "listaConteudo.aspx?tipoConteudo=hXzemuyNHW4="
 
 
@@ -94,6 +107,7 @@ class NFeDiversosScraper(_NFePortalScraper):
     """Diversos — publicações diversas da NF-e (documentação avulsa e complementar)."""
 
     context = "nfe/diversos"
+    min_items = 50
     list_page = "listaConteudo.aspx?tipoConteudo=/NJarYc9nus="
 
 
@@ -101,6 +115,7 @@ class NFeManuaisScraper(_NFePortalScraper):
     """Manuais oficiais da NF-e (MOC, manuais do emissor e afins)."""
 
     context = "nfe/manuais"
+    min_items = 7
     list_page = "listaConteudo.aspx?tipoConteudo=ndIjl+iEFdE="
 
 

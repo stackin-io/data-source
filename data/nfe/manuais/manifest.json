@@ -2,14 +2,251 @@
   "context": "nfe/manuais",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/manuais",
-  "generated_at": "2026-11-19T17:51:01+00:00",
-  "started_at": "2026-11-19T17:51:00+00:00",
-  "duration_s": 0.99,
+  "generated_at": "2026-11-18T17:41:48+00:00",
+  "started_at": "2026-11-18T17:41:43+00:00",
+  "duration_s": 5.06,
   "totals": {
-    "discovered": 0,
+    "discovered": 14,
     "persisted": 0,
-    "skipped": 0,
+    "skipped": 12,
     "failed": 0
   },
-  "items": []
+  "items": [
+    {
+      "slug": "undated_visualizador-de-df-e",
+      "title": "Visualizador de DF-e",
+      "description": "Visualizador de DF-e",
+      "published_at": "",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/download.aspx?tipoConteudo=vBO/4eBj5F4=",
+      "folder": "",
+      "folder_url": "",
+      "files": [],
+      "file_urls": [],
+      "downloaded_at": "2026-11-18T17:41:47+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_assinador",
+      "title": "Assinador",
+      "description": "Assinador",
+      "published_at": "",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/download.aspx?tipoConteudo=OFrcUd5//Lg=",
+      "folder": "",
+      "folder_url": "",
+      "files": [],
+      "file_urls": [],
+      "downloaded_at": "2026-11-18T17:41:48+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "undated_manual-de-orientacao-ao-contribuinte-moc-versao-7.0-nf-e-e-nfc-e",
+      "title": "Manual de Orientação ao Contribuinte - MOC - versão 7.0 - NF-e e NFC-e",
+      "description": "Manual de Orientação ao Contribuinte - MOC - versão 7.0 - NF-e e NFC-e",
+      "published_at": "",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=LrBx7WT9PuA=",
+      "folder": "data/nfe/manuais/undated_manual-de-orientacao-ao-contribuinte-moc-versao-7.0-nf-e-e-nfc-e",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/manuais/undated_manual-de-orientacao-ao-contribuinte-moc-versao-7.0-nf-e-e-nfc-e",
+      "files": [
+        "data/nfe/manuais/undated_manual-de-orientacao-ao-contribuinte-moc-versao-7.0-nf-e-e-nfc-e/Manual de Orientação ao Contribuinte - MOC - versão 7.0 - NF-e e NFC-e.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-orientacao-ao-contribuinte-moc-versao-7.0-nf-e-e-nfc-e/Manual de Orientação ao Contribuinte - MOC - versão 7.0 - NF-e e NFC-e.pdf"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "undated_anexo-i-leiaute-e-regra-de-validacao-nf-e-e-nfc-e",
+      "title": "------> Anexo I - Leiaute e Regra de Validação - NF-e e NFC-e",
+      "description": "> Anexo I - Leiaute e Regra de Validação - NF-e e NFC-e",
+      "published_at": "",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=J I v4eN00E=",
+      "folder": "data/nfe/manuais/undated_anexo-i-leiaute-e-regra-de-validacao-nf-e-e-nfc-e",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/manuais/undated_anexo-i-leiaute-e-regra-de-validacao-nf-e-e-nfc-e",
+      "files": [
+        "data/nfe/manuais/undated_anexo-i-leiaute-e-regra-de-validacao-nf-e-e-nfc-e/ANEXO I - Leiaute e Regra de Validação - NF-e e NFC-e.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_anexo-i-leiaute-e-regra-de-validacao-nf-e-e-nfc-e/ANEXO I - Leiaute e Regra de Validação - NF-e e NFC-e.pdf"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "undated_anexo-ii-manual-especificacoes-tecnicas-danfe-codigo-barras",
+      "title": "------> Anexo II - Manual Especificações Técnicas - Danfe-Código-Barras",
+      "description": "> Anexo II - Manual Especificações Técnicas - Danfe-Código-Barras",
+      "published_at": "",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=f NhsSn3/5M=",
+      "folder": "data/nfe/manuais/undated_anexo-ii-manual-especificacoes-tecnicas-danfe-codigo-barras",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/manuais/undated_anexo-ii-manual-especificacoes-tecnicas-danfe-codigo-barras",
+      "files": [
+        "data/nfe/manuais/undated_anexo-ii-manual-especificacoes-tecnicas-danfe-codigo-barras/ANEXO II -Manual EspecificaçõesTécnicas - Danfe-Código-Barras.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_anexo-ii-manual-especificacoes-tecnicas-danfe-codigo-barras/ANEXO II -Manual EspecificaçõesTécnicas - Danfe-Código-Barras.pdf"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "undated_anexo-iii-manual-de-contingencia-nf-e",
+      "title": "------> Anexo III - Manual de Contingência - NF-e",
+      "description": "> Anexo III - Manual de Contingência - NF-e",
+      "published_at": "",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=cMjGAyYrb/s=",
+      "folder": "data/nfe/manuais/undated_anexo-iii-manual-de-contingencia-nf-e",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/manuais/undated_anexo-iii-manual-de-contingencia-nf-e",
+      "files": [
+        "data/nfe/manuais/undated_anexo-iii-manual-de-contingencia-nf-e/Anexo III - Manual de Contingência - NF-e.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_anexo-iii-manual-de-contingencia-nf-e/Anexo III - Manual de Contingência - NF-e.pdf"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "undated_anexo-iv-manual-de-contingencia-nfc-e",
+      "title": "------> Anexo IV - Manual de Contingência - NFC-e",
+      "description": "> Anexo IV - Manual de Contingência - NFC-e",
+      "published_at": "",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=fMhAfsQfE M=",
+      "folder": "data/nfe/manuais/undated_anexo-iv-manual-de-contingencia-nfc-e",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/manuais/undated_anexo-iv-manual-de-contingencia-nfc-e",
+      "files": [
+        "data/nfe/manuais/undated_anexo-iv-manual-de-contingencia-nfc-e/Anexo IV - Manual de Contingência - NFC-e.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_anexo-iv-manual-de-contingencia-nfc-e/Anexo IV - Manual de Contingência - NFC-e.pdf"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "undated_manual-de-especificacoes-tecnicas-do-danfenfc-e-e-qrcode-versao-6.0",
+      "title": "Manual de especificações técnicas do DANFE_NFC-e e Qr_Code Versão 6.0",
+      "description": "Manual de especificações técnicas do DANFE_NFC-e e Qr_Code Versão 6.0",
+      "published_at": "",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=k/IuuaW4YiY=",
+      "folder": "data/nfe/manuais/undated_manual-de-especificacoes-tecnicas-do-danfenfc-e-e-qrcode-versao-6.0",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/manuais/undated_manual-de-especificacoes-tecnicas-do-danfenfc-e-e-qrcode-versao-6.0",
+      "files": [
+        "data/nfe/manuais/undated_manual-de-especificacoes-tecnicas-do-danfenfc-e-e-qrcode-versao-6.0/20250324 - Manual_de_EspecificaÃ§Ãµes_TÃ©cnicas_do_DANFE_NFC-e_QR_Code.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-especificacoes-tecnicas-do-danfenfc-e-e-qrcode-versao-6.0/20250324 - Manual_de_EspecificaÃ§Ãµes_TÃ©cnicas_do_DANFE_NFC-e_QR_Code.pdf"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "undated_manual-de-especificacoes-da-contingencia-offline-para-nfc-e-versao-2.0",
+      "title": "Manual de Especificações da Contingência Offline para NFC-e - versão 2.0",
+      "description": "Manual de Especificações da Contingência Offline para NFC-e - versão 2.0",
+      "published_at": "",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=tG8 fKpcfbM=",
+      "folder": "data/nfe/manuais/undated_manual-de-especificacoes-da-contingencia-offline-para-nfc-e-versao-2.0",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/manuais/undated_manual-de-especificacoes-da-contingencia-offline-para-nfc-e-versao-2.0",
+      "files": [
+        "data/nfe/manuais/undated_manual-de-especificacoes-da-contingencia-offline-para-nfc-e-versao-2.0/Manual_de_especificacoes_tecnicas_da_Contingencia_Off-line_versao_2.0.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-especificacoes-da-contingencia-offline-para-nfc-e-versao-2.0/Manual_de_especificacoes_tecnicas_da_Contingencia_Off-line_versao_2.0.pdf"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "undated_manual-de-boas-praticas-no-desenvolvimento-de-emissor-de-nfc-e-bp-2018.001-versao-1.0",
+      "title": "Manual de Boas Práticas no desenvolvimento de emissor de NFC-e - BP 2018.001 - versão 1.0",
+      "description": "Manual de Boas Práticas no desenvolvimento de emissor de NFC-e - BP 2018.001 - versão 1.0",
+      "published_at": "",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=R7Y/bEE/RM8=",
+      "folder": "data/nfe/manuais/undated_manual-de-boas-praticas-no-desenvolvimento-de-emissor-de-nfc-e-bp-2018.001-versao-1.0",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/manuais/undated_manual-de-boas-praticas-no-desenvolvimento-de-emissor-de-nfc-e-bp-2018.001-versao-1.0",
+      "files": [
+        "data/nfe/manuais/undated_manual-de-boas-praticas-no-desenvolvimento-de-emissor-de-nfc-e-bp-2018.001-versao-1.0/Manual de Boas PrÃ¡ticas NFC-e - BP 2018.001 - versÃ£o 1 0.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-boas-praticas-no-desenvolvimento-de-emissor-de-nfc-e-bp-2018.001-versao-1.0/Manual de Boas PrÃ¡ticas NFC-e - BP 2018.001 - versÃ£o 1 0.pdf"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip",
+      "title": "Manual de Utilização da Sefaz Virtual do Ambiente Nacional(ZIP)",
+      "description": "Manual de Utilização da Sefaz Virtual do Ambiente Nacional",
+      "published_at": "",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=O2Op0gbMOvE=",
+      "folder": "data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip",
+      "files": [
+        "data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip/Manual_de_Utilizacao_da_sefaz_virtual_do_ambiente_nacional.zip",
+        "data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip/Manual_de_Utilizacao_da_sefaz_virtual_do_ambiente_nacional/Anexo I.doc",
+        "data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip/Manual_de_Utilizacao_da_sefaz_virtual_do_ambiente_nacional/Anexo II.doc",
+        "data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip/Manual_de_Utilizacao_da_sefaz_virtual_do_ambiente_nacional/Manual da SEFAZ Virtual para Empresas.doc"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip/Manual_de_Utilizacao_da_sefaz_virtual_do_ambiente_nacional.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip/Manual_de_Utilizacao_da_sefaz_virtual_do_ambiente_nacional/Anexo I.doc",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip/Manual_de_Utilizacao_da_sefaz_virtual_do_ambiente_nacional/Anexo II.doc",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-utilizacao-da-sefaz-virtual-do-ambiente-nacionalzip/Manual_de_Utilizacao_da_sefaz_virtual_do_ambiente_nacional/Manual da SEFAZ Virtual para Empresas.doc"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "undated_manual-de-usuarios-da-sefaz-virtual-rs",
+      "title": "Manual de Usuários da Sefaz Virtual - RS.",
+      "description": "Manual de Usuários da Sefaz Virtual - RS",
+      "published_at": "",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=Nwgpbl6wSNI=",
+      "folder": "data/nfe/manuais/undated_manual-de-usuarios-da-sefaz-virtual-rs",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/manuais/undated_manual-de-usuarios-da-sefaz-virtual-rs",
+      "files": [
+        "data/nfe/manuais/undated_manual-de-usuarios-da-sefaz-virtual-rs/manual_usuarios_SVRS.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-usuarios-da-sefaz-virtual-rs/manual_usuarios_SVRS.pdf"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "undated_manual-do-emissor-de-nf-e",
+      "title": "Manual do Emissor de NF-e",
+      "description": "Manual do Emissor de NF-e",
+      "published_at": "",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=ZE7XRC1vqJ4=",
+      "folder": "data/nfe/manuais/undated_manual-do-emissor-de-nf-e",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/manuais/undated_manual-do-emissor-de-nf-e",
+      "files": [
+        "data/nfe/manuais/undated_manual-do-emissor-de-nf-e/manual_emissor_nfe.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-do-emissor-de-nf-e/manual_emissor_nfe.pdf"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    },
+    {
+      "slug": "undated_manual-de-contingencia-da-nf-e-versao-1.01",
+      "title": "Manual de Contingência da NF-e - Versão 1.01",
+      "description": "Manual de Contingência da NF-e - Versão 1.01",
+      "published_at": "",
+      "source_url": "https://www.nfe.fazenda.gov.br/portal/exibirArquivo.aspx?conteudo=TanMatXmIAY=",
+      "folder": "data/nfe/manuais/undated_manual-de-contingencia-da-nf-e-versao-1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/manuais/undated_manual-de-contingencia-da-nf-e-versao-1.01",
+      "files": [
+        "data/nfe/manuais/undated_manual-de-contingencia-da-nf-e-versao-1.01/ManualContingencia.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/manuais/undated_manual-de-contingencia-da-nf-e-versao-1.01/ManualContingencia.pdf"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    }
+  ]
 }
