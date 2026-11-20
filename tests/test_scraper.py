@@ -167,6 +167,24 @@ class TestBaseScraperRun(unittest.TestCase):
         self.assertEqual(len(calls), self.settings.max_retries)
 
 
+class TestItemStatus(TestBaseScraperRun):
+    """SVRS serves some links as 200 with 0 bytes; they were recorded as `ok`."""
+
+    def _status_of(self, artifacts):
+        items = [ScrapeItem(url="https://x/1", kind="file")]
+        scraper = self._make(items, {"https://x/1": artifacts})
+        return scraper.run().items[0].status
+
+    def test_written_file_is_ok(self):
+        self.assertEqual(self._status_of([Artifact(filename="a.xml", data=b"<a/>")]), "ok")
+
+    def test_zero_byte_download_is_empty(self):
+        self.assertEqual(self._status_of([Artifact(filename="a.xml", data=b"")]), "empty")
+
+    def test_no_artifact_is_no_file(self):
+        self.assertEqual(self._status_of([]), "no_file")
+
+
 class TestMinimumItems(TestBaseScraperRun):
     """A source that lists nothing must fail the run, not pass it.
 

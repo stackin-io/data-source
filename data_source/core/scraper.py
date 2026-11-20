@@ -70,6 +70,20 @@ class ScrapeResult:
     items: list[ItemRecord] = field(default_factory=list)
 
 
+def _item_status(ok: bool, artifacts: list[Artifact], files: list[str]) -> str:
+    """Manifest status of an extracted item.
+
+    `ok` only when a file was written. `empty` when the source served 0 bytes,
+    `no_file` when it served nothing that is a file (an HTML page, say). Both
+    used to read `ok` with `files: []`, hiding links that are broken upstream.
+    """
+    if not ok:
+        return "partial"
+    if files:
+        return "ok"
+    return "empty" if artifacts else "no_file"
+
+
 class BaseScraper(ABC):
     """Template Method — subclasses override discover() and extract().
 
@@ -209,7 +223,7 @@ class BaseScraper(ABC):
                 record.files = item_files
                 record.folder = item_folder
                 record.downloaded_at = datetime.now(tz=UTC).isoformat(timespec="seconds")
-                record.status = "ok" if item_ok else "partial"
+                record.status = _item_status(item_ok, artifacts, item_files)
                 result.items.append(record)
         finished_at = datetime.now(tz=UTC)
         self._write_manifest(result, started_at=started_at, finished_at=finished_at)
