@@ -8,6 +8,12 @@ on:
 jobs:
   code-quality:
     runs-on: ubuntu-latest
+    env:
+      # Lint, format and types only: tests run in ci.yml on the Python matrix.
+      AP_CHECK: >-
+        poetry run ruff check . &&
+        poetry run ruff format --check . &&
+        poetry run mypy --config-file .code_quality/mypy.ini .
     steps:
       - uses: actions/checkout@v5
       - uses: actionplatform/ci-github/setup@v1
