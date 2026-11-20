@@ -1,20 +1,32 @@
 name: ci
 
+# Tests only, on every Python the package supports. Lint, format and mypy run
+# once, in code-quality.yml.
+
 on:
   push:
     branches: [master, develop]
   pull_request:
 
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  lint-and-test:
+  test:
+    name: test (${{ matrix.python-version }})
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.13"]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
-          python-version: "3.11"
+          python-version: ${{ matrix.python-version }}
 
       - name: Install Poetry
         run: pipx install poetry
@@ -22,11 +34,8 @@ jobs:
       - name: Install deps
         run: poetry install --no-interaction --no-ansi
 
-      - name: Ruff
-        run: poetry run ruff check .
-
-      - name: Mypy
-        run: poetry run mypy data_source
-
       - name: Tests
-        run: poetry run python -m unittest discover -s tests -v
+        run: poetry run coverage run -m pytest -q
+
+      - name: Coverage
+        run: poetry run coverage report
