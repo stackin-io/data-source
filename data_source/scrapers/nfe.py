@@ -45,6 +45,16 @@ class _NFePortalScraper(BaseScraper):
                     },
                 )
             )
+        if not items:
+            # 2026-11-19: every category listed nothing for one run and the
+            # next ones were fine. Leave what the portal served in the log.
+            self._log.warning(
+                "nfe.no_download_links",
+                requested=url,
+                landed=driver.current_url,
+                title=driver.title,
+                html_bytes=len(driver.page_source),
+            )
         items.sort(key=lambda it: it.metadata.get("published_at", ""), reverse=True)
         yield from items
 
