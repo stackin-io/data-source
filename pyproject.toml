@@ -23,7 +23,7 @@ soupsieve = ">=4.0.0"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.17.6"
-mypy = "^1.11.2"
+mypy = ">=1.11.2,<3.0.0"
 coverage = "^7.6.1"
 pytest = "^9.1.1"
 
