@@ -50,9 +50,7 @@ class TestNFSeScraperReadsEveryPageWhereNotesLand(unittest.TestCase):
             f"{_DOCS}/producao-restrita": RESTRICTED,
             f"{_DOCS}/rtc": RTC,
         }
-        with patch.object(
-            NFSeScraper, "download", side_effect=lambda url: pages[url].encode()
-        ):
+        with patch.object(NFSeScraper, "download", side_effect=lambda url: pages[url].encode()):
             self.items = list(self.scraper.discover())
         self.by_url = {item.url: item for item in self.items}
 
@@ -60,7 +58,9 @@ class TestNFSeScraperReadsEveryPageWhereNotesLand(unittest.TestCase):
         self._tmp.cleanup()
 
     def test_it_reads_production_restricted_and_rtc(self):
-        self.assertEqual([page for page, _ in PAGES], [ADN_ROOT, f"{_DOCS}/producao-restrita", f"{_DOCS}/rtc"])
+        self.assertEqual(
+            [page for page, _ in PAGES], [ADN_ROOT, f"{_DOCS}/producao-restrita", f"{_DOCS}/rtc"]
+        )
 
     def test_the_restricted_schemas_are_found(self):
         item = self.by_url[f"{_DOCS}/producao-restrita/esquemas_prod_restrita_20261020.zip"]

@@ -6,7 +6,8 @@ exclude =
     build,
     dist,
     ./venv,
-    .venv
+    .venv,
+    data
 max-complexity = 12
 show-source = True
 statistics = True
