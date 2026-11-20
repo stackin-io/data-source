@@ -4,12 +4,14 @@ import json
 import re
 from collections.abc import Iterable
 from datetime import UTC, datetime
+from pathlib import Path
 
 from bs4 import BeautifulSoup
 from selenium.common.exceptions import WebDriverException
 from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
 
 from data_source.core.scraper import Artifact, BaseScraper, ScrapeItem
+from data_source.exceptions import ExtractionError
 
 CONFAZ_CV142_URL = "https://www.confaz.fazenda.gov.br/legislacao/convenios/2018/CV142_18"
 
@@ -17,10 +19,21 @@ _CEST_RE = re.compile(r"^\d{2}\.\d{3}\.\d{2}$")
 
 _NCM_RE = re.compile(r"^\d{4}[\d./ ,-]{2,}$")
 
+TABLE_FILENAME = "tabela-cest.json"
+
+# The convênio listed 1054 CEST codes in 2026-11. Codes are added and revoked a
+# few at a time; a parse far below this means the page changed or was a block
+# page, and saving it would publish a gutted table.
+MIN_ROWS = 900
+
 
 class ConfazCestScraper(BaseScraper):
     context = "confaz/cest"
     uses_browser = True
+
+    def __init__(self, **kwargs: object) -> None:
+        super().__init__(**kwargs)  # type: ignore[arg-type]
+        self._unchanged: set[str] = set()
 
     def discover(self) -> Iterable[ScrapeItem]:
         yield ScrapeItem(
@@ -67,6 +80,16 @@ class ConfazCestScraper(BaseScraper):
 
         rows = list(self._extract_rows(soup))
         self._log.info("confaz.cest.parsed", rows=len(rows))
+        if len(rows) < MIN_ROWS:
+            raise ExtractionError(
+                f"parsed {len(rows)} CEST rows from {item.url}, expected at least {MIN_ROWS}"
+            )
+
+        previous = self._latest_rows()
+        if previous == rows:
+            self._log.info("confaz.cest.unchanged", rows=len(rows))
+            self._unchanged.add(item.url)
+            return
 
         payload = {
             "source": item.url,
@@ -76,12 +99,29 @@ class ConfazCestScraper(BaseScraper):
         data = json.dumps(payload, ensure_ascii=False, indent=2).encode("utf-8")
 
         yield Artifact(
-            filename="tabela-cest.json",
+            filename=TABLE_FILENAME,
             data=data,
             content_type="application/json",
             subpath=self.subpath_for(item),
             metadata=item.metadata,
         )
+
+    def status_without_file(self, item: ScrapeItem) -> str:
+        return "unchanged" if item.url in self._unchanged else super().status_without_file(item)
+
+    def _latest_rows(self) -> list[dict[str, str]] | None:
+        """Rows of the newest table on disk, or None. Folders are date-prefixed,
+        so the newest sorts last."""
+        root = Path(self._settings.output_dir) / self.context
+        tables = sorted(root.glob(f"*/{TABLE_FILENAME}"))
+        if not tables:
+            return None
+        try:
+            loaded = json.loads(tables[-1].read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            return None
+        rows = loaded.get("rows") if isinstance(loaded, dict) else None
+        return rows if isinstance(rows, list) else None
 
     def _extract_rows(self, soup: BeautifulSoup) -> Iterable[dict[str, str]]:
         anexo: str | None = None
