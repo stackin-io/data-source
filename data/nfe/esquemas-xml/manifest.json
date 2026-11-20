@@ -2,9 +2,9 @@
   "context": "nfe/esquemas-xml",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfe/esquemas-xml",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfe/esquemas-xml",
-  "generated_at": "2026-11-18T17:41:23+00:00",
-  "started_at": "2026-11-18T17:41:04+00:00",
-  "duration_s": 18.65,
+  "generated_at": "2026-11-20T17:25:37+00:00",
+  "started_at": "2026-11-20T17:25:19+00:00",
+  "duration_s": 18.31,
   "totals": {
     "discovered": 136,
     "persisted": 0,
@@ -6767,8 +6767,8 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-11-18T17:41:22+00:00",
-      "status": "ok"
+      "downloaded_at": "2026-11-20T17:25:37+00:00",
+      "status": "no_file"
     },
     {
       "slug": "undated_assinador",
@@ -6780,8 +6780,8 @@
       "folder_url": "",
       "files": [],
       "file_urls": [],
-      "downloaded_at": "2026-11-18T17:41:23+00:00",
-      "status": "ok"
+      "downloaded_at": "2026-11-20T17:25:37+00:00",
+      "status": "no_file"
     },
     {
       "slug": "undated_esquemas-xml-nf-e-pacote-de-liberacao-no.-006prec-zip",
