@@ -26,7 +26,12 @@ git commit -m "DATA(${context}): Scheduled scrape ${stamp}"
 
 for attempt in 1 2 3; do
   git fetch origin "${branch}"
-  git checkout -- data/manifest.json data/feed.xml
+  # Take the root files back out of the commit, not just the working tree:
+  # after a rejected push the amended commit still carries them and the
+  # next rebase would conflict on them (#24, Jenkins runs without the
+  # Actions concurrency group).
+  git checkout HEAD~1 -- data/manifest.json data/feed.xml
+  git commit --amend --no-edit --allow-empty --quiet
   git rebase "origin/${branch}"
   poetry run data-source rebuild-index --out ./data
   git add data/manifest.json data/feed.xml
