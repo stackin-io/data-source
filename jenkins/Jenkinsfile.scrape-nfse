@@ -90,10 +90,15 @@ pipeline {
                 }
             }
         }
-        always {
-            // Files written as root would block the next checkout.
+        cleanup {
+            // The workspace persists between builds: drop a half-done rebase
+            // and leftovers of a failed scrape (they would be committed
+            // unchecked next run), then hand files written as root back.
             sh '''
                 git config --unset credential.helper || true
+                git rebase --abort 2>/dev/null || true
+                git reset --hard -q || true
+                git clean -ffdxq || true
                 chown -R "$(stat -c '%u:%g' "$WORKSPACE")" "$WORKSPACE"
             '''
         }
