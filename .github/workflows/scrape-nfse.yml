@@ -1,8 +1,10 @@
 name: scrape-nfse
 
+# The daily NFS-e scrape runs on Jenkins (data-source/scrape-nfse,
+# jenkins/Jenkinsfile.scrape-nfse) since 2026-11-21: gov.br resets
+# connections from GitHub-hosted runners ([Errno 104]), see issue #24.
+# This workflow is disabled and kept for a manual run only.
 on:
-  schedule:
-    - cron: "0 9 * * *"
   workflow_dispatch:
 
 concurrency:

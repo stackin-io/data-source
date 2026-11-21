@@ -5,7 +5,7 @@
 **A base fiscal brasileira, sempre atualizada — sem clicar em nada.**
 
 [![Scrape NF-e](https://github.com/stackin-io/data-source/actions/workflows/scrape-nfe.yml/badge.svg)](https://github.com/stackin-io/data-source/actions/workflows/scrape-nfe.yml)
-[![Scrape NFS-e](https://github.com/stackin-io/data-source/actions/workflows/scrape-nfse.yml/badge.svg)](https://github.com/stackin-io/data-source/actions/workflows/scrape-nfse.yml)
+[![Scrape NFS-e](https://img.shields.io/badge/scrape%20NFS--e-Jenkins-informational?style=flat-square)](jenkins/Jenkinsfile.scrape-nfse)
 [![Scrape SVRS](https://github.com/stackin-io/data-source/actions/workflows/scrape-svrs.yml/badge.svg)](https://github.com/stackin-io/data-source/actions/workflows/scrape-svrs.yml)
 
 [![Feed](https://img.shields.io/badge/feed-atom-orange?style=flat-square)](https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml)
@@ -48,6 +48,8 @@ print(data["generated_at"], "→", len(data["entries"]), "docs")
 ## Como funciona
 
 **Uma vez por dia, às 09:00 UTC**, um robô varre os portais oficiais, identifica o que é novidade em relação à última passagem, baixa os arquivos, descompacta os ZIPs, e organiza tudo por data de publicação. Cada documento fica numa pasta própria com título completo, data e todos os arquivos que compõem o pacote.
+
+NF-e e SVRS rodam no GitHub Actions (`.github/workflows/`). A NFS-e roda no Jenkins da stackin (`jenkins/Jenkinsfile.scrape-nfse`, job `data-source/scrape-nfse`) desde 2026-11-21: o gov.br derruba conexões vindas dos runners do GitHub.
 
 Duas coisas são publicadas todo ciclo:
 

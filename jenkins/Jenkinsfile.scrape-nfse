@@ -1,0 +1,106 @@
+// Daily NFS-e scrape, run from Jenkins instead of GitHub Actions (#24).
+//
+// gov.br resets connections from GitHub-hosted runners (Azure IPs) since
+// 2026-11-21, while it answers the Jenkins host (Dokploy VPS). The steps are
+// the ones .github/workflows/scrape-nfse.yml ran: install, scrape, commit the
+// new files as stackin-bot and push to master, alert Discord on failure.
+//
+// Job: data-source/scrape-nfse, Pipeline script from SCM, this repo, master.
+pipeline {
+    agent {
+        docker {
+            image 'python:3.11-slim'
+            args '-u root:root'
+        }
+    }
+
+    triggers {
+        cron('''TZ=UTC
+0 9 * * *''')
+    }
+
+    environment {
+        DATA_SOURCE_LOG_LEVEL = 'INFO'
+        // commit-data.sh pushes to GITHUB_REF_NAME, defaulting to master.
+        GITHUB_REF_NAME = 'master'
+    }
+
+    options {
+        timeout(time: 30, unit: 'MINUTES')
+        buildDiscarder(logRotator(numToKeepStr: '30'))
+        disableConcurrentBuilds()
+    }
+
+    stages {
+        stage('Bootstrap') {
+            steps {
+                sh '''
+                    set -eu
+                    apt-get update -qq
+                    apt-get install -y -qq --no-install-recommends git curl jq >/dev/null
+                    pip install --no-cache-dir --quiet 'poetry==2.5.1'
+                    # The workspace belongs to the Jenkins user; git runs here as root.
+                    git config --global --add safe.directory "$WORKSPACE"
+                    poetry --version
+                '''
+            }
+        }
+
+        stage('Install deps') {
+            steps {
+                sh 'poetry install --no-interaction --no-ansi --only main'
+            }
+        }
+
+        stage('Scrape') {
+            steps {
+                sh 'poetry run data-source scrape nfse --out ./data'
+            }
+        }
+
+        stage('Publish') {
+            steps {
+                withCredentials([usernamePassword(credentialsId: 'github-stackin',
+                                                  usernameVariable: 'GH_USER',
+                                                  passwordVariable: 'GH_TOKEN')]) {
+                    // The helper expands the variables when git asks, so the
+                    // token is never written to .git/config or the log.
+                    sh '''
+                        set -eu
+                        git config credential.helper '!f() { echo "username=$GH_USER"; echo "password=$GH_TOKEN"; }; f'
+                        .github/scripts/commit-data.sh nfse
+                    '''
+                }
+            }
+        }
+    }
+
+    post {
+        failure {
+            script {
+                // Optional: without the credential the scrape failure still
+                // shows as a red build, it just is not posted to Discord.
+                try {
+                    withCredentials([string(credentialsId: 'data-source-discord-webhook-url',
+                                            variable: 'DISCORD_WEBHOOK_URL')]) {
+                        sh '.github/scripts/notify-failure.sh'
+                    }
+                } catch (err) {
+                    echo "Discord alert not sent: ${err.class.simpleName}"
+                }
+            }
+        }
+        cleanup {
+            // The workspace persists between builds: drop a half-done rebase
+            // and leftovers of a failed scrape (they would be committed
+            // unchecked next run), then hand files written as root back.
+            sh '''
+                git config --unset credential.helper || true
+                git rebase --abort 2>/dev/null || true
+                git reset --hard -q || true
+                git clean -ffdxq || true
+                chown -R "$(stat -c '%u:%g' "$WORKSPACE")" "$WORKSPACE"
+            '''
+        }
+    }
+}
