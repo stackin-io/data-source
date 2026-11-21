@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Post a failed scrape to Discord.
+# Post a failed scrape to Discord, from GitHub Actions or Jenkins.
 #
 # The webhook comes from the environment, never from the command line, so it
 # does not show in the job log. Without it the script warns and exits 0: a
@@ -11,9 +11,16 @@ if [[ -z "${DISCORD_WEBHOOK_URL:-}" ]]; then
   exit 0
 fi
 
-run_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
-content=":red_circle: **${GITHUB_WORKFLOW}** failed on \`${GITHUB_REF_NAME}\` (attempt ${GITHUB_RUN_ATTEMPT:-1})
+if [[ -n "${BUILD_URL:-}" ]]; then
+  # Jenkins (scrape-nfse, #24)
+  run_url="${BUILD_URL}"
+  content=":red_circle: **${JOB_NAME}** failed on \`${GITHUB_REF_NAME:-master}\` (build #${BUILD_NUMBER})
 ${run_url}"
+else
+  run_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+  content=":red_circle: **${GITHUB_WORKFLOW}** failed on \`${GITHUB_REF_NAME}\` (attempt ${GITHUB_RUN_ATTEMPT:-1})
+${run_url}"
+fi
 
 payload="$(jq -n --arg content "${content}" '{content: $content, allowed_mentions: {parse: []}}')"
 
