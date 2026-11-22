@@ -65,7 +65,6 @@ __all__ = [
     "NFeNotasTecnicasScraper",
     "NFeScraper",
     "SVRSBPeDocumentosScraper",
-    "SefScCBenefScraper",
     "SVRSCTeDocumentosScraper",
     "SVRSDCeDocumentosScraper",
     "SVRSDIFALDocumentosScraper",
@@ -80,4 +79,5 @@ __all__ = [
     "SVRSNFeDocumentosScraper",
     "SVRSONEDocumentosScraper",
     "SVRSPESDocumentosScraper",
+    "SefScCBenefScraper",
 ]
