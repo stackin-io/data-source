@@ -1,0 +1,35 @@
+{
+  "context": "sef/sc/cbenef",
+  "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/sef/sc/cbenef",
+  "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/sef/sc/cbenef",
+  "generated_at": "2026-11-22T21:54:29+00:00",
+  "started_at": "2026-11-22T21:54:27+00:00",
+  "duration_s": 1.45,
+  "totals": {
+    "discovered": 1,
+    "persisted": 2,
+    "skipped": 0,
+    "failed": 0
+  },
+  "items": [
+    {
+      "slug": "2026-10-09_tabela-5.2-cbenef-v31",
+      "title": "SEF/SC — Tabela 5.2 (cBenef) v31",
+      "description": "5.2 - Tabela de informações Adicionais da Apuração - Valores Declaratórios, Santa Catarina. Códigos de benefício fiscal (cBenef, cBenefRBC, cCredPresumido) com vigência. Publicada pela SEF/SC em https://www.sef.sc.gov.br/saiba-mais/sped-fiscal.",
+      "published_at": "2026-10-09",
+      "source_url": "https://www.sped.fazenda.gov.br/spedtabelas/wsconsulta/obterTabela.ashx?idTabela=1634&versao=31",
+      "folder": "data/sef/sc/cbenef/2026-10-09_tabela-5.2-cbenef-v31",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/sef/sc/cbenef/2026-10-09_tabela-5.2-cbenef-v31",
+      "files": [
+        "data/sef/sc/cbenef/2026-10-09_tabela-5.2-cbenef-v31/tabela-5.2.txt",
+        "data/sef/sc/cbenef/2026-10-09_tabela-5.2-cbenef-v31/tabela-5.2.json"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/sef/sc/cbenef/2026-10-09_tabela-5.2-cbenef-v31/tabela-5.2.txt",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/sef/sc/cbenef/2026-10-09_tabela-5.2-cbenef-v31/tabela-5.2.json"
+      ],
+      "downloaded_at": "2026-11-22T21:54:29+00:00",
+      "status": "ok"
+    }
+  ]
+}

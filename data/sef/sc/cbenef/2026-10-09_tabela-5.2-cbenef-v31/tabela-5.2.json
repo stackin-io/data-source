@@ -1,0 +1,5415 @@
+{
+  "source": "https://www.sped.fazenda.gov.br/spedtabelas/wsconsulta/obterTabela.ashx?idTabela=1634&versao=31",
+  "published_by": "https://www.sef.sc.gov.br/saiba-mais/sped-fiscal",
+  "uf": "SC",
+  "table": {
+    "id": "1634",
+    "type": "INF_ADIC_APUR",
+    "version": 31,
+    "published_at": "2026-10-09",
+    "sha1": "ce08bbe0f51259d25187313d51dbf3b69933bba0"
+  },
+  "generated_at": "2026-11-22T21:54:29+00:00",
+  "rows": [
+    {
+      "code": "SC850001",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, III",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850002",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, IV",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, IV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850003",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, VI",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, VI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850004",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, X",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, X",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850005",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XIII",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850006",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XIV",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XIV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850007",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XV",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850008",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XVII",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XVII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850009",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XIX",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XIX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850010",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XX",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850011",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXI",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XXI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850012",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXIII",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XXIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850013",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXIV",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XXIV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850014",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXVI",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XXVI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850015",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXVIII",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XXVIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850016",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXIX",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XXIX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850017",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXXI",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XXXI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850018",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXXII",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XXXII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850019",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXXVI",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XXXVI",
+      "valid_from": "2023-01-01",
+      "valid_to": "2023-06-30"
+    },
+    {
+      "code": "SC850020",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXXVII",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XXXVII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850021",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXXVIII",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XXXVIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850023",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXXIX",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XXXIX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850024",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XL",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XL",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850025",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XLII",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XLII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850026",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XLIII",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XLIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850027",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 16, I",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 16, I",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-02-28"
+    },
+    {
+      "code": "SC850028",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 16, II",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 16, II",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-02-28"
+    },
+    {
+      "code": "SC850029",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 17, I",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 17, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850030",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 17, II",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 17, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850031",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 17, III",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 17, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850032",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 18, § 2º",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 18, § 2º",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850033",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 18, § 8º",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 18, § 8º",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850034",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 18, §§ 5º e 6º",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 18, §§ 5º e 6º",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850035",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, IV",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 21, IV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850037",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, V",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 21, V",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850038",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, VI, alínea \"a\"",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 21, VI, alínea \"a\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850039",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, VI, alínea \"b\"",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 21, VI, alínea \"b\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850040",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, VII",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 21, VII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850041",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, VIII",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 21, VIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850043",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, IX",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 21, IX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850044",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, X",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 21, X",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850045",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, XII",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 21, XII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850046",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, XIII",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 21, XIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850047",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, XIV",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 21, XIV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850048",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, XV",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 21, XV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850049",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, XVI",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 21, XVI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850051",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 25",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 25",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850052",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 25-A",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 25-A",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850053",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 52",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 52",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850054",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 144",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 144",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850055",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 145",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 145",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850056",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 146",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 146",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850057",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 149",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 149",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850058",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 176",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 176",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850059",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 191, II",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 191, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850060",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 196",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 196",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850061",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 244",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 244",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850062",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 245, I",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 245, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850063",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 245, II",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 245, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850064",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 245, III",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 245, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850065",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 246",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 246",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850066",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 247, I",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 247, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850067",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 248, II",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 248, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850068",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 249, II",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 249, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850069",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 250",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 250",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850070",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 251",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 251",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850071",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 252, II",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 252, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850072",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 253, II",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 253, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850073",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 254, caput",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 254, caput",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850074",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 254, § 4º",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 254, § 4º",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850075",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 255",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 255",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850076",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 257",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 257",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850077",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 258, II",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 258, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850078",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 259, II",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 259, II",
+      "valid_from": "2023-01-01",
+      "valid_to": "2023-06-30"
+    },
+    {
+      "code": "SC850079",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 260, II, a",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 260, II, a",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850080",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 260, II, b",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 260, II, b",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850081",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 262, II",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 262, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850082",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 263",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 263",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850083",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 264",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 264",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850084",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 265",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 265",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850085",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 266, § 5º, II",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 266, § 5º, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850086",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 266-A",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 266-A",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850087",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 267",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 267",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850088",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 4, Art. 14-B",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 4, Art. 14-B",
+      "valid_from": "2023-01-01",
+      "valid_to": "2023-08-31"
+    },
+    {
+      "code": "SC850089",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 6, Art. 269",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 269",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820001",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, I",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 7º, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820002",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, II",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 7º, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820003",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, III",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 7º, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820004",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, IV",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 7º, IV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820005",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, VI",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 7º, VI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820006",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, VII",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 7º, VII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820007",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, VIII",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 7º, VIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820008",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, IX",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 7º, IX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820009",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, XII",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 7º, XII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820011",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, XIII",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 7º, XIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820012",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, XVI",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 7º, XVI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820013",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, XVII",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 7º, XVII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820014",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, XVIII",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 7º, XVIII",
+      "valid_from": "2023-01-01",
+      "valid_to": "2024-12-31"
+    },
+    {
+      "code": "SC820015",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, XIX",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 7º, XIX",
+      "valid_from": "2023-01-01",
+      "valid_to": "2024-12-31"
+    },
+    {
+      "code": "SC820016",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, XX",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 7º, XX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820017",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, XX, \"c\" e § 8º, III\"",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 7º, XX, \"c\" e § 8º, III\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820018",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º, I",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 8º, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820019",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º, II",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 8º, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820020",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º, III",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 8º, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820021",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º, VI",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 8º, VI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820022",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º, VII",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 8º, VII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820023",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º, VIII",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 8º, VIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820024",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º, IX",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 8º, IX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820025",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º, X",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 8º, X",
+      "valid_from": "2023-01-01",
+      "valid_to": "2024-10-31"
+    },
+    {
+      "code": "SC820026",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º, XII",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 8º, XII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820027",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º-B",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 8º-B",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820028",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 9º, I",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 9º, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820029",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 9º, II",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 9º, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820030",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 11-A",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 11-A",
+      "valid_from": "2023-01-01",
+      "valid_to": "2025-04-30"
+    },
+    {
+      "code": "SC820030",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 11-A",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 11-A",
+      "valid_from": "2025-05-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820031",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 12",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 12",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820032",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 12-A",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 12-A",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820033",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 12-B",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 12-B",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820034",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 12-C",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 12-C",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820035",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 12-D",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 12-D",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820036",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 12-E",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 12-E",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820037",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 30",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 30",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC820038",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 32",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 32",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC820039",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 33, II",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 33, II",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC820040",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 50, III",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 50, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820041",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º8",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 8º8",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820042",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 9º0",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 9º0",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820043",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 9º1-A",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 9º1-A",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820044",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 103, I",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 103, I",
+      "valid_from": "2023-01-01",
+      "valid_to": "2023-04-30"
+    },
+    {
+      "code": "SC820045",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 104, 105 e 106",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 104, 105 e 106",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820046",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 108, I",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 108, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820047",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 108, IV",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 108, IV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820048",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 108, V",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 108, V",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820049",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 179, I",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 179, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820050",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 180",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 180",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820051",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 183",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 183",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820052",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 184, §2º",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 184, §2º",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820053",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 188-A",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 188-A",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820054",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 247, II",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 247, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820055",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 248, III",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 248, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820056",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 6, Art. 379-A",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 379-A",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800001",
+      "description": "Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, I",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 6º, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800002",
+      "description": "Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, II",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 6º, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800003",
+      "description": "Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, III",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 6º, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800004",
+      "description": "Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, IV",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 6º, IV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800005",
+      "description": "Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, V",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 6º, V",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800006",
+      "description": "Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, VI",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 6º, VI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800007",
+      "description": "Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, VII",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 6º, VII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800008",
+      "description": "Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, VIII",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 6º, VIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800009",
+      "description": "Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, IX",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 6º, IX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800010",
+      "description": "Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, § 1º, I",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 6º, § 1º, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800011",
+      "description": "Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, § 1º, II",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 6º, § 1º, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800012",
+      "description": "Não-incidência - RICMS/SC-01, Art. 6º, § 1º",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Art. 6º, § 1º",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800013",
+      "description": "Não-incidência - RICMS/SC-01, Art. 6º, II",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Art. 6º, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810001",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, I",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810002",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, II",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810003",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, III",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810004",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, IV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, IV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810005",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, V",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, V",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810006",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, VI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, VI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810007",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, VII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, VII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810008",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, VIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, VIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810009",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, X",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, X",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810010",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, XI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810011",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, XII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810012",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, XIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810013",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XIV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, XIV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810014",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, XV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810015",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XVI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, XVI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810016",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XVII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, XVII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810017",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XVIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, XVIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810018",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XIX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, XIX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810019",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, XX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810020",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XXIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, XXIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810021",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XXIV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, XXIV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810022",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XXV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, XXV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810023",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XXVI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, XXVI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810024",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XXVII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, XXVII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810025",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XXVIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, XXVIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810026",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XXIX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, XXIX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810027",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, I",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810028",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, II",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810029",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, IV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, IV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810030",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, V",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, V",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810031",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, VI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, VI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810032",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, VII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, VII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810033",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, VIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, VIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810034",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, IX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, IX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810035",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, X",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, X",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810036",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810037",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810038",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810039",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XIV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XIV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810040",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810041",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XVI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XVI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810042",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XVII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XVII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810043",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XVIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XVIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810044",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XVIX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XVIX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810045",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810046",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XXI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810047",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XXII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810048",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XXIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810049",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXIV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XXIV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810050",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XXV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810051",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXVI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XXVI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810052",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXVII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XXVII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810053",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXVIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XXVIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810054",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XXX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810055",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXIX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XXIX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810056",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXXI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XXXI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810057",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXXII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XXXII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810058",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXXIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XXXIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810059",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXXIV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XXXIV",
+      "valid_from": "2023-01-01",
+      "valid_to": "2024-02-29"
+    },
+    {
+      "code": "SC810060",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXXVI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XXXVI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810061",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXXVII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XXXVII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810062",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXXVIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XXXVIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810063",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XL",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XL",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810064",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XLI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XLI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810065",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XLII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XLII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810066",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XLIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XLIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810067",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XLIV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XLIV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810068",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XLVI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XLVI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810069",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XLVII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XLVII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810070",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XLVIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XLVIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810071",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XLIX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, XLIX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810072",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810073",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810074",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LIV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LIV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810075",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810076",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LVI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LVI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810077",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LVII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LVII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810078",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LVIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LVIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810079",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LIX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LIX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810080",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810081",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LXI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810082",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LXII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810083",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXIV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LXIV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810084",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXVII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LXVII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810085",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXVIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LXVIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810086",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXIX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LXIX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810087",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LXX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810088",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LXXI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810089",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LXXII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810090",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LXXV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810091",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXVI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LXXVI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810092",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXVII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LXXVII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810093",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXVIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LXXVIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810094",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXIX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LXXIX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810095",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LXXX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810096",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXXI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LXXXI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810097",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXXII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LXXXII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810098",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, I",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810099",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, II",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810100",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, III",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810101",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, IV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, IV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810102",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, V",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, V",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810103",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, VI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, VI",
+      "valid_from": "2023-01-01",
+      "valid_to": "2024-02-29"
+    },
+    {
+      "code": "SC810104",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, VII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, VII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810105",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, VIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, VIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810106",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, IX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, IX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810107",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, X",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, X",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810108",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810109",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810110",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810111",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XIV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XIV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810112",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810113",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XVI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XVI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810114",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XVII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XVII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810115",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XVIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XVIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810116",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XIX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XIX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810117",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810118",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XXI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810119",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XXII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810120",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XXIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810121",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXIV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XXIV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810122",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXVI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XXVI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810123",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXVII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XXVII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810124",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXIX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XXIX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810125",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XXX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810126",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXXII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XXXII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810127",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXXIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XXXIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810128",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXXIV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XXXIV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810129",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXXV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XXXV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810130",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXXVI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XXXVI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810131",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXXVII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XXXVII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810132",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXXVIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XXXVIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810133",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXXIX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XXXIX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810134",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XL",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XL",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810135",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XLI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XLI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810136",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XLII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XLII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810137",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XLIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XLIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810138",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XLIV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XLIV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810139",
+      "description": "isenção - RICMS/SC-01, Anexo 2, Art. 3º, XLV",
+      "benefit": "isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XLV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810140",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XLVI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XLVI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810141",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XLVIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, XLVIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810142",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, L",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, L",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810143",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, LI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810144",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, LII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810145",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, LIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810146",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LIV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, LIV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810147",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, LV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810148",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LVI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, LVI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810149",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LVII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, LVII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810150",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LVIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, LVIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810151",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LIX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, LIX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810152",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, LX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810153",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LXI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, LXI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810154",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LXII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, LXII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810155",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LXIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, LXIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810156",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LXIV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, LXIV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810157",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LXV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, LXV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810158",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LXVI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, LXVI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810159",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 4º, I",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 4º, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810160",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 4º, II",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 4º, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810161",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 4º, III",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 4º, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810162",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 4º, V",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 4º, V",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810163",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 4º, VI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 4º, VI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810164",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 4º, VII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 4º, VII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810165",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 4º, VIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 4º, VIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810166",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 4º, XI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 4º, XI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810167",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 4º, XII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 4º, XII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810168",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 4º, XIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 4º, XIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810169",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 4º, XIV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 4º, XIV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840001",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 26, I",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 26, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840002",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 26, II",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 26, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840003",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 26, III",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 26, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840004",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 26, IV",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 26, IV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840005",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 26, V",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 26, V",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840006",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 26, VI",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 26, VI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840007",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 27, I",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 27, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840008",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 27, II",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 27, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840009",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 28, I",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 28, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840010",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 28, II",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 28, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810170",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 29, I",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, I",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810171",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 29, II",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, II",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810172",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 29, III",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, III",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810173",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 29, III, alínea \"d\"",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, III, alínea \"d\"",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810174",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 29, IV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, IV",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810175",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 29, V",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, V",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810176",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 29, VI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, VI",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810177",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 29, VII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, VII",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810178",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 29, VIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, VIII",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810179",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 29, IX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, IX",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810180",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 29, X",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, X",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810181",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 29, XI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, XI",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810182",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 29, XII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, XII",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810183",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 29, XIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, XIII",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810184",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 29, XIV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, XIV",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810185",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 29, XV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, XV",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810186",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 29, XVI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, XVI",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810187",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 29, XVII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, XVII",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810188",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, I",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, I",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810189",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, II",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, II",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810190",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, III",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, III",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810191",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 33, I",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 33, I",
+      "valid_from": "2023-01-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC810192",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 35, I",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 35, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810193",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 35, II",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 35, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810194",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 35, III",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 35, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840011",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 36, I",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 36, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840012",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 36, II",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 36, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810195",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 37, I",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 37, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810196",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 37, II",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 37, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810197",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 37, III",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 37, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810198",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 38",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 38",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810199",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 41",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 41",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810200",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 43",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 43",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810201",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 46",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 46",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810202",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 50, I",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 50, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810203",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 50, II",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 50, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810204",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 61",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 61",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810205",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 70, II",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 70, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810206",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 70, III",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 70, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810207",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 71, I",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 71, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810208",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 71, II",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 71, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810209",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 72, I",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 72, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810210",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 72, II",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 72, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810211",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 74",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 74",
+      "valid_from": "2023-01-01",
+      "valid_to": "2024-12-31"
+    },
+    {
+      "code": "SC810212",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 82, I",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 82, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810213",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 86",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 86",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810214",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 96",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 96",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840013",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 101",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 101",
+      "valid_from": "2023-01-01",
+      "valid_to": "2024-02-29"
+    },
+    {
+      "code": "SC810215",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 110",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 110",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810216",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 111, I",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 111, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810217",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 128",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 128",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810218",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 128, § 1º, II",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 128, § 1º, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810219",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 128, § 1º, III",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 128, § 1º, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810220",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 128, § 1º, IV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 128, § 1º, IV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810221",
+      "description": "isenção - RICMS/SC-01, Anexo 2, Art. 132",
+      "benefit": "isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 132",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800014",
+      "description": "Não-incidência - RICMS/SC-01, Anexo 2, Art. 141-A",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 141-A",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810222",
+      "description": "isenção - RICMS/SC-01, Anexo 2, Art. 153",
+      "benefit": "isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 153",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840014",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 172",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 172",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830001",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 177, I, alínea \"a\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 177, I, alínea \"a\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830002",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 177, I, alínea \"b\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 177, I, alínea \"b\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830003",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 177, II, alínea \"a\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 177, II, alínea \"a\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830004",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 177, II, alínea \"b\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 177, II, alínea \"b\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810223",
+      "description": "isenção - RICMS/SC-01, Anexo 2, Art. 181",
+      "benefit": "isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 181",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810224",
+      "description": "isenção - RICMS/SC-01, Anexo 2, Art. 184",
+      "benefit": "isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 184",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840015",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 188-B, I",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 188-B, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810225",
+      "description": "isenção - RICMS/SC-01, Anexo 2, Art. 188-B, II",
+      "benefit": "isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 188-B, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840016",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 188-B, III",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 188-B, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810226",
+      "description": "isenção - RICMS/SC-01, Anexo 2, Art. 188-B, IV",
+      "benefit": "isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 188-B, IV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810227",
+      "description": "isenção - RICMS/SC-01, Anexo 2, Art. 188-B, parágrafo único",
+      "benefit": "isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 188-B, parágrafo único",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810228",
+      "description": "isenção - RICMS/SC-01, Anexo 2, Art. 188-C",
+      "benefit": "isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 188-C",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810229",
+      "description": "isenção - RICMS/SC-01, Anexo 2, Art. 188-D, I",
+      "benefit": "isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 188-D, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810230",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 188-D, II",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 188-D, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810231",
+      "description": "isenção - RICMS/SC-01, Anexo 2, Art. 191, I, alínea \"a\"",
+      "benefit": "isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 191, I, alínea \"a\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810232",
+      "description": "isenção - RICMS/SC-01, Anexo 2, Art. 191, I, alínea \"c\"",
+      "benefit": "isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 191, I, alínea \"c\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810233",
+      "description": "isenção - RICMS/SC-01, Anexo 2, Art. 191, I, alínea \"e\"",
+      "benefit": "isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 191, I, alínea \"e\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810234",
+      "description": "isenção - RICMS/SC-01, Anexo 2, Art. 191, I, alínea \"f\"",
+      "benefit": "isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 191, I, alínea \"f\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810235",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 191, I, alínea \"g\"",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 191, I, alínea \"g\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830005",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 191, III, alínea \"a\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 191, III, alínea \"a\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830006",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 191, III, alínea \"b\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 191, III, alínea \"b\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830007",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 196, § 3º",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 196, § 3º",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840017",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 207",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 207",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830008",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 215, I",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 215, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830009",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 215, § 1º",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 215, § 1º",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830010",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 215, II e § 2º",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 215, II e § 2º",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830011",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 216, I e parágrafo único",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 216, I e parágrafo único",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830012",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 216, III e parágrafo único",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 216, III e parágrafo único",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810236",
+      "description": "isenção - RICMS/SC-01, Anexo 2, Art. 233",
+      "benefit": "isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 233",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810237",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 233-A",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 233-A",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840018",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 234",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 234",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830013",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 245-A, I",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 245-A, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830014",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 245-A, II",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 245-A, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830015",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 246, I",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 246, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830016",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 246, § 23, I",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 246, § 23, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830017",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 246, § 23, II",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 246, § 23, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830018",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 246, § 23, III",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 246, § 23, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830019",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 248, I, alínea \"a\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 248, I, alínea \"a\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830020",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 248, I, alínea \"b\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 248, I, alínea \"b\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830021",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 249, I",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 249, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830022",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 252, I, alínea \"a\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 252, I, alínea \"a\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830023",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 252, I, alínea \"b\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 252, I, alínea \"b\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830024",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 253, I",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 253, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830025",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 256",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 256",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830026",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 257-A",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 257-A",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830027",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 258, I, alínea \"a\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 258, I, alínea \"a\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830028",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 258, I, alínea \"b\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 258, I, alínea \"b\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830029",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 258, I, alínea \"c\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 258, I, alínea \"c\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830030",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 259, I",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 259, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830031",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 260, I, alínea \"a\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 260, I, alínea \"a\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830032",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 260, I, alínea \"b\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 260, I, alínea \"b\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830033",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 260, I, alínea \"d\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 260, I, alínea \"d\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830034",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 260, I, alínea \"f\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 260, I, alínea \"f\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830035",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 261, I",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 261, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830036",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 261, II",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 261, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830037",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 261, IV",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 261, IV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830038",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 262, I, alínea \"a\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 262, I, alínea \"a\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830039",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 266, I, alínea \"a\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 266, I, alínea \"a\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830040",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 266, I, alínea \"b\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 266, I, alínea \"b\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830041",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 266, I, alínea \"c\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 266, I, alínea \"c\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830042",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 266, I, alínea \"d\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 266, I, alínea \"d\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830043",
+      "description": "Diferimento - RICMS/SC-01, Anexo 2, Art. 266, I, alínea \"f\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 266, I, alínea \"f\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830044",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, I",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 3º, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830045",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, II",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 3º, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830046",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, III",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 3º, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830047",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, IV",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 3º, IV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830048",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, V",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 3º, V",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830049",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, VI",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 3º, VI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830050",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, VII",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 3º, VII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830051",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, VIII",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 3º, VIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830052",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, IX",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 3º, IX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830053",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, X",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 3º, X",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830054",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, XII",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 3º, XII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830055",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, XIII",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 3º, XIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830056",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, XIV",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 3º, XIV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830057",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 3º-A",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 3º-A",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830058",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 4º, I",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 4º, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830059",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 4º, II",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 4º, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830060",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 4º, III",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 4º, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830061",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 4º, IV",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 4º, IV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830062",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 4º, V",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 4º, V",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830063",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 4º, parágrafo único, I",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 4º, parágrafo único, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830064",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 5º, I, alínea \"a\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 5º, I, alínea \"a\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830065",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 5º, I, alínea \"b\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 5º, I, alínea \"b\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830066",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 5º, I, alínea \"c\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 5º, I, alínea \"c\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830067",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 5º, I, alínea \"d\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 5º, I, alínea \"d\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830068",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 5º, II",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 5º, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830069",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 6º",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 6º",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830070",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 7º",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 7º",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830071",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, I",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830072",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, II",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830073",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, III",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830074",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, IV",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, IV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830075",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, V",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, V",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830076",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, VI",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, VI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830077",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, VII",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, VII",
+      "valid_from": "2023-01-01",
+      "valid_to": "2023-12-31"
+    },
+    {
+      "code": "SC830078",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, VIII",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, VIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830079",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, IX",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, IX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830080",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, X",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, X",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830081",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XI, alínea \"a\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, XI, alínea \"a\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830082",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XI, alínea \"b\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, XI, alínea \"b\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830083",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XII",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, XII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830084",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XIII",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, XIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830085",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XIV",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, XIV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830086",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XV",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, XV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830087",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XVI",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, XVI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830088",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XVII",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, XVII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830089",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XIX",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, XIX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830090",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XX",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, XX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830091",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XXI",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, XXI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830092",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XXIII",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, XXIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830093",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XXIV",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, XXIV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830094",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XXV",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, XXV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830095",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XXVI, alíneas \"a\" e \"c\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, XXVI, alíneas \"a\" e \"c\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830096",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XXVI, alínea \"b\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, XXVI, alínea \"b\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830097",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10, I",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830098",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10, II",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830099",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10, III",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830100",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10, IV",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10, IV",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830101",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10, V",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10, V",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830102",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10, VII",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10, VII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830103",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10-A",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10-A",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830104",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10-B, I",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10-B, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830106",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10-B, II",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10-B, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830107",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10-B, V",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10-B, V",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830108",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10-B, VI",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10-B, VI",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830109",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10-B, VIII",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10-B, VIII",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830110",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10-B, IX",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10-B, IX",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830111",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10-D",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10-D",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830112",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10-E, I e II, e § 2º",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10-E, I e II, e § 2º",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830113",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10-E, I e II, e §§ 3º e 4º",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10-E, I e II, e §§ 3º e 4º",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830114",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10-F, caput, I a III",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10-F, caput, I a III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830115",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10-F, § 1º, I a III",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10-F, § 1º, I a III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830116",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10-G, I a III",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10-G, I a III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830117",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10-H",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10-H",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830118",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10-H, § 2º",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10-H, § 2º",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830119",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10-I",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10-I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830120",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10-K",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10-K",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830121",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10-L",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10-L",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830122",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10-M",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10-M",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830123",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 176",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 176",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830124",
+      "description": "Diferimento - RICMS/SC-01, Anexo 6, Art. 179",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 179",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830125",
+      "description": "Diferimento - RICMS/SC-01, Anexo 6, Art. 179, § 6º",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 179, § 6º",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830126",
+      "description": "Diferimento - RICMS/SC-01, Anexo 6, Art. 248",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 248",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830127",
+      "description": "Diferimento - RICMS/SC-01, Anexo 6, Art. 249",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 249",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830128",
+      "description": "Diferimento - RICMS/SC-01, Anexo 6, Art. 412, III",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 412, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810238",
+      "description": "Isenção - RICMS/SC-01, Anexo 6, Art. 77-E",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 77-E",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810239",
+      "description": "Isenção - RICMS/SC-01, Anexo 6, Art. 77-L",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 77-L",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810240",
+      "description": "Isenção - RICMS/SC-01, Anexo 6, Art. 378",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 378",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830129",
+      "description": "Diferimento - Decreto Estadual n° 105/2007, art. 9°, I",
+      "benefit": "Diferimento",
+      "legal_basis": "Decreto Estadual n° 105/2007, art. 9°, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830130",
+      "description": "Diferimento - Decreto Estadual n° 105/2007, art. 9°, II",
+      "benefit": "Diferimento",
+      "legal_basis": "Decreto Estadual n° 105/2007, art. 9°, II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830131",
+      "description": "Diferimento - Decreto Estadual n° 105/2007, art. 10",
+      "benefit": "Diferimento",
+      "legal_basis": "Decreto Estadual n° 105/2007, art. 10",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830132",
+      "description": "Diferimento - Decreto Estadual n° 105/2007, art. 12",
+      "benefit": "Diferimento",
+      "legal_basis": "Decreto Estadual n° 105/2007, art. 12",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830133",
+      "description": "Diferimento - Decreto Estadual n° 105/2007, Art. 14, I",
+      "benefit": "Diferimento",
+      "legal_basis": "Decreto Estadual n° 105/2007, Art. 14, I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830134",
+      "description": "Diferimento - Decreto Estadual n° 105/2007, art. 15, inciso I",
+      "benefit": "Diferimento",
+      "legal_basis": "Decreto Estadual n° 105/2007, art. 15, inciso I",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830135",
+      "description": "Diferimento - Decreto Estadual n° 105/2007, art. 15, inciso II",
+      "benefit": "Diferimento",
+      "legal_basis": "Decreto Estadual n° 105/2007, art. 15, inciso II",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800015",
+      "description": "Não-incidência - Conforme decisão Judicial",
+      "benefit": "Não-incidência",
+      "legal_basis": "Conforme decisão Judicial",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840019",
+      "description": "Suspensão da exigibilidade - Conforme decisão Judicial",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "Conforme decisão Judicial",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840020",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 274.",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 274.",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830136",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XXVII.",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, XXVII.",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840021",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 6, Art. 285-A",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 285-A",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840022",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 6, Art. 286-A",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 286-A",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840023",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 6, Art. 289",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 289",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850090",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, VI, alínea \"b\"",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 21, VI, alínea \"b\"",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840024",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 279",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 279",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800016",
+      "description": "Não-incidência - RICMS/SC, Art. 23, III",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC, Art. 23, III",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850091",
+      "description": "Crédito Presumido - Decreto Estadual n° 105/2007, art. 15-A (REVOGADO)",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "Decreto Estadual n° 105/2007, art. 15-A (REVOGADO)",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830137",
+      "description": "Diferimento - Decreto Estadual n° 105/2007, art. 15-A, § 4º (REVOGADO)",
+      "benefit": "Diferimento",
+      "legal_basis": "Decreto Estadual n° 105/2007, art. 15-A, § 4º (REVOGADO)",
+      "valid_from": "2023-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820044",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 103",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 103",
+      "valid_from": "2023-05-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850092",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 259, II,  § 3º",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 259, II,  § 3º",
+      "valid_from": "2023-05-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800017",
+      "description": "Não-incidência - RICMS/SC-01, Anexo 6, Art. 41",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 41",
+      "valid_from": "2023-05-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800018",
+      "description": "Não-incidência - RICMS/SC-01, Anexo 6, Art. 41",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 41",
+      "valid_from": "2023-05-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850093",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 284",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 284",
+      "valid_from": "2023-05-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850094",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 285",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 285",
+      "valid_from": "2023-05-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850095",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 289",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 289",
+      "valid_from": "2023-05-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850096",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 296",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 296",
+      "valid_from": "2023-05-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830138",
+      "description": "Diferimento - Decreto Estadual n° 105/2007, art. 15-A",
+      "benefit": "Diferimento",
+      "legal_basis": "Decreto Estadual n° 105/2007, art. 15-A",
+      "valid_from": "2023-05-01",
+      "valid_to": "2024-04-30"
+    },
+    {
+      "code": "SC800019",
+      "description": "Não-incidência - RICMS/SC-01, Anexo 6, Art. 39",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 39",
+      "valid_from": "2023-05-01",
+      "valid_to": "2024-04-30"
+    },
+    {
+      "code": "SC800020",
+      "description": "Não-incidência - RICMS/SC-01, Anexo 6, Art. 34",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 34",
+      "valid_from": "2023-05-01",
+      "valid_to": "2024-04-30"
+    },
+    {
+      "code": "SC830139",
+      "description": "Diferimento - Decreto Estadual n° 105/2007, art. 15",
+      "benefit": "Diferimento",
+      "legal_basis": "Decreto Estadual n° 105/2007, art. 15",
+      "valid_from": "2023-05-01",
+      "valid_to": "2024-04-30"
+    },
+    {
+      "code": "SC840025",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 6, Art. 277",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 277",
+      "valid_from": "2023-11-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830140",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, VII",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 8º, VII",
+      "valid_from": "2024-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810241",
+      "description": "Isenção - RICMS/SC-01, Anexo 02, Art. 1º, XXX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 02, Art. 1º, XXX",
+      "valid_from": "2023-12-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810242",
+      "description": "Isenção - RICMS/SC-01, Anexo 02, Art. 1º, XXXI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 02, Art. 1º, XXXI",
+      "valid_from": "2023-12-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810243",
+      "description": "Isenção - RICMS/SC-01, Anexo 02, Art. 1º, XXXII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 02, Art. 1º, XXXII",
+      "valid_from": "2023-12-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810244",
+      "description": "Isenção - RICMS/SC-01, Anexo 02, Art. 1º, XXXIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 02, Art. 1º, XXXIII",
+      "valid_from": "2023-12-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810245",
+      "description": "Isenção - RICMS/SC-01, Anexo 02, Art. 2º, LXXXIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 02, Art. 2º, LXXXIII",
+      "valid_from": "2024-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810246",
+      "description": "Isenção - RICMS/SC-01, Anexo 02, Art. 2º, LXXXIV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 02, Art. 2º, LXXXIV",
+      "valid_from": "2023-12-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810247",
+      "description": "Isenção - RICMS/SC-01, Anexo 02, Art. 2º, LXXXV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 02, Art. 2º, LXXXV",
+      "valid_from": "2024-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810248",
+      "description": "Isenção - RICMS/SC-01, Anexo 02, Art. 3º, LXVII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 02, Art. 3º, LXVII",
+      "valid_from": "2024-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850097",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, XVII",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 21, XVII",
+      "valid_from": "2023-12-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800021",
+      "description": "Não-incidência - RICMS/SC-01, Art. 4º, § 5º",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Art. 4º, § 5º",
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-04-01"
+    },
+    {
+      "code": "SC800022",
+      "description": "Não-incidência - Lei Estadual nº 10.296/1996, Art. 4º, § 5",
+      "benefit": "Não-incidência",
+      "legal_basis": "Lei Estadual nº 10.296/1996, Art. 4º, § 5",
+      "valid_from": "2024-01-01",
+      "valid_to": "2024-09-30"
+    },
+    {
+      "code": "SC800019",
+      "description": "Não-incidência - RICMS/SC-01, Anexo 6, Art. 39, II",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 39, II",
+      "valid_from": "2024-05-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800020",
+      "description": "Não-incidência - RICMS/SC-01, Anexo 6, Art. 34, II",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 34, II",
+      "valid_from": "2024-05-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810249",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XXXIV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, XXXIV",
+      "valid_from": "2024-04-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810250",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXXVI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LXXXVI",
+      "valid_from": "2024-04-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810251",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LXVIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 3º, LXVIII",
+      "valid_from": "2024-04-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810252",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 4º, XV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 4º, XV",
+      "valid_from": "2024-04-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820057",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 298",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 298",
+      "valid_from": "2024-05-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850098",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XLV, alínea \"a\"",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XLV, alínea \"a\"",
+      "valid_from": "2024-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850099",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XLV, alínea \"b\"",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XLV, alínea \"b\"",
+      "valid_from": "2024-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850100",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, XVIII",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 21, XVIII",
+      "valid_from": "2024-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC999999",
+      "description": "Benefício fiscal cujo cBenef não foi contemplado na lista. Informar capitulação legal nas informações complementares.",
+      "benefit": null,
+      "legal_basis": null,
+      "valid_from": "2024-10-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810253",
+      "description": "Isenção - \"RICMS/SC-01, Anexo 2, Art. 1º, XXXV",
+      "benefit": "Isenção",
+      "legal_basis": "\"RICMS/SC-01, Anexo 2, Art. 1º, XXXV",
+      "valid_from": "2023-12-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850101",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 1º, XXXV, § 12, VI",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, XXXV, § 12, VI",
+      "valid_from": "2023-12-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800022",
+      "description": "Não-incidência - Lei Estadual nº 10.297/1996, Art. 4º, § 5",
+      "benefit": "Não-incidência",
+      "legal_basis": "Lei Estadual nº 10.297/1996, Art. 4º, § 5",
+      "valid_from": "2024-10-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830141",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Arts. 3º a 10-K",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Arts. 3º a 10-K",
+      "valid_from": "2024-10-01",
+      "valid_to": "2026-10-31"
+    },
+    {
+      "code": "SC830142",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3, Art. 10-N",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3, Art. 10-N",
+      "valid_from": "2024-09-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840026",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 6, Art. 204",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 204",
+      "valid_from": "2024-02-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850102",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, XIX",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 21, XIX",
+      "valid_from": "2024-08-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850103",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XLVIII",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XLVIII",
+      "valid_from": "2024-08-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850104",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, L",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, L",
+      "valid_from": "2024-08-01",
+      "valid_to": "2025-09-30"
+    },
+    {
+      "code": "SC850105",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XLVII",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XLVII",
+      "valid_from": "2024-08-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830143",
+      "description": "Diferimento - RICMS/SC-01, Art. 61º, II, alínea \"b\"",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Art. 61º, II, alínea \"b\"",
+      "valid_from": "2024-12-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820058",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, XXI",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 7º, XXI",
+      "valid_from": "2024-12-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850106",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XLIX",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, XLIX",
+      "valid_from": "2024-12-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850107",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, XX",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 21, XX",
+      "valid_from": "2024-12-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC900001",
+      "description": "Crédito acumulado compensável reconhecido por decisão judicial transitada em julgado.  (Art. 40 do RICMS-SC/01 c/c art. 25, II do Anexo 03 do RICMS-SC/01)",
+      "benefit": null,
+      "legal_basis": null,
+      "valid_from": "2024-10-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830144",
+      "description": "Diferimento- RICMS/SC-01, Anexo 03, Art. 245",
+      "benefit": null,
+      "legal_basis": null,
+      "valid_from": "2025-04-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820059",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 11-A",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 11-A",
+      "valid_from": "2025-01-01",
+      "valid_to": "2025-05-31"
+    },
+    {
+      "code": "SC850108",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, LI",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, LI",
+      "valid_from": "2025-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840027",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 6, Art. 154",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 154",
+      "valid_from": "2025-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC800023",
+      "description": "Não-incidência - RICMS/SC-01, Anexo 6, Art. 62",
+      "benefit": "Não-incidência",
+      "legal_basis": "RICMS/SC-01, Anexo 6, Art. 62",
+      "valid_from": "2025-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810254",
+      "description": "Isenção - Lei n° 19.390/2025, Art. 5º",
+      "benefit": "Isenção",
+      "legal_basis": "Lei n° 19.390/2025, Art. 5º",
+      "valid_from": "2025-07-01",
+      "valid_to": "2025-09-30"
+    },
+    {
+      "code": "SC810255",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XXXVI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, XXXVI",
+      "valid_from": "2025-09-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810256",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XXXVII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 1º, XXXVII",
+      "valid_from": "2025-09-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830145",
+      "description": "Diferimento- RICMS/SC-01, Anexo 3, Art. 10-O",
+      "benefit": null,
+      "legal_basis": null,
+      "valid_from": "2025-09-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850109",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, LII",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, LII",
+      "valid_from": "2025-09-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850110",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 266-B",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 266-B",
+      "valid_from": "2025-09-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810254",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXXVII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 2º, LXXXVII",
+      "valid_from": "2025-10-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC840028",
+      "description": "Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 305",
+      "benefit": "Suspensão da exigibilidade",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 305",
+      "valid_from": "2025-07-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850111",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 16, I, a",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 16, I, a",
+      "valid_from": "2026-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850112",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 16, I, b",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 16, I, b",
+      "valid_from": "2026-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850113",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 16, II",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 16, II",
+      "valid_from": "2026-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850114",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 16, I, a, § 1º",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 16, I, a, § 1º",
+      "valid_from": "2026-01-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810257",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31",
+      "valid_from": "2026-03-01",
+      "valid_to": "2026-12-06"
+    },
+    {
+      "code": "SC830146",
+      "description": "Diferimento- RICMS/SC-01, Anexo 3, Art. 10-P",
+      "benefit": null,
+      "legal_basis": null,
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830147",
+      "description": "Diferimento- RICMS/SC-01, Anexo 3, Art. 10-Q",
+      "benefit": null,
+      "legal_basis": null,
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820060",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, I",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, I",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820061",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, II",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, II",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820062",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, III",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, III",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820063",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, IV",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, IV",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820064",
+      "description": "Redução da Base de Cálculo - ICMS/SC-01, Anexo 2, Art. 29, V",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "ICMS/SC-01, Anexo 2, Art. 29, V",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820065",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, VI",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, VI",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820066",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, VII",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, VII",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820067",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, VIII",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, VIII",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820068",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, IX",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, IX",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820069",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, X",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, X",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820070",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, XI",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, XI",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820071",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, XII",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, XII",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820072",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, XIII",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, XIII",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820073",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, XIV",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, XIV",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820074",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, XV",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, XV",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820075",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, XVI",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 29, XVI",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820076",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 30, I",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 30, I",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820077",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 30, II",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 30, II",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820078",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 30, III",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 30, III",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820079",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 30, IV",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 30, IV",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820080",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 32, I",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 32, I",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC820081",
+      "description": "Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 32, II",
+      "benefit": "Redução da Base de Cálculo",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 32, II",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850115",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 176, § 5º",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 176, § 5º",
+      "valid_from": "2023-05-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC850116",
+      "description": "Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, LIII",
+      "benefit": "Crédito Presumido",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 15, LIII",
+      "valid_from": "2026-05-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810258",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, I",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, I",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810259",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, II",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, II",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810260",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, III",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, III",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810261",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, IV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, IV",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810262",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c ICMS/SC-01, Anexo 2, Art. 29, V",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, caput c/c ICMS/SC-01, Anexo 2, Art. 29, V",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810263",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, VI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, VI",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810264",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, VII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, VII",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810265",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, VIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, VIII",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810266",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, IX",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, IX",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810267",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, X",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, X",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810268",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, XI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, XI",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810269",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, XII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, XII",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810270",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, XIII",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, XIII",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810271",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, XIV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, XIV",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810272",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, XV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, XV",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810273",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, XVI",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, XVI",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810274",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 30, I",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 30, I",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810275",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 30, II",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 30, II",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810276",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 30, III",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 30, III",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC810277",
+      "description": "Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 30, IV",
+      "benefit": "Isenção",
+      "legal_basis": "RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 30, IV",
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    },
+    {
+      "code": "SC830141",
+      "description": "Diferimento - RICMS/SC-01, Anexo 3",
+      "benefit": "Diferimento",
+      "legal_basis": "RICMS/SC-01, Anexo 3",
+      "valid_from": "2026-11-01",
+      "valid_to": null
+    }
+  ]
+}

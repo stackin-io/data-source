@@ -1,0 +1,676 @@
+versão=31 INF_ADIC, DESC_INF, DT_INI, DT_FIM
+SC850001|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, III|01012023|
+SC850002|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, IV|01012023|
+SC850003|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, VI|01012023|
+SC850004|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, X|01012023|
+SC850005|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XIII|01012023|
+SC850006|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XIV|01012023|
+SC850007|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XV|01012023|
+SC850008|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XVII|01012023|
+SC850009|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XIX|01012023|
+SC850010|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XX|01012023|
+SC850011|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXI|01012023|
+SC850012|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXIII|01012023|
+SC850013|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXIV|01012023|
+SC850014|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXVI|01012023|
+SC850015|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXVIII|01012023|
+SC850016|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXIX|01012023|
+SC850017|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXXI|01012023|
+SC850018|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXXII|01012023|
+SC850019|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXXVI|01012023|30062023
+SC850020|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXXVII|01012023|
+SC850021|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXXVIII|01012023|
+SC850023|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XXXIX|01012023|
+SC850024|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XL|01012023|
+SC850025|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XLII|01012023|
+SC850026|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XLIII|01012023|
+SC850027|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 16, I|01012023|28022026
+SC850028|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 16, II|01012023|28022026
+SC850029|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 17, I|01012023|
+SC850030|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 17, II|01012023|
+SC850031|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 17, III|01012023|
+SC850032|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 18, § 2º|01012023|
+SC850033|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 18, § 8º|01012023|
+SC850034|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 18, §§ 5º e 6º|01012023|
+SC850035|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, IV|01012023|
+SC850037|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, V|01012023|
+SC850038|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, VI, alínea "a"|01012023|
+SC850039|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, VI, alínea "b"|01012023|
+SC850040|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, VII|01012023|
+SC850041|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, VIII|01012023|
+SC850043|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, IX|01012023|
+SC850044|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, X|01012023|
+SC850045|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, XII|01012023|
+SC850046|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, XIII|01012023|
+SC850047|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, XIV|01012023|
+SC850048|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, XV|01012023|
+SC850049|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, XVI|01012023|
+SC850051|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 25|01012023|
+SC850052|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 25-A|01012023|
+SC850053|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 52|01012023|
+SC850054|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 144|01012023|
+SC850055|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 145|01012023|
+SC850056|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 146|01012023|
+SC850057|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 149|01012023|
+SC850058|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 176|01012023|
+SC850059|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 191, II|01012023|
+SC850060|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 196|01012023|
+SC850061|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 244|01012023|
+SC850062|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 245, I|01012023|
+SC850063|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 245, II|01012023|
+SC850064|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 245, III|01012023|
+SC850065|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 246|01012023|
+SC850066|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 247, I|01012023|
+SC850067|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 248, II|01012023|
+SC850068|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 249, II|01012023|
+SC850069|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 250|01012023|
+SC850070|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 251|01012023|
+SC850071|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 252, II|01012023|
+SC850072|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 253, II|01012023|
+SC850073|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 254, caput|01012023|
+SC850074|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 254, § 4º|01012023|
+SC850075|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 255|01012023|
+SC850076|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 257|01012023|
+SC850077|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 258, II|01012023|
+SC850078|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 259, II|01012023|30062023
+SC850079|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 260, II, a|01012023|
+SC850080|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 260, II, b|01012023|
+SC850081|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 262, II|01012023|
+SC850082|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 263|01012023|
+SC850083|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 264|01012023|
+SC850084|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 265|01012023|
+SC850085|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 266, § 5º, II|01012023|
+SC850086|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 266-A|01012023|
+SC850087|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 267|01012023|
+SC850088|Crédito Presumido - RICMS/SC-01, Anexo 4, Art. 14-B|01012023|31082023
+SC850089|Crédito Presumido - RICMS/SC-01, Anexo 6, Art. 269|01012023|
+SC820001|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, I|01012023|
+SC820002|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, II|01012023|
+SC820003|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, III|01012023|
+SC820004|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, IV|01012023|
+SC820005|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, VI|01012023|
+SC820006|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, VII|01012023|
+SC820007|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, VIII|01012023|
+SC820008|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, IX|01012023|
+SC820009|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, XII|01012023|
+SC820011|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, XIII|01012023|
+SC820012|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, XVI|01012023|
+SC820013|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, XVII|01012023|
+SC820014|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, XVIII|01012023|31122024
+SC820015|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, XIX|01012023|31122024
+SC820016|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, XX|01012023|
+SC820017|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, XX, "c" e § 8º, III"|01012023|
+SC820018|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º, I|01012023|
+SC820019|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º, II|01012023|
+SC820020|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º, III|01012023|
+SC820021|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º, VI|01012023|
+SC820022|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º, VII|01012023|
+SC820023|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º, VIII|01012023|
+SC820024|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º, IX|01012023|
+SC820025|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º, X|01012023|31102024
+SC820026|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º, XII|01012023|
+SC820027|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º-B|01012023|
+SC820028|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 9º, I|01012023|
+SC820029|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 9º, II|01012023|
+SC820030|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 11-A|01012023|30042025
+SC820030|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 11-A|01052025|
+SC820031|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 12|01012023|
+SC820032|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 12-A|01012023|
+SC820033|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 12-B|01012023|
+SC820034|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 12-C|01012023|
+SC820035|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 12-D|01012023|
+SC820036|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 12-E|01012023|
+SC820037|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 30|01012023|06122026
+SC820038|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 32|01012023|06122026
+SC820039|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 33, II|01012023|06122026
+SC820040|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 50, III|01012023|
+SC820041|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 8º8|01012023|
+SC820042|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 9º0|01012023|
+SC820043|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 9º1-A|01012023|
+SC820044|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 103, I|01012023|30042023
+SC820045|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 104, 105 e 106|01012023|
+SC820046|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 108, I|01012023|
+SC820047|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 108, IV|01012023|
+SC820048|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 108, V|01012023|
+SC820049|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 179, I|01012023|
+SC820050|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 180|01012023|
+SC820051|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 183|01012023|
+SC820052|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 184, §2º|01012023|
+SC820053|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 188-A|01012023|
+SC820054|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 247, II|01012023|
+SC820055|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 248, III|01012023|
+SC820056|Redução da Base de Cálculo - RICMS/SC-01, Anexo 6, Art. 379-A|01012023|
+SC800001|Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, I|01012023|
+SC800002|Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, II|01012023|
+SC800003|Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, III|01012023|
+SC800004|Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, IV|01012023|
+SC800005|Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, V|01012023|
+SC800006|Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, VI|01012023|
+SC800007|Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, VII|01012023|
+SC800008|Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, VIII|01012023|
+SC800009|Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, IX|01012023|
+SC800010|Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, § 1º, I|01012023|
+SC800011|Não-incidência - RICMS/SC-01, Anexo 6, Art. 6º, § 1º, II|01012023|
+SC800012|Não-incidência - RICMS/SC-01, Art. 6º, § 1º|01012023|
+SC800013|Não-incidência - RICMS/SC-01, Art. 6º, II|01012023|
+SC810001|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, I|01012023|
+SC810002|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, II|01012023|
+SC810003|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, III|01012023|
+SC810004|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, IV|01012023|
+SC810005|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, V|01012023|
+SC810006|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, VI|01012023|
+SC810007|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, VII|01012023|
+SC810008|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, VIII|01012023|
+SC810009|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, X|01012023|
+SC810010|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XI|01012023|
+SC810011|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XII|01012023|
+SC810012|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XIII|01012023|
+SC810013|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XIV|01012023|
+SC810014|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XV|01012023|
+SC810015|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XVI|01012023|
+SC810016|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XVII|01012023|
+SC810017|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XVIII|01012023|
+SC810018|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XIX|01012023|
+SC810019|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XX|01012023|
+SC810020|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XXIII|01012023|
+SC810021|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XXIV|01012023|
+SC810022|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XXV|01012023|
+SC810023|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XXVI|01012023|
+SC810024|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XXVII|01012023|
+SC810025|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XXVIII|01012023|
+SC810026|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XXIX|01012023|
+SC810027|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, I|01012023|
+SC810028|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, II|01012023|
+SC810029|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, IV|01012023|
+SC810030|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, V|01012023|
+SC810031|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, VI|01012023|
+SC810032|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, VII|01012023|
+SC810033|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, VIII|01012023|
+SC810034|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, IX|01012023|
+SC810035|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, X|01012023|
+SC810036|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XI|01012023|
+SC810037|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XII|01012023|
+SC810038|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XIII|01012023|
+SC810039|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XIV|01012023|
+SC810040|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XV|01012023|
+SC810041|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XVI|01012023|
+SC810042|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XVII|01012023|
+SC810043|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XVIII|01012023|
+SC810044|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XVIX|01012023|
+SC810045|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XX|01012023|
+SC810046|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXI|01012023|
+SC810047|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXII|01012023|
+SC810048|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXIII|01012023|
+SC810049|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXIV|01012023|
+SC810050|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXV|01012023|
+SC810051|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXVI|01012023|
+SC810052|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXVII|01012023|
+SC810053|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXVIII|01012023|
+SC810054|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXX|01012023|
+SC810055|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXIX|01012023|
+SC810056|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXXI|01012023|
+SC810057|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXXII|01012023|
+SC810058|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXXIII|01012023|
+SC810059|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXXIV|01012023|29022024
+SC810060|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXXVI|01012023|
+SC810061|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXXVII|01012023|
+SC810062|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XXXVIII|01012023|
+SC810063|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XL|01012023|
+SC810064|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XLI|01012023|
+SC810065|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XLII|01012023|
+SC810066|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XLIII|01012023|
+SC810067|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XLIV|01012023|
+SC810068|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XLVI|01012023|
+SC810069|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XLVII|01012023|
+SC810070|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XLVIII|01012023|
+SC810071|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, XLIX|01012023|
+SC810072|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LII|01012023|
+SC810073|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LIII|01012023|
+SC810074|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LIV|01012023|
+SC810075|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LV|01012023|
+SC810076|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LVI|01012023|
+SC810077|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LVII|01012023|
+SC810078|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LVIII|01012023|
+SC810079|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LIX|01012023|
+SC810080|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LX|01012023|
+SC810081|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXI|01012023|
+SC810082|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXII|01012023|
+SC810083|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXIV|01012023|
+SC810084|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXVII|01012023|
+SC810085|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXVIII|01012023|
+SC810086|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXIX|01012023|
+SC810087|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXX|01012023|
+SC810088|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXI|01012023|
+SC810089|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXII|01012023|
+SC810090|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXV|01012023|
+SC810091|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXVI|01012023|
+SC810092|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXVII|01012023|
+SC810093|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXVIII|01012023|
+SC810094|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXIX|01012023|
+SC810095|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXX|01012023|
+SC810096|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXXI|01012023|
+SC810097|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXXII|01012023|
+SC810098|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, I|01012023|
+SC810099|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, II|01012023|
+SC810100|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, III|01012023|
+SC810101|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, IV|01012023|
+SC810102|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, V|01012023|
+SC810103|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, VI|01012023|29022024
+SC810104|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, VII|01012023|
+SC810105|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, VIII|01012023|
+SC810106|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, IX|01012023|
+SC810107|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, X|01012023|
+SC810108|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XI|01012023|
+SC810109|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XII|01012023|
+SC810110|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XIII|01012023|
+SC810111|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XIV|01012023|
+SC810112|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XV|01012023|
+SC810113|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XVI|01012023|
+SC810114|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XVII|01012023|
+SC810115|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XVIII|01012023|
+SC810116|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XIX|01012023|
+SC810117|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XX|01012023|
+SC810118|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXI|01012023|
+SC810119|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXII|01012023|
+SC810120|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXIII|01012023|
+SC810121|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXIV|01012023|
+SC810122|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXVI|01012023|
+SC810123|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXVII|01012023|
+SC810124|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXIX|01012023|
+SC810125|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXX|01012023|
+SC810126|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXXII|01012023|
+SC810127|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXXIII|01012023|
+SC810128|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXXIV|01012023|
+SC810129|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXXV|01012023|
+SC810130|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXXVI|01012023|
+SC810131|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXXVII|01012023|
+SC810132|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXXVIII|01012023|
+SC810133|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XXXIX|01012023|
+SC810134|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XL|01012023|
+SC810135|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XLI|01012023|
+SC810136|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XLII|01012023|
+SC810137|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XLIII|01012023|
+SC810138|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XLIV|01012023|
+SC810139|isenção - RICMS/SC-01, Anexo 2, Art. 3º, XLV|01012023|
+SC810140|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XLVI|01012023|
+SC810141|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, XLVIII|01012023|
+SC810142|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, L|01012023|
+SC810143|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LI|01012023|
+SC810144|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LII|01012023|
+SC810145|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LIII|01012023|
+SC810146|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LIV|01012023|
+SC810147|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LV|01012023|
+SC810148|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LVI|01012023|
+SC810149|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LVII|01012023|
+SC810150|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LVIII|01012023|
+SC810151|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LIX|01012023|
+SC810152|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LX|01012023|
+SC810153|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LXI|01012023|
+SC810154|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LXII|01012023|
+SC810155|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LXIII|01012023|
+SC810156|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LXIV|01012023|
+SC810157|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LXV|01012023|
+SC810158|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LXVI|01012023|
+SC810159|Isenção - RICMS/SC-01, Anexo 2, Art. 4º, I|01012023|
+SC810160|Isenção - RICMS/SC-01, Anexo 2, Art. 4º, II|01012023|
+SC810161|Isenção - RICMS/SC-01, Anexo 2, Art. 4º, III|01012023|
+SC810162|Isenção - RICMS/SC-01, Anexo 2, Art. 4º, V|01012023|
+SC810163|Isenção - RICMS/SC-01, Anexo 2, Art. 4º, VI|01012023|
+SC810164|Isenção - RICMS/SC-01, Anexo 2, Art. 4º, VII|01012023|
+SC810165|Isenção - RICMS/SC-01, Anexo 2, Art. 4º, VIII|01012023|
+SC810166|Isenção - RICMS/SC-01, Anexo 2, Art. 4º, XI|01012023|
+SC810167|Isenção - RICMS/SC-01, Anexo 2, Art. 4º, XII|01012023|
+SC810168|Isenção - RICMS/SC-01, Anexo 2, Art. 4º, XIII|01012023|
+SC810169|Isenção - RICMS/SC-01, Anexo 2, Art. 4º, XIV|01012023|
+SC840001|Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 26, I|01012023|
+SC840002|Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 26, II|01012023|
+SC840003|Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 26, III|01012023|
+SC840004|Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 26, IV|01012023|
+SC840005|Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 26, V|01012023|
+SC840006|Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 26, VI|01012023|
+SC840007|Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 27, I|01012023|
+SC840008|Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 27, II|01012023|
+SC840009|Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 28, I|01012023|
+SC840010|Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 28, II|01012023|
+SC810170|Isenção - RICMS/SC-01, Anexo 2, Art. 29, I|01012023|06122026
+SC810171|Isenção - RICMS/SC-01, Anexo 2, Art. 29, II|01012023|06122026
+SC810172|Isenção - RICMS/SC-01, Anexo 2, Art. 29, III|01012023|06122026
+SC810173|Isenção - RICMS/SC-01, Anexo 2, Art. 29, III, alínea "d"|01012023|06122026
+SC810174|Isenção - RICMS/SC-01, Anexo 2, Art. 29, IV|01012023|06122026
+SC810175|Isenção - RICMS/SC-01, Anexo 2, Art. 29, V|01012023|06122026
+SC810176|Isenção - RICMS/SC-01, Anexo 2, Art. 29, VI|01012023|06122026
+SC810177|Isenção - RICMS/SC-01, Anexo 2, Art. 29, VII|01012023|06122026
+SC810178|Isenção - RICMS/SC-01, Anexo 2, Art. 29, VIII|01012023|06122026
+SC810179|Isenção - RICMS/SC-01, Anexo 2, Art. 29, IX|01012023|06122026
+SC810180|Isenção - RICMS/SC-01, Anexo 2, Art. 29, X|01012023|06122026
+SC810181|Isenção - RICMS/SC-01, Anexo 2, Art. 29, XI|01012023|06122026
+SC810182|Isenção - RICMS/SC-01, Anexo 2, Art. 29, XII|01012023|06122026
+SC810183|Isenção - RICMS/SC-01, Anexo 2, Art. 29, XIII|01012023|06122026
+SC810184|Isenção - RICMS/SC-01, Anexo 2, Art. 29, XIV|01012023|06122026
+SC810185|Isenção - RICMS/SC-01, Anexo 2, Art. 29, XV|01012023|06122026
+SC810186|Isenção - RICMS/SC-01, Anexo 2, Art. 29, XVI|01012023|06122026
+SC810187|Isenção - RICMS/SC-01, Anexo 2, Art. 29, XVII|01012023|06122026
+SC810188|Isenção - RICMS/SC-01, Anexo 2, Art. 31, I|01012023|06122026
+SC810189|Isenção - RICMS/SC-01, Anexo 2, Art. 31, II|01012023|06122026
+SC810190|Isenção - RICMS/SC-01, Anexo 2, Art. 31, III|01012023|06122026
+SC810191|Isenção - RICMS/SC-01, Anexo 2, Art. 33, I|01012023|06122026
+SC810192|Isenção - RICMS/SC-01, Anexo 2, Art. 35, I|01012023|
+SC810193|Isenção - RICMS/SC-01, Anexo 2, Art. 35, II|01012023|
+SC810194|Isenção - RICMS/SC-01, Anexo 2, Art. 35, III|01012023|
+SC840011|Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 36, I|01012023|
+SC840012|Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 36, II|01012023|
+SC810195|Isenção - RICMS/SC-01, Anexo 2, Art. 37, I|01012023|
+SC810196|Isenção - RICMS/SC-01, Anexo 2, Art. 37, II|01012023|
+SC810197|Isenção - RICMS/SC-01, Anexo 2, Art. 37, III|01012023|
+SC810198|Isenção - RICMS/SC-01, Anexo 2, Art. 38|01012023|
+SC810199|Isenção - RICMS/SC-01, Anexo 2, Art. 41|01012023|
+SC810200|Isenção - RICMS/SC-01, Anexo 2, Art. 43|01012023|
+SC810201|Isenção - RICMS/SC-01, Anexo 2, Art. 46|01012023|
+SC810202|Isenção - RICMS/SC-01, Anexo 2, Art. 50, I|01012023|
+SC810203|Isenção - RICMS/SC-01, Anexo 2, Art. 50, II|01012023|
+SC810204|Isenção - RICMS/SC-01, Anexo 2, Art. 61|01012023|
+SC810205|Isenção - RICMS/SC-01, Anexo 2, Art. 70, II|01012023|
+SC810206|Isenção - RICMS/SC-01, Anexo 2, Art. 70, III|01012023|
+SC810207|Isenção - RICMS/SC-01, Anexo 2, Art. 71, I|01012023|
+SC810208|Isenção - RICMS/SC-01, Anexo 2, Art. 71, II|01012023|
+SC810209|Isenção - RICMS/SC-01, Anexo 2, Art. 72, I|01012023|
+SC810210|Isenção - RICMS/SC-01, Anexo 2, Art. 72, II|01012023|
+SC810211|Isenção - RICMS/SC-01, Anexo 2, Art. 74|01012023|31122024
+SC810212|Isenção - RICMS/SC-01, Anexo 2, Art. 82, I|01012023|
+SC810213|Isenção - RICMS/SC-01, Anexo 2, Art. 86|01012023|
+SC810214|Isenção - RICMS/SC-01, Anexo 2, Art. 96|01012023|
+SC840013|Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 101|01012023|29022024
+SC810215|Isenção - RICMS/SC-01, Anexo 2, Art. 110|01012023|
+SC810216|Isenção - RICMS/SC-01, Anexo 2, Art. 111, I|01012023|
+SC810217|Isenção - RICMS/SC-01, Anexo 2, Art. 128|01012023|
+SC810218|Isenção - RICMS/SC-01, Anexo 2, Art. 128, § 1º, II|01012023|
+SC810219|Isenção - RICMS/SC-01, Anexo 2, Art. 128, § 1º, III|01012023|
+SC810220|Isenção - RICMS/SC-01, Anexo 2, Art. 128, § 1º, IV|01012023|
+SC810221|isenção - RICMS/SC-01, Anexo 2, Art. 132|01012023|
+SC800014|Não-incidência - RICMS/SC-01, Anexo 2, Art. 141-A|01012023|
+SC810222|isenção - RICMS/SC-01, Anexo 2, Art. 153|01012023|
+SC840014|Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 172|01012023|
+SC830001|Diferimento - RICMS/SC-01, Anexo 2, Art. 177, I, alínea "a"|01012023|
+SC830002|Diferimento - RICMS/SC-01, Anexo 2, Art. 177, I, alínea "b"|01012023|
+SC830003|Diferimento - RICMS/SC-01, Anexo 2, Art. 177, II, alínea "a"|01012023|
+SC830004|Diferimento - RICMS/SC-01, Anexo 2, Art. 177, II, alínea "b"|01012023|
+SC810223|isenção - RICMS/SC-01, Anexo 2, Art. 181|01012023|
+SC810224|isenção - RICMS/SC-01, Anexo 2, Art. 184|01012023|
+SC840015|Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 188-B, I|01012023|
+SC810225|isenção - RICMS/SC-01, Anexo 2, Art. 188-B, II|01012023|
+SC840016|Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 188-B, III|01012023|
+SC810226|isenção - RICMS/SC-01, Anexo 2, Art. 188-B, IV|01012023|
+SC810227|isenção - RICMS/SC-01, Anexo 2, Art. 188-B, parágrafo único|01012023|
+SC810228|isenção - RICMS/SC-01, Anexo 2, Art. 188-C|01012023|
+SC810229|isenção - RICMS/SC-01, Anexo 2, Art. 188-D, I|01012023|
+SC810230|Isenção - RICMS/SC-01, Anexo 2, Art. 188-D, II|01012023|
+SC810231|isenção - RICMS/SC-01, Anexo 2, Art. 191, I, alínea "a"|01012023|
+SC810232|isenção - RICMS/SC-01, Anexo 2, Art. 191, I, alínea "c"|01012023|
+SC810233|isenção - RICMS/SC-01, Anexo 2, Art. 191, I, alínea "e"|01012023|
+SC810234|isenção - RICMS/SC-01, Anexo 2, Art. 191, I, alínea "f"|01012023|
+SC810235|Isenção - RICMS/SC-01, Anexo 2, Art. 191, I, alínea "g"|01012023|
+SC830005|Diferimento - RICMS/SC-01, Anexo 2, Art. 191, III, alínea "a"|01012023|
+SC830006|Diferimento - RICMS/SC-01, Anexo 2, Art. 191, III, alínea "b"|01012023|
+SC830007|Diferimento - RICMS/SC-01, Anexo 2, Art. 196, § 3º|01012023|
+SC840017|Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 207|01012023|
+SC830008|Diferimento - RICMS/SC-01, Anexo 2, Art. 215, I|01012023|
+SC830009|Diferimento - RICMS/SC-01, Anexo 2, Art. 215, § 1º|01012023|
+SC830010|Diferimento - RICMS/SC-01, Anexo 2, Art. 215, II e § 2º|01012023|
+SC830011|Diferimento - RICMS/SC-01, Anexo 2, Art. 216, I e parágrafo único|01012023|
+SC830012|Diferimento - RICMS/SC-01, Anexo 2, Art. 216, III e parágrafo único|01012023|
+SC810236|isenção - RICMS/SC-01, Anexo 2, Art. 233|01012023|
+SC810237|Isenção - RICMS/SC-01, Anexo 2, Art. 233-A|01012023|
+SC840018|Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 234|01012023|
+SC830013|Diferimento - RICMS/SC-01, Anexo 2, Art. 245-A, I|01012023|
+SC830014|Diferimento - RICMS/SC-01, Anexo 2, Art. 245-A, II|01012023|
+SC830015|Diferimento - RICMS/SC-01, Anexo 2, Art. 246, I|01012023|
+SC830016|Diferimento - RICMS/SC-01, Anexo 2, Art. 246, § 23, I|01012023|
+SC830017|Diferimento - RICMS/SC-01, Anexo 2, Art. 246, § 23, II|01012023|
+SC830018|Diferimento - RICMS/SC-01, Anexo 2, Art. 246, § 23, III|01012023|
+SC830019|Diferimento - RICMS/SC-01, Anexo 2, Art. 248, I, alínea "a"|01012023|
+SC830020|Diferimento - RICMS/SC-01, Anexo 2, Art. 248, I, alínea "b"|01012023|
+SC830021|Diferimento - RICMS/SC-01, Anexo 2, Art. 249, I|01012023|
+SC830022|Diferimento - RICMS/SC-01, Anexo 2, Art. 252, I, alínea "a"|01012023|
+SC830023|Diferimento - RICMS/SC-01, Anexo 2, Art. 252, I, alínea "b"|01012023|
+SC830024|Diferimento - RICMS/SC-01, Anexo 2, Art. 253, I|01012023|
+SC830025|Diferimento - RICMS/SC-01, Anexo 2, Art. 256|01012023|
+SC830026|Diferimento - RICMS/SC-01, Anexo 2, Art. 257-A|01012023|
+SC830027|Diferimento - RICMS/SC-01, Anexo 2, Art. 258, I, alínea "a"|01012023|
+SC830028|Diferimento - RICMS/SC-01, Anexo 2, Art. 258, I, alínea "b"|01012023|
+SC830029|Diferimento - RICMS/SC-01, Anexo 2, Art. 258, I, alínea "c"|01012023|
+SC830030|Diferimento - RICMS/SC-01, Anexo 2, Art. 259, I|01012023|
+SC830031|Diferimento - RICMS/SC-01, Anexo 2, Art. 260, I, alínea "a"|01012023|
+SC830032|Diferimento - RICMS/SC-01, Anexo 2, Art. 260, I, alínea "b"|01012023|
+SC830033|Diferimento - RICMS/SC-01, Anexo 2, Art. 260, I, alínea "d"|01012023|
+SC830034|Diferimento - RICMS/SC-01, Anexo 2, Art. 260, I, alínea "f"|01012023|
+SC830035|Diferimento - RICMS/SC-01, Anexo 2, Art. 261, I|01012023|
+SC830036|Diferimento - RICMS/SC-01, Anexo 2, Art. 261, II|01012023|
+SC830037|Diferimento - RICMS/SC-01, Anexo 2, Art. 261, IV|01012023|
+SC830038|Diferimento - RICMS/SC-01, Anexo 2, Art. 262, I, alínea "a"|01012023|
+SC830039|Diferimento - RICMS/SC-01, Anexo 2, Art. 266, I, alínea "a"|01012023|
+SC830040|Diferimento - RICMS/SC-01, Anexo 2, Art. 266, I, alínea "b"|01012023|
+SC830041|Diferimento - RICMS/SC-01, Anexo 2, Art. 266, I, alínea "c"|01012023|
+SC830042|Diferimento - RICMS/SC-01, Anexo 2, Art. 266, I, alínea "d"|01012023|
+SC830043|Diferimento - RICMS/SC-01, Anexo 2, Art. 266, I, alínea "f"|01012023|
+SC830044|Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, I|01012023|
+SC830045|Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, II|01012023|
+SC830046|Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, III|01012023|
+SC830047|Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, IV|01012023|
+SC830048|Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, V|01012023|
+SC830049|Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, VI|01012023|
+SC830050|Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, VII|01012023|
+SC830051|Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, VIII|01012023|
+SC830052|Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, IX|01012023|
+SC830053|Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, X|01012023|
+SC830054|Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, XII|01012023|
+SC830055|Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, XIII|01012023|
+SC830056|Diferimento - RICMS/SC-01, Anexo 3, Art. 3º, XIV|01012023|
+SC830057|Diferimento - RICMS/SC-01, Anexo 3, Art. 3º-A|01012023|
+SC830058|Diferimento - RICMS/SC-01, Anexo 3, Art. 4º, I|01012023|
+SC830059|Diferimento - RICMS/SC-01, Anexo 3, Art. 4º, II|01012023|
+SC830060|Diferimento - RICMS/SC-01, Anexo 3, Art. 4º, III|01012023|
+SC830061|Diferimento - RICMS/SC-01, Anexo 3, Art. 4º, IV|01012023|
+SC830062|Diferimento - RICMS/SC-01, Anexo 3, Art. 4º, V|01012023|
+SC830063|Diferimento - RICMS/SC-01, Anexo 3, Art. 4º, parágrafo único, I|01012023|
+SC830064|Diferimento - RICMS/SC-01, Anexo 3, Art. 5º, I, alínea "a"|01012023|
+SC830065|Diferimento - RICMS/SC-01, Anexo 3, Art. 5º, I, alínea "b"|01012023|
+SC830066|Diferimento - RICMS/SC-01, Anexo 3, Art. 5º, I, alínea "c"|01012023|
+SC830067|Diferimento - RICMS/SC-01, Anexo 3, Art. 5º, I, alínea "d"|01012023|
+SC830068|Diferimento - RICMS/SC-01, Anexo 3, Art. 5º, II|01012023|
+SC830069|Diferimento - RICMS/SC-01, Anexo 3, Art. 6º|01012023|
+SC830070|Diferimento - RICMS/SC-01, Anexo 3, Art. 7º|01012023|
+SC830071|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, I|01012023|
+SC830072|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, II|01012023|
+SC830073|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, III|01012023|
+SC830074|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, IV|01012023|
+SC830075|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, V|01012023|
+SC830076|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, VI|01012023|
+SC830077|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, VII|01012023|31122023
+SC830078|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, VIII|01012023|
+SC830079|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, IX|01012023|
+SC830080|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, X|01012023|
+SC830081|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XI, alínea "a"|01012023|
+SC830082|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XI, alínea "b"|01012023|
+SC830083|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XII|01012023|
+SC830084|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XIII|01012023|
+SC830085|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XIV|01012023|
+SC830086|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XV|01012023|
+SC830087|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XVI|01012023|
+SC830088|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XVII|01012023|
+SC830089|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XIX|01012023|
+SC830090|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XX|01012023|
+SC830091|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XXI|01012023|
+SC830092|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XXIII|01012023|
+SC830093|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XXIV|01012023|
+SC830094|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XXV|01012023|
+SC830095|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XXVI, alíneas "a" e "c"|01012023|
+SC830096|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XXVI, alínea "b"|01012023|
+SC830097|Diferimento - RICMS/SC-01, Anexo 3, Art. 10, I|01012023|
+SC830098|Diferimento - RICMS/SC-01, Anexo 3, Art. 10, II|01012023|
+SC830099|Diferimento - RICMS/SC-01, Anexo 3, Art. 10, III|01012023|
+SC830100|Diferimento - RICMS/SC-01, Anexo 3, Art. 10, IV|01012023|
+SC830101|Diferimento - RICMS/SC-01, Anexo 3, Art. 10, V|01012023|
+SC830102|Diferimento - RICMS/SC-01, Anexo 3, Art. 10, VII|01012023|
+SC830103|Diferimento - RICMS/SC-01, Anexo 3, Art. 10-A|01012023|
+SC830104|Diferimento - RICMS/SC-01, Anexo 3, Art. 10-B, I|01012023|
+SC830106|Diferimento - RICMS/SC-01, Anexo 3, Art. 10-B, II|01012023|
+SC830107|Diferimento - RICMS/SC-01, Anexo 3, Art. 10-B, V|01012023|
+SC830108|Diferimento - RICMS/SC-01, Anexo 3, Art. 10-B, VI|01012023|
+SC830109|Diferimento - RICMS/SC-01, Anexo 3, Art. 10-B, VIII|01012023|
+SC830110|Diferimento - RICMS/SC-01, Anexo 3, Art. 10-B, IX|01012023|
+SC830111|Diferimento - RICMS/SC-01, Anexo 3, Art. 10-D|01012023|
+SC830112|Diferimento - RICMS/SC-01, Anexo 3, Art. 10-E, I e II, e § 2º|01012023|
+SC830113|Diferimento - RICMS/SC-01, Anexo 3, Art. 10-E, I e II, e §§ 3º e 4º|01012023|
+SC830114|Diferimento - RICMS/SC-01, Anexo 3, Art. 10-F, caput, I a III|01012023|
+SC830115|Diferimento - RICMS/SC-01, Anexo 3, Art. 10-F, § 1º, I a III|01012023|
+SC830116|Diferimento - RICMS/SC-01, Anexo 3, Art. 10-G, I a III|01012023|
+SC830117|Diferimento - RICMS/SC-01, Anexo 3, Art. 10-H|01012023|
+SC830118|Diferimento - RICMS/SC-01, Anexo 3, Art. 10-H, § 2º|01012023|
+SC830119|Diferimento - RICMS/SC-01, Anexo 3, Art. 10-I|01012023|
+SC830120|Diferimento - RICMS/SC-01, Anexo 3, Art. 10-K|01012023|
+SC830121|Diferimento - RICMS/SC-01, Anexo 3, Art. 10-L|01012023|
+SC830122|Diferimento - RICMS/SC-01, Anexo 3, Art. 10-M|01012023|
+SC830123|Diferimento - RICMS/SC-01, Anexo 3, Art. 176|01012023|
+SC830124|Diferimento - RICMS/SC-01, Anexo 6, Art. 179|01012023|
+SC830125|Diferimento - RICMS/SC-01, Anexo 6, Art. 179, § 6º|01012023|
+SC830126|Diferimento - RICMS/SC-01, Anexo 6, Art. 248|01012023|
+SC830127|Diferimento - RICMS/SC-01, Anexo 6, Art. 249|01012023|
+SC830128|Diferimento - RICMS/SC-01, Anexo 6, Art. 412, III|01012023|
+SC810238|Isenção - RICMS/SC-01, Anexo 6, Art. 77-E|01012023|
+SC810239|Isenção - RICMS/SC-01, Anexo 6, Art. 77-L|01012023|
+SC810240|Isenção - RICMS/SC-01, Anexo 6, Art. 378|01012023|
+SC830129|Diferimento - Decreto Estadual n° 105/2007, art. 9°, I|01012023|
+SC830130|Diferimento - Decreto Estadual n° 105/2007, art. 9°, II|01012023|
+SC830131|Diferimento - Decreto Estadual n° 105/2007, art. 10|01012023|
+SC830132|Diferimento - Decreto Estadual n° 105/2007, art. 12|01012023|
+SC830133|Diferimento - Decreto Estadual n° 105/2007, Art. 14, I|01012023|
+SC830134|Diferimento - Decreto Estadual n° 105/2007, art. 15, inciso I|01012023|
+SC830135|Diferimento - Decreto Estadual n° 105/2007, art. 15, inciso II|01012023|
+SC800015|Não-incidência - Conforme decisão Judicial|01012023|
+SC840019|Suspensão da exigibilidade - Conforme decisão Judicial|01012023|
+SC840020|Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 274.|01012023|
+SC830136|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, XXVII.|01012023|
+SC840021|Suspensão da exigibilidade - RICMS/SC-01, Anexo 6, Art. 285-A|01012023|
+SC840022|Suspensão da exigibilidade - RICMS/SC-01, Anexo 6, Art. 286-A|01012023|
+SC840023|Suspensão da exigibilidade - RICMS/SC-01, Anexo 6, Art. 289|01012023|
+SC850090|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, VI, alínea "b"|01012023|
+SC840024|Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 279|01012023|
+SC800016|Não-incidência - RICMS/SC, Art. 23, III|01012023|
+SC850091|Crédito Presumido - Decreto Estadual n° 105/2007, art. 15-A (REVOGADO)|01012023|
+SC830137|Diferimento - Decreto Estadual n° 105/2007, art. 15-A, § 4º (REVOGADO)|01012023|
+SC820044|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 103|01052023|
+SC850092|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 259, II,  § 3º|01052023|
+SC800017|Não-incidência - RICMS/SC-01, Anexo 6, Art. 41|01052023|
+SC800018|Não-incidência - RICMS/SC-01, Anexo 6, Art. 41|01052023|
+SC850093|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 284|01052023|
+SC850094|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 285|01052023|
+SC850095|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 289|01052023|
+SC850096|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 296|01052023|
+SC830138|Diferimento - Decreto Estadual n° 105/2007, art. 15-A|01052023|30042024
+SC800019|Não-incidência - RICMS/SC-01, Anexo 6, Art. 39|01052023|30042024
+SC800020|Não-incidência - RICMS/SC-01, Anexo 6, Art. 34|01052023|30042024
+SC830139|Diferimento - Decreto Estadual n° 105/2007, art. 15|01052023|30042024
+SC840025|Suspensão da exigibilidade - RICMS/SC-01, Anexo 6, Art. 277|01112023|
+SC830140|Diferimento - RICMS/SC-01, Anexo 3, Art. 8º, VII|01012024|
+SC810241|Isenção - RICMS/SC-01, Anexo 02, Art. 1º, XXX|01122023|
+SC810242|Isenção - RICMS/SC-01, Anexo 02, Art. 1º, XXXI|01122023|
+SC810243|Isenção - RICMS/SC-01, Anexo 02, Art. 1º, XXXII|01122023|
+SC810244|Isenção - RICMS/SC-01, Anexo 02, Art. 1º, XXXIII|01122023|
+SC810245|Isenção - RICMS/SC-01, Anexo 02, Art. 2º, LXXXIII|01032024|
+SC810246|Isenção - RICMS/SC-01, Anexo 02, Art. 2º, LXXXIV|01122023|
+SC810247|Isenção - RICMS/SC-01, Anexo 02, Art. 2º, LXXXV|01032024|
+SC810248|Isenção - RICMS/SC-01, Anexo 02, Art. 3º, LXVII|01032024|
+SC850097|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, XVII|01122023|
+SC800021|Não-incidência - RICMS/SC-01, Art. 4º, § 5º|01012024|01042024
+SC800022|Não-incidência - Lei Estadual nº 10.296/1996, Art. 4º, § 5|01012024|30092024
+SC800019|Não-incidência - RICMS/SC-01, Anexo 6, Art. 39, II|01052024|
+SC800020|Não-incidência - RICMS/SC-01, Anexo 6, Art. 34, II|01052024|
+SC810249|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XXXIV|01042024|
+SC810250|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXXVI|01042024|
+SC810251|Isenção - RICMS/SC-01, Anexo 2, Art. 3º, LXVIII|01042024|
+SC810252|Isenção - RICMS/SC-01, Anexo 2, Art. 4º, XV|01042024|
+SC820057|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 298|01052024|
+SC850098|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XLV, alínea "a"|01012024|
+SC850099|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XLV, alínea "b"|01012024|
+SC850100|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, XVIII|01012024|
+SC999999|Benefício fiscal cujo cBenef não foi contemplado na lista. Informar capitulação legal nas informações complementares.|01102024|
+SC810253|Isenção - "RICMS/SC-01, Anexo 2, Art. 1º, XXXV|01122023|
+SC850101|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 1º, XXXV, § 12, VI|01122023|
+SC800022|Não-incidência - Lei Estadual nº 10.297/1996, Art. 4º, § 5|01102024|
+SC830141|Diferimento - RICMS/SC-01, Anexo 3, Arts. 3º a 10-K|01102024|31102026
+SC830142|Diferimento - RICMS/SC-01, Anexo 3, Art. 10-N|01092024|
+SC840026|Suspensão da exigibilidade - RICMS/SC-01, Anexo 6, Art. 204|01022024|
+SC850102|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, XIX|01082024|
+SC850103|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XLVIII|01082024|
+SC850104|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, L|01082024|30092025
+SC850105|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XLVII|01082024|
+SC830143|Diferimento - RICMS/SC-01, Art. 61º, II, alínea "b"|01122024|
+SC820058|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 7º, XXI|01122024|
+SC850106|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, XLIX|01122024|
+SC850107|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 21, XX|01122024|
+SC900001|Crédito acumulado compensável reconhecido por decisão judicial transitada em julgado.  (Art. 40 do RICMS-SC/01 c/c art. 25, II do Anexo 03 do RICMS-SC/01)|01102024|
+SC830144|Diferimento- RICMS/SC-01, Anexo 03, Art. 245|01042025|
+SC820059|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 11-A|01012025|31052025
+SC850108|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, LI|01012025|
+SC840027|Suspensão da exigibilidade - RICMS/SC-01, Anexo 6, Art. 154|01012025|
+SC800023|Não-incidência - RICMS/SC-01, Anexo 6, Art. 62|01012025|
+SC810254|Isenção - Lei n° 19.390/2025, Art. 5º|01072025|30092025
+SC810255|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XXXVI|01092025|
+SC810256|Isenção - RICMS/SC-01, Anexo 2, Art. 1º, XXXVII|01092025|
+SC830145|Diferimento- RICMS/SC-01, Anexo 3, Art. 10-O|01092025|
+SC850109|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, LII|01092025|
+SC850110|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 266-B|01092025|
+SC810254|Isenção - RICMS/SC-01, Anexo 2, Art. 2º, LXXXVII|01102025|
+SC840028|Suspensão da exigibilidade - RICMS/SC-01, Anexo 2, Art. 305|01072025|
+SC850111|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 16, I, a|01012026|
+SC850112|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 16, I, b|01012026|
+SC850113|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 16, II|01012026|
+SC850114|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 16, I, a, § 1º|01012026|
+SC810257|Isenção - RICMS/SC-01, Anexo 2, Art. 31|01032026|06122026
+SC830146|Diferimento- RICMS/SC-01, Anexo 3, Art. 10-P|01032026|
+SC830147|Diferimento- RICMS/SC-01, Anexo 3, Art. 10-Q|01032026|
+SC820060|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, I|01032026|
+SC820061|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, II|01032026|
+SC820062|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, III|01032026|
+SC820063|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, IV|01032026|
+SC820064|Redução da Base de Cálculo - ICMS/SC-01, Anexo 2, Art. 29, V|01032026|
+SC820065|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, VI|01032026|
+SC820066|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, VII|01032026|
+SC820067|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, VIII|01032026|
+SC820068|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, IX|01032026|
+SC820069|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, X|01032026|
+SC820070|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, XI|01032026|
+SC820071|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, XII|01032026|
+SC820072|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, XIII|01032026|
+SC820073|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, XIV|01032026|
+SC820074|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, XV|01032026|
+SC820075|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 29, XVI|01032026|
+SC820076|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 30, I|01032026|
+SC820077|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 30, II|01032026|
+SC820078|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 30, III|01032026|
+SC820079|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 30, IV|01032026|
+SC820080|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 32, I|01032026|
+SC820081|Redução da Base de Cálculo - RICMS/SC-01, Anexo 2, Art. 32, II|01032026|
+SC850115|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 176, § 5º|01052023|
+SC850116|Crédito Presumido - RICMS/SC-01, Anexo 2, Art. 15, LIII|01052026|
+SC810258|Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, I|01032026|
+SC810259|Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, II|01032026|
+SC810260|Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, III|01032026|
+SC810261|Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, IV|01032026|
+SC810262|Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c ICMS/SC-01, Anexo 2, Art. 29, V|01032026|
+SC810263|Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, VI|01032026|
+SC810264|Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, VII|01032026|
+SC810265|Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, VIII|01032026|
+SC810266|Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, IX|01032026|
+SC810267|Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, X|01032026|
+SC810268|Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, XI|01032026|
+SC810269|Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, XII|01032026|
+SC810270|Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, XIII|01032026|
+SC810271|Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, XIV|01032026|
+SC810272|Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, XV|01032026|
+SC810273|Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 29, XVI|01032026|
+SC810274|Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 30, I|01032026|
+SC810275|Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 30, II|01032026|
+SC810276|Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 30, III|01032026|
+SC810277|Isenção - RICMS/SC-01, Anexo 2, Art. 31, caput c/c RICMS/SC-01, Anexo 2, Art. 30, IV|01032026|
+SC830141|Diferimento - RICMS/SC-01, Anexo 3|01112026|
