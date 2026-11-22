@@ -49,7 +49,7 @@ print(data["generated_at"], "→", len(data["entries"]), "docs")
 
 **Uma vez por dia, às 09:00 UTC**, um robô varre os portais oficiais, identifica o que é novidade em relação à última passagem, baixa os arquivos, descompacta os ZIPs, e organiza tudo por data de publicação. Cada documento fica numa pasta própria com título completo, data e todos os arquivos que compõem o pacote.
 
-NF-e e SVRS rodam no GitHub Actions (`.github/workflows/`). A NFS-e roda no Jenkins da stackin (`jenkins/Jenkinsfile.scrape-nfse`, job `data-source/scrape-nfse`) desde 2026-11-21: o gov.br derruba conexões vindas dos runners do GitHub.
+NF-e, SVRS e a tabela de cBenef de SC rodam no GitHub Actions (`.github/workflows/`). A NFS-e roda no Jenkins da stackin (`jenkins/Jenkinsfile.scrape-nfse`, job `data-source/scrape-nfse`) desde 2026-11-21: o gov.br derruba conexões vindas dos runners do GitHub.
 
 Duas coisas são publicadas todo ciclo:
 
@@ -113,6 +113,7 @@ Base: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/`
 | SVRS — NFF | `svrs/nff/documentos/feed.xml` |
 | SVRS — PES | `svrs/pes/documentos/feed.xml` |
 | SVRS — ONE | `svrs/one/documentos/feed.xml` |
+| SEF/SC — Tabela 5.2 (cBenef) | `sef/sc/cbenef/feed.xml` |
 
 </details>
 
@@ -153,6 +154,7 @@ Base: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/`
 | SVRS — NFF | `svrs/nff/documentos/manifest.json` |
 | SVRS — PES | `svrs/pes/documentos/manifest.json` |
 | SVRS — ONE | `svrs/one/documentos/manifest.json` |
+| SEF/SC — Tabela 5.2 (cBenef) | `sef/sc/cbenef/manifest.json` |
 
 </details>
 
