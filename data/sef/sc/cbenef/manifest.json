@@ -2,13 +2,13 @@
   "context": "sef/sc/cbenef",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/sef/sc/cbenef",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/sef/sc/cbenef",
-  "generated_at": "2026-11-22T21:54:29+00:00",
-  "started_at": "2026-11-22T21:54:27+00:00",
-  "duration_s": 1.45,
+  "generated_at": "2026-11-23T20:56:59+00:00",
+  "started_at": "2026-11-23T20:56:58+00:00",
+  "duration_s": 1.23,
   "totals": {
     "discovered": 1,
-    "persisted": 2,
-    "skipped": 0,
+    "persisted": 0,
+    "skipped": 1,
     "failed": 0
   },
   "items": [
@@ -21,15 +21,15 @@
       "folder": "data/sef/sc/cbenef/2026-10-09_tabela-5.2-cbenef-v31",
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/sef/sc/cbenef/2026-10-09_tabela-5.2-cbenef-v31",
       "files": [
-        "data/sef/sc/cbenef/2026-10-09_tabela-5.2-cbenef-v31/tabela-5.2.txt",
-        "data/sef/sc/cbenef/2026-10-09_tabela-5.2-cbenef-v31/tabela-5.2.json"
+        "data/sef/sc/cbenef/2026-10-09_tabela-5.2-cbenef-v31/tabela-5.2.json",
+        "data/sef/sc/cbenef/2026-10-09_tabela-5.2-cbenef-v31/tabela-5.2.txt"
       ],
       "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/sef/sc/cbenef/2026-10-09_tabela-5.2-cbenef-v31/tabela-5.2.txt",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/sef/sc/cbenef/2026-10-09_tabela-5.2-cbenef-v31/tabela-5.2.json"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/sef/sc/cbenef/2026-10-09_tabela-5.2-cbenef-v31/tabela-5.2.json",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/sef/sc/cbenef/2026-10-09_tabela-5.2-cbenef-v31/tabela-5.2.txt"
       ],
-      "downloaded_at": "2026-11-22T21:54:29+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     }
   ]
 }
