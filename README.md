@@ -49,7 +49,7 @@ print(data["generated_at"], "→", len(data["entries"]), "docs")
 
 **Uma vez por dia, às 09:00 UTC**, um robô varre os portais oficiais, identifica o que é novidade em relação à última passagem, baixa os arquivos, descompacta os ZIPs, e organiza tudo por data de publicação. Cada documento fica numa pasta própria com título completo, data e todos os arquivos que compõem o pacote.
 
-NF-e, SVRS e a tabela de cBenef de SC rodam no GitHub Actions (`.github/workflows/`). A NFS-e roda no Jenkins da stackin (`jenkins/Jenkinsfile.scrape-nfse`, job `data-source/scrape-nfse`) desde 2026-11-21: o gov.br derruba conexões vindas dos runners do GitHub.
+NF-e, SVRS, a tabela de cBenef de SC e a CNAE do IBGE rodam no GitHub Actions (`.github/workflows/`). A NFS-e roda no Jenkins da stackin (`jenkins/Jenkinsfile.scrape-nfse`, job `data-source/scrape-nfse`) desde 2026-11-21: o gov.br derruba conexões vindas dos runners do GitHub.
 
 Duas coisas são publicadas todo ciclo:
 
@@ -86,7 +86,7 @@ Cola a URL do feed em qualquer leitor de RSS/Atom — Feedly, Inoreader, NetNews
 - **Todas as fontes:** `https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml`
 
 <details>
-<summary><b>Feeds por fonte</b> (22 URLs)</summary>
+<summary><b>Feeds por fonte</b> (23 URLs)</summary>
 
 Base: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/`
 
@@ -114,6 +114,7 @@ Base: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/`
 | SVRS — PES | `svrs/pes/documentos/feed.xml` |
 | SVRS — ONE | `svrs/one/documentos/feed.xml` |
 | SEF/SC — Tabela 5.2 (cBenef) | `sef/sc/cbenef/feed.xml` |
+| IBGE — CNAE 2.3 subclasses | `ibge/cnae/feed.xml` |
 
 </details>
 
@@ -127,7 +128,7 @@ Sua aplicação consome o manifest diretamente e reage a mudanças. Recomendado 
 - **Histórico por fonte:** `.../data/<fonte>/history.json`
 
 <details>
-<summary><b>Manifests por fonte</b> (22 URLs)</summary>
+<summary><b>Manifests por fonte</b> (23 URLs)</summary>
 
 Base: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/`
 
@@ -155,6 +156,7 @@ Base: `https://raw.githubusercontent.com/stackin-io/data-source/master/data/`
 | SVRS — PES | `svrs/pes/documentos/manifest.json` |
 | SVRS — ONE | `svrs/one/documentos/manifest.json` |
 | SEF/SC — Tabela 5.2 (cBenef) | `sef/sc/cbenef/manifest.json` |
+| IBGE — CNAE 2.3 subclasses | `ibge/cnae/manifest.json` |
 
 </details>
 
@@ -171,7 +173,7 @@ Cada item aparece com estrutura completa em ambos os canais:
 
 ## Fontes cobertas
 
-Legenda de origem: **SEFAZ** = portal SEFAZ homologação (base normativa nacional). **ADN** = ADN nacional gov.br. **SVRS** = portal DF-e da SEFAZ Virtual RS (22 UFs).
+Legenda de origem: **SEFAZ** = portal SEFAZ homologação (base normativa nacional). **ADN** = ADN nacional gov.br. **SVRS** = portal DF-e da SEFAZ Virtual RS (22 UFs). **IBGE** = API de serviço de dados do IBGE.
 
 | Fonte | Origem | Tipo | O que traz | Formatos |
 |---|---|---|---|---|
@@ -196,6 +198,7 @@ Legenda de origem: **SEFAZ** = portal SEFAZ homologação (base normativa nacion
 | NFF | SVRS | infra | Nota Fiscal Fácil — meta-documento de infraestrutura | PDF, ZIP, XLSX |
 | PES | SVRS | infra | Portal de Entrega Simplificada — meta-documento | PDF, ZIP, XLSX |
 | ONE | SVRS | infra | Operador Nacional do Estacionamento — meta-documento | PDF, ZIP, XLSX |
+| CNAE 2.3 — subclasses | IBGE | cadastro | As subclasses com classe, grupo, divisão e seção (`ibge/cnae/<data>_cnae-2.3-subclasses/cnae-subclasses.json`); pasta nova só quando o conteúdo muda | JSON |
 
 A NF-e tem **duas origens oficiais** aqui, e as duas ficam: SEFAZ é a base normativa nacional, SVRS é o que 22 UFs publicam. As duas podem divulgar o mesmo documento em datas diferentes, então nada é deduplicado entre elas — o contexto `svrs/` existe justamente pra você escolher qual segue.
 

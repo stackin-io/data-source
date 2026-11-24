@@ -1,0 +1,210 @@
+[
+ {
+  "id": "4929902",
+  "descricao": "TRANSPORTE RODOVIÁRIO COLETIVO DE PASSAGEIROS, SOB REGIME DE FRETAMENTO, INTERMUNICIPAL, INTERESTADUAL E INTERNACIONAL",
+  "classe": {
+   "id": "49299",
+   "descricao": "TRANSPORTE RODOVIÁRIO COLETIVO DE PASSAGEIROS, SOB REGIME DE FRETAMENTO, E OUTROS TRANSPORTES RODOVIÁRIOS NÃO ESPECIFICADOS ANTERIORMENTE",
+   "grupo": {
+    "id": "492",
+    "descricao": "TRANSPORTE RODOVIÁRIO DE PASSAGEIROS",
+    "divisao": {
+     "id": "49",
+     "descricao": "TRANSPORTE TERRESTRE",
+     "secao": {
+      "id": "H",
+      "descricao": "TRANSPORTE, ARMAZENAGEM E CORREIO"
+     }
+    }
+   },
+   "observacoes": [
+    "Esta classe compreende - o transporte rodoviário coletivo de passageiros, sob o regime de fretamento\r\n- a organização de excursões em veículos rodoviários próprios\r\n- o transporte de empregados para terceiros\r\n- outros transportes rodoviários de passageiros, sem itinerário fixo, não especificados anteriormente",
+    "Esta classe NÃO compreende - os serviços de ambulâncias (86.22-4)\r\n- o transporte escolar (49.24-8)\r\n- a locação de automóveis com motorista ou condutor (49.23-0)\r\n- a locação de automóveis sem motorista ou condutor (77.11-0)\r\n- o transporte turístico em veículos de tração animal (93.29-8)"
+   ]
+  },
+  "atividades": [
+   "AUTOMÓVEIS COLETIVOS COM MOTORISTA (CONDUTOR), INTERMUNICIPAL, INTERESTADUAL, INTERNACIONAL; LOCAÇÃO DE",
+   "TRANSPORTE RODOVIÁRIO COLETIVO DE PASSAGEIROS, SOB REGIME DE FRETAMENTO, INTERMUNICIPAL, INTERESTADUAL E INTERNACIONAL",
+   "VEÍCULOS RODOVIÁRIOS COLETIVOS COM MOTORISTA (CONDUTOR), INTERMUNICIPAL, INTERESTADUAL, INTERNACIONAL; LOCAÇÃO DE",
+   "ÔNIBUS COM MOTORISTA (CONDUTOR), INTERMUNICIPAL, INTERESTADUAL, INTERNACIONAL; LOCAÇÃO DE"
+  ],
+  "observacoes": [
+   "Esta subclasse compreende - o transporte rodoviário coletivo de passageiros, sob regime de fretamento no âmbito intermunicipal, fora da região metropolitana, interestadual e internacional",
+   "Esta subclasse NÃO compreende - a locação de automóveis com motorista ou condutor (4923-0/02)\r\n- o transporte especializado na locomoção de estudantes da rede pública ou privada (4924-8/00)\r\n- a locação de automóveis sem motorista ou condutor (7711-0/00)"
+  ]
+ },
+ {
+  "id": "0111301",
+  "descricao": "CULTIVO DE ARROZ",
+  "classe": {
+   "id": "01113",
+   "descricao": "CULTIVO DE CEREAIS",
+   "grupo": {
+    "id": "011",
+    "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+    "divisao": {
+     "id": "01",
+     "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+     "secao": {
+      "id": "A",
+      "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+     }
+    }
+   },
+   "observacoes": [
+    "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+    "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+    "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+   ]
+  },
+  "atividades": [
+   "ARROZ QUANDO ATIVIDADE COMPLEMENTAR AO CULTIVO; BENEFICIAMENTO DE",
+   "ARROZ; CULTIVO DE",
+   "SEMENTE DE ARROZ (QUANDO REALIZADA JUNTAMENTE AO CULTIVO); PRODUÇÃO DE"
+  ],
+  "observacoes": [
+   "Esta subclasse compreende - o cultivo de arroz",
+   "Esta subclasse compreende ainda - o beneficiamento de arroz em estabelecimento agrícola, quando atividade complementar ao cultivo \r\n\r\n- a produção de sementes de arroz, quando atividade complementar ao cultivo",
+   "Esta subclasse NÃO compreende - a produção de sementes certificadas de arroz, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de arroz realizado no estabelecimento agrícola sob contrato (0163-6/00)\r\n- a produção de óleo de arroz em bruto (1041-4/00)\r\n- o beneficiamento de arroz em estabelecimento não-agrícola (1061-9/01)"
+  ]
+ },
+ {
+  "id": "6204000",
+  "descricao": "CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO",
+  "classe": {
+   "id": "62040",
+   "descricao": "CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO",
+   "grupo": {
+    "id": "620",
+    "descricao": "ATIVIDADES DOS SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO",
+    "divisao": {
+     "id": "62",
+     "descricao": "ATIVIDADES DOS SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO",
+     "secao": {
+      "id": "J",
+      "descricao": "INFORMAÇÃO E COMUNICAÇÃO"
+     }
+    }
+   },
+   "observacoes": [
+    "Esta classe compreende - a análise para determinação das necessidades do cliente ou do mercado potencial e a especificação técnica do sistema quanto à definição das funcionalidades e campo de aplicação\r\n- os serviços de assessoria para auxiliar o usuário na definição de um sistema quanto aos tipos e configurações de equipamentos de informática (hardware), assim como os programas de informática (software) correspondentes e suas aplicações, redes e comunicação, etc.\r\n- o acompanhamento, gerência e fiscalização de projetos de informática, ou seja, a coordenação de atividades envolvidas na definição, implantação e operacionalização de projetos destinados à informatização de um determinado segmento\r\n- a consultoria para integração de sistemas e soluções, ou seja, atividades de estruturação e operacionalização de uma solução final funcional, a partir da união de diferentes sistemas, mantendo suas características essenciais\r\n- atividades de atualização de websites, isto é, atividades de inserção e retirada de informações, atualização de arquivos, banco de dados, inserção de banners e links, etc.\r\n- os serviços de customização de programas de informática (software) customizáveis, ou seja, atividades que consistem em adaptar as necessidades do usuário às telas, terminologias, tabelas e a outras características inerentes ao sistema",
+    "Esta classe NÃO compreende - a assessoria em informática associada à venda de computadores e periféricos (47.51-2) e (46.51-6)\r\n- o desenvolvimento de programas de computador sob encomenda (62.01-5)"
+   ]
+  },
+  "atividades": [
+   "ASSESSORIA EM SOFTWARE, PROGRAMAS DE INFORMÁTICA",
+   "ASSESSORIA PARA COMPRA E INSTALAÇÃO DE PERIFÉRICOS ",
+   "ASSESSORIA, CONSULTORIA EM INFORMÁTICA",
+   "ASSESSORIA, CONSULTORIA EM SISTEMAS DE INFORMÁTICA",
+   "AUDITORIA DE SISTEMAS DE INFORMÁTICA; SERVIÇOS DE",
+   "CONSULTORIA EM ANÁLISE DE SISTEMAS",
+   "CONSULTORIA EM HARDWARE E SOFTWARE",
+   "CONSULTORIA EM INFORMÁTICA",
+   "CONSULTORIA EM PROGRAMAS DE COMPUTADOR",
+   "CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO",
+   "CONSULTORIA TÉCNICA EM INFORMÁTICA; SERVIÇOS DE",
+   "CUSTOMIZAÇÃO DE PROGRAMAS DE COMPUTADOR",
+   "CUSTOMIZAÇÃO DE SOFTWARE",
+   "GATEWAY (PONTE DE LIGAÇÃO), SISTEMA INTERMEDIÁRIO (SOFTWARE) DE INTERLIGAÇÃO DE REDES COMERCIAIS; SERVIÇOS DE",
+   "HARDWARE; ASSESSORIA EM",
+   "HARDWARE; CONSULTORIA EM",
+   "PERSONALIZAÇÂO DE PROGRAMAS DE COMPUTADOR CUSTOMIZÁVEIS; SERVIÇOS DE",
+   "PERSONALIZAÇÂO DE SOFTWARE CUSTOMIZÁVEIS; SERVIÇOS DE",
+   "PROJETOS PARA INSTALAÇÕES DE REDE; DESENVOLVIMENTO DE",
+   "SOFTWARE, PROGRAMAS DE INFORMÁTICA, SOB ENCOMENDA; ATUALIZAÇÃO DE",
+   "SOFTWARE, PROGRAMAS DE INFORMÁTICA; ASSESSORIA EM"
+  ],
+  "observacoes": [
+   "Esta subclasse compreende - a análise para determinação das necessidades do cliente ou do mercado potencial e a especificação técnica do sistema quanto à definição das funcionalidades e campo de aplicação\r\n- os serviços de assessoria para auxiliar o usuário na definição de um sistema quanto aos tipos e configurações de equipamentos de informática (hardware), assim como os programas de computador (software) correspondentes e suas aplicações, redes e comunicação, etc.\r\n- o acompanhamento, gerência e fiscalização de projetos de informática, ou seja, a coordenação de atividades envolvidas na definição, implantação e operacionalização de projetos destinados à informatização de um determinado segmento\r\n- a consultoria para integração de sistemas e soluções, ou seja, atividades de estruturação e operacionalização de uma solução final funcional, a partir da união de diferentes sistemas, mantendo suas características essenciais\r\n- atividades de atualização de websites, isto é, atividades de inserção e retirada de informações, atualização de arquivos, banco de dados, inserção de banners e links, etc.\r\n- os serviços de customização de programas de computador customizáveis, ou seja, atividades que consistem em adaptar as necessidades do usuário às telas, terminologias, tabelas e a outras características inerentes ao sistema",
+   "Esta subclasse NÃO compreende - a assessoria em informática associada à venda de computadores e periféricos (4751-2/01) e (4651-6/01)\r\n- o desenvolvimento de programas de computador sob encomenda (6201-5/00)"
+  ]
+ },
+ {
+  "id": "8599603",
+  "descricao": "TREINAMENTO EM INFORMÁTICA",
+  "classe": {
+   "id": "85996",
+   "descricao": "ATIVIDADES DE ENSINO NÃO ESPECIFICADAS ANTERIORMENTE",
+   "grupo": {
+    "id": "859",
+    "descricao": "OUTRAS ATIVIDADES DE ENSINO",
+    "divisao": {
+     "id": "85",
+     "descricao": "EDUCAÇÃO",
+     "secao": {
+      "id": "P",
+      "descricao": "EDUCAÇÃO"
+     }
+    }
+   },
+   "observacoes": [
+    "Esta classe compreende - as atividades dos cursos de formação de condutores (auto-escolas)\r\n- as atividades dos cursos de pilotagem de barcos e aeronaves\r\n- as atividades dos cursos de informática\r\n- as atividades de treinamento em desenvolvimento profissional e gerencial\r\n- as atividades dos cursos preparatórios para concursos em geral\r\n- as instituições que oferecem cursos de educação profissional de nível básico, de duração variável, destinados a qualificar e requalificar os trabalhadores, independentemente da escolaridade prévia, não estando sujeitos a regulamentação curricular\r\n- as atividades dos cursos de datilografia\r\n- as atividades de professores autônomos ou constituídos como empresas individuais, exceto de esportes, de arte e cultura e de idiomas\r\n- outras atividades de ensino não especificadas anteriormente",
+    "Esta classe compreende ainda - as unidades centrais e regionais de órgãos voltados ao bem-estar social que têm a educação como atividade prioritária",
+    "Esta classe NÃO compreende - a educação superior (grupo 85.3)\r\n- a atividade de ensino de informática de nível superior (grupo 85.3)\r\n- a educação profissional de nível técnico (85.41-4)\r\n- a educação profissional de nível tecnológico (85.42-2)\r\n- o ensino médio (85.20-1)\r\n- o ensino de esportes (85.91-1)\r\n- o ensino de música (85.92-9)\r\n- o ensino de dança (85.92-9)\r\n- o ensino de artes cênicas, exceto dança (85.92-9)\r\n- o ensino de idiomas (85.93-7)"
+   ]
+  },
+  "atividades": [
+   "AULAS DE INFORMÁTICA",
+   "COMPUTADOR; CURSO, ENSINO DE",
+   "INFORMÁTICA; CURSO, ENSINO DE",
+   "MICROCOMPUTADOR; CURSO, ENSINO DE",
+   "TECNOLOGIAS DA INFORMAÇÃO E ACESSO À INTERNET; ENSINO DE"
+  ],
+  "observacoes": [
+   "Esta subclasse compreende - as atividades dos cursos de informática",
+   "Esta subclasse NÃO compreende - a atividade de ensino de informática de nível superior (grupo 85.3)"
+  ]
+ },
+ {
+  "id": "9511800",
+  "descricao": "REPARAÇÃO E MANUTENÇÃO DE COMPUTADORES E DE EQUIPAMENTOS PERIFÉRICOS",
+  "classe": {
+   "id": "95118",
+   "descricao": "REPARAÇÃO E MANUTENÇÃO DE COMPUTADORES E DE EQUIPAMENTOS PERIFÉRICOS",
+   "grupo": {
+    "id": "951",
+    "descricao": "REPARAÇÃO E MANUTENÇÃO DE EQUIPAMENTOS DE INFORMÁTICA E COMUNICAÇÃO",
+    "divisao": {
+     "id": "95",
+     "descricao": "REPARAÇÃO E MANUTENÇÃO DE EQUIPAMENTOS DE INFORMÁTICA E COMUNICAÇÃO E DE OBJETOS PESSOAIS E DOMÉSTICOS",
+     "secao": {
+      "id": "S",
+      "descricao": "OUTRAS ATIVIDADES DE SERVIÇOS"
+     }
+    }
+   },
+   "observacoes": [
+    "Esta classe compreende - a reparação e manutenção de computadores, inclusive portáteis e de equipamentos de informática periféricos, tais como impressoras, teclados, drivers, projetores, scanners, mouses, etc.",
+    "Esta classe compreende ainda - a reparação e manutenção dos terminais de auto-atendimento, como caixas eletrônicos de bancos",
+    "Esta classe NÃO compreende - a instalação de computadores e equipamentos de informática associada à fabricação (grupo 26.2) e à venda (47.51-2)\r\n- o serviço de instalação de equipamentos e programas de computador (62.09-1)"
+   ]
+  },
+  "atividades": [
+   "APARELHOS DE INFORMÁTICA; MANUTENÇÃO DE, REPARAÇÃO DE",
+   "ASSISTÊNCIA TÉCNICA EM COMPUTADORES; SERVIÇOS DE",
+   "ASSISTÊNCIA TÉCNICA EM EQUIPAMENTOS DE INFORMÁTICA; SERVIÇOS DE",
+   "ASSISTÊNCIA TÉCNICA EM MICROCOMPUTADORES; SERVIÇOS DE",
+   "CAIXAS ELETRÔNICOS DE BANCOS; MANUTENÇÃO DE, REPARAÇÃO DE",
+   "COMPUTADORES; CONSERTO DE, REPARO DE",
+   "COMPUTADORES; MANUTENÇÃO, REPARAÇÃO DE",
+   "EQUIPAMENTO PERIFÉRICO CONEXO; MANUTENÇÃO DE, REPARAÇÃO DE",
+   "EQUIPAMENTOS DE INFORMÁTICA; MANUTENÇÃO DE, REPARAÇÃO DE, CONSERTO DE",
+   "EQUIPAMENTOS DE PROCESSAMENTO DE DADOS; MANUTENÇÃO DE, REPARAÇÃO DE",
+   "EQUIPAMENTOS EMISSORES DE CUPOM FISCAL; MANUTENÇÃO DE",
+   "IMPRESSORAS; MANUTENÇÃO DE, REPARAÇÃO DE, CONSERTO DE",
+   "MICROCOMPUTADORES; MANUTENÇÃO DE, REPARAÇÃO DE",
+   "MÁQUINA COPIADORA, XEROGRÁFICA, FOTOSTÁTICA; ASSISTÊNCIA TÉCNICA EM",
+   "MÁQUINA DE CARTÃO DE CRÉDITO; MANUTENÇÃO DE, REPARAÇÃO DE, CONSERTO DE ",
+   "PROJETOR; CONSERTO, REPARAÇÃO, MANUTENÇÃO DE",
+   "SCANNERS (ESCÂNER); MANUTENÇÃO DE, REPARAÇÃO DE, CONSERTO DE",
+   "SUPORTE E MANUTENÇÃO DE HARDWARE, INCLUSIVE UPGRADE; SERVIÇOS DE",
+   "TECLADO E MOUSE; CONSERTO, REPARAÇÃO, MANUTENÇÃO DE",
+   "TERMINAIS DE AUTO-ATENDIMENTO DE BANCOS; MANUTENÇÃO DE, REPARAÇÃO DE"
+  ],
+  "observacoes": [
+   "Esta subclasse compreende - a reparação e manutenção de computadores, inclusive portáteis e de equipamentos de informática periféricos, tais como impressoras, teclados, drivers, projetores, scanners, mouses, etc.",
+   "Esta subclasse compreende ainda - a reparação e manutenção dos terminais de auto-atendimento, como caixas eletrônicos de bancos",
+   "Esta subclasse NÃO compreende - a instalação de computadores e equipamentos de informática associada à fabricação (grupo 26.2) e à venda (4751-2/00)\r\n- o serviço de instalação de equipamentos e programas de computador (6209-1/00)"
+  ]
+ }
+]
