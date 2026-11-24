@@ -101,6 +101,26 @@ class TestParseErrors(unittest.TestCase):
         with self.assertRaises(ExtractionError):
             parse_anexo_xi(b"<html>blocked</html>")
 
+    def _parse(self, table):
+        page = MagicMock()
+        page.extract_tables.return_value = [table]
+        pdf = MagicMock()
+        pdf.__enter__.return_value.pages = [page]
+        with patch.object(rfb_mei.pdfplumber, "open", return_value=pdf):
+            return parse_anexo_xi(b"%PDF")
+
+    def test_blank_rows_are_ignored(self):
+        rows = self._parse(
+            [
+                ["TABELA A", "", "", "", ""],
+                [None, None, None, None, None],
+                ["X INDEPENDENTE", "4724-5/00", "COMÉRCIO", "N", "S"],
+                ["", "", "", "", ""],
+            ]
+        )
+
+        self.assertEqual([r["cnae"] for r in rows], ["4724500"])
+
     def test_a_row_that_does_not_parse_is_an_error(self):
         table = [
             ["TABELA A", "", "", "", ""],
@@ -191,6 +211,43 @@ class TestRun(_Base):
             self._folders(),
             ["2026-03-06_anexo-xi-cgsn-140", f"2026-03-06_anexo-xi-cgsn-140-{digest}"],
         )
+
+    def test_a_folder_without_its_json_is_not_reused(self):
+        partial = self.root / "rfb/mei-ocupacoes/2026-03-06_anexo-xi-cgsn-140"
+        partial.mkdir(parents=True)
+        (partial / "Anexo_XI.pdf").write_bytes(PDF)
+
+        result = self.scraper.run()
+
+        self.assertEqual(result.persisted, 2)
+        digest = hashlib.sha256(PDF).hexdigest()[:8]
+        self.assertTrue(
+            (
+                self.root / f"rfb/mei-ocupacoes/2026-03-06_anexo-xi-cgsn-140-{digest}/anexo-xi.json"
+            ).is_file()
+        )
+
+    def test_latest_snapshot_is_the_newest_generated_at(self):
+        folder = self.root / "rfb/mei-ocupacoes"
+        for name, generated_at, digest in (
+            ("2026-03-06_anexo-xi-cgsn-140", "2026-03-06T10:00:00+00:00", "old"),
+            (
+                "2026-03-06_anexo-xi-cgsn-140-0000aaaa",
+                "2026-03-08T10:00:00+00:00",
+                hashlib.sha256(PDF).hexdigest(),
+            ),
+            ("2026-03-06_anexo-xi-cgsn-140-ffffffff", "2026-03-07T10:00:00+00:00", "older"),
+        ):
+            (folder / name).mkdir(parents=True)
+            (folder / name / "Anexo_XI.pdf").write_bytes(b"%PDF")
+            (folder / name / "anexo-xi.json").write_text(
+                json.dumps({"generated_at": generated_at, "sha256": digest}), encoding="utf-8"
+            )
+
+        result = self.scraper.run()
+
+        self.assertEqual(result.skipped, 1)
+        self.assertEqual(result.persisted, 0)
 
     def test_no_last_modified_uses_today(self):
         self.last_modified = ""
