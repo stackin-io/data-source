@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T20:00:31+00:00",
+  "generated_at": "2026-11-24T20:11:13+00:00",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data",
   "browse_base_url": "https://github.com/stackin-io/data-source/tree/master/data",
   "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml",
@@ -22,7 +22,7 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/ibge/cnae/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/ibge/cnae/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/ibge/cnae",
-      "generated_at": "2026-11-24T02:37:51+00:00",
+      "generated_at": "2026-11-24T20:11:13+00:00",
       "totals": {
         "discovered": 1,
         "persisted": 0,
