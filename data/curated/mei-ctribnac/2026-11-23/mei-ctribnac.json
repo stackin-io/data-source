@@ -3,20 +3,20 @@
   "official": false,
   "scope": "MEI occupations of Anexo XI with ISS = S, one entry per CNAE subclass",
   "reviewed_at": "2026-11-23",
-  "notes": "Curated by Stackin, not official: no public body publishes a CNAE to cTribNac correlation. Each CNAE subclass lists the national service codes (cTribNac, LC 116 subitem plus national desdobro) whose description covers the service of the occupations that use it. An empty list means no code describes it clearly. needs_review marks the links that rest on a reading of the LC 116 text rather than on an explicit mention. Not reviewed by an accountant yet.",
+  "notes": "Curated by Stackin, not official: no public body publishes a CNAE to cTribNac correlation. Each CNAE subclass lists the national service codes (cTribNac, LC 116 subitem plus national desdobro) whose description covers the service of the occupations that use it. An empty list means no code describes it clearly. needs_review marks the entries whose links, or lack of links, rest on a reading of the LC 116 text rather than on an explicit mention. Each source's sha256 is the hash of the file at its path. Not reviewed by an accountant yet.",
   "sources": [
     {
       "name": "Anexo XI da Resolução CGSN nº 140/2018 (ocupações permitidas ao MEI)",
       "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Arquivos/manual/Anexo_XI.pdf",
       "path": "data/rfb/mei-ocupacoes/2026-03-06_anexo-xi-cgsn-140/anexo-xi.json",
       "last_modified": "Fri, 06 Mar 2026 20:58:44 GMT",
-      "sha256": "cb3845804f3c14cb9cb1320aee19bf14498cf15988cd9263fd4618d8faaab8b6"
+      "sha256": "5e8ca5440269cb9d83efe5dc3d00e72d34298dd95476a803d24765b1e8941ca3"
     },
     {
       "name": "IBGE CNAE 2.3 subclasses",
       "url": "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses",
       "path": "data/ibge/cnae/2026-11-24_cnae-2.3-subclasses/cnae-subclasses.json",
-      "sha256": "19ff2930d5f07121324c0558cbd3ffedbd86abd2a500666b417710a6adf389dc"
+      "sha256": "6def9762f55d781eb210ee2c83963a672689deb137542e01ef5c93a31a58de35"
     },
     {
       "name": "NFS-e Anexo B, Lista de Serviço Nacional, v1.01 (2026-01-22)",
@@ -52,9 +52,11 @@
     "110401": "Armazenamento, depósito, guarda de bens de qualquer espécie.",
     "110402": "Carga, descarga, arrumação de bens de qualquer espécie.",
     "120101": "Espetáculos teatrais.",
+    "120701": "Shows, ballet, danças, desfiles, bailes, óperas, concertos, recitais, festivais e congêneres.",
     "120901": "Bilhares.",
     "120903": "Diversões eletrônicas ou não.",
     "121201": "Execução de música.",
+    "121301": "Produção, mediante ou sem encomenda prévia, de eventos, espetáculos, entrevistas, shows, ballet, danças, desfiles, bailes, teatros, óperas, concertos, recitais, festivais e congêneres.",
     "121401": "Fornecimento de música para ambientes fechados ou não, mediante transmissão por qualquer processo.",
     "121701": "Recreação e animação, inclusive em festas e eventos de qualquer natureza.",
     "130201": "Fonografia ou gravação de sons, inclusive trucagem, dublagem, mixagem e congêneres.",
@@ -140,8 +142,10 @@
       "occupations": [
         "TOSQUIADOR(A) INDEPENDENTE"
       ],
-      "ctribnac": [],
-      "reason": "Sheep shearing is a livestock service; 05.08.01 covers care and grooming in the veterinary item, not shearing.",
+      "ctribnac": [
+        "050801"
+      ],
+      "reason": "Shearing reads as grooming of animals 'e congêneres' in 05.08.01, a subitem framed around pets in the veterinary item.",
       "needs_review": true
     },
     "1340501": {
@@ -939,11 +943,12 @@
         "GESSEIRO(A) INDEPENDENTE"
       ],
       "ctribnac": [
+        "070201",
         "070202",
         "070501",
         "070602"
       ],
-      "reason": "07.06.02 names 'placas de gesso'; plaster work is also building works (07.02.02) and building repair (07.05.01).",
+      "reason": "07.06.02 names 'placas de gesso'; plaster work is also building works (07.02) and building repair (07.05.01).",
       "needs_review": false
     },
     "4330404": {
@@ -953,10 +958,11 @@
         "PINTOR(A) DE PAREDE INDEPENDENTE"
       ],
       "ctribnac": [
+        "070201",
         "070202",
         "070501"
       ],
-      "reason": "Painting buildings is building works (07.02.02) or 'reparação, conservação e reforma de edifícios' (07.05.01).",
+      "reason": "Painting buildings is building works (07.02) or 'reparação, conservação e reforma de edifícios' (07.05.01).",
       "needs_review": false
     },
     "4330405": {
@@ -970,6 +976,7 @@
         "SINTEQUEIRO(A) INDEPENDENTE"
       ],
       "ctribnac": [
+        "070201",
         "070202",
         "070501",
         "070602",
@@ -986,10 +993,12 @@
         "VIDRACEIRO DE EDIFICAÇÕES INDEPENDENTE"
       ],
       "ctribnac": [
+        "070201",
+        "070202",
         "070501",
         "070602"
       ],
-      "reason": "07.06.02 names 'vidros'; building repair is 07.05.01.",
+      "reason": "07.06.02 names 'vidros'; also building works (07.02) and building repair (07.05.01).",
       "needs_review": false
     },
     "4399103": {
@@ -1288,9 +1297,10 @@
       ],
       "ctribnac": [
         "090202",
+        "160104",
         "160201"
       ],
-      "reason": "Sightseeing boat trips are 'passeios' (09.02.02) or municipal transport (16.02.01).",
+      "reason": "Sightseeing boat trips are 'passeios' (09.02.02) or municipal waterway transport (16.01.04 for passengers, 16.02.01 otherwise).",
       "needs_review": true
     },
     "5099899": {
@@ -1691,10 +1701,9 @@
         "GUIA DE TURISMO INDEPENDENTE"
       ],
       "ctribnac": [
-        "090202",
         "090301"
       ],
-      "reason": "The occupation is tour guide, 09.03.01; the CNAE is tour operation, 09.02.02.",
+      "reason": "The only occupation is tour guide, 09.03.01; tour operation (09.02.02) is the CNAE's wider scope, not the occupation.",
       "needs_review": false
     },
     "7990200": {
@@ -1790,11 +1799,12 @@
         "PROMOTOR(A) DE EVENTOS INDEPENDENTE"
       ],
       "ctribnac": [
+        "121301",
         "171001",
         "171002",
         "171101"
       ],
-      "reason": "Organising fairs and exhibitions (17.10.01), congresses (17.10.02) and parties (17.11.01).",
+      "reason": "Organising fairs and exhibitions (17.10.01), congresses (17.10.02) and parties (17.11.01), and producing events (12.13.01).",
       "needs_review": false
     },
     "8230002": {
@@ -1982,9 +1992,10 @@
       ],
       "ctribnac": [
         "120101",
+        "120701",
         "370101"
       ],
-      "reason": "Theatre shows (12.01.01) and artists' services (37.01.01).",
+      "reason": "Theatre and comedy shows (12.01.01, 12.07.01) and artists' services (37.01.01).",
       "needs_review": false
     },
     "9001902": {
@@ -1994,10 +2005,11 @@
         "CANTOR(A)/MÚSICO(A) INDEPENDENTE"
       ],
       "ctribnac": [
+        "120701",
         "121201",
         "370101"
       ],
-      "reason": "Performing music (12.12.01) and artists' services (37.01.01).",
+      "reason": "Shows and concerts (12.07.01), performing music (12.12.01) and artists' services (37.01.01).",
       "needs_review": false
     },
     "9001906": {
