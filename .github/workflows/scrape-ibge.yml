@@ -1,0 +1,45 @@
+name: scrape-ibge
+
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: scrape-data-source
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      DATA_SOURCE_LOG_LEVEL: INFO
+      DATA_SOURCE_TIMEOUT_S: "120"
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+
+      - name: Install Poetry
+        run: pipx install poetry
+
+      - name: Install deps
+        run: poetry install --no-interaction --no-ansi --only main
+
+      - name: Scrape IBGE CNAE 2.3 subclasses
+        run: poetry run data-source scrape ibge/cnae --out ./data
+
+      - name: Commit new files as stackin-bot
+        run: .github/scripts/commit-data.sh ibge/cnae
+
+      - name: Alert Discord on failure
+        if: failure()
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: .github/scripts/notify-failure.sh
