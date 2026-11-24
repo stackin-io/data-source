@@ -1,3 +1,4 @@
+import hashlib
 import json
 import unittest
 from pathlib import Path
@@ -49,8 +50,11 @@ class TestHeader(unittest.TestCase):
     def test_sources_are_mirrored_here(self):
         self.assertEqual(set(SOURCES), {"rfb", "ibge", "nfse"})
         for source in CURATED["sources"]:
-            self.assertTrue((ROOT / source["path"]).is_file(), source["path"])
-            self.assertEqual(len(source["sha256"]), 64)
+            path = ROOT / source["path"]
+            self.assertTrue(path.is_file(), source["path"])
+            self.assertEqual(
+                source["sha256"], hashlib.sha256(path.read_bytes()).hexdigest(), source["path"]
+            )
 
 
 class TestEntries(unittest.TestCase):
