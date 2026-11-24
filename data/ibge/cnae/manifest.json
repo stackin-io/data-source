@@ -2,9 +2,9 @@
   "context": "ibge/cnae",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/ibge/cnae",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/ibge/cnae",
-  "generated_at": "2026-11-24T02:03:19+00:00",
-  "started_at": "2026-11-24T02:03:16+00:00",
-  "duration_s": 2.52,
+  "generated_at": "2026-11-24T02:37:51+00:00",
+  "started_at": "2026-11-24T02:37:47+00:00",
+  "duration_s": 3.38,
   "totals": {
     "discovered": 1,
     "persisted": 0,
