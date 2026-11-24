@@ -1,0 +1,2363 @@
+{
+  "curated": true,
+  "official": false,
+  "scope": "MEI occupations of Anexo XI with ISS = S, one entry per CNAE subclass",
+  "reviewed_at": "2026-11-23",
+  "notes": "Curated by Stackin, not official: no public body publishes a CNAE to cTribNac correlation. Each CNAE subclass lists the national service codes (cTribNac, LC 116 subitem plus national desdobro) whose description covers the service of the occupations that use it. An empty list means no code describes it clearly. needs_review marks the links that rest on a reading of the LC 116 text rather than on an explicit mention. Not reviewed by an accountant yet.",
+  "sources": [
+    {
+      "name": "Anexo XI da Resolução CGSN nº 140/2018 (ocupações permitidas ao MEI)",
+      "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Arquivos/manual/Anexo_XI.pdf",
+      "path": "data/rfb/mei-ocupacoes/2026-03-06_anexo-xi-cgsn-140/anexo-xi.json",
+      "last_modified": "Fri, 06 Mar 2026 20:58:44 GMT",
+      "sha256": "cb3845804f3c14cb9cb1320aee19bf14498cf15988cd9263fd4618d8faaab8b6"
+    },
+    {
+      "name": "IBGE CNAE 2.3 subclasses",
+      "url": "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses",
+      "path": "data/ibge/cnae/2026-11-24_cnae-2.3-subclasses/cnae-subclasses.json",
+      "sha256": "19ff2930d5f07121324c0558cbd3ffedbd86abd2a500666b417710a6adf389dc"
+    },
+    {
+      "name": "NFS-e Anexo B, Lista de Serviço Nacional, v1.01 (2026-01-22)",
+      "path": "data/nfse/2026-01-22_anexob-nbs2-listaserviconacional-snnfse-v1.01-20260122/anexo_b-nbs2-lista_servico_nacional-snnfse-v1-01-20260122.xlsx",
+      "sheet": "LISTA.SERV.NAC.",
+      "sha256": "e74b0be8ad204e458932efb1716225a3fb5703a84e5475ce5c4c6789d1c61b1a"
+    }
+  ],
+  "ctribnac": {
+    "030301": "Exploração de salões de festas, centro de convenções, stands e congêneres, para realização de eventos ou negócios de qualquer natureza.",
+    "030501": "Cessão de andaimes, palcos, coberturas e outras estruturas de uso temporário.",
+    "050801": "Guarda, tratamento, amestramento, embelezamento, alojamento e congêneres.",
+    "060101": "Barbearia, cabeleireiros, manicuros, pedicuros e congêneres.",
+    "060201": "Esteticistas, tratamento de pele, depilação e congêneres.",
+    "060601": "Aplicação de tatuagens, piercings e congêneres.",
+    "070201": "Execução, por administração, de obras de construção civil, hidráulica ou elétrica e de outras obras semelhantes, inclusive sondagem, perfuração de poços, escavação, drenagem e irrigação, terraplanagem, pavimentação, concretagem e a instalação e montagem de produtos, peças e equipamentos (exceto o fornecimento de mercadorias produzidas pelo prestador de serviços fora do local da prestação dos serviços, que fica sujeito ao ICMS).",
+    "070202": "Execução, por empreitada ou subempreitada, de obras de construção civil, hidráulica ou elétrica e de outras obras semelhantes, inclusive sondagem, perfuração de poços, escavação, drenagem e irrigação, terraplanagem, pavimentação, concretagem e a instalação e montagem de produtos, peças e equipamentos (exceto o fornecimento de mercadorias produzidas pelo prestador de serviços fora do local da prestação dos serviços, que fica sujeito ao ICMS).",
+    "070501": "Reparação, conservação e reforma de edifícios e congêneres (exceto o fornecimento de mercadorias produzidas pelo prestador dos serviços, fora do local da prestação dos serviços, que fica sujeito ao ICMS).",
+    "070602": "Colocação e instalação de assoalhos, revestimentos de parede, vidros, divisórias, placas de gesso e congêneres, com material fornecido pelo tomador do serviço.",
+    "070701": "Recuperação, raspagem, polimento e lustração de pisos e congêneres.",
+    "070801": "Calafetação.",
+    "070901": "Varrição, coleta e remoção de lixo, rejeitos e outros resíduos quaisquer.",
+    "070902": "Incineração, tratamento, reciclagem, separação e destinação final de lixo, rejeitos e outros resíduos quaisquer.",
+    "071002": "Limpeza, manutenção e conservação de imóveis, chaminés, piscinas e congêneres.",
+    "071102": "Jardinagem, inclusive corte e poda de árvores.",
+    "071601": "Florestamento, reflorestamento, semeadura, adubação, reparação de solo, plantio, silagem, colheita, corte e descascamento de árvores, silvicultura, exploração florestal e dos serviços congêneres indissociáveis da formação, manutenção e colheita de florestas, para quaisquer fins e por quaisquer meios.",
+    "080201": "Instrução, treinamento, orientação pedagógica e educacional, avaliação de conhecimentos de qualquer natureza.",
+    "090102": "Hospedagem em pensões, albergues, pousadas, hospedarias, ocupação por temporada com fornecimento de serviços e congêneres (o valor da alimentação e gorjeta, quando incluído no preço da diária, fica sujeito ao Imposto Sobre Serviços).",
+    "090201": "Agenciamento e intermediação de programas de turismo, passeios, viagens, excursões, hospedagens e congêneres.",
+    "090202": "Organização, promoção e execução de programas de turismo, passeios, viagens, excursões, hospedagens e congêneres.",
+    "090301": "Guias de turismo.",
+    "110101": "Guarda e estacionamento de veículos terrestres automotores.",
+    "110401": "Armazenamento, depósito, guarda de bens de qualquer espécie.",
+    "110402": "Carga, descarga, arrumação de bens de qualquer espécie.",
+    "120101": "Espetáculos teatrais.",
+    "120901": "Bilhares.",
+    "120903": "Diversões eletrônicas ou não.",
+    "121201": "Execução de música.",
+    "121401": "Fornecimento de música para ambientes fechados ou não, mediante transmissão por qualquer processo.",
+    "121701": "Recreação e animação, inclusive em festas e eventos de qualquer natureza.",
+    "130201": "Fonografia ou gravação de sons, inclusive trucagem, dublagem, mixagem e congêneres.",
+    "130301": "Fotografia e cinematografia, inclusive revelação, ampliação, cópia, reprodução, trucagem e congêneres.",
+    "130401": "Reprografia, microfilmagem e digitalização.",
+    "130501": "Composição gráfica, inclusive confecção de impressos gráficos, fotocomposição, clicheria, zincografia, litografia e fotolitografia, exceto se destinados a posterior operação de comercialização ou industrialização, ainda que incorporados, de qualquer forma, a outra mercadoria que deva ser objeto de posterior circulação, tais como bulas, rótulos, etiquetas, caixas, cartuchos, embalagens e manuais técnicos e de instrução, quando ficarão sujeitos ao ICMS.",
+    "140101": "Lubrificação, limpeza, lustração, revisão, carga e recarga, conserto, restauração, blindagem, manutenção e conservação de máquinas, veículos, aparelhos, equipamentos, motores, elevadores ou de qualquer objeto (exceto peças e partes empregadas, que ficam sujeitas ao ICMS).",
+    "140201": "Assistência técnica.",
+    "140301": "Recondicionamento de motores (exceto peças e partes empregadas, que ficam sujeitas ao ICMS).",
+    "140501": "Restauração, recondicionamento, acondicionamento, pintura, beneficiamento, lavagem, secagem, tingimento, galvanoplastia, anodização, corte, recorte, plastificação, costura, acabamento, polimento e congêneres de objetos quaisquer.",
+    "140601": "Instalação e montagem de aparelhos, máquinas e equipamentos, inclusive montagem industrial, prestados ao usuário final, exclusivamente com material por ele fornecido.",
+    "140801": "Encadernação, gravação e douração de livros, revistas e congêneres.",
+    "140901": "Alfaiataria e costura, quando o material for fornecido pelo usuário final, exceto aviamento.",
+    "141001": "Tinturaria e lavanderia.",
+    "141101": "Tapeçaria e reforma de estofamentos em geral.",
+    "141201": "Funilaria e lanternagem.",
+    "141301": "Carpintaria.",
+    "141302": "Serralheria.",
+    "141401": "Guincho intramunicipal.",
+    "160101": "Serviços de transporte coletivo municipal rodoviário de passageiros.",
+    "160104": "Serviços de transporte coletivo municipal aquaviário de passageiros.",
+    "160201": "Outros serviços de transporte de natureza municipal.",
+    "170102": "Análise, exame, pesquisa, coleta, compilação e fornecimento de dados e informações de qualquer natureza, inclusive cadastro e similares.",
+    "170201": "Datilografia, digitação, estenografia e congêneres.",
+    "170204": "Redação, edição, revisão e congêneres.",
+    "170601": "Propaganda e publicidade, inclusive promoção de vendas, planejamento de campanhas ou sistemas de publicidade, elaboração de desenhos, textos e demais materiais publicitários.",
+    "171001": "Planejamento, organização e administração de feiras, exposições, e congêneres.",
+    "171002": "Planejamento, organização e administração de congressos e congêneres.",
+    "171101": "Organização de festas e recepções.",
+    "171102": "Bufê (exceto o fornecimento de alimentação e bebidas, que fica sujeito ao ICMS).",
+    "172201": "Cobrança em geral.",
+    "172501": "Inserção de textos, desenhos e outros materiais de propaganda e publicidade, em qualquer meio (exceto em livros, jornais, periódicos e nas modalidades de serviços de radiodifusão sonora e de sons e imagens de recepção livre e gratuita).",
+    "230101": "Serviços de programação e comunicação visual e congêneres.",
+    "240101": "Serviços de chaveiros, confecção de carimbos e congêneres.",
+    "240102": "Serviços de placas, sinalização visual, banners, adesivos e congêneres.",
+    "250101": "Funerais, inclusive fornecimento de caixão, urna ou esquifes; aluguel de capela; transporte do corpo cadavérico; fornecimento de flores, coroas e outros paramentos; desembaraço de certidão de óbito; fornecimento de véu, essa e outros adornos; embalsamento, embelezamento, conservação ou restauração de cadáveres.",
+    "260101": "Serviços de coleta, remessa ou entrega de correspondências, documentos, objetos, bens ou valores, inclusive pelos correios e suas agências franqueadas.",
+    "260102": "Serviços de courrier e congêneres.",
+    "370101": "Serviços de artistas, atletas, modelos e manequins.",
+    "390101": "Serviços de ourivesaria e lapidação (quando o material for fornecido pelo tomador do serviço)."
+  },
+  "entries": {
+    "0159801": {
+      "formatted": "0159-8/01",
+      "cnae_description": "APICULTURA",
+      "occupations": [
+        "APICULTOR(A) INDEPENDENTE"
+      ],
+      "ctribnac": [],
+      "reason": "Beekeeping is primary production; no LC 116 subitem describes it.",
+      "needs_review": true
+    },
+    "0161002": {
+      "formatted": "0161-0/02",
+      "cnae_description": "SERVIÇO DE PODA DE ÁRVORES PARA LAVOURAS",
+      "occupations": [
+        "PRESTADOR(A) DE SERVIÇOS DE PODA SOB CONTRATO DE EMPREITADA INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "071102"
+      ],
+      "reason": "07.11.02 names tree cutting and pruning ('corte e poda de árvores'); LC 116 has no subitem for crop services as such.",
+      "needs_review": true
+    },
+    "0161003": {
+      "formatted": "0161-0/03",
+      "cnae_description": "SERVIÇO DE PREPARAÇÃO DE TERRENO, CULTIVO E COLHEITA",
+      "occupations": [
+        "PRESTADOR(A) DE SERVIÇOS DE COLHEITA SOB CONTRATO DE EMPREITADA INDEPENDENTE",
+        "PRESTADOR(A) DE SERVIÇOS DE PREPARAÇÃO DE TERRENOS SOB CONTRATO DE EMPREITADA INDEPENDENTE",
+        "PRESTADOR(A) DE SERVIÇOS DE ROÇAGEM, DESTOCAMENTO, LAVRAÇÃO, GRADAGEM E SULCAMENTO SOB CONTRATO DE EMPREITADA INDEPENDENTE",
+        "PRESTADOR(A) DE SERVIÇOS DE SEMEADURA SOB CONTRATO DE EMPREITADA INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "071601"
+      ],
+      "reason": "07.16.01 lists sowing, soil repair, planting, silage and harvesting ('semeadura, adubação, reparação de solo, plantio, silagem, colheita'), though the subitem is framed around forests.",
+      "needs_review": true
+    },
+    "0162802": {
+      "formatted": "0162-8/02",
+      "cnae_description": "SERVIÇO DE TOSQUIAMENTO DE OVINOS",
+      "occupations": [
+        "TOSQUIADOR(A) INDEPENDENTE"
+      ],
+      "ctribnac": [],
+      "reason": "Sheep shearing is a livestock service; 05.08.01 covers care and grooming in the veterinary item, not shearing.",
+      "needs_review": true
+    },
+    "1340501": {
+      "formatted": "1340-5/01",
+      "cnae_description": "ESTAMPARIA E TEXTURIZAÇÃO EM FIOS, TECIDOS, ARTEFATOS TÊXTEIS E PEÇAS DO VESTUÁRIO",
+      "occupations": [
+        "ESTAMPADOR(A) DE PEÇAS DO VESTUÁRIO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140501"
+      ],
+      "reason": "Printing on garments supplied by the customer is 'beneficiamento' of objects, 14.05.01.",
+      "needs_review": false
+    },
+    "1340599": {
+      "formatted": "1340-5/99",
+      "cnae_description": "OUTROS SERVIÇOS DE ACABAMENTO EM FIOS, TECIDOS, ARTEFATOS TÊXTEIS E PEÇAS DO VESTUÁRIO",
+      "occupations": [
+        "BORDADEIRO(A) INDEPENDENTE",
+        "CUSTOMIZADOR(A) DE ROUPAS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140501"
+      ],
+      "reason": "Embroidery and customising garments are finishing and sewing of objects, 14.05.01.",
+      "needs_review": false
+    },
+    "1411802": {
+      "formatted": "1411-8/02",
+      "cnae_description": "FACÇÃO DE ROUPAS ÍNTIMAS",
+      "occupations": [
+        "FABRICANTE DE PARTES DE ROUPAS ÍNTIMAS - FACÇÃO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140501"
+      ],
+      "reason": "Facção is sewing on the contractor's material, 'costura' in 14.05.01.",
+      "needs_review": false
+    },
+    "1412601": {
+      "formatted": "1412-6/01",
+      "cnae_description": "CONFECÇÃO DE PEÇAS DE VESTUÁRIO, EXCETO ROUPAS ÍNTIMAS E AS CONFECCIONADAS SOB MEDIDA",
+      "occupations": [
+        "COSTUREIRO(A) DE ROUPAS, EXCETO SOB MEDIDA, INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140501",
+        "140901"
+      ],
+      "reason": "Sewing on material supplied by the customer: 14.09.01 when the customer is the final user, 14.05.01 otherwise.",
+      "needs_review": false
+    },
+    "1412602": {
+      "formatted": "1412-6/02",
+      "cnae_description": "CONFECÇÃO, SOB MEDIDA, DE PEÇAS DO VESTUÁRIO, EXCETO ROUPAS ÍNTIMAS",
+      "occupations": [
+        "ALFAIATE INDEPENDENTE",
+        "COSTUREIRO(A) DE ROUPAS SOB MEDIDA INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140901"
+      ],
+      "reason": "Made-to-measure tailoring with the customer's material is 'alfaiataria e costura', 14.09.01.",
+      "needs_review": false
+    },
+    "1412603": {
+      "formatted": "1412-6/03",
+      "cnae_description": "FACÇÃO DE PEÇAS DO VESTUÁRIO, EXCETO ROUPAS ÍNTIMAS",
+      "occupations": [
+        "FABRICANTE DE PARTES DE PEÇAS DO VESTUÁRIO - FACÇÃO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140501"
+      ],
+      "reason": "Facção is sewing on the contractor's material, 'costura' in 14.05.01.",
+      "needs_review": false
+    },
+    "1413403": {
+      "formatted": "1413-4/03",
+      "cnae_description": "FACÇÃO DE ROUPAS PROFISSIONAIS",
+      "occupations": [
+        "FABRICANTE DE PARTES DE ROUPAS PROFISSIONAIS - FACÇÃO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140501"
+      ],
+      "reason": "Facção is sewing on the contractor's material, 'costura' in 14.05.01.",
+      "needs_review": false
+    },
+    "1531902": {
+      "formatted": "1531-9/02",
+      "cnae_description": "ACABAMENTO DE CALÇADOS DE COURO SOB CONTRATO",
+      "occupations": [
+        "ACABADOR(A) DE CALÇADOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140501"
+      ],
+      "reason": "Finishing footwear under contract is 'acabamento' of objects, 14.05.01.",
+      "needs_review": false
+    },
+    "1540800": {
+      "formatted": "1540-8/00",
+      "cnae_description": "FABRICAÇÃO DE PARTES PARA CALÇADOS, DE QUALQUER MATERIAL",
+      "occupations": [
+        "FABRICANTE DE PARTES PARA CALÇADOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140501"
+      ],
+      "reason": "Making shoe parts on order reads as cutting, sewing and finishing of the contractor's material, 14.05.01.",
+      "needs_review": true
+    },
+    "1813001": {
+      "formatted": "1813-0/01",
+      "cnae_description": "IMPRESSÃO DE MATERIAL PARA USO PUBLICITÁRIO",
+      "occupations": [
+        "SERIGRAFISTA PUBLICITÁRIO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "130501"
+      ],
+      "reason": "Screen printing of advertising material is 'confecção de impressos gráficos', 13.05.01.",
+      "needs_review": false
+    },
+    "1813099": {
+      "formatted": "1813-0/99",
+      "cnae_description": "IMPRESSÃO DE MATERIAL PARA OUTROS USOS",
+      "occupations": [
+        "SERIGRAFISTA INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "130501"
+      ],
+      "reason": "Screen printing is 'confecção de impressos gráficos', 13.05.01.",
+      "needs_review": false
+    },
+    "1821100": {
+      "formatted": "1821-1/00",
+      "cnae_description": "SERVIÇOS DE PRÉ IMPRESSÃO",
+      "occupations": [
+        "CLICHERISTA INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "130501"
+      ],
+      "reason": "13.05.01 names 'clicheria' and the other pre-press work.",
+      "needs_review": false
+    },
+    "1822901": {
+      "formatted": "1822-9/01",
+      "cnae_description": "SERVIÇOS DE ENCADERNAÇÃO E PLASTIFICAÇÃO",
+      "occupations": [
+        "ENCADERNADOR(A)/PLASTIFICADOR(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140501",
+        "140801"
+      ],
+      "reason": "Binding is 14.08.01; laminating is 'plastificação' in 14.05.01.",
+      "needs_review": false
+    },
+    "2391503": {
+      "formatted": "2391-5/03",
+      "cnae_description": "APARELHAMENTO DE PLACAS E EXECUÇÃO DE TRABALHOS EM MÁRMORE, GRANITO, ARDÓSIA E OUTRAS PEDRAS",
+      "occupations": [
+        "ARTESÃO(Ã) EM MÁRMORE, GRANITO, ARDÓSIA E OUTRAS PEDRAS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140501"
+      ],
+      "reason": "Cutting and polishing stone supplied by the customer reads as 14.05.01 ('corte, recorte, polimento').",
+      "needs_review": true
+    },
+    "2399101": {
+      "formatted": "2399-1/01",
+      "cnae_description": "DECORAÇÃO, LAPIDAÇÃO, GRAVAÇÃO, VITRIFICAÇÃO E OUTROS TRABALHOS EM CERÂMICA, LOUÇA, VIDRO E CRISTAL",
+      "occupations": [
+        "ARTESÃO(Ã) EM LOUÇAS, VIDRO E CRISTAL INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140501"
+      ],
+      "reason": "Decorating, engraving and polishing ceramics and glass of the customer reads as 14.05.01.",
+      "needs_review": true
+    },
+    "2512800": {
+      "formatted": "2512-8/00",
+      "cnae_description": "FABRICAÇÃO DE ESQUADRIAS DE METAL",
+      "occupations": [
+        "FABRICANTE DE ESQUADRIAS METÁLICAS, SOB ENCOMENDA OU NÃO, INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "141302"
+      ],
+      "reason": "Metal window and door frames made to order are 'serralheria', 14.13.02.",
+      "needs_review": false
+    },
+    "2532201": {
+      "formatted": "2532-2/01",
+      "cnae_description": "PRODUÇÃO DE ARTEFATOS ESTAMPADOS DE METAL",
+      "occupations": [
+        "FABRICANTE DE ARTEFATOS ESTAMPADOS DE METAL, SOB ENCOMENDA OU NÃO, INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140501"
+      ],
+      "reason": "Stamping metal parts to order reads as cutting and finishing of objects, 14.05.01.",
+      "needs_review": true
+    },
+    "2539001": {
+      "formatted": "2539-0/01",
+      "cnae_description": "SERVIÇOS DE USINAGEM, TORNEARIA E SOLDA",
+      "occupations": [
+        "SOLDADOR(A)/BRASADOR(A) INDEPENDENTE",
+        "TORNEIRO(A) MECÂNICO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140501"
+      ],
+      "reason": "Welding repairs are 'conserto' (14.01.01); machining and turning to order are cutting and finishing (14.05.01).",
+      "needs_review": true
+    },
+    "2539002": {
+      "formatted": "2539-0/02",
+      "cnae_description": "SERVIÇOS DE TRATAMENTO E REVESTIMENTO EM METAIS",
+      "occupations": [
+        "GALVANIZADOR(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140501"
+      ],
+      "reason": "14.05.01 names 'galvanoplastia' and 'anodização'.",
+      "needs_review": false
+    },
+    "2542000": {
+      "formatted": "2542-0/00",
+      "cnae_description": "FABRICAÇÃO DE ARTIGOS DE SERRALHERIA, EXCETO ESQUADRIAS",
+      "occupations": [
+        "SERRALHEIRO(A), EXCETO PARA ESQUADRIAS, SOB ENCOMENDA OU NÃO, INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "141302"
+      ],
+      "reason": "Metalwork is 'serralheria', 14.13.02.",
+      "needs_review": false
+    },
+    "2599301": {
+      "formatted": "2599-3/01",
+      "cnae_description": "SERVIÇOS DE CONFECÇÃO DE ARMAÇÕES METÁLICAS PARA A CONSTRUÇÃO",
+      "occupations": [
+        "ARMADOR(A) DE FERRAGENS NA CONSTRUÇÃO CIVIL INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "070201",
+        "070202"
+      ],
+      "reason": "Rebar for construction is part of the works in 07.02 ('concretagem').",
+      "needs_review": true
+    },
+    "2950600": {
+      "formatted": "2950-6/00",
+      "cnae_description": "RECONDICIONAMENTO E RECUPERAÇÃO DE MOTORES PARA VEÍCULOS AUTOMOTORES",
+      "occupations": [
+        "RETIFICADOR(A) DE MOTORES PARA VEÍCULOS AUTOMOTORES INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140301"
+      ],
+      "reason": "14.03.01 is engine reconditioning.",
+      "needs_review": false
+    },
+    "3101200": {
+      "formatted": "3101-2/00",
+      "cnae_description": "FABRICAÇÃO DE MÓVEIS COM PREDOMINÂNCIA DE MADEIRA",
+      "occupations": [
+        "MARCENEIRO(A) SOB ENCOMENDA OU NÃO, INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "141301"
+      ],
+      "reason": "Furniture made to order by a joiner reads as 'carpintaria', 14.13.01.",
+      "needs_review": true
+    },
+    "3211601": {
+      "formatted": "3211-6/01",
+      "cnae_description": "LAPIDAÇÃO DE GEMAS",
+      "occupations": [
+        "LAPIDADOR(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "390101"
+      ],
+      "reason": "39.01.01 is 'ourivesaria e lapidação' with the customer's material.",
+      "needs_review": false
+    },
+    "3299003": {
+      "formatted": "3299-0/03",
+      "cnae_description": "FABRICAÇÃO DE LETRAS, LETREIROS E PLACAS DE QUALQUER MATERIAL, EXCETO LUMINOSOS",
+      "occupations": [
+        "FABRICANTE DE LETREIROS, PLACAS E PAINÉIS NÃO LUMINOSOS, SOB ENCOMENDA OU NÃO, INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "240102"
+      ],
+      "reason": "Signs and plates are 'placas, sinalização visual', 24.01.02.",
+      "needs_review": false
+    },
+    "3311200": {
+      "formatted": "3311-2/00",
+      "cnae_description": "MANUTENÇÃO E REPARAÇÃO DE TANQUES, RESERVATÓRIOS METÁLICOS E CALDEIRAS, EXCETO PARA VEÍCULOS",
+      "occupations": [
+        "REPARADOR(A) DE TANQUES, RESERVATÓRIOS METÁLICOS E CALDEIRAS, EXCETO PARA VEÍCULOS, INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Repair and maintenance of equipment: 14.01.01 and technical assistance 14.02.01.",
+      "needs_review": false
+    },
+    "3313901": {
+      "formatted": "3313-9/01",
+      "cnae_description": "MANUTENÇÃO E REPARAÇÃO DE GERADORES, TRANSFORMADORES E MOTORES ELÉTRICOS",
+      "occupations": [
+        "REPARADOR(A) DE GERADORES, TRANSFORMADORES E MOTORES ELÉTRICOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Repair and maintenance of equipment: 14.01.01 and technical assistance 14.02.01.",
+      "needs_review": false
+    },
+    "3313902": {
+      "formatted": "3313-9/02",
+      "cnae_description": "MANUTENÇÃO E REPARAÇÃO DE BATERIAS E ACUMULADORES ELÉTRICOS, EXCETO PARA VEÍCULOS",
+      "occupations": [
+        "REPARADOR(A) DE BATERIAS E ACUMULADORES ELÉTRICOS, EXCETO PARA VEÍCULOS, INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Repair and maintenance of equipment, including 'carga e recarga': 14.01.01 and 14.02.01.",
+      "needs_review": false
+    },
+    "3313999": {
+      "formatted": "3313-9/99",
+      "cnae_description": "MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS, APARELHOS E MATERIAIS ELÉTRICOS NÃO ESPECIFICADOS ANTERIORMENTE",
+      "occupations": [
+        "REPARADOR(A) DE APARELHOS E EQUIPAMENTOS PARA DISTRIBUIÇÃO E CONTROLE DE ENERGIA ELÉTRICA INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Repair and maintenance of equipment: 14.01.01 and technical assistance 14.02.01.",
+      "needs_review": false
+    },
+    "3314701": {
+      "formatted": "3314-7/01",
+      "cnae_description": "MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS MOTRIZES NÃO ELÉTRICAS",
+      "occupations": [
+        "REPARADOR(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Repair and maintenance of machines: 14.01.01 and technical assistance 14.02.01.",
+      "needs_review": false
+    },
+    "3314702": {
+      "formatted": "3314-7/02",
+      "cnae_description": "MANUTENÇÃO E REPARAÇÃO DE EQUIPAMENTOS HIDRÁULICOS E PNEUMÁTICOS, EXCETO VÁLVULAS",
+      "occupations": [
+        "REPARADOR(A) DE EQUIPAMENTOS HIDRÁULICOS E PNEUMÁTICOS, EXCETO VÁLVULAS, INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Repair and maintenance of equipment: 14.01.01 and technical assistance 14.02.01.",
+      "needs_review": false
+    },
+    "3314706": {
+      "formatted": "3314-7/06",
+      "cnae_description": "MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS, APARELHOS E EQUIPAMENTOS PARA INSTALAÇÕES TÉRMICAS",
+      "occupations": [
+        "REPARADOR(A) DE MÁQUINAS, APARELHOS E EQUIPAMENTOS PARA INSTALAÇÕES TÉRMICAS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Repair and maintenance of equipment: 14.01.01 and technical assistance 14.02.01.",
+      "needs_review": false
+    },
+    "3314707": {
+      "formatted": "3314-7/07",
+      "cnae_description": "MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E APARELHOS DE REFRIGERAÇÃO E VENTILAÇÃO PARA USO INDUSTRIAL E COMERCIAL",
+      "occupations": [
+        "REPARADOR(A) DE MÁQUINAS E APARELHOS DE REFRIGERAÇÃO E VENTILAÇÃO PARA USO INDUSTRIAL E COMERCIAL INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Repair and maintenance of equipment: 14.01.01 and technical assistance 14.02.01.",
+      "needs_review": false
+    },
+    "3314709": {
+      "formatted": "3314-7/09",
+      "cnae_description": "MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS DE ESCREVER, CALCULAR E DE OUTROS EQUIPAMENTOS NÃO ELETRÔNICOS PARA ESCRITÓRIO",
+      "occupations": [
+        "REPARADOR(A) DE MÁQUINAS DE ESCREVER, CALCULAR E DE OUTROS EQUIPAMENTOS NÃO ELETRÔNICOS PARA ESCRITÓRIO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Repair and maintenance of equipment: 14.01.01 and technical assistance 14.02.01.",
+      "needs_review": false
+    },
+    "3314710": {
+      "formatted": "3314-7/10",
+      "cnae_description": "MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS PARA USO GERAL NÃO ESPECIFICADOS ANTERIORMENTE",
+      "occupations": [
+        "REPARADOR(A) DE BALANÇAS INDUSTRIAIS E COMERCIAIS INDEPENDENTE",
+        "REPARADOR(A) DE EXTINTOR DE INCÊNDIO INDEPENDENTE",
+        "REPARADOR(A) DE FILTROS INDUSTRIAIS INDEPENDENTE",
+        "REPARADOR(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Repair and maintenance of equipment: 14.01.01 and technical assistance 14.02.01.",
+      "needs_review": false
+    },
+    "3314711": {
+      "formatted": "3314-7/11",
+      "cnae_description": "MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS PARA AGRICULTURA E PECUÁRIA",
+      "occupations": [
+        "REPARADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA AGRICULTURA E PECUÁRIA INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Repair and maintenance of machines: 14.01.01 and technical assistance 14.02.01.",
+      "needs_review": false
+    },
+    "3314712": {
+      "formatted": "3314-7/12",
+      "cnae_description": "MANUTENÇÃO E REPARAÇÃO DE TRATORES AGRÍCOLAS",
+      "occupations": [
+        "REPARADOR(A) DE TRATORES AGRÍCOLAS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Repair and maintenance of tractors: 14.01.01 and technical assistance 14.02.01.",
+      "needs_review": false
+    },
+    "3314719": {
+      "formatted": "3314-7/19",
+      "cnae_description": "MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS PARA AS INDÚSTRIAS DE ALIMENTOS, BEBIDAS E FUMO",
+      "occupations": [
+        "REPARADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA AS INDÚSTRIAS DE ALIMENTOS, BEBIDAS E FUMO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Repair and maintenance of machines: 14.01.01 and technical assistance 14.02.01.",
+      "needs_review": false
+    },
+    "3314720": {
+      "formatted": "3314-7/20",
+      "cnae_description": "MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS PARA A INDÚSTRIA TÊXTIL, DO VESTUÁRIO, DO COURO E CALÇADOS",
+      "occupations": [
+        "REPARADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA A INDÚSTRIA TÊXTIL, DO VESTUÁRIO, DO COURO E CALÇADOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Repair and maintenance of machines: 14.01.01 and technical assistance 14.02.01.",
+      "needs_review": false
+    },
+    "3314799": {
+      "formatted": "3314-7/99",
+      "cnae_description": "MANUTENÇÃO E REPARAÇÃO DE OUTRAS MÁQUINAS E EQUIPAMENTOS PARA USOS INDUSTRIAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+      "occupations": [
+        "REPARADOR(A) DE MÁQUINAS GRÁFICA INDEPENDENTE",
+        "REPARADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA A INDÚSTRIA DA MADEIRA INDEPENDENTE",
+        "REPARADOR(A) DE MÁQUINAS PARA ENCADERNAÇÃO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Repair and maintenance of machines: 14.01.01 and technical assistance 14.02.01.",
+      "needs_review": false
+    },
+    "3317102": {
+      "formatted": "3317-1/02",
+      "cnae_description": "MANUTENÇÃO E REPARAÇÃO DE EMBARCAÇÕES PARA ESPORTE E LAZER",
+      "occupations": [
+        "REPARADOR(A) DE EMBARCAÇÕES PARA ESPORTE E LAZER INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Repair and maintenance of boats: 14.01.01 and technical assistance 14.02.01.",
+      "needs_review": false
+    },
+    "3319800": {
+      "formatted": "3319-8/00",
+      "cnae_description": "MANUTENÇÃO E REPARAÇÃO DE EQUIPAMENTOS E PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE",
+      "occupations": [
+        "REPARADOR(A) DE CORDAS, VELAMES E LONAS INDEPENDENTE",
+        "REPARADOR(A) DE EQUIPAMENTOS MÉDICO-HOSPITALARES NÃO ELETRÔNICOS INDEPENDENTE",
+        "REPARADOR(A) DE TONÉIS, BARRIS E PALETES DE MADEIRA INDEPENDENTE",
+        "REPARADOR(A) DE VEÍCULOS DE TRAÇÃO ANIMAL INDEPENDENTE",
+        "RESTAURADOR(A) DE INSTRUMENTOS MUSICAIS HISTÓRICOS INDEPENDENTE",
+        "RESTAURADOR(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201",
+        "140501"
+      ],
+      "reason": "Repair is 14.01.01 and 14.02.01; the restorers fit 'restauração' of objects, 14.05.01.",
+      "needs_review": false
+    },
+    "3321000": {
+      "formatted": "3321-0/00",
+      "cnae_description": "INSTALAÇÃO DE MÁQUINAS E EQUIPAMENTOS INDUSTRIAIS",
+      "occupations": [
+        "INSTALADOR(A) DE MÁQUINAS E EQUIPAMENTOS INDUSTRIAIS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140601"
+      ],
+      "reason": "14.06.01 is installation and assembly of machines, 'inclusive montagem industrial'.",
+      "needs_review": false
+    },
+    "3329501": {
+      "formatted": "3329-5/01",
+      "cnae_description": "SERVIÇOS DE MONTAGEM DE MÓVEIS DE QUALQUER MATERIAL",
+      "occupations": [
+        "MONTADOR(A) DE MÓVEIS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140601"
+      ],
+      "reason": "Furniture assembly is usually issued under 14.06.01 (installation and assembly), whose text names apparatus, machines and equipment rather than furniture.",
+      "needs_review": true
+    },
+    "3600602": {
+      "formatted": "3600-6/02",
+      "cnae_description": "DISTRIBUIÇÃO DE ÁGUA POR CAMINHÕES",
+      "occupations": [
+        "DISTRIBUIDOR(A) DE ÁGUA POTÁVEL EM CAMINHÃO PIPA INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "160201"
+      ],
+      "reason": "Water delivered by truck inside the municipality reads as municipal transport, 16.02.01; LC 116 has no water supply subitem.",
+      "needs_review": true
+    },
+    "3702900": {
+      "formatted": "3702-9/00",
+      "cnae_description": "ATIVIDADES RELACIONADAS A ESGOTO, EXCETO A GESTÃO DE REDES",
+      "occupations": [
+        "FOSSEIRO (LIMPADOR DE FOSSA) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "070901"
+      ],
+      "reason": "Emptying septic tanks is removal of waste ('coleta e remoção de ... rejeitos'), 07.09.01.",
+      "needs_review": false
+    },
+    "3811400": {
+      "formatted": "3811-4/00",
+      "cnae_description": "COLETA DE RESÍDUOS NÃO PERIGOSOS",
+      "occupations": [
+        "CARROCEIRO - COLETA DE ENTULHOS E RESÍDUOS INDEPENDENTE",
+        "COLETOR DE RESÍDUOS NÃO-PERIGOSOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "070901"
+      ],
+      "reason": "07.09.01 is collection and removal of waste.",
+      "needs_review": false
+    },
+    "3831901": {
+      "formatted": "3831-9/01",
+      "cnae_description": "RECUPERAÇÃO DE SUCATAS DE ALUMÍNIO",
+      "occupations": [
+        "RECICLADOR (A) DE SUCATAS DE ALUMÍNIO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "070902"
+      ],
+      "reason": "07.09.02 names recycling and separation of waste.",
+      "needs_review": false
+    },
+    "3831999": {
+      "formatted": "3831-9/99",
+      "cnae_description": "RECUPERAÇÃO DE MATERIAIS METÁLICOS, EXCETO ALUMÍNIO",
+      "occupations": [
+        "RECICLADOR (A) DE MATERIAIS METÁLICOS, EXCETO ALUMÍNIO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "070902"
+      ],
+      "reason": "07.09.02 names recycling and separation of waste.",
+      "needs_review": false
+    },
+    "3832700": {
+      "formatted": "3832-7/00",
+      "cnae_description": "RECUPERAÇÃO DE MATERIAIS PLÁSTICOS",
+      "occupations": [
+        "RECICLADOR (A) DE MATERIAIS PLÁSTICOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "070902"
+      ],
+      "reason": "07.09.02 names recycling and separation of waste.",
+      "needs_review": false
+    },
+    "3839499": {
+      "formatted": "3839-4/99",
+      "cnae_description": "RECUPERAÇÃO DE MATERIAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+      "occupations": [
+        "RECICLADOR(A) DE BORRACHA, MADEIRA, PAPEL E VIDRO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "070902"
+      ],
+      "reason": "07.09.02 names recycling and separation of waste.",
+      "needs_review": false
+    },
+    "4321500": {
+      "formatted": "4321-5/00",
+      "cnae_description": "INSTALAÇÃO E MANUTENÇÃO ELÉTRICA",
+      "occupations": [
+        "ELETRICISTA EM RESIDÊNCIAS E ESTABELECIMENTOS COMERCIAIS INDEPENDENTE",
+        "INSTALADOR(A) DE ANTENAS DE TV INDEPENDENTE",
+        "INSTALADOR(A) DE EQUIPAMENTOS DE SEGURANÇA DOMICILIAR E EMPRESARIAL, SEM PRESTAÇÃO DE SERVIÇOS DE VIGILÂNCIA E SEGURANÇA INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "070201",
+        "070202",
+        "070501",
+        "140601"
+      ],
+      "reason": "Electrical works are 07.02 ('obras ... elétrica'), building repair 07.05.01; antennas and security equipment installed with the customer's material are 14.06.01.",
+      "needs_review": false
+    },
+    "4322301": {
+      "formatted": "4322-3/01",
+      "cnae_description": "INSTALAÇÕES HIDRÁULICAS, SANITÁRIAS E DE GÁS",
+      "occupations": [
+        "BOMBEIRO(A) HIDRÁULICO INDEPENDENTE",
+        "ENCANADOR INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "070201",
+        "070202",
+        "070501"
+      ],
+      "reason": "Plumbing and gas works are 07.02 ('obras ... hidráulica'); repairs in buildings 07.05.01.",
+      "needs_review": false
+    },
+    "4322302": {
+      "formatted": "4322-3/02",
+      "cnae_description": "INSTALAÇÃO E MANUTENÇÃO DE SISTEMAS CENTRAIS DE AR CONDICIONADO, DE VENTILAÇÃO E REFRIGERAÇÃO",
+      "occupations": [
+        "INSTALADOR(A) E REPARADOR(A) DE SISTEMAS CENTRAIS DE AR CONDICIONADO, DE VENTILAÇÃO E REFRIGERAÇÃO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201",
+        "140601"
+      ],
+      "reason": "Installing central air conditioning is 14.06.01; its maintenance 14.01.01 and 14.02.01.",
+      "needs_review": false
+    },
+    "4322303": {
+      "formatted": "4322-3/03",
+      "cnae_description": "INSTALAÇÕES DE SISTEMA DE PREVENÇÃO CONTRA INCÊNDIO",
+      "occupations": [
+        "INSTALADOR(A) DE SISTEMA DE PREVENÇÃO CONTRA INCÊNDIO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "070201",
+        "070202",
+        "140601"
+      ],
+      "reason": "Fire prevention systems are building works (07.02) or equipment installation (14.06.01).",
+      "needs_review": false
+    },
+    "4329101": {
+      "formatted": "4329-1/01",
+      "cnae_description": "INSTALAÇÃO DE PAINÉIS PUBLICITÁRIOS",
+      "occupations": [
+        "INSTALADOR(A) DE PAINÉIS PUBLICITÁRIOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140601"
+      ],
+      "reason": "Installing advertising panels reads as installation and assembly, 14.06.01.",
+      "needs_review": true
+    },
+    "4329102": {
+      "formatted": "4329-1/02",
+      "cnae_description": "INSTALAÇÃO DE EQUIPAMENTOS PARA ORIENTAÇÃO À NAVEGAÇÃO MARÍTIMA FLUVIAL E LACUSTRE",
+      "occupations": [
+        "INSTALADOR(A) DE EQUIPAMENTOS PARA ORIENTAÇÃO À NAVEGAÇÃO MARÍTIMA, FLUVIAL E LACUSTRE INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140601"
+      ],
+      "reason": "Installation and assembly of equipment, 14.06.01.",
+      "needs_review": false
+    },
+    "4329103": {
+      "formatted": "4329-1/03",
+      "cnae_description": "INSTALAÇÃO, MANUTENÇÃO E REPARAÇÃO DE ELEVADORES, ESCADAS E ESTEIRAS ROLANTES",
+      "occupations": [
+        "INSTALADOR(A) E REPARADOR(A) DE ELEVADORES, ESCADAS E ESTEIRAS ROLANTES INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201",
+        "140601"
+      ],
+      "reason": "14.01.01 names 'elevadores'; installation is 14.06.01.",
+      "needs_review": false
+    },
+    "4329104": {
+      "formatted": "4329-1/04",
+      "cnae_description": "MONTAGEM E INSTALAÇÃO DE SISTEMAS E EQUIPAMENTOS DE ILUMINAÇÃO E SINALIZAÇÃO EM VIAS PÚBLICAS, PORTOS E AEROPORTOS",
+      "occupations": [
+        "MONTADOR(A) E INSTALADOR DE SISTEMAS E EQUIPAMENTOS DE ILUMINAÇÃO E SINALIZAÇÃO EM VIAS PÚBLICAS, PORTOS E AEROPORTOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "070201",
+        "070202",
+        "140601"
+      ],
+      "reason": "Street lighting is electrical works (07.02) or equipment installation (14.06.01).",
+      "needs_review": false
+    },
+    "4329105": {
+      "formatted": "4329-1/05",
+      "cnae_description": "TRATAMENTOS TÉRMICOS, ACÚSTICOS OU DE VIBRAÇÃO",
+      "occupations": [
+        "INSTALADOR(A) DE ISOLANTES ACÚSTICOS E DE VIBRAÇÃO INDEPENDENTE",
+        "INSTALADOR(A) DE ISOLANTES TÉRMICOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "070201",
+        "070202",
+        "070602"
+      ],
+      "reason": "Insulation is construction work (07.02) or placing wall linings with the customer's material (07.06.02).",
+      "needs_review": true
+    },
+    "4330402": {
+      "formatted": "4330-4/02",
+      "cnae_description": "INSTALAÇÃO DE PORTAS, JANELAS, TETOS, DIVISÓRIAS E ARMÁRIOS EMBUTIDOS DE QUALQUER MATERIAL",
+      "occupations": [
+        "CARPINTEIRO(A) INSTALADOR(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "070602",
+        "141301"
+      ],
+      "reason": "07.06.02 names 'divisórias' and 'placas de gesso'; doors, windows and built-in cabinets are 'carpintaria', 14.13.01.",
+      "needs_review": false
+    },
+    "4330403": {
+      "formatted": "4330-4/03",
+      "cnae_description": "OBRAS DE ACABAMENTO EM GESSO E ESTUQUE",
+      "occupations": [
+        "GESSEIRO(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "070202",
+        "070501",
+        "070602"
+      ],
+      "reason": "07.06.02 names 'placas de gesso'; plaster work is also building works (07.02.02) and building repair (07.05.01).",
+      "needs_review": false
+    },
+    "4330404": {
+      "formatted": "4330-4/04",
+      "cnae_description": "SERVIÇOS DE PINTURA DE EDIFÍCIOS EM GERAL",
+      "occupations": [
+        "PINTOR(A) DE PAREDE INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "070202",
+        "070501"
+      ],
+      "reason": "Painting buildings is building works (07.02.02) or 'reparação, conservação e reforma de edifícios' (07.05.01).",
+      "needs_review": false
+    },
+    "4330405": {
+      "formatted": "4330-4/05",
+      "cnae_description": "APLICAÇÃO DE REVESTIMENTOS E DE RESINAS EM INTERIORES E EXTERIORES",
+      "occupations": [
+        "AZULEJISTA INDEPENDENTE",
+        "CALAFETADOR(A) INDEPENDENTE",
+        "COLOCADOR(A) DE REVESTIMENTOS INDEPENDENTE",
+        "PASTILHEIRO(A) INDEPENDENTE",
+        "SINTEQUEIRO(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "070202",
+        "070501",
+        "070602",
+        "070701",
+        "070801"
+      ],
+      "reason": "Tiling is 07.06.02, floor sanding and varnishing ('sinteco') 07.07.01, caulking ('calafetação') 07.08.01; also building works and repair.",
+      "needs_review": false
+    },
+    "4330499": {
+      "formatted": "4330-4/99",
+      "cnae_description": "OUTRAS OBRAS DE ACABAMENTO DA CONSTRUÇÃO",
+      "occupations": [
+        "VIDRACEIRO DE EDIFICAÇÕES INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "070501",
+        "070602"
+      ],
+      "reason": "07.06.02 names 'vidros'; building repair is 07.05.01.",
+      "needs_review": false
+    },
+    "4399103": {
+      "formatted": "4399-1/03",
+      "cnae_description": "OBRAS DE ALVENARIA",
+      "occupations": [
+        "PEDREIRO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "070201",
+        "070202",
+        "070501"
+      ],
+      "reason": "Masonry is building works (07.02) and building repair (07.05.01).",
+      "needs_review": false
+    },
+    "4399105": {
+      "formatted": "4399-1/05",
+      "cnae_description": "PERFURAÇÃO E CONSTRUÇÃO DE POÇOS DE ÁGUA",
+      "occupations": [
+        "POCEIRO/CISTERNEIRO/CACIMBEIRO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "070201",
+        "070202"
+      ],
+      "reason": "07.02 names 'perfuração de poços'.",
+      "needs_review": false
+    },
+    "4399199": {
+      "formatted": "4399-1/99",
+      "cnae_description": "SERVIÇOS ESPECIALIZADOS PARA CONSTRUÇÃO NÃO ESPECIFICADOS ANTERIORMENTE",
+      "occupations": [
+        "CALHEIRO (A) INDEPENDENTE",
+        "CERQUEIRO(A) INDEPENDENTE",
+        "TELHADOR(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "070201",
+        "070202",
+        "070501"
+      ],
+      "reason": "Gutters, fences and roofs are building works (07.02) and building repair (07.05.01).",
+      "needs_review": false
+    },
+    "4520001": {
+      "formatted": "4520-0/01",
+      "cnae_description": "SERVIÇOS DE MANUTENÇÃO E REPARAÇÃO MECÂNICA DE VEÍCULOS AUTOMOTORES",
+      "occupations": [
+        "MECÂNICO(A) DE VEÍCULOS INDEPENDENTE",
+        "VIDRACEIRO DE AUTOMÓVEIS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Vehicle repair: 14.01.01 names 'veículos'; technical assistance 14.02.01.",
+      "needs_review": false
+    },
+    "4520002": {
+      "formatted": "4520-0/02",
+      "cnae_description": "SERVIÇOS DE LANTERNAGEM OU FUNILARIA E PINTURA DE VEÍCULOS AUTOMOTORES",
+      "occupations": [
+        "FUNILEIRO/LANTERNEIRO INDEPENDENTE",
+        "PINTOR(A) DE AUTOMÓVEIS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140501",
+        "141201"
+      ],
+      "reason": "14.12.01 is 'funilaria e lanternagem'; painting is 14.05.01.",
+      "needs_review": false
+    },
+    "4520003": {
+      "formatted": "4520-0/03",
+      "cnae_description": "SERVIÇOS DE MANUTENÇÃO E REPARAÇÃO ELÉTRICA DE VEÍCULOS AUTOMOTORES",
+      "occupations": [
+        "ELETRICISTA DE AUTOMÓVEIS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Vehicle repair: 14.01.01 names 'veículos'; technical assistance 14.02.01.",
+      "needs_review": false
+    },
+    "4520005": {
+      "formatted": "4520-0/05",
+      "cnae_description": "SERVIÇOS DE LAVAGEM, LUBRIFICAÇÃO E POLIMENTO DE VEÍCULOS AUTOMOTORES",
+      "occupations": [
+        "LAVADOR(A) E POLIDOR DE CARRO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140501"
+      ],
+      "reason": "14.01.01 names lubrication, cleaning and polishing of vehicles; washing is 14.05.01.",
+      "needs_review": false
+    },
+    "4520006": {
+      "formatted": "4520-0/06",
+      "cnae_description": "SERVIÇOS DE BORRACHARIA PARA VEÍCULOS AUTOMOTORES",
+      "occupations": [
+        "BORRACHEIRO(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101"
+      ],
+      "reason": "Tyre repair is 'conserto' of vehicles, 14.01.01.",
+      "needs_review": false
+    },
+    "4520007": {
+      "formatted": "4520-0/07",
+      "cnae_description": "SERVIÇOS DE INSTALAÇÃO, MANUTENÇÃO E REPARAÇÃO DE ACESSÓRIOS PARA VEÍCULOS AUTOMOTORES",
+      "occupations": [
+        "INSTALADOR(A) E REPARADOR (A) DE ACESSÓRIOS AUTOMOTIVOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140601"
+      ],
+      "reason": "Installing accessories is 14.06.01; their repair 14.01.01.",
+      "needs_review": false
+    },
+    "4520008": {
+      "formatted": "4520-0/08",
+      "cnae_description": "SERVIÇOS DE CAPOTARIA",
+      "occupations": [
+        "CAPOTEIRO(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "141101"
+      ],
+      "reason": "Vehicle tops and upholstery: repair 14.01.01, 'reforma de estofamentos' 14.11.01.",
+      "needs_review": true
+    },
+    "4543900": {
+      "formatted": "4543-9/00",
+      "cnae_description": "MANUTENÇÃO E REPARAÇÃO DE MOTOCICLETAS E MOTONETAS",
+      "occupations": [
+        "MECÂNICO(A) DE MOTOCICLETAS E MOTONETAS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Motorcycle repair: 14.01.01 names 'veículos'; technical assistance 14.02.01.",
+      "needs_review": false
+    },
+    "4751202": {
+      "formatted": "4751-2/02",
+      "cnae_description": "RECARGA DE CARTUCHOS PARA EQUIPAMENTOS DE INFORMÁTICA",
+      "occupations": [
+        "RECARREGADOR(A) DE CARTUCHOS PARA EQUIPAMENTOS DE INFORMÁTICA INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101"
+      ],
+      "reason": "14.01.01 names 'carga e recarga' of any object.",
+      "needs_review": false
+    },
+    "4923001": {
+      "formatted": "4923-0/01",
+      "cnae_description": "SERVIÇO DE TÁXI",
+      "occupations": [
+        "MOTOTAXISTA INDEPENDENTE",
+        "TAXISTA INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "160201"
+      ],
+      "reason": "Taxi inside the municipality is 'outros serviços de transporte de natureza municipal', 16.02.01; intermunicipal fares fall under ICMS.",
+      "needs_review": false
+    },
+    "4923002": {
+      "formatted": "4923-0/02",
+      "cnae_description": "SERVIÇO DE TRANSPORTE DE PASSAGEIROS - LOCAÇÃO DE AUTOMÓVEIS COM MOTORISTA",
+      "occupations": [
+        "MOTORISTA (POR APLICATIVO OU NÃO) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "160201"
+      ],
+      "reason": "Passenger transport by car with driver inside the municipality, 16.02.01.",
+      "needs_review": false
+    },
+    "4924800": {
+      "formatted": "4924-8/00",
+      "cnae_description": "TRANSPORTE ESCOLAR",
+      "occupations": [
+        "TRANSPORTADOR(A) ESCOLAR INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "160201"
+      ],
+      "reason": "Municipal school transport, 16.02.01.",
+      "needs_review": false
+    },
+    "4929901": {
+      "formatted": "4929-9/01",
+      "cnae_description": "TRANSPORTE RODOVIÁRIO COLETIVO DE PASSAGEIROS, SOB REGIME DE FRETAMENTO, MUNICIPAL",
+      "occupations": [
+        "TRANSPORTADOR(A) MUNICIPAL COLETIVO DE PASSAGEIROS SOB FRETE INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "160101",
+        "160201"
+      ],
+      "reason": "Municipal chartered collective road transport: 16.01.01 or 16.02.01.",
+      "needs_review": true
+    },
+    "4929903": {
+      "formatted": "4929-9/03",
+      "cnae_description": "ORGANIZAÇÃO DE EXCURSÕES EM VEÍCULOS RODOVIÁRIOS PRÓPRIOS, MUNICIPAL",
+      "occupations": [
+        "ORGANIZADOR(A) DE EXCURSÕES EM VEÍCULO PRÓPRIO, MUNICIPAL INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "090202",
+        "160201"
+      ],
+      "reason": "09.02.02 names organising and running excursions; the municipal transport itself is 16.02.01.",
+      "needs_review": false
+    },
+    "4930201": {
+      "formatted": "4930-2/01",
+      "cnae_description": "TRANSPORTE RODOVIÁRIO DE CARGA, EXCETO PRODUTOS PERIGOSOS E MUDANÇAS, MUNICIPAL",
+      "occupations": [
+        "CARROCEIRO - TRANSPORTE DE CARGA INDEPENDENTE",
+        "TRANSPORTADOR(A) MUNICIPAL DE CARGAS NÃO PERIGOSAS (CARRETO) INDEPENDENTE",
+        "TRANSPORTADOR AUTÔNOMO DE CARGA - MUNICIPAL"
+      ],
+      "ctribnac": [
+        "160201"
+      ],
+      "reason": "Municipal cargo transport, 16.02.01.",
+      "needs_review": false
+    },
+    "4930203": {
+      "formatted": "4930-2/03",
+      "cnae_description": "TRANSPORTE RODOVIÁRIO DE PRODUTOS PERIGOSOS",
+      "occupations": [
+        "TRANSPORTADOR AUTÔNOMO DE CARGA - PRODUTOS PERIGOSOS"
+      ],
+      "ctribnac": [
+        "160201"
+      ],
+      "reason": "Only the municipal leg is ISS, 16.02.01; intermunicipal transport falls under ICMS.",
+      "needs_review": false
+    },
+    "4930204": {
+      "formatted": "4930-2/04",
+      "cnae_description": "TRANSPORTE RODOVIÁRIO DE MUDANÇAS",
+      "occupations": [
+        "CARROCEIRO - TRANSPORTE DE MUDANÇA INDEPENDENTE",
+        "TRANSPORTADOR(A) DE MUDANÇAS INDEPENDENTE",
+        "TRANSPORTADOR AUTÔNOMO DE CARGA - MUDANÇAS"
+      ],
+      "ctribnac": [
+        "160201"
+      ],
+      "reason": "Municipal removals, 16.02.01.",
+      "needs_review": false
+    },
+    "5021101": {
+      "formatted": "5021-1/01",
+      "cnae_description": "TRANSPORTE POR NAVEGAÇÃO INTERIOR DE CARGA, MUNICIPAL, EXCETO TRAVESSIA",
+      "occupations": [
+        "TRANSPORTADOR(A) MUNICIPAL HIDROVIÁRIO DE CARGAS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "160201"
+      ],
+      "reason": "Municipal waterway cargo transport, 16.02.01.",
+      "needs_review": false
+    },
+    "5091201": {
+      "formatted": "5091-2/01",
+      "cnae_description": "TRANSPORTE POR NAVEGAÇÃO DE TRAVESSIA, MUNICIPAL",
+      "occupations": [
+        "TRANSPORTADOR(A) MUNICIPAL DE TRAVESSIA POR NAVEGAÇÃO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "160104",
+        "160201"
+      ],
+      "reason": "Municipal ferry crossing: 16.01.04 for passengers, 16.02.01 otherwise.",
+      "needs_review": false
+    },
+    "5099801": {
+      "formatted": "5099-8/01",
+      "cnae_description": "TRANSPORTE AQUAVIÁRIO PARA PASSEIOS TURÍSTICOS",
+      "occupations": [
+        "TRANSPORTADOR(A) AQUAVIÁRIO PARA PASSEIOS TURÍSTICOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "090202",
+        "160201"
+      ],
+      "reason": "Sightseeing boat trips are 'passeios' (09.02.02) or municipal transport (16.02.01).",
+      "needs_review": true
+    },
+    "5099899": {
+      "formatted": "5099-8/99",
+      "cnae_description": "OUTROS TRANSPORTES AQUAVIÁRIOS NÃO ESPECIFICADOS ANTERIORMENTE",
+      "occupations": [
+        "BARQUEIRO(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "160104",
+        "160201"
+      ],
+      "reason": "Municipal boat transport: 16.01.04 for passengers, 16.02.01 otherwise.",
+      "needs_review": false
+    },
+    "5211702": {
+      "formatted": "5211-7/02",
+      "cnae_description": "GUARDA MÓVEIS",
+      "occupations": [
+        "GUARDADOR(A) DE MÓVEIS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "110401"
+      ],
+      "reason": "11.04.01 is storage and safekeeping of goods.",
+      "needs_review": false
+    },
+    "5212500": {
+      "formatted": "5212-5/00",
+      "cnae_description": "CARGA E DESCARGA",
+      "occupations": [
+        "CARREGADOR (VEÍCULOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "110402"
+      ],
+      "reason": "11.04.02 is loading and unloading.",
+      "needs_review": false
+    },
+    "5223100": {
+      "formatted": "5223-1/00",
+      "cnae_description": "ESTACIONAMENTO DE VEÍCULOS",
+      "occupations": [
+        "PROPRIETÁRIO(A) DE ESTACIONAMENTO DE VEÍCULOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "110101"
+      ],
+      "reason": "11.01.01 is parking of land vehicles.",
+      "needs_review": false
+    },
+    "5229002": {
+      "formatted": "5229-0/02",
+      "cnae_description": "SERVIÇOS DE REBOQUE DE VEÍCULOS",
+      "occupations": [
+        "GUINCHEIRO INDEPENDENTE (REBOQUE DE VEÍCULOS)"
+      ],
+      "ctribnac": [
+        "141401"
+      ],
+      "reason": "Towing inside the municipality is 'guincho intramunicipal', 14.14.01.",
+      "needs_review": false
+    },
+    "5310502": {
+      "formatted": "5310-5/02",
+      "cnae_description": "ATIVIDADES DE FRANQUEADAS DO CORREIO NACIONAL",
+      "occupations": [
+        "AGENTE DE CORREIO FRANQUEADO E PERMISSIONÁRIO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "260101"
+      ],
+      "reason": "26.01.01 names the post office's franchised agencies.",
+      "needs_review": false
+    },
+    "5320201": {
+      "formatted": "5320-2/01",
+      "cnae_description": "SERVIÇOS DE MALOTE NÃO REALIZADOS PELO CORREIO NACIONAL",
+      "occupations": [
+        "ENTREGADOR DE MALOTES INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "260101"
+      ],
+      "reason": "Courier bags of documents and valuables, 26.01.01.",
+      "needs_review": false
+    },
+    "5320202": {
+      "formatted": "5320-2/02",
+      "cnae_description": "SERVIÇOS DE ENTREGA RÁPIDA",
+      "occupations": [
+        "BIKEBOY (CICLISTA MENSAGEIRO) INDEPENDENTE",
+        "MOTOBOY INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "260101",
+        "260102"
+      ],
+      "reason": "Delivery of documents and objects (26.01.01) and courier (26.01.02).",
+      "needs_review": false
+    },
+    "5590601": {
+      "formatted": "5590-6/01",
+      "cnae_description": "ALBERGUES, EXCETO ASSISTENCIAIS",
+      "occupations": [
+        "PROPRIETÁRIO(A) DE ALBERGUE NÃO ASSISTENCIAL INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "090102"
+      ],
+      "reason": "09.01.02 names 'albergues'.",
+      "needs_review": false
+    },
+    "5590602": {
+      "formatted": "5590-6/02",
+      "cnae_description": "CAMPINGS",
+      "occupations": [
+        "PROPRIETÁRIO(A) DE CAMPING INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "090102"
+      ],
+      "reason": "Camping reads as lodging 'e congêneres' in 09.01.02.",
+      "needs_review": true
+    },
+    "5590603": {
+      "formatted": "5590-6/03",
+      "cnae_description": "PENSÕES(ALOJAMENTO)",
+      "occupations": [
+        "PROPRIETÁRIO(A) DE PENSÃO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "090102"
+      ],
+      "reason": "09.01.02 names 'pensões'.",
+      "needs_review": false
+    },
+    "5590699": {
+      "formatted": "5590-6/99",
+      "cnae_description": "OUTROS ALOJAMENTOS NÃO ESPECIFICADOS ANTERIORMENTE",
+      "occupations": [
+        "PROPRIETÁRIO(A) DE HOSPEDARIA INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "090102"
+      ],
+      "reason": "09.01.02 names 'hospedarias'.",
+      "needs_review": false
+    },
+    "5620102": {
+      "formatted": "5620-1/02",
+      "cnae_description": "SERVIÇOS DE ALIMENTAÇÃO PARA EVENTOS E RECEPÇÕES - BUFÊ",
+      "occupations": [
+        "CHURRASQUEIRO(A) EM DOMICÍLIO INDEPENDENTE",
+        "PIZZAIOLO(A) EM DOMICÍLIO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "171102"
+      ],
+      "reason": "17.11.02 is 'bufê', food and drink excluded (ICMS).",
+      "needs_review": false
+    },
+    "5811500": {
+      "formatted": "5811-5/00",
+      "cnae_description": "EDIÇÃO DE LIVROS",
+      "occupations": [
+        "EDITOR(A) DE LIVROS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "170204"
+      ],
+      "reason": "Editing is 'redação, edição, revisão', 17.02.04.",
+      "needs_review": false
+    },
+    "5812301": {
+      "formatted": "5812-3/01",
+      "cnae_description": "EDIÇÃO DE JORNAIS DIÁRIOS",
+      "occupations": [
+        "EDITOR(A) DE JORNAIS DIÁRIOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "170204"
+      ],
+      "reason": "Editing is 'redação, edição, revisão', 17.02.04.",
+      "needs_review": false
+    },
+    "5812302": {
+      "formatted": "5812-3/02",
+      "cnae_description": "EDIÇÃO DE JORNAIS NÃO DIÁRIOS",
+      "occupations": [
+        "EDITOR(A) DE JORNAIS NÃO DIÁRIOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "170204"
+      ],
+      "reason": "Editing is 'redação, edição, revisão', 17.02.04.",
+      "needs_review": false
+    },
+    "5813100": {
+      "formatted": "5813-1/00",
+      "cnae_description": "EDIÇÃO DE REVISTAS",
+      "occupations": [
+        "EDITOR(A) DE REVISTAS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "170204"
+      ],
+      "reason": "Editing is 'redação, edição, revisão', 17.02.04.",
+      "needs_review": false
+    },
+    "5819100": {
+      "formatted": "5819-1/00",
+      "cnae_description": "EDIÇÃO DE CADASTROS, LISTAS E DE OUTROS PRODUTOS GRÁFICOS",
+      "occupations": [
+        "EDITOR(A) DE LISTA DE DADOS E DE OUTRAS INFORMAÇÕES INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "170102",
+        "170204"
+      ],
+      "reason": "Compiling and supplying data lists is 17.01.02; editing them 17.02.04.",
+      "needs_review": false
+    },
+    "5912001": {
+      "formatted": "5912-0/01",
+      "cnae_description": "SERVIÇOS DE DUBLAGEM",
+      "occupations": [
+        "DUBLADOR(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "130201"
+      ],
+      "reason": "13.02.01 names 'dublagem'.",
+      "needs_review": false
+    },
+    "5912099": {
+      "formatted": "5912-0/99",
+      "cnae_description": "ATIVIDADES DE PÓS PRODUÇÃO CINEMATOGRÁFICA, DE VÍDEOS E DE PROGRAMAS DE TELEVISÃO NÃO ESPECIFICADAS ANTERIORMENTE",
+      "occupations": [
+        "EDITOR(A) DE VÍDEO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "130301"
+      ],
+      "reason": "Video post-production is cinematography 'inclusive ... trucagem', 13.03.01.",
+      "needs_review": true
+    },
+    "6190699": {
+      "formatted": "6190-6/99",
+      "cnae_description": "OUTRAS ATIVIDADES DE TELECOMUNICAÇÕES NÃO ESPECIFICADAS ANTERIORMENTE",
+      "occupations": [
+        "INSTALADOR(A) DE REDE DE COMPUTADORES INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140601"
+      ],
+      "reason": "Installing computer networks reads as installation of equipment, 14.06.01. 01.07.01 covers installing programs and databases, not networks.",
+      "needs_review": true
+    },
+    "6399200": {
+      "formatted": "6399-2/00",
+      "cnae_description": "OUTRAS ATIVIDADES DE PRESTAÇÃO DE SERVIÇOS DE INFORMAÇÃO NÃO ESPECIFICADAS ANTERIORMENTE",
+      "occupations": [
+        "APURADOR(A), COLETOR(A) E FORNECEDOR(A) DE RECORTES DE MATÉRIAS PUBLICADAS EM JORNAIS E REVISTAS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "170102"
+      ],
+      "reason": "Collecting and supplying press clippings is 17.01.02.",
+      "needs_review": false
+    },
+    "7319002": {
+      "formatted": "7319-0/02",
+      "cnae_description": "PROMOÇÃO DE VENDAS",
+      "occupations": [
+        "PANFLETEIRO(A) INDEPENDENTE",
+        "PROMOTOR(A) DE VENDAS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "170601"
+      ],
+      "reason": "17.06.01 names 'promoção de vendas'.",
+      "needs_review": false
+    },
+    "7319099": {
+      "formatted": "7319-0/99",
+      "cnae_description": "OUTRAS ATIVIDADES DE PUBLICIDADE NÃO ESPECIFICADAS ANTERIORMENTE",
+      "occupations": [
+        "BIKE PROPAGANDISTA INDEPENDENTE",
+        "PROPRIETÁRIO(A) DE CARRO DE SOM PARA FINS PUBLICITÁRIOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "170601",
+        "172501"
+      ],
+      "reason": "Advertising (17.06.01) and placing advertising material in any medium (17.25.01).",
+      "needs_review": false
+    },
+    "7420001": {
+      "formatted": "7420-0/01",
+      "cnae_description": "ATIVIDADES DE PRODUÇÃO DE FOTOGRAFIAS, EXCETO AÉREA E SUBMARINA",
+      "occupations": [
+        "FOTÓGRAFO(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "130301"
+      ],
+      "reason": "13.03.01 is photography.",
+      "needs_review": false
+    },
+    "7420002": {
+      "formatted": "7420-0/02",
+      "cnae_description": "ATIVIDADES DE PRODUÇÃO DE FOTOGRAFIAS AÉREAS E SUBMARINAS",
+      "occupations": [
+        "FOTÓGRAFO(A) AÉREO INDEPENDENTE",
+        "FOTÓGRAFO(A) SUBMARINO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "130301"
+      ],
+      "reason": "13.03.01 is photography.",
+      "needs_review": false
+    },
+    "7420003": {
+      "formatted": "7420-0/03",
+      "cnae_description": "LABORATÓRIOS FOTOGRÁFICOS",
+      "occupations": [
+        "REVELADOR(A) FOTOGRÁFICO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "130301"
+      ],
+      "reason": "13.03.01 names developing, enlarging and copying.",
+      "needs_review": false
+    },
+    "7420004": {
+      "formatted": "7420-0/04",
+      "cnae_description": "FILMAGEM DE FESTAS E EVENTOS",
+      "occupations": [
+        "FILMADOR(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "130301"
+      ],
+      "reason": "13.03.01 is photography and cinematography.",
+      "needs_review": false
+    },
+    "7490102": {
+      "formatted": "7490-1/02",
+      "cnae_description": "ESCAFANDRIA E MERGULHO",
+      "occupations": [
+        "MERGULHADOR(A) (ESCAFANDRISTA) INDEPENDENTE"
+      ],
+      "ctribnac": [],
+      "reason": "07.21.01 names diving only for oil, gas and mineral exploration; no subitem describes diving services in general.",
+      "needs_review": true
+    },
+    "7732202": {
+      "formatted": "7732-2/02",
+      "cnae_description": "ALUGUEL DE ANDAIMES",
+      "occupations": [
+        "LOCADOR DE ANDAIMES INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "030501"
+      ],
+      "reason": "03.05.01 is 'cessão de andaimes'.",
+      "needs_review": false
+    },
+    "7739003": {
+      "formatted": "7739-0/03",
+      "cnae_description": "ALUGUEL DE PALCOS, COBERTURAS E OUTRAS ESTRUTURAS DE USO TEMPORÁRIO, EXCETO ANDAIMES",
+      "occupations": [
+        "LOCADOR(A) DE PALCOS, COBERTURAS E OUTRAS ESTRUTURAS DE USO TEMPORÁRIO, EXCETO ANDAIMES INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "030501"
+      ],
+      "reason": "03.05.01 names stages, covers and other temporary structures.",
+      "needs_review": false
+    },
+    "7911200": {
+      "formatted": "7911-2/00",
+      "cnae_description": "AGÊNCIAS DE VIAGENS",
+      "occupations": [
+        "AGENTE DE VIAGENS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "090201"
+      ],
+      "reason": "09.02.01 is travel agency intermediation.",
+      "needs_review": false
+    },
+    "7912100": {
+      "formatted": "7912-1/00",
+      "cnae_description": "OPERADORES TURÍSTICOS",
+      "occupations": [
+        "GUIA DE TURISMO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "090202",
+        "090301"
+      ],
+      "reason": "The occupation is tour guide, 09.03.01; the CNAE is tour operation, 09.02.02.",
+      "needs_review": false
+    },
+    "7990200": {
+      "formatted": "7990-2/00",
+      "cnae_description": "SERVIÇOS DE RESERVAS E OUTROS SERVIÇOS DE TURISMO NÃO ESPECIFICADOS ANTERIORMENTE",
+      "occupations": [
+        "PROMOTOR(A) DE TURISMO LOCAL INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "090201",
+        "090202"
+      ],
+      "reason": "Bookings and local tourism promotion: 09.02.01 and 09.02.02.",
+      "needs_review": false
+    },
+    "8011102": {
+      "formatted": "8011-1/02",
+      "cnae_description": "SERVIÇOS DE ADESTRAMENTO DE CÃES DE GUARDA",
+      "occupations": [
+        "ADESTRADOR(A) DE CÃES DE GUARDA INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "050801"
+      ],
+      "reason": "05.08.01 names 'amestramento'.",
+      "needs_review": false
+    },
+    "8020002": {
+      "formatted": "8020-0/02",
+      "cnae_description": "OUTRAS ATIVIDADES DE SERVIÇOS DE SEGURANÇA",
+      "occupations": [
+        "INSTALADOR(A) E REPARADOR DE COFRES, TRANCAS E TRAVAS DE SEGURANÇA INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140601"
+      ],
+      "reason": "Installing safes and locks is 14.06.01; repairing them 14.01.01.",
+      "needs_review": false
+    },
+    "8129000": {
+      "formatted": "8129-0/00",
+      "cnae_description": "ATIVIDADES DE LIMPEZA NÃO ESPECIFICADAS ANTERIORMENTE",
+      "occupations": [
+        "PISCINEIRO(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "071002"
+      ],
+      "reason": "07.10.02 names cleaning of pools.",
+      "needs_review": false
+    },
+    "8130300": {
+      "formatted": "8130-3/00",
+      "cnae_description": "ATIVIDADES PAISAGÍSTICAS",
+      "occupations": [
+        "JARDINEIRO(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "071102"
+      ],
+      "reason": "07.11.02 is gardening.",
+      "needs_review": false
+    },
+    "8219901": {
+      "formatted": "8219-9/01",
+      "cnae_description": "FOTOCÓPIAS",
+      "occupations": [
+        "FOTOCOPIADOR(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "130401"
+      ],
+      "reason": "13.04.01 is reprography.",
+      "needs_review": false
+    },
+    "8219999": {
+      "formatted": "8219-9/99",
+      "cnae_description": "PREPARAÇÃO DE DOCUMENTOS E SERVIÇOS ESPECIALIZADOS DE APOIO ADMINISTRATIVO NÃO ESPECIFICADOS ANTERIORMENTE",
+      "occupations": [
+        "DIGITADOR(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "170201"
+      ],
+      "reason": "17.02.01 names 'digitação'.",
+      "needs_review": false
+    },
+    "8230001": {
+      "formatted": "8230-0/01",
+      "cnae_description": "SERVIÇOS DE ORGANIZAÇÃO DE FEIRAS, CONGRESSOS, EXPOSIÇÕES E FESTAS",
+      "occupations": [
+        "PROMOTOR(A) DE EVENTOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "171001",
+        "171002",
+        "171101"
+      ],
+      "reason": "Organising fairs and exhibitions (17.10.01), congresses (17.10.02) and parties (17.11.01).",
+      "needs_review": false
+    },
+    "8230002": {
+      "formatted": "8230-0/02",
+      "cnae_description": "CASAS DE FESTAS E EVENTOS",
+      "occupations": [
+        "PROPRIETÁRIO(A) DE CASAS DE FESTAS E EVENTOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "030301"
+      ],
+      "reason": "03.03.01 is running party halls.",
+      "needs_review": false
+    },
+    "8291100": {
+      "formatted": "8291-1/00",
+      "cnae_description": "ATIVIDADES DE COBRANÇAS E INFORMAÇÕES CADASTRAIS",
+      "occupations": [
+        "COBRADOR(A) DE DÍVIDAS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "172201"
+      ],
+      "reason": "17.22.01 is 'cobrança em geral'.",
+      "needs_review": false
+    },
+    "8292000": {
+      "formatted": "8292-0/00",
+      "cnae_description": "ENVASAMENTO E EMPACOTAMENTO SOB CONTRATO",
+      "occupations": [
+        "ENVASADOR(A) E EMPACOTADOR(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140501"
+      ],
+      "reason": "Packing under contract is 'acondicionamento' of objects, 14.05.01.",
+      "needs_review": false
+    },
+    "8299703": {
+      "formatted": "8299-7/03",
+      "cnae_description": "SERVIÇOS DE GRAVAÇÃO DE CARIMBOS, EXCETO CONFECÇÃO",
+      "occupations": [
+        "GRAVADOR(A) DE CARIMBOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "240101"
+      ],
+      "reason": "24.01.01 names stamps ('carimbos').",
+      "needs_review": false
+    },
+    "8299707": {
+      "formatted": "8299-7/07",
+      "cnae_description": "SALAS DE ACESSO À INTERNET",
+      "occupations": [
+        "PROPRIETÁRIO(A) DE SALA DE ACESSO À INTERNET INDEPENDENTE"
+      ],
+      "ctribnac": [],
+      "reason": "No LC 116 subitem describes renting time on internet-connected computers.",
+      "needs_review": true
+    },
+    "8299799": {
+      "formatted": "8299-7/99",
+      "cnae_description": "OUTRAS ATIVIDADES DE SERVIÇOS PRESTADOS PRINCIPALMENTE ÀS EMPRESAS NÃO ESPECIFICADAS ANTERIORMENTE",
+      "occupations": [
+        "CARTAZISTA, PINTOR DE INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "230101",
+        "240102"
+      ],
+      "reason": "Poster painting is visual communication (23.01.01) and signs and banners (24.01.02).",
+      "needs_review": true
+    },
+    "8592902": {
+      "formatted": "8592-9/02",
+      "cnae_description": "ENSINO DE ARTES CÊNICAS, EXCETO DANÇA",
+      "occupations": [
+        "INSTRUTOR(A) DE ARTES CÊNICAS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "080201"
+      ],
+      "reason": "08.02.01 is instruction and training of any kind.",
+      "needs_review": false
+    },
+    "8592903": {
+      "formatted": "8592-9/03",
+      "cnae_description": "ENSINO DE MÚSICA",
+      "occupations": [
+        "INSTRUTOR(A) DE MÚSICA INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "080201"
+      ],
+      "reason": "08.02.01 is instruction and training of any kind.",
+      "needs_review": false
+    },
+    "8592999": {
+      "formatted": "8592-9/99",
+      "cnae_description": "ENSINO DE ARTE E CULTURA NÃO ESPECIFICADO ANTERIORMENTE",
+      "occupations": [
+        "INSTRUTOR(A) DE ARTE E CULTURA EM GERAL INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "080201"
+      ],
+      "reason": "08.02.01 is instruction and training of any kind.",
+      "needs_review": false
+    },
+    "8593700": {
+      "formatted": "8593-7/00",
+      "cnae_description": "ENSINO DE IDIOMAS",
+      "occupations": [
+        "INSTRUTOR(A) DE IDIOMAS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "080201"
+      ],
+      "reason": "08.02.01 is instruction and training of any kind.",
+      "needs_review": false
+    },
+    "8599603": {
+      "formatted": "8599-6/03",
+      "cnae_description": "TREINAMENTO EM INFORMÁTICA",
+      "occupations": [
+        "INSTRUTOR(A) DE INFORMÁTICA INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "080201"
+      ],
+      "reason": "Teaching computer use is training, 08.02.01. It is not consulting (01.06.01) or software development (01.01, 01.02).",
+      "needs_review": false
+    },
+    "8599604": {
+      "formatted": "8599-6/04",
+      "cnae_description": "TREINAMENTO EM DESENVOLVIMENTO PROFISSIONAL E GERENCIAL",
+      "occupations": [
+        "INSTRUTOR(A) DE CURSOS GERENCIAIS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "080201"
+      ],
+      "reason": "08.02.01 is instruction and training of any kind.",
+      "needs_review": false
+    },
+    "8599605": {
+      "formatted": "8599-6/05",
+      "cnae_description": "CURSOS PREPARATÓRIOS PARA CONCURSOS",
+      "occupations": [
+        "INSTRUTOR(A) DE CURSOS PREPARATÓRIOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "080201"
+      ],
+      "reason": "08.02.01 is instruction and training of any kind.",
+      "needs_review": false
+    },
+    "8599699": {
+      "formatted": "8599-6/99",
+      "cnae_description": "OUTRAS ATIVIDADES DE ENSINO NÃO ESPECIFICADAS ANTERIORMENTE",
+      "occupations": [
+        "PROFESSOR(A) PARTICULAR INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "080201"
+      ],
+      "reason": "08.02.01 is instruction and training of any kind.",
+      "needs_review": false
+    },
+    "8712300": {
+      "formatted": "8712-3/00",
+      "cnae_description": "ATIVIDADES DE FORNECIMENTO DE INFRAESTRUTURA DE APOIO E ASSISTÊNCIA A PACIENTE NO DOMICÍLIO",
+      "occupations": [
+        "CUIDADOR(A) DE IDOSOS E ENFERMOS INDEPENDENTE"
+      ],
+      "ctribnac": [],
+      "reason": "Home care for the elderly is not nursing (04.06.01) nor a care home (04.17); no subitem describes it clearly.",
+      "needs_review": true
+    },
+    "9001901": {
+      "formatted": "9001-9/01",
+      "cnae_description": "PRODUÇÃO TEATRAL",
+      "occupations": [
+        "HUMORISTA E CONTADOR DE HISTÓRIAS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "120101",
+        "370101"
+      ],
+      "reason": "Theatre shows (12.01.01) and artists' services (37.01.01).",
+      "needs_review": false
+    },
+    "9001902": {
+      "formatted": "9001-9/02",
+      "cnae_description": "PRODUÇÃO MUSICAL",
+      "occupations": [
+        "CANTOR(A)/MÚSICO(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "121201",
+        "370101"
+      ],
+      "reason": "Performing music (12.12.01) and artists' services (37.01.01).",
+      "needs_review": false
+    },
+    "9001906": {
+      "formatted": "9001-9/06",
+      "cnae_description": "ATIVIDADES DE SONORIZAÇÃO E DE ILUMINAÇÃO",
+      "occupations": [
+        "DISC JOCKEY (DJ) OU VIDEO JOCKEY (VJ) INDEPENDENTE",
+        "TÉCNICO(A) DE SONORIZAÇÃO E DE ILUMINAÇÃO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "121201",
+        "121401"
+      ],
+      "reason": "DJs perform or supply music (12.12.01, 12.14.01); no subitem names sound and lighting technicians.",
+      "needs_review": true
+    },
+    "9002702": {
+      "formatted": "9002-7/02",
+      "cnae_description": "RESTAURAÇÃO DE OBRAS DE ARTE",
+      "occupations": [
+        "RESTAURADOR(A) DE OBRAS DE ARTE INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140501"
+      ],
+      "reason": "Restoring objects, 14.05.01.",
+      "needs_review": false
+    },
+    "9329803": {
+      "formatted": "9329-8/03",
+      "cnae_description": "EXPLORAÇÃO DE JOGOS DE SINUCA, BILHAR E SIMILARES",
+      "occupations": [
+        "PROPRIETÁRIO(A) DE SALÃO DE JOGOS DE SINUCA E BILHAR INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "120901"
+      ],
+      "reason": "12.09.01 is 'bilhares'.",
+      "needs_review": false
+    },
+    "9329804": {
+      "formatted": "9329-8/04",
+      "cnae_description": "EXPLORAÇÃO DE JOGOS ELETRÔNICOS RECREATIVOS",
+      "occupations": [
+        "PROPRIETÁRIO(A) DE FLIPERAMA INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "120903"
+      ],
+      "reason": "12.09.03 is electronic games.",
+      "needs_review": false
+    },
+    "9329899": {
+      "formatted": "9329-8/99",
+      "cnae_description": "OUTRAS ATIVIDADES DE RECREAÇÃO E LAZER NÃO ESPECIFICADAS ANTERIORMENTE",
+      "occupations": [
+        "ANIMADOR(A) DE FESTAS INDEPENDENTE",
+        "MÁGICO(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "121701",
+        "370101"
+      ],
+      "reason": "Party entertainment is 12.17.01; magicians are artists, 37.01.01.",
+      "needs_review": false
+    },
+    "9511800": {
+      "formatted": "9511-8/00",
+      "cnae_description": "REPARAÇÃO E MANUTENÇÃO DE COMPUTADORES E DE EQUIPAMENTOS PERIFÉRICOS",
+      "occupations": [
+        "TÉCNICO(A) DE MANUTENÇÃO DE COMPUTADOR INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Computer hardware repair: 14.01.01 and technical assistance 14.02.01. It is not IT consulting (01.06.01) or software support (01.07.01).",
+      "needs_review": false
+    },
+    "9512600": {
+      "formatted": "9512-6/00",
+      "cnae_description": "REPARAÇÃO E MANUTENÇÃO DE EQUIPAMENTOS DE COMUNICAÇÃO",
+      "occupations": [
+        "TÉCNICO(A) DE MANUTENÇÃO DE TELEFONIA INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Repair of communication equipment: 14.01.01 and 14.02.01.",
+      "needs_review": false
+    },
+    "9521500": {
+      "formatted": "9521-5/00",
+      "cnae_description": "REPARAÇÃO E MANUTENÇÃO DE EQUIPAMENTOS ELETROELETRÔNICOS DE USO PESSOAL E DOMÉSTICO",
+      "occupations": [
+        "TÉCNICO(A) DE MANUTENÇÃO DE ELETRODOMÉSTICOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Repair of household appliances: 14.01.01 and 14.02.01.",
+      "needs_review": false
+    },
+    "9529101": {
+      "formatted": "9529-1/01",
+      "cnae_description": "REPARAÇÃO DE CALÇADOS, DE BOLSAS E ARTIGOS DE VIAGEM",
+      "occupations": [
+        "SAPATEIRO(A)"
+      ],
+      "ctribnac": [
+        "140101",
+        "140501"
+      ],
+      "reason": "Shoe and bag repair: 'conserto' (14.01.01) and 'restauração' (14.05.01).",
+      "needs_review": false
+    },
+    "9529102": {
+      "formatted": "9529-1/02",
+      "cnae_description": "CHAVEIROS",
+      "occupations": [
+        "CHAVEIRO(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "240101"
+      ],
+      "reason": "24.01.01 is 'chaveiros'.",
+      "needs_review": false
+    },
+    "9529103": {
+      "formatted": "9529-1/03",
+      "cnae_description": "REPARAÇÃO DE RELÓGIOS",
+      "occupations": [
+        "RELOJOEIRO(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140201"
+      ],
+      "reason": "Watch repair: 14.01.01 and 14.02.01.",
+      "needs_review": false
+    },
+    "9529104": {
+      "formatted": "9529-1/04",
+      "cnae_description": "REPARAÇÃO DE BICICLETAS, TRICICLOS E OUTROS VEÍCULOS NÃO MOTORIZADOS",
+      "occupations": [
+        "REPARADOR(A) DE BICICLETA INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101"
+      ],
+      "reason": "Bicycle repair is 'conserto' of vehicles, 14.01.01.",
+      "needs_review": false
+    },
+    "9529105": {
+      "formatted": "9529-1/05",
+      "cnae_description": "REPARAÇÃO DE ARTIGOS DO MOBILIÁRIO",
+      "occupations": [
+        "ESTOFADOR(A) INDEPENDENTE",
+        "REPARADOR (A) DE ARTIGOS DE TAPEÇARIA INDEPENDENTE",
+        "REPARADOR(A) DE MÓVEIS INDEPENDENTE",
+        "REPARADOR(A) DE TOLDOS E PERSIANAS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140501",
+        "141101"
+      ],
+      "reason": "Upholstery is 14.11.01; furniture, blind and awning repair 14.01.01 and 14.05.01.",
+      "needs_review": false
+    },
+    "9529106": {
+      "formatted": "9529-1/06",
+      "cnae_description": "REPARAÇÃO DE JÓIAS",
+      "occupations": [
+        "OURIVES INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "390101"
+      ],
+      "reason": "Jewellery repair: 'ourivesaria' (39.01.01) and 'conserto' (14.01.01).",
+      "needs_review": false
+    },
+    "9529199": {
+      "formatted": "9529-1/99",
+      "cnae_description": "REPARAÇÃO E MANUTENÇÃO DE OUTROS OBJETOS E EQUIPAMENTOS PESSOAIS E DOMÉSTICOS NÃO ESPECIFICADOS ANTERIORMENTE",
+      "occupations": [
+        "AMOLADOR(A) DE ARTIGOS DE CUTELARIA INDEPENDENTE",
+        "REPARADOR(A) DE ARTIGOS E ACESSÓRIOS DO VESTUÁRIO INDEPENDENTE",
+        "REPARADOR(A) DE BRINQUEDOS INDEPENDENTE",
+        "REPARADOR(A) DE EQUIPAMENTOS ESPORTIVOS INDEPENDENTE",
+        "REPARADOR(A) DE GUARDA CHUVA E SOMBRINHAS INDEPENDENTE",
+        "REPARADOR(A) DE INSTRUMENTOS MUSICAIS INDEPENDENTE",
+        "REPARADOR(A) DE PANELAS (PANELEIRO) INDEPENDENTE",
+        "RESTAURADOR(A) DE LIVROS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "140101",
+        "140501"
+      ],
+      "reason": "Repair and restoration of objects: 14.01.01 and 14.05.01 (sharpening, garments, toys, books).",
+      "needs_review": false
+    },
+    "9601701": {
+      "formatted": "9601-7/01",
+      "cnae_description": "LAVANDERIAS",
+      "occupations": [
+        "LAVADEIRO(A) DE ROUPAS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "141001"
+      ],
+      "reason": "14.10.01 is 'tinturaria e lavanderia'.",
+      "needs_review": false
+    },
+    "9601702": {
+      "formatted": "9601-7/02",
+      "cnae_description": "TINTURARIAS",
+      "occupations": [
+        "TINTUREIRO(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "141001"
+      ],
+      "reason": "14.10.01 is 'tinturaria e lavanderia'.",
+      "needs_review": false
+    },
+    "9601703": {
+      "formatted": "9601-7/03",
+      "cnae_description": "TOALHEIROS",
+      "occupations": [
+        "LAVADEIRO(A) DE ROUPAS PROFISSIONAIS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "141001"
+      ],
+      "reason": "Laundering work linen is 'lavanderia', 14.10.01.",
+      "needs_review": false
+    },
+    "9602501": {
+      "formatted": "9602-5/01",
+      "cnae_description": "CABELEIREIROS, MANICURE E PEDICURE",
+      "occupations": [
+        "BARBEIRO INDEPENDENTE",
+        "CABELEIREIRO(A) INDEPENDENTE",
+        "MANICURE/PEDICURE INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "060101"
+      ],
+      "reason": "06.01.01 names barbers, hairdressers, manicures and pedicures.",
+      "needs_review": false
+    },
+    "9602502": {
+      "formatted": "9602-5/02",
+      "cnae_description": "ATIVIDADES DE ESTÉTICA E OUTROS SERVIÇOS DE CUIDADOS COM A BELEZA",
+      "occupations": [
+        "DEPILADOR(A) INDEPENDENTE",
+        "ESTETICISTA INDEPENDENTE",
+        "MAQUIADOR(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "060201"
+      ],
+      "reason": "06.02.01 names beauticians and hair removal; make-up is 'congêneres'.",
+      "needs_review": false
+    },
+    "9603304": {
+      "formatted": "9603-3/04",
+      "cnae_description": "SERVIÇOS DE FUNERÁRIAS",
+      "occupations": [
+        "AGENTE FUNERÁRIO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "250101"
+      ],
+      "reason": "25.01.01 is funerals.",
+      "needs_review": false
+    },
+    "9609202": {
+      "formatted": "9609-2/02",
+      "cnae_description": "AGÊNCIAS MATRIMONIAIS",
+      "occupations": [
+        "AGENTE MATRIMONIAL INDEPENDENTE"
+      ],
+      "ctribnac": [],
+      "reason": "No LC 116 subitem describes matchmaking agencies.",
+      "needs_review": true
+    },
+    "9609206": {
+      "formatted": "9609-2/06",
+      "cnae_description": "SERVIÇOS DE TATUAGEM E COLOCAÇÃO DE PIERCING",
+      "occupations": [
+        "COLOCADOR(A) DE PIERCING INDEPENDENTE",
+        "TATUADOR(A) INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "060601"
+      ],
+      "reason": "06.06.01 names tattoos and piercings.",
+      "needs_review": false
+    },
+    "9609207": {
+      "formatted": "9609-2/07",
+      "cnae_description": "ALOJAMENTO DE ANIMAIS DOMÉSTICOS",
+      "occupations": [
+        "ADESTRADOR(A) DE ANIMAIS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "050801"
+      ],
+      "reason": "05.08.01 names 'amestramento' and 'alojamento' of animals.",
+      "needs_review": false
+    },
+    "9609208": {
+      "formatted": "9609-2/08",
+      "cnae_description": "HIGIENE E EMBELEZAMENTO DE ANIMAIS DOMÉSTICOS",
+      "occupations": [
+        "BANHISTA DE ANIMAIS DOMÉSTICOS INDEPENDENTE",
+        "CUIDADOR(A) DE ANIMAIS (PET SITTER) INDEPENDENTE",
+        "ESTETICISTA DE ANIMAIS DOMÉSTICOS INDEPENDENTE",
+        "TOSADOR(A) DE ANIMAIS DOMÉSTICOS INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "050801"
+      ],
+      "reason": "05.08.01 names 'tratamento' and 'embelezamento' of animals.",
+      "needs_review": false
+    },
+    "9609299": {
+      "formatted": "9609-2/99",
+      "cnae_description": "OUTRAS ATIVIDADES DE SERVIÇOS PESSOAIS NÃO ESPECIFICADAS ANTERIORMENTE",
+      "occupations": [
+        "ASTRÓLOGO(A) INDEPENDENTE",
+        "CARREGADOR DE MALAS INDEPENDENTE",
+        "ENGRAXATE INDEPENDENTE",
+        "LAVADOR(A) DE ESTOFADO E SOFÁ INDEPENDENTE",
+        "LOCUTOR(A) DE MENSAGENS FONADAS E AO VIVO INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "110402",
+        "140101",
+        "140501"
+      ],
+      "reason": "Luggage porter is 11.04.02, shoe shining 14.01.01 ('lustração'), upholstery washing 14.05.01. No subitem fits astrologers or message announcers.",
+      "needs_review": true
+    },
+    "9700500": {
+      "formatted": "9700-5/00",
+      "cnae_description": "SERVIÇOS DOMÉSTICOS",
+      "occupations": [
+        "DIARISTA INDEPENDENTE"
+      ],
+      "ctribnac": [
+        "071002"
+      ],
+      "reason": "Cleaning homes is 07.10.02.",
+      "needs_review": false
+    }
+  }
+}
