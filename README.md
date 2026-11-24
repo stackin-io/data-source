@@ -198,7 +198,7 @@ Legenda de origem: **SEFAZ** = portal SEFAZ homologação (base normativa nacion
 | NFF | SVRS | infra | Nota Fiscal Fácil — meta-documento de infraestrutura | PDF, ZIP, XLSX |
 | PES | SVRS | infra | Portal de Entrega Simplificada — meta-documento | PDF, ZIP, XLSX |
 | ONE | SVRS | infra | Operador Nacional do Estacionamento — meta-documento | PDF, ZIP, XLSX |
-| CNAE 2.3 — subclasses | IBGE | cadastro | As 1.332 subclasses com classe, grupo, divisão e seção (`ibge/cnae/<data>_cnae-2.3-subclasses/cnae-subclasses.json`); pasta nova só quando o conteúdo muda | JSON |
+| CNAE 2.3 — subclasses | IBGE | cadastro | As subclasses com classe, grupo, divisão e seção (`ibge/cnae/<data>_cnae-2.3-subclasses/cnae-subclasses.json`); pasta nova só quando o conteúdo muda | JSON |
 
 A NF-e tem **duas origens oficiais** aqui, e as duas ficam: SEFAZ é a base normativa nacional, SVRS é o que 22 UFs publicam. As duas podem divulgar o mesmo documento em datas diferentes, então nada é deduplicado entre elas — o contexto `svrs/` existe justamente pra você escolher qual segue.
 
