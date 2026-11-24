@@ -8,7 +8,7 @@ from pathlib import Path
 from typing import Any
 
 from data_source.core.scraper import Artifact, BaseScraper, ScrapeItem
-from data_source.exceptions import DiscoveryError, ExtractionError
+from data_source.exceptions import DiscoveryError
 
 SUBCLASSES_URL = "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses"
 CONCLA_PAGE = "https://cnae.ibge.gov.br/"
@@ -36,7 +36,14 @@ class IbgeCnaeScraper(BaseScraper):
         self._rows: list[dict[str, Any]] = []
 
     def discover(self) -> Iterable[ScrapeItem]:
-        self._rows = parse_subclasses(self.download(SUBCLASSES_URL))
+        rows = parse_subclasses(self.download(SUBCLASSES_URL))
+        self._log.info("ibge.cnae.parsed", rows=len(rows))
+        if len(rows) < MIN_ROWS:
+            raise DiscoveryError(
+                f"parsed {len(rows)} CNAE subclasses from {SUBCLASSES_URL}, "
+                f"expected at least {MIN_ROWS}"
+            )
+        self._rows = rows
         digest = rows_sha256(self._rows)
         today = datetime.now(tz=UTC).date().isoformat()
         latest = _latest_folder(Path(self._settings.output_dir) / self.context)
@@ -63,19 +70,13 @@ class IbgeCnaeScraper(BaseScraper):
         return item.metadata["subpath"]
 
     def extract(self, item: ScrapeItem) -> Iterable[Artifact]:
-        rows = self._rows
-        self._log.info("ibge.cnae.parsed", rows=len(rows))
-        if len(rows) < MIN_ROWS:
-            raise ExtractionError(
-                f"parsed {len(rows)} CNAE subclasses from {item.url}, expected at least {MIN_ROWS}"
-            )
         payload = {
             "source": item.url,
             "published_by": CONCLA_PAGE,
             "classification": "CNAE 2.3",
             "sha256": item.metadata["sha256"],
             "generated_at": datetime.now(tz=UTC).isoformat(timespec="seconds"),
-            "rows": rows,
+            "rows": self._rows,
         }
         yield Artifact(
             filename=TABLE_FILENAME,

@@ -76,7 +76,8 @@ class TestDiscover(_Base):
         self.assertIs(REGISTRY["ibge/cnae"], IbgeCnaeScraper)
 
     def test_new_content_gets_a_dated_folder(self):
-        [item] = list(self.scraper.discover())
+        with patch.object(ibge, "MIN_ROWS", 1):
+            [item] = list(self.scraper.discover())
 
         self.assertRegex(self.scraper.subpath_for(item), r"^\d{4}-\d{2}-\d{2}_cnae-2.3-subclasses$")
         self.assertEqual(len(item.metadata["sha256"]), 64)
@@ -119,10 +120,10 @@ class TestRun(_Base):
         self.assertEqual(result.persisted, 1)
         self.assertEqual(len(self._folders()), 2)
 
-    def test_too_few_rows_writes_nothing(self):
-        result = self.scraper.run()
+    def test_too_few_rows_fails_discovery_and_writes_nothing(self):
+        with self.assertRaises(DiscoveryError):
+            self.scraper.run()
 
-        self.assertEqual(result.failed, 1)
         self.assertEqual(self._folders(), [])
 
 
