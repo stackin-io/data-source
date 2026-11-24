@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T20:11:13+00:00",
+  "generated_at": "2026-11-24T20:20:06+00:00",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data",
   "browse_base_url": "https://github.com/stackin-io/data-source/tree/master/data",
   "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml",
@@ -113,7 +113,7 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/rfb/mei-ocupacoes/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/rfb/mei-ocupacoes/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/rfb/mei-ocupacoes",
-      "generated_at": "2026-11-24T02:38:37+00:00",
+      "generated_at": "2026-11-24T20:20:06+00:00",
       "totals": {
         "discovered": 1,
         "persisted": 0,
