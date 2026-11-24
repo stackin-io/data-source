@@ -27,6 +27,8 @@ ruff = "^0.17.6"
 mypy = "^1.11.2"
 coverage = "^7.6.1"
 pytest = "^9.1.1"
+openpyxl = "^3.1.5"
+types-openpyxl = "^3.1.5.20261122"
 
 [tool.poetry.scripts]
 data-source = "data_source.cli:app"
