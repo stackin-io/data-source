@@ -131,6 +131,8 @@ def parse_anexo_xi(raw: bytes) -> list[dict[str, Any]]:
     for cells in cells_by_row:
         if len(cells) != 5:
             raise ExtractionError(f"Anexo XI row with {len(cells)} cells: {cells}")
+        if not any(cells):
+            continue
         occupation, cnae, description, iss, icms = cells
         heading = _TABLE.match(_flat(occupation))
         if heading and not any((cnae, description, iss, icms)):
@@ -194,13 +196,34 @@ def _http_date(value: str) -> str:
 
 
 def _subpath(root: Path, published: str, digest: str) -> str:
-    """The latest folder when its PDF has the same bytes, else a new one."""
-    folders = sorted(p for p in root.glob(f"*_{FOLDER_SUFFIX}*") if p.is_dir())
-    if folders:
-        stored = folders[-1] / PDF_FILENAME
-        if stored.is_file() and hashlib.sha256(stored.read_bytes()).hexdigest() == digest:
-            return folders[-1].name
-    name = f"{published}_{FOLDER_SUFFIX}"
-    if (root / name).exists():
-        name = f"{name}-{digest[:8]}"
-    return name
+    """The latest complete snapshot when its PDF has the same bytes, else a new folder.
+
+    Latest is the snapshot with the newest `generated_at`, so a `-<sha8>`
+    suffix never decides the order.
+    """
+    snapshots = [
+        (str(meta.get("generated_at", "")), folder.name, str(meta.get("sha256", "")))
+        for folder in root.glob(f"*_{FOLDER_SUFFIX}*")
+        if (folder / PDF_FILENAME).is_file()
+        for meta in [_read_json(folder / TABLE_FILENAME)]
+        if meta
+    ]
+    if snapshots:
+        _, name, stored = max(snapshots)
+        if stored == digest:
+            return name
+    base = f"{published}_{FOLDER_SUFFIX}"
+    for name in (base, f"{base}-{digest[:8]}"):
+        if not (root / name).exists():
+            return name
+    raise DiscoveryError(
+        f"{root / base} and its -{digest[:8]} variant exist without this PDF as a complete snapshot"
+    )
+
+
+def _read_json(path: Path) -> dict[str, Any]:
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+    return data if isinstance(data, dict) else {}
