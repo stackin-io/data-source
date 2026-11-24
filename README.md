@@ -215,9 +215,9 @@ Portais estaduais próprios (SP, MG, PR, MT, MS) entram sob demanda.
 
 `data/curated/mei-ctribnac/<data da revisão>/mei-ctribnac.json` liga cada subclasse CNAE das ocupações do MEI com ISS = S (Anexo XI da Resolução CGSN 140/2018) aos cTribNac do Anexo B da NFS-e cuja descrição cobre o serviço da ocupação.
 
-- Cabeçalho: `curated: true`, `official: false`, `reviewed_at`, `notes` e `sources` (Anexo XI, CNAE do IBGE e Anexo B, com caminho neste repositório e `sha256`).
+- Cabeçalho: `curated: true`, `official: false`, `reviewed_at`, `notes` e `sources` (Anexo XI, CNAE do IBGE e Anexo B, com o caminho neste repositório e o `sha256` desse arquivo).
 - `ctribnac`: índice código → descrição do Anexo B dos códigos usados.
-- `entries`: uma entrada por subclasse CNAE com `formatted`, `cnae_description`, `occupations`, `ctribnac` (lista de códigos de 6 dígitos, possivelmente vazia), `reason` e `needs_review` (o vínculo depende de uma leitura do texto da LC 116, não de menção explícita).
+- `entries`: uma entrada por subclasse CNAE com `formatted`, `cnae_description`, `occupations`, `ctribnac` (lista de códigos de 6 dígitos, possivelmente vazia), `reason` e `needs_review` (os vínculos, ou a falta deles, dependem de uma leitura do texto da LC 116, não de menção explícita).
 - Um teste (`tests/test_curated_mei_ctribnac.py`) confere que todo cTribNac existe no Anexo B espelhado, que as subclasses são exatamente as do Anexo XI com ISS = S e existem no IBGE, e que 01.06.01 (assessoria e consultoria em informática) e 01.01/01.02 (desenvolvimento de software) não estão ligados a nenhuma ocupação.
 
 Não é atualizada pelo robô: uma revisão nova vira uma pasta nova com a data dela.
