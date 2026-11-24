@@ -1,0 +1,33 @@
+{
+  "context": "ibge/cnae",
+  "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/ibge/cnae",
+  "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/ibge/cnae",
+  "generated_at": "2026-11-24T02:03:19+00:00",
+  "started_at": "2026-11-24T02:03:16+00:00",
+  "duration_s": 2.52,
+  "totals": {
+    "discovered": 1,
+    "persisted": 0,
+    "skipped": 1,
+    "failed": 0
+  },
+  "items": [
+    {
+      "slug": "2026-11-24_cnae-2.3-subclasses",
+      "title": "IBGE — CNAE 2.3, subclasses",
+      "description": "As subclasses da CNAE 2.3 com descrição, classe, grupo, divisão e seção, publicadas pelo IBGE (https://cnae.ibge.gov.br/).",
+      "published_at": "2026-11-24",
+      "source_url": "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses",
+      "folder": "data/ibge/cnae/2026-11-24_cnae-2.3-subclasses",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/ibge/cnae/2026-11-24_cnae-2.3-subclasses",
+      "files": [
+        "data/ibge/cnae/2026-11-24_cnae-2.3-subclasses/cnae-subclasses.json"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/ibge/cnae/2026-11-24_cnae-2.3-subclasses/cnae-subclasses.json"
+      ],
+      "downloaded_at": "",
+      "status": "skipped"
+    }
+  ]
+}
