@@ -2,13 +2,13 @@
   "context": "rfb/mei-ocupacoes",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/rfb/mei-ocupacoes",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/rfb/mei-ocupacoes",
-  "generated_at": "2026-11-24T02:15:48+00:00",
-  "started_at": "2026-11-24T02:15:35+00:00",
-  "duration_s": 13.1,
+  "generated_at": "2026-11-24T02:38:37+00:00",
+  "started_at": "2026-11-24T02:38:30+00:00",
+  "duration_s": 6.54,
   "totals": {
     "discovered": 1,
-    "persisted": 2,
-    "skipped": 0,
+    "persisted": 0,
+    "skipped": 1,
     "failed": 0
   },
   "items": [
@@ -28,8 +28,8 @@
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/rfb/mei-ocupacoes/2026-03-06_anexo-xi-cgsn-140/Anexo_XI.pdf",
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/rfb/mei-ocupacoes/2026-03-06_anexo-xi-cgsn-140/anexo-xi.json"
       ],
-      "downloaded_at": "2026-11-24T02:15:48+00:00",
-      "status": "ok"
+      "downloaded_at": "",
+      "status": "skipped"
     }
   ]
 }
