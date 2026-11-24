@@ -1,0 +1,35 @@
+{
+  "context": "rfb/mei-ocupacoes",
+  "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/rfb/mei-ocupacoes",
+  "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/rfb/mei-ocupacoes",
+  "generated_at": "2026-11-24T02:15:48+00:00",
+  "started_at": "2026-11-24T02:15:35+00:00",
+  "duration_s": 13.1,
+  "totals": {
+    "discovered": 1,
+    "persisted": 2,
+    "skipped": 0,
+    "failed": 0
+  },
+  "items": [
+    {
+      "slug": "2026-03-06_anexo-xi-cgsn-140",
+      "title": "Receita — Anexo XI da Resolução CGSN 140/2018 (ocupações do MEI)",
+      "description": "Ocupações permitidas ao MEI, Tabelas A e B, com a subclasse CNAE e se a ocupação recolhe ISS e ICMS.",
+      "published_at": "2026-03-06",
+      "source_url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Arquivos/manual/Anexo_XI.pdf",
+      "folder": "data/rfb/mei-ocupacoes/2026-03-06_anexo-xi-cgsn-140",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/rfb/mei-ocupacoes/2026-03-06_anexo-xi-cgsn-140",
+      "files": [
+        "data/rfb/mei-ocupacoes/2026-03-06_anexo-xi-cgsn-140/Anexo_XI.pdf",
+        "data/rfb/mei-ocupacoes/2026-03-06_anexo-xi-cgsn-140/anexo-xi.json"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/rfb/mei-ocupacoes/2026-03-06_anexo-xi-cgsn-140/Anexo_XI.pdf",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/rfb/mei-ocupacoes/2026-03-06_anexo-xi-cgsn-140/anexo-xi.json"
+      ],
+      "downloaded_at": "2026-11-24T02:15:48+00:00",
+      "status": "ok"
+    }
+  ]
+}

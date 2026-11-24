@@ -88,6 +88,16 @@ class TestFetchRetries(unittest.TestCase):
         self.assertEqual(got.content_type, "application/pdf")
         self.assertEqual(got.filename, "nt-2025.pdf")
         self.assertEqual(calls.count, 1)
+        self.assertEqual(got.last_modified, "")
+
+    def test_keeps_the_last_modified_header(self, _sleep):
+        stamp = "Fri, 06 Mar 2026 20:58:44 GMT"
+        calls = _Calls(httpx.Response(200, content=b"%PDF", headers={"last-modified": stamp}))
+
+        with _downloader(calls) as d:
+            got = d.fetch("https://x/Anexo_XI.pdf")
+
+        self.assertEqual(got.last_modified, stamp)
 
     def test_retries_a_server_error_then_succeeds(self, sleep):
         calls = _Calls(httpx.Response(503), httpx.Response(502), httpx.Response(200, content=b"ok"))

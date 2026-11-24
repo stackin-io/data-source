@@ -30,6 +30,7 @@ class DownloadedFile:
     data: bytes
     filename: str
     content_type: str
+    last_modified: str = ""
 
 
 class Downloader:
@@ -86,7 +87,12 @@ class Downloader:
 
         content_type = resp.headers.get("content-type", "application/octet-stream").split(";")[0]
         filename = self._resolve_filename(url, resp.headers, title_hint, content_type)
-        return DownloadedFile(data=resp.content, filename=filename, content_type=content_type)
+        return DownloadedFile(
+            data=resp.content,
+            filename=filename,
+            content_type=content_type,
+            last_modified=resp.headers.get("last-modified", ""),
+        )
 
     def get(self, url: str) -> bytes:
         return self.fetch(url).data
