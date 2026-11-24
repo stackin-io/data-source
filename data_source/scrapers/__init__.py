@@ -1,5 +1,6 @@
 from data_source.core.scraper import BaseScraper
 from data_source.scrapers.confaz import ConfazCestScraper
+from data_source.scrapers.ibge import IbgeCnaeScraper
 from data_source.scrapers.nfe import (
     NFeDiversosScraper,
     NFeEsquemasXMLScraper,
@@ -30,6 +31,7 @@ from data_source.scrapers.svrs import (
 
 REGISTRY: dict[str, type[BaseScraper]] = {
     ConfazCestScraper.context: ConfazCestScraper,
+    IbgeCnaeScraper.context: IbgeCnaeScraper,
     NFeEsquemasXMLScraper.context: NFeEsquemasXMLScraper,
     NFeNotasTecnicasScraper.context: NFeNotasTecnicasScraper,
     NFeInformesTecnicosScraper.context: NFeInformesTecnicosScraper,
@@ -57,6 +59,7 @@ REGISTRY: dict[str, type[BaseScraper]] = {
 __all__ = [
     "REGISTRY",
     "ConfazCestScraper",
+    "IbgeCnaeScraper",
     "NFSeScraper",
     "NFeDiversosScraper",
     "NFeEsquemasXMLScraper",
