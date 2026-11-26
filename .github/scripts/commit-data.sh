@@ -86,8 +86,16 @@ for attempt in 1 2 3; do
   git push -q --force origin "HEAD:refs/heads/${branch}"
 
   if [ -z "${pr}" ]; then
-    url="$(gh pr create --repo "${repo}" --base "${base}" --head "${branch}" --title "${title}" \
-      --body "Scheduled scrape of \`data/${context}\`, opened by ${run_url}. Merges itself once the required checks pass.")"
+    if ! url="$(gh pr create --repo "${repo}" --base "${base}" --head "${branch}" --title "${title}" \
+      --body "Scheduled scrape of \`data/${context}\`, opened by ${run_url}. Merges itself once the required checks pass.")"; then
+      echo "::warning::Could not open a pull request; pushing to ${base} directly, which only an unprotected ${base} accepts"
+      if git push -q origin "HEAD:${base}"; then
+        git push -q origin --delete "${branch}" 2>/dev/null || true
+        exit 0
+      fi
+      echo "Push to ${base} rejected (attempt ${attempt})"
+      continue
+    fi
     pr="${url##*/}"
     echo "Opened ${url}"
   fi
