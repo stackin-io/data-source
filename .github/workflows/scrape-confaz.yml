@@ -11,6 +11,8 @@ concurrency:
 
 permissions:
   contents: write
+  pull-requests: write
+  actions: write
 
 jobs:
   scrape:
@@ -44,7 +46,9 @@ jobs:
       - name: Scrape CONFAZ CEST
         run: poetry run data-source scrape confaz/cest --out ./data
 
-      - name: Commit new files as stackin-bot
+      - name: Merge new files through a pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: .github/scripts/commit-data.sh confaz
 
       - name: Alert Discord on failure

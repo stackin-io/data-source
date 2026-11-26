@@ -11,11 +11,13 @@ concurrency:
 
 permissions:
   contents: write
+  pull-requests: write
+  actions: write
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     env:
       DATA_SOURCE_LOG_LEVEL: INFO
       DATA_SOURCE_TIMEOUT_S: "120"
@@ -35,7 +37,9 @@ jobs:
       - name: Scrape Receita Anexo XI (MEI occupations)
         run: poetry run data-source scrape rfb/mei-ocupacoes --out ./data
 
-      - name: Commit new files as stackin-bot
+      - name: Merge new files through a pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: .github/scripts/commit-data.sh rfb/mei-ocupacoes
 
       - name: Alert Discord on failure

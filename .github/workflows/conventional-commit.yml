@@ -3,6 +3,12 @@ name: Conventional commit
 on:
   pull_request:
     branches: ["main", "master"]
+  workflow_dispatch:
+    inputs:
+      base:
+        description: Branch the pull request targets
+        required: true
+        default: master
 
 jobs:
   conventional-commit:
@@ -12,3 +18,5 @@ jobs:
         with:
           fetch-depth: 0
       - uses: actionplatform/ci-github/conventional-commit@v1
+        with:
+          base: ${{ github.event.pull_request.base.sha || format('origin/{0}', inputs.base) }}

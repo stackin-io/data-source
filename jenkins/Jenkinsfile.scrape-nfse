@@ -1,11 +1,3 @@
-// Daily NFS-e scrape, run from Jenkins instead of GitHub Actions (#24).
-//
-// gov.br resets connections from GitHub-hosted runners (Azure IPs) since
-// 2026-11-21, while it answers the Jenkins host (Dokploy VPS). The steps are
-// the ones .github/workflows/scrape-nfse.yml ran: install, scrape, commit the
-// new files as stackin-bot and push to master, alert Discord on failure.
-//
-// Job: data-source/scrape-nfse, Pipeline script from SCM, this repo, master.
 pipeline {
     agent {
         docker {
@@ -21,7 +13,6 @@ pipeline {
 
     environment {
         DATA_SOURCE_LOG_LEVEL = 'INFO'
-        // commit-data.sh pushes to GITHUB_REF_NAME, defaulting to master.
         GITHUB_REF_NAME = 'master'
     }
 
@@ -37,11 +28,12 @@ pipeline {
                 sh '''
                     set -eu
                     apt-get update -qq
-                    apt-get install -y -qq --no-install-recommends git curl jq >/dev/null
+                    apt-get install -y -qq --no-install-recommends git curl jq gh >/dev/null
                     pip install --no-cache-dir --quiet 'poetry==2.5.1'
                     # The workspace belongs to the Jenkins user; git runs here as root.
                     git config --global --add safe.directory "$WORKSPACE"
                     poetry --version
+                    gh --version | head -1
                 '''
             }
         }
