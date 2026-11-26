@@ -79,6 +79,8 @@ for attempt in 1 2 3; do
     echo "Nothing new for ${context} on ${base}"
     if [ -n "${pr}" ]; then
       gh pr close "${pr}" --repo "${repo}" --delete-branch
+    else
+      git push -q origin --delete "${branch}" 2>/dev/null || true
     fi
     exit 0
   fi
