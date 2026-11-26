@@ -2,9 +2,9 @@
   "context": "sef/sc/cbenef",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/sef/sc/cbenef",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/sef/sc/cbenef",
-  "generated_at": "2026-11-25T19:00:36+00:00",
-  "started_at": "2026-11-25T19:00:35+00:00",
-  "duration_s": 1.18,
+  "generated_at": "2026-11-26T18:54:37+00:00",
+  "started_at": "2026-11-26T18:54:36+00:00",
+  "duration_s": 1.23,
   "totals": {
     "discovered": 1,
     "persisted": 0,
