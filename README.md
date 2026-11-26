@@ -51,6 +51,8 @@ print(data["generated_at"], "→", len(data["entries"]), "docs")
 
 NF-e, SVRS, a tabela de cBenef de SC, a CNAE do IBGE e o Anexo XI do MEI rodam no GitHub Actions (`.github/workflows/`). A NFS-e roda no Jenkins da stackin (`jenkins/Jenkinsfile.scrape-nfse`, job `data-source/scrape-nfse`) desde 2026-11-21: o gov.br derruba conexões vindas dos runners do GitHub.
 
+Nenhum scrape escreve direto em `master`. Quando há arquivo novo, o `.github/scripts/commit-data.sh` commita no branch `chore/scrape-<contexto>-<AAAAMMDD-HHMM>` (`chore(data): scheduled <contexto> scrape …`), abre um pull request, liga o auto-merge (squash) e espera o merge, que acontece quando os checks obrigatórios (`gitflow`, `conventional-commit`) passam; depois apaga o branch. Sem arquivo novo, não há pull request. No Actions, o PR é aberto com o `GITHUB_TOKEN`, que não dispara workflows de `pull_request`, então o script dispara `gitflow` e `conventional-commit` no branch por `workflow_dispatch`. No Jenkins, o PR sai pela credencial `github-stackin` e os checks rodam sozinhos.
+
 Duas coisas são publicadas todo ciclo:
 
 - Um **feed Atom (XML)** — a lista das últimas publicações, no mesmo formato usado por blogs e sites de notícia. Leitores de RSS entendem, serviços de e-mail marketing entendem, integrações via webhook entendem.

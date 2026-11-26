@@ -3,6 +3,12 @@ name: Git-flow
 on:
   pull_request:
     branches: ["main", "master", "develop"]
+  workflow_dispatch:
+    inputs:
+      base:
+        description: Branch the pull request targets
+        required: true
+        default: master
 
 jobs:
   gitflow:
@@ -10,3 +16,6 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: actionplatform/ci-github/gitflow@v1
+        with:
+          head: ${{ github.head_ref || github.ref_name }}
+          base: ${{ github.base_ref || inputs.base }}
