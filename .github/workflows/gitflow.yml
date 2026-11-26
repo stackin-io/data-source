@@ -10,6 +10,10 @@ on:
         required: true
         default: master
 
+permissions:
+  contents: read
+  statuses: write
+
 jobs:
   gitflow:
     runs-on: ubuntu-latest
@@ -19,3 +23,12 @@ jobs:
         with:
           head: ${{ github.head_ref || github.ref_name }}
           base: ${{ github.base_ref || inputs.base }}
+      - name: Report the result on the commit
+        if: always() && github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          STATE: ${{ job.status == 'success' && 'success' || 'failure' }}
+        run: >
+          gh api "repos/${{ github.repository }}/statuses/${{ github.sha }}"
+          -f state="$STATE" -f context=gitflow
+          -f target_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
