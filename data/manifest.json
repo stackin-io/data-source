@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T00:35:37+00:00",
+  "generated_at": "2026-11-26T00:37:08+00:00",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data",
   "browse_base_url": "https://github.com/stackin-io/data-source/tree/master/data",
   "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml",
@@ -100,11 +100,11 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse",
-      "generated_at": "2026-11-25T09:02:05+00:00",
+      "generated_at": "2026-11-26T00:37:08+00:00",
       "totals": {
-        "discovered": 43,
-        "persisted": 0,
-        "skipped": 43,
+        "discovered": 46,
+        "persisted": 24,
+        "skipped": 22,
         "failed": 0
       }
     },
