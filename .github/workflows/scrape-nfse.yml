@@ -13,6 +13,8 @@ concurrency:
 
 permissions:
   contents: write
+  pull-requests: write
+  actions: write
 
 jobs:
   scrape:
@@ -36,7 +38,9 @@ jobs:
       - name: Run NFSe scraper
         run: poetry run data-source scrape nfse --out ./data
 
-      - name: Commit new files as stackin-bot
+      - name: Merge new files through a pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: .github/scripts/commit-data.sh nfse
 
       - name: Alert Discord on failure

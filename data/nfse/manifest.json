@@ -2,32 +2,171 @@
   "context": "nfse",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse",
-  "generated_at": "2026-11-23T09:20:13+00:00",
-  "started_at": "2026-11-23T09:20:11+00:00",
-  "duration_s": 2.01,
+  "generated_at": "2026-11-26T00:37:08+00:00",
+  "started_at": "2026-11-26T00:36:19+00:00",
+  "duration_s": 48.98,
   "totals": {
-    "discovered": 43,
-    "persisted": 0,
-    "skipped": 43,
+    "discovered": 46,
+    "persisted": 24,
+    "skipped": 22,
     "failed": 0
   },
   "items": [
     {
-      "slug": "2026-11-03_api-manual-de-municipios-adn-compartilhamento",
-      "title": "API - Manual de Municípios - ADN (Compartilhamento)",
-      "description": "API - Manual de Municípios - ADN (Compartilhamento)",
-      "published_at": "2026-11-03",
-      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/manual-municipios-apis-adn-sistema-nacional-nfs-e-v1-1-20261103.pdf",
-      "folder": "data/nfse/2026-11-03_api-manual-de-municipios-adn-compartilhamento",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-11-03_api-manual-de-municipios-adn-compartilhamento",
+      "slug": "2026-11-24_prodrest-guia-do-emissor-publico-nacional-web-com-formulario-ibscbs-versao-1.4-20261124",
+      "title": "Guia do Emissor Público Nacional Web (com formulário IBS/CBS) versão 1.4 20261124",
+      "description": "Guia do Emissor Público Nacional Web (com formulário IBS/CBS) versão 1.4 20261124",
+      "published_at": "2026-11-24",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/prod-res-guia-emissor-publico-nacional-web-snnfse-ern-v1-4-20261124.pdf",
+      "folder": "data/nfse/2026-11-24_prodrest-guia-do-emissor-publico-nacional-web-com-formulario-ibscbs-versao-1.4-20261124",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-11-24_prodrest-guia-do-emissor-publico-nacional-web-com-formulario-ibscbs-versao-1.4-20261124",
       "files": [
-        "data/nfse/2026-11-03_api-manual-de-municipios-adn-compartilhamento/manual-municipios-apis-adn-sistema-nacional-nfs-e-v1-1-20261103.pdf"
+        "data/nfse/2026-11-24_prodrest-guia-do-emissor-publico-nacional-web-com-formulario-ibscbs-versao-1.4-20261124/prod-res-guia-emissor-publico-nacional-web-snnfse-ern-v1-4-20261124.pdf"
       ],
       "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-11-03_api-manual-de-municipios-adn-compartilhamento/manual-municipios-apis-adn-sistema-nacional-nfs-e-v1-1-20261103.pdf"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-11-24_prodrest-guia-do-emissor-publico-nacional-web-com-formulario-ibscbs-versao-1.4-20261124/prod-res-guia-emissor-publico-nacional-web-snnfse-ern-v1-4-20261124.pdf"
       ],
-      "downloaded_at": "",
-      "status": "skipped"
+      "downloaded_at": "2026-11-26T00:36:29+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-11-24_prodrest-anexo-i-sefin-adn-dps-nfse-snnfse-producao-restrita-versao-1.01-20261124",
+      "title": "Anexo I SEFIN ADN DPS NFSe SNNFSe Produção Restrita versão 1.01 20261124",
+      "description": "Anexo I SEFIN ADN DPS NFSe SNNFSe Produção Restrita versão 1.01 20261124",
+      "published_at": "2026-11-24",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/anexo_i-sefin_adn-dps_nfse-snnfse_prodrest-v1-01-20261124.xlsx",
+      "folder": "data/nfse/2026-11-24_prodrest-anexo-i-sefin-adn-dps-nfse-snnfse-producao-restrita-versao-1.01-20261124",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-11-24_prodrest-anexo-i-sefin-adn-dps-nfse-snnfse-producao-restrita-versao-1.01-20261124",
+      "files": [
+        "data/nfse/2026-11-24_prodrest-anexo-i-sefin-adn-dps-nfse-snnfse-producao-restrita-versao-1.01-20261124/anexo_i-sefin_adn-dps_nfse-snnfse_prodrest-v1-01-20261124.xlsx"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-11-24_prodrest-anexo-i-sefin-adn-dps-nfse-snnfse-producao-restrita-versao-1.01-20261124/anexo_i-sefin_adn-dps_nfse-snnfse_prodrest-v1-01-20261124.xlsx"
+      ],
+      "downloaded_at": "2026-11-26T00:36:29+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124",
+      "title": "Esquemas XSD Produção Restrita 20261124",
+      "description": "Esquemas XSD Produção Restrita 20261124",
+      "published_at": "2026-11-24",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/esquemas-xsd-producao-restrita-20261124.zip",
+      "folder": "data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124",
+      "files": [
+        "data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124.zip",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124/CNC_v1.00.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124/DPS_v1.01.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124/evento_v1.01.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124/NFSe_v1.01.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124/pedRegEvento_v1.01.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124/tiposCnc_v1.00.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124/tiposComplexos_v1.01.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124/tiposEventos_v1.01.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124/tiposSimples_v1.01.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124/xmldsig-core-schema.xsd"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124/CNC_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124/DPS_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124/evento_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124/NFSe_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124/pedRegEvento_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124/tiposCnc_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124/tiposComplexos_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124/tiposEventos_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124/tiposSimples_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-11-24_prodrest-esquemas-xsd-producao-restrita-20261124/esquemas-xsd-producao-restrita-20261124/xmldsig-core-schema.xsd"
+      ],
+      "downloaded_at": "2026-11-26T00:36:30+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-11-23_prodrest-guia-do-painel-administrativo-municipal-versao-1.4-20261123",
+      "title": "Guia do Painel Administrativo Municipal versão 1.4 20261123",
+      "description": "Guia do Painel Administrativo Municipal versão 1.4 20261123",
+      "published_at": "2026-11-23",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/prod-res-guia-painel-administrativo-municipal-snnfse-v1-4-20261123.pdf",
+      "folder": "data/nfse/2026-11-23_prodrest-guia-do-painel-administrativo-municipal-versao-1.4-20261123",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-11-23_prodrest-guia-do-painel-administrativo-municipal-versao-1.4-20261123",
+      "files": [
+        "data/nfse/2026-11-23_prodrest-guia-do-painel-administrativo-municipal-versao-1.4-20261123/prod-res-guia-painel-administrativo-municipal-snnfse-v1-4-20261123.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-11-23_prodrest-guia-do-painel-administrativo-municipal-versao-1.4-20261123/prod-res-guia-painel-administrativo-municipal-snnfse-v1-4-20261123.pdf"
+      ],
+      "downloaded_at": "2026-11-26T00:36:46+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-11-23_prodrest-manual-dos-municipios-api-adn-versao-2.1-20261123",
+      "title": "Manual dos Municípios API ADN versão 2.1 20261123",
+      "description": "Manual dos Municípios API ADN versão 2.1 20261123",
+      "published_at": "2026-11-23",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/prod-res-manual-municipios-apis-adn-snnfse-v2-1-20261123.pdf",
+      "folder": "data/nfse/2026-11-23_prodrest-manual-dos-municipios-api-adn-versao-2.1-20261123",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-11-23_prodrest-manual-dos-municipios-api-adn-versao-2.1-20261123",
+      "files": [
+        "data/nfse/2026-11-23_prodrest-manual-dos-municipios-api-adn-versao-2.1-20261123/prod-res-manual-municipios-apis-adn-snnfse-v2-1-20261123.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-11-23_prodrest-manual-dos-municipios-api-adn-versao-2.1-20261123/prod-res-manual-municipios-apis-adn-snnfse-v2-1-20261123.pdf"
+      ],
+      "downloaded_at": "2026-11-26T00:36:47+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-11-23_prodrest-manual-dos-municipios-api-emissor-publico-versao-1.2-20261123",
+      "title": "Manual dos Municípios API Emissor Público versão 1.2 20261123",
+      "description": "Manual dos Municípios API Emissor Público versão 1.2 20261123",
+      "published_at": "2026-11-23",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/prod-res-manual-municipios-emissor-publico-api-snnfse-v1-2-20261123.pdf",
+      "folder": "data/nfse/2026-11-23_prodrest-manual-dos-municipios-api-emissor-publico-versao-1.2-20261123",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-11-23_prodrest-manual-dos-municipios-api-emissor-publico-versao-1.2-20261123",
+      "files": [
+        "data/nfse/2026-11-23_prodrest-manual-dos-municipios-api-emissor-publico-versao-1.2-20261123/prod-res-manual-municipios-emissor-publico-api-snnfse-v1-2-20261123.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-11-23_prodrest-manual-dos-municipios-api-emissor-publico-versao-1.2-20261123/prod-res-manual-municipios-emissor-publico-api-snnfse-v1-2-20261123.pdf"
+      ],
+      "downloaded_at": "2026-11-26T00:36:47+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-11-03_api-manual-de-contribuintes-guia-de-utilizacao-das-apis-do-adn-versao-1.1",
+      "title": "API - Manual de Contribuintes - Guia de Utilização das APIs do ADN - versão 1.1",
+      "description": "API - Manual de Contribuintes - Guia de Utilização das APIs do ADN - versão 1.1",
+      "published_at": "2026-11-03",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/manual-contribuintes-api-adn-snnfse-v1-1-20261103.pdf",
+      "folder": "data/nfse/2026-11-03_api-manual-de-contribuintes-guia-de-utilizacao-das-apis-do-adn-versao-1.1",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-11-03_api-manual-de-contribuintes-guia-de-utilizacao-das-apis-do-adn-versao-1.1",
+      "files": [
+        "data/nfse/2026-11-03_api-manual-de-contribuintes-guia-de-utilizacao-das-apis-do-adn-versao-1.1/manual-contribuintes-api-adn-snnfse-v1-1-20261103.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-11-03_api-manual-de-contribuintes-guia-de-utilizacao-das-apis-do-adn-versao-1.1/manual-contribuintes-api-adn-snnfse-v1-1-20261103.pdf"
+      ],
+      "downloaded_at": "2026-11-26T00:36:48+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-10-31_guia-do-emissor-publico-nacional-web",
+      "title": "Guia do Emissor Público Nacional Web",
+      "description": "Guia do Emissor Público Nacional Web",
+      "published_at": "2026-10-31",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/guia-emissor-publico-nacional-web-snnfse-ern-v1.3-20261031.pdf",
+      "folder": "data/nfse/2026-10-31_guia-do-emissor-publico-nacional-web",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-10-31_guia-do-emissor-publico-nacional-web",
+      "files": [
+        "data/nfse/2026-10-31_guia-do-emissor-publico-nacional-web/guia-emissor-publico-nacional-web-snnfse-ern-v1.3-20261031.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-31_guia-do-emissor-publico-nacional-web/guia-emissor-publico-nacional-web-snnfse-ern-v1.3-20261031.pdf"
+      ],
+      "downloaded_at": "2026-11-26T00:36:56+00:00",
+      "status": "ok"
     },
     {
       "slug": "2026-10-26_rtc-anexo-viii-versao-1.02.00-26102026-correlacao-entre-item-de-serv.-nbs-cclasstrib-e-cindop-anexovii",
@@ -47,75 +186,21 @@
       "status": "skipped"
     },
     {
-      "slug": "2026-10-20_prodrest-anexoi-sefinadn-dpsnfse-snnfse-prodrest-v1.01-20261020",
-      "title": "ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe-PRODREST-v1.01-20261020",
-      "description": "ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe-PRODREST-v1.01-20261020",
-      "published_at": "2026-10-20",
-      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/anexo_i-sefin_adn-dps_nfse-snnfse_prodrest-v1-01-20261020.xlsx",
-      "folder": "data/nfse/2026-10-20_prodrest-anexoi-sefinadn-dpsnfse-snnfse-prodrest-v1.01-20261020",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-10-20_prodrest-anexoi-sefinadn-dpsnfse-snnfse-prodrest-v1.01-20261020",
-      "files": [
-        "data/nfse/2026-10-20_prodrest-anexoi-sefinadn-dpsnfse-snnfse-prodrest-v1.01-20261020/anexo_i-sefin_adn-dps_nfse-snnfse_prodrest-v1-01-20261020.xlsx"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-anexoi-sefinadn-dpsnfse-snnfse-prodrest-v1.01-20261020/anexo_i-sefin_adn-dps_nfse-snnfse_prodrest-v1-01-20261020.xlsx"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
-      "slug": "2026-10-20_prodrest-anexoii-sefinadn-pedregevtevt-snnfse-prodrest-v1.01-20261020",
-      "title": "ANEXO_II-SEFIN_ADN-PEDREGEVT_EVT-SNNFSe-PRODREST-v1.01-20261020",
-      "description": "ANEXO_II-SEFIN_ADN-PEDREGEVT_EVT-SNNFSe-PRODREST-v1.01-20261020",
+      "slug": "2026-10-20_prodrest-anexo-ii-sefin-adn-pedregevt-evt-snnfse-producao-restrita-versao-1.01-20261020",
+      "title": "Anexo II SEFIN ADN PEDREGEVT EVT SNNFSe Produção Restrita versão 1.01 20261020",
+      "description": "Anexo II SEFIN ADN PEDREGEVT EVT SNNFSe Produção Restrita versão 1.01 20261020",
       "published_at": "2026-10-20",
       "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/anexo_ii-sefin_adn-pedregevt_evt-snnfse_prodrest-v1-01-20261020.xlsx",
-      "folder": "data/nfse/2026-10-20_prodrest-anexoii-sefinadn-pedregevtevt-snnfse-prodrest-v1.01-20261020",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-10-20_prodrest-anexoii-sefinadn-pedregevtevt-snnfse-prodrest-v1.01-20261020",
+      "folder": "data/nfse/2026-10-20_prodrest-anexo-ii-sefin-adn-pedregevt-evt-snnfse-producao-restrita-versao-1.01-20261020",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-10-20_prodrest-anexo-ii-sefin-adn-pedregevt-evt-snnfse-producao-restrita-versao-1.01-20261020",
       "files": [
-        "data/nfse/2026-10-20_prodrest-anexoii-sefinadn-pedregevtevt-snnfse-prodrest-v1.01-20261020/anexo_ii-sefin_adn-pedregevt_evt-snnfse_prodrest-v1-01-20261020.xlsx"
+        "data/nfse/2026-10-20_prodrest-anexo-ii-sefin-adn-pedregevt-evt-snnfse-producao-restrita-versao-1.01-20261020/anexo_ii-sefin_adn-pedregevt_evt-snnfse_prodrest-v1-01-20261020.xlsx"
       ],
       "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-anexoii-sefinadn-pedregevtevt-snnfse-prodrest-v1.01-20261020/anexo_ii-sefin_adn-pedregevt_evt-snnfse_prodrest-v1-01-20261020.xlsx"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-anexo-ii-sefin-adn-pedregevt-evt-snnfse-producao-restrita-versao-1.01-20261020/anexo_ii-sefin_adn-pedregevt_evt-snnfse_prodrest-v1-01-20261020.xlsx"
       ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
-      "slug": "2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020",
-      "title": "NFSe-ESQUEMAS_XSD-PRODREST-v1.01-20261020",
-      "description": "NFSe-ESQUEMAS_XSD-PRODREST-v1.01-20261020",
-      "published_at": "2026-10-20",
-      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/esquemas_prod_restrita_20261020.zip",
-      "folder": "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020",
-      "files": [
-        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020.zip",
-        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/CNC_v1.00.xsd",
-        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/DPS_v1.01.xsd",
-        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/NFSe_v1.01.xsd",
-        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/evento_v1.01.xsd",
-        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/pedRegEvento_v1.01.xsd",
-        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposCnc_v1.00.xsd",
-        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposComplexos_v1.01.xsd",
-        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposEventos_v1.01.xsd",
-        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposSimples_v1.01.xsd",
-        "data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/xmldsig-core-schema.xsd"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020.zip",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/CNC_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/DPS_v1.01.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/NFSe_v1.01.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/evento_v1.01.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/pedRegEvento_v1.01.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposCnc_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposComplexos_v1.01.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposEventos_v1.01.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/tiposSimples_v1.01.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-10-20_prodrest-nfse-esquemasxsd-prodrest-v1.01-20261020/esquemas_prod_restrita_20261020/xmldsig-core-schema.xsd"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
+      "downloaded_at": "2026-11-26T00:36:56+00:00",
+      "status": "ok"
     },
     {
       "slug": "2026-07-14_rtc-nota-tecnica-secgnfs-e-no-008",
@@ -135,214 +220,231 @@
       "status": "skipped"
     },
     {
-      "slug": "2026-02-09_nfse-esquemasxsd-v1.01-20260209",
-      "title": "NFSe-ESQUEMAS_XSD-v1.01-20260209",
-      "description": "NFSe-ESQUEMAS_XSD-v1.01-20260209",
+      "slug": "2026-02-09_nfse-esquemasxsd-v1.01",
+      "title": "NFSe-ESQUEMAS_XSD-v1.01",
+      "description": "NFSe-ESQUEMAS_XSD-v1.01",
       "published_at": "2026-02-09",
-      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/nfse-esquemas_xsd-v1-01-20260209.zip",
-      "folder": "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/esquemas-xsd-v1.01-20260209.zip",
+      "folder": "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01",
       "files": [
-        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209.zip",
-        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.00/CNC_v1.00.xsd",
-        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.00/DPS_v1.00.xsd",
-        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.00/NFSe_v1.00.xsd",
-        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.00/evento_v1.00.xsd",
-        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.00/pedRegEvento_v1.00.xsd",
-        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.00/tiposCnc_v1.00.xsd",
-        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.00/tiposComplexos_v1.00.xsd",
-        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.00/tiposEventos_v1.00.xsd",
-        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.00/tiposSimples_v1.00.xsd",
-        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.00/xmldsig-core-schema.xsd",
-        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.01/CNC_v1.00.xsd",
-        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.01/DPS_v1.01.xsd",
-        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.01/NFSe_v1.01.xsd",
-        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.01/evento_v1.01.xsd",
-        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.01/pedRegEvento_v1.01.xsd",
-        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.01/tiposCnc_v1.00.xsd",
-        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.01/tiposComplexos_v1.01.xsd",
-        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.01/tiposEventos_v1.01.xsd",
-        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.01/tiposSimples_v1.01.xsd",
-        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.01/xmldsig-core-schema.xsd"
+        "data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209.zip",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.00/CNC_v1.00.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.00/DPS_v1.00.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.00/evento_v1.00.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.00/NFSe_v1.00.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.00/pedRegEvento_v1.00.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.00/tiposCnc_v1.00.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.00/tiposComplexos_v1.00.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.00/tiposEventos_v1.00.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.00/tiposSimples_v1.00.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.00/xmldsig-core-schema.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.01/CNC_v1.00.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.01/DPS_v1.01.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.01/evento_v1.01.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.01/NFSe_v1.01.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.01/pedRegEvento_v1.01.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.01/tiposCnc_v1.00.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.01/tiposComplexos_v1.01.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.01/tiposEventos_v1.01.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.01/tiposSimples_v1.01.xsd",
+        "/var/jenkins_home/workspace/data-source/scrape-nfse/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.01/xmldsig-core-schema.xsd"
       ],
       "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209.zip",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.00/CNC_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.00/DPS_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.00/NFSe_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.00/evento_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.00/pedRegEvento_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.00/tiposCnc_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.00/tiposComplexos_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.00/tiposEventos_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.00/tiposSimples_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.00/xmldsig-core-schema.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.01/CNC_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.01/DPS_v1.01.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.01/NFSe_v1.01.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.01/evento_v1.01.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.01/pedRegEvento_v1.01.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.01/tiposCnc_v1.00.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.01/tiposComplexos_v1.01.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.01/tiposEventos_v1.01.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.01/tiposSimples_v1.01.xsd",
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01-20260209/nfse-esquemas_xsd-v1-01-20260209/Schemas/1.01/xmldsig-core-schema.xsd"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209.zip",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.00/CNC_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.00/DPS_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.00/evento_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.00/NFSe_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.00/pedRegEvento_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.00/tiposCnc_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.00/tiposComplexos_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.00/tiposEventos_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.00/tiposSimples_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.00/xmldsig-core-schema.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.01/CNC_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.01/DPS_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.01/evento_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.01/NFSe_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.01/pedRegEvento_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.01/tiposCnc_v1.00.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.01/tiposComplexos_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.01/tiposEventos_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.01/tiposSimples_v1.01.xsd",
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_nfse-esquemasxsd-v1.01/esquemas-xsd-v1.01-20260209/Schemas/1.01/xmldsig-core-schema.xsd"
       ],
-      "downloaded_at": "",
-      "status": "skipped"
+      "downloaded_at": "2026-11-26T00:36:57+00:00",
+      "status": "ok"
     },
     {
-      "slug": "2026-02-09_anexoi-sefinadn-dpsnfse-snnfse-v1.01-20260209",
-      "title": "ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe-v1.01-20260209",
-      "description": "ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe-v1.01-20260209",
+      "slug": "2026-02-09_anexoi-sefinadn-dpsnfse-snnfse-v1.01",
+      "title": "ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe-v1.01",
+      "description": "ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe-v1.01",
       "published_at": "2026-02-09",
-      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo_i-sefin_adn-dps_nfse-snnfse-v1-01-20260209.xlsx",
-      "folder": "data/nfse/2026-02-09_anexoi-sefinadn-dpsnfse-snnfse-v1.01-20260209",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-02-09_anexoi-sefinadn-dpsnfse-snnfse-v1.01-20260209",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo-i-sefin-adn-dps-nfse-snnfse-v1.01-20260209.xlsx",
+      "folder": "data/nfse/2026-02-09_anexoi-sefinadn-dpsnfse-snnfse-v1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-02-09_anexoi-sefinadn-dpsnfse-snnfse-v1.01",
       "files": [
-        "data/nfse/2026-02-09_anexoi-sefinadn-dpsnfse-snnfse-v1.01-20260209/anexo_i-sefin_adn-dps_nfse-snnfse-v1-01-20260209.xlsx"
+        "data/nfse/2026-02-09_anexoi-sefinadn-dpsnfse-snnfse-v1.01/anexo-i-sefin-adn-dps-nfse-snnfse-v1.01-20260209.xlsx"
       ],
       "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_anexoi-sefinadn-dpsnfse-snnfse-v1.01-20260209/anexo_i-sefin_adn-dps_nfse-snnfse-v1-01-20260209.xlsx"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-02-09_anexoi-sefinadn-dpsnfse-snnfse-v1.01/anexo-i-sefin-adn-dps-nfse-snnfse-v1.01-20260209.xlsx"
       ],
-      "downloaded_at": "",
-      "status": "skipped"
+      "downloaded_at": "2026-11-26T00:36:58+00:00",
+      "status": "ok"
     },
     {
-      "slug": "2026-01-22_anexob-nbs2-listaserviconacional-snnfse-v1.01-20260122",
-      "title": "ANEXO_B-NBS2-LISTA_SERVICO_NACIONAL-SNNFSe-v1.01-20260122",
-      "description": "ANEXO_B-NBS2-LISTA_SERVICO_NACIONAL-SNNFSe-v1.01-20260122",
+      "slug": "2026-01-26_api-manual-de-contribuintes-emissor-publico-nacional-emissao-por-decisao-administrativa-ou-judicial",
+      "title": "API - Manual de Contribuintes - Emissor Público Nacional - Emissão por Decisão Administrativa ou Judicial",
+      "description": "API - Manual de Contribuintes - Emissor Público Nacional - Emissão por Decisão Administrativa ou Judicial",
+      "published_at": "2026-01-26",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/manual-contribuintes-emissor-publico-api-emissao-decisao-administrativa-judicial-v1.0-20260126.pdf",
+      "folder": "data/nfse/2026-01-26_api-manual-de-contribuintes-emissor-publico-nacional-emissao-por-decisao-administrativa-ou-judicial",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-01-26_api-manual-de-contribuintes-emissor-publico-nacional-emissao-por-decisao-administrativa-ou-judicial",
+      "files": [
+        "data/nfse/2026-01-26_api-manual-de-contribuintes-emissor-publico-nacional-emissao-por-decisao-administrativa-ou-judicial/manual-contribuintes-emissor-publico-api-emissao-decisao-administrativa-judicial-v1.0-20260126.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-01-26_api-manual-de-contribuintes-emissor-publico-nacional-emissao-por-decisao-administrativa-ou-judicial/manual-contribuintes-emissor-publico-api-emissao-decisao-administrativa-judicial-v1.0-20260126.pdf"
+      ],
+      "downloaded_at": "2026-11-26T00:36:59+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2026-01-22_anexob-nbs2-listaserviconacional-snnfse-v1.01",
+      "title": "ANEXO_B-NBS2-LISTA_SERVICO_NACIONAL-SNNFSe-v1.01",
+      "description": "ANEXO_B-NBS2-LISTA_SERVICO_NACIONAL-SNNFSe-v1.01",
       "published_at": "2026-01-22",
-      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo_b-nbs2-lista_servico_nacional-snnfse-v1-01-20260122.xlsx",
-      "folder": "data/nfse/2026-01-22_anexob-nbs2-listaserviconacional-snnfse-v1.01-20260122",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-01-22_anexob-nbs2-listaserviconacional-snnfse-v1.01-20260122",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo-b-nbs2-lista-servico-nacional-snnfse-v1.01-20260122.xlsx",
+      "folder": "data/nfse/2026-01-22_anexob-nbs2-listaserviconacional-snnfse-v1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-01-22_anexob-nbs2-listaserviconacional-snnfse-v1.01",
       "files": [
-        "data/nfse/2026-01-22_anexob-nbs2-listaserviconacional-snnfse-v1.01-20260122/anexo_b-nbs2-lista_servico_nacional-snnfse-v1-01-20260122.xlsx"
+        "data/nfse/2026-01-22_anexob-nbs2-listaserviconacional-snnfse-v1.01/anexo-b-nbs2-lista-servico-nacional-snnfse-v1.01-20260122.xlsx"
       ],
       "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-01-22_anexob-nbs2-listaserviconacional-snnfse-v1.01-20260122/anexo_b-nbs2-lista_servico_nacional-snnfse-v1-01-20260122.xlsx"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-01-22_anexob-nbs2-listaserviconacional-snnfse-v1.01/anexo-b-nbs2-lista-servico-nacional-snnfse-v1.01-20260122.xlsx"
       ],
-      "downloaded_at": "",
-      "status": "skipped"
+      "downloaded_at": "2026-11-26T00:36:59+00:00",
+      "status": "ok"
     },
     {
-      "slug": "2026-01-22_anexoii-sefinadn-pedregevtevt-snnfse-v1.01-20260122",
-      "title": "ANEXO_II-SEFIN_ADN-PEDREGEVT_EVT-SNNFSe-v1.01-20260122",
-      "description": "ANEXO_II-SEFIN_ADN-PEDREGEVT_EVT-SNNFSe-v1.01-20260122",
+      "slug": "2026-01-22_anexoii-sefinadn-pedregevtevt-snnfse-v1.01",
+      "title": "ANEXO_II-SEFIN_ADN-PEDREGEVT_EVT-SNNFSe-v1.01",
+      "description": "ANEXO_II-SEFIN_ADN-PEDREGEVT_EVT-SNNFSe-v1.01",
       "published_at": "2026-01-22",
-      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo_ii-sefin_adn-pedregevt_evt-snnfse-v1-01-20260122.xlsx",
-      "folder": "data/nfse/2026-01-22_anexoii-sefinadn-pedregevtevt-snnfse-v1.01-20260122",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-01-22_anexoii-sefinadn-pedregevtevt-snnfse-v1.01-20260122",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo-ii-sefin-adn-pedregevt-evt-snnfse-v1.01-20260122.xlsx",
+      "folder": "data/nfse/2026-01-22_anexoii-sefinadn-pedregevtevt-snnfse-v1.01",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-01-22_anexoii-sefinadn-pedregevtevt-snnfse-v1.01",
       "files": [
-        "data/nfse/2026-01-22_anexoii-sefinadn-pedregevtevt-snnfse-v1.01-20260122/anexo_ii-sefin_adn-pedregevt_evt-snnfse-v1-01-20260122.xlsx"
+        "data/nfse/2026-01-22_anexoii-sefinadn-pedregevtevt-snnfse-v1.01/anexo-ii-sefin-adn-pedregevt-evt-snnfse-v1.01-20260122.xlsx"
       ],
       "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-01-22_anexoii-sefinadn-pedregevtevt-snnfse-v1.01-20260122/anexo_ii-sefin_adn-pedregevt_evt-snnfse-v1-01-20260122.xlsx"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-01-22_anexoii-sefinadn-pedregevtevt-snnfse-v1.01/anexo-ii-sefin-adn-pedregevt-evt-snnfse-v1.01-20260122.xlsx"
       ],
-      "downloaded_at": "",
-      "status": "skipped"
+      "downloaded_at": "2026-11-26T00:37:00+00:00",
+      "status": "ok"
     },
     {
-      "slug": "2026-01-22_prodrest-anexob-nbs2-listaserviconacional-snnfse-prodrest-v1.01-20260122",
-      "title": "ANEXO_B-NBS2-LISTA_SERVICO_NACIONAL-SNNFSe-PRODREST-v1.01-20260122",
-      "description": "ANEXO_B-NBS2-LISTA_SERVICO_NACIONAL-SNNFSe-PRODREST-v1.01-20260122",
+      "slug": "2026-01-22_prodrest-anexo-b-nbs2-lista-de-servicos-nacional-snnfse-producao-restrita-versao-1.01-20260122",
+      "title": "Anexo B NBS2 Lista de Serviços Nacional SNNFSe Produção Restrita versão 1.01 20260122",
+      "description": "Anexo B NBS2 Lista de Serviços Nacional SNNFSe Produção Restrita versão 1.01 20260122",
       "published_at": "2026-01-22",
       "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/anexo_b-nbs2-lista_servico_nacional-snnfse-prodrest-v1-01-20260122.xlsx",
-      "folder": "data/nfse/2026-01-22_prodrest-anexob-nbs2-listaserviconacional-snnfse-prodrest-v1.01-20260122",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-01-22_prodrest-anexob-nbs2-listaserviconacional-snnfse-prodrest-v1.01-20260122",
+      "folder": "data/nfse/2026-01-22_prodrest-anexo-b-nbs2-lista-de-servicos-nacional-snnfse-producao-restrita-versao-1.01-20260122",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-01-22_prodrest-anexo-b-nbs2-lista-de-servicos-nacional-snnfse-producao-restrita-versao-1.01-20260122",
       "files": [
-        "data/nfse/2026-01-22_prodrest-anexob-nbs2-listaserviconacional-snnfse-prodrest-v1.01-20260122/anexo_b-nbs2-lista_servico_nacional-snnfse-prodrest-v1-01-20260122.xlsx"
+        "data/nfse/2026-01-22_prodrest-anexo-b-nbs2-lista-de-servicos-nacional-snnfse-producao-restrita-versao-1.01-20260122/anexo_b-nbs2-lista_servico_nacional-snnfse-prodrest-v1-01-20260122.xlsx"
       ],
       "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-01-22_prodrest-anexob-nbs2-listaserviconacional-snnfse-prodrest-v1.01-20260122/anexo_b-nbs2-lista_servico_nacional-snnfse-prodrest-v1-01-20260122.xlsx"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-01-22_prodrest-anexo-b-nbs2-lista-de-servicos-nacional-snnfse-producao-restrita-versao-1.01-20260122/anexo_b-nbs2-lista_servico_nacional-snnfse-prodrest-v1-01-20260122.xlsx"
       ],
-      "downloaded_at": "",
-      "status": "skipped"
+      "downloaded_at": "2026-11-26T00:37:01+00:00",
+      "status": "ok"
     },
     {
-      "slug": "2026-01-22_prodrest-anexoc-indopibscbs-snnfse-prodrest-v1.01-20260122",
-      "title": "ANEXO_C-INDOP_IBSCBS-SNNFSe-PRODREST-v1.01-20260122",
-      "description": "ANEXO_C-INDOP_IBSCBS-SNNFSe-PRODREST-v1.01-20260122",
+      "slug": "2026-01-22_prodrest-anexo-c-indop-ibscbs-snnfse-producao-restrita-versao-1.01-20260122",
+      "title": "Anexo C IndOp IBSCBS SNNFSe Produção Restrita versão 1.01 20260122",
+      "description": "Anexo C IndOp IBSCBS SNNFSe Produção Restrita versão 1.01 20260122",
       "published_at": "2026-01-22",
       "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/anexo_c-indop_ibscbs-snnfse-prodrest-v1-01-20260122.xlsx",
-      "folder": "data/nfse/2026-01-22_prodrest-anexoc-indopibscbs-snnfse-prodrest-v1.01-20260122",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-01-22_prodrest-anexoc-indopibscbs-snnfse-prodrest-v1.01-20260122",
+      "folder": "data/nfse/2026-01-22_prodrest-anexo-c-indop-ibscbs-snnfse-producao-restrita-versao-1.01-20260122",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2026-01-22_prodrest-anexo-c-indop-ibscbs-snnfse-producao-restrita-versao-1.01-20260122",
       "files": [
-        "data/nfse/2026-01-22_prodrest-anexoc-indopibscbs-snnfse-prodrest-v1.01-20260122/anexo_c-indop_ibscbs-snnfse-prodrest-v1-01-20260122.xlsx"
+        "data/nfse/2026-01-22_prodrest-anexo-c-indop-ibscbs-snnfse-producao-restrita-versao-1.01-20260122/anexo_c-indop_ibscbs-snnfse-prodrest-v1-01-20260122.xlsx"
       ],
       "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-01-22_prodrest-anexoc-indopibscbs-snnfse-prodrest-v1.01-20260122/anexo_c-indop_ibscbs-snnfse-prodrest-v1-01-20260122.xlsx"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2026-01-22_prodrest-anexo-c-indop-ibscbs-snnfse-producao-restrita-versao-1.01-20260122/anexo_c-indop_ibscbs-snnfse-prodrest-v1-01-20260122.xlsx"
       ],
-      "downloaded_at": "",
-      "status": "skipped"
+      "downloaded_at": "2026-11-26T00:37:01+00:00",
+      "status": "ok"
     },
     {
-      "slug": "2025-12-16_anexoiii-cnc-snnfse-v1.00-20251216",
-      "title": "ANEXO_III-CNC-SNNFSe-v1.00-20251216",
-      "description": "ANEXO_III-CNC-SNNFSe-v1.00-20251216",
+      "slug": "2025-12-16_anexoiii-cnc-snnfse-v1.00",
+      "title": "ANEXO_III-CNC-SNNFSe-v1.00",
+      "description": "ANEXO_III-CNC-SNNFSe-v1.00",
       "published_at": "2025-12-16",
-      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo_iii-cnc-snnfse-v1-00-20251216.xlsx",
-      "folder": "data/nfse/2025-12-16_anexoiii-cnc-snnfse-v1.00-20251216",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-12-16_anexoiii-cnc-snnfse-v1.00-20251216",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo-iii-cnc-snnfse-v1.00-20251216.xlsx",
+      "folder": "data/nfse/2025-12-16_anexoiii-cnc-snnfse-v1.00",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-12-16_anexoiii-cnc-snnfse-v1.00",
       "files": [
-        "data/nfse/2025-12-16_anexoiii-cnc-snnfse-v1.00-20251216/anexo_iii-cnc-snnfse-v1-00-20251216.xlsx"
+        "data/nfse/2025-12-16_anexoiii-cnc-snnfse-v1.00/anexo-iii-cnc-snnfse-v1.00-20251216.xlsx"
       ],
       "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-12-16_anexoiii-cnc-snnfse-v1.00-20251216/anexo_iii-cnc-snnfse-v1-00-20251216.xlsx"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-12-16_anexoiii-cnc-snnfse-v1.00/anexo-iii-cnc-snnfse-v1.00-20251216.xlsx"
       ],
-      "downloaded_at": "",
-      "status": "skipped"
+      "downloaded_at": "2026-11-26T00:37:02+00:00",
+      "status": "ok"
     },
     {
-      "slug": "2025-12-16_anexoiv-adn-snnfse-v1.00-20251216",
-      "title": "ANEXO_IV-ADN-SNNFSe-v1.00-20251216",
-      "description": "ANEXO_IV-ADN-SNNFSe-v1.00-20251216",
+      "slug": "2025-12-16_anexoiv-adn-snnfse-v1.00",
+      "title": "ANEXO_IV-ADN-SNNFSe-v1.00",
+      "description": "ANEXO_IV-ADN-SNNFSe-v1.00",
       "published_at": "2025-12-16",
-      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo_iv-adn-snnfse-v1-00-20251216.xlsx",
-      "folder": "data/nfse/2025-12-16_anexoiv-adn-snnfse-v1.00-20251216",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-12-16_anexoiv-adn-snnfse-v1.00-20251216",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo-iv-adn-snnfse-v1.00-20251216.xlsx",
+      "folder": "data/nfse/2025-12-16_anexoiv-adn-snnfse-v1.00",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-12-16_anexoiv-adn-snnfse-v1.00",
       "files": [
-        "data/nfse/2025-12-16_anexoiv-adn-snnfse-v1.00-20251216/anexo_iv-adn-snnfse-v1-00-20251216.xlsx"
+        "data/nfse/2025-12-16_anexoiv-adn-snnfse-v1.00/anexo-iv-adn-snnfse-v1.00-20251216.xlsx"
       ],
       "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-12-16_anexoiv-adn-snnfse-v1.00-20251216/anexo_iv-adn-snnfse-v1-00-20251216.xlsx"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-12-16_anexoiv-adn-snnfse-v1.00/anexo-iv-adn-snnfse-v1.00-20251216.xlsx"
       ],
-      "downloaded_at": "",
-      "status": "skipped"
+      "downloaded_at": "2026-11-26T00:37:03+00:00",
+      "status": "ok"
     },
     {
-      "slug": "2025-12-16_anexov-paineladmmunicipal-snnfse-v1.00-20251216",
-      "title": "ANEXO_V-PAINEL_ADM_MUNICIPAL-SNNFSe-v1.00-20251216",
-      "description": "ANEXO_V-PAINEL_ADM_MUNICIPAL-SNNFSe-v1.00-20251216",
+      "slug": "2025-12-16_anexov-paineladmmunicipal-snnfse-v1.00",
+      "title": "ANEXO_V-PAINEL_ADM_MUNICIPAL-SNNFSe-v1.00",
+      "description": "ANEXO_V-PAINEL_ADM_MUNICIPAL-SNNFSe-v1.00",
       "published_at": "2025-12-16",
-      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo_v-painel_adm_municipal-snnfse-v1-00-20251216.xlsx",
-      "folder": "data/nfse/2025-12-16_anexov-paineladmmunicipal-snnfse-v1.00-20251216",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-12-16_anexov-paineladmmunicipal-snnfse-v1.00-20251216",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo-v-painel-adm-municipal-snnfse-v1.00-20251216.xlsx",
+      "folder": "data/nfse/2025-12-16_anexov-paineladmmunicipal-snnfse-v1.00",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-12-16_anexov-paineladmmunicipal-snnfse-v1.00",
       "files": [
-        "data/nfse/2025-12-16_anexov-paineladmmunicipal-snnfse-v1.00-20251216/anexo_v-painel_adm_municipal-snnfse-v1-00-20251216.xlsx"
+        "data/nfse/2025-12-16_anexov-paineladmmunicipal-snnfse-v1.00/anexo-v-painel-adm-municipal-snnfse-v1.00-20251216.xlsx"
       ],
       "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-12-16_anexov-paineladmmunicipal-snnfse-v1.00-20251216/anexo_v-painel_adm_municipal-snnfse-v1-00-20251216.xlsx"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-12-16_anexov-paineladmmunicipal-snnfse-v1.00/anexo-v-painel-adm-municipal-snnfse-v1.00-20251216.xlsx"
       ],
-      "downloaded_at": "",
-      "status": "skipped"
+      "downloaded_at": "2026-11-26T00:37:04+00:00",
+      "status": "ok"
     },
     {
-      "slug": "2025-12-10_anexoa-municipioibge-paisesiso2-v1.00-snnfse-20251210",
-      "title": "ANEXO_A-MUNICIPIO_IBGE-PAISES_ISO2-v1.00-SNNFSe-20251210",
-      "description": "ANEXO_A-MUNICIPIO_IBGE-PAISES_ISO2-v1.00-SNNFSe-20251210",
+      "slug": "2025-12-10_anexoa-municipioibge-paisesiso2-v1.00-snnfse",
+      "title": "ANEXO_A-MUNICIPIO_IBGE-PAISES_ISO2-v1.00-SNNFSe",
+      "description": "ANEXO_A-MUNICIPIO_IBGE-PAISES_ISO2-v1.00-SNNFSe",
       "published_at": "2025-12-10",
-      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo_a-municipio_ibge-paises_iso2-v1-00-snnfse-20251210.xlsx",
-      "folder": "data/nfse/2025-12-10_anexoa-municipioibge-paisesiso2-v1.00-snnfse-20251210",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-12-10_anexoa-municipioibge-paisesiso2-v1.00-snnfse-20251210",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo-a-municipio-ibge-paises-iso2-snnfse-v1.00-20251210.xlsx",
+      "folder": "data/nfse/2025-12-10_anexoa-municipioibge-paisesiso2-v1.00-snnfse",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-12-10_anexoa-municipioibge-paisesiso2-v1.00-snnfse",
       "files": [
-        "data/nfse/2025-12-10_anexoa-municipioibge-paisesiso2-v1.00-snnfse-20251210/anexo_a-municipio_ibge-paises_iso2-v1-00-snnfse-20251210.xlsx"
+        "data/nfse/2025-12-10_anexoa-municipioibge-paisesiso2-v1.00-snnfse/anexo-a-municipio-ibge-paises-iso2-snnfse-v1.00-20251210.xlsx"
       ],
       "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-12-10_anexoa-municipioibge-paisesiso2-v1.00-snnfse-20251210/anexo_a-municipio_ibge-paises_iso2-v1-00-snnfse-20251210.xlsx"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-12-10_anexoa-municipioibge-paisesiso2-v1.00-snnfse/anexo-a-municipio-ibge-paises-iso2-snnfse-v1.00-20251210.xlsx"
       ],
-      "downloaded_at": "",
-      "status": "skipped"
+      "downloaded_at": "2026-11-26T00:37:05+00:00",
+      "status": "ok"
     },
     {
       "slug": "2025-12-10_rtc-nota-tecnica-secgnfs-e-no-004",
@@ -379,11 +481,28 @@
       "status": "skipped"
     },
     {
+      "slug": "2025-11-25_api-manual-de-municipios-adn-compartilhamento",
+      "title": "API - Manual de Municípios - ADN (Compartilhamento)",
+      "description": "API - Manual de Municípios - ADN (Compartilhamento)",
+      "published_at": "2025-11-25",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/manual-municipios-api-adn-snnfse-v2.0-20251125.pdf",
+      "folder": "data/nfse/2025-11-25_api-manual-de-municipios-adn-compartilhamento",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-11-25_api-manual-de-municipios-adn-compartilhamento",
+      "files": [
+        "data/nfse/2025-11-25_api-manual-de-municipios-adn-compartilhamento/manual-municipios-api-adn-snnfse-v2.0-20251125.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-11-25_api-manual-de-municipios-adn-compartilhamento/manual-municipios-api-adn-snnfse-v2.0-20251125.pdf"
+      ],
+      "downloaded_at": "2026-11-26T00:37:05+00:00",
+      "status": "ok"
+    },
+    {
       "slug": "2025-10-01_guia-do-painel-administrativo-municipal",
       "title": "Guia do Painel Administrativo Municipal",
       "description": "Guia do Painel Administrativo Municipal",
       "published_at": "2025-10-01",
-      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/guia-do-painel-administrativo-municipal-nfs-e-v1-2-out2025.pdf",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/guia-painel-administrativo-municipal-snnfse-v1.2-20251001.pdf",
       "folder": "data/nfse/2025-10-01_guia-do-painel-administrativo-municipal",
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-10-01_guia-do-painel-administrativo-municipal",
       "files": [
@@ -396,113 +515,62 @@
       "status": "skipped"
     },
     {
-      "slug": "2025-10-01_api-manual-de-contribuintes-emissor-publico",
-      "title": "API - Manual de Contribuintes - Emissor Público",
-      "description": "API - Manual de Contribuintes - Emissor Público",
-      "published_at": "2025-10-01",
-      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/manual-contribuintes-emissor-publico-api-sistema-nacional-nfs-e-v1-2-out2025.pdf",
-      "folder": "data/nfse/2025-10-01_api-manual-de-contribuintes-emissor-publico",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-10-01_api-manual-de-contribuintes-emissor-publico",
-      "files": [
-        "data/nfse/2025-10-01_api-manual-de-contribuintes-emissor-publico/manual-contribuintes-emissor-publico-api-sistema-nacional-nfs-e-v1-2-out2025.pdf"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-10-01_api-manual-de-contribuintes-emissor-publico/manual-contribuintes-emissor-publico-api-sistema-nacional-nfs-e-v1-2-out2025.pdf"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
-      "slug": "undated_guia-do-emissor-publico-nacional-web",
-      "title": "Guia do Emissor Público Nacional Web",
-      "description": "Guia do Emissor Público Nacional Web",
-      "published_at": "",
-      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/guia-emissorpubliconacionalweb_snnfse-ern-v1-3.pdf",
-      "folder": "data/nfse/undated_guia-do-emissor-publico-nacional-web",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_guia-do-emissor-publico-nacional-web",
-      "files": [
-        "data/nfse/undated_guia-do-emissor-publico-nacional-web/guia-emissorpubliconacionalweb_snnfse-ern-v12.pdf"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_guia-do-emissor-publico-nacional-web/guia-emissorpubliconacionalweb_snnfse-ern-v12.pdf"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
-      "slug": "undated_api-manual-de-municipios-cnc-cadastro-nacional-de-contribuintes",
+      "slug": "2025-03-25_api-manual-de-municipios-cnc-cadastro-nacional-de-contribuintes",
       "title": "API - Manual de Municípios - CNC (Cadastro Nacional de Contribuintes)",
       "description": "API - Manual de Municípios - CNC (Cadastro Nacional de Contribuintes)",
-      "published_at": "",
-      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/manual-municipios-cnc-api-sistema-nacional-nfs-e-v1-2-out21025.pdf",
-      "folder": "data/nfse/undated_api-manual-de-municipios-cnc-cadastro-nacional-de-contribuintes",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_api-manual-de-municipios-cnc-cadastro-nacional-de-contribuintes",
+      "published_at": "2025-03-25",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/manual-municipios-cnc-api-snnfse-v1.0-20250325.pdf",
+      "folder": "data/nfse/2025-03-25_api-manual-de-municipios-cnc-cadastro-nacional-de-contribuintes",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-03-25_api-manual-de-municipios-cnc-cadastro-nacional-de-contribuintes",
       "files": [
-        "data/nfse/undated_api-manual-de-municipios-cnc-cadastro-nacional-de-contribuintes/manual-municipios-cnc-api-sistema-nacional-nfs-e-v1-2-out21025.pdf"
+        "data/nfse/2025-03-25_api-manual-de-municipios-cnc-cadastro-nacional-de-contribuintes/manual-municipios-cnc-api-snnfse-v1.0-20250325.pdf"
       ],
       "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_api-manual-de-municipios-cnc-cadastro-nacional-de-contribuintes/manual-municipios-cnc-api-sistema-nacional-nfs-e-v1-2-out21025.pdf"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-03-25_api-manual-de-municipios-cnc-cadastro-nacional-de-contribuintes/manual-municipios-cnc-api-snnfse-v1.0-20250325.pdf"
       ],
-      "downloaded_at": "",
-      "status": "skipped"
+      "downloaded_at": "2026-11-26T00:37:06+00:00",
+      "status": "ok"
     },
     {
-      "slug": "undated_api-manual-de-municipios-emissor-publico",
+      "slug": "2025-03-17_api-manual-de-contribuintes-emissor-publico",
+      "title": "API - Manual de Contribuintes - Emissor Público",
+      "description": "API - Manual de Contribuintes - Emissor Público",
+      "published_at": "2025-03-17",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/manual-contribuintes-emissor-publico-api-snnfse-v1.0-20250317.pdf",
+      "folder": "data/nfse/2025-03-17_api-manual-de-contribuintes-emissor-publico",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-03-17_api-manual-de-contribuintes-emissor-publico",
+      "files": [
+        "data/nfse/2025-03-17_api-manual-de-contribuintes-emissor-publico/manual-contribuintes-emissor-publico-api-snnfse-v1.0-20250317.pdf"
+      ],
+      "file_urls": [
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-03-17_api-manual-de-contribuintes-emissor-publico/manual-contribuintes-emissor-publico-api-snnfse-v1.0-20250317.pdf"
+      ],
+      "downloaded_at": "2026-11-26T00:37:07+00:00",
+      "status": "ok"
+    },
+    {
+      "slug": "2025-03-17_api-manual-de-municipios-emissor-publico",
       "title": "API - Manual de Municípios - Emissor Público",
       "description": "API - Manual de Municípios - Emissor Público",
-      "published_at": "",
-      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/manual-municipios-emissor-publico-api-sistema-nacional-nfs-e-v1-2-out21025.pdf",
-      "folder": "data/nfse/undated_api-manual-de-municipios-emissor-publico",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_api-manual-de-municipios-emissor-publico",
+      "published_at": "2025-03-17",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/manual-municipios-emissor-publico-api-snnfse-v1.0-20250317.pdf",
+      "folder": "data/nfse/2025-03-17_api-manual-de-municipios-emissor-publico",
+      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/2025-03-17_api-manual-de-municipios-emissor-publico",
       "files": [
-        "data/nfse/undated_api-manual-de-municipios-emissor-publico/manual-municipios-emissor-publico-api-sistema-nacional-nfs-e-v1-2-out21025.pdf"
+        "data/nfse/2025-03-17_api-manual-de-municipios-emissor-publico/manual-municipios-emissor-publico-api-snnfse-v1.0-20250317.pdf"
       ],
       "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_api-manual-de-municipios-emissor-publico/manual-municipios-emissor-publico-api-sistema-nacional-nfs-e-v1-2-out21025.pdf"
+        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/2025-03-17_api-manual-de-municipios-emissor-publico/manual-municipios-emissor-publico-api-snnfse-v1.0-20250317.pdf"
       ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
-      "slug": "undated_api-manual-de-contribuintes-guia-de-utilizacao-das-apis-do-adn",
-      "title": "API - Manual de Contribuintes - Guia de Utilização das APIs do ADN",
-      "description": "API - Manual de Contribuintes - Guia de Utilização das APIs do ADN",
-      "published_at": "",
-      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/manual-contribuintes-apis-adn-sistema-nacional-nfse.pdf",
-      "folder": "data/nfse/undated_api-manual-de-contribuintes-guia-de-utilizacao-das-apis-do-adn",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_api-manual-de-contribuintes-guia-de-utilizacao-das-apis-do-adn",
-      "files": [
-        "data/nfse/undated_api-manual-de-contribuintes-guia-de-utilizacao-das-apis-do-adn/manual-contribuintes-apis-adn-sistema-nacional-nfse.pdf"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_api-manual-de-contribuintes-guia-de-utilizacao-das-apis-do-adn/manual-contribuintes-apis-adn-sistema-nacional-nfse.pdf"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
-      "slug": "undated_api-manual-de-contribuintes-emissor-publico-nacional-emissao-por-decisao-administrativa-ou-judicial",
-      "title": "API - Manual de Contribuintes - Emissor Público Nacional - Emissão por Decisão Administrativa ou Judicial",
-      "description": "API - Manual de Contribuintes - Emissor Público Nacional - Emissão por Decisão Administrativa ou Judicial",
-      "published_at": "",
-      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/manual-contribuintes-emissor-publico-api-emissao-decisao-administrativa-e-judicial.pdf",
-      "folder": "data/nfse/undated_api-manual-de-contribuintes-emissor-publico-nacional-emissao-por-decisao-administrativa-ou-judicial",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_api-manual-de-contribuintes-emissor-publico-nacional-emissao-por-decisao-administrativa-ou-judicial",
-      "files": [
-        "data/nfse/undated_api-manual-de-contribuintes-emissor-publico-nacional-emissao-por-decisao-administrativa-ou-judicial/manual-contribuintes-emissor-publico-api-emissao-decisao-administrativa-e-judicial.pdf"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_api-manual-de-contribuintes-emissor-publico-nacional-emissao-por-decisao-administrativa-ou-judicial/manual-contribuintes-emissor-publico-api-emissao-decisao-administrativa-e-judicial.pdf"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
+      "downloaded_at": "2026-11-26T00:37:08+00:00",
+      "status": "ok"
     },
     {
       "slug": "undated_anexoc-indopibscbs-snnfse-v1.01",
       "title": "ANEXO_C-INDOP_IBSCBS-SNNFSe-v1.01",
       "description": "ANEXO_C-INDOP_IBSCBS-SNNFSe-v1.01",
       "published_at": "",
-      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo-c-indop-ibscbs-snnfse-v1-01.xlsx",
+      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/documentacao-atual/anexo-c-indop-ibscbs-snnfse-v1.01.xlsx",
       "folder": "data/nfse/undated_anexoc-indopibscbs-snnfse-v1.01",
       "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_anexoc-indopibscbs-snnfse-v1.01",
       "files": [
@@ -527,23 +595,6 @@
       ],
       "file_urls": [
         "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_prodrest-guia-para-utilizacao-do-modulo-de-apuracao-nacional/guia-utilizacao-do-man-v1-00-08abr2026.pdf"
-      ],
-      "downloaded_at": "",
-      "status": "skipped"
-    },
-    {
-      "slug": "undated_prodrest-guia-do-emissor-publico-nacional-web-com-formulario-ibscbs",
-      "title": "Guia do Emissor Público Nacional Web (com formulário IBS/CBS)",
-      "description": "Guia do Emissor Público Nacional Web (com formulário IBS/CBS)",
-      "published_at": "",
-      "source_url": "https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica/producao-restrita/guia_emissor_publico_nacional_web_snnfse-ern_versao_1-2-1.pdf",
-      "folder": "data/nfse/undated_prodrest-guia-do-emissor-publico-nacional-web-com-formulario-ibscbs",
-      "folder_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse/undated_prodrest-guia-do-emissor-publico-nacional-web-com-formulario-ibscbs",
-      "files": [
-        "data/nfse/undated_prodrest-guia-do-emissor-publico-nacional-web-com-formulario-ibscbs/guia_emissor_publico_nacional_web_snnfse-ern_versao_1-2-1.pdf"
-      ],
-      "file_urls": [
-        "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/undated_prodrest-guia-do-emissor-publico-nacional-web-com-formulario-ibscbs/guia_emissor_publico_nacional_web_snnfse-ern_versao_1-2-1.pdf"
       ],
       "downloaded_at": "",
       "status": "skipped"
