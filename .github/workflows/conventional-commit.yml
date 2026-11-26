@@ -10,6 +10,10 @@ on:
         required: true
         default: master
 
+permissions:
+  contents: read
+  statuses: write
+
 jobs:
   conventional-commit:
     runs-on: ubuntu-latest
@@ -20,3 +24,12 @@ jobs:
       - uses: actionplatform/ci-github/conventional-commit@v1
         with:
           base: ${{ github.event.pull_request.base.sha || format('origin/{0}', inputs.base) }}
+      - name: Report the result on the commit
+        if: always() && github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          STATE: ${{ job.status == 'success' && 'success' || 'failure' }}
+        run: >
+          gh api "repos/${{ github.repository }}/statuses/${{ github.sha }}"
+          -f state="$STATE" -f context=conventional-commit
+          -f target_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
