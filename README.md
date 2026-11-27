@@ -5,7 +5,7 @@
 **A base fiscal brasileira, sempre atualizada — sem clicar em nada.**
 
 [![Scrape NF-e](https://github.com/stackin-io/data-source/actions/workflows/scrape-nfe.yml/badge.svg)](https://github.com/stackin-io/data-source/actions/workflows/scrape-nfe.yml)
-[![Scrape NFS-e](https://img.shields.io/badge/scrape%20NFS--e-Jenkins-informational?style=flat-square)](jenkins/Jenkinsfile.scrape-nfse)
+[![Scrape NFS-e](https://img.shields.io/badge/scrape%20NFS--e-di%C3%A1rio-informational?style=flat-square)](data/nfse/)
 [![Scrape SVRS](https://github.com/stackin-io/data-source/actions/workflows/scrape-svrs.yml/badge.svg)](https://github.com/stackin-io/data-source/actions/workflows/scrape-svrs.yml)
 
 [![Feed](https://img.shields.io/badge/feed-atom-orange?style=flat-square)](https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml)
@@ -49,9 +49,9 @@ print(data["generated_at"], "→", len(data["entries"]), "docs")
 
 **Uma vez por dia, às 09:00 UTC**, um robô varre os portais oficiais, identifica o que é novidade em relação à última passagem, baixa os arquivos, descompacta os ZIPs, e organiza tudo por data de publicação. Cada documento fica numa pasta própria com título completo, data e todos os arquivos que compõem o pacote.
 
-NF-e, SVRS, a tabela de cBenef de SC, a CNAE do IBGE e o Anexo XI do MEI rodam no GitHub Actions (`.github/workflows/`). A NFS-e roda no Jenkins da stackin (`jenkins/Jenkinsfile.scrape-nfse`, job `data-source/scrape-nfse`) desde 2026-11-21: o gov.br derruba conexões vindas dos runners do GitHub.
+NF-e, SVRS, a tabela de cBenef de SC, a CNAE do IBGE e o Anexo XI do MEI rodam no GitHub Actions (`.github/workflows/`). A NFS-e roda num runner próprio, porque o gov.br derruba conexões vindas dos runners do GitHub.
 
-Nenhum scrape escreve direto em `master`. Quando há arquivo novo, o `.github/scripts/commit-data.sh` commita no branch `chore/scrape-<contexto>-<AAAAMMDD-HHMM>` (`chore(data): scheduled <contexto> scrape …`), abre um pull request, liga o auto-merge (squash) e espera o merge, que acontece quando os checks obrigatórios (`gitflow`, `conventional-commit`) passam; depois apaga o branch. Sem arquivo novo, não há pull request. No Actions, o PR é aberto com o `GITHUB_TOKEN`, que não dispara workflows de `pull_request`, então o script dispara `gitflow` e `conventional-commit` no branch por `workflow_dispatch`. Check run de `workflow_dispatch` não entra no PR, então cada um publica o resultado como commit status com o mesmo nome no SHA do branch, que é o que o ruleset lê. No Jenkins, o PR sai pela credencial `github-stackin` e os checks rodam sozinhos.
+Nenhum scrape escreve direto em `master`. Quando há arquivo novo, o `.github/scripts/commit-data.sh` commita no branch `chore/scrape-<contexto>-<AAAAMMDD-HHMM>` (`chore(data): scheduled <contexto> scrape …`), abre um pull request, liga o auto-merge (squash) e espera o merge, que acontece quando os checks obrigatórios (`gitflow`, `conventional-commit`) passam; depois apaga o branch. Sem arquivo novo, não há pull request. No Actions, o PR é aberto com o `GITHUB_TOKEN`, que não dispara workflows de `pull_request`, então o script dispara `gitflow` e `conventional-commit` no branch por `workflow_dispatch`. Check run de `workflow_dispatch` não entra no PR, então cada um publica o resultado como commit status com o mesmo nome no SHA do branch, que é o que o ruleset lê.
 
 Duas coisas são publicadas todo ciclo:
 
@@ -62,11 +62,11 @@ Nada muda quando não há novidade: o feed e o manifest continuam válidos, só 
 
 ### Aviso no Discord de publicação nova
 
-Quando o scrape agendado da NF-e ou da NFS-e baixa uma publicação nova (pacote XSD, nota técnica, anexo, informe técnico, manual ou guia), o `commit-data.sh` posta uma mensagem por publicação no Discord do time, depois que o pull request do scrape entrou em `master`: tipo, título, ambiente quando o nome diz (produção / produção restrita), data de publicação, link do espelho aqui e link do arquivo no portal.
+Quando o scrape agendado da NF-e ou da NFS-e baixa uma publicação nova (pacote XSD, nota técnica, anexo, informe técnico, manual ou guia), o `commit-data.sh` posta uma mensagem por publicação num canal do Discord, depois que o pull request do scrape entrou em `master`: tipo, título, ambiente quando o nome diz (produção / produção restrita), data de publicação, link do espelho aqui e link do arquivo no portal.
 
 - Só entram itens que a passagem acabou de gravar (status `ok` ou `partial` no `manifest.json` do contexto). Item já espelhado (`skipped`) nunca é anunciado de novo. A NF-e `diversos` e a SVRS ficam de fora.
 - `data-source new-publications <nfe|nfse> --out ./data --to novos.json` grava a lista em JSON, para conferir à mão.
-- O webhook vem do secret `DISCORD_WEBHOOK_URL` (Actions) ou da credencial `data-source-discord-webhook-url` (Jenkins). Sem ele, ou se o Discord recusar, o scrape segue verde e só registra um aviso.
+- O webhook vem da variável `DISCORD_WEBHOOK_URL`. Sem ele, ou se o Discord recusar, o scrape segue verde e só registra um aviso.
 
 ### Exemplo de entrada no `manifest.json`
 

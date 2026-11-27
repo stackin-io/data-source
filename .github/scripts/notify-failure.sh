@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Post a failed scrape to Discord, from GitHub Actions or Jenkins.
+# Post a failed scrape to Discord.
 #
 # The webhook comes from the environment, never from the command line, so it
 # does not show in the job log. Without it the script warns and exits 0: a
@@ -12,7 +12,6 @@ if [[ -z "${DISCORD_WEBHOOK_URL:-}" ]]; then
 fi
 
 if [[ -n "${BUILD_URL:-}" ]]; then
-  # Jenkins (scrape-nfse, #24)
   run_url="${BUILD_URL}"
   content=":red_circle: **${JOB_NAME}** failed on \`${GITHUB_REF_NAME:-master}\` (build #${BUILD_NUMBER})
 ${run_url}"
