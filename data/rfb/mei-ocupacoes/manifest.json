@@ -2,9 +2,9 @@
   "context": "rfb/mei-ocupacoes",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/rfb/mei-ocupacoes",
   "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/rfb/mei-ocupacoes",
-  "generated_at": "2026-11-26T20:47:52+00:00",
-  "started_at": "2026-11-26T20:47:47+00:00",
-  "duration_s": 5.03,
+  "generated_at": "2026-11-27T19:10:00+00:00",
+  "started_at": "2026-11-27T19:09:54+00:00",
+  "duration_s": 6.12,
   "totals": {
     "discovered": 1,
     "persisted": 0,
