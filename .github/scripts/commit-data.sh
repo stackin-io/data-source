@@ -24,6 +24,14 @@ if git diff --cached --quiet; then
 fi
 git commit -q -m "${title}"
 
+publications="$(mktemp)"
+poetry run data-source new-publications "${context}" --out ./data --to "${publications}" ||
+  echo "::warning::Could not list the new publications of ${context}"
+
+announce() {
+  .github/scripts/notify-publications.sh "${publications}" || true
+}
+
 rebase_on_base() {
   git fetch -q origin "${base}"
   git checkout HEAD~1 -- data/manifest.json data/feed.xml
@@ -93,6 +101,7 @@ for attempt in 1 2 3; do
       echo "::warning::Could not open a pull request; pushing to ${base} directly, which only an unprotected ${base} accepts"
       if git push -q origin "HEAD:${base}"; then
         git push -q origin --delete "${branch}" 2>/dev/null || true
+        announce
         exit 0
       fi
       echo "Push to ${base} rejected (attempt ${attempt})"
@@ -110,6 +119,7 @@ for attempt in 1 2 3; do
     merged)
       git push -q origin --delete "${branch}" 2>/dev/null || true
       echo "Merged #${pr} into ${base}"
+      announce
       exit 0
       ;;
     conflicting)

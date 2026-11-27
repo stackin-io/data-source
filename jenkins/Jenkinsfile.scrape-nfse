@@ -52,16 +52,27 @@ pipeline {
 
         stage('Publish') {
             steps {
-                withCredentials([usernamePassword(credentialsId: 'github-stackin',
-                                                  usernameVariable: 'GH_USER',
-                                                  passwordVariable: 'GH_TOKEN')]) {
-                    // The helper expands the variables when git asks, so the
-                    // token is never written to .git/config or the log.
-                    sh '''
-                        set -eu
-                        git config credential.helper '!f() { echo "username=$GH_USER"; echo "password=$GH_TOKEN"; }; f'
-                        .github/scripts/commit-data.sh nfse
-                    '''
+                script {
+                    def credentials = [usernamePassword(credentialsId: 'github-stackin',
+                                                        usernameVariable: 'GH_USER',
+                                                        passwordVariable: 'GH_TOKEN')]
+                    try {
+                        withCredentials([string(credentialsId: 'data-source-discord-webhook-url',
+                                                variable: 'DISCORD_WEBHOOK_URL')]) {}
+                        credentials << string(credentialsId: 'data-source-discord-webhook-url',
+                                              variable: 'DISCORD_WEBHOOK_URL')
+                    } catch (err) {
+                        echo "New publications will not be announced: ${err.class.simpleName}"
+                    }
+                    withCredentials(credentials) {
+                        // The helper expands the variables when git asks, so the
+                        // token is never written to .git/config or the log.
+                        sh '''
+                            set -eu
+                            git config credential.helper '!f() { echo "username=$GH_USER"; echo "password=$GH_TOKEN"; }; f'
+                            .github/scripts/commit-data.sh nfse
+                        '''
+                    }
                 }
             }
         }

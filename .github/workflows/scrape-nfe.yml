@@ -55,6 +55,7 @@ jobs:
       - name: Merge new files through a pull request
         env:
           GH_TOKEN: ${{ github.token }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: .github/scripts/commit-data.sh nfe
 
       - name: Alert Discord on failure
