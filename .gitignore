@@ -35,9 +35,7 @@ build/
 chromedriver
 geckodriver
 
-# Certificates, private keys and env files (stackin-io/devops#47).
-# A1 certificates (.pfx/.p12) and private keys must never be committed:
-# a pushed secret is leaked for good, history rewrites don't undo it.
+# Certificates, private keys and env files.
 *.pfx
 *.p12
 *.pem

@@ -32,11 +32,7 @@ RTC = f"""
 
 
 class TestNFSeScraperReadsEveryPageWhereNotesLand(unittest.TestCase):
-    """NT 009 was published on produção restrita and RTC and never seen.
-
-    Only `documentacao-atual` was read, so stackin learnt of the new DPS
-    layout from an E1235 rejection instead of from the feed.
-    """
+    """Produção restrita and RTC pages are read as well as the current docs."""
 
     def setUp(self):
         self._tmp = tempfile.TemporaryDirectory()
