@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T18:36:51+00:00",
+  "generated_at": "2026-11-27T18:44:34+00:00",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data",
   "browse_base_url": "https://github.com/stackin-io/data-source/tree/master/data",
   "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml",
@@ -126,7 +126,7 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/sef/sc/cbenef/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/sef/sc/cbenef/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/sef/sc/cbenef",
-      "generated_at": "2026-11-26T18:54:37+00:00",
+      "generated_at": "2026-11-27T18:44:34+00:00",
       "totals": {
         "discovered": 1,
         "persisted": 0,
