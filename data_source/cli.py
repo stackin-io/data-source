@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 import typer
@@ -8,6 +9,7 @@ from data_source.config import get_settings
 from data_source.core.index import rebuild
 from data_source.core.logger import configure as configure_logging
 from data_source.core.logger import get_logger
+from data_source.core.publications import new_publications
 from data_source.exceptions import TooFewItemsError, UnknownScraperError
 from data_source.scrapers import REGISTRY
 
@@ -71,6 +73,20 @@ def rebuild_index(
 
     contexts = rebuild(settings)
     typer.echo(f"rebuilt {len(contexts)} contexts: {', '.join(contexts)}")
+
+
+@app.command("new-publications")
+def new_publications_cmd(
+    context: str = typer.Argument(..., help="Data folder to read (e.g. nfe, nfse)"),
+    out: Path | None = typer.Option(None, "--out", help="Output dir"),
+    to: Path = typer.Option(..., "--to", help="JSON file to write the publications to"),
+) -> None:
+    """Write, as JSON, the NF-e/NFS-e publications the last scrape of CONTEXT persisted."""
+    settings = get_settings()
+    root = out if out is not None else settings.output_dir
+    found = new_publications(root, context)
+    to.write_text(json.dumps(found, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    typer.echo(f"[{context}] new publications: {len(found)}")
 
 
 @app.command("list")
