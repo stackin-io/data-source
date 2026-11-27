@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T20:47:52+00:00",
+  "generated_at": "2026-11-27T09:01:44+00:00",
   "public_base_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data",
   "browse_base_url": "https://github.com/stackin-io/data-source/tree/master/data",
   "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/feed.xml",
@@ -100,7 +100,7 @@
       "manifest_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/manifest.json",
       "feed_url": "https://raw.githubusercontent.com/stackin-io/data-source/master/data/nfse/feed.xml",
       "browse_url": "https://github.com/stackin-io/data-source/tree/master/data/nfse",
-      "generated_at": "2026-11-26T09:02:01+00:00",
+      "generated_at": "2026-11-27T09:01:44+00:00",
       "totals": {
         "discovered": 46,
         "persisted": 0,
