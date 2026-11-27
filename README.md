@@ -60,6 +60,14 @@ Duas coisas são publicadas todo ciclo:
 
 Nada muda quando não há novidade: o feed e o manifest continuam válidos, só sem entrada nova. Quando muda, aparece em ambos no mesmo minuto.
 
+### Aviso no Discord de publicação nova
+
+Quando o scrape agendado da NF-e ou da NFS-e baixa uma publicação nova (pacote XSD, nota técnica, anexo, informe técnico, manual ou guia), o `commit-data.sh` posta uma mensagem por publicação no Discord do time, depois que o pull request do scrape entrou em `master`: tipo, título, ambiente quando o nome diz (produção / produção restrita), data de publicação, link do espelho aqui e link do arquivo no portal.
+
+- Só entram itens que a passagem acabou de gravar (status `ok` ou `partial` no `manifest.json` do contexto). Item já espelhado (`skipped`) nunca é anunciado de novo. A NF-e `diversos` e a SVRS ficam de fora.
+- `data-source new-publications <nfe|nfse> --out ./data --to novos.json` grava a lista em JSON, para conferir à mão.
+- O webhook vem do secret `DISCORD_WEBHOOK_URL` (Actions) ou da credencial `data-source-discord-webhook-url` (Jenkins). Sem ele, ou se o Discord recusar, o scrape segue verde e só registra um aviso.
+
 ### Exemplo de entrada no `manifest.json`
 
 ```json
